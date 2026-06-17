@@ -8,16 +8,30 @@
     "mentor_influence": {
         "trait": {
             "22": {
-                "stability": 2
+                "stability": 3,
+                "lawfulness": -2,
+                "aggression": 2,
+                "strings": [
+                    "be consistent",
+                    "bend the rules",
+                    "use teeth and claws over words"
+                ]
             }
         },
         "skill": {
             "22": {
-                "FIGHTER": 5
+                "FIGHTER": 15,
+                "strings": [
+                    "fighting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "wit",
+        "graduation_age": 11,
+        "moon": 41
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

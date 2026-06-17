@@ -6,10 +6,34 @@
         "moon": 29
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
+        "trait": {
+            "204": {
+                "aggression": -5,
+                "lawfulness": -2,
+                "sociability": 1,
+                "stability": -1,
+                "strings": [
+                    "be slow to anger",
+                    "break rules that don't suit {PRONOUN\/m_c\/object}",
+                    "interact with others",
+                    "make impulsive decisions"
+                ]
+            }
+        },
+        "skill": {
+            "204": {
+                "LORE": 12,
+                "strings": [
+                    "remembering lore"
+                ]
+            }
+        }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "fortitude",
+        "graduation_age": 11,
+        "moon": 41
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

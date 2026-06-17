@@ -29,9 +29,9 @@
     "auto_feed": true,
     "business_as_usual": false,
     "hunting": false,
-    "herb_gathering": true,
+    "herb_gathering": false,
     "threaten_outsiders": false,
-    "seek_outsiders": false,
+    "seek_outsiders": true,
     "rest_and_recover": false,
     "sabotage_other_clans": false,
     "aid_other_clans": false,
@@ -40,5 +40,21 @@
     "show dead relation": false,
     "show empty relation": false,
     "den labels": true,
-    "show fav": false
+    "show fav": false,
+    "lead_den_interaction": true,
+    "lead_den_clan_event": {
+        "cat_ID": "195",
+        "other_clan": "Hickory",
+        "player_clan_temper": [
+            "stoic",
+            "methodical"
+        ],
+        "interaction_type": "befriend",
+        "success": false
+    },
+    "lead_den_outsider_event": {
+        "cat_ID": "37",
+        "interaction_type": "invite",
+        "success": true
+    }
 }

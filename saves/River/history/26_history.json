@@ -8,16 +8,32 @@
     "mentor_influence": {
         "trait": {
             "195": {
-                "aggression": 2
+                "aggression": 5,
+                "sociability": 5,
+                "lawfulness": 1,
+                "strings": [
+                    "start a fight",
+                    "be friendly towards others",
+                    "have strong inner morals"
+                ]
             }
         },
         "skill": {
             "195": {
-                "FIGHTER": 1
+                "FIGHTER": 6,
+                "RUNNER": 15,
+                "strings": [
+                    "fighting",
+                    "running"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "reliability",
+        "graduation_age": 12,
+        "moon": 42
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

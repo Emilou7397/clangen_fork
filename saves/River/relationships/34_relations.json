@@ -20,7 +20,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -46,9 +46,11 @@
         "romance": 0,
         "like": 20,
         "respect": 0,
-        "comfort": 20,
+        "comfort": 17,
         "trust": 10,
-        "log": [],
+        "log": [
+            "Late at night, Pearpaw finds Heatherfern sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect)- Pearpaw was 7 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "trust",
@@ -78,16 +80,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 6,
+        "respect": 12,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Pearkit, Quailkit, Sunkit, and Curryfoot attend a get-together Goldshard hosts and have a newfound appreciation for each other. (positive effect)- Pearkit was 5 moons old"
+            "Pearkit, Quailkit, Sunkit, and Curryfoot attend a get-together Goldshard hosts and have a newfound appreciation for each other. (positive effect)- Pearkit was 5 moons old",
+            "Goldshard rallies Pearpaw, Sunpaw, Peakpaw, and Quailpaw to do early morning stretches with him. (negative effect)- Pearpaw was 10 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -96,17 +100,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
-        "respect": -8,
-        "comfort": 0,
-        "trust": 0,
+        "like": -7,
+        "respect": 6,
+        "comfort": 21,
+        "trust": 7,
         "log": [
             "Stoatshade pulled an embarrassing prank on Pearkit's friend. (low negative effect)- Pearkit was 4 moons old",
-            "Pearpaw was annoyed that Stoatshade caught him trying to sneak out of camp. (negative effect)- Pearpaw was 6 moons old"
+            "Pearpaw was annoyed that Stoatshade caught him trying to sneak out of camp. (negative effect)- Pearpaw was 6 moons old",
+            "Pearpaw is sharing tongues with Stoatshade. (high positive effect)- Pearpaw was 9 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "respect"
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -154,12 +161,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Pearpaw and Pigeonbloom stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old"
+            "Pearpaw and Pigeonbloom stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old",
+            "Pigeonbloom and Pearpaw drove off a scavenging fox together. (positive effect)- Pearpaw was 6 moons old",
+            "Pearpaw and Pigeonbloom spent some time sunning together while on patrol. (positive effect)- Pearpaw was 10 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -232,9 +241,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Pearpaw and Bitterleaf stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old"
+            "Pearpaw and Bitterleaf stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old",
+            "Bitterleaf and Pearpaw drove off a scavenging fox together. (positive effect)- Pearpaw was 6 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -312,7 +322,7 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": 5,
+        "respect": -3,
         "comfort": 16,
         "trust": 4,
         "log": [
@@ -342,12 +352,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 16,
+        "comfort": 5,
+        "trust": 5,
+        "log": [
+            "Pearpaw is wowed by how bravely Dancingscreech fought the other day. (high positive effect)- Pearpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "34",
@@ -415,12 +429,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 21,
+        "respect": 6,
+        "comfort": 7,
+        "trust": 8,
+        "log": [
+            "Pearpaw and Tortellini heckled another Clan at the Gathering together. (high positive effect)- Pearpaw was 8 moons old",
+            "Pearpaw thinks Tortellini looks nicer than him today. (low negative effect)- Pearpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "34",
@@ -428,11 +450,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Pearpaw and Archbellow spent some time sunning together while on patrol. (positive effect)- Pearpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -441,12 +465,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -9,
+        "respect": -7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pearpaw tried on an accessory that Peakpaw threw away, but realized Peakpaw looked a lot better in it. (medium negative effect)- Pearpaw was 7 moons old",
+            "Pearpaw sees Peakpaw put something back where it belongs. (low positive effect)- Pearpaw was 10 moons old",
+            "Stretching might be good for one's health, but Pearpaw, Sunpaw, Bitepaw, and Quailpaw wish Peakspore didn't insist on stretching at the crack of dawn. (negative effect)- Pearpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "34",
@@ -454,13 +485,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 17,
         "respect": 12,
-        "comfort": 12,
+        "comfort": 20,
         "trust": 0,
         "log": [
             "Pearkit is impressed with Bitekit's willingness to help. (medium positive effect)- Pearkit was 3 moons old",
-            "Craneflight convinces Bitepaw, Sunpaw, Bouncepaw, and Pearpaw to wind down and stretch with her. (positive effect)- Pearpaw was 6 moons old"
+            "Craneflight convinces Bitepaw, Sunpaw, Bouncepaw, and Pearpaw to wind down and stretch with her. (positive effect)- Pearpaw was 6 moons old",
+            "Pearpaw and Bitepaw spent some time sunning together while on patrol. (positive effect)- Pearpaw was 10 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -498,14 +530,15 @@
         "like": 15,
         "respect": 0,
         "comfort": 19,
-        "trust": 0,
+        "trust": 8,
         "log": [
             "Pearkit had a friendly argument with Bouncekit about which prey tastes the best. (medium positive effect)- Pearkit was 4 moons old",
             "Craneflight convinces Bitepaw, Sunpaw, Bouncepaw, and Pearpaw to wind down and stretch with her. (positive effect)- Pearpaw was 6 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -516,7 +549,7 @@
         "romance": 0,
         "like": -7,
         "respect": 3,
-        "comfort": -7,
+        "comfort": -15,
         "trust": 0,
         "log": [
             "Pearkit saw Burrkit being considerate. (low positive effect)- Pearkit was 3 moons old",
@@ -536,7 +569,7 @@
         "like": 75,
         "respect": 29,
         "comfort": 75,
-        "trust": 53,
+        "trust": 66,
         "log": [
             "Pearkit notices how Sunkit is being helpful around camp. (medium positive effect)- Pearkit was 1 moon old",
             "Sunkit draws a pretty symbol in the sand that Pearkit makes sure not to mess up. (low positive effect)- Pearkit was 2 moons old",
@@ -577,18 +610,36 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
-        "respect": -5,
-        "comfort": 20,
-        "trust": 0,
+        "like": 23,
+        "respect": -4,
+        "comfort": 39,
+        "trust": 11,
         "log": [
             "Sunkit, Quailkit, and Pearkit took a sunbath and had a little small talk. (positive effect)- Pearkit was 4 moons old",
             "Pearkit, Quailkit, Sunkit, and Curryfoot attend a get-together Goldshard hosts and have a newfound appreciation for each other. (positive effect)- Pearkit was 5 moons old",
-            "Pearpaw and Quailpaw stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old"
+            "Pearpaw and Quailpaw stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect)- Pearpaw was 6 moons old",
+            "Quailpaw and Pearpaw drove off a scavenging fox together. (positive effect)- Pearpaw was 6 moons old",
+            "Pearpaw wakes up Quailpaw every morning so they're up together. (high positive effect)- Pearpaw was 8 moons old",
+            "Pearpaw and Quailpaw enjoy the rain together. (low positive effect)- Pearpaw was 11 moons old",
+            "Pearpaw's afternoon was ruined by Quailpaw goofing off during hunting training. (negative effect)- Pearpaw was 11 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "trust"
         ]
+    },
+    {
+        "cat_from_id": "34",
+        "cat_to_id": "36",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]
