@@ -262,7 +262,13 @@ while 1:
                     GameScreen.MAKE_CLAN,
                 ):
                     source_screen=all_screens.screen_dict[switch_get_value(Switch.cur_screen).replace(" ", "_")]
-                    save_game(source_screen)
+                    # If the current screen has a save button, use that button to save
+                    if hasattr(source_screen, "save_button"):
+                        source_screen.save_button.save_game(source_screen)
+                    # Otherwise, save with the function directly and print a confirmation to the terminal
+                    else:
+                        save_game(source_screen)
+                        print("Game saved!")
 
         MANAGER.process_events(event)
 
