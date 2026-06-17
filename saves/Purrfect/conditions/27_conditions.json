@@ -1,0 +1,36 @@
+{
+    "permanent conditions": {
+        "deaf": {
+            "severity": "major",
+            "born_with": true,
+            "moons_until": -2,
+            "moon_start": 29,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "event_triggered": false,
+            "moons_with": 0
+        },
+        "twisted leg": {
+            "severity": "major",
+            "born_with": false,
+            "moons_until": 0,
+            "moon_start": 39,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "sore",
+                    "chance": 82
+                },
+                {
+                    "name": "joint pain",
+                    "chance": 82
+                }
+            ],
+            "complication": null,
+            "event_triggered": false
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "illnesses": {
+        "heat stroke": {
+            "severity": "severe",
+            "mortality": 32,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 77,
+            "risks": [],
+            "event_triggered": false
+        }
+    },
+    "permanent conditions": {
+        "allergies": {
+            "severity": "minor",
+            "born_with": true,
+            "moons_until": -2,
+            "moon_start": 12,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "running nose",
+                    "chance": 175
+                }
+            ],
+            "complication": null,
+            "event_triggered": false,
+            "moons_with": 0
+        }
+    }
+}

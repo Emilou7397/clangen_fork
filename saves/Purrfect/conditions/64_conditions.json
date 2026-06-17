@@ -1,0 +1,37 @@
+{
+    "illnesses": {
+        "seizure": {
+            "severity": "severe",
+            "mortality": 105,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 76,
+            "risks": [
+                {
+                    "name": "severe headache",
+                    "chance": 59
+                }
+            ],
+            "event_triggered": false
+        }
+    },
+    "permanent conditions": {
+        "seizure prone": {
+            "severity": "major",
+            "born_with": true,
+            "moons_until": -2,
+            "moon_start": 64,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "seizure",
+                    "chance": 118
+                }
+            ],
+            "complication": null,
+            "event_triggered": false,
+            "moons_with": 0
+        }
+    }
+}
