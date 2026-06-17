@@ -28,6 +28,7 @@ def save_game(current_screen):
         game.save_events()
         game_settings_save(current_screen)
         switch_set_value(Switch.saved_clan, True)
+        game.audio.sound.play("save")
     except RuntimeError:
         SaveErrorWindow(traceback.format_exc())
         switch_set_value(Switch.cur_screen, GameScreen.START)
