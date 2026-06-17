@@ -16,6 +16,23 @@ from scripts.ui.generate_button import get_button_dict, ButtonStyles
 from scripts.ui.scale import ui_scale_dimensions, ui_scale
 from scripts.ui.windows.save_error import SaveErrorWindow
 
+def save_game(current_screen):
+    """
+    Saves the game. If save fails, save error window is created and game is thrown to the main menu screen.
+    :param current_screen: object for the current game screen
+    """
+    try:
+        save_cats(switch_get_value(Switch.clan_name), Cat, game)
+        game.clan.save_clan()
+        game.clan.save_pregnancy(game.clan)
+        game.save_events()
+        game_settings_save(current_screen)
+        switch_set_value(Switch.saved_clan, True)
+    except RuntimeError:
+        SaveErrorWindow(traceback.format_exc())
+        switch_set_value(Switch.cur_screen, GameScreen.START)
+        game.last_screen_forupdate = current_screen
+        game.switch_screens = True
 
 class UISaveButton:
     DIMENSIONS = (114, 30)
@@ -110,24 +127,13 @@ class UISaveButton:
 
     def save_game(self, current_screen):
         """
-        Saves the game and updates visual state of this button. If save fails, save error window is created and game is thrown to the main menu screen.
+        Saves the game and updates visual state of this button.
         :param current_screen: object for the current game screen
         """
-        try:
-            self.unsaved_state.disable()
-            self.saving_state.show()
-            save_cats(switch_get_value(Switch.clan_name), Cat, game)
-            game.clan.save_clan()
-            game.clan.save_pregnancy(game.clan)
-            game.save_events()
-            game_settings_save(current_screen),
-            switch_set_value(Switch.saved_clan, True)
-            self.update_state()
-        except RuntimeError:
-            SaveErrorWindow(traceback.format_exc())
-            switch_set_value(Switch.cur_screen, GameScreen.START)
-            game.last_screen_forupdate = current_screen
-            game.switch_screens = True
+        self.unsaved_state.disable()
+        self.saving_state.show()
+        save_game(current_screen)
+        self.update_state()
 
     def reset_save(self):
         """

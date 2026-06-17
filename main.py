@@ -31,6 +31,8 @@ from scripts.screens import all_screens
 from scripts.screens.enums import GameScreen
 from scripts.ui.windows.save_check import SaveCheckWindow
 from scripts.housekeeping.quit_game import quit_game
+# import save button for keyboard shortcut
+from scripts.ui.elements.save_button import save_game
 
 # P Y G A M E
 clock = pygame.time.Clock()
@@ -250,6 +252,17 @@ while 1:
                     ],
                     show_confirm_dialog=False,
                 )
+            elif event.key == pygame.K_s and (
+                pygame.key.get_mods() & pygame.KMOD_META  # Cmd on Mac
+                or pygame.key.get_mods() & pygame.KMOD_CTRL  # Ctrl on Windows/Linux
+            ):
+                if game.clan and switch_get_value(Switch.cur_screen) not in (
+                    GameScreen.START,
+                    GameScreen.SWITCH_CLAN,
+                    GameScreen.MAKE_CLAN,
+                ):
+                    source_screen=all_screens.screen_dict[switch_get_value(Switch.cur_screen).replace(" ", "_")]
+                    save_game(source_screen)
 
         MANAGER.process_events(event)
 
