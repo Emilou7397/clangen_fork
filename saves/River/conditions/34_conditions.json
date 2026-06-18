@@ -1,4 +1,20 @@
 {
+    "illnesses": {
+        "stomachache": {
+            "severity": "minor",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 59,
+            "risks": [
+                {
+                    "name": "diarrhea",
+                    "chance": 15
+                }
+            ],
+            "event_triggered": false
+        }
+    },
     "permanent conditions": {
         "allergies": {
             "severity": "minor",
@@ -10,7 +26,7 @@
             "risks": [
                 {
                     "name": "running nose",
-                    "chance": 84
+                    "chance": 101
                 }
             ],
             "complication": null,

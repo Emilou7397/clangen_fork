@@ -2,14 +2,14 @@
     "injuries": {
         "broken bone": {
             "severity": "severe",
-            "mortality": 22,
+            "mortality": 34,
             "duration": 5,
             "moon_start": 56,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 5
+                    "chance": 6
                 }
             ],
             "complication": null,
@@ -19,6 +19,18 @@
             ],
             "event_triggered": false,
             "potential_scars": []
+        },
+        "sore": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 59,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": true,
+            "potential_scars": null
         }
     },
     "permanent conditions": {
@@ -32,11 +44,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 344
+                    "chance": 379
                 },
                 {
                     "name": "joint pain",
-                    "chance": 384
+                    "chance": 399
                 }
             ],
             "complication": null,

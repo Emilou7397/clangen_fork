@@ -1,21 +1,25 @@
 {
     "injuries": {
-        "recovering from birth": {
-            "severity": "major",
+        "tick bites": {
+            "severity": "minor",
             "mortality": 0,
             "duration": 2,
-            "moon_start": 58,
+            "moon_start": 59,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 19
+                    "chance": 30
+                },
+                {
+                    "name": "tick fever",
+                    "chance": 50
                 }
             ],
             "complication": null,
             "cause_permanent": [],
             "event_triggered": false,
-            "potential_scars": null
+            "potential_scars": []
         }
     }
 }
