@@ -1,0 +1,22 @@
+{
+    "illnesses": {
+        "whitecough": {
+            "severity": "major",
+            "mortality": 78,
+            "infectiousness": 30,
+            "duration": 1,
+            "moon_start": 56,
+            "risks": [
+                {
+                    "name": "greencough",
+                    "chance": 38
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 40
+                }
+            ],
+            "event_triggered": false
+        }
+    }
+}
