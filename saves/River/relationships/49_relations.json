@@ -19,7 +19,7 @@
         "family": false,
         "romance": 13,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -32,16 +32,23 @@
         "cat_to_id": "197",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 8,
+        "romance": 16,
+        "like": 22,
+        "respect": 10,
+        "comfort": 34,
+        "trust": 19,
         "log": [
-            "Pebblefur tells Shinespot that she was worried about him. (low positive effect)- Shinespot was 169 moons old"
+            "Pebblefur tells Shinespot that she was worried about him. (low positive effect)- Shinespot was 169 moons old",
+            "Quailfur appreciates Stoatshade, Shinespot, Pebblefur, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Shinespot was 172 moons old",
+            "Shinespot gave Pebblefur a sprig of catmint he found. (high positive effect)- Shinespot was 176 moons old",
+            "Shinespot wakes up Pebblefur every morning so they're up together. (high positive effect)- Shinespot was 177 moons old",
+            "Pebblefur can't help but smile seeing Shinespot smile. (low positive effect)- Shinespot was 178 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "trust",
+            "like",
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -88,11 +95,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
-        "trust": 3,
+        "trust": -2,
         "log": [
-            "Goldshard helps Shinespot hide from a Clanmate. (low positive effect)- Shinespot was 170 moons old"
+            "Goldshard helps Shinespot hide from a Clanmate. (low positive effect)- Shinespot was 170 moons old",
+            "Shinespot appreciates Goldshard's helpful attitude. (low positive effect)- Shinespot was 173 moons old",
+            "Shinespot was not happy to hear that Goldshard was caught outside of the Clan's territory. (negative effect)- Shinespot was 177 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -102,25 +111,37 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Quailfur appreciates Stoatshade, Shinespot, Pebblefur, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Shinespot was 172 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "49",
         "cat_to_id": "205",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -7,
+        "log": [
+            "Jaggedsplash vents about something trivial to Shinespot. (low positive effect)- Shinespot was 171 moons old",
+            "Shinespot is prancing around in front of Jaggedsplash. (low positive effect)- Shinespot was 172 moons old",
+            "Shinespot's confidence in Jaggedsplash's abilities as a medicine cat was shaken after he accidentally poisoned Duckbelly. (negative effect)- Shinespot was 174 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -142,15 +163,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 17,
         "comfort": 12,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Erminedaisy, Yewheather, Cody, Ochretail, and Pebblechase hang out while stretching. (positive effect)- Cody was 167 moons old"
+            "Erminedaisy, Yewheather, Cody, Ochretail, and Pebblechase hang out while stretching. (positive effect)- Cody was 167 moons old",
+            "Erminedaisy offers Curryfoot, Pearpelt, Mosskit, and Shinespot hunting tips. (positive effect)- Shinespot was 171 moons old",
+            "Shinespot heard Erminedaisy fell asleep guarding camp. (negative effect)- Shinespot was 176 moons old",
+            "Shinespot heard about how Erminedaisy's patrol stole a fox's prey. (positive effect)- Shinespot was 176 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -194,15 +219,24 @@
     {
         "cat_from_id": "49",
         "cat_to_id": "6",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 54,
+        "like": 7,
+        "respect": 38,
+        "comfort": 56,
+        "trust": 18,
+        "log": [
+            "Shinespot wants to spend the entire day with Smokeheart. (high positive effect)- Shinespot was 174 moons old",
+            "Shinespot admires Smokeheart's dedication. (medium positive effect)- Shinespot was 175 moons old",
+            "When Shinespot gets hurt, Smokeheart is the first to ask if he's okay. (medium positive effect)- Shinespot was 178 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -223,12 +257,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinespot is hurt by one of Bitterleaf's pranks, but Bitterleaf doesn't seem to believe him. (medium negative effect)- Shinespot was 172 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -304,11 +342,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -317,11 +357,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Shinespot gained a greater respect for Dancingscreech's loyalty when she protected Silverstar from a rogue. (positive effect)- Shinespot was 176 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -329,15 +374,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 24,
         "respect": 15,
-        "comfort": 0,
+        "comfort": 24,
         "trust": 0,
         "log": [
-            "Shinespot was impressed by how Algaepool was able to resolve a personal dispute with another Clan. (positive effect)- Shinespot was 170 moons old"
+            "Shinespot was impressed by how Algaepool was able to resolve a personal dispute with another Clan. (positive effect)- Shinespot was 170 moons old",
+            "Quailfur appreciates Stoatshade, Shinespot, Pebblefur, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Shinespot was 172 moons old",
+            "Kamautail, Freezefoot, Shinespot, Hushpaw, and Algaepool hang out while stretching. (positive effect)- Shinespot was 177 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "respect",
+            "like",
+            "comfort"
         ]
     },
     {
@@ -347,15 +396,18 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 10,
         "comfort": 12,
-        "trust": 0,
+        "trust": 23,
         "log": [
-            "Erminedaisy, Yewheather, Cody, Ochretail, and Pebblechase hang out while stretching. (positive effect)- Cody was 167 moons old"
+            "Erminedaisy, Yewheather, Cody, Ochretail, and Pebblechase hang out while stretching. (positive effect)- Cody was 167 moons old",
+            "Shinespot gained a greater respect for Yewheather's loyalty when he protected Silverstar from a rogue. (positive effect)- Shinespot was 172 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "trust",
+            "respect"
         ]
     },
     {
@@ -364,15 +416,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 15,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Shinespot was impressed by how Auburnsplash was able to resolve a hunting dispute with another Clan. (positive effect)- Shinespot was 170 moons old"
+            "Shinespot was impressed by how Auburnsplash was able to resolve a hunting dispute with another Clan. (positive effect)- Shinespot was 170 moons old",
+            "Shinespot, Auburnsplash, and Quailfur took a sunbath and had a little small talk. (positive effect)- Shinespot was 172 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "respect",
+            "like",
+            "comfort"
         ]
     },
     {
@@ -382,11 +437,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -420,12 +477,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stretching might be good for one's health, but Freezepaw, Goldshard, Dancingscreech, and Shinespot wish Prancelaurel didn't insist on stretching at the crack of dawn. (negative effect)- Shinespot was 171 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -433,12 +495,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -11,
+        "comfort": -2,
+        "trust": -3,
+        "log": [
+            "Shinespot gets hit with waves of envy whenever Bouncepelt is laughing with friends. (high negative effect)- Shinespot was 175 moons old",
+            "Shinespot heard that Bouncepelt's whole patrol fell asleep instead of training. (negative effect)- Shinespot was 175 moons old",
+            "Shinespot heard about how Bouncepelt's patrol stole a fox's prey. (positive effect)- Shinespot was 176 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -447,10 +515,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Shinespot heard that Burrweb's whole patrol fell asleep instead of training. (negative effect)- Shinespot was 175 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -475,9 +545,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 17,
+        "log": [
+            "Shinespot and Suntooth chase off a predator on a patrol together. (medium positive effect)- Shinespot was 173 moons old",
+            "Shinespot heard that Suntooth's whole patrol fell asleep instead of training. (negative effect)- Shinespot was 175 moons old",
+            "Shinespot heard about how Suntooth's patrol stole a fox's prey. (positive effect)- Shinespot was 176 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -485,17 +561,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
+        "like": 16,
+        "respect": -6,
+        "comfort": 26,
         "trust": 10,
         "log": [
-            "Pearpelt was part of the patrol that took in Cody when he was sick. (positive effect)- Cody was 167 moons old"
+            "Pearpelt was part of the patrol that took in Cody when he was sick. (positive effect)- Cody was 167 moons old",
+            "Shinespot heard that Pearpelt touched noses with a rogue. (negative effect)- Shinespot was 171 moons old",
+            "Shinespot heard that Pearpelt's whole patrol fell asleep instead of training. (negative effect)- Shinespot was 175 moons old",
+            "Pearpelt compliments Shinespot on something he was self-conscious about. (high positive effect)- Shinespot was 178 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "trust",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -504,15 +584,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 28,
         "respect": 0,
-        "comfort": -17,
+        "comfort": 14,
         "trust": 0,
         "log": [
-            "Shinespot realizes that a strange smell in camp is coming from Quailfur. (medium negative effect)- Shinespot was 169 moons old"
+            "Shinespot realizes that a strange smell in camp is coming from Quailfur. (medium negative effect)- Shinespot was 169 moons old",
+            "Shinespot, Auburnsplash, and Quailfur took a sunbath and had a little small talk. (positive effect)- Shinespot was 172 moons old",
+            "Quailfur appreciates Stoatshade, Shinespot, Pebblefur, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Shinespot was 172 moons old",
+            "Kamautail, Quailfur, and Shinespot had a nice talk while eating. (positive effect)- Shinespot was 176 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "comfort",
+            "like"
         ]
     },
     {
@@ -534,12 +618,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinespot and Saffronfoot are chatting about what they're doing today. (medium positive effect)- Shinespot was 171 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -547,12 +635,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 18,
         "respect": -21,
-        "comfort": -8,
+        "comfort": 18,
         "trust": -8,
         "log": [
-            "Cody knows that Kamautail would be saved before him during an emergency. (high negative effect)- Cody was 168 moons old"
+            "Cody knows that Kamautail would be saved before him during an emergency. (high negative effect)- Cody was 168 moons old",
+            "Kamautail, Quailfur, and Shinespot had a nice talk while eating. (positive effect)- Shinespot was 176 moons old",
+            "Kamautail, Freezefoot, Shinespot, Hushpaw, and Algaepool hang out while stretching. (positive effect)- Shinespot was 177 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -580,12 +670,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 12,
+        "respect": -5,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinespot heard that Freezefoot's whole patrol fell asleep instead of training. (negative effect)- Shinespot was 175 moons old",
+            "Kamautail, Freezefoot, Shinespot, Hushpaw, and Algaepool hang out while stretching. (positive effect)- Shinespot was 177 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -607,11 +703,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 12,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinespot swaps favorite prey with Mosspaw. (medium positive effect)- Shinespot was 174 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -632,12 +733,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Kamautail, Freezefoot, Shinespot, Hushpaw, and Algaepool hang out while stretching. (positive effect)- Shinespot was 177 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "49",
@@ -655,6 +761,183 @@
     {
         "cat_from_id": "49",
         "cat_to_id": "52",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 27,
+        "respect": 15,
+        "comfort": 27,
+        "trust": 13,
+        "log": [
+            "Shardpaw compliments Shinespot on something he was self-conscious about. (high positive effect)- Shinespot was 176 moons old",
+            "Shinespot and Shardpaw heckled another Clan at the Gathering together. (high positive effect)- Shinespot was 177 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "55",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "56",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "57",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "60",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "61",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "62",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "63",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "64",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "65",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "66",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "68",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "69",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "49",
+        "cat_to_id": "70",
         "mates": false,
         "family": false,
         "romance": 0,
