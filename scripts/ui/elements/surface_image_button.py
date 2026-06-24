@@ -172,6 +172,10 @@ class UISurfaceImageButton(pygame_gui.elements.UIButton):
             text_layer_pos[0] - ui_scale_value(self.tab_data["amount"][0]),
             text_layer_pos[1] - ui_scale_value(self.tab_data["amount"][1]),
         )
+        self.text_layer_unhover_offset: Tuple[int, int] = (
+            text_layer_pos[0],
+            text_layer_pos[1] + ui_scale_value(self.tab_data["amount"][1]),
+        )
 
     def set_text(self, text: str, *, text_kwargs: Optional[Dict[str, str]] = None):
         if hasattr(self, "text_layer"):
@@ -208,7 +212,7 @@ class UISurfaceImageButton(pygame_gui.elements.UIButton):
         if self._is_tab and self.tab_movement["hovered"]:
             if self._is_bottom_tab:
                 self.find_text_layer_pos()
-            self.text_layer.set_position(self.text_layer_offset)
+            self.text_layer.set_position(self.text_layer_unhover_offset)
         super().on_unhovered()
 
     def disable(self):
