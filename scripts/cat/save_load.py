@@ -36,8 +36,8 @@ def save_cats(clanname, cat_class: Type["Cat"], game: "Game"):
     #     f.unlink()
     # Instead, only rewrite alive cats' relationships files
     living_cat_ids = {
-        inter_cat.ID 
-        for inter_cat in cat_class.all_cats.values() 
+        inter_cat.ID
+        for inter_cat in cat_class.all_cats.values()
         if not inter_cat.dead
     }
     for f in relationships_dir.glob("*.json"):
