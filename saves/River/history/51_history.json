@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "10": {
-                "aggression": -4,
-                "sociability": 1
+                "aggression": -8,
+                "sociability": 3,
+                "stability": -1,
+                "strings": [
+                    "be slow to anger",
+                    "interact with others",
+                    "dwell on things"
+                ]
             }
         },
         "skill": {
             "10": {
-                "MEDIATOR": 9
+                "MEDIATOR": 21,
+                "strings": [
+                    "resolving arguments"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "observance",
+        "graduation_age": 15,
+        "moon": 73
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

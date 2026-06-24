@@ -1,30 +1,26 @@
 {
-    "injuries": {
-        "rat bite": {
+    "illnesses": {
+        "grief stricken": {
             "severity": "major",
-            "mortality": 39,
-            "duration": 2,
-            "moon_start": 66,
-            "illness_infectiousness": [
-                {
-                    "name": "whitecough",
-                    "lower_by": 3
-                }
-            ],
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 88,
             "risks": [
                 {
-                    "name": "an infected wound",
-                    "chance": 5
+                    "name": "lasting grief",
+                    "chance": 152
                 },
                 {
-                    "name": "a festering wound",
-                    "chance": 5
+                    "name": "constant nightmares",
+                    "chance": 67
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 202
                 }
             ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": []
+            "event_triggered": false
         }
     }
 }

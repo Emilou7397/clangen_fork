@@ -1,4 +1,20 @@
 {
+    "illnesses": {
+        "heat exhaustion": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 88,
+            "risks": [
+                {
+                    "name": "heat stroke",
+                    "chance": 13
+                }
+            ],
+            "event_triggered": false
+        }
+    },
     "permanent conditions": {
         "crooked jaw": {
             "severity": "major",
@@ -11,19 +27,14 @@
             "complication": null,
             "event_triggered": false
         },
-        "partial hearing loss": {
-            "severity": "minor",
+        "deaf": {
+            "severity": "major",
             "born_with": false,
             "moons_until": 0,
-            "moon_start": 50,
+            "moon_start": 86,
             "mortality": 0,
             "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "deaf",
-                    "chance": 80
-                }
-            ],
+            "risks": [],
             "complication": null,
             "event_triggered": false
         }

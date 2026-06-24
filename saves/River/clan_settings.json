@@ -29,10 +29,10 @@
     "auto_feed": true,
     "business_as_usual": false,
     "hunting": false,
-    "herb_gathering": true,
+    "herb_gathering": false,
     "threaten_outsiders": false,
     "seek_outsiders": false,
-    "rest_and_recover": false,
+    "rest_and_recover": true,
     "sabotage_other_clans": false,
     "aid_other_clans": false,
     "raid_other_clans": false,
@@ -41,6 +41,20 @@
     "show empty relation": false,
     "den labels": true,
     "show fav": false,
-    "lead_den_interaction": false,
-    "lead_den_clan_event": {}
+    "lead_den_interaction": true,
+    "lead_den_clan_event": {
+        "cat_ID": "28",
+        "other_clan": "Bug",
+        "player_clan_temper": [
+            "stoic",
+            "steadfast"
+        ],
+        "interaction_type": "befriend",
+        "success": false
+    },
+    "lead_den_outsider_event": {
+        "cat_ID": "104",
+        "interaction_type": "invite",
+        "success": true
+    }
 }

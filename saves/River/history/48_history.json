@@ -9,16 +9,29 @@
         "trait": {
             "28": {
                 "stability": 3,
-                "aggression": 1
+                "aggression": 4,
+                "lawfulness": 1,
+                "strings": [
+                    "have a positive outlook",
+                    "start a fight",
+                    "have strong inner morals"
+                ]
             }
         },
         "skill": {
             "28": {
-                "LORE": 8
+                "LORE": 17,
+                "strings": [
+                    "remembering lore"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "leadership",
+        "graduation_age": 13,
+        "moon": 69
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

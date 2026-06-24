@@ -8,16 +8,30 @@
     "mentor_influence": {
         "trait": {
             "15": {
-                "stability": 1
+                "stability": 3,
+                "aggression": -3,
+                "strings": [
+                    "be consistent",
+                    "be slow to anger"
+                ]
             }
         },
         "skill": {
             "15": {
-                "CLIMBER": 2
+                "CLIMBER": 4,
+                "LORE": 5,
+                "strings": [
+                    "climbing",
+                    "remembering lore"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "determination",
+        "graduation_age": 13,
+        "moon": 71
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
