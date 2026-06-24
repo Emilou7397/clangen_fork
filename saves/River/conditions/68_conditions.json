@@ -1,4 +1,18 @@
 {
+    "injuries": {
+        "sore": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 92,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "paralyzed": {
             "severity": "severe",
@@ -10,19 +24,19 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 95
+                    "chance": 12
                 },
                 {
                     "name": "torn pelt",
-                    "chance": 65
+                    "chance": 84
                 },
                 {
                     "name": "sore",
-                    "chance": 75
+                    "chance": 114
                 },
                 {
                     "name": "joint pain",
-                    "chance": 75
+                    "chance": 94
                 }
             ],
             "complication": null,

@@ -62,9 +62,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": -5,
+        "trust": 2,
         "log": [
-            "Heavykit heard that Pebblechase touched noses with a rogue. (negative effect)- Heavykit was 4 moons old"
+            "Heavykit heard that Pebblechase touched noses with a rogue. (negative effect)- Heavykit was 4 moons old",
+            "Heavythud comes up with a plan to sneak out of camp with Pebblechase. (medium positive effect)- Heavythud was 22 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -153,14 +154,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "like": -5,
+        "respect": 1,
+        "comfort": -16,
+        "trust": -6,
         "log": [
-            "Heavykit saw Pigeonbloom's patrol bring a huge octopus back to camp. (positive effect)- Heavykit was 3 moons old"
+            "Heavykit saw Pigeonbloom's patrol bring a huge octopus back to camp. (positive effect)- Heavykit was 3 moons old",
+            "Pigeonbloom keeps pacing around the clearing late at night and Heavythud is the only one who notices. (high negative effect)- Heavythud was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -224,14 +229,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
-        "respect": -8,
-        "comfort": 12,
-        "trust": -16,
+        "like": -11,
+        "respect": -24,
+        "comfort": 24,
+        "trust": -32,
         "log": [
             "Primfreckle, Heavypaw, Brindlepaw, Elmpaw, and Sardinepaw blow off steam by stretching with and venting to each other. (positive effect)- Heavypaw was 10 moons old",
             "Heavypaw saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Heavypaw was 15 moons old",
-            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old"
+            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old",
+            "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Heavythud was 25 moons old",
+            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Heavythud was 26 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -260,18 +267,21 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": -21,
-        "comfort": 0,
-        "trust": -21,
+        "respect": -37,
+        "comfort": 12,
+        "trust": -37,
         "log": [
             "Peatcrest and Heavypaw enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect)- Heavypaw was 14 moons old",
             "Heavythud heard that Peatcrest touched noses with a kittypet. (negative effect)- Heavythud was 17 moons old",
-            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old"
+            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old",
+            "Bitebone, Tomatofreckle, Mallardfeather, Peatcrest, and Heavythud hang out while stretching. (positive effect)- Heavythud was 23 moons old",
+            "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Heavythud was 25 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -347,16 +357,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
-        "respect": 12,
-        "comfort": 0,
-        "trust": 0,
+        "like": -16,
+        "respect": 19,
+        "comfort": 8,
+        "trust": 9,
         "log": [
-            "Algaepool rallies Heavythud, Gracklefur, Suntooth, and Dancingpaw to do early morning stretches with him. (negative effect)- Heavythud was 21 moons old"
+            "Algaepool rallies Heavythud, Gracklefur, Suntooth, and Dancingpaw to do early morning stretches with him. (negative effect)- Heavythud was 21 moons old",
+            "Heavythud doesn't like the way Algaepool interacts with a Clanmate. (low negative effect)- Heavythud was 23 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "respect"
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -382,12 +395,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 24,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 0,
         "log": [
-            "Auburnsplash invites Brindlekit, Fleakit, Heavykit, and Eaglekit to share what's been on their minds and to have an honest talk with each other. (positive effect)- Heavykit was 1 moon old"
+            "Auburnsplash invites Brindlekit, Fleakit, Heavykit, and Eaglekit to share what's been on their minds and to have an honest talk with each other. (positive effect)- Heavykit was 1 moon old",
+            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Heavythud was 26 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -414,10 +428,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": -13,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Heavythud heard that Peakspore chased a rogue off the territory. (positive effect)- Heavythud was 23 moons old"
+        ],
         "no_longer_neutral": [
             "comfort"
         ]
@@ -428,12 +444,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 30,
         "respect": 0,
-        "comfort": 10,
+        "comfort": 34,
         "trust": 0,
         "log": [
-            "The silence between Heavypaw and Bitebone feels more uncomfortable than usual. (low negative effect)- Heavypaw was 13 moons old"
+            "The silence between Heavypaw and Bitebone feels more uncomfortable than usual. (low negative effect)- Heavypaw was 13 moons old",
+            "Bitebone, Tomatofreckle, Mallardfeather, Peatcrest, and Heavythud hang out while stretching. (positive effect)- Heavythud was 23 moons old",
+            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Heavythud was 26 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -497,7 +515,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 15,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
@@ -515,14 +533,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": -3,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [
-            "Heavypaw wishes he could get his pelt to shine like Suntooth's. (low negative effect)- Heavypaw was 14 moons old"
+            "Heavypaw wishes he could get his pelt to shine like Suntooth's. (low negative effect)- Heavypaw was 14 moons old",
+            "Suntooth compliments one of Heavythud's friends. (low positive effect)- Heavythud was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -558,15 +580,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": -15,
         "log": [
-            "Heavykit was deeply disappointed to hear that Tomatofreckle broke the Code. (negative effect)- Heavykit was 2 moons old"
+            "Heavykit was deeply disappointed to hear that Tomatofreckle broke the Code. (negative effect)- Heavykit was 2 moons old",
+            "Bitebone, Tomatofreckle, Mallardfeather, Peatcrest, and Heavythud hang out while stretching. (positive effect)- Heavythud was 23 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -575,14 +600,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 10,
+        "like": -7,
+        "respect": -6,
         "comfort": 10,
-        "trust": 15,
+        "trust": -7,
         "log": [
             "Saffronfoot was part of the patrol that saved Heavykit and brought him to RiverClan as a newborn. (positive effect)- Heavykit was 0 moons old",
             "Heavypaw found a hidden herb patch during a lesson, impressing Saffronfoot. (positive effect)- Heavypaw was 15 moons old",
-            "Saffronfoot and Heavythud had fun during an impromptu herb-gathering competition. (positive effect)- Heavythud was 16 moons old"
+            "Saffronfoot and Heavythud had fun during an impromptu herb-gathering competition. (positive effect)- Heavythud was 16 moons old",
+            "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Heavythud was 25 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -704,14 +730,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": -13,
         "comfort": -8,
         "trust": 0,
         "log": [
-            "Heavykit heard that Hushshimmer's whole patrol fell asleep instead of training. (negative effect)- Heavykit was 5 moons old"
+            "Heavykit heard that Hushshimmer's whole patrol fell asleep instead of training. (negative effect)- Heavykit was 5 moons old",
+            "Hushshimmer pulled an embarrassing prank on Heavythud's friend. (low negative effect)- Heavythud was 26 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -722,9 +750,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -8,
+        "comfort": -16,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heavythud sees Warmswirl staring off into the distance. It's kind of creepy. (low negative effect)- Heavythud was 24 moons old"
+        ],
         "no_longer_neutral": [
             "comfort"
         ]
@@ -753,7 +783,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": -7,
         "trust": 0,
@@ -770,16 +800,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 12,
         "comfort": 0,
         "trust": 9,
         "log": [
             "Fringesnap learns that Heavypaw told a Clanmate one of his secrets. (low negative effect)- Heavypaw was 10 moons old",
             "Only Heavypaw and Fringesnap know the details about a specific piece of Clan drama. (medium positive effect)- Heavypaw was 15 moons old",
-            "Heavythud is inspired by Fringesnap's passion. (medium positive effect)- Heavythud was 20 moons old"
+            "Heavythud is inspired by Fringesnap's passion. (medium positive effect)- Heavythud was 20 moons old",
+            "Heavythud tells Fringesnap something interesting about another Clan. (medium positive effect)- Heavythud was 23 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "respect",
             "trust"
         ]
@@ -851,11 +883,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -3,
+        "trust": -8,
         "log": [
-            "Fluttershade learns that Heavythud told a Clanmate one of her secrets. (low negative effect)- Heavythud was 17 moons old"
+            "Fluttershade learns that Heavythud told a Clanmate one of her secrets. (low negative effect)- Heavythud was 17 moons old",
+            "Heavythud heard Fluttershade fell asleep guarding camp. (negative effect)- Heavythud was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -863,7 +898,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": 3,
         "respect": 0,
         "comfort": 7,
         "trust": -12,
@@ -905,13 +940,15 @@
         "like": 3,
         "respect": -5,
         "comfort": -13,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Heavykit heard that Diablofoot's whole patrol fell asleep instead of training. (negative effect)- Heavykit was 5 moons old",
             "Heavypaw and Diablofoot roll up moss balls together. (low positive effect)- Heavypaw was 12 moons old",
-            "Heavythud heard Diablofoot fell asleep guarding camp. (negative effect)- Heavythud was 16 moons old"
+            "Heavythud heard Diablofoot fell asleep guarding camp. (negative effect)- Heavythud was 16 moons old",
+            "Heavythud heard Diablofoot fell asleep guarding camp. (negative effect)- Heavythud was 23 moons old"
         ],
         "no_longer_neutral": [
+            "trust",
             "comfort"
         ]
     },
@@ -921,14 +958,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 97,
+        "like": 100,
         "respect": 15,
-        "comfort": 97,
+        "comfort": 100,
         "trust": 35,
         "log": [
             "Craneflight's eagerness to do early morning stretches rubs off on Heavypaw, Brindlepaw, Elmpaw, and Frondpaw. (positive effect)- Heavypaw was 10 moons old",
             "Primfreckle, Heavypaw, Brindlepaw, Elmpaw, and Sardinepaw blow off steam by stretching with and venting to each other. (positive effect)- Heavypaw was 10 moons old",
-            "The moonlight encourages Elmtrail, Fidgetmouse, Brindletooth, Heavypaw, and Sardinepaw to slow down and stretch. (positive effect)- Heavypaw was 15 moons old"
+            "The moonlight encourages Elmtrail, Fidgetmouse, Brindletooth, Heavypaw, and Sardinepaw to slow down and stretch. (positive effect)- Heavypaw was 15 moons old",
+            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Heavythud was 26 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -943,10 +981,10 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 100,
-        "respect": 27,
+        "like": 88,
+        "respect": 39,
         "comfort": 100,
-        "trust": 63,
+        "trust": 89,
         "log": [
             "Auburnsplash invites Brindlekit, Fleakit, Heavykit, and Eaglekit to share what's been on their minds and to have an honest talk with each other. (positive effect)- Heavykit was 1 moon old",
             "Heavykit has snuggled up against Brindlekit. (medium positive effect)- Heavykit was 3 moons old",
@@ -956,7 +994,9 @@
             "Heavypaw reassures Brindlepaw about something that was bothering them. (low positive effect)- Heavypaw was 9 moons old",
             "Craneflight's eagerness to do early morning stretches rubs off on Heavypaw, Brindlepaw, Elmpaw, and Frondpaw. (positive effect)- Heavypaw was 10 moons old",
             "Primfreckle, Heavypaw, Brindlepaw, Elmpaw, and Sardinepaw blow off steam by stretching with and venting to each other. (positive effect)- Heavypaw was 10 moons old",
-            "The moonlight encourages Elmtrail, Fidgetmouse, Brindletooth, Heavypaw, and Sardinepaw to slow down and stretch. (positive effect)- Heavypaw was 15 moons old"
+            "The moonlight encourages Elmtrail, Fidgetmouse, Brindletooth, Heavypaw, and Sardinepaw to slow down and stretch. (positive effect)- Heavypaw was 15 moons old",
+            "Brindletooth tells Heavythud that they was worried about him. (low positive effect)- Heavythud was 25 moons old",
+            "Brindletooth rallies Heavythud, Murkhaven, Primfreckle, and Paellapad to do early morning stretches with them. (negative effect)- Heavythud was 25 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1029,7 +1069,7 @@
         "like": 0,
         "respect": 22,
         "comfort": 0,
-        "trust": 17,
+        "trust": 30,
         "log": [
             "Only Heavypaw and Shinekit know the details about a specific piece of Clan drama. (medium positive effect)- Heavypaw was 7 moons old",
             "Heavypaw can't help but admire how well Shinekit gets along with the rest of the Clan. (medium positive effect)- Heavypaw was 8 moons old",
@@ -1046,12 +1086,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 25,
         "respect": 0,
         "comfort": 25,
         "trust": 0,
         "log": [
-            "A fight between Sardinekit, Brindlekit, Talonkit, and Heavykit over a toy is short-lived when Smokeheart intervenes. (positive effect)- Heavykit was 5 moons old"
+            "A fight between Sardinekit, Brindlekit, Talonkit, and Heavykit over a toy is short-lived when Smokeheart intervenes. (positive effect)- Heavykit was 5 moons old",
+            "Heavythud asks Talonlake how he's doing. (low positive effect)- Heavythud was 22 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1063,18 +1104,20 @@
         "cat_to_id": "75",
         "mates": false,
         "family": false,
-        "romance": 20,
-        "like": 28,
-        "respect": 5,
-        "comfort": 20,
-        "trust": 0,
+        "romance": 4,
+        "like": 24,
+        "respect": -1,
+        "comfort": 16,
+        "trust": -6,
         "log": [
             "Craneflight's eagerness to do early morning stretches rubs off on Heavypaw, Brindlepaw, Elmpaw, and Frondpaw. (positive effect)- Heavypaw was 10 moons old",
             "Heavythud heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Heavythud was 18 moons old",
-            "Heavythud picked out the best piece of prey to share with Frondpad. (medium positive effect)- Heavythud was 21 moons old"
+            "Heavythud picked out the best piece of prey to share with Frondpad. (medium positive effect)- Heavythud was 21 moons old",
+            "Heavythud heard Frondpad express an ideal he cannot agree with. (high negative effect)- Heavythud was 24 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "trust",
             "comfort"
         ]
     },
@@ -1135,14 +1178,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 3,
         "comfort": 3,
-        "trust": 0,
+        "trust": -15,
         "log": [
-            "Heavypaw and Icypaw come up with a catchy song together. (low positive effect)- Heavypaw was 6 moons old"
+            "Heavypaw and Icypaw come up with a catchy song together. (low positive effect)- Heavypaw was 6 moons old",
+            "Heavythud was deeply disappointed to hear that Icyriver broke the Code. (negative effect)- Heavythud was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -1240,9 +1286,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Heavythud gets some good advice from Volepaw about something trivial. (low positive effect)- Heavythud was 24 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -1265,14 +1315,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 5,
-        "comfort": 0,
-        "trust": 5,
+        "comfort": 12,
+        "trust": 17,
         "log": [
-            "Heavythud felt a measure of confidence in Saltpaw's attentiveness during an herb-gathering patrol. (positive effect)- Heavythud was 19 moons old"
+            "Heavythud felt a measure of confidence in Saltpaw's attentiveness during an herb-gathering patrol. (positive effect)- Heavythud was 19 moons old",
+            "Heavythud urged Saltpaw to stay committed to his training and work hard. (positive effect)- Heavythud was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -1336,10 +1391,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "68",
@@ -1424,18 +1481,20 @@
         "cat_to_id": "99",
         "mates": false,
         "family": false,
-        "romance": 17,
-        "like": -11,
-        "respect": -11,
-        "comfort": 4,
-        "trust": -11,
+        "romance": 23,
+        "like": -7,
+        "respect": -6,
+        "comfort": 28,
+        "trust": -7,
         "log": [
-            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old"
+            "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Heavythud was 19 moons old",
+            "Hollyheart and Heavythud had a productive time searching Twoleg beach dens for herbs. (positive effect)- Heavythud was 25 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -1470,6 +1529,44 @@
         "mates": false,
         "family": false,
         "romance": 0,
+        "like": -28,
+        "respect": -7,
+        "comfort": 0,
+        "trust": -16,
+        "log": [
+            "Heavythud, Peatcrest, Hollyheart, and Carptail respect how dutiful Oddmuzzle is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Heavythud was 21 moons old",
+            "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Heavythud was 25 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "68",
+        "cat_to_id": "103",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 12,
+        "respect": 0,
+        "comfort": 12,
+        "trust": 0,
+        "log": [
+            "Bitebone, Tomatofreckle, Mallardfeather, Peatcrest, and Heavythud hang out while stretching. (positive effect)- Heavythud was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "68",
+        "cat_to_id": "108",
+        "mates": false,
+        "family": false,
+        "romance": 0,
         "like": 0,
         "respect": 0,
         "comfort": 0,
@@ -1479,7 +1576,20 @@
     },
     {
         "cat_from_id": "68",
-        "cat_to_id": "103",
+        "cat_to_id": "109",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "68",
+        "cat_to_id": "110",
         "mates": false,
         "family": false,
         "romance": 0,

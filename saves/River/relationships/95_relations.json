@@ -5,16 +5,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 8,
+        "like": -10,
+        "respect": 6,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Rollkit noticed how successful Yewheather's hunting patrol was. (positive effect)- Rollkit was 2 moons old",
-            "Rollkit heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Rollkit was 5 moons old"
+            "Rollkit heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Rollkit was 5 moons old",
+            "Rollshock thought Yewstar did a poor job of leading a training patrol. (negative effect)- Rollshock was 12 moons old",
+            "Rollshock and Yewstar argued about what to practice on a training patrol. (negative effect)- Rollshock was 12 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "trust"
         ]
     },
     {
@@ -101,12 +105,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stoatshade, Rollshock, and Hushshimmer had a nice talk while eating. (positive effect)- Rollshock was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -288,14 +297,19 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 31,
-        "respect": 46,
+        "like": 61,
+        "respect": 71,
         "comfort": 71,
-        "trust": 86,
+        "trust": 100,
         "log": [
             "Dancingscreech did a poor job of explaining a fighting move to Rollpaw. (negative effect)- Rollpaw was 6 moons old",
             "Dancingscreech taught Rollpaw all about how gathering moss will build muscle. (positive effect)- Rollpaw was 7 moons old",
-            "Dancingscreech taught Rollpaw some advanced battle moves. (positive effect)- Rollpaw was 8 moons old"
+            "Dancingscreech taught Rollpaw some advanced battle moves. (positive effect)- Rollpaw was 8 moons old",
+            "Rollpaw gained a greater appreciation for Dancingscreech's knowledge of nesting materials and camp-guarding technique. (positive effect)- Rollpaw was 9 moons old",
+            "Rollpaw was convinced of the importance of learning to rescue cats from the water by Dancingscreech's stories of ocean dancers. (positive effect)- Rollpaw was 10 moons old",
+            "Rollpaw and Dancingscreech practiced rescuing cats from the water. (positive effect)- Rollpaw was 10 moons old",
+            "Rollpaw was convinced of the importance of learning to rescue cats from the water by Dancingscreech's stories of ocean dancers. (positive effect)- Rollpaw was 11 moons old",
+            "Rollpaw and Dancingscreech practiced rescuing cats from the water. (positive effect)- Rollpaw was 11 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -325,10 +339,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rollpaw and Auburnsplash say goodbye, but end up walking in the same direction. (low negative effect)- Rollpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -381,10 +399,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Rollpaw and Bitebone practiced rescuing cats from the water. (positive effect)- Rollpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -464,11 +484,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Rollkit heard Suntooth fell asleep guarding camp. (negative effect)- Rollkit was 1 moon old"
+            "Rollkit heard Suntooth fell asleep guarding camp. (negative effect)- Rollkit was 1 moon old",
+            "Rollpaw heard about how Suntooth's patrol drove off a scavenging fox. (positive effect)- Rollpaw was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -478,12 +499,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rollshock is fascinated by one of Pearpelt's stories. (medium positive effect)- Rollshock was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -626,12 +651,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rollpaw, Saltpaw, and Mossflight took a sunbath and had a little small talk. (positive effect)- Rollpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -639,12 +669,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stoatshade, Rollshock, and Hushshimmer had a nice talk while eating. (positive effect)- Rollshock was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -776,9 +811,10 @@
         "like": 12,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Rollpaw likes the way Fluttershade laughs. (medium positive effect)- Rollpaw was 8 moons old"
+            "Rollpaw likes the way Fluttershade laughs. (medium positive effect)- Rollpaw was 8 moons old",
+            "Rollshock heard Fluttershade fell asleep guarding camp. (negative effect)- Rollshock was 12 moons old"
         ],
         "no_longer_neutral": [
             "like"
@@ -803,14 +839,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Rollkit lets Murkhaven groom him messy fur. (medium positive effect)- Rollkit was 4 moons old"
+            "Rollkit lets Murkhaven groom him messy fur. (medium positive effect)- Rollkit was 4 moons old",
+            "Murkhaven does something that makes Rollpaw's day a little happier. (low positive effect)- Rollpaw was 11 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "comfort"
         ]
     },
@@ -1081,15 +1119,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
-        "respect": 4,
+        "like": 6,
+        "respect": 6,
         "comfort": 5,
         "trust": 4,
         "log": [
-            "The whole Clan notices how close Rollkit and Volekit are lately. (high positive effect)- Rollkit was 1 moon old"
+            "The whole Clan notices how close Rollkit and Volekit are lately. (high positive effect)- Rollkit was 1 moon old",
+            "Rollpaw heard about how Voletuft's patrol drove off a scavenging fox. (positive effect)- Rollpaw was 11 moons old",
+            "Rollshock and Voletuft argued about what to practice on a training patrol. (negative effect)- Rollshock was 12 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect"
         ]
     },
     {
@@ -1113,14 +1154,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 6,
         "respect": 0,
-        "comfort": -8,
+        "comfort": 6,
         "trust": 0,
         "log": [
-            "Rollpaw bickers with Saltpaw over who gets what nest material. (low negative effect)- Rollpaw was 7 moons old"
+            "Rollpaw bickers with Saltpaw over who gets what nest material. (low negative effect)- Rollpaw was 7 moons old",
+            "Rollpaw, Saltpaw, and Mossflight took a sunbath and had a little small talk. (positive effect)- Rollpaw was 10 moons old",
+            "Saltpaw says something in passing that Rollshock keeps getting worked up about. (low negative effect)- Rollshock was 13 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "comfort"
         ]
     },
@@ -1130,12 +1174,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -10,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rollpaw heard about how Flightsplash's patrol drove off a scavenging fox. (positive effect)- Rollpaw was 11 moons old",
+            "Rollshock and Flightsplash argued about what to practice on a training patrol. (negative effect)- Rollshock was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -1169,15 +1218,20 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 20,
-        "respect": 0,
-        "comfort": 19,
-        "trust": 19,
+        "like": 26,
+        "respect": 15,
+        "comfort": 25,
+        "trust": 34,
         "log": [
-            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Rollkit was 4 moons old"
+            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Rollkit was 4 moons old",
+            "Rollpaw and Skippaw defended their Clan at the Gathering together. (high positive effect)- Rollpaw was 10 moons old",
+            "Rollpaw and Skippaw practiced rescuing cats from the water. (positive effect)- Rollpaw was 10 moons old",
+            "Rollpaw and Skiphare practiced rescuing cats from the water. (positive effect)- Rollpaw was 11 moons old",
+            "Rollshock and Skiphare argued about what to practice on a training patrol. (negative effect)- Rollshock was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "trust",
             "comfort"
         ]
@@ -1188,13 +1242,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 33,
-        "respect": 6,
+        "like": 23,
+        "respect": 11,
         "comfort": 23,
-        "trust": 24,
+        "trust": 29,
         "log": [
             "Rollkit dispels a bad rumor about Hailkit. (high positive effect)- Rollkit was 2 moons old",
-            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Rollkit was 4 moons old"
+            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Rollkit was 4 moons old",
+            "Rollpaw and Hailfreckle practiced rescuing cats from the water. (positive effect)- Rollpaw was 11 moons old",
+            "Rollshock and Hailfreckle argued about what to practice on a training patrol. (negative effect)- Rollshock was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1248,13 +1304,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
-        "respect": 0,
-        "comfort": 0,
+        "like": -17,
+        "respect": 8,
+        "comfort": 7,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Rollpaw pranked Snakepaw during a patrol. (medium negative effect)- Rollpaw was 9 moons old"
+        ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "comfort"
         ]
     },
     {
@@ -1276,12 +1336,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 20,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 20,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rollpaw received a feather from Dancingkit and has worn it in his pelt ever since. (positive effect)- Rollpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "95",
@@ -1325,6 +1390,45 @@
     {
         "cat_from_id": "95",
         "cat_to_id": "103",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "95",
+        "cat_to_id": "108",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "95",
+        "cat_to_id": "109",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "95",
+        "cat_to_id": "110",
         "mates": false,
         "family": false,
         "romance": 0,

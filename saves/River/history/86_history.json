@@ -9,17 +9,31 @@
         "trait": {
             "74": {
                 "sociability": 2,
-                "aggression": 3,
-                "stability": -2
+                "aggression": 4,
+                "stability": -4,
+                "lawfulness": -1,
+                "strings": [
+                    "put others at ease",
+                    "start a fight",
+                    "behave erratically",
+                    "break rules that don't suit {PRONOUN\/m_c\/object}"
+                ]
             }
         },
         "skill": {
             "74": {
-                "HUNTER": 14
+                "HUNTER": 27,
+                "strings": [
+                    "hunting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "wisdom",
+        "graduation_age": 12,
+        "moon": 91
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

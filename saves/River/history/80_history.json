@@ -8,27 +8,33 @@
     "mentor_influence": {
         "trait": {
             "69": {
-                "lawfulness": 2,
+                "lawfulness": 4,
                 "stability": 1,
-                "sociability": 1
+                "sociability": 1,
+                "strings": [
+                    "follow rules",
+                    "adapt easily",
+                    "put others at ease"
+                ]
             }
         },
         "skill": {
             "69": {
-                "STORY": 5
+                "STORY": 9,
+                "strings": [
+                    "storytelling"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "strength",
+        "graduation_age": 17,
+        "moon": 90
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "claw-wound": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after trying to save Reedheart from a rogue.",
-            "scar_text": "m_c was scarred while trying to save Reedheart from a rogue.",
-            "other_cat": "71"
-        }
-    },
+    "possible_history": {},
     "died_by": [],
     "scar_events": [],
     "murder": {}

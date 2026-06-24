@@ -5,13 +5,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 52,
-        "respect": 50,
+        "like": 42,
+        "respect": 42,
         "comfort": 82,
-        "trust": 72,
+        "trust": 64,
         "log": [
             "Volekit noticed how successful Yewheather's hunting patrol was. (positive effect)- Volekit was 3 moons old",
-            "Volepaw heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Volepaw was 6 moons old"
+            "Volepaw heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Volepaw was 6 moons old",
+            "Voletuft thought Yewstar did a poor job of leading a training patrol. (negative effect)- Voletuft was 13 moons old",
+            "Voletuft and Yewstar argued about what to practice on a training patrol. (negative effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -169,7 +171,7 @@
         "romance": 0,
         "like": 24,
         "respect": 0,
-        "comfort": 24,
+        "comfort": 32,
         "trust": 0,
         "log": [
             "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Volekit was 2 moons old",
@@ -243,16 +245,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 7,
         "log": [
             "Volekit is feeling lost and asks Peatcrest for advice on what to do. (medium positive effect)- Volekit was 5 moons old",
-            "Volekit heard that Peatcrest touched noses with a kittypet. (negative effect)- Volekit was 5 moons old"
+            "Volekit heard that Peatcrest touched noses with a kittypet. (negative effect)- Volekit was 5 moons old",
+            "Algaepool beckons Gentlekit, Dancingkit, Peatcrest, and Volepaw to relax with him and chat. (positive effect)- Volepaw was 11 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -263,10 +268,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 12,
         "log": [
-            "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Volekit was 1 moon old"
+            "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Volekit was 1 moon old",
+            "Curryfoot is the only one who gets Voletuft's joke. (medium positive effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "trust",
@@ -294,11 +300,13 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 48,
+        "like": 60,
         "respect": 38,
-        "comfort": 78,
+        "comfort": 90,
         "trust": 68,
-        "log": [],
+        "log": [
+            "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Volepaw was 11 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
@@ -326,15 +334,18 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 0,
-        "comfort": 12,
+        "respect": 12,
+        "comfort": 24,
         "trust": 0,
         "log": [
-            "At first, Volekit, Quailfur, Ochretail, and Algaepool are unsure about Kamautail's bonding exercise, but it goes wonderfully. (positive effect)- Volekit was 4 moons old"
+            "At first, Volekit, Quailfur, Ochretail, and Algaepool are unsure about Kamautail's bonding exercise, but it goes wonderfully. (positive effect)- Volekit was 4 moons old",
+            "Algaepool beckons Gentlekit, Dancingkit, Peatcrest, and Volepaw to relax with him and chat. (positive effect)- Volepaw was 11 moons old",
+            "Early in the morning, Algaepool rallies Bushberry, Voletuft, Carptail, and Fleadusk to do stretches in hopes of keeping his Clanmates prepared for anything. (negative effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -370,11 +381,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Volepaw appreciated Archbellow settling a dispute on patrol. (positive effect)- Volepaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -383,10 +399,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Volepaw heard that Peakspore chased a rogue off the territory. (positive effect)- Volepaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -441,11 +459,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Volepaw is impressed with Burrweb's willingness to help. (medium positive effect)- Volepaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -482,9 +504,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Volekit heard Suntooth fell asleep guarding camp. (negative effect)- Volekit was 2 moons old"
+            "Volekit heard Suntooth fell asleep guarding camp. (negative effect)- Volekit was 2 moons old",
+            "Suntooth and Voletuft drove off a scavenging fox together. (positive effect)- Voletuft was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -538,15 +561,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 0,
+        "like": 14,
+        "respect": 7,
+        "comfort": 29,
+        "trust": 6,
         "log": [
-            "Volekit, Bushberry, and Saffronfoot had a nice talk while eating. (positive effect)- Volekit was 5 moons old"
+            "Volekit, Bushberry, and Saffronfoot had a nice talk while eating. (positive effect)- Volekit was 5 moons old",
+            "Voletuft and Saffronfoot have multiple inside jokes with one another. (high positive effect)- Voletuft was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
+            "trust",
             "comfort"
         ]
     },
@@ -590,15 +616,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 0,
+        "like": 29,
+        "respect": 20,
+        "comfort": 26,
+        "trust": 23,
         "log": [
             "Volekit, Bushberry, and Saffronfoot had a nice talk while eating. (positive effect)- Volekit was 5 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
+            "trust",
             "comfort"
         ]
     },
@@ -675,12 +703,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Hushshimmer, Skulkwillow, and Voletuft had a nice talk while eating. (positive effect)- Voletuft was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -688,12 +721,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 8,
+        "log": [
+            "Stretching might be good for one's health, but Volepaw, Flightpaw, Shinefur, and Sardinespeckle wish Warmswirl didn't insist on stretching at the crack of dawn. (negative effect)- Volepaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -701,14 +740,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 12,
+        "like": -12,
+        "respect": 24,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Hushshimmer, Bouncepelt, Volekit, and Peatcrest congratulate Shardtail on her latest catch. (positive effect)- Volekit was 5 moons old"
+            "Hushshimmer, Bouncepelt, Volekit, and Peatcrest congratulate Shardtail on her latest catch. (positive effect)- Volekit was 5 moons old",
+            "Dancingpaw, Hailpaw, Skippaw, and Volepaw respect how dutiful Shardtail is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Volepaw was 9 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "respect"
         ]
     },
@@ -816,8 +857,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Voletuft heard Fluttershade fell asleep guarding camp. (negative effect)- Voletuft was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -826,12 +869,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": 3,
         "respect": 0,
-        "comfort": -5,
+        "comfort": 3,
         "trust": 0,
         "log": [
-            "Volekit noticed that Skulkwillow was in a foul mood. (negative effect)- Volekit was 0 moons old"
+            "Volekit noticed that Skulkwillow was in a foul mood. (negative effect)- Volekit was 0 moons old",
+            "Hushshimmer, Skulkwillow, and Voletuft had a nice talk while eating. (positive effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -857,11 +901,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
-            "Volekit heard Diablofoot fell asleep guarding camp. (negative effect)- Volekit was 3 moons old"
+            "Volekit heard Diablofoot fell asleep guarding camp. (negative effect)- Volekit was 3 moons old",
+            "Volepaw heard Diablofoot fell asleep guarding camp. (negative effect)- Volepaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -942,14 +989,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Volepaw heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Volepaw was 6 moons old"
+            "Volepaw heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Volepaw was 6 moons old",
+            "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Volepaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -958,14 +1009,16 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": 10,
-        "comfort": -7,
+        "respect": 22,
+        "comfort": 6,
         "trust": 10,
         "log": [
             "Volepaw soaked up all of Talonlake's fighting tips during a one-on-one training session. (positive effect)- Volepaw was 6 moons old",
             "Talonlake rescued Volepaw when sand caved in under her. (positive effect)- Volepaw was 7 moons old",
             "Volepaw argued with Talonlake about a technique that he was teaching her. (negative effect)- Volepaw was 8 moons old",
-            "Volepaw tried to confide in Talonlake about her insecurities, but Talonlake was unable to comfort her. (negative effect)- Volepaw was 9 moons old"
+            "Volepaw tried to confide in Talonlake about her insecurities, but Talonlake was unable to comfort her. (negative effect)- Volepaw was 9 moons old",
+            "Stretching might be good for one's health, but Flightpaw, Volepaw, Flutterpaw, and Shimmerpaw wish Talonlake didn't insist on stretching at the crack of dawn. (negative effect)- Volepaw was 9 moons old",
+            "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Volepaw was 11 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1039,9 +1092,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Volepaw was deeply disappointed to hear that Icyriver broke the Code. (negative effect)- Volepaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1049,14 +1106,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 7,
         "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Volekit mews congratulations to Poolpaw for a job well done. (low positive effect)- Volekit was 3 moons old"
+            "Volekit mews congratulations to Poolpaw for a job well done. (low positive effect)- Volekit was 3 moons old",
+            "Volepaw and Poolleaf have a fun patrol and plan to tell stories about it later to their Clanmates. (medium positive effect)- Volepaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1134,14 +1194,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 33,
+        "like": 45,
         "respect": -5,
-        "comfort": 38,
+        "comfort": 50,
         "trust": 21,
         "log": [
             "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Volekit was 1 moon old",
             "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Volekit was 2 moons old",
-            "Volepaw heard that Flutterpaw played with a kittypet on RiverClan's border. (negative effect)- Volepaw was 8 moons old"
+            "Volepaw heard that Flutterpaw played with a kittypet on RiverClan's border. (negative effect)- Volepaw was 8 moons old",
+            "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Volepaw was 11 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1177,16 +1238,20 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 26,
-        "respect": 0,
+        "like": 16,
+        "respect": 12,
         "comfort": 28,
-        "trust": 36,
+        "trust": 41,
         "log": [
             "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Volekit was 1 moon old",
-            "Volepaw feels a little safer when Flightkit joins her in the clearing. (low positive effect)- Volepaw was 6 moons old"
+            "Volepaw feels a little safer when Flightkit joins her in the clearing. (low positive effect)- Volepaw was 6 moons old",
+            "Volepaw notices that Flightsplash is always one of the first to volunteer for a difficult task. (medium positive effect)- Volepaw was 11 moons old",
+            "Flightsplash and Voletuft drove off a scavenging fox together. (positive effect)- Voletuft was 12 moons old",
+            "Voletuft and Flightsplash argued about what to practice on a training patrol. (negative effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "trust",
             "comfort"
         ]
@@ -1236,17 +1301,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 9,
-        "respect": 0,
+        "like": -15,
+        "respect": 13,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Volekit is excited for her family to grow further. (positive effect)- Volekit was 0 moons old",
             "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Volekit was 2 moons old",
-            "When Volepaw gets a little hurt, Skipkit giggles before asking if she's okay. (low negative effect)- Volepaw was 7 moons old"
+            "When Volepaw gets a little hurt, Skipkit giggles before asking if she's okay. (low negative effect)- Volepaw was 7 moons old",
+            "Voletuft thinks Skiphare is a good singer. (low positive effect)- Voletuft was 13 moons old",
+            "Voletuft and Skiphare argued about what to practice on a training patrol. (negative effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort"
         ]
     },
@@ -1256,12 +1324,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 6,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Volekit is excited for her family to grow further. (positive effect)- Volekit was 0 moons old"
+            "Volekit is excited for her family to grow further. (positive effect)- Volekit was 0 moons old",
+            "Voletuft and Hailfreckle argued about what to practice on a training patrol. (negative effect)- Voletuft was 13 moons old"
         ],
         "no_longer_neutral": [
             "like"
@@ -1290,17 +1359,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
-        "respect": 0,
-        "comfort": -8,
-        "trust": 0,
+        "like": 6,
+        "respect": -11,
+        "comfort": -12,
+        "trust": -3,
         "log": [
             "Volekit is excited for her family to grow further. (positive effect)- Volekit was 0 moons old",
-            "Volekit thinks that Rollkit's tone sounds off today. (low negative effect)- Volekit was 4 moons old"
+            "Volekit thinks that Rollkit's tone sounds off today. (low negative effect)- Volekit was 4 moons old",
+            "Voletuft and Rollshock argued about what to practice on a training patrol. (negative effect)- Voletuft was 13 moons old",
+            "Voletuft had a difficult conversation with Rollshock, and they both ended up resentful of one another. (high negative effect)- Voletuft was 14 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -1312,9 +1384,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 8,
+        "log": [
+            "Voletuft appreciates Dancingpaw telling her that she had a feather stuck to her face. (low positive effect)- Voletuft was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1325,7 +1401,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 8,
+        "trust": 11,
         "log": [
             "Snakekit makes a small sacrifice that benefits Volepaw. (low positive effect)- Volepaw was 8 moons old"
         ],
@@ -1339,12 +1415,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Algaepool beckons Gentlekit, Dancingkit, Peatcrest, and Volepaw to relax with him and chat. (positive effect)- Volepaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1352,12 +1433,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Algaepool beckons Gentlekit, Dancingkit, Peatcrest, and Volepaw to relax with him and chat. (positive effect)- Volepaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1394,9 +1480,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1415,5 +1503,44 @@
             "like",
             "respect"
         ]
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "108",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "109",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "110",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

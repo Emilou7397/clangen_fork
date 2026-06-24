@@ -8,16 +8,30 @@
     "mentor_influence": {
         "trait": {
             "45": {
-                "stability": -3
+                "stability": -3,
+                "lawfulness": 4,
+                "aggression": 1,
+                "strings": [
+                    "dwell on things",
+                    "follow rules",
+                    "use teeth and claws over words"
+                ]
             }
         },
         "skill": {
             "45": {
-                "RUNNER": 4
+                "RUNNER": 14,
+                "strings": [
+                    "running"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "hard work",
+        "graduation_age": 11,
+        "moon": 92
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

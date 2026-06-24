@@ -8,16 +8,30 @@
     "mentor_influence": {
         "trait": {
             "2": {
-                "sociability": -2
+                "sociability": -4,
+                "aggression": 8,
+                "strings": [
+                    "bicker with others",
+                    "defend {PRONOUN\/m_c\/poss} beliefs"
+                ]
             }
         },
         "skill": {
             "2": {
-                "TEACHER": 1
+                "TEACHER": 6,
+                "CLIMBER": 9,
+                "strings": [
+                    "teaching",
+                    "climbing"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "strategy",
+        "graduation_age": 12,
+        "moon": 93
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

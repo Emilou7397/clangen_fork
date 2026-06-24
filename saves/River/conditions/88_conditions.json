@@ -1,10 +1,10 @@
 {
     "injuries": {
-        "bite-wound": {
-            "severity": "major",
-            "mortality": 60,
-            "duration": 2,
-            "moon_start": 87,
+        "mangled leg": {
+            "severity": "severe",
+            "mortality": 71,
+            "duration": 3,
+            "moon_start": 91,
             "illness_infectiousness": [],
             "risks": [
                 {
@@ -13,7 +13,11 @@
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "lost a leg",
+                "weak leg",
+                "twisted leg"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }

@@ -9,17 +9,31 @@
         "trait": {
             "15": {
                 "aggression": 1,
-                "stability": 2
+                "stability": 4,
+                "sociability": -2,
+                "strings": [
+                    "start a fight",
+                    "adapt easily",
+                    "bicker with others"
+                ]
             }
         },
         "skill": {
             "15": {
-                "KIT": 4,
-                "TEACHER": 3
+                "KIT": 11,
+                "TEACHER": 7,
+                "strings": [
+                    "caring for kittens",
+                    "teaching"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "tenderness",
+        "graduation_age": 12,
+        "moon": 92
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

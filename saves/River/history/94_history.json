@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "69": {
-                "aggression": -3,
-                "lawfulness": 1
+                "aggression": -4,
+                "lawfulness": 4,
+                "sociability": -2,
+                "strings": [
+                    "be slow to anger",
+                    "follow the status quo",
+                    "bicker with others"
+                ]
             }
         },
         "skill": {
             "69": {
-                "STORY": 6
+                "STORY": 10,
+                "strings": [
+                    "storytelling"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "humor",
+        "graduation_age": 13,
+        "moon": 93
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

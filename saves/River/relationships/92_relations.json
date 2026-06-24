@@ -5,16 +5,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 8,
+        "like": -10,
+        "respect": 6,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Skipkit noticed how successful Yewheather's hunting patrol was. (positive effect)- Skipkit was 2 moons old",
-            "Skipkit heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Skipkit was 5 moons old"
+            "Skipkit heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Skipkit was 5 moons old",
+            "Skiphare thought Yewstar did a poor job of leading a training patrol. (negative effect)- Skiphare was 12 moons old",
+            "Skiphare and Yewstar argued about what to practice on a training patrol. (negative effect)- Skiphare was 12 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "trust"
         ]
     },
     {
@@ -136,12 +140,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Skippaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -250,14 +259,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 12,
         "log": [
-            "When Saltkit, Shimmerkit, Skipkit, and Flutterkit come to Curryfoot after a fight, Curryfoot teaches them how to tactfully discuss their feelings. (positive effect)- Skipkit was 3 moons old"
+            "When Saltkit, Shimmerkit, Skipkit, and Flutterkit come to Curryfoot after a fight, Curryfoot teaches them how to tactfully discuss their feelings. (positive effect)- Skipkit was 3 moons old",
+            "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Skippaw was 10 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "trust",
             "comfort"
         ]
@@ -295,10 +306,14 @@
         "family": true,
         "romance": 0,
         "like": 52,
-        "respect": 42,
+        "respect": 67,
         "comfort": 82,
-        "trust": 72,
-        "log": [],
+        "trust": 82,
+        "log": [
+            "Skippaw gained a greater appreciation for Dancingscreech's knowledge of nesting materials and camp-guarding technique. (positive effect)- Skippaw was 9 moons old",
+            "Skippaw and Dancingscreech practiced rescuing cats from the water. (positive effect)- Skippaw was 10 moons old",
+            "Skiphare and Dancingscreech practiced rescuing cats from the water. (positive effect)- Skiphare was 11 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
@@ -386,13 +401,14 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": -10,
+        "respect": -7,
         "comfort": 20,
-        "trust": 20,
+        "trust": 38,
         "log": [
             "Bitebone took Skippaw out to train and helped build up his confidence. (positive effect)- Skippaw was 6 moons old",
             "Skippaw was frustrated that Bitebone wouldn't let him lead a training session. (negative effect)- Skippaw was 7 moons old",
-            "Skippaw sought Bitebone's advice on how to manage relationships with cats outside the Clan. (positive effect)- Skippaw was 8 moons old"
+            "Skippaw sought Bitebone's advice on how to manage relationships with cats outside the Clan. (positive effect)- Skippaw was 8 moons old",
+            "Skippaw and Bitebone practiced rescuing cats from the water. (positive effect)- Skippaw was 10 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -425,9 +441,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 17,
+        "trust": 29,
         "log": [
-            "Bouncepelt let Skipkit lean on his shoulder after a recent injury. (medium positive effect)- Skipkit was 1 moon old"
+            "Bouncepelt let Skipkit lean on his shoulder after a recent injury. (medium positive effect)- Skipkit was 1 moon old",
+            "Bouncepelt let Skippaw lean on his shoulder after a recent injury. (medium positive effect)- Skippaw was 10 moons old"
         ],
         "no_longer_neutral": [
             "trust"
@@ -575,12 +592,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -25,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "When Skippaw needs someone to do him a favor, he never asks Bushberry first. (medium negative effect)- Skippaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -627,12 +648,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Skippaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -653,12 +679,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Skippaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -679,12 +710,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dancingpaw, Hailpaw, Skippaw, and Volepaw respect how dutiful Shardtail is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Skippaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -973,14 +1009,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 3,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Skipkit noticed how successful Paellapad's hunting patrol was. (positive effect)- Skipkit was 2 moons old"
+            "Skipkit noticed how successful Paellapad's hunting patrol was. (positive effect)- Skipkit was 2 moons old",
+            "Paellapad, Flightsplash, and Skiphare had a nice talk while eating. (positive effect)- Skiphare was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -1059,10 +1099,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Mallowpelt doesn't laugh when Skiphare does something embarrassing. (medium positive effect)- Skiphare was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -1070,12 +1114,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Onemuzzle, wanting to help keep their Clanmates in shape and ready for anything, wakes Dancingpaw, Snakepaw, Shimmerpaw, and Skippaw up early for morning stretches. (negative effect)- Skippaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -1083,12 +1132,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
+        "like": -25,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Skipkit was 1 moon old"
+            "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Skipkit was 1 moon old",
+            "Skiphare and Voletuft argued about what to practice on a training patrol. (negative effect)- Skiphare was 12 moons old",
+            "When Skiphare tells Voletuft about a goal he has, Voletuft snickers at it. (low negative effect)- Skiphare was 13 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1122,9 +1173,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 20,
         "respect": 30,
-        "comfort": 41,
+        "comfort": 54,
         "trust": 12,
         "log": [
             "Skipkit appreciates Saltkit for who he is. (medium positive effect)- Skipkit was 2 moons old",
@@ -1146,13 +1197,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
+        "like": 13,
         "respect": 0,
-        "comfort": 15,
+        "comfort": 23,
         "trust": -12,
         "log": [
             "Flightkit volunteers Skipkit for something that he didn't want to do... (medium negative effect)- Skipkit was 3 moons old",
-            "Flightpaw and Skippaw bonded over hating mouse bile. (positive effect)- Skippaw was 7 moons old"
+            "Flightpaw and Skippaw bonded over hating mouse bile. (positive effect)- Skippaw was 7 moons old",
+            "Paellapad, Flightsplash, and Skiphare had a nice talk while eating. (positive effect)- Skiphare was 11 moons old",
+            "Skiphare and Flightsplash argued about what to practice on a training patrol. (negative effect)- Skiphare was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1200,12 +1253,14 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 30,
-        "respect": 0,
+        "like": 20,
+        "respect": 5,
         "comfort": 40,
-        "trust": 24,
+        "trust": 29,
         "log": [
-            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Skipkit was 5 moons old"
+            "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Skipkit was 5 moons old",
+            "Skiphare and Hailfreckle practiced rescuing cats from the water. (positive effect)- Skiphare was 11 moons old",
+            "Skiphare and Hailfreckle argued about what to practice on a training patrol. (negative effect)- Skiphare was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1240,17 +1295,21 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 11,
-        "trust": 19,
+        "trust": 29,
         "log": [
             "Rollkit compliments one of Skipkit's friends. (low positive effect)- Skipkit was 3 moons old",
             "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Skipkit was 5 moons old",
-            "Rollpaw follows through on a small promise made with Skippaw. (low positive effect)- Skippaw was 7 moons old"
+            "Rollpaw follows through on a small promise made with Skippaw. (low positive effect)- Skippaw was 7 moons old",
+            "Skippaw and Rollpaw practiced rescuing cats from the water. (positive effect)- Skippaw was 10 moons old",
+            "Skiphare and Rollpaw practiced rescuing cats from the water. (positive effect)- Skiphare was 11 moons old",
+            "Skiphare and Rollshock argued about what to practice on a training patrol. (negative effect)- Skiphare was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "trust",
             "comfort"
         ]
@@ -1280,13 +1339,18 @@
         "cat_to_id": "97",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Skippaw laughs at bad jokes from Snakepaw. (medium positive effect)- Skippaw was 9 moons old",
+            "Skiphare didn't know that Snakepaw was so talented. (medium positive effect)- Skiphare was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "92",
@@ -1360,6 +1424,49 @@
     {
         "cat_from_id": "92",
         "cat_to_id": "103",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": -7,
+        "log": [
+            "Mallardfeather gave Skiphare a gift that doesn't make sense. (medium negative effect)- Skiphare was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "92",
+        "cat_to_id": "108",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "92",
+        "cat_to_id": "109",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "92",
+        "cat_to_id": "110",
         "mates": false,
         "family": false,
         "romance": 0,

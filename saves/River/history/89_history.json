@@ -9,18 +9,33 @@
         "trait": {
             "52": {
                 "stability": -2,
-                "sociability": 2,
-                "lawfulness": -1
+                "sociability": 4,
+                "lawfulness": -1,
+                "aggression": -2,
+                "strings": [
+                    "dwell on things",
+                    "step out of {PRONOUN\/m_c\/poss} comfort zone",
+                    "make {PRONOUN\/m_c\/poss} own rules",
+                    "avoid a fight"
+                ]
             }
         },
         "skill": {
             "52": {
-                "SENSE": 8,
-                "HUNTER": 1
+                "SENSE": 14,
+                "HUNTER": 1,
+                "strings": [
+                    "noticing small details",
+                    "hunting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "integrity",
+        "graduation_age": 10,
+        "moon": 89
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

@@ -8,17 +8,28 @@
     "mentor_influence": {
         "trait": {
             "14": {
-                "lawfulness": 4,
-                "aggression": -1
+                "lawfulness": 7,
+                "aggression": -4,
+                "strings": [
+                    "have strong inner morals",
+                    "try to avoid violence"
+                ]
             }
         },
         "skill": {
             "14": {
-                "HEALER": 6
+                "HEALER": 17,
+                "strings": [
+                    "healing"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "level-headedness",
+        "graduation_age": 14,
+        "moon": 93
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
