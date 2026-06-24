@@ -265,7 +265,12 @@ while 1:
                 if game.clan and switch_get_value(Switch.cur_screen) not in (
                     GameScreen.START,
                     GameScreen.SWITCH_CLAN,
-                    GameScreen.MAKE_CLAN,
+                    GameScreen.MAKE_CLAN_CHOOSE_MODE,
+                    GameScreen.MAKE_CLAN_CHOOSE_NAME,
+                    GameScreen.MAKE_CLAN_CHOOSE_CATS,
+                    GameScreen.MAKE_CLAN_CHOOSE_CAMP,
+                    GameScreen.MAKE_CLAN_CHOOSE_SYMBOL,
+                    GameScreen.MAKE_CLAN_CLAN_CREATED,
                 ):
                     source_screen=all_screens.screen_dict[switch_get_value(Switch.cur_screen).replace(" ", "_")]
                     # If the current screen has a save button, use that button to save
