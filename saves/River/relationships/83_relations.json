@@ -187,14 +187,16 @@
         "like": 15,
         "respect": 0,
         "comfort": 35,
-        "trust": 35,
+        "trust": 48,
         "log": [
             "Gracklefur had fun cracking open a coconut with Bitterleaf. (positive effect)- Gracklefur was 55 moons old",
             "Gracklefur is admiring Bitterleaf from afar... (low positive effect)- Gracklefur was 61 moons old",
             "Gracklefur and Bitterleaf swapped hunting tips while training together. (positive effect) - Gracklefur was 75 moons old",
             "Bitterleaf rescued Gracklefur when sand caved in under him. (positive effect) - Gracklefur was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -356,14 +358,17 @@
         "romance": 0,
         "like": 31,
         "respect": 0,
-        "comfort": 23,
+        "comfort": 35,
         "trust": 15,
         "log": [
             "Archbellow was part of the patrol that invited Gracklefur to RiverClan. (positive effect)- Gracklefur was 52 moons old",
             "Gracklefur was impressed by Archbellow's confidence in fighting rogues. (positive effect)- Gracklefur was 57 moons old",
-            "Gracklefur learns that Archbellow is scared of thunder, too. (low positive effect)- Gracklefur was 62 moons old"
+            "Gracklefur learns that Archbellow is scared of thunder, too. (low positive effect)- Gracklefur was 62 moons old",
+            "Gracklefur notices that Archbellow brought him a big piece of prey. (medium positive effect) - Gracklefur was 81 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -400,9 +405,7 @@
             "Mallardfeather's eagerness to do early morning stretches rubs off on Petalglow, Gracklefur, Bushberry, and Bitebone. (positive effect)- Gracklefur was 68 moons old",
             "Gracklefur quickly apologizes after bumping into Bitebone. They have a small laugh about it. (low positive effect) - Gracklefur was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "83",
@@ -478,12 +481,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 5,
+        "respect": 16,
+        "comfort": 14,
+        "trust": 6,
+        "log": [
+            "Gracklefur overhears Suntooth educating Clanmates about their fallen ancestors. (high positive effect) - Gracklefur was 80 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -695,12 +704,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": -3,
         "log": [
-            "Gracklefur and Amberfur had a productive training patrol together. (positive effect)- Gracklefur was 56 moons old"
+            "Gracklefur and Amberfur had a productive training patrol together. (positive effect)- Gracklefur was 56 moons old",
+            "Amberfur tells Fluttershade, Gracklefur, Shadowpaw, and Snookpaw a story that earns more skepticism than admiration. (negative effect) - Gracklefur was 80 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -931,11 +941,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "comfort": 5,
+        "trust": 5,
+        "log": [
+            "Gracklefur was impressed by Snippool's confidence in fighting rogues. (positive effect) - Gracklefur was 80 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1000,10 +1012,7 @@
             "Gracklefur attempts to keep Onepaw, Mallowpaw, Pheasantpaw, and Poolpaw focused during training, but the four continuously talk about unrelated topics. (negative effect)- Gracklefur was 61 moons old",
             "Poolleaf leaped to Gracklefur's defense when she saw a dog attacking him. (positive effect) - Gracklefur was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "83",
@@ -1393,9 +1402,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -7,
+        "log": [
+            "Dahliacrest tries to convince Gracklefur that an obvious lie is real. (medium negative effect) - Gracklefur was 81 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1576,10 +1589,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1603,9 +1619,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1639,12 +1657,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Glowkit accidentally gave Gracklefur a piece of fresh-kill he didn't like. (low negative effect) - Gracklefur was 80 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1678,12 +1700,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gracklefur was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Gracklefur was 80 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1698,9 +1725,7 @@
         "log": [
             "Gracklefur heard an ugly rumor about Midnightkit. (high negative effect) - Gracklefur was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "83",
@@ -1728,10 +1753,7 @@
         "log": [
             "Gracklefur was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Gracklefur was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "83",
@@ -1775,6 +1797,45 @@
     {
         "cat_from_id": "83",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "83",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "83",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "83",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

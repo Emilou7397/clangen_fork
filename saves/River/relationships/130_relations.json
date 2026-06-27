@@ -20,10 +20,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "The moon casts a shadow on Heatherfern's face in a way that makes Currentkit uneasy. (medium negative effect) - Currentkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -233,9 +237,7 @@
         "log": [
             "Currentkit and Yewstar say goodbye, but end up walking in the same direction. (low negative effect) - Currentkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -348,13 +350,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -8,
         "comfort": 10,
         "trust": 10,
         "log": [
-            "Craneflight was part of the patrol that saved Currentkit and brought her to RiverClan as a newborn. (positive effect) - Currentkit was 0 moons old"
+            "Craneflight was part of the patrol that saved Currentkit and brought her to RiverClan as a newborn. (positive effect) - Currentkit was 0 moons old",
+            "Currentpaw's friend says nice things about Craneflight, but it just makes Currentpaw jealous. (low negative effect) - Currentpaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -761,8 +766,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Currentkit was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Currentkit was 4 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1171,10 +1178,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Currentkit heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Currentkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1259,9 +1268,7 @@
             "Currentkit reassures Drizzlekit about something that was bothering her. (low positive effect) - Currentkit was 2 moons old",
             "Currentkit learns that Drizzlekit is scared of thunder, too. (low positive effect) - Currentkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1276,12 +1283,7 @@
         "log": [
             "Currentkit can't wait to be apprentices with Gorgekit. (high positive effect) - Currentkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1314,13 +1316,16 @@
         "cat_to_id": "133",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 13,
+        "like": 13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1355,11 +1360,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Currentpaw doesn't tell Molekit that he forgot to groom a part of his fur. (low negative effect) - Currentpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1367,12 +1376,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1398,10 +1410,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1453,9 +1462,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1470,9 +1477,7 @@
         "log": [
             "Currentkit finds her feelings conflicted towards the new family addition. (neutral effect) - Currentkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1503,6 +1508,45 @@
     {
         "cat_from_id": "130",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

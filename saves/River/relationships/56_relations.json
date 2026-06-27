@@ -69,13 +69,16 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 17,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Gardeniaglow convinces Heatherfern, Pearpelt, Hailfreckle, and Amberfur to wind down and stretch with him. (positive effect) - Amberfur was 34 moons old"
+            "Gardeniaglow convinces Heatherfern, Pearpelt, Hailfreckle, and Amberfur to wind down and stretch with him. (positive effect) - Amberfur was 34 moons old",
+            "Amberfur and Heatherfern debate about something interesting. They end up agreeing. (medium positive effect) - Amberfur was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -278,13 +281,15 @@
         "like": 24,
         "respect": -8,
         "comfort": 12,
-        "trust": -5,
+        "trust": -13,
         "log": [
             "Amberpaw heard Fidgetmouse fell asleep guarding camp. (negative effect)- Amberpaw was 9 moons old",
             "Kamautail, Fidgetmouse, Tomatofreckle, Burrweb, and Amberfur hang out while stretching. (positive effect)- Amberfur was 24 moons old",
             "Amberfur can barely keep up with Fidgetmouse. (medium positive effect) - Amberfur was 30 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -362,9 +367,7 @@
             "Bouncepelt, Amberfur, Burrweb, and Fluttershade wish that Auburnsplash let them sleep instead of getting them up for early morning stretches. (negative effect)- Amberfur was 23 moons old",
             "Amberfur thinks that Auburnsplash is very creative. (medium positive effect) - Amberfur was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -453,10 +456,11 @@
         "like": 0,
         "respect": 6,
         "comfort": 0,
-        "trust": -5,
+        "trust": 3,
         "log": [
             "Amberkit saw Bouncepelt defend the fresh-kill pile from a horde of rats. (positive effect)- Amberkit was 0 moons old",
-            "Amberfur heard that Bouncepelt touched noses with a loner. (negative effect)- Amberfur was 21 moons old"
+            "Amberfur heard that Bouncepelt touched noses with a loner. (negative effect)- Amberfur was 21 moons old",
+            "Bouncepelt lets Amberfur know that a Clanmate was talking badly about him. (low positive effect) - Amberfur was 38 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1069,12 +1073,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 26,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 21,
+        "comfort": 8,
+        "trust": 32,
+        "log": [
+            "Amberfur is wowed by how bravely Sardinespeckle fought the other day. (high positive effect) - Amberfur was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -1148,11 +1159,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
-            "Amberpaw was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect)- Amberpaw was 8 moons old"
+            "Amberpaw was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect)- Amberpaw was 8 moons old",
+            "Amberfur was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Amberfur was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -1656,10 +1670,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Amberfur heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Amberfur was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1788,11 +1804,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Amberfur sees a glimmer of determination in Pestofoot's eyes. (low positive effect) - Amberfur was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -1979,6 +1999,45 @@
     {
         "cat_from_id": "56",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "56",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "56",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "56",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

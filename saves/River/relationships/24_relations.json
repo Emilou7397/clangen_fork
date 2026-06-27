@@ -127,7 +127,7 @@
         "cat_to_id": "32",
         "mates": false,
         "family": false,
-        "romance": 21,
+        "romance": 34,
         "like": 43,
         "respect": 7,
         "comfort": 6,
@@ -136,7 +136,8 @@
             "These cats recently interacted.- Petal was 144 moons old",
             "Craneflight points out that Petalglow's fresh-kill has gone bad before she eats it. (medium positive effect)- Petalglow was 151 moons old",
             "Craneflight does something that makes Petalglow's day a little happier. (low positive effect) - Petalglow was 155 moons old",
-            "Petalglow gave a pretty flower she found to Craneflight. (high positive effect) - Petalglow was 156 moons old"
+            "Petalglow gave a pretty flower she found to Craneflight. (high positive effect) - Petalglow was 156 moons old",
+            "Petalglow never realized how much she loves spending time with Craneflight. (low positive effect) - Petalglow was 162 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -233,21 +234,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
-        "respect": -12,
-        "comfort": 12,
-        "trust": 12,
+        "like": -11,
+        "respect": -16,
+        "comfort": -4,
+        "trust": 7,
         "log": [
             "These cats recently interacted.- Petal was 144 moons old",
             "Mallardfeather's eagerness to do early morning stretches rubs off on Petalglow, Gracklefur, Bushberry, and Bitebone. (positive effect)- Petalglow was 149 moons old",
             "Bushberry makes a crude remark about the Clan to Petalglow. (medium negative effect) - Petalglow was 152 moons old",
             "Petalglow and Bushberry volunteer to go on an extra border patrol together. (medium positive effect) - Petalglow was 159 moons old",
-            "Bushberry tracked a trail of muddy pawprints into the elder's den, straight through the nests of Erminedaisy and Petalglow. (negative effect) - Petalglow was 160 moons old"
+            "Bushberry tracked a trail of muddy pawprints into the elder's den, straight through the nests of Erminedaisy and Petalglow. (negative effect) - Petalglow was 160 moons old",
+            "Petalglow feels extremely unsettled when Bushberry looks at her. (high negative effect) - Petalglow was 161 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
             "trust"
         ]
     },
@@ -296,9 +297,7 @@
             "These cats recently interacted.- Petal was 144 moons old",
             "Petalglow is disappointed in Algaepool's lack of initiative. (medium negative effect) - Petalglow was 160 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "24",
@@ -917,16 +916,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -12,
         "log": [
             "These cats recently interacted.- Petal was 144 moons old",
             "Petalglow doesn't think that Erminedaisy's intentions are all pure. (medium negative effect)- Petalglow was 148 moons old",
-            "Erminedaisy thanked Petalglow for bringing him food. (low positive effect) - Petalglow was 154 moons old"
+            "Erminedaisy thanked Petalglow for bringing him food. (low positive effect) - Petalglow was 154 moons old",
+            "While Erminedaisy gorges on his piece of fresh kill, Mosscrackle, Bushberry, and Petalglow find that eating is suddenly less appealing. (negative effect) - Petalglow was 162 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "24",
@@ -1015,12 +1018,14 @@
         "like": 4,
         "respect": 0,
         "comfort": 15,
-        "trust": 0,
+        "trust": -13,
         "log": [
             "These cats recently interacted.- Petal was 144 moons old",
             "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Petalglow was 153 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "24",
@@ -1028,14 +1033,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted.- Petal was 144 moons old"
+            "These cats recently interacted.- Petal was 144 moons old",
+            "Petalglow stiffens up a little whenever someone mentions Carptail. (medium negative effect) - Petalglow was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "24",
@@ -1119,14 +1127,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 8,
+        "respect": 3,
+        "comfort": 11,
+        "trust": 4,
         "log": [
-            "These cats recently interacted.- Petal was 144 moons old"
+            "These cats recently interacted.- Petal was 144 moons old",
+            "Petalglow asks Pearpelt to look at a little cut on her leg. (high positive effect) - Petalglow was 162 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "24",
@@ -1134,12 +1146,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": -2,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted.- Petal was 144 moons old"
+            "These cats recently interacted.- Petal was 144 moons old",
+            "Petalglow keeps complaining about something Kamautail did. (medium negative effect) - Petalglow was 162 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1322,14 +1335,17 @@
         "like": 17,
         "respect": 4,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "These cats recently interacted.- Petal was 144 moons old",
             "Petalglow always makes time to listen to one of Mosscrackle's stories. (medium positive effect)- Petalglow was 147 moons old",
             "Mosscrackle snickered when Petalglow tripped. (low negative effect) - Petalglow was 158 moons old",
-            "Petalglow wasn't going to help a Clanmate, but realized that Mosscrackle would do it in a heartbeat. (medium positive effect) - Petalglow was 160 moons old"
+            "Petalglow wasn't going to help a Clanmate, but realized that Mosscrackle would do it in a heartbeat. (medium positive effect) - Petalglow was 160 moons old",
+            "Petalglow was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Petalglow was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "24",
@@ -1538,10 +1554,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Petalglow heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Petalglow was 161 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1863,6 +1881,45 @@
     {
         "cat_from_id": "24",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "24",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "24",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "24",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

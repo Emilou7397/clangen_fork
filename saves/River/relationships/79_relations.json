@@ -248,7 +248,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 13,
         "respect": -7,
         "comfort": 17,
         "trust": 0,
@@ -259,8 +259,7 @@
             "Fidgetmouse returned to the warrior's den dripping mud everywhere and managed to ruin Bitterleaf and Icyriver's nests. (negative effect) - Icyriver was 35 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -628,12 +627,7 @@
             "Icyriver and Hushshimmer practiced their pair-fighting together and gained greater trust in each other. (positive effect)- Icyriver was 22 moons old",
             "Icyriver, Brindletooth, and Hushshimmer took a sunbath and had a little small talk. (positive effect) - Icyriver was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "79",
@@ -693,13 +687,15 @@
         "romance": 0,
         "like": 6,
         "respect": 8,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -8,
         "log": [
             "Icyriver got tricked into doing one of Fringesnap's chores. (low negative effect)- Icyriver was 12 moons old",
             "When tucking in for the night, Icyriver saw that Fringesnap fixed her nest. (low positive effect) - Icyriver was 35 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -726,17 +722,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 13,
         "respect": 0,
         "comfort": 16,
-        "trust": -7,
+        "trust": -2,
         "log": [
             "Icyriver and Fleadusk worked together to steal a fox's prey. (positive effect)- Icyriver was 12 moons old",
             "Stoatshade, Icyriver, and Fleadusk had a nice talk while eating. (positive effect)- Icyriver was 19 moons old",
             "Fleadusk let Icyriver down when Icyriver was counting on him. (medium negative effect)- Icyriver was 26 moons old",
-            "Icyriver shares a joke about a neighboring Clan with Fleadusk. (low positive effect) - Icyriver was 30 moons old"
+            "Icyriver shares a joke about a neighboring Clan with Fleadusk. (low positive effect) - Icyriver was 30 moons old",
+            "Icyriver and Fleadusk had a productive training patrol together. (positive effect) - Icyriver was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -757,10 +757,10 @@
         "mates": false,
         "family": false,
         "romance": 5,
-        "like": 24,
+        "like": 29,
         "respect": 29,
         "comfort": 21,
-        "trust": 10,
+        "trust": 15,
         "log": [
             "Skulkwillow guides Icyriver to someone she is looking for. (low positive effect)- Icyriver was 11 moons old",
             "Icyriver and Skulkwillow got extra close while huddling for warmth in a snowstorm. (positive effect)- Icyriver was 15 moons old",
@@ -768,9 +768,15 @@
             "Hailkit, Skulkwillow, and Icyriver took a sunbath and had a little small talk. (positive effect)- Icyriver was 18 moons old",
             "Skulkwillow, wanting to help keep his Clanmates in shape and ready for anything, wakes Brindletooth, Murkhaven, Icyriver, and Verbenabloom up early for morning stretches. (negative effect)- Icyriver was 18 moons old",
             "Icyriver thought Skulkwillow was polite today. (low positive effect)- Icyriver was 24 moons old",
-            "Icyriver and Skulkwillow practiced their hunting together. (positive effect) - Icyriver was 30 moons old"
+            "Icyriver and Skulkwillow practiced their hunting together. (positive effect) - Icyriver was 30 moons old",
+            "Icyriver and Skulkwillow had a productive training patrol together. (positive effect) - Icyriver was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -778,17 +784,20 @@
         "mates": false,
         "family": false,
         "romance": 5,
-        "like": 10,
+        "like": 15,
         "respect": 0,
         "comfort": -3,
-        "trust": -3,
+        "trust": 2,
         "log": [
             "Icyriver and Murkhaven got extra close while huddling for warmth in a snowstorm. (positive effect)- Icyriver was 15 moons old",
             "Icyriver and Murkhaven enjoyed telling ghost stories on patrol. (positive effect)- Icyriver was 19 moons old",
             "Icyriver and Murkhaven reach for the same piece of prey and bicker over it. Icyriver gets it. (low negative effect) - Icyriver was 28 moons old",
-            "Icyriver and Murkhaven practiced their hunting together. (positive effect) - Icyriver was 30 moons old"
+            "Icyriver and Murkhaven practiced their hunting together. (positive effect) - Icyriver was 30 moons old",
+            "Icyriver and Murkhaven had a productive training patrol together. (positive effect) - Icyriver was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -830,10 +839,10 @@
         "mates": false,
         "family": false,
         "romance": 16,
-        "like": 21,
+        "like": 23,
         "respect": 9,
-        "comfort": 31,
-        "trust": 38,
+        "comfort": 23,
+        "trust": 48,
         "log": [
             "Icypaw and Elmpaw enjoyed working on their skills together on a training patrol. (positive effect)- Icypaw was 8 moons old",
             "Icyriver likes to sit near Elmtrail during conversations. (low positive effect)- Icyriver was 17 moons old",
@@ -843,9 +852,17 @@
             "Icyriver and Elmtrail spent some time sunning together while on patrol. (positive effect)- Icyriver was 24 moons old",
             "Icyriver and Elmtrail practiced their hunting together. (positive effect) - Icyriver was 30 moons old",
             "Icyriver overhears Elmtrail dispelling a false rumor about a Clanmate. (medium positive effect) - Icyriver was 32 moons old",
-            "Icyriver appreciated how Elmtrail de-escalated the conflict between Icyriver and Poolleaf. (positive effect) - Icyriver was 35 moons old"
+            "Icyriver appreciated how Elmtrail de-escalated the conflict between Icyriver and Poolleaf. (positive effect) - Icyriver was 35 moons old",
+            "Icyriver and Elmtrail practiced their hunting together. (positive effect) - Icyriver was 36 moons old",
+            "Icyriver and Elmtrail had a productive training patrol together. (positive effect) - Icyriver was 37 moons old",
+            "Spittle and flecks of bone fly while Elmtrail gobbles down prey, reminding Murkhaven, Icyriver, Skulkwillow, and Shinefur to seek out better mealtime companionship next time. (negative effect) - Icyriver was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -853,10 +870,10 @@
         "mates": false,
         "family": false,
         "romance": 20,
-        "like": 33,
-        "respect": 6,
+        "like": 38,
+        "respect": 16,
         "comfort": -4,
-        "trust": 5,
+        "trust": 10,
         "log": [
             "Icypaw is taken aback by one of Brindlekit's comments. (low negative effect)- Icypaw was 7 moons old",
             "In the middle of a conversation, Icypaw and Brindlepaw realize they have less in common than they thought. (medium negative effect)- Icypaw was 8 moons old",
@@ -866,11 +883,14 @@
             "Icyriver disliked Brindletooth's idea for a training exercise. (negative effect) - Icyriver was 27 moons old",
             "Icyriver has a discussion with Brindletooth over favorite prey, and now they both have a new appreciation for each others' tastes (medium positive effect) - Icyriver was 28 moons old",
             "Icyriver and Brindletooth practiced their hunting together. (positive effect) - Icyriver was 30 moons old",
-            "Icyriver, Brindletooth, and Hushshimmer took a sunbath and had a little small talk. (positive effect) - Icyriver was 36 moons old"
+            "Icyriver, Brindletooth, and Hushshimmer took a sunbath and had a little small talk. (positive effect) - Icyriver was 36 moons old",
+            "Icyriver and Brindletooth had a productive training patrol together. (positive effect) - Icyriver was 37 moons old",
+            "Icyriver appreciated Brindletooth taking charge to coordinate battle training for the patrol. (positive effect) - Icyriver was 37 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "respect"
+            "respect",
+            "trust"
         ]
     },
     {
@@ -929,14 +949,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 3,
-        "trust": 7,
+        "trust": 12,
         "log": [
-            "Talonlake is building up Icyriver's confidence. (medium positive effect)- Icyriver was 20 moons old"
+            "Talonlake is building up Icyriver's confidence. (medium positive effect)- Icyriver was 20 moons old",
+            "Icyriver and Talonlake practiced their hunting together. (positive effect) - Icyriver was 36 moons old",
+            "Icyriver appreciated Talonlake taking charge during a training patrol. (positive effect) - Icyriver was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -944,18 +968,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 24,
+        "like": 29,
         "respect": 22,
         "comfort": 16,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Frondpaw guides Icyriver to someone she is looking for. (low positive effect)- Icyriver was 14 moons old",
             "Icyriver heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Icyriver was 19 moons old",
             "Frondpad, Riomane, and Icyriver had a nice talk while eating. (positive effect)- Icyriver was 21 moons old",
             "Icyriver notices that Frondpad is always one of the first to volunteer for a difficult task. (medium positive effect)- Icyriver was 22 moons old",
-            "Icyriver, Frondpad, and Paellapad took a sunbath and had a little small talk. (positive effect)- Icyriver was 23 moons old"
+            "Icyriver, Frondpad, and Paellapad took a sunbath and had a little small talk. (positive effect)- Icyriver was 23 moons old",
+            "Icyriver and Frondpad practiced their hunting together. (positive effect) - Icyriver was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -991,9 +1020,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 96,
-        "respect": 68,
-        "comfort": 96,
+        "like": 100,
+        "respect": 72,
+        "comfort": 100,
         "trust": 100,
         "log": [
             "Paella inspired Icypaw to train harder. (positive effect)- Icypaw was 6 moons old",
@@ -1003,9 +1032,15 @@
             "Icypaw and Paellapad hoped to spend some quality time together, but the afternoon didn't go to plan. (negative effect)- Icypaw was 10 moons old",
             "Icyriver noticed how successful Paellapad's hunting patrol was. (positive effect)- Icyriver was 16 moons old",
             "Icyriver, Frondpad, and Paellapad took a sunbath and had a little small talk. (positive effect)- Icyriver was 23 moons old",
-            "Icyriver and Paellapad talk about what they see in the clouds. (low positive effect) - Icyriver was 30 moons old"
+            "Icyriver and Paellapad talk about what they see in the clouds. (low positive effect) - Icyriver was 30 moons old",
+            "Paellapad calls out the Clan for targeting Icyriver. (high positive effect) - Icyriver was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1030,11 +1065,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Icyriver and Pheasantbrush practiced their hunting together. (positive effect) - Icyriver was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1056,15 +1093,18 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 13,
+        "trust": 18,
         "log": [
             "Icyriver appreciates Mallowpelt telling her that she had a feather stuck to her face. (low positive effect) - Icyriver was 32 moons old",
-            "Icyriver can't help but smile seeing Mallowpelt smile. (low positive effect) - Icyriver was 34 moons old"
+            "Icyriver can't help but smile seeing Mallowpelt smile. (low positive effect) - Icyriver was 34 moons old",
+            "Icyriver and Mallowpelt practiced their hunting together. (positive effect) - Icyriver was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1295,13 +1335,18 @@
         "cat_to_id": "99",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 9,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Icyriver realizes that Hollyheart's been avoiding her. (medium negative effect) - Icyriver was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1311,9 +1356,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "The silence between Icyriver and Kiwifoot feels more uncomfortable than usual. (low negative effect) - Icyriver was 38 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1666,12 +1713,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathkit, Glowkit, and Icyriver took a sunbath and had a little small talk. (positive effect) - Icyriver was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1705,12 +1757,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Icyriver was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Icyriver was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1751,10 +1808,7 @@
         "log": [
             "Icyriver was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Icyriver was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "79",
@@ -1762,12 +1816,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -4,
+        "comfort": -11,
+        "trust": -2,
+        "log": [
+            "Icyriver bristles after being scolded by Shiveringkit. (high negative effect) - Icyriver was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1775,12 +1833,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathkit, Glowkit, and Icyriver took a sunbath and had a little small talk. (positive effect) - Icyriver was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "79",
@@ -1798,6 +1861,45 @@
     {
         "cat_from_id": "79",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "79",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "79",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "79",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

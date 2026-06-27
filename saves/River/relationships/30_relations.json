@@ -424,7 +424,7 @@
         "romance": 0,
         "like": 42,
         "respect": -5,
-        "comfort": 24,
+        "comfort": 32,
         "trust": -15,
         "log": [
             "Burrkit was not happy to hear that Fidgetmouse was caught outside of the Clan's territory. (negative effect)- Burrkit was 0 moons old",
@@ -436,7 +436,9 @@
             "Kamautail, Fidgetmouse, Tomatofreckle, Burrweb, and Amberfur hang out while stretching. (positive effect)- Burrweb was 59 moons old",
             "Burrweb explains what a joke means to Fidgetmouse. (low positive effect)- Burrweb was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -783,8 +785,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 100,
-        "respect": 18,
+        "like": 92,
+        "respect": 10,
         "comfort": 86,
         "trust": 69,
         "log": [
@@ -817,9 +819,15 @@
             "Burrweb and Suntooth had a successful hunt together. (positive effect)- Burrweb was 51 moons old",
             "Burrweb heard Suntooth fell asleep guarding camp. (negative effect)- Burrweb was 52 moons old",
             "Gardeniaglow convinces Shardtail, Burrweb, Suntooth, and Curryfoot to wind down and stretch with him. (positive effect)- Burrweb was 52 moons old",
-            "Late into the evening, Burrweb invites Bouncepelt, Suntooth, Prancelaurel, and Peakspore to stretch with him and enjoy each other's company. (positive effect)- Burrweb was 56 moons old"
+            "Late into the evening, Burrweb invites Bouncepelt, Suntooth, Prancelaurel, and Peakspore to stretch with him and enjoy each other's company. (positive effect)- Burrweb was 56 moons old",
+            "Suntooth complained so relentlessly about her patrol assignment that Burrweb, Quailfur, and Gentleghost could only sigh and bear it. (negative effect) - Burrweb was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -1286,21 +1294,17 @@
             "Burrweb noticed that Skulkwillow was in a foul mood. (negative effect)- Burrweb was 49 moons old",
             "Burrweb had a difficult conversation with Skulkwillow and they now have a deeper understanding of each other. (high positive effect) - Burrweb was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "30",
         "cat_to_id": "65",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 0,
         "like": 16,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 0,
         "trust": 0,
         "log": [
             "Reedheart, Burrweb, and Murkhaven took a sunbath and had a little small talk. (positive effect)- Burrweb was 54 moons old"
@@ -1313,10 +1317,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 26,
-        "respect": -7,
-        "comfort": 4,
-        "trust": 28,
+        "like": 42,
+        "respect": -3,
+        "comfort": 10,
+        "trust": 33,
         "log": [
             "Burrweb offers to take Diablofoot's place on a patrol when she isn't feeling well. (medium positive effect)- Burrweb was 40 moons old",
             "Burrweb and Diablofoot enjoyed brushing up on their hunting tricks together. (positive effect)- Burrweb was 40 moons old",
@@ -1330,9 +1334,14 @@
             "Burrweb was sarcastic to Diablofoot at an inappropriate time. (high negative effect) - Burrweb was 64 moons old",
             "Burrweb appreciated Diablofoot's cooperation in testing out a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Burrweb was 64 moons old",
             "Burrweb saw Diablofoot's patrol go out to hunt for the Clan despite the snow. (positive effect) - Burrweb was 65 moons old",
-            "Burrweb heard Diablofoot fell asleep guarding camp. (negative effect) - Burrweb was 66 moons old"
+            "Burrweb heard Diablofoot fell asleep guarding camp. (negative effect) - Burrweb was 66 moons old",
+            "Burrweb and Diablofoot enjoy each other's company. (high positive effect) - Burrweb was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -1478,9 +1487,7 @@
             "Burrweb includes Snippool in a conversation that Snippool struggled to join. (low positive effect) - Burrweb was 68 moons old",
             "Burrweb greets Snippool as she's exiting the warriors' den. (medium positive effect) - Burrweb was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "30",
@@ -1491,11 +1498,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
-            "Burrweb was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect)- Burrweb was 43 moons old"
+            "Burrweb was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect)- Burrweb was 43 moons old",
+            "Burrweb was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Burrweb was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -1567,15 +1577,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
+        "like": 11,
         "respect": -4,
         "comfort": -5,
         "trust": -11,
         "log": [
             "Burrweb and Gracklefur drove off rogues together. (positive effect)- Burrweb was 46 moons old",
-            "Burrweb learns that Gracklefur has been using him for something. (high negative effect)- Burrweb was 59 moons old"
+            "Burrweb learns that Gracklefur has been using him for something. (high negative effect)- Burrweb was 59 moons old",
+            "Gracklefur guides Burrweb to someone he is looking for. (low positive effect) - Burrweb was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -2217,14 +2230,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 31,
+        "like": 44,
         "respect": 12,
         "comfort": 30,
         "trust": 22,
         "log": [
             "Burrweb visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Burrweb was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "30",
@@ -2345,11 +2360,45 @@
         "comfort": 75,
         "trust": 65,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "30",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "30",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "30",
+        "cat_to_id": "153",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

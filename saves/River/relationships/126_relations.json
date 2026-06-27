@@ -159,10 +159,7 @@
         "log": [
             "After the Gathering, Brinerump notices that Peatcrest is making sure everyone got home. (low positive effect) - Brinerump was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -376,12 +373,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 6,
+        "respect": 7,
+        "comfort": 21,
+        "trust": 6,
+        "log": [
+            "Brinerump can tell Suntooth worries about his health and safety. (high positive effect) - Brinerump was 58 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -392,9 +396,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 13,
-        "trust": 0,
+        "trust": -3,
         "log": [
-            "Brinerump and Pearpelt drink from the same puddle. (low positive effect) - Brinerump was 53 moons old"
+            "Brinerump and Pearpelt drink from the same puddle. (low positive effect) - Brinerump was 53 moons old",
+            "Pearpelt won't tell Brinerump what's got them acting weird. (low negative effect) - Brinerump was 57 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -472,9 +477,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -12,
+        "log": [
+            "Brinerump asks Freezefoot about a lie Freezefoot told, but she dodges the question. (medium negative effect) - Brinerump was 58 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -545,9 +554,7 @@
         "log": [
             "Brinerump wants to be closer to Shardtail. (low positive effect) - Brinerump was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -787,8 +794,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Brinerump was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Brinerump was 57 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -878,11 +887,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Brinerump notices that Onemuzzle is fixing a damaged part of the camp without being asked. (low positive effect) - Brinerump was 57 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1051,11 +1064,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1200,10 +1215,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Brinerump heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Brinerump was 57 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1396,12 +1413,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1510,6 +1529,45 @@
     {
         "cat_from_id": "126",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

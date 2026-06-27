@@ -808,14 +808,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 0,
+        "like": 15,
+        "respect": 7,
+        "comfort": 29,
+        "trust": 8,
         "log": [
-            "Murkhaven, Dancingfleck, and Kiwifoot took a sunbath and had a little small talk. (positive effect) - Dancingfleck was 18 moons old"
+            "Murkhaven, Dancingfleck, and Kiwifoot took a sunbath and had a little small talk. (positive effect) - Dancingfleck was 18 moons old",
+            "After something unsettling happens, Dancingfleck and Murkhaven find comfort in one another's company. (high positive effect) - Dancingfleck was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -975,8 +981,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Dancingfleck was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Dancingfleck was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1232,7 +1240,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -2,
+        "like": -10,
         "respect": 10,
         "comfort": 7,
         "trust": 5,
@@ -1240,9 +1248,12 @@
             "Hailkit is appalled when Shimmerkit, Rollkit, Dancingkit, and Skipkit won't let him play as the leader, so he begins insulting everyone. (negative effect)- Dancingkit was 3 moons old",
             "Dancingpaw and Shimmerpaw bonded over hating mouse bile. (positive effect)- Dancingpaw was 9 moons old",
             "Dancingfleck enjoyed listening to Shimmerrunner's stories. (positive effect) - Dancingfleck was 12 moons old",
-            "Dancingfleck and Shimmerrunner had a productive training patrol together. (positive effect) - Dancingfleck was 17 moons old"
+            "Dancingfleck and Shimmerrunner had a productive training patrol together. (positive effect) - Dancingfleck was 17 moons old",
+            "Dancingfleck keeps asking Shimmerrunner to explain a joke, but Shimmerrunner just says that Dancingfleck had to be there. (low negative effect) - Dancingfleck was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1273,12 +1284,15 @@
         "like": 37,
         "respect": 0,
         "comfort": 26,
-        "trust": 24,
+        "trust": 32,
         "log": [
             "Dancingkit makes Snakekit his deputy in a game of KittenClan. (medium positive effect)- Dancingkit was 4 moons old",
-            "Dancingfleck and Snakedrop had a productive training patrol together. (positive effect) - Dancingfleck was 17 moons old"
+            "Dancingfleck and Snakedrop had a productive training patrol together. (positive effect) - Dancingfleck was 17 moons old",
+            "Dancingfleck gets some good advice from Snakedrop about something trivial. (low positive effect) - Dancingfleck was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1288,14 +1302,17 @@
         "romance": 0,
         "like": 15,
         "respect": 13,
-        "comfort": 8,
+        "comfort": 16,
         "trust": 16,
         "log": [
             "Dancingkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Dancingkit was 3 moons old",
             "Dancingfleck and Gentleghost had a productive training patrol together. (positive effect) - Dancingfleck was 17 moons old",
-            "Dancingfleck was impressed by Gentleghost's hunting prowess. (positive effect) - Dancingfleck was 19 moons old"
+            "Dancingfleck was impressed by Gentleghost's hunting prowess. (positive effect) - Dancingfleck was 19 moons old",
+            "Dancingfleck sees a pretty flower in Gentleghost's nest. (low positive effect) - Dancingfleck was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1483,10 +1500,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Dancingfleck heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Dancingfleck was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1621,9 +1640,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
@@ -1664,9 +1681,7 @@
         "log": [
             "Butterflykit makes a small sacrifice that benefits Dancingfleck. (low positive effect) - Dancingfleck was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
@@ -1795,11 +1810,7 @@
         "log": [
             "Dancingfleck is excited for his family to grow further. (positive effect) - Dancingfleck was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
@@ -1830,6 +1841,45 @@
     {
         "cat_from_id": "96",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -280,13 +280,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 63,
-        "respect": 49,
-        "comfort": 93,
-        "trust": 79,
+        "like": 73,
+        "respect": 56,
+        "comfort": 100,
+        "trust": 82,
         "log": [
             "Late into the evening, Shinefur invites Curryfoot, Burrweb, Saltpaw, and Carptail to stretch with her and enjoy each other's company. (positive effect)- Saltpaw was 8 moons old",
-            "Saltknoll and Carptail both harvested many herbs while on an herb-gathering patrol together. (positive effect) - Saltknoll was 23 moons old"
+            "Saltknoll and Carptail both harvested many herbs while on an herb-gathering patrol together. (positive effect) - Saltknoll was 23 moons old",
+            "Saltknoll enjoyed reflecting on old stories with Carptail. (positive effect) - Saltknoll was 24 moons old",
+            "Saltknoll watched Carptail show kindness and compassion towards his patients. (medium positive effect) - Saltknoll was 25 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -419,9 +421,7 @@
         "log": [
             "Saltknoll turned to Bouncepelt in a time of need, only for Bouncepelt to abandon him. (high negative effect) - Saltknoll was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "88",
@@ -903,14 +903,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Saltknoll thinks that Sardinespeckle is acting overly dramatic lately. (medium negative effect) - Saltknoll was 20 moons old"
+            "Saltknoll thinks that Sardinespeckle is acting overly dramatic lately. (medium negative effect) - Saltknoll was 20 moons old",
+            "The Clan is surprised to see Saltknoll and Sardinespeckle chatting casually over a meal. (medium positive effect) - Saltknoll was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -920,13 +923,16 @@
         "romance": 0,
         "like": 12,
         "respect": 5,
-        "comfort": 12,
+        "comfort": 25,
         "trust": 0,
         "log": [
             "Saltpaw heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Saltpaw was 6 moons old",
-            "Late into the evening, Shinefur invites Curryfoot, Burrweb, Saltpaw, and Carptail to stretch with her and enjoy each other's company. (positive effect)- Saltpaw was 8 moons old"
+            "Late into the evening, Shinefur invites Curryfoot, Burrweb, Saltpaw, and Carptail to stretch with her and enjoy each other's company. (positive effect)- Saltpaw was 8 moons old",
+            "Saltknoll and Shinefur enjoy the rain together. (low positive effect) - Saltknoll was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -948,15 +954,18 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 15,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Saltpaw heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Saltpaw was 6 moons old",
             "Saltknoll prevents something from falling on Frondpad. (low positive effect) - Saltknoll was 16 moons old",
-            "Saltknoll was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Saltknoll was 20 moons old"
+            "Saltknoll was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Saltknoll was 20 moons old",
+            "Saltknoll notices Frondpad failed to complete a simple task. (low negative effect) - Saltknoll was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1644,12 +1653,7 @@
         "log": [
             "Saltknoll feels safe with Pestofoot around. (high positive effect) - Saltknoll was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "88",
@@ -1748,12 +1752,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Saltknoll was 24 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1794,10 +1803,7 @@
         "log": [
             "Saltknoll was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Saltknoll was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "88",
@@ -1812,10 +1818,7 @@
         "log": [
             "Saltknoll finds his feelings conflicted towards the new family addition. (neutral effect) - Saltknoll was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "88",
@@ -1846,6 +1849,45 @@
     {
         "cat_from_id": "88",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "88",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "88",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "88",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

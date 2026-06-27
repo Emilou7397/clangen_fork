@@ -166,9 +166,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "134",
@@ -300,9 +298,7 @@
         "log": [
             "Silkykit is taken aback by one of Archbellow's comments. (low negative effect) - Silkykit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "134",
@@ -889,9 +885,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 8,
+        "log": [
+            "Gracklefur lets Silkykit know that a Clanmate was talking badly about him. (low positive effect) - Silkykit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1278,12 +1278,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 7,
+        "comfort": 21,
+        "trust": 6,
+        "log": [
+            "Silkykit gets excellent advice from Shadowpaw about something he had been worrying about. (high positive effect) - Silkykit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1457,9 +1464,13 @@
         "like": 42,
         "respect": 12,
         "comfort": 55,
-        "trust": 32,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 25,
+        "log": [
+            "Silkykit swears he sees Butterflykit sneaking around the camp at night. (medium negative effect) - Silkykit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1468,13 +1479,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkykit is excited for his family to grow further. (positive effect) - Silkykit was 0 moons old"
+            "Silkykit is excited for his family to grow further. (positive effect) - Silkykit was 0 moons old",
+            "Silkykit complains about something Molekit did. (low negative effect) - Silkykit was 5 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1527,14 +1541,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": -3,
+        "like": 20,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkykit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Silkykit was 0 moons old"
+            "Silkykit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Silkykit was 0 moons old",
+            "Silkykit was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Silkykit was 4 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1549,9 +1567,7 @@
         "log": [
             "Silkykit tells a story to Midnightkit and Midnightkit suggests how to make it even better. (medium positive effect) - Silkykit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "134",
@@ -1579,10 +1595,7 @@
         "log": [
             "Silkykit was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Silkykit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "134",
@@ -1636,8 +1649,45 @@
         "log": [
             "Silkykit is excited for his family to grow further. (positive effect) - Silkykit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "153",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

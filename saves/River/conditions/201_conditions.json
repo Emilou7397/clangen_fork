@@ -1,15 +1,19 @@
 {
     "injuries": {
-        "bite-wound": {
-            "severity": "major",
-            "mortality": 69,
-            "duration": 3,
-            "moon_start": 102,
+        "tick bites": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 2,
+            "moon_start": 103,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 5
+                    "chance": 40
+                },
+                {
+                    "name": "tick fever",
+                    "chance": 60
                 }
             ],
             "complication": null,

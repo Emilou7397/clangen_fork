@@ -368,14 +368,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 12,
-        "comfort": 8,
-        "trust": 0,
+        "like": 8,
+        "respect": 33,
+        "comfort": 16,
+        "trust": 6,
         "log": [
-            "Fleakit shares a bit of shelter from the rain with Archbellow. (medium positive effect)- Fleakit was 2 moons old"
+            "Fleakit shares a bit of shelter from the rain with Archbellow. (medium positive effect)- Fleakit was 2 moons old",
+            "Fleadusk is wowed by how bravely Archbellow fought the other day. (high positive effect) - Fleadusk was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -390,9 +396,7 @@
         "log": [
             "Fleadusk thinks the prey Peakspore is biting into on the other side of camp looks delicious. (low negative effect) - Fleadusk was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "62",
@@ -624,12 +628,15 @@
         "romance": 0,
         "like": 18,
         "respect": 0,
-        "comfort": 5,
-        "trust": 0,
+        "comfort": 18,
+        "trust": 13,
         "log": [
             "Fleadusk and Gardeniaglow enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Fleadusk was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -707,14 +714,17 @@
         "romance": 0,
         "like": -12,
         "respect": 14,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 10,
         "log": [
             "Early in the morning, Shardtail rallies Fringepaw, Brindlepaw, Heavypaw, and Fleapaw to do stretches in hopes of keeping her Clanmates prepared for anything. (negative effect)- Fleapaw was 10 moons old",
             "Fleadusk heard how Shardtail put their life on the line in battle against some rogues. (positive effect) - Fleadusk was 30 moons old",
-            "Fleadusk suspects that Shardtail gets special treatment. (low negative effect) - Fleadusk was 36 moons old"
+            "Fleadusk suspects that Shardtail gets special treatment. (low negative effect) - Fleadusk was 36 moons old",
+            "Fleadusk had a good dream about Shardtail. (low positive effect) - Fleadusk was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -763,12 +773,7 @@
             "Fleadusk and Fringesnap argued about what to practice on a training patrol. (negative effect) - Fleadusk was 28 moons old",
             "Verbenabloom, Fringesnap, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Fleadusk was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "62",
@@ -811,12 +816,7 @@
             "Verbenabloom, Fringesnap, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Fleadusk was 36 moons old",
             "Verbenabloom doesn't believe Fleadusk when he explains that a rumor about him is false. (high negative effect) - Fleadusk was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "62",
@@ -850,10 +850,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -9,
+        "like": -4,
         "respect": -18,
         "comfort": 52,
-        "trust": -16,
+        "trust": -11,
         "log": [
             "Skulkpaw helps Fleapaw get a thorn out of his paw. (low positive effect)- Fleapaw was 8 moons old",
             "Fleapaw goes to tell a secret to Skulkpaw only for Skulkpaw to tell someone else's secret to him. (high negative effect)- Fleapaw was 9 moons old",
@@ -866,10 +866,13 @@
             "Fleadusk and Skulkwillow argued about what to practice on a training patrol. (negative effect) - Fleadusk was 28 moons old",
             "Fleadusk and Skulkwillow traded passive aggressive comments during a training session. (negative effect) - Fleadusk was 29 moons old",
             "Skulkwillow appreciates Hushshimmer, Fleadusk, Gentlepaw, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Fleadusk was 30 moons old",
-            "Gracklefur, Fleadusk, and Skulkwillow had a nice talk while eating. (positive effect) - Fleadusk was 33 moons old"
+            "Gracklefur, Fleadusk, and Skulkwillow had a nice talk while eating. (positive effect) - Fleadusk was 33 moons old",
+            "Fleadusk and Skulkwillow had a productive training patrol together. (positive effect) - Fleadusk was 38 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -878,10 +881,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 11,
+        "like": 16,
         "respect": -8,
         "comfort": 35,
-        "trust": 35,
+        "trust": 40,
         "log": [
             "Auburnsplash talks Murkkit, Verbenakit, Eaglekit, and Fleakit through their grievances with each other and finds them playing together later. (positive effect)- Fleakit was 1 moon old",
             "Murkpaw sends a Clanmate to help Fleapaw with something he's struggling with. (low positive effect)- Fleapaw was 7 moons old",
@@ -889,9 +892,15 @@
             "Fleadusk and Murkhaven relaxed with a casual training session and a chat. (positive effect)- Fleadusk was 21 moons old",
             "Fleadusk thought Murkhaven did a poor job of leading a training patrol. (negative effect) - Fleadusk was 28 moons old",
             "Fleadusk and Murkhaven argued about what to practice on a training patrol. (negative effect) - Fleadusk was 28 moons old",
-            "Fleadusk was impressed by Murkhaven's confidence in fighting rogues. (positive effect) - Fleadusk was 35 moons old"
+            "Fleadusk was impressed by Murkhaven's confidence in fighting rogues. (positive effect) - Fleadusk was 35 moons old",
+            "Fleadusk and Murkhaven had a productive training patrol together. (positive effect) - Fleadusk was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -934,14 +943,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 23,
         "respect": 0,
         "comfort": 15,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Elmpaw and Fleapaw bonded over hating mouse bile. (positive effect)- Fleapaw was 10 moons old"
+            "Elmpaw and Fleapaw bonded over hating mouse bile. (positive effect)- Fleapaw was 10 moons old",
+            "Fleadusk and Elmtrail had a productive training patrol together. (positive effect) - Fleadusk was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -949,19 +962,26 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 50,
-        "respect": 6,
+        "like": 55,
+        "respect": 16,
         "comfort": 50,
-        "trust": 16,
+        "trust": 21,
         "log": [
             "Auburnsplash invites Brindlekit, Fleakit, Heavykit, and Eaglekit to share what's been on their minds and to have an honest talk with each other. (positive effect)- Fleakit was 3 moons old",
             "Fleapaw and Brindlepaw often look at each other and smile knowingly about something. (low positive effect)- Fleapaw was 10 moons old",
             "Fleadusk knows that the advice Brindletooth gave him will be helpful. (high positive effect)- Fleadusk was 16 moons old",
             "Fleadusk, Brindletooth, and Quailfur had a nice talk while eating. (positive effect)- Fleadusk was 21 moons old",
             "Fleadusk and Brindletooth relaxed with a casual training session and a chat. (positive effect)- Fleadusk was 21 moons old",
-            "Brindletooth compliments one of Fleadusk's friends. (low positive effect) - Fleadusk was 35 moons old"
+            "Brindletooth compliments one of Fleadusk's friends. (low positive effect) - Fleadusk was 35 moons old",
+            "Fleadusk and Brindletooth had a productive training patrol together. (positive effect) - Fleadusk was 38 moons old",
+            "Fleadusk appreciated Brindletooth taking charge to coordinate battle training for the patrol. (positive effect) - Fleadusk was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -1018,13 +1038,14 @@
         "cat_to_id": "74",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 16,
         "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 8,
         "log": [
-            "Fleadusk is hurt by one of Talonlake's pranks, but Talonlake doesn't seem to believe him. (medium negative effect)- Fleadusk was 25 moons old"
+            "Fleadusk is hurt by one of Talonlake's pranks, but Talonlake doesn't seem to believe him. (medium negative effect)- Fleadusk was 25 moons old",
+            "Fleadusk can't help but smile seeing Talonlake smile. (low positive effect) - Fleadusk was 38 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1047,10 +1068,7 @@
             "Fleadusk was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Fleadusk was 34 moons old",
             "While Frondpad gorges on her piece of fresh kill, Fleadusk, Mallowpelt, and Pheasantbrush find that eating is suddenly less appealing. (negative effect) - Fleadusk was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "62",
@@ -1102,15 +1120,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 13,
         "respect": 0,
         "comfort": 16,
-        "trust": 5,
+        "trust": 10,
         "log": [
             "Fleadusk and Icyriver worked together to steal a fox's prey. (positive effect)- Fleadusk was 13 moons old",
-            "Stoatshade, Icyriver, and Fleadusk had a nice talk while eating. (positive effect)- Fleadusk was 20 moons old"
+            "Stoatshade, Icyriver, and Fleadusk had a nice talk while eating. (positive effect)- Fleadusk was 20 moons old",
+            "Fleadusk and Icyriver had a productive training patrol together. (positive effect) - Fleadusk was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -1212,11 +1235,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fleadusk doesn't tell Voletuft that they forgot to groom a part of their fur. (low negative effect) - Fleadusk was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -1819,12 +1846,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fleadusk was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Fleadusk was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "62",
@@ -1865,10 +1897,7 @@
         "log": [
             "Fleadusk was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Fleadusk was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "62",
@@ -1912,6 +1941,45 @@
     {
         "cat_from_id": "62",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "62",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "62",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "62",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

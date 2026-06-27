@@ -640,7 +640,7 @@
         "cat_to_id": "20",
         "mates": false,
         "family": false,
-        "romance": 34,
+        "romance": 46,
         "like": 72,
         "respect": -6,
         "comfort": 85,
@@ -657,7 +657,8 @@
             "Algaepool wonders if Primfreckle is flirting with Auburnsplash because she's bored of Algaepool. (negative effect)- Primfreckle was 70 moons old",
             "Primfreckle, Quailfur, Burrweb, Pigeonbloom, and Auburnsplash hang out while stretching. (positive effect)- Primfreckle was 76 moons old",
             "Bitebone convinces Dancingscreech, Auburnsplash, Primfreckle, and Pigeonbloom to wind down and stretch with him. (positive effect)- Primfreckle was 77 moons old",
-            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Primfreckle was 78 moons old"
+            "The moonlight encourages Bitebone, Auburnsplash, Elmtrail, Heavythud, and Primfreckle to slow down and stretch. (positive effect)- Primfreckle was 78 moons old",
+            "Primfreckle wants, more than anything, to confess her love to Auburnsplash. (medium positive effect) - Primfreckle was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -853,15 +854,18 @@
         "like": 15,
         "respect": 37,
         "comfort": 27,
-        "trust": 11,
+        "trust": 24,
         "log": [
             "Primfreckle heard about how Suntooth's patrol stole a fox's prey. (positive effect)- Primfreckle was 50 moons old",
             "Curryfoot, Kamautail, Freezefoot, and Primfreckle are impressed by Suntooth's recent catch. (positive effect)- Primfreckle was 51 moons old",
             "Primfreckle saw Suntooth defend the fresh-kill pile from a horde of rats. (positive effect)- Primfreckle was 52 moons old",
             "Primfreckle and Suntooth often look at each other and smile knowingly about something. (low positive effect)- Primfreckle was 54 moons old",
-            "Primfreckle and Suntooth argued about something trivial and neither of them apologized. (low negative effect) - Primfreckle was 85 moons old"
+            "Primfreckle and Suntooth argued about something trivial and neither of them apologized. (low negative effect) - Primfreckle was 85 moons old",
+            "Suntooth helps Primfreckle hide from a Clanmate. (low positive effect) - Primfreckle was 88 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "9",
@@ -896,7 +900,7 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 85,
+        "respect": 93,
         "comfort": 31,
         "trust": -6,
         "log": [
@@ -920,9 +924,12 @@
             "Primfreckle suspected Craneflight was laughing at her. (negative effect)- Primfreckle was 68 moons old",
             "Primfreckle and Craneflight became frustrated with each other after a failed herb-gathering patrol. (negative effect)- Primfreckle was 70 moons old",
             "Primfreckle suspected Craneflight was laughing at her. (negative effect)- Primfreckle was 74 moons old",
-            "Craneflight and Primfreckle had a productive time searching Twoleg beach dens for herbs. (positive effect)- Primfreckle was 76 moons old"
+            "Craneflight and Primfreckle had a productive time searching Twoleg beach dens for herbs. (positive effect)- Primfreckle was 76 moons old",
+            "Craneflight motivated Primfreckle to get out of her nest this morning. (low positive effect) - Primfreckle was 89 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "9",
@@ -1860,19 +1867,20 @@
         "cat_to_id": "105",
         "mates": false,
         "family": false,
-        "romance": 14,
-        "like": -19,
-        "respect": -4,
-        "comfort": 15,
-        "trust": -12,
+        "romance": 10,
+        "like": -25,
+        "respect": -8,
+        "comfort": 10,
+        "trust": -16,
         "log": [
             "Primfreckle doesn't understand why Oddmuzzle is being so rude. (low negative effect)- Primfreckle was 73 moons old",
             "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Primfreckle was 78 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "comfort",
             "trust",
-            "like"
+            "respect"
         ]
     },
     {
@@ -2009,9 +2017,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -12,
+        "log": [
+            "Blotchpaw gave Primfreckle a gift that doesn't make sense. (medium negative effect) - Primfreckle was 88 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "9",
@@ -2130,10 +2142,7 @@
         "comfort": 17,
         "trust": 23,
         "log": [],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "9",
@@ -2174,9 +2183,7 @@
         "log": [
             "Primfreckle won't take Silkykit seriously. (medium negative effect) - Primfreckle was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "9",
@@ -2249,12 +2256,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Primfreckle was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Primfreckle was 88 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "9",
@@ -2295,10 +2307,7 @@
         "log": [
             "Primfreckle was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Primfreckle was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "9",
@@ -2306,12 +2315,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "While Shiveringkit gorges on his piece of fresh kill, Primfreckle, Pheasantbrush, and Sardinespeckle find that eating is suddenly less appealing. (negative effect) - Primfreckle was 89 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "9",
@@ -2342,6 +2356,45 @@
     {
         "cat_from_id": "9",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "9",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "9",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "9",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

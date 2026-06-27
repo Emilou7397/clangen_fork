@@ -343,14 +343,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 10,
+        "like": -11,
+        "respect": -6,
+        "comfort": 2,
+        "trust": 4,
         "log": [
-            "Craneflight was part of the patrol that saved Drizzlekit and brought her to RiverClan as a newborn. (positive effect) - Drizzlekit was 0 moons old"
+            "Craneflight was part of the patrol that saved Drizzlekit and brought her to RiverClan as a newborn. (positive effect) - Drizzlekit was 0 moons old",
+            "Drizzlepaw and Craneflight argue about religion in the middle of camp. (high negative effect) - Drizzlepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1035,10 +1039,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Drizzlekit wonders what she did to make Mallardfeather so rude towards her today. (low negative effect) - Drizzlekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1189,12 +1197,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Drizzlepaw noticed that Cherrypaw is falling behind in training and offered to help her catch up. (medium positive effect) - Drizzlepaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1250,9 +1262,7 @@
         "log": [
             "Drizzlekit and Currentkit enjoy the rain together. (low positive effect) - Drizzlekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -1260,14 +1270,20 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 60,
-        "respect": 22,
-        "comfort": 60,
-        "trust": 42,
+        "like": 76,
+        "respect": 28,
+        "comfort": 73,
+        "trust": 56,
         "log": [
-            "Drizzlekit learns that Gorgekit is scared of thunder, too. (low positive effect) - Drizzlekit was 3 moons old"
+            "Drizzlekit learns that Gorgekit is scared of thunder, too. (low positive effect) - Drizzlekit was 3 moons old",
+            "Drizzlekit and Gorgekit only ever want to play with each other. (high positive effect) - Drizzlekit was 5 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1360,10 +1376,7 @@
         "log": [
             "Drizzlekit gets hit with waves of envy whenever Glowkit is laughing with friends. (high negative effect) - Drizzlekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -1397,12 +1410,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Drizzlekit was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Drizzlekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1443,10 +1462,7 @@
         "log": [
             "Drizzlekit was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Drizzlekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -1461,9 +1477,7 @@
         "log": [
             "Drizzlekit finds her feelings conflicted towards the new family addition. (neutral effect) - Drizzlekit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -1494,6 +1508,45 @@
     {
         "cat_from_id": "129",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "129",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "129",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "129",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

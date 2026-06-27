@@ -278,14 +278,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -11,
+        "like": -6,
         "respect": -16,
-        "comfort": 0,
-        "trust": -10,
+        "comfort": 4,
+        "trust": -5,
         "log": [
             "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Hollyheart was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -308,12 +310,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 6,
+        "comfort": 7,
+        "trust": 21,
+        "log": [
+            "Hollyheart tells Fidgetmouse to count on him in a difficult situation. (high positive effect) - Hollyheart was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -620,10 +629,7 @@
             "Hollyheart heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Hollyheart was 43 moons old",
             "Hollyheart is amazed at how skilled Gardeniaglow really is. (high positive effect) - Hollyheart was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "99",
@@ -645,13 +651,16 @@
         "cat_to_id": "50",
         "mates": false,
         "family": false,
-        "romance": 6,
+        "romance": 10,
         "like": 5,
-        "respect": 14,
+        "respect": 19,
         "comfort": 12,
-        "trust": 4,
+        "trust": 9,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -662,12 +671,15 @@
         "like": 12,
         "respect": -12,
         "comfort": 12,
-        "trust": 0,
+        "trust": -12,
         "log": [
             "Late into the evening, Gracklefur invites Warmswirl, Tomatofreckle, Hollyheart, and Primfreckle to stretch with him and enjoy each other's company. (positive effect)- Hollyheart was 35 moons old",
-            "Warmswirl interrupted Hollyheart to say something frivolous. (medium negative effect) - Hollyheart was 36 moons old"
+            "Warmswirl interrupted Hollyheart to say something frivolous. (medium negative effect) - Hollyheart was 36 moons old",
+            "Warmswirl tries to convince Hollyheart that an obvious lie is real. (medium negative effect) - Hollyheart was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -812,11 +824,11 @@
         "cat_to_id": "68",
         "mates": true,
         "family": false,
-        "romance": 57,
-        "like": 48,
-        "respect": 63,
+        "romance": 70,
+        "like": 61,
+        "respect": 71,
         "comfort": 45,
-        "trust": 21,
+        "trust": 34,
         "log": [
             "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Hollyheart was 28 moons old",
             "Hollyheart is prancing around in front of Heavythud. (low positive effect)- Hollyheart was 30 moons old",
@@ -831,9 +843,15 @@
             "Heavythud compliments Hollyheart for his good disposition. (medium positive effect) - Hollyheart was 42 moons old",
             "Heavythud and Hollyheart had a productive time searching Twoleg beach dens for herbs. (positive effect) - Hollyheart was 42 moons old",
             "Heavythud is upset after spending the day with Hollyheart's bad attitude. (low negative effect) - Hollyheart was 43 moons old",
-            "Hollyheart charmed Heavythud with a flower when they went out herb-gathering in greenleaf together. (positive effect) - Hollyheart was 43 moons old"
+            "Hollyheart charmed Heavythud with a flower when they went out herb-gathering in greenleaf together. (positive effect) - Hollyheart was 43 moons old",
+            "Hollyheart was impressed by Heavythud's work ethic when he gathered herbs while the others were basking. (positive effect) - Hollyheart was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -886,9 +904,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sardinespeckle doesn't say sorry when bumping into Hollyheart. (low negative effect) - Hollyheart was 45 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -960,8 +980,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Hollyheart was not happy to hear that Mosscrackle was caught outside of the Clan's territory. (negative effect) - Hollyheart was 45 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -982,16 +1004,20 @@
         "cat_to_id": "79",
         "mates": false,
         "family": false,
-        "romance": 3,
-        "like": 0,
-        "respect": 0,
+        "romance": 12,
+        "like": 8,
+        "respect": 3,
         "comfort": 0,
-        "trust": -15,
+        "trust": -28,
         "log": [
             "Hollyheart was deeply disappointed to hear that Icyriver broke the Code. (negative effect)- Hollyheart was 33 moons old",
-            "Hollyheart can't help but admire Icyriver's pelt. (low positive effect) - Hollyheart was 41 moons old"
+            "Hollyheart can't help but admire Icyriver's pelt. (low positive effect) - Hollyheart was 41 moons old",
+            "Hollyheart was flattered by Icyriver's politeness this morning. (low positive effect) - Hollyheart was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -1172,13 +1198,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
-        "comfort": 0,
+        "respect": 20,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "After conducting a lesson about basic first aid, Hollyheart raves about Poolpaw, Skippaw, Hailpaw, and Snakepaw's fantastic behavior. (positive effect)- Hollyheart was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "99",
@@ -1267,10 +1296,7 @@
             "Oddmuzzle helped Hollyheart interpret a vision. (positive effect)- Hollyheart was 33 moons old",
             "Despite Hollyheart being a bit dramatic about the thorn in his paw, Oddmuzzle treats him gently. (medium positive effect) - Hollyheart was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "99",
@@ -1405,10 +1431,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Hollyheart heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Hollyheart was 46 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1732,6 +1760,45 @@
     {
         "cat_from_id": "99",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "99",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "99",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "99",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -8,18 +8,30 @@
     "mentor_influence": {
         "trait": {
             "10": {
-                "sociability": 2,
+                "sociability": 4,
                 "aggression": -4,
-                "stability": -2
+                "stability": -2,
+                "strings": [
+                    "interact with others",
+                    "avoid a fight",
+                    "behave erratically"
+                ]
             }
         },
         "skill": {
             "10": {
-                "CAMP": 9
+                "CAMP": 10,
+                "strings": [
+                    "caring for camp"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "daring",
+        "graduation_age": 13,
+        "moon": 103
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

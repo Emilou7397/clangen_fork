@@ -32,14 +32,14 @@
     },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "claw-wound": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after trying to save Prancelaurel from a rogue.",
-            "scar_text": "m_c was scarred while trying to save Prancelaurel from a rogue.",
-            "other_cat": "28"
-        }
-    },
+    "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": "28",
+            "text": "m_c was scarred while trying to save Prancelaurel from a rogue.",
+            "moon": 104
+        }
+    ],
     "murder": {}
 }

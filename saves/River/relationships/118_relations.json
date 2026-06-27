@@ -129,9 +129,7 @@
         "log": [
             "Shadowpaw wants to be closer to Primfreckle. (low positive effect) - Shadowpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "118",
@@ -350,11 +348,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -486,10 +486,7 @@
         "log": [
             "Wasppaw, Shadowpaw, Antlerpaw, and Snookpaw wish that Mossflight let them sleep instead of getting them up for early morning stretches. (negative effect) - Shadowpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "118",
@@ -536,12 +533,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Amberfur tells Fluttershade, Gracklefur, Shadowpaw, and Snookpaw a story that earns more skepticism than admiration. (negative effect) - Shadowpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -708,11 +710,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shadowpaw mews congratulations to Shinefur for a job well done. (low positive effect) - Shadowpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -887,10 +893,7 @@
         "log": [
             "Spittle and flecks of bone fly while Voletuft gobbles down prey, reminding Antlerpaw, Shadowpaw, Snookpaw, and Wasppaw to seek out better mealtime companionship next time. (negative effect) - Shadowpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "118",
@@ -1045,12 +1048,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shadowpaw laughed at Kiwifoot for making a mistake on a patrol. (medium negative effect) - Shadowpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -1061,9 +1068,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -1153,10 +1162,12 @@
         "romance": 0,
         "like": 43,
         "respect": 13,
-        "comfort": 43,
+        "comfort": 56,
         "trust": 30,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -1184,15 +1195,14 @@
         "romance": 0,
         "like": -4,
         "respect": -9,
-        "comfort": -2,
+        "comfort": 11,
         "trust": -11,
         "log": [
             "Shadowpaw gets scolded for not watching Blotchkit when Blotchkit does something naughty. (medium negative effect) - Shadowpaw was 6 moons old",
             "Shadowpaw swears that Blotchkit stole something from his nest. (high negative effect) - Shadowpaw was 7 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -1204,8 +1214,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 13,
-        "log": [],
+        "trust": 10,
+        "log": [
+            "Shadowpaw's friend doesn't trust Wavepaw. (low negative effect) - Shadowpaw was 9 moons old"
+        ],
         "no_longer_neutral": [
             "trust"
         ]
@@ -1229,14 +1241,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 8,
         "comfort": 8,
         "trust": 8,
         "log": [
-            "Piperkit makes a small sacrifice that benefits Shadowkit. (low positive effect) - Shadowkit was 5 moons old"
+            "Piperkit makes a small sacrifice that benefits Shadowkit. (low positive effect) - Shadowkit was 5 moons old",
+            "Shadowpaw saw Piperpaw being rude. (low negative effect) - Shadowpaw was 8 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -1430,12 +1445,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shadowpaw was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Shadowpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "118",
@@ -1476,10 +1496,7 @@
         "log": [
             "Shadowpaw was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Shadowpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "118",
@@ -1529,8 +1546,51 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
+        "trust": 13,
+        "log": [],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "118",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "118",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "118",
+        "cat_to_id": "153",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 13,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "like"
+        ]
     }
 ]

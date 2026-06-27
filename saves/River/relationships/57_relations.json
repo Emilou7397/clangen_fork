@@ -141,7 +141,7 @@
         "romance": 0,
         "like": 4,
         "respect": 6,
-        "comfort": 4,
+        "comfort": -4,
         "trust": 5,
         "log": [],
         "no_longer_neutral": []
@@ -290,8 +290,8 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 3,
+        "comfort": 3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -497,16 +497,19 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": 37,
+        "respect": 30,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Fringekit saw Suntooth defend the fresh-kill pile from a horde of rats. (positive effect)- Fringekit was 1 moon old",
             "Suntooth, wanting to help keep her Clanmates in shape and ready for anything, wakes Murkpaw, Skulkpaw, Icypaw, and Fringepaw up early for morning stretches. (negative effect)- Fringepaw was 7 moons old",
             "Fringesnap is surprised when Suntooth compliments him. (low positive effect)- Fringesnap was 17 moons old",
-            "Fringesnap admits he really admires Suntooth's recent efforts. (medium positive effect) - Fringesnap was 33 moons old"
+            "Fringesnap admits he really admires Suntooth's recent efforts. (medium positive effect) - Fringesnap was 33 moons old",
+            "Fringesnap was scolded for something that Suntooth gets praised for. (medium negative effect) - Fringesnap was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -574,16 +577,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 74,
+        "like": 66,
         "respect": 40,
         "comfort": 100,
-        "trust": 73,
+        "trust": 65,
         "log": [
             "Kamautail vents about something trivial to Fringekit. (low positive effect)- Fringekit was 5 moons old",
             "Kamautail appreciates Fringesnap, Curryfoot, Yewstar, and Duckbelly joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Fringesnap was 21 moons old",
-            "Tomatofreckle, Fringesnap, Amberfur, Kamautail, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Fringesnap was 23 moons old"
+            "Tomatofreckle, Fringesnap, Amberfur, Kamautail, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Fringesnap was 23 moons old",
+            "Kamautail tells Heatherfern, Craneflight, Fringesnap, and Stoatshade a story that earns more skepticism than admiration. (negative effect) - Fringesnap was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -653,9 +662,7 @@
         "log": [
             "Fringesnap complains about something Freezefoot did. (low negative effect) - Fringesnap was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -701,9 +708,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -854,10 +859,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 56,
-        "respect": -9,
-        "comfort": 33,
-        "trust": 16,
+        "like": 60,
+        "respect": -5,
+        "comfort": 36,
+        "trust": 27,
         "log": [
             "Fringepaw and Verbenapaw enjoyed practicing their fighting skills together on a training patrol. (positive effect)- Fringepaw was 6 moons old",
             "Fringesnap is letting Verbenabloom share her troubles with him, hoping she'll feel better afterward. (high positive effect)- Fringesnap was 13 moons old",
@@ -867,13 +872,13 @@
             "Fringesnap thinks Verbenabloom is so much braver than him. (medium positive effect)- Fringesnap was 27 moons old",
             "Fringesnap and Verbenabloom worked on their skills together on a training patrol. (positive effect)- Fringesnap was 27 moons old",
             "Fringesnap and Verbenabloom argued about what to practice on a training patrol. (negative effect) - Fringesnap was 28 moons old",
-            "Verbenabloom, Fringesnap, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Fringesnap was 37 moons old"
+            "Verbenabloom, Fringesnap, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Fringesnap was 37 moons old",
+            "Fringesnap thinks he can tell Verbenabloom something important. (high positive effect) - Fringesnap was 39 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -901,12 +906,7 @@
             "Fringesnap saw Fleadusk the other day and did get a chance to meow hello! (medium positive effect) - Fringesnap was 34 moons old",
             "Verbenabloom, Fringesnap, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Fringesnap was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -984,9 +984,7 @@
         "log": [
             "Fringesnap doesn't see why Diablofoot is upset about something trivial. (low negative effect) - Fringesnap was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -1163,17 +1161,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -4,
-        "respect": 0,
-        "comfort": -8,
-        "trust": -8,
+        "like": -9,
+        "respect": -6,
+        "comfort": -24,
+        "trust": -13,
         "log": [
             "Fringepaw's friend doesn't trust Icypaw. (low negative effect)- Fringepaw was 10 moons old",
             "Icypaw mentions that Fringesnap looks good today. (low positive effect)- Fringesnap was 12 moons old",
             "Icyriver rolled her eyes after Fringesnap asked for help. (low negative effect)- Fringesnap was 13 moons old",
-            "Icyriver pulled a prank on Fringesnap. (medium negative effect) - Fringesnap was 30 moons old"
+            "Icyriver pulled a prank on Fringesnap. (medium negative effect) - Fringesnap was 30 moons old",
+            "The Clan feels uneasy whenever Fringesnap and Icyriver speak to each other. (high negative effect) - Fringesnap was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -1316,12 +1320,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 3,
+        "comfort": 4,
+        "trust": 11,
+        "log": [
+            "Fringesnap trusts Flightsplash with a very important task. (high positive effect) - Fringesnap was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -1799,11 +1807,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -1863,12 +1873,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fringesnap was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Fringesnap was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -1909,10 +1924,7 @@
         "log": [
             "Fringesnap was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Fringesnap was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -1956,6 +1968,45 @@
     {
         "cat_from_id": "57",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

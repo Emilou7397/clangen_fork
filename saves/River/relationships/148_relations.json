@@ -101,12 +101,7 @@
         "comfort": 78,
         "trust": 68,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "148",
@@ -751,11 +746,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Rosekit hears a nice story about Sardinespeckle. (low positive effect) - Rosekit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -821,12 +818,7 @@
         "comfort": 79,
         "trust": 69,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "148",
@@ -873,12 +865,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -5,
+        "comfort": -16,
+        "trust": -6,
+        "log": [
+            "Rosekit doesn't think that Pheasantbrush's smile is genuine. (high negative effect) - Rosekit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "148",
@@ -1099,11 +1097,7 @@
         "comfort": 20,
         "trust": 10,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "148",
@@ -1514,12 +1508,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Rosekit was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Rosekit was 0 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "148",
@@ -1560,10 +1559,7 @@
         "log": [
             "Rosekit was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Rosekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "148",
@@ -1587,9 +1583,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Rosekit learns that Shiveringkit has been misleading him about something trivial. (medium negative effect) - Rosekit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "148",
@@ -1597,21 +1597,62 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 45,
-        "respect": 15,
-        "comfort": 45,
-        "trust": 35,
-        "log": [],
+        "like": 48,
+        "respect": 18,
+        "comfort": 56,
+        "trust": 38,
+        "log": [
+            "Rosekit always goes to Heathkit first when he needs advice. (high positive effect) - Rosekit was 2 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
         "cat_from_id": "148",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "148",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "148",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "148",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,

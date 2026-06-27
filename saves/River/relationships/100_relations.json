@@ -416,16 +416,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 41,
-        "respect": 31,
+        "like": 33,
+        "respect": 23,
         "comfort": 74,
         "trust": 61,
         "log": [
             "Suntooth gives Gentlepaw something that he dropped. (low positive effect)- Gentlepaw was 7 moons old",
             "Suntooth eats as ravenously as a wolverine and by the time she's done, Gentlepaw, Diablofoot, Peakspore, and Dahliacrest barely have the stomach to finish their own meals. (negative effect) - Gentlepaw was 10 moons old",
-            "Gentleghost, Suntooth, and Pebblechase took a sunbath and had a little small talk. (positive effect) - Gentleghost was 12 moons old"
+            "Gentleghost, Suntooth, and Pebblechase took a sunbath and had a little small talk. (positive effect) - Gentleghost was 12 moons old",
+            "Suntooth complained so relentlessly about her patrol assignment that Burrweb, Quailfur, and Gentleghost could only sigh and bear it. (negative effect) - Gentleghost was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -433,12 +439,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 21,
+        "respect": 8,
+        "comfort": 7,
+        "trust": 6,
+        "log": [
+            "Gentleghost dispels a bad rumor about Pearpelt. (high positive effect) - Gentleghost was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1075,10 +1088,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flightsplash gives advice to Gentleghost. It's not good advice, but Gentleghost appreciates the effort. (low positive effect) - Gentleghost was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1164,16 +1181,17 @@
         "romance": 0,
         "like": 5,
         "respect": 20,
-        "comfort": 16,
+        "comfort": 28,
         "trust": 5,
         "log": [
             "Gentlekit has a friendly chat with Dancingpaw that leaves them both feeling happy. (low positive effect)- Gentlekit was 4 moons old",
             "Gentleghost and Dancingfleck had a productive training patrol together. (positive effect) - Gentleghost was 13 moons old",
             "Gentleghost tells a story to Dancingfleck and Dancingfleck suggests how to make it even better. (medium positive effect) - Gentleghost was 14 moons old",
-            "Gentleghost is impressed by Dancingfleck helping others today. (low positive effect) - Gentleghost was 17 moons old"
+            "Gentleghost is impressed by Dancingfleck helping others today. (low positive effect) - Gentleghost was 17 moons old",
+            "Dancingfleck helps Gentleghost pick burrs out of his fur. (medium positive effect) - Gentleghost was 19 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "comfort"
         ]
     },
     {
@@ -1185,13 +1203,15 @@
         "like": 35,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 18,
         "log": [
             "Gentlepaw chats with Snakedrop while grabbing something to eat. (medium positive effect) - Gentlepaw was 10 moons old",
             "Gentleghost hears a nice story about Snakedrop. (low positive effect) - Gentleghost was 13 moons old",
             "Gentleghost and Snakedrop had a productive training patrol together. (positive effect) - Gentleghost was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1287,7 +1307,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [],
         "no_longer_neutral": []
     },
@@ -1519,12 +1539,7 @@
         "log": [
             "The whole Clan notices how close Gentleghost and Gorgekit are lately. (high positive effect) - Gentleghost was 17 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1650,14 +1665,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 24,
-        "respect": 17,
+        "like": 34,
+        "respect": 44,
         "comfort": 40,
         "trust": 32,
         "log": [
-            "Gentleghost is excited for his family to grow further. (positive effect) - Gentleghost was 13 moons old"
+            "Gentleghost is excited for his family to grow further. (positive effect) - Gentleghost was 13 moons old",
+            "Gentleghost was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Gentleghost was 18 moons old",
+            "Gentleghost thinks that Carnationkit will grow up to be an excellent member of the Clan. (medium positive effect) - Gentleghost was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1698,10 +1720,7 @@
         "log": [
             "Gentleghost was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Gentleghost was 17 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1716,9 +1735,7 @@
         "log": [
             "Gentleghost is excited for his family to grow further. (positive effect) - Gentleghost was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1749,6 +1766,45 @@
     {
         "cat_from_id": "100",
         "cat_to_id": "149",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "100",
+        "cat_to_id": "151",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "100",
+        "cat_to_id": "152",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "100",
+        "cat_to_id": "153",
         "mates": false,
         "family": false,
         "romance": 0,
