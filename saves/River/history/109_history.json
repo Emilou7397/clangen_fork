@@ -8,16 +8,28 @@
     "mentor_influence": {
         "trait": {
             "69": {
-                "aggression": -2
+                "aggression": -5,
+                "lawfulness": -3,
+                "strings": [
+                    "try to avoid violence",
+                    "make {PRONOUN\/m_c\/poss} own rules"
+                ]
             }
         },
         "skill": {
             "69": {
-                "STORY": 2
+                "STORY": 15,
+                "strings": [
+                    "storytelling"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "versatility",
+        "graduation_age": 11,
+        "moon": 95
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

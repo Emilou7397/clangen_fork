@@ -1,28 +1,24 @@
 {
     "injuries": {
-        "mangled tail": {
+        "broken bone": {
             "severity": "severe",
-            "mortality": 68,
-            "duration": 3,
-            "moon_start": 92,
+            "mortality": 84,
+            "duration": 5,
+            "moon_start": 98,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 23
+                    "chance": 15
                 }
             ],
             "complication": null,
             "cause_permanent": [
-                "lost their tail"
+                "weak leg",
+                "twisted leg"
             ],
             "event_triggered": false,
-            "potential_scars": [
-                "HALFTAIL",
-                "MANTAIL",
-                "NOTAIL",
-                "TAILSCAR"
-            ]
+            "potential_scars": []
         }
     }
 }

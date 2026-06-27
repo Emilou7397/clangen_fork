@@ -1,28 +1,16 @@
 {
     "injuries": {
-        "mangled tail": {
-            "severity": "severe",
-            "mortality": 67,
-            "duration": 3,
-            "moon_start": 91,
+        "pregnant": {
+            "severity": "major",
+            "mortality": 30,
+            "duration": 2,
+            "moon_start": 100,
             "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "an infected wound",
-                    "chance": 13
-                }
-            ],
+            "risks": [],
             "complication": null,
-            "cause_permanent": [
-                "lost their tail"
-            ],
+            "cause_permanent": [],
             "event_triggered": false,
-            "potential_scars": [
-                "HALFTAIL",
-                "MANTAIL",
-                "NOTAIL",
-                "TAILSCAR"
-            ]
+            "potential_scars": null
         }
     }
 }

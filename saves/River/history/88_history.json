@@ -9,27 +9,41 @@
         "trait": {
             "68": {
                 "lawfulness": 2,
-                "aggression": 5,
-                "stability": -2
+                "aggression": 6,
+                "stability": -3,
+                "strings": [
+                    "have strong inner morals",
+                    "resort to violence",
+                    "dwell on things"
+                ]
             }
         },
         "skill": {
             "68": {
-                "CLAIRVOYANT": 13
+                "CLAIRVOYANT": 16,
+                "INSIGHTFUL": 4,
+                "strings": [
+                    "predicting the future",
+                    "providing insight"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "risk-taking",
+        "graduation_age": 16,
+        "moon": 95
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "mangled leg": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} injuries caused by a Twoleg trap.",
-            "scar_text": "m_c was scarred by a Twoleg trap.",
-            "other_cat": null
-        }
-    },
+    "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": null,
+            "text": "m_c was scarred by a Twoleg trap.",
+            "moon": 94
+        }
+    ],
     "murder": {}
 }

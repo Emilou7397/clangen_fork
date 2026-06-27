@@ -1,0 +1,56 @@
+{
+    "illnesses": {
+        "running nose": {
+            "severity": "minor",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 101,
+            "risks": [
+                {
+                    "name": "whitecough",
+                    "chance": 34
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 39
+                }
+            ],
+            "event_triggered": false
+        }
+    },
+    "injuries": {
+        "water in their lungs": {
+            "severity": "major",
+            "mortality": 59,
+            "duration": 3,
+            "moon_start": 100,
+            "illness_infectiousness": [
+                {
+                    "name": "running nose",
+                    "lower_by": 5
+                },
+                {
+                    "name": "whitecough",
+                    "lower_by": 3
+                }
+            ],
+            "risks": [
+                {
+                    "name": "running nose",
+                    "chance": 34
+                },
+                {
+                    "name": "whitecough",
+                    "chance": 24
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [
+                "raspy lungs"
+            ],
+            "event_triggered": false,
+            "potential_scars": []
+        }
+    }
+}

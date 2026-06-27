@@ -18,11 +18,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Yewstar tells Craneflight, Antlerpaw, and Ochretail a story that earns more skepticism than admiration. (negative effect) - Antlerpaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -77,10 +79,7 @@
         "log": [
             "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -95,10 +94,7 @@
         "log": [
             "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -119,14 +115,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 13,
         "trust": 0,
         "log": [
-            "Antlerkit reassures Erminedaisy about something that was bothering him. (low positive effect)- Antlerkit was 3 moons old"
+            "Antlerkit reassures Erminedaisy about something that was bothering him. (low positive effect)- Antlerkit was 3 moons old",
+            "Erminedaisy rallies Antlerpaw, Mosscrackle, Tomatofreckle, and Yewstar to do early morning stretches with him. (negative effect) - Antlerpaw was 9 moons old"
         ],
         "no_longer_neutral": [
+            "like",
+            "respect",
             "comfort"
         ]
     },
@@ -156,10 +155,7 @@
         "log": [
             "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -193,12 +189,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 20,
+        "respect": 35,
+        "comfort": 10,
+        "trust": 45,
+        "log": [
+            "Antlerpaw practiced hunting with Harefeather during a one-on-one training session. (positive effect) - Antlerpaw was 6 moons old",
+            "Antlerpaw was glad Harefeather went to him for advice on relationships with cats outside the Clan. (positive effect) - Antlerpaw was 7 moons old",
+            "Antlerpaw soaked up all of Harefeather's fighting tips during a one-on-one training session. (positive effect) - Antlerpaw was 8 moons old",
+            "Harefeather taught Antlerpaw all about how gathering moss will build muscle. (positive effect) - Antlerpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -219,17 +225,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 24,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 0,
         "log": [
-            "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old"
+            "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old",
+            "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Antlerkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -302,11 +306,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Antlerkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -316,11 +322,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 30,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 30,
+        "log": [
+            "Archbellow saved Antlerpaw from drowning. (positive effect) - Antlerpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -331,15 +342,12 @@
         "like": 5,
         "respect": 16,
         "comfort": 6,
-        "trust": 6,
+        "trust": -6,
         "log": [
-            "Antlerkit is wowed by how bravely Peakspore fought the other day. (high positive effect)- Antlerkit was 2 moons old"
+            "Antlerkit is wowed by how bravely Peakspore fought the other day. (high positive effect)- Antlerkit was 2 moons old",
+            "Antlerkit can't seem to get a straight answer from Peakspore lately. (medium negative effect) - Antlerkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -360,12 +368,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 20,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Antlerkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -399,11 +411,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Antlerpaw prevents something from falling on Suntooth. (low positive effect) - Antlerpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -451,7 +465,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -464,11 +478,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Kamautail takes the sunny spot that Antlerpaw was about to lay in. (low negative effect) - Antlerpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -555,12 +571,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -15,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "A Clanmate that Antlerkit wanted to get to know better is already friends with Mossflight. (low negative effect) - Antlerkit was 5 moons old",
+            "Mossflight spends the Gathering whispering to Antlerpaw, Paellapad, Freezefoot, and Hailfreckle, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Antlerpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -700,13 +722,13 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 20,
         "trust": 0,
         "log": [
-            "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old"
+            "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old",
+            "Fluttershade gives advice to Antlerpaw. It's not good advice, but Antlerpaw appreciates the effort. (low positive effect) - Antlerpaw was 10 moons old"
         ],
         "no_longer_neutral": [
-            "like",
             "comfort"
         ]
     },
@@ -731,15 +753,12 @@
         "romance": 0,
         "like": 43,
         "respect": 33,
-        "comfort": 73,
-        "trust": 63,
-        "log": [],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "comfort": 83,
+        "trust": 73,
+        "log": [
+            "Antlerkit took the time to teach Murkhaven about the dangerous things in the sea. (positive effect) - Antlerkit was 5 moons old"
+        ],
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -851,16 +870,18 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 46,
+        "like": 56,
         "respect": 36,
         "comfort": 76,
         "trust": 66,
-        "log": [],
+        "log": [
+            "Snippool spent time looking for treasures on the beach with Antlerpaw. (positive effect) - Antlerpaw was 9 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust",
-            "comfort"
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -902,9 +923,7 @@
         "log": [
             "Antlerkit was deeply disappointed to hear that Icyriver broke the Code. (negative effect)- Antlerkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1023,10 +1042,7 @@
         "log": [
             "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1034,10 +1050,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
         "no_longer_neutral": []
     },
@@ -1047,11 +1063,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Antlerkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1067,10 +1085,7 @@
         "log": [
             "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1111,9 +1126,7 @@
         "log": [
             "Antlerkit and Dancingpaw are arguing about who should take the blame for something trivial. (low negative effect)- Antlerkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1136,13 +1149,14 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
-        "trust": 0,
+        "comfort": 28,
+        "trust": 8,
         "log": [
-            "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old"
+            "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old",
+            "Antlerpaw learns that Hollyheart is scared of thunder, too. (low positive effect) - Antlerpaw was 6 moons old"
         ],
         "no_longer_neutral": [
-            "like",
+            "trust",
             "comfort"
         ]
     },
@@ -1153,10 +1167,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Antlerpaw was impressed by Gentleghost's hunting prowess. (positive effect) - Antlerpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1266,6 +1282,369 @@
     {
         "cat_from_id": "108",
         "cat_to_id": "110",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "113",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "115",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "116",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 8,
+        "trust": 0,
+        "log": [
+            "Waspkit gives advice to Antlerpaw. It's not good advice, but Antlerpaw appreciates the effort. (low positive effect) - Antlerpaw was 7 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "117",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "118",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "120",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": -7,
+        "trust": 0,
+        "log": [
+            "Antlerpaw worries about Blotchkit's mental stability. (medium negative effect) - Antlerpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "121",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "122",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "123",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "124",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Blizzardstripe's bravery in a fight against a vixen greatly impressed Antlerpaw. (positive effect) - Antlerpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "126",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "127",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "129",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "130",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "131",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "132",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "133",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "134",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "135",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "136",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "137",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "138",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "139",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": -8,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "140",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "142",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "143",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "144",
         "mates": false,
         "family": false,
         "romance": 0,
