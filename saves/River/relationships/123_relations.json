@@ -121,9 +121,7 @@
             "Piperkit heard about how Bitterleaf's patrol drove off a vixen. (positive effect) - Piperkit was 4 moons old",
             "Piperkit keeps asking Bitterleaf to explain a joke, but Bitterleaf just says that Piperkit had to be there. (low negative effect) - Piperkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -187,10 +185,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Piperpaw heard a story about something kind Fidgetmouse did. (low positive effect) - Piperpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -218,11 +220,7 @@
         "log": [
             "Piperkit and Dancingscreech enjoy each other's company. (high positive effect) - Piperkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -328,9 +326,7 @@
         "log": [
             "Piperkit and Prancelaurel often look at each other and smile knowingly about something. (low positive effect) - Piperkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -627,9 +623,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -644,9 +642,7 @@
         "log": [
             "Piperkit and Diablofoot often look at each other and smile knowingly about something. (low positive effect) - Piperkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -707,11 +703,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 15,
+        "comfort": 15,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sardinespeckle praised Piperpaw for his progress while working on ambushing strategies. (positive effect) - Piperpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -763,10 +764,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1170,12 +1168,7 @@
         "log": [
             "Piperkit and Wasppaw are always back-talking to each other. (high negative effect) - Piperkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1183,12 +1176,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": -8,
-        "trust": 0,
-        "log": [],
+        "like": 2,
+        "respect": -4,
+        "comfort": -24,
+        "trust": 6,
+        "log": [
+            "Piperpaw swore he saw Snookpaw burying something. (high negative effect) - Piperpaw was 6 moons old"
+        ],
         "no_longer_neutral": [
+            "trust",
             "comfort"
         ]
     },
@@ -1205,11 +1201,7 @@
         "log": [
             "Piperkit swaps favorite prey with Shadowkit. (medium positive effect) - Piperkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1237,12 +1229,7 @@
         "log": [
             "Piperkit learns that Wavekit has been using him for something. (high negative effect) - Piperkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1258,9 +1245,7 @@
             "Piperkit thinks about how lucky he is to have someone like Cherrykit as a friend. (high positive effect) - Piperkit was 1 moon old",
             "Piperkit remembers something nice that Cherrykit did. (low positive effect) - Piperkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1288,9 +1273,7 @@
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Piperkit. (positive effect) - Piperkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1357,10 +1340,7 @@
         "log": [
             "Spittle and flecks of bone fly while Gorgekit gobbles down prey, reminding Cherrykit, Glowkit, Ospreykit, and Piperkit to seek out better mealtime companionship next time. (negative effect) - Piperkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1388,9 +1368,7 @@
         "log": [
             "Piperkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Piperkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1405,9 +1383,7 @@
         "log": [
             "Piperkit is excited for his family to grow further. (positive effect) - Piperkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1422,9 +1398,7 @@
         "log": [
             "Piperkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Piperkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1520,6 +1494,63 @@
     {
         "cat_from_id": "123",
         "cat_to_id": "144",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 15,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Piperpaw was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Piperpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "146",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "147",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "148",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "149",
         "mates": false,
         "family": false,
         "romance": 0,

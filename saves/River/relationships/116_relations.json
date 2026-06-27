@@ -90,9 +90,7 @@
         "log": [
             "Waspkit and Pigeonbloom find out they have the same favorite prey! (low positive effect) - Waspkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -213,9 +211,7 @@
         "log": [
             "Wasppaw has had a lot of good dreams about Dancingscreech lately. (high positive effect) - Wasppaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -316,13 +312,16 @@
         "romance": 0,
         "like": -5,
         "respect": -8,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": -10,
+        "trust": -10,
         "log": [
-            "Wasppaw was frustrated when Prancelaurel refused to teach her any advanced battle moves. (negative effect) - Wasppaw was 6 moons old"
+            "Wasppaw was frustrated when Prancelaurel refused to teach her any advanced battle moves. (negative effect) - Wasppaw was 6 moons old",
+            "Wasppaw tried to confide in Prancelaurel about her insecurities, but Prancelaurel was unable to comfort her. (negative effect) - Wasppaw was 7 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -489,12 +488,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Wasppaw, Shadowpaw, Antlerpaw, and Snookpaw wish that Mossflight let them sleep instead of getting them up for early morning stretches. (negative effect) - Wasppaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "116",
@@ -665,9 +669,7 @@
         "log": [
             "Waspkit keeps looking behind Elmtrail during their conversation. (medium negative effect) - Waspkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -701,15 +703,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -17,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": -30,
+        "respect": 8,
+        "comfort": 7,
+        "trust": 9,
         "log": [
-            "Waspkit makes stinky faces at Sardinespeckle for seemingly no reason. (medium negative effect) - Waspkit was 3 moons old"
+            "Waspkit makes stinky faces at Sardinespeckle for seemingly no reason. (medium negative effect) - Waspkit was 3 moons old",
+            "Sardinespeckle yawns while Wasppaw is trying to tell her something. (low negative effect) - Wasppaw was 7 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -751,9 +757,7 @@
         "log": [
             "Waspkit was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Waspkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -891,12 +895,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Spittle and flecks of bone fly while Voletuft gobbles down prey, reminding Antlerpaw, Shadowpaw, Snookpaw, and Wasppaw to seek out better mealtime companionship next time. (negative effect) - Wasppaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "116",
@@ -969,12 +978,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Wasppaw was annoyed that Shimmerrunner caught her trying to sneak out of camp. (negative effect) - Wasppaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "116",
@@ -1174,9 +1187,7 @@
             "Waspkit's friend doesn't trust Shadowkit. (low negative effect) - Waspkit was 3 moons old",
             "Shadowkit helps Waspkit fix a matted piece of fur on her back. (medium positive effect) - Waspkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1191,9 +1202,7 @@
         "log": [
             "Both Waspkit and Blotchkit avoid one another's eye contact. (low negative effect) - Waspkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1208,11 +1217,7 @@
         "log": [
             "Wavekit doesn't entertain a rumor that is being spread about Wasppaw. (medium positive effect) - Wasppaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1223,8 +1228,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 3,
+        "log": [
+            "Cherrykit respects Wasppaw's opinion despite disagreeing with it. (low positive effect) - Wasppaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1238,10 +1245,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1256,9 +1260,7 @@
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Waspkit. (positive effect) - Waspkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1271,9 +1273,7 @@
         "comfort": 0,
         "trust": -13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "116",
@@ -1473,6 +1473,63 @@
     {
         "cat_from_id": "116",
         "cat_to_id": "144",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 15,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Wasppaw was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Wasppaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "116",
+        "cat_to_id": "146",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "116",
+        "cat_to_id": "147",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "116",
+        "cat_to_id": "148",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "116",
+        "cat_to_id": "149",
         "mates": false,
         "family": false,
         "romance": 0,

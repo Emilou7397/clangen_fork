@@ -469,17 +469,21 @@ class CatSkills:
             if random.randint(1, 2) == 1:
                 self.primary.points += amount_effect
                 path = self.primary.path
+                final_amount = self.primary.points
             else:
                 self.secondary.points += amount_effect
                 path = self.secondary.path
+                final_amount = self.secondary.points
         elif can_primary:
             self.primary.points += amount_effect
             path = self.primary.path
+            final_amount = self.primary.points
         else:
             self.secondary.points += amount_effect
             path = self.secondary.path
+            final_amount = self.secondary.points
 
-        return mentor.ID, path, amount_effect
+        return mentor.ID, path, amount_effect, final_amount
 
     def progress_skill(self, the_cat):
         """

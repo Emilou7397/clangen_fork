@@ -114,9 +114,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -127,8 +125,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Lightpelt noticed that Primfreckle wasn't in her nest last night. (low negative effect) - Lightpelt was 59 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -237,10 +237,7 @@
         "log": [
             "Lightpelt and Yewstar are always back-talking to each other. (high negative effect) - Lightpelt was 55 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -257,12 +254,7 @@
             "Lightpelt comforts Auburnsplash after a terrible nightmare. (high positive effect) - Lightpelt was 55 moons old",
             "Auburnsplash brought Lightpelt some dry bedding. (low positive effect) - Lightpelt was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -347,9 +339,7 @@
         "log": [
             "Bouncepelt was part of the patrol that invited Lightpelt to RiverClan. (positive effect) - Lightpelt was 50 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -365,10 +355,7 @@
             "Burrweb was part of the patrol that invited Lightpelt to RiverClan. (positive effect) - Lightpelt was 50 moons old",
             "Lightpelt and Burrweb roll up moss balls together. (low positive effect) - Lightpelt was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -544,12 +531,7 @@
             "Lightpelt reassures Hushshimmer about something that was bothering them. (low positive effect) - Lightpelt was 52 moons old",
             "Lightpelt is deeply touched hearing just how much Hushshimmer remembers about her. (high positive effect) - Lightpelt was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1025,9 +1007,7 @@
         "log": [
             "Rollshock is listening to Lightpelt's woes. (medium positive effect) - Lightpelt was 58 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1091,14 +1071,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": -3,
-        "trust": 0,
+        "like": 21,
+        "respect": 7,
+        "comfort": 3,
+        "trust": 8,
         "log": [
-            "Lightpelt and Kiwifoot say goodbye, but end up walking in the same direction. (low negative effect) - Lightpelt was 51 moons old"
+            "Lightpelt and Kiwifoot say goodbye, but end up walking in the same direction. (low negative effect) - Lightpelt was 51 moons old",
+            "Lightpelt and Kiwifoot heckled another Clan at the Gathering together. (high positive effect) - Lightpelt was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1126,10 +1111,7 @@
         "log": [
             "Oddmuzzle tells Lightpelt that her pelt is shiny today. (low positive effect) - Lightpelt was 53 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1178,10 +1160,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1288,12 +1273,7 @@
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Lightpelt. (positive effect) - Lightpelt was 56 moons old",
             "Lightpelt feels safe with Blizzardstripe around. (high positive effect) - Lightpelt was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1506,6 +1486,63 @@
     {
         "cat_from_id": "113",
         "cat_to_id": "144",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 15,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Lightpelt was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Lightpelt was 59 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "146",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "147",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "148",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "149",
         "mates": false,
         "family": false,
         "romance": 0,

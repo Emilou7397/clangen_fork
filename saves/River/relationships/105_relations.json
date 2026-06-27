@@ -124,9 +124,7 @@
         "log": [
             "Oddmuzzle heard Ochretail talking badly about him. (high negative effect) - Oddmuzzle was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -150,16 +148,18 @@
         "cat_to_id": "9",
         "mates": false,
         "family": false,
-        "romance": 10,
-        "like": -16,
+        "romance": 14,
+        "like": -11,
         "respect": -4,
-        "comfort": 9,
-        "trust": -16,
+        "comfort": 15,
+        "trust": -12,
         "log": [
             "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Oddmuzzle was 58 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "comfort",
+            "trust",
+            "like"
         ]
     },
     {
@@ -181,8 +181,8 @@
         "mates": false,
         "family": false,
         "romance": 6,
-        "like": 1,
-        "respect": -14,
+        "like": 6,
+        "respect": -9,
         "comfort": 12,
         "trust": -7,
         "log": [
@@ -190,9 +190,11 @@
             "Oddmuzzle and Peatcrest lost a bit of respect for each other's work ethic when they spent a whole patrol basking instead of gathering herbs. (negative effect) - Oddmuzzle was 60 moons old",
             "Oddmuzzle and Peatcrest lost a bit of respect for each other's work ethic when they spent a whole patrol basking instead of gathering herbs. (negative effect) - Oddmuzzle was 61 moons old",
             "Oddmuzzle and Peatcrest had a conversation about the nature of StarClan while gathering herbs together. (positive effect) - Oddmuzzle was 62 moons old",
-            "Oddmuzzle helped Peatcrest interpret a vision. (positive effect) - Oddmuzzle was 65 moons old"
+            "Oddmuzzle helped Peatcrest interpret a vision. (positive effect) - Oddmuzzle was 65 moons old",
+            "Peatcrest and Oddmuzzle had a productive time searching Twoleg beach dens for herbs. (positive effect) - Oddmuzzle was 67 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "respect",
             "comfort",
             "trust"
@@ -246,12 +248,14 @@
         "cat_to_id": "15",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Oddmuzzle is prancing around in front of Dancingscreech. (low positive effect) - Oddmuzzle was 67 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -260,15 +264,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 12,
-        "comfort": 12,
-        "trust": 0,
+        "like": 17,
+        "respect": 28,
+        "comfort": 25,
+        "trust": 6,
         "log": [
             "Oddmuzzle is impressed with Algaepool's willingness to help. (medium positive effect)- Oddmuzzle was 53 moons old",
-            "Hailfreckle appreciates Cobaltstrike, Mosscrackle, Oddmuzzle, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Oddmuzzle was 62 moons old"
+            "Hailfreckle appreciates Cobaltstrike, Mosscrackle, Oddmuzzle, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Oddmuzzle was 62 moons old",
+            "Oddmuzzle and Algaepool always challenge one another. (high positive effect) - Oddmuzzle was 67 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "105",
@@ -355,9 +365,7 @@
         "log": [
             "Oddmuzzle thinks Bitebone is shirking his duties. (medium negative effect) - Oddmuzzle was 63 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -455,9 +463,7 @@
             "Oddmuzzle learns a helpful skill from Quailfur. (medium positive effect)- Oddmuzzle was 57 moons old",
             "Oddmuzzle saw Quailfur hide something before talking to him. (low negative effect) - Oddmuzzle was 65 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -538,9 +544,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -571,9 +575,7 @@
             "Mossflight says something vulnerable to Oddmuzzle. (low positive effect) - Oddmuzzle was 64 moons old",
             "Mossflight helps Oddmuzzle hide from a Clanmate. (low positive effect) - Oddmuzzle was 65 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -617,9 +619,7 @@
             "Oddmuzzle trusts Shardtail with a very important task. (high positive effect) - Oddmuzzle was 60 moons old",
             "Oddmuzzle feels like Shardtail has been quieter than usual. (low negative effect) - Oddmuzzle was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -806,9 +806,7 @@
         "log": [
             "Sardinespeckle was part of the patrol that invited Odd to RiverClan. (positive effect)- Odd was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -980,9 +978,7 @@
         "log": [
             "An issue becomes benign when Oddmuzzle remembers Mallowpelt's advice. (medium positive effect) - Oddmuzzle was 64 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1028,9 +1024,7 @@
             "Oddmuzzle trusted Flutterfeather to interpret Oddmuzzle's vision. (positive effect) - Oddmuzzle was 63 moons old",
             "Flutterfeather helped Oddmuzzle interpret a vision. (positive effect) - Oddmuzzle was 63 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1104,9 +1098,7 @@
             "Oddmuzzle is proud of how productive and attentive Hailpaw, Skippaw, Poolpaw, and Rollpaw are during a lesson about poisonous plants. (positive effect)- Oddmuzzle was 55 moons old",
             "Hailfreckle appreciates Cobaltstrike, Mosscrackle, Oddmuzzle, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Oddmuzzle was 62 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1246,9 +1238,7 @@
         "log": [
             "Oddmuzzle disapproved of Antlerpaw wearing a collar. (negative effect) - Oddmuzzle was 63 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1263,10 +1253,7 @@
         "log": [
             "Oddmuzzle tried to reassure Daisymoor about her legacy, but she wouldn't listen. (negative effect) - Oddmuzzle was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1294,10 +1281,7 @@
         "comfort": 20,
         "trust": 10,
         "log": [],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1418,9 +1402,7 @@
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Oddmuzzle. (positive effect) - Oddmuzzle was 64 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1526,12 +1508,7 @@
         "log": [
             "Oddmuzzle had a fight with Silkykit. (high negative effect) - Oddmuzzle was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "105",
@@ -1640,6 +1617,58 @@
     {
         "cat_from_id": "105",
         "cat_to_id": "144",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "105",
+        "cat_to_id": "146",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "105",
+        "cat_to_id": "147",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "105",
+        "cat_to_id": "148",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "105",
+        "cat_to_id": "149",
         "mates": false,
         "family": false,
         "romance": 0,

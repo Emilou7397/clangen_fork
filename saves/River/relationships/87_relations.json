@@ -125,9 +125,7 @@
             "Olivebranch beckons Flutterkit, Saltkit, Skipkit, and Shimmerkit to relax with her and chat. (positive effect)- Flutterkit was 4 moons old",
             "Flutterfeather hears a nice story about Olivebranch. (low positive effect) - Flutterfeather was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -213,11 +211,7 @@
             "Flutterkit saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Flutterkit was 2 moons old",
             "Flutterfeather and Primfreckle discussed medicine cat business while sunning themselves on patrol. (positive effect) - Flutterfeather was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -378,11 +372,15 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": 0,
+        "respect": -17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flutterfeather tries to do something like Peakspore but ends up embarrassing himself. (medium negative effect) - Flutterfeather was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -668,12 +666,7 @@
         "log": [
             "Flutterfeather can't believe how talented Warmswirl is! (high positive effect) - Flutterfeather was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -690,12 +683,7 @@
             "Shardtail brags about their recent catches and impresses Stoatshade, Bouncepelt, Yewstar, and Flutterfeather. (positive effect) - Flutterfeather was 18 moons old",
             "Shardtail uses one of Flutterfeather's fears against him. (high negative effect) - Flutterfeather was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -909,9 +897,7 @@
         "log": [
             "Flutterfeather can't stop thinking about the way Sardinespeckle glared at her Clanmate. (high negative effect) - Flutterfeather was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -935,16 +921,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 35,
         "respect": 12,
         "comfort": 24,
         "trust": 0,
         "log": [
             "Stretching might be good for one's health, but Flightpaw, Volepaw, Flutterpaw, and Shimmerpaw wish Talonlake didn't insist on stretching at the crack of dawn. (negative effect)- Flutterpaw was 10 moons old",
             "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Flutterpaw was 12 moons old",
-            "Auburnsplash convinces Talonlake, Shardtail, Flutterfeather, and Peatcrest to wind down and stretch with her. (positive effect) - Flutterfeather was 17 moons old"
+            "Auburnsplash convinces Talonlake, Shardtail, Flutterfeather, and Peatcrest to wind down and stretch with her. (positive effect) - Flutterfeather was 17 moons old",
+            "Flutterfeather spends some time sheltering with Talonlake during a storm. (medium positive effect) - Flutterfeather was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -960,9 +949,7 @@
             "Flutterpaw heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Flutterpaw was 6 moons old",
             "Flutterfeather was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Flutterfeather was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1109,10 +1096,7 @@
             "Flutterpaw realizes that Onepaw's been avoiding him. (medium negative effect)- Flutterpaw was 9 moons old",
             "Flutterfeather wishes Onemuzzle would take things more seriously. (medium negative effect) - Flutterfeather was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1122,8 +1106,8 @@
         "romance": 0,
         "like": 49,
         "respect": 3,
-        "comfort": 63,
-        "trust": 35,
+        "comfort": 71,
+        "trust": 43,
         "log": [
             "Flutterkit always goes to Volekit first when she needs advice. (high positive effect)- Flutterkit was 1 moon old",
             "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Flutterkit was 1 moon old",
@@ -1131,7 +1115,10 @@
             "At first, Flutterkit, Volekit, Skipkit, and Shimmerkit are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Flutterkit was 2 moons old",
             "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Flutterpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -1154,9 +1141,7 @@
             "Saltknoll and Flutterfeather got into a huge argument over whose fault it was that an herb-gathering patrol failed. (negative effect) - Flutterfeather was 16 moons old",
             "Saltknoll compliments Flutterfeather's name. (low positive effect) - Flutterfeather was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1172,9 +1157,7 @@
             "Curryfoot hosts a group exercise to help Volekit, Flightkit, Saltkit, and Flutterkit understand each other better. (positive effect)- Flutterkit was 1 moon old",
             "Flutterpaw is grateful that Flightpaw has kept a secret of his. (medium positive effect)- Flutterpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1246,11 +1229,7 @@
             "Flutterpaw notices how Hailfreckle is being helpful around camp. (medium positive effect)- Flutterpaw was 13 moons old",
             "Flutterfeather's bad mood was improved by how hard Hailfreckle worked during an herb-gathering patrol. (positive effect) - Flutterfeather was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1269,9 +1248,7 @@
             "Flutterfeather and Shimmerrunner say goodbye, but end up walking in the same direction. (low negative effect) - Flutterfeather was 18 moons old",
             "Flutterfeather always tends to Shimmerrunner last. (medium negative effect) - Flutterfeather was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1354,10 +1331,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flutterfeather felt uncomfortable when Hollyheart snapped at him while they were gathering herbs. (negative effect) - Flutterfeather was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -1387,10 +1368,7 @@
         "log": [
             "Flutterfeather helped Oddmuzzle interpret a vision. (positive effect) - Flutterfeather was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1472,9 +1450,7 @@
         "log": [
             "Flutterfeather sees Lightpelt put something back where it belongs. (low positive effect) - Flutterfeather was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1593,9 +1569,7 @@
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Flutterfeather. (positive effect) - Flutterfeather was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1808,6 +1782,70 @@
     {
         "cat_from_id": "87",
         "cat_to_id": "144",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 15,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Flutterfeather was amused and impressed that Ospreykit managed to sneak out of camp. (positive effect) - Flutterfeather was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "146",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 21,
+        "respect": 6,
+        "comfort": 19,
+        "trust": 17,
+        "log": [
+            "Flutterfeather is excited for his family to grow further. (positive effect) - Flutterfeather was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "147",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "148",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "149",
         "mates": false,
         "family": false,
         "romance": 0,
