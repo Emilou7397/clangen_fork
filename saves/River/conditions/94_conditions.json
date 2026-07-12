@@ -1,0 +1,44 @@
+{
+    "illnesses": {
+        "an infected wound": {
+            "severity": "major",
+            "mortality": 15,
+            "infectiousness": 0,
+            "duration": 2,
+            "moon_start": 121,
+            "risks": [
+                {
+                    "name": "a festering wound",
+                    "chance": 22
+                }
+            ],
+            "event_triggered": false
+        }
+    },
+    "injuries": {
+        "mangled tail": {
+            "severity": "severe",
+            "mortality": 67,
+            "duration": 1,
+            "moon_start": 120,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 0
+                }
+            ],
+            "complication": "infected",
+            "cause_permanent": [
+                "lost their tail"
+            ],
+            "event_triggered": false,
+            "potential_scars": [
+                "HALFTAIL",
+                "MANTAIL",
+                "NOTAIL",
+                "TAILSCAR"
+            ]
+        }
+    }
+}

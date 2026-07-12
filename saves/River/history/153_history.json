@@ -6,10 +6,34 @@
         "moon": 103
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
+        "trait": {
+            "50": {
+                "sociability": 4,
+                "lawfulness": 2,
+                "stability": -2,
+                "aggression": 1,
+                "strings": [
+                    "interact with others",
+                    "heed {PRONOUN\/m_c\/poss} inner compass",
+                    "behave erratically",
+                    "be ready for a fight"
+                ]
+            }
+        },
+        "skill": {
+            "50": {
+                "SWIMMER": 16,
+                "strings": [
+                    "swimming"
+                ]
+            }
+        }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "insight",
+        "graduation_age": 11,
+        "moon": 114
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

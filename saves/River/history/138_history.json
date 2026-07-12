@@ -6,10 +6,32 @@
         "moon": 99
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
+        "trait": {
+            "19": {
+                "sociability": 3,
+                "lawfulness": -4,
+                "stability": 2,
+                "strings": [
+                    "interact with others",
+                    "break rules that don't suit {PRONOUN\/m_c\/object}",
+                    "be resilient"
+                ]
+            }
+        },
+        "skill": {
+            "19": {
+                "TEACHER": 15,
+                "strings": [
+                    "teaching"
+                ]
+            }
+        }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "loyalty",
+        "graduation_age": 11,
+        "moon": 110
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

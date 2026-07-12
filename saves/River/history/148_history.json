@@ -6,14 +6,29 @@
         "moon": 102
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
+        "trait": {
+            "19": {
+                "sociability": 1,
+                "lawfulness": 1
+            }
+        },
+        "skill": {
+            "19": {
+                "FIGHTER": 4
+            }
+        }
     },
     "app_ceremony": {},
     "lead_ceremony": null,
-    "afterlife_acceptance": null,
+    "afterlife_acceptance": "starclan_default_7",
     "possible_history": {},
-    "died_by": [],
+    "died_by": [
+        {
+            "involved": null,
+            "text": "m_c died from {PRONOUN\/m_c\/poss} wounds after {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was} hurt by a fox.",
+            "moon": 111
+        }
+    ],
     "scar_events": [],
     "murder": {}
 }

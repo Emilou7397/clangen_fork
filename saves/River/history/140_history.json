@@ -6,14 +6,40 @@
         "moon": 99
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
+        "trait": {
+            "103": {
+                "lawfulness": 5,
+                "sociability": 4,
+                "strings": [
+                    "follow rules",
+                    "be friendly towards others"
+                ]
+            }
+        },
+        "skill": {
+            "103": {
+                "HUNTER": 14,
+                "strings": [
+                    "hunting"
+                ]
+            }
+        }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "courage",
+        "graduation_age": 12,
+        "moon": 111
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": null,
+            "text": "m_c was scarred by a hawk.",
+            "moon": 120
+        }
+    ],
     "murder": {}
 }

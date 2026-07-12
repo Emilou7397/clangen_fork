@@ -6,20 +6,52 @@
         "moon": 96
     },
     "mentor_influence": {
-        "trait": {},
-        "skill": {}
-    },
-    "app_ceremony": {},
-    "lead_ceremony": null,
-    "afterlife_acceptance": null,
-    "possible_history": {
-        "broken bone": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after saving Voletuft from a big dog.",
-            "scar_text": "m_c was scarred by a big dog while rescuing Voletuft.",
-            "other_cat": "86"
+        "trait": {
+            "52": {
+                "lawfulness": 2,
+                "aggression": -1,
+                "strings": [
+                    "follow rules",
+                    "try to avoid violence"
+                ]
+            },
+            "93": {
+                "lawfulness": 1,
+                "stability": 2,
+                "sociability": 3,
+                "strings": [
+                    "follow rules",
+                    "be consistent",
+                    "be friendly towards others"
+                ]
+            }
+        },
+        "skill": {
+            "93": {
+                "CLEVER": 5,
+                "SPEAKER": 3,
+                "strings": [
+                    "solving problems",
+                    "arguing"
+                ]
+            }
         }
     },
+    "app_ceremony": {
+        "honor": "good nature",
+        "graduation_age": 15,
+        "moon": 111
+    },
+    "lead_ceremony": null,
+    "afterlife_acceptance": null,
+    "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": "86",
+            "text": "m_c was scarred by a big dog while rescuing Voletuft.",
+            "moon": 107
+        }
+    ],
     "murder": {}
 }

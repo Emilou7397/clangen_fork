@@ -85,12 +85,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 12,
+        "like": -12,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bouncepelt, Diablofoot, Talonpaw, and Sardinepaw talk about Pebblechase's combat prowess during a skirmish. (positive effect)- Talonpaw was 8 moons old"
+            "Bouncepelt, Diablofoot, Talonpaw, and Sardinepaw talk about Pebblechase's combat prowess during a skirmish. (positive effect)- Talonpaw was 8 moons old",
+            "Pebblechase spends the Gathering whispering to Shardtail, Talonlake, and Flightsplash, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Talonlake was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -175,8 +176,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Ochretail won't stop looking at a specific Clanmate while talking to Talonlake. (low negative effect) - Talonlake was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -203,12 +206,14 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -5,
-        "comfort": 0,
+        "respect": 5,
+        "comfort": -12,
         "trust": -10,
         "log": [
             "Talonlake heard about how Bitterleaf's patrol drove off a vixen. (positive effect)- Talonlake was 16 moons old",
-            "Talonlake was not happy to hear that Bitterleaf took food from a Twoleg. (negative effect) - Talonlake was 26 moons old"
+            "Talonlake was not happy to hear that Bitterleaf took food from a Twoleg. (negative effect) - Talonlake was 26 moons old",
+            "Talonlake had a terrible dream about Bitterleaf. (medium negative effect) - Talonlake was 35 moons old",
+            "Talonlake heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -219,11 +224,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 8,
+        "respect": 18,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Talonpaw saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Talonpaw was 11 moons old"
+            "Talonpaw saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Talonpaw was 11 moons old",
+            "Talonlake heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -248,7 +254,7 @@
         "romance": 0,
         "like": 24,
         "respect": -5,
-        "comfort": 24,
+        "comfort": 16,
         "trust": -5,
         "log": [
             "Talonlake heard that Peatcrest touched noses with a kittypet. (negative effect)- Talonlake was 14 moons old",
@@ -263,22 +269,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
+        "like": 37,
         "respect": 12,
-        "comfort": 32,
+        "comfort": 42,
         "trust": 3,
         "log": [
             "Curryfoot has noticed tensions in the Clan, so she organizes time for Frondkit, Talonkit, Shinekit, and Hushshimmer to relax and have others to talk to. (positive effect)- Talonkit was 3 moons old",
             "Talonkit is asking Curryfoot where kits come from. (medium positive effect)- Talonkit was 4 moons old",
             "Early in the morning, Curryfoot rallies Shinepaw, Talonpaw, Pebblefur, and Carptail to do stretches in hopes of keeping her Clanmates prepared for anything. (negative effect)- Talonpaw was 6 moons old",
             "Talonlake, Flightsplash, and Curryfoot had a nice talk while eating. (positive effect)- Talonlake was 23 moons old",
-            "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old"
+            "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old",
+            "Talonlake was touched by how deeply Craneflight and Curryfoot loved each other. (positive effect) - Talonlake was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -320,15 +323,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -18,
-        "respect": 35,
-        "comfort": 15,
-        "trust": 15,
+        "like": -13,
+        "respect": 45,
+        "comfort": 32,
+        "trust": 20,
         "log": [
             "Shardpaw, Warmpaw, Talonkit, and Algaepool bemoan Dancingscreech's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Dancingscreech likes it. (negative effect)- Talonkit was 0 moons old",
             "Talonkit has drawn the ire of Dancingscreech by deliberately taking the last of her favorite nesting materials for himself. (low negative effect)- Talonkit was 2 moons old",
             "Talonpaw worries that the Clan trusts Dancingscreech more than him. (medium negative effect)- Talonpaw was 10 moons old",
-            "Shinepaw, Talonpaw, Poolpaw, and Sardinepaw can't escape from Dancingscreech waking them up to do early morning stretches. (negative effect)- Talonpaw was 10 moons old"
+            "Shinepaw, Talonpaw, Poolpaw, and Sardinepaw can't escape from Dancingscreech waking them up to do early morning stretches. (negative effect)- Talonpaw was 10 moons old",
+            "Talonlake enjoyed spending an evening listening to Dancingscreech's stories. (positive effect) - Talonlake was 40 moons old",
+            "Talonlake and Dancingscreech share little secrets about themselves. (medium positive effect) - Talonlake was 42 moons old",
+            "Talonlake was impressed by Dancingscreech's hunting prowess. (positive effect) - Talonlake was 47 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -338,12 +344,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 7,
-        "comfort": 0,
-        "trust": 0,
+        "like": -10,
+        "respect": 2,
+        "comfort": -10,
+        "trust": -5,
         "log": [
-            "Talonlake admits he really admires Algaepool's recent efforts. (medium positive effect)- Talonlake was 17 moons old"
+            "Talonlake admits he really admires Algaepool's recent efforts. (medium positive effect)- Talonlake was 17 moons old",
+            "Talonlake noticed that Algaepool was in a foul mood. (negative effect) - Talonlake was 37 moons old",
+            "Talonlake noticed that Algaepool was in a foul mood. (negative effect) - Talonlake was 40 moons old",
+            "Talonlake heard about how Algaepool shared prey with a kittypet. (negative effect) - Talonlake was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -370,10 +379,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake doesn't tell Petalglow that she forgot to groom a part of her fur. (low negative effect) - Talonlake was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -415,11 +426,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 17,
         "trust": 0,
         "log": [
-            "Talonkit is hiding under a bush from Bitebone, but he can't stop giggling. (medium positive effect)- Talonkit was 5 moons old"
+            "Talonkit is hiding under a bush from Bitebone, but he can't stop giggling. (medium positive effect)- Talonkit was 5 moons old",
+            "Talonlake thinks the prey Bitebone is biting into on the other side of camp looks delicious. (low negative effect) - Talonlake was 40 moons old",
+            "Talonlake heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -438,10 +451,7 @@
             "Late into the evening, Talonlake invites Diablofoot, Kokomi, Prancelaurel, and Peatcrest to stretch with him and enjoy each other's company. (positive effect)- Talonlake was 17 moons old",
             "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -450,14 +460,20 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": -5,
+        "respect": 0,
         "comfort": 8,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Talonlake heard that Bouncepelt touched noses with a loner. (negative effect)- Talonlake was 16 moons old",
-            "Fringesnap, Talonlake, and Bouncepelt had a nice talk while eating. (positive effect)- Talonlake was 19 moons old"
+            "Fringesnap, Talonlake, and Bouncepelt had a nice talk while eating. (positive effect)- Talonlake was 19 moons old",
+            "Talonlake heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Talonlake was 34 moons old",
+            "Talonlake heard Bouncepelt fell asleep guarding camp. (negative effect) - Talonlake was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -493,11 +509,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake was touched by how deeply Craneflight and Curryfoot loved each other. (positive effect) - Talonlake was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -507,14 +525,22 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 10,
+        "respect": 33,
         "comfort": 8,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Talonkit, Suntooth, and Reedheart took a sunbath and had a little small talk. (positive effect)- Talonkit was 1 moon old",
-            "Talonlake was highly impressed by how Suntooth used a squirrel and rattlesnake's fight to sneakily kill both pieces of prey. (positive effect) - Talonlake was 27 moons old"
+            "Talonlake was highly impressed by how Suntooth used a squirrel and rattlesnake's fight to sneakily kill both pieces of prey. (positive effect) - Talonlake was 27 moons old",
+            "Talonlake noticed how successful Suntooth's hunting patrol was. (positive effect) - Talonlake was 36 moons old",
+            "Talonlake heard that Suntooth chased a rogue off the territory. (positive effect) - Talonlake was 43 moons old",
+            "Talonlake saw Suntooth's patrol bring a huge octopus back to camp. (positive effect) - Talonlake was 44 moons old",
+            "Talonlake heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -536,10 +562,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -551,9 +579,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -13,
+        "log": [
+            "Talonlake has to snap Tomatofreckle out of a daze to ask a question. (low negative effect) - Talonlake was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -561,12 +593,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 13,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saffronfoot guides Talonlake to someone he is looking for. (low positive effect) - Talonlake was 37 moons old",
+            "Talonlake heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 49 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -575,11 +613,12 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": 12,
+        "respect": -1,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Sardinepaw, Talonpaw, Poolpaw, and Frondpaw respect how dutiful Kamautail is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Talonpaw was 10 moons old"
+            "Sardinepaw, Talonpaw, Poolpaw, and Frondpaw respect how dutiful Kamautail is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Talonpaw was 10 moons old",
+            "Kamautail is talking to Talonlake, but he can't stop noticing the mud on Kamautail's pelt. (low negative effect) - Talonlake was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -623,10 +662,7 @@
             "Talonlake appreciated Bushberry keeping up good relations with the local dolphins. (positive effect)- Talonlake was 14 moons old",
             "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -679,16 +715,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 11,
+        "respect": 21,
         "comfort": 14,
         "trust": 4,
         "log": [
             "Talonlake asked Gardeniaglow for his opinion on a topic and had a surprisingly insightful conversation. (high positive effect)- Talonlake was 23 moons old",
-            "Talonlake heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Talonlake was 31 moons old"
+            "Talonlake heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Talonlake was 31 moons old",
+            "Talonlake respected Gardeniaglow's intense work ethic during a patrol, even though it wore him out. (positive effect) - Talonlake was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -699,8 +734,10 @@
         "like": 0,
         "respect": -3,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Mossflight keeps asking Talonlake if he trusts her. (low negative effect) - Talonlake was 45 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -722,12 +759,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
-        "respect": 0,
+        "like": 8,
+        "respect": 30,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Curryfoot has noticed tensions in the Clan, so she organizes time for Frondkit, Talonkit, Shinekit, and Hushshimmer to relax and have others to talk to. (positive effect)- Talonkit was 3 moons old"
+            "Curryfoot has noticed tensions in the Clan, so she organizes time for Frondkit, Talonkit, Shinekit, and Hushshimmer to relax and have others to talk to. (positive effect)- Talonkit was 3 moons old",
+            "Talonlake and Hushshimmer find out they have the same favorite prey! (low positive effect) - Talonlake was 38 moons old",
+            "Early in the morning, Hushshimmer rallies Shardtail, Frondpad, Sardinespeckle, and Talonlake to do stretches in hopes of keeping their Clanmates prepared for anything. (negative effect) - Talonlake was 40 moons old",
+            "Talonlake heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 47 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -737,16 +777,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -16,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "like": -4,
+        "respect": 16,
+        "comfort": 2,
+        "trust": 4,
         "log": [
             "Talonlake heard about how Warmswirl's patrol drove off a vixen. (positive effect)- Talonlake was 16 moons old",
-            "Warmswirl tells Talonlake to smile more. (low negative effect) - Talonlake was 33 moons old"
+            "Warmswirl tells Talonlake to smile more. (low negative effect) - Talonlake was 33 moons old",
+            "Talonlake and Warmswirl agree about something trivial. (low positive effect) - Talonlake was 47 moons old",
+            "Talonlake is deeply touched hearing just how much Warmswirl remembers about him. (high positive effect) - Talonlake was 51 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "respect"
         ]
     },
     {
@@ -756,7 +798,7 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": 24,
+        "respect": 64,
         "comfort": 7,
         "trust": -5,
         "log": [
@@ -764,12 +806,13 @@
             "Talonlake was impressed by how Shardtail cleverly levered an octopus out of a rockpool with a thin piece of driftwood. (positive effect)- Talonlake was 22 moons old",
             "Talonlake sees that Shardtail's piece of prey looks tastier and asks if they'd like to swap. They agree happily, saying they like that one better. (low positive effect) - Talonlake was 25 moons old",
             "Auburnsplash convinces Talonlake, Shardtail, Flutterfeather, and Peatcrest to wind down and stretch with her. (positive effect) - Talonlake was 25 moons old",
-            "The Clan can't believe the things Talonlake and Shardtail say to one another. (high negative effect) - Talonlake was 34 moons old"
+            "The Clan can't believe the things Talonlake and Shardtail say to one another. (high negative effect) - Talonlake was 34 moons old",
+            "Talonlake heard about how Shardtail's patrol drove off a scavenging fox. (positive effect) - Talonlake was 34 moons old",
+            "Talonlake was impressed by Shardtail's hunting prowess. (positive effect) - Talonlake was 36 moons old",
+            "Talonlake heard Shardtail fell asleep guarding camp. (negative effect) - Talonlake was 39 moons old",
+            "Talonlake admits he really admires Shardtail's recent efforts. (medium positive effect) - Talonlake was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -805,10 +848,11 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 13,
+        "comfort": 10,
         "trust": 0,
         "log": [
-            "Talonlake heard about how Amberfur's patrol drove off a vixen. (positive effect)- Talonlake was 16 moons old"
+            "Talonlake heard about how Amberfur's patrol drove off a vixen. (positive effect)- Talonlake was 16 moons old",
+            "Talonlake felt eyes on his back, and when he looked, Amberfur was quickly turning away. (low negative effect) - Talonlake was 46 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -819,18 +863,21 @@
         "family": false,
         "romance": 0,
         "like": -7,
-        "respect": 42,
+        "respect": 34,
         "comfort": 16,
-        "trust": 0,
+        "trust": -13,
         "log": [
             "Shinepaw, Talonpaw, Sardinepaw, and Poolpaw wish that Fringesnap let them sleep instead of getting them up for early morning stretches. (negative effect)- Talonpaw was 10 moons old",
             "Fringesnap points out to Talonlake that a spider is in his nest before he sits in it. (low positive effect)- Talonlake was 16 moons old",
             "Fringesnap, Talonlake, and Bouncepelt had a nice talk while eating. (positive effect)- Talonlake was 19 moons old",
             "Talonlake disapproved of Fringesnap wearing a collar. (negative effect) - Talonlake was 23 moons old",
             "Talonlake is told about Fringesnap's bravery during a recent time of struggle. (medium positive effect) - Talonlake was 27 moons old",
-            "Talonlake has a discussion with Fringesnap over favorite prey, and now they both have a new appreciation for each others' tastes (medium positive effect) - Talonlake was 29 moons old"
+            "Talonlake has a discussion with Fringesnap over favorite prey, and now they both have a new appreciation for each others' tastes (medium positive effect) - Talonlake was 29 moons old",
+            "Fringesnap pulled an embarrassing prank on Talonlake's friend. (low negative effect) - Talonlake was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -880,12 +927,13 @@
         "family": false,
         "romance": 12,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 8,
+        "trust": 16,
         "log": [
             "Talonlake overhears Fleadusk tell another cat he kind of likes Talonlake. (medium positive effect)- Talonlake was 20 moons old",
-            "Fleadusk makes a small sacrifice that benefits Talonlake. (low positive effect)- Talonlake was 21 moons old"
+            "Fleadusk makes a small sacrifice that benefits Talonlake. (low positive effect)- Talonlake was 21 moons old",
+            "Talonlake heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 47 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -897,11 +945,14 @@
         "romance": 0,
         "like": 17,
         "respect": 0,
-        "comfort": 0,
-        "trust": -5,
+        "comfort": 5,
+        "trust": -13,
         "log": [
             "Talonlake calls to Fluttershade to catch him a fat mouse on her next hunting patrol. (medium positive effect)- Talonlake was 19 moons old",
-            "Talonlake heard Fluttershade fell asleep guarding camp. (negative effect)- Talonlake was 22 moons old"
+            "Talonlake heard Fluttershade fell asleep guarding camp. (negative effect)- Talonlake was 22 moons old",
+            "Talonlake heard Fluttershade fell asleep guarding camp. (negative effect) - Talonlake was 34 moons old",
+            "Talonlake and Fluttershade took a lovely nap together instead of patrolling. (positive effect) - Talonlake was 38 moons old",
+            "Talonlake noticed that Fluttershade wasn't in her nest last night. (low negative effect) - Talonlake was 43 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -911,13 +962,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
-        "respect": 0,
+        "like": -18,
+        "respect": 10,
         "comfort": -5,
         "trust": -13,
         "log": [
             "Talonpaw noticed that Skulkwillow was in a foul mood. (negative effect)- Talonpaw was 8 moons old",
-            "Talonlake noticed that Skulkwillow wasn't in his nest last night. (low negative effect) - Talonlake was 28 moons old"
+            "Talonlake noticed that Skulkwillow wasn't in his nest last night. (low negative effect) - Talonlake was 28 moons old",
+            "Talonlake heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 47 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -928,10 +980,13 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake was impressed by Murkhaven's hunting prowess. (positive effect) - Talonlake was 39 moons old",
+            "Talonlake heard Murkhaven fell asleep guarding camp. (negative effect) - Talonlake was 41 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -974,7 +1029,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
+        "like": 33,
         "respect": 2,
         "comfort": 3,
         "trust": 9,
@@ -986,10 +1041,7 @@
             "Elmtrail compliments one of Talonlake's friends. (low positive effect) - Talonlake was 32 moons old",
             "Talonlake and Elmtrail practiced their hunting together. (positive effect) - Talonlake was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -997,13 +1049,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
+        "like": 8,
         "respect": 6,
         "comfort": 18,
-        "trust": 16,
+        "trust": 8,
         "log": [
             "A fight between Sardinekit, Brindlekit, Talonkit, and Heavykit over a toy is short-lived when Smokeheart intervenes. (positive effect)- Talonkit was 2 moons old",
-            "Talonpaw is letting Brindletooth share their troubles with him, hoping they'll feel better afterward. (high positive effect)- Talonpaw was 11 moons old"
+            "Talonpaw is letting Brindletooth share their troubles with him, hoping they'll feel better afterward. (high positive effect)- Talonpaw was 11 moons old",
+            "Brindletooth tells Elmtrail, Talonlake, Hushshimmer, and Sardinespeckle a story that seems to grow less believable every meow. (negative effect) - Talonlake was 36 moons old",
+            "Talonlake heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 47 moons old",
+            "Brindletooth has a talent that Talonlake wants to have. (medium negative effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1029,10 +1084,10 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 76,
+        "like": 81,
         "respect": 0,
-        "comfort": 55,
-        "trust": 45,
+        "comfort": 68,
+        "trust": 84,
         "log": [
             "A fight between Sardinekit, Brindlekit, Talonkit, and Heavykit over a toy is short-lived when Smokeheart intervenes. (positive effect)- Talonkit was 2 moons old",
             "Frondkit calls everyone in the nursery is a mouse-brain. It leads to an argument between herself, Poolkit, Sardinekit, Shinekit, and Talonkit. (negative effect)- Talonkit was 5 moons old",
@@ -1040,9 +1095,13 @@
             "Sardinepaw stands up for Talonpaw during a patrol. (medium positive effect)- Talonpaw was 8 moons old",
             "Carptail, Talonpaw, Frondpaw, Shinepaw, and Sardinepaw hang out while stretching. (positive effect)- Talonpaw was 9 moons old",
             "Talonpaw and Sardinepaw snuck out of camp together. (positive effect)- Talonpaw was 10 moons old",
-            "Talonlake reassures Sardinespeckle about something that was bothering her. (low positive effect)- Talonlake was 22 moons old"
+            "Talonlake reassures Sardinespeckle about something that was bothering her. (low positive effect)- Talonlake was 22 moons old",
+            "Talonlake and Sardinespeckle spent some time sunning together while on patrol. (positive effect) - Talonlake was 43 moons old",
+            "Sardinespeckle makes a small sacrifice that benefits Talonlake. (low positive effect) - Talonlake was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1066,14 +1125,10 @@
             "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Talonlake was 20 moons old",
             "Talonlake, Shinefur, and Yewstar took a sunbath and had a little small talk. (positive effect)- Talonlake was 21 moons old",
             "Talonlake appreciated Shinefur settling a dispute on patrol. (positive effect) - Talonlake was 24 moons old",
-            "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old"
+            "At first, Talonlake, Bushberry, Shinefur, and Prancelaurel are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect) - Talonlake was 32 moons old",
+            "Shinefur doesn't laugh when Talonlake does something embarrassing. (medium positive effect) - Talonlake was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1081,10 +1136,10 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 56,
-        "respect": 13,
-        "comfort": 83,
-        "trust": 31,
+        "like": 52,
+        "respect": 39,
+        "comfort": 99,
+        "trust": 27,
         "log": [
             "Talonkit is demanding Frondkit's attention. (medium positive effect)- Talonkit was 3 moons old",
             "Curryfoot has noticed tensions in the Clan, so she organizes time for Frondkit, Talonkit, Shinekit, and Hushshimmer to relax and have others to talk to. (positive effect)- Talonkit was 3 moons old",
@@ -1098,14 +1153,13 @@
             "Talonlake was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Talonlake was 29 moons old",
             "Talonlake and Frondpad practiced their hunting together. (positive effect) - Talonlake was 32 moons old",
             "Frondpad complained so relentlessly about her patrol assignment that Talonlake, Shinefur, and Yewstar could only sigh and bear it. (negative effect) - Talonlake was 33 moons old",
-            "Talonlake and Frondpad took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old"
+            "Talonlake and Frondpad took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old",
+            "Talonlake heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Talonlake was 34 moons old",
+            "Talonlake helps Frondpad work through something difficult that happened to her. (high positive effect) - Talonlake was 35 moons old",
+            "Talonlake was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Talonlake was 41 moons old",
+            "Frondpad shares a suspiciously exaggerated tale with Talonlake, Pheasantbrush, and Shinefur, who seem far from convinced of its veracity. (negative effect) - Talonlake was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1114,12 +1168,13 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 17,
+        "respect": 20,
         "comfort": 21,
         "trust": 0,
         "log": [
             "Talonpaw and Snippool take turns in a small patch of sunlight. (medium positive effect)- Talonpaw was 6 moons old",
-            "Mallowkit, Talonpaw, and Snippool had a nice talk while eating. (positive effect)- Talonpaw was 9 moons old"
+            "Mallowkit, Talonpaw, and Snippool had a nice talk while eating. (positive effect)- Talonpaw was 9 moons old",
+            "Talonlake noticed how successful Snippool's hunting patrol was. (positive effect) - Talonlake was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1170,9 +1225,7 @@
             "Talonlake wasn't impressed that Icyriver got so freaked out by a ginger cat statue she ran back to camp and spoiled a training patrol. (negative effect)- Talonlake was 21 moons old",
             "Talonlake and Icyriver practiced their hunting together. (positive effect) - Talonlake was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1181,12 +1234,14 @@
         "family": false,
         "romance": 0,
         "like": -19,
-        "respect": -21,
-        "comfort": -7,
+        "respect": -18,
+        "comfort": -20,
         "trust": -7,
         "log": [
             "Frondkit calls everyone in the nursery is a mouse-brain. It leads to an argument between herself, Poolkit, Sardinekit, Shinekit, and Talonkit. (negative effect)- Talonkit was 5 moons old",
-            "Talonlake was noticeably distracted while Poolpaw was trying to tell a story. (high negative effect)- Talonlake was 18 moons old"
+            "Talonlake was noticeably distracted while Poolpaw was trying to tell a story. (high negative effect)- Talonlake was 18 moons old",
+            "Talonlake noticed how successful Poolleaf's hunting patrol was. (positive effect) - Talonlake was 36 moons old",
+            "Talonlake struggles to make sense of something trivial Poolleaf said. (low negative effect) - Talonlake was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1196,8 +1251,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
-        "respect": 8,
+        "like": 22,
+        "respect": 3,
         "comfort": 20,
         "trust": 16,
         "log": [
@@ -1205,14 +1260,10 @@
             "Frondpad, Pheasantbrush, Talonlake, Burrweb, and Heatherfern hang out while stretching. (positive effect) - Talonlake was 24 moons old",
             "Talonlake and Pheasantbrush practiced their hunting together. (positive effect) - Talonlake was 32 moons old",
             "Talonlake became suspicious of Pheasantbrush after catching her trying to sneak out of camp. (negative effect) - Talonlake was 33 moons old",
-            "Talonlake and Pheasantbrush took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old"
+            "Talonlake and Pheasantbrush took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old",
+            "Talonlake heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Talonlake was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1221,11 +1272,12 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 0,
+        "respect": 10,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Duckbelly, Gracklefur, and Talonlake had a nice talk while eating. (positive effect)- Talonlake was 19 moons old"
+            "Duckbelly, Gracklefur, and Talonlake had a nice talk while eating. (positive effect)- Talonlake was 19 moons old",
+            "Talonlake heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1238,30 +1290,27 @@
         "like": 10,
         "respect": 0,
         "comfort": 11,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Mallowkit, Talonpaw, and Snippool had a nice talk while eating. (positive effect)- Talonpaw was 9 moons old",
             "Talonlake is asking Mallowpelt interesting questions. (low positive effect)- Talonlake was 23 moons old",
             "Talonlake tried to explain something to Mallowpelt, but he just didn't understand. (low negative effect) - Talonlake was 30 moons old",
             "Talonlake and Mallowpelt practiced their hunting together. (positive effect) - Talonlake was 32 moons old",
-            "Talonlake and Mallowpelt took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old"
+            "Talonlake and Mallowpelt took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old",
+            "Talonlake heard Mallowpelt fell asleep guarding camp. (negative effect) - Talonlake was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
         "cat_to_id": "85",
         "mates": true,
         "family": false,
-        "romance": 62,
-        "like": 36,
-        "respect": 6,
-        "comfort": 47,
-        "trust": 68,
+        "romance": 100,
+        "like": 70,
+        "respect": 20,
+        "comfort": 55,
+        "trust": 94,
         "log": [
             "Talonpaw is talking with Onekit. (low positive effect)- Talonpaw was 9 moons old",
             "Talonlake compliments Onemuzzle on how sharp their claws are today. (high positive effect) - Talonlake was 24 moons old",
@@ -1269,14 +1318,12 @@
             "Onemuzzle tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Heatherfern and Talonlake. (negative effect) - Talonlake was 29 moons old",
             "Talonlake and Onemuzzle traded their best tricks with each other while practicing their battle moves. (positive effect) - Talonlake was 29 moons old",
             "Talonlake and Onemuzzle took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old",
-            "Talonlake sneaks out at night to sleep in Onemuzzle's nest. (high positive effect) - Talonlake was 34 moons old"
+            "Talonlake sneaks out at night to sleep in Onemuzzle's nest. (high positive effect) - Talonlake was 34 moons old",
+            "Talonlake and Onemuzzle had a successful hunt together. (positive effect) - Talonlake was 34 moons old",
+            "Talonlake was impressed by how Onemuzzle cleverly levered an octopus out of a rockpool with a thin piece of driftwood. (positive effect) - Talonlake was 42 moons old",
+            "Talonlake can't stop gushing over Onemuzzle. (high positive effect) - Talonlake was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1321,15 +1368,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 46,
+        "like": 54,
         "respect": 10,
-        "comfort": 54,
+        "comfort": 49,
         "trust": 20,
         "log": [
             "Talonpaw is excited for his family to grow further. (positive effect)- Talonpaw was 8 moons old",
             "Talonlake heard that Flutterpaw played with a kittypet on RiverClan's border. (negative effect)- Talonlake was 17 moons old",
             "Shinefur convinces Talonlake, Carptail, Flutterpaw, and Volepaw to wind down and stretch with her. (positive effect)- Talonlake was 20 moons old",
-            "Auburnsplash convinces Talonlake, Shardtail, Flutterfeather, and Peatcrest to wind down and stretch with her. (positive effect) - Talonlake was 25 moons old"
+            "Auburnsplash convinces Talonlake, Shardtail, Flutterfeather, and Peatcrest to wind down and stretch with her. (positive effect) - Talonlake was 25 moons old",
+            "Talonlake asks Flutterfeather how he's doing. (low positive effect) - Talonlake was 41 moons old",
+            "Talonlake noticed that Flutterfeather was in a foul mood. (negative effect) - Talonlake was 43 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1367,9 +1416,7 @@
             "Talonlake heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Talonlake was 31 moons old",
             "Talonlake and Flightsplash mark the same spot of the border as a sign of friendship. Gross. (medium positive effect) - Talonlake was 34 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1405,12 +1452,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -3,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 3,
+        "respect": 19,
+        "comfort": -5,
+        "trust": 6,
         "log": [
-            "Talonpaw finds his feelings conflicted towards the new family addition. (neutral effect)- Talonpaw was 9 moons old"
+            "Talonpaw finds his feelings conflicted towards the new family addition. (neutral effect)- Talonpaw was 9 moons old",
+            "Talonlake and Skiphare have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Talonlake was 36 moons old",
+            "Talonlake is amazed at how skilled Skiphare really is. (high positive effect) - Talonlake was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1420,12 +1469,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -9,
-        "respect": -6,
+        "like": 1,
+        "respect": 6,
         "comfort": 0,
-        "trust": 0,
+        "trust": 10,
         "log": [
-            "Talonpaw finds his feelings conflicted towards the new family addition. (neutral effect)- Talonpaw was 9 moons old"
+            "Talonpaw finds his feelings conflicted towards the new family addition. (neutral effect)- Talonpaw was 9 moons old",
+            "Talonlake and Hailfreckle enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Talonlake was 46 moons old",
+            "Talonlake enjoyed listening to Hailfreckle's stories. (positive effect) - Talonlake was 48 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1452,7 +1503,7 @@
         "romance": 0,
         "like": -8,
         "respect": -5,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [
             "Talonpaw finds his feelings conflicted towards the new family addition. (neutral effect)- Talonpaw was 9 moons old"
@@ -1467,10 +1518,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 8,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1480,10 +1534,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": -13,
+        "comfort": 6,
+        "trust": -18,
         "log": [
-            "Talonlake saw Snakedrop hide something before talking to him. (low negative effect) - Talonlake was 32 moons old"
+            "Talonlake saw Snakedrop hide something before talking to him. (low negative effect) - Talonlake was 32 moons old",
+            "Talonlake heard Snakedrop fell asleep guarding camp. (negative effect) - Talonlake was 37 moons old",
+            "Talonlake remembers something nice that Snakedrop did. (low positive effect) - Talonlake was 47 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1493,15 +1549,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
+        "like": -5,
+        "respect": -10,
         "comfort": -12,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Gentlepaw says that Talonlake smells weird. (medium negative effect) - Talonlake was 27 moons old",
-            "Talonlake was impressed by Gentleghost's hunting prowess. (positive effect) - Talonlake was 30 moons old"
+            "Talonlake was impressed by Gentleghost's hunting prowess. (positive effect) - Talonlake was 30 moons old",
+            "Talonlake heard Gentleghost fell asleep guarding camp. (negative effect) - Talonlake was 39 moons old",
+            "Talonlake heard that Gentleghost caught a rabbit from across the border. (negative effect) - Talonlake was 39 moons old",
+            "Talonlake disapproved of Gentleghost wearing a collar. (negative effect) - Talonlake was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1525,7 +1587,7 @@
         "like": 8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [
             "Talonlake thought Hollyheart was polite today. (low positive effect) - Talonlake was 29 moons old"
         ],
@@ -1538,11 +1600,12 @@
         "family": false,
         "romance": 8,
         "like": 12,
-        "respect": 0,
+        "respect": 12,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Late into the evening, Talonlake invites Diablofoot, Kokomi, Prancelaurel, and Peatcrest to stretch with him and enjoy each other's company. (positive effect)- Talonlake was 17 moons old"
+            "Late into the evening, Talonlake invites Diablofoot, Kokomi, Prancelaurel, and Peatcrest to stretch with him and enjoy each other's company. (positive effect)- Talonlake was 17 moons old",
+            "Talonlake admires how brave Kiwifoot is. (medium positive effect) - Talonlake was 38 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1565,11 +1628,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -3,
+        "respect": 39,
+        "comfort": 13,
+        "trust": 30,
+        "log": [
+            "Talonlake was impressed by how Mallardfeather invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Talonlake was 36 moons old",
+            "Talonlake learned about proper stretching technique from Mallardfeather. (positive effect) - Talonlake was 39 moons old",
+            "Talonlake and Mallardfeather spent some time sunning together while on patrol. (positive effect) - Talonlake was 43 moons old",
+            "Talonlake and Mallardfeather bring each other prey. (medium positive effect) - Talonlake was 44 moons old",
+            "Mallardfeather complained so relentlessly about her patrol assignment that Talonlake, Poppybriar, and Shadowfreckle could only sigh and bear it. (negative effect) - Talonlake was 44 moons old",
+            "Talonlake was impressed by how Mallardfeather invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Talonlake was 47 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1594,10 +1664,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake doesn't tell Daisymoor that she forgot to groom a part of her fur. (low negative effect) - Talonlake was 43 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1626,21 +1698,21 @@
         "log": [
             "A Clanmate notices Talonlake mocking Lightpelt behind her back. (medium negative effect) - Talonlake was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
         "cat_to_id": "115",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "romance": 13,
+        "like": 13,
+        "respect": -3,
+        "comfort": 13,
+        "trust": -15,
+        "log": [
+            "Talonlake was deeply disappointed to hear that Dahliacrest broke the Code. (negative effect) - Talonlake was 47 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1663,10 +1735,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Talonlake heard that Snookbumble touched noses with a kittypet. (negative effect) - Talonlake was 47 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1707,7 +1781,10 @@
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake heard that Wavepaw chased a rogue off the territory. (positive effect) - Talonlake was 39 moons old",
+            "Talonlake heard that Wavelight touched noses with a loner. (negative effect) - Talonlake was 42 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1743,11 +1820,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 10,
         "log": [
-            "Blizzardstripe's bravery in a fight against a vixen greatly impressed Talonlake. (positive effect) - Talonlake was 29 moons old"
+            "Blizzardstripe's bravery in a fight against a vixen greatly impressed Talonlake. (positive effect) - Talonlake was 29 moons old",
+            "Talonlake gained a greater respect for Blizzardstripe's loyalty when he protected Yewstar from a rogue. (positive effect) - Talonlake was 34 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1758,11 +1836,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Talonlake isn't impressed with Brinerump's work lately. (low negative effect) - Talonlake was 49 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1831,11 +1913,7 @@
             "Talonlake highly valued Pestofoot's presence on a training patrol and respected her contributions. (positive effect) - Talonlake was 33 moons old",
             "Talonlake and Pestofoot took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Talonlake was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "74",
@@ -1883,11 +1961,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Talonlake gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Talonlake was 47 moons old",
+            "Talonlake heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 49 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1897,9 +1981,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake and Glowpaw took a lovely nap together instead of patrolling. (positive effect) - Talonlake was 38 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1909,11 +1995,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 25,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Talonlake gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Talonlake was 44 moons old",
+            "Talonlake heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 49 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -1949,11 +2041,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 15,
+        "respect": 5,
+        "comfort": 21,
+        "trust": 16,
+        "log": [
+            "Talonlake and Midnightpaw took a lovely nap together instead of patrolling. (positive effect) - Talonlake was 38 moons old",
+            "Talonlake talks to Midnighthaze about a mutual friend they have both been worrying about. (high positive effect) - Talonlake was 41 moons old",
+            "Talonlake and Midnighthaze enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Talonlake was 46 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1964,9 +2060,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "comfort": 18,
+        "trust": -5,
+        "log": [
+            "Talonlake and Bravepaw took a lovely nap together instead of patrolling. (positive effect) - Talonlake was 38 moons old",
+            "Talonlake and Braveocean chat about Clan news. (low positive effect) - Talonlake was 46 moons old",
+            "Talonlake heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Talonlake was 47 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1976,10 +2076,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Talonlake heard that Ospreypaw had a serious conversation with a kittypet. (negative effect) - Talonlake was 41 moons old",
+            "Talonlake saw Ospreyspeckle's patrol bring a huge octopus back to camp. (positive effect) - Talonlake was 44 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1989,13 +2092,16 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 1,
+        "respect": -4,
         "comfort": 3,
         "trust": 0,
         "log": [
-            "Talonlake visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Talonlake was 31 moons old"
+            "Talonlake visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Talonlake was 31 moons old",
+            "Talonlake heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Talonlake was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "74",
@@ -2030,10 +2136,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake saw Poppybriar's patrol bring a huge octopus back to camp. (positive effect) - Talonlake was 44 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2065,6 +2173,364 @@
     {
         "cat_from_id": "74",
         "cat_to_id": "153",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": -13,
+        "log": [
+            "Talonlake saw Meadowspots's patrol bring a huge octopus back to camp. (positive effect) - Talonlake was 44 moons old",
+            "Meadowspots forgot something that Talonlake asked her to remember. (low negative effect) - Talonlake was 51 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "155",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Talonlake was 50 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "154",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "156",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 5,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake and Mitepaw spent some time sunning together while on patrol. (positive effect) - Talonlake was 43 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "157",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 5,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake and Coconutpaw spent some time sunning together while on patrol. (positive effect) - Talonlake was 43 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "158",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "160",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "161",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "162",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "159",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "163",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "145",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Talonlake was 42 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "164",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": -15,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake and Shinepaw spent some time sunning together while on patrol. (positive effect) - Talonlake was 43 moons old",
+            "Talonlake and Shinepaw enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Talonlake was 46 moons old",
+            "Talonlake and Shinepaw returned to camp frustrated with each other after a moss-gathering patrol failed. (negative effect) - Talonlake was 49 moons old",
+            "Talonlake heard that Shinebelly caught a rabbit from across the border. (negative effect) - Talonlake was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "165",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "166",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 10,
+        "log": [
+            "Talonlake and Howlpaw enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Talonlake was 46 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "167",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 15,
+        "comfort": 15,
+        "trust": 10,
+        "log": [
+            "Talonlake and Marshpaw enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Talonlake was 46 moons old",
+            "Talonlake gave Marshpaw an important role in a mock-battle while training. (positive effect) - Talonlake was 46 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "169",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -1,
+        "respect": -8,
+        "comfort": -5,
+        "trust": -5,
+        "log": [
+            "Talonlake finds his feelings conflicted towards the new family addition. (neutral effect) - Talonlake was 43 moons old",
+            "Talonlake heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Talonlake was 51 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "112",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Talonlake heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Talonlake was 47 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "171",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "172",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "175",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "177",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "178",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "174",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "179",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "74",
+        "cat_to_id": "180",
         "mates": false,
         "family": false,
         "romance": 0,

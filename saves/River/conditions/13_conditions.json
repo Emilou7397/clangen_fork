@@ -1,4 +1,23 @@
 {
+    "injuries": {
+        "recovering from birth": {
+            "severity": "major",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 120,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 32
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "lost their tail": {
             "severity": "minor",
@@ -10,11 +29,11 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 279
+                    "chance": 377
                 },
                 {
                     "name": "phantom pain",
-                    "chance": 217
+                    "chance": 315
                 }
             ],
             "complication": null,

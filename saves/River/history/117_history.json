@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "73": {
-                "aggression": -1,
-                "sociability": 1
+                "aggression": -6,
+                "sociability": 3,
+                "lawfulness": 1,
+                "strings": [
+                    "avoid a fight",
+                    "be friendly towards others",
+                    "heed {PRONOUN\/m_c\/poss} inner compass"
+                ]
             }
         },
         "skill": {
             "73": {
-                "LORE": 3
+                "LORE": 17,
+                "strings": [
+                    "remembering lore"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "tenacity",
+        "graduation_age": 12,
+        "moon": 107
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
