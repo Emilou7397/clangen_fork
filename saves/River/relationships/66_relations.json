@@ -70,7 +70,7 @@
         "like": 43,
         "respect": 18,
         "comfort": 41,
-        "trust": 11,
+        "trust": 1,
         "log": [
             "Pebblechase was part of the patrol that invited Diablo to RiverClan. (positive effect)- Diablo was 32 moons old",
             "Diablofoot and Pebblechase defended their Clan at the Gathering together. (high positive effect)- Diablofoot was 34 moons old",
@@ -79,14 +79,10 @@
             "Bouncepelt, Diablofoot, Talonpaw, and Sardinepaw talk about Pebblechase's combat prowess during a skirmish. (positive effect)- Diablofoot was 44 moons old",
             "Pebblechase regales Bitterleaf, Diablofoot, Dancingscreech, and Stoatshade with stories about his latest fight. (positive effect)- Diablofoot was 45 moons old",
             "Shinefur convinces Pebblechase, Olivebranch, Primfreckle, and Diablofoot to wind down and stretch with her. (positive effect)- Diablofoot was 50 moons old",
-            "Pebblechase won't keep his mouth shut during the Gathering. Diablofoot, Bitebone, Bitterleaf, and Silkymunch can barely hear the leader's announcements! (negative effect) - Diablofoot was 86 moons old"
+            "Pebblechase won't keep his mouth shut during the Gathering. Diablofoot, Bitebone, Bitterleaf, and Silkymunch can barely hear the leader's announcements! (negative effect) - Diablofoot was 86 moons old",
+            "Diablofoot heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Diablofoot was 88 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -351,12 +347,15 @@
         "romance": 0,
         "like": 0,
         "respect": 8,
-        "comfort": 3,
+        "comfort": -10,
         "trust": 5,
         "log": [
-            "Diablofoot was impressed by Dancingscreech's hunting prowess. (positive effect) - Diablofoot was 83 moons old"
+            "Diablofoot was impressed by Dancingscreech's hunting prowess. (positive effect) - Diablofoot was 83 moons old",
+            "Diablofoot wonders what she did to make Dancingscreech so rude towards her today. (low negative effect) - Diablofoot was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -366,7 +365,7 @@
         "romance": 8,
         "like": 17,
         "respect": -1,
-        "comfort": 34,
+        "comfort": 46,
         "trust": 0,
         "log": [
             "Diablofoot had a difficult conversation with Algaepool and they now have a deeper understanding of each other. (high positive effect)- Diablofoot was 47 moons old",
@@ -375,7 +374,8 @@
             "Diablofoot just told Algaepool a hilarious joke. (medium positive effect) - Diablofoot was 66 moons old",
             "Diablofoot heard about how Algaepool shared prey with a kittypet. (negative effect) - Diablofoot was 80 moons old",
             "Diablofoot is prancing around in front of Algaepool. (low positive effect) - Diablofoot was 81 moons old",
-            "Diablofoot scolds Algaepool for something trivial. (medium negative effect) - Diablofoot was 83 moons old"
+            "Diablofoot scolds Algaepool for something trivial. (medium negative effect) - Diablofoot was 83 moons old",
+            "Diablofoot and Algaepool share little secrets about themselves. (medium positive effect) - Diablofoot was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -397,12 +397,7 @@
             "Diablofoot heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Diablofoot was 51 moons old",
             "Yewstar doesn't boss Diablofoot, Whiskerleg, Blotchstripe, or Pheasantbrush around with his authority during a discussion about Clan policies. (positive effect) - Diablofoot was 84 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -410,13 +405,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
-        "comfort": 24,
-        "trust": 0,
+        "like": 18,
+        "respect": 5,
+        "comfort": 40,
+        "trust": 6,
         "log": [
             "Auburnsplash helps Diablofoot pick burrs out of her fur. (medium positive effect)- Diablofoot was 44 moons old",
-            "Carptail appreciates Pearpelt, Auburnsplash, Fidgetmouse, and Diablofoot joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Diablofoot was 57 moons old"
+            "Carptail appreciates Pearpelt, Auburnsplash, Fidgetmouse, and Diablofoot joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Diablofoot was 57 moons old",
+            "Diablofoot and Auburnsplash have multiple inside jokes with one another. (high positive effect) - Diablofoot was 90 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -515,11 +511,7 @@
             "Bouncepelt tells Diablofoot, Fidgetmouse, and Brinerump a story that earns more skepticism than admiration. (negative effect) - Diablofoot was 76 moons old",
             "Diablofoot heard Bouncepelt fell asleep guarding camp. (negative effect) - Diablofoot was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -587,12 +579,7 @@
             "Diablofoot heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 85 moons old",
             "Suntooth tromped into the warrior's den with muddy paws, trailing muck straight through Peakspore, Moletooth, and Diablofoot's nests. (negative effect) - Diablofoot was 86 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -671,10 +658,7 @@
             "The Clan hears Diablofoot and Saffronfoot laughing together across the camp. (medium positive effect) - Diablofoot was 69 moons old",
             "Diablofoot heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -732,7 +716,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 1,
+        "like": 9,
         "respect": 0,
         "comfort": -6,
         "trust": 8,
@@ -744,9 +728,12 @@
             "Freezefoot said something the other day that made Diablofoot nervous. (medium negative effect)- Diablofoot was 54 moons old",
             "It seems like there's an unspoken apology between Diablofoot and Freezefoot. (medium positive effect)- Diablofoot was 57 moons old",
             "Diablofoot and Freezefoot felt frustrated after an unproductive training patrol. (negative effect) - Diablofoot was 59 moons old",
-            "Diablofoot feels like Freezefoot has been quieter than usual. (low negative effect) - Diablofoot was 67 moons old"
+            "Diablofoot feels like Freezefoot has been quieter than usual. (low negative effect) - Diablofoot was 67 moons old",
+            "Diablofoot sees Freezefoot put something back where it belongs. (low positive effect) - Diablofoot was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -806,14 +793,15 @@
         "family": false,
         "romance": 0,
         "like": 26,
-        "respect": 17,
+        "respect": 25,
         "comfort": 39,
         "trust": 7,
         "log": [
             "Hushpaw, Diablofoot, and Primfreckle had a nice talk while eating. (positive effect)- Diablofoot was 36 moons old",
             "Diablofoot and Hushshimmer enjoyed hanging out and chatting during a training session. (positive effect)- Diablofoot was 37 moons old",
             "Diablofoot is sharing tongues with Hushshimmer. (high positive effect) - Diablofoot was 67 moons old",
-            "Diablofoot heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 83 moons old"
+            "Diablofoot heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 83 moons old",
+            "When tucking in for the night, Diablofoot saw that Hushshimmer fixed her nest. (low positive effect) - Diablofoot was 90 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -825,10 +813,11 @@
         "romance": 0,
         "like": 8,
         "respect": -13,
-        "comfort": 8,
+        "comfort": -5,
         "trust": 0,
         "log": [
-            "Kiwifoot, Warmswirl, and Diablofoot had a nice talk while eating. (positive effect) - Diablofoot was 71 moons old"
+            "Kiwifoot, Warmswirl, and Diablofoot had a nice talk while eating. (positive effect) - Diablofoot was 71 moons old",
+            "Late at night, Diablofoot finds Warmswirl sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Diablofoot was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -952,25 +941,22 @@
             "Diablofoot heard Fluttershade fell asleep guarding camp. (negative effect) - Diablofoot was 70 moons old",
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
         "cat_to_id": "64",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 12,
         "respect": 10,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Diablofoot, Skulkwillow, Heathpaw, and Silkymunch attend a get-together Stoatshade hosts and have a newfound appreciation for each other. (positive effect) - Diablofoot was 80 moons old",
-            "Diablofoot heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 83 moons old"
+            "Diablofoot heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 83 moons old",
+            "Diablofoot can't help but smile seeing Skulkwillow smile. (low positive effect) - Diablofoot was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -981,15 +967,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 17,
+        "respect": 22,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Diablofoot was impressed by Murkhaven's hunting prowess. (positive effect) - Diablofoot was 75 moons old",
             "Diablofoot is impressed with Murkhaven's willingness to help. (medium positive effect) - Diablofoot was 78 moons old",
-            "Diablofoot heard Murkhaven fell asleep guarding camp. (negative effect) - Diablofoot was 78 moons old"
+            "Diablofoot heard Murkhaven fell asleep guarding camp. (negative effect) - Diablofoot was 78 moons old",
+            "Diablofoot heard that Murkhaven chased a kittypet off the territory. (positive effect) - Diablofoot was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -1011,19 +1000,17 @@
         "cat_to_id": "69",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 12,
+        "romance": 11,
+        "like": 17,
         "respect": -13,
         "comfort": 12,
-        "trust": -17,
+        "trust": -11,
         "log": [
             "The moonlight encourages Mossflight, Diablofoot, Elmtrail, Pearpelt, and Fluttershade to slow down and stretch. (positive effect)- Diablofoot was 59 moons old",
             "Diablofoot notices Elmtrail failed to complete a simple task. (low negative effect) - Diablofoot was 62 moons old",
             "Diablofoot said she'd cover for Elmtrail, but when it came time, she got Elmtrail in trouble. (medium negative effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1048,9 +1035,9 @@
         "family": false,
         "romance": 0,
         "like": 41,
-        "respect": 17,
+        "respect": 22,
         "comfort": 8,
-        "trust": 33,
+        "trust": 38,
         "log": [
             "Diablofoot and Reedheart enjoyed brushing up on their hunting tricks together. (positive effect)- Diablofoot was 36 moons old",
             "Reedheart was very considerate while on patrol with Diablofoot. (positive effect)- Diablofoot was 42 moons old",
@@ -1064,9 +1051,15 @@
             "Stretching might be good for one's health, but Diablofoot, Freezefoot, Fluttershade, and Primfreckle wish Reedheart didn't insist on stretching at the crack of dawn. (negative effect)- Diablofoot was 54 moons old",
             "Diablofoot is impressed by Reedheart helping others today. (low positive effect) - Diablofoot was 73 moons old",
             "Diablofoot scolds Reedheart for something trivial. (medium negative effect) - Diablofoot was 79 moons old",
-            "Diablofoot and Reedheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Diablofoot was 82 moons old"
+            "Diablofoot and Reedheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Diablofoot was 82 moons old",
+            "Diablofoot heard that Reedheart chased a rogue off the territory. (positive effect) - Diablofoot was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -1137,9 +1130,7 @@
             "Diablofoot heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Diablofoot was 70 moons old",
             "Diablofoot was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Diablofoot was 77 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1205,11 +1196,11 @@
         "cat_to_id": "79",
         "mates": true,
         "family": false,
-        "romance": 26,
-        "like": 43,
-        "respect": 10,
-        "comfort": 49,
-        "trust": -7,
+        "romance": 42,
+        "like": 47,
+        "respect": 16,
+        "comfort": 59,
+        "trust": -1,
         "log": [
             "Diablofoot knows that Icypaw fake-laughed at her joke. (medium negative effect)- Diablofoot was 41 moons old",
             "Diablofoot was deeply disappointed to hear that Icyriver broke the Code. (negative effect)- Diablofoot was 57 moons old",
@@ -1219,13 +1210,14 @@
             "Diablofoot and Icyriver successfully gathered berries together. (positive effect) - Diablofoot was 84 moons old",
             "Diablofoot tells Icyriver she'll save her a piece of fresh-kill. (medium positive effect) - Diablofoot was 85 moons old",
             "Icyriver and Diablofoot enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Diablofoot was 85 moons old",
-            "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Diablofoot was 87 moons old"
+            "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Diablofoot was 87 moons old",
+            "Diablofoot and Icyriver worked together to gather betony. (positive effect) - Diablofoot was 88 moons old",
+            "Diablofoot and Icyriver were heard discussing kits. (high positive effect) - Diablofoot was 92 moons old"
         ],
         "no_longer_neutral": [
-            "comfort",
             "like",
             "respect",
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -1252,10 +1244,11 @@
         "romance": 0,
         "like": -5,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 17,
         "trust": 0,
         "log": [
-            "Diablofoot heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Diablofoot was 82 moons old"
+            "Diablofoot heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Diablofoot was 82 moons old",
+            "Pheasantbrush saves the funniest jokes for Diablofoot. (medium positive effect) - Diablofoot was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1382,10 +1375,7 @@
             "Diablofoot heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Diablofoot was 67 moons old",
             "Spittle and flecks of bone fly while Flightsplash gobbles down prey, reminding Midnighthaze, Diablofoot, and Creekmoss to seek out better mealtime companionship next time. (negative effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1510,9 +1500,7 @@
             "Diablofoot heard that Gentleghost caught a rabbit from across the border. (negative effect) - Diablofoot was 75 moons old",
             "Diablofoot disapproved of Gentleghost wearing a collar. (negative effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1535,7 +1523,7 @@
         "romance": 17,
         "like": 29,
         "respect": 10,
-        "comfort": 17,
+        "comfort": 22,
         "trust": 10,
         "log": [
             "Diablofoot notices that Hollyheart brought her a big piece of prey. (medium positive effect) - Diablofoot was 63 moons old",
@@ -1543,14 +1531,10 @@
             "Diablofoot wants to be closer to Hollyheart. (low positive effect) - Diablofoot was 73 moons old",
             "Diablofoot saw how Hollyheart persevered in order to gather berries for RiverClan. (positive effect) - Diablofoot was 84 moons old",
             "Diablofoot and Hollyheart successfully gathered berries together. (positive effect) - Diablofoot was 84 moons old",
-            "Hollyheart and Diablofoot enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Diablofoot was 85 moons old"
+            "Hollyheart and Diablofoot enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Diablofoot was 85 moons old",
+            "Diablofoot and Hollyheart worked together to gather betony. (positive effect) - Diablofoot was 88 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1558,15 +1542,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 38,
+        "like": 30,
         "respect": 3,
-        "comfort": 35,
+        "comfort": 32,
         "trust": 0,
         "log": [
             "Late into the evening, Talonlake invites Diablofoot, Kokomi, Prancelaurel, and Peatcrest to stretch with him and enjoy each other's company. (positive effect)- Diablofoot was 53 moons old",
             "Kiwifoot, Warmswirl, and Diablofoot had a nice talk while eating. (positive effect) - Diablofoot was 71 moons old",
             "Kiwifoot's eagerness to do early morning stretches rubs off on Diablofoot, Poolleaf, Piperpaw, and Shiveringpaw. (positive effect) - Diablofoot was 76 moons old",
-            "Kiwifoot and Diablofoot enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Diablofoot was 85 moons old"
+            "Kiwifoot and Diablofoot enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Diablofoot was 85 moons old",
+            "Diablofoot and Kiwifoot worked together to gather betony. (positive effect) - Diablofoot was 88 moons old",
+            "Spittle and flecks of bone fly while Kiwifoot gobbles down prey, reminding Dancingfleck, Whiskerleg, Tansywhisker, and Diablofoot to seek out better mealtime companionship next time. (negative effect) - Diablofoot was 92 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1595,12 +1581,13 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": -13,
+        "respect": -3,
         "comfort": 0,
         "trust": 8,
         "log": [
             "Diablofoot accompanied Oddmuzzle to harvest burdock root, but Oddmuzzle wasn't able to find any, and Diablofoot felt like the day was a waste. (negative effect) - Diablofoot was 78 moons old",
-            "Diablofoot felt like Oddmuzzle wasted her time with an unsuccessful thyme-gathering patrol. (negative effect) - Diablofoot was 80 moons old"
+            "Diablofoot felt like Oddmuzzle wasted her time with an unsuccessful thyme-gathering patrol. (negative effect) - Diablofoot was 80 moons old",
+            "Diablofoot gained a deeper respect when she realized how Oddmuzzle considered the Clan's future needs while gathering from new growth in newleaf. (positive effect) - Diablofoot was 87 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1679,10 +1666,7 @@
             "Diablofoot ignores Lightpelt. (medium negative effect) - Diablofoot was 69 moons old",
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1752,15 +1736,14 @@
         "romance": 0,
         "like": 0,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 3,
         "trust": -18,
         "log": [
             "Diablofoot heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Diablofoot was 69 moons old",
-            "Diablofoot smells something strange on Blotchstripe. (low negative effect) - Diablofoot was 87 moons old"
+            "Diablofoot smells something strange on Blotchstripe. (low negative effect) - Diablofoot was 87 moons old",
+            "Blotchstripe gives Diablofoot something that she dropped. (low positive effect) - Diablofoot was 92 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1785,10 +1768,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 10,
+        "log": [
+            "Diablofoot gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Diablofoot was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1813,14 +1798,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
+        "respect": 7,
         "comfort": 0,
         "trust": 10,
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Diablofoot. (positive effect) - Diablofoot was 65 moons old",
-            "Diablofoot gained a greater respect for Blizzardstripe's loyalty when he protected Yewstar from a rogue. (positive effect) - Diablofoot was 70 moons old"
+            "Diablofoot gained a greater respect for Blizzardstripe's loyalty when he protected Yewstar from a rogue. (positive effect) - Diablofoot was 70 moons old",
+            "Diablofoot doesn't tell Blizzardstripe that he forgot to groom a part of his fur. (low negative effect) - Diablofoot was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -1837,9 +1825,7 @@
             "Diablofoot and Brinerump enjoyed a relaxing patrol gathering thyme together. (positive effect) - Diablofoot was 75 moons old",
             "Diablofoot and Brinerump worked together to use an eagle as a scout for their own hunt. (positive effect) - Diablofoot was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1917,8 +1903,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Diablofoot heard that Tansywhisker had a serious conversation with a kittypet. (negative effect) - Diablofoot was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1928,13 +1916,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 15,
         "comfort": 12,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Diablofoot, Skulkwillow, Heathpaw, and Silkymunch attend a get-together Stoatshade hosts and have a newfound appreciation for each other. (positive effect) - Diablofoot was 80 moons old"
+            "Diablofoot, Skulkwillow, Heathpaw, and Silkymunch attend a get-together Stoatshade hosts and have a newfound appreciation for each other. (positive effect) - Diablofoot was 80 moons old",
+            "Diablofoot gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Diablofoot was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -1963,9 +1957,7 @@
             "Diablofoot gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Diablofoot was 83 moons old",
             "Diablofoot heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -1996,10 +1988,7 @@
             "Diablofoot gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Diablofoot was 80 moons old",
             "Diablofoot heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -2082,10 +2071,7 @@
             "Kiwifoot's eagerness to do early morning stretches rubs off on Diablofoot, Poolleaf, Piperpaw, and Shiveringpaw. (positive effect) - Diablofoot was 76 moons old",
             "Diablofoot heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -2170,10 +2156,7 @@
         "log": [
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Diablofoot was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -2236,11 +2219,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": -10,
+        "comfort": -13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Diablofoot disapproved of Lilynoise wearing a collar. (negative effect) - Diablofoot was 89 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -2251,13 +2238,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 8,
-        "trust": 0,
+        "trust": 6,
         "log": [
-            "Diablofoot and Anteaterspot enjoy the rain together. (low positive effect) - Diablofoot was 85 moons old"
+            "Diablofoot and Anteaterspot enjoy the rain together. (low positive effect) - Diablofoot was 85 moons old",
+            "Diablofoot heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Diablofoot was 88 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Diablofoot was 88 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "66",
@@ -2268,8 +2255,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Diablofoot heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Diablofoot was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2320,13 +2309,16 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": 5,
+        "trust": -10,
         "log": [
             "Diablofoot heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Diablofoot was 78 moons old",
             "Diablofoot left a gift in Pigment's nest for her to find. (medium positive effect) - Diablofoot was 79 moons old",
-            "Diablofoot and Pigmentpelt worked together to use an eagle as a scout for their own hunt. (positive effect) - Diablofoot was 82 moons old"
+            "Diablofoot and Pigmentpelt worked together to use an eagle as a scout for their own hunt. (positive effect) - Diablofoot was 82 moons old",
+            "Diablofoot was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Diablofoot was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -2421,8 +2413,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Diablofoot heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Diablofoot was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2460,8 +2454,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Diablofoot heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Diablofoot was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2506,6 +2502,97 @@
     {
         "cat_from_id": "66",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "176",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,

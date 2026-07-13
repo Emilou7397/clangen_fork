@@ -20,7 +20,7 @@
         "cat_to_id": "198",
         "mates": false,
         "family": false,
-        "romance": 4,
+        "romance": 0,
         "like": 6,
         "respect": 6,
         "comfort": 18,
@@ -29,7 +29,8 @@
             "Heatherfern tells Blizzardstripe that she was worried about him. (low positive effect) - Blizzardstripe was 83 moons old",
             "Blizzardstripe noticed that Heatherfern wasn't in her nest last night. (low negative effect) - Blizzardstripe was 100 moons old",
             "Blizzardstripe gives Heatherfern a wonderfully colored pebble he found, and hides behind his whiskers when thanked. (high positive effect) - Blizzardstripe was 102 moons old",
-            "Blizzardstripe noticed Heatherfern flirting with someone else. (medium negative effect) - Blizzardstripe was 102 moons old"
+            "Blizzardstripe noticed Heatherfern flirting with someone else. (medium negative effect) - Blizzardstripe was 102 moons old",
+            "Blizzardstripe heard Heatherfern discussing potential mates but his name never came up. (medium negative effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -42,10 +43,11 @@
         "like": 0,
         "respect": 0,
         "comfort": -13,
-        "trust": -13,
+        "trust": -23,
         "log": [
             "Blizzardstripe suspects Pebblechase lied about something trivial. (low negative effect) - Blizzardstripe was 89 moons old",
-            "Blizzardstripe bickers with Pebblechase over who gets what nest material. (low negative effect) - Blizzardstripe was 91 moons old"
+            "Blizzardstripe bickers with Pebblechase over who gets what nest material. (low negative effect) - Blizzardstripe was 91 moons old",
+            "Blizzardstripe heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -144,7 +146,7 @@
         "cat_to_id": "9",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 10,
         "comfort": 30,
@@ -217,14 +219,15 @@
         "cat_to_id": "14",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 10,
         "respect": 13,
         "comfort": 0,
         "trust": -3,
         "log": [
             "Carptail keeps asking Blizzardstripe if he trusts him. (low negative effect) - Blizzardstripe was 83 moons old",
-            "Blizzardstripe and Carptail successfully gathered burdock together. (positive effect) - Blizzardstripe was 103 moons old"
+            "Blizzardstripe and Carptail successfully gathered burdock together. (positive effect) - Blizzardstripe was 103 moons old",
+            "Blizzardstripe can't help but smile seeing Carptail smile. (low positive effect) - Blizzardstripe was 110 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -236,7 +239,7 @@
         "romance": 0,
         "like": 5,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 5,
         "log": [
             "Blizzardstripe enjoyed spending an evening listening to Dancingscreech's stories. (positive effect) - Blizzardstripe was 97 moons old",
@@ -284,17 +287,24 @@
         "cat_to_id": "20",
         "mates": false,
         "family": false,
-        "romance": 34,
-        "like": 8,
-        "respect": 7,
-        "comfort": 8,
-        "trust": 19,
+        "romance": 47,
+        "like": 35,
+        "respect": 14,
+        "comfort": 15,
+        "trust": 27,
         "log": [
             "Blizzardstripe is prancing around in front of Auburnsplash. (low positive effect) - Blizzardstripe was 87 moons old",
             "Blizzardstripe asks Auburnsplash to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Blizzardstripe was 92 moons old",
-            "Auburnsplash sends a Clanmate to help Blizzardstripe with something he's struggling with. (low positive effect) - Blizzardstripe was 101 moons old"
+            "Auburnsplash sends a Clanmate to help Blizzardstripe with something he's struggling with. (low positive effect) - Blizzardstripe was 101 moons old",
+            "Blizzardstripe keeps complaining about something Auburnsplash did. (medium negative effect) - Blizzardstripe was 111 moons old",
+            "Blizzardstripe and Auburnsplash defended their Clan at the Gathering together. (high positive effect) - Blizzardstripe was 112 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -373,11 +383,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 18,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Blizzardstripe heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Blizzardstripe was 90 moons old"
+            "Blizzardstripe heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Blizzardstripe was 90 moons old",
+            "Bouncepelt motivated Blizzardstripe to get out of his nest this morning. (low positive effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -427,9 +438,7 @@
             "Blizzardstripe heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blizzardstripe was 105 moons old",
             "Blizzardstripe admits he really admires Suntooth's recent efforts. (medium positive effect) - Blizzardstripe was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -452,7 +461,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 2,
         "respect": 10,
         "comfort": 2,
         "trust": 10,
@@ -494,12 +503,7 @@
             "Blizzardstripe heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blizzardstripe was 105 moons old",
             "Blizzardstripe and Saffronfoot defended their Clan at the Gathering together. (high positive effect) - Blizzardstripe was 107 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -563,12 +567,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Blizzardstripe and Mossflight practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -677,11 +686,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": -3,
+        "respect": 5,
+        "comfort": 2,
         "trust": 0,
         "log": [
-            "Blizzardstripe sees the blood of fresh-kill on Fluttershade's paws and feels a prickle of discomfort. (low negative effect) - Blizzardstripe was 88 moons old"
+            "Blizzardstripe sees the blood of fresh-kill on Fluttershade's paws and feels a prickle of discomfort. (low negative effect) - Blizzardstripe was 88 moons old",
+            "Blizzardstripe appreciated Fluttershade's conversational skills when they met with a CougarClan patrol. (positive effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -722,13 +732,15 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -13,
         "comfort": 10,
         "trust": 10,
         "log": [
             "Diablofoot was part of the patrol that invited Blizzardstripe to RiverClan. (positive effect) - Blizzardstripe was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -788,9 +800,7 @@
             "Reedheart was part of the patrol that invited Blizzardstripe to RiverClan. (positive effect) - Blizzardstripe was 82 moons old",
             "Blizzardstripe overhears a Clanmate praise Reedheart for something Blizzardstripe actually did. (low negative effect) - Blizzardstripe was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -813,12 +823,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 13,
         "log": [
-            "Shinefur tells Blizzardstripe that she was worried about him. (low positive effect) - Blizzardstripe was 94 moons old"
+            "Shinefur tells Blizzardstripe that she was worried about him. (low positive effect) - Blizzardstripe was 94 moons old",
+            "Blizzardstripe and Shinefur worked together to gather juniper needles and oak leaves. (positive effect) - Blizzardstripe was 109 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -889,15 +900,16 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 5,
+        "like": 13,
         "respect": 5,
-        "comfort": 2,
+        "comfort": 10,
         "trust": 5,
         "log": [
             "Blizzardstripe heard about how Paellapad's patrol drove off a vixen. (positive effect) - Blizzardstripe was 86 moons old",
             "Blizzardstripe stayed up all night thinking of ways to impress Paellapad. (low positive effect) - Blizzardstripe was 96 moons old",
             "Blizzardstripe sees the blood of fresh-kill on Paellapad's paws and feels a prickle of discomfort. (low negative effect) - Blizzardstripe was 98 moons old",
-            "Blizzardstripe enjoyed driving away rogues with Paellapad. (positive effect) - Blizzardstripe was 98 moons old"
+            "Blizzardstripe enjoyed driving away rogues with Paellapad. (positive effect) - Blizzardstripe was 98 moons old",
+            "Brinerump, Paellapad, and Blizzardstripe took a sunbath and had a little small talk. (positive effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1022,12 +1034,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
-        "respect": 0,
-        "comfort": -5,
+        "like": 6,
+        "respect": 10,
+        "comfort": -10,
         "trust": 0,
         "log": [
-            "Blizzardstripe noticed that Flutterfeather was in a foul mood. (negative effect) - Blizzardstripe was 99 moons old"
+            "Blizzardstripe noticed that Flutterfeather was in a foul mood. (negative effect) - Blizzardstripe was 99 moons old",
+            "Blizzardstripe noticed that Flutterfeather was in a foul mood. (negative effect) - Blizzardstripe was 107 moons old",
+            "Blizzardstripe and Flutterfeather worked together to gather juniper needles and oak leaves. (positive effect) - Blizzardstripe was 109 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1098,8 +1112,8 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [],
         "no_longer_neutral": []
     },
@@ -1259,12 +1273,7 @@
             "Blizzardstripe and Nightglow spend a few minutes complimenting one another. (high positive effect) - Blizzardstripe was 88 moons old",
             "Blizzardstripe was impressed by Nightglow's confidence in fighting rogues. (positive effect) - Blizzardstripe was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1272,12 +1281,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 13,
+        "like": -12,
+        "respect": 42,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Blizzardstripe sees that Lightpelt's piece of prey looks tastier and asks if she'd like to swap. She agrees happily, saying she likes that one better. (low positive effect) - Blizzardstripe was 90 moons old"
+            "Blizzardstripe sees that Lightpelt's piece of prey looks tastier and asks if she'd like to swap. She agrees happily, saying she likes that one better. (low positive effect) - Blizzardstripe was 90 moons old",
+            "Piperthrift, Mallardfeather, Blizzardstripe, and Shiveringdusk can't escape from Lightpelt waking them up to do early morning stretches. (negative effect) - Blizzardstripe was 108 moons old",
+            "Blizzardstripe thinks that Lightpelt is very creative. (medium positive effect) - Blizzardstripe was 109 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1308,9 +1319,7 @@
             "Blizzardstripe has a friendly chat with Wasppaw that leaves them both feeling happy. (low positive effect) - Blizzardstripe was 90 moons old",
             "Blizzardstripe swears that Wasppelt stole something from his nest. (high negative effect) - Blizzardstripe was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1318,11 +1327,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -4,
+        "respect": -3,
+        "comfort": -11,
+        "trust": -4,
+        "log": [
+            "Blizzardstripe and Snookbumble are joking around together, but the jokes are becoming targeted. (high negative effect) - Blizzardstripe was 108 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1385,12 +1396,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 6,
+        "respect": 8,
+        "comfort": 21,
+        "trust": 6,
+        "log": [
+            "Blizzardstripe offers to groom a hard-to-reach place for Piperthrift, who thanks him earnestly. (high positive effect) - Blizzardstripe was 111 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1398,12 +1416,13 @@
         "mates": false,
         "family": false,
         "romance": 16,
-        "like": 4,
+        "like": 12,
         "respect": 6,
-        "comfort": 6,
+        "comfort": 14,
         "trust": 6,
         "log": [
-            "Blizzardstripe wants to spend the entire day with Brinerump. (high positive effect) - Blizzardstripe was 86 moons old"
+            "Blizzardstripe wants to spend the entire day with Brinerump. (high positive effect) - Blizzardstripe was 86 moons old",
+            "Brinerump, Paellapad, and Blizzardstripe took a sunbath and had a little small talk. (positive effect) - Blizzardstripe was 108 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1524,10 +1543,7 @@
         "log": [
             "Blizzardstripe heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blizzardstripe was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1557,9 +1573,7 @@
         "log": [
             "Blizzardstripe heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blizzardstripe was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1580,17 +1594,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 31,
-        "respect": 15,
-        "comfort": 8,
-        "trust": 0,
+        "like": 46,
+        "respect": 12,
+        "comfort": -3,
+        "trust": -2,
         "log": [
             "Blizzardstripe was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Blizzardstripe was 89 moons old",
             "Carnationkit, Blizzardstripe, and Yewstar had a nice talk while eating. (positive effect) - Blizzardstripe was 90 moons old",
             "Blizzardstripe and Carnationmunch had a successful hunt together. (positive effect) - Blizzardstripe was 100 moons old",
-            "Blizzardstripe and Carnationmunch talk about what they see in the clouds. (low positive effect) - Blizzardstripe was 104 moons old"
+            "Blizzardstripe and Carnationmunch talk about what they see in the clouds. (low positive effect) - Blizzardstripe was 104 moons old",
+            "Blizzardstripe and Carnationmunch have a fun patrol and plan to tell stories about it later to their Clanmates. (medium positive effect) - Blizzardstripe was 110 moons old",
+            "Blizzardstripe sees Carnationmunch neglect a Clanmate. (high negative effect) - Blizzardstripe was 112 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1738,15 +1757,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
-        "respect": 0,
-        "comfort": 17,
-        "trust": 0,
+        "like": -4,
+        "respect": -11,
+        "comfort": 15,
+        "trust": 6,
         "log": [
             "Mew attacked Yewstar, but Blizzardstripe fought him off. (negative effect) - Blizzardstripe was 91 moons old",
-            "Mewhoney saves the funniest jokes for Blizzardstripe. (medium positive effect) - Blizzardstripe was 104 moons old"
+            "Mewhoney saves the funniest jokes for Blizzardstripe. (medium positive effect) - Blizzardstripe was 104 moons old",
+            "Blizzardstripe asks Mewhoney about something complicated and regrets it when Mewhoney misses the point. (high negative effect) - Blizzardstripe was 109 moons old",
+            "Blizzardstripe and Mewhoney practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1811,8 +1836,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 6,
+        "log": [
+            "Blizzardstripe heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Blizzardstripe was 108 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1821,12 +1849,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
+        "like": 15,
+        "respect": 10,
         "comfort": 5,
-        "trust": 5,
+        "trust": -5,
         "log": [
-            "Blizzardstripe enjoyed driving away rogues with Terabyte. (positive effect) - Blizzardstripe was 98 moons old"
+            "Blizzardstripe enjoyed driving away rogues with Terabyte. (positive effect) - Blizzardstripe was 98 moons old",
+            "Blizzardstripe heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
+            "Blizzardstripe and Terabyte worked together to gather juniper needles and oak leaves. (positive effect) - Blizzardstripe was 109 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1860,9 +1890,7 @@
         "log": [
             "Blizzardstripe was convinced that Nymphshine was lying about something, but Nymphshine wasn't. (medium negative effect) - Blizzardstripe was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1912,12 +1940,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Blizzardstripe and Dogheather practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1979,14 +2012,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 20,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Blizzardstripe and Coquitostep successfully gathered burdock together. (positive effect) - Blizzardstripe was 103 moons old"
+            "Blizzardstripe and Coquitostep successfully gathered burdock together. (positive effect) - Blizzardstripe was 103 moons old",
+            "Blizzardstripe heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
+            "Blizzardstripe and Coquitostep practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -2020,12 +2057,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Blizzardstripe heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
+            "Blizzardstripe and Speckleflake practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -2069,6 +2111,99 @@
     {
         "cat_from_id": "124",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "176",
+        "mates": true,
+        "family": false,
+        "romance": 20,
+        "like": 0,
+        "respect": 0,
+        "comfort": 20,
+        "trust": 10,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Blizzardstripe was amused by Brindlekit's daring adventure out of camp. (positive effect) - Blizzardstripe was 110 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,4 +1,26 @@
 {
+    "injuries": {
+        "broken bone": {
+            "severity": "severe",
+            "mortality": 70,
+            "duration": 5,
+            "moon_start": 122,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 31
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [
+                "weak leg",
+                "twisted leg"
+            ],
+            "event_triggered": false,
+            "potential_scars": []
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +32,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 142
+                    "chance": 176
                 },
                 {
                     "name": "joint pain",
-                    "chance": 145
+                    "chance": 179
                 }
             ],
             "complication": null,

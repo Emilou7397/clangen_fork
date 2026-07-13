@@ -181,8 +181,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Heathstripe heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -256,12 +258,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stretching might be good for one's health, but Heathstripe, Sandpaw, Saffronfoot, and Peatcrest wish Primfreckle didn't insist on stretching at the crack of dawn. (negative effect) - Heathstripe was 52 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -438,11 +445,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Terabyte, Suntooth, and Heathstripe had a nice talk while eating. (positive effect) - Heathstripe was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -523,11 +532,7 @@
         "log": [
             "Heathstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -563,9 +568,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "The silence between Heathstripe and Amberfur feels more uncomfortable than usual. (low negative effect) - Heathstripe was 52 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -595,11 +602,7 @@
             "Heathstripe and Verbenabloom worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old",
             "Heathstripe comes up with a plan to sneak out of camp with Verbenabloom. (medium positive effect) - Heathstripe was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -736,12 +739,14 @@
         "cat_to_id": "73",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "romance": 21,
+        "like": 8,
+        "respect": 8,
+        "comfort": 8,
+        "trust": 8,
+        "log": [
+            "Heathstripe gives Shinefur a circular Twoleg object he found, and hides behind his whiskers when thanked. (high positive effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -764,10 +769,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Frondpad panics over something that Heathstripe finds trivial. (medium negative effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -802,9 +809,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -830,7 +837,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -866,13 +873,18 @@
         "cat_to_id": "85",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 16,
+        "like": 5,
+        "respect": 5,
+        "comfort": 6,
+        "trust": 6,
+        "log": [
+            "Heathstripe got stuck in the same tree with Onemuzzle for hours and realized how much they have in common. (high positive effect) - Heathstripe was 53 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -893,16 +905,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -5,
         "respect": 0,
-        "comfort": 17,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Heath drops into the medicine den to ask Flutterfeather if he's eaten yet. (medium positive effect) - Heath was 47 moons old"
+            "Heath drops into the medicine den to ask Flutterfeather if he's eaten yet. (medium positive effect) - Heath was 47 moons old",
+            "Heathstripe noticed that Flutterfeather was in a foul mood. (negative effect) - Heathstripe was 49 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -928,9 +939,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -1003,7 +1012,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1018,9 +1027,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe can't stop thinking about the strange joke Gentleghost told the other day. (medium negative effect) - Heathstripe was 50 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1029,11 +1040,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe asks for the last of Kiwifoot's fresh-kill, but Kiwifoot says no. (low negative effect) - Heathstripe was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1106,15 +1119,22 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "112",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 33,
+        "like": 5,
+        "respect": -3,
+        "comfort": 20,
+        "trust": 10,
+        "log": [
+            "Heathstripe felt that Minnowlily didn't take his vision seriously. (negative effect) - Heathstripe was 51 moons old",
+            "Heathstripe and Minnowlily take a nap together. (low positive effect) - Heathstripe was 52 moons old",
+            "Minnowlily and Heathstripe had a productive time searching Twoleg beach dens for herbs. (positive effect) - Heathstripe was 52 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1345,9 +1365,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Glowfur gives Heathstripe something that he dropped. (low positive effect) - Heathstripe was 50 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1377,10 +1399,7 @@
             "Heath and Swallowstripe sunbathe together. (low positive effect) - Heath was 47 moons old",
             "Heathstripe and Swallowstripe worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -1557,11 +1576,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe tells Miteleaf to talk a little quieter. (low negative effect) - Heathstripe was 53 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1612,8 +1633,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 6,
+        "log": [
+            "Heathstripe heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heathstripe was 49 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1622,11 +1646,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "comfort": 8,
+        "trust": -10,
+        "log": [
+            "Heathstripe heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heathstripe was 49 moons old",
+            "Terabyte, Suntooth, and Heathstripe had a nice talk while eating. (positive effect) - Heathstripe was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1701,10 +1728,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe and Sandpaw debate about something interesting. They end up agreeing. (medium positive effect) - Heathstripe was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1716,8 +1745,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Heathstripe heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1742,8 +1773,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Heathstripe heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heathstripe was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1755,9 +1788,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1775,6 +1810,86 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Heathstripe was amused by Brindlekit's daring adventure out of camp. (positive effect) - Heathstripe was 51 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,

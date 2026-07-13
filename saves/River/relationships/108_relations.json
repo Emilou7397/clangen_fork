@@ -78,10 +78,12 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
-        "trust": 0,
+        "comfort": -1,
+        "trust": -10,
         "log": [
-            "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old"
+            "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old",
+            "Antlerthorn heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Antlerthorn was 32 moons old",
+            "Antlerthorn thinks that Pebblechase's tone sounds off today. (low negative effect) - Antlerthorn was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -98,9 +100,7 @@
         "log": [
             "Ochretail invites Antlerkit, Stoatshade, Hollyheart, and Fluttershade to share what's been on their minds and to have an honest talk with each other. (positive effect)- Antlerkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -182,11 +182,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 27,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [
-            "Antlerthorn heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 28 moons old"
+            "Antlerthorn heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 28 moons old",
+            "Despite Antlerthorn being a bit dramatic about the thorn in his paw, Primfreckle treats him gently. (medium positive effect) - Antlerthorn was 34 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -434,9 +435,7 @@
             "Antlerthorn saw Suntooth's patrol bring a huge octopus back to camp. (positive effect) - Antlerthorn was 24 moons old",
             "Antlerthorn heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -494,10 +493,7 @@
         "log": [
             "Antlerthorn heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -700,10 +696,14 @@
         "romance": 0,
         "like": -13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Antlerthorn had a terrible dream about Fringesnap. (medium negative effect) - Antlerthorn was 35 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -795,12 +795,7 @@
             "Antlerthorn was impressed by Murkhaven's hunting prowess. (positive effect) - Antlerthorn was 19 moons old",
             "Murkhaven tromped into the warrior's den with muddy paws, trailing muck straight through Antlerthorn and Fluttershade's nests. (negative effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -821,11 +816,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -10,
+        "respect": -7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Antlerthorn and Elmtrail successfully gathered herbs together despite the rainy weather. (positive effect) - Antlerthorn was 31 moons old",
+            "Elmtrail and Antlerthorn snapped at each other after a failed horsetail gathering patrol. (negative effect) - Antlerthorn was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -876,10 +874,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Antlerthorn and Shinefur successfully gathered herbs together despite the rainy weather. (positive effect) - Antlerthorn was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1047,7 +1047,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
+        "like": -20,
         "respect": 3,
         "comfort": 0,
         "trust": 10,
@@ -1076,36 +1076,43 @@
     {
         "cat_from_id": "108",
         "cat_to_id": "87",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 17,
+        "like": -8,
+        "respect": -8,
+        "comfort": 17,
+        "trust": 10,
+        "log": [
+            "Antlerthorn and Flutterfeather were short with each other during a herb gathering patrol. (negative effect) - Antlerthorn was 35 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "108",
         "cat_to_id": "88",
         "mates": true,
         "family": false,
-        "romance": 20,
-        "like": 18,
-        "respect": 8,
-        "comfort": 32,
-        "trust": 18,
+        "romance": 0,
+        "like": 41,
+        "respect": 26,
+        "comfort": 42,
+        "trust": 47,
         "log": [
             "At first, Antlerkit, Pebblechase, Saltpaw, and Hailfreckle are unsure about Curryfoot's bonding exercise, but it goes wonderfully. (positive effect)- Antlerkit was 1 moon old",
             "Antlerthorn admired Saltknoll's perseverance on an herb-gathering patrol. (positive effect) - Antlerthorn was 14 moons old",
             "Saltknoll and Antlerthorn enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Antlerthorn was 15 moons old",
-            "Saltknoll didn't get the joke Antlerthorn was telling. (low negative effect) - Antlerthorn was 15 moons old"
+            "Saltknoll didn't get the joke Antlerthorn was telling. (low negative effect) - Antlerthorn was 15 moons old",
+            "Antlerthorn and Saltknoll successfully gathered herbs together despite the rainy weather. (positive effect) - Antlerthorn was 31 moons old",
+            "Saltknoll and Antlerthorn snapped at each other after a failed horsetail gathering patrol. (negative effect) - Antlerthorn was 32 moons old",
+            "Antlerthorn and Saltknoll announced their break up today. But before their friends could offer sympathy, Antlerthorn and Saltknoll reassure them that they left off on good terms and will still be good friends! - Antlerthorn was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1136,9 +1143,7 @@
             "Curryfoot beckons Antlerkit, Petalglow, Skiphare, and Bouncepelt to relax with her and chat. (positive effect) - Antlerkit was 5 moons old",
             "Antlerthorn is jealous that Skiphare got to go to the last Gathering. (medium negative effect) - Antlerthorn was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1206,15 +1211,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
-        "respect": -3,
+        "like": -4,
+        "respect": -11,
         "comfort": -16,
         "trust": -4,
         "log": [
             "Antlerthorn and Snakedrop are joking around together, but the jokes are becoming targeted. (high negative effect) - Antlerthorn was 28 moons old",
-            "Antlerthorn enjoyed Snakedrop's story about how Maowi slowed the sun down and created greenleaf. (positive effect) - Antlerthorn was 29 moons old"
+            "Antlerthorn enjoyed Snakedrop's story about how Maowi slowed the sun down and created greenleaf. (positive effect) - Antlerthorn was 29 moons old",
+            "Antlerthorn and Snakedrop were short with each other during a herb gathering patrol. (negative effect) - Antlerthorn was 35 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "comfort"
         ]
     },
@@ -1276,9 +1283,7 @@
         "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1400,9 +1405,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "After the Clan finds a strange object, Antlerthorn notes that Dahliacrest has been a little too fascinated with it. (low negative effect) - Antlerthorn was 33 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1423,17 +1430,14 @@
             "Wasppelt laughs at Antlerthorn's embarrassing mistake. (high negative effect) - Antlerthorn was 29 moons old",
             "Antlerthorn and Wasppelt listened to Snakedrop's story together. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
         "cat_to_id": "117",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 10,
         "respect": 0,
         "comfort": 5,
@@ -1441,12 +1445,10 @@
         "log": [
             "Antlerthorn and Snookbumble traded their best tricks with each other while practicing their battle moves. (positive effect) - Antlerthorn was 19 moons old",
             "Snookbumble said something about a Clanmate that concerned Antlerthorn. (medium negative effect) - Antlerthorn was 20 moons old",
-            "Antlerthorn and Snookbumble listened to Snakedrop's story together. (positive effect) - Antlerthorn was 29 moons old"
+            "Antlerthorn and Snookbumble listened to Snakedrop's story together. (positive effect) - Antlerthorn was 29 moons old",
+            "Antlerthorn can't help but smile seeing Snookbumble smile. (low positive effect) - Antlerthorn was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1464,10 +1466,7 @@
             "Antlerthorn and Shadowfreckle listened to Daisymoor's story together. (positive effect) - Antlerthorn was 25 moons old",
             "Antlerthorn and Shadowfreckle listened to Snakedrop's story together. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1477,10 +1476,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 6,
+        "comfort": 3,
         "trust": 13,
         "log": [
-            "Antlerpaw worries about Blotchkit's mental stability. (medium negative effect) - Antlerpaw was 9 moons old"
+            "Antlerpaw worries about Blotchkit's mental stability. (medium negative effect) - Antlerpaw was 9 moons old",
+            "Antlerthorn tries to have a conversation with Blotchstripe but it ends up awkward when neither of them speak up. (low negative effect) - Antlerthorn was 34 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1507,19 +1507,15 @@
         "family": false,
         "romance": 0,
         "like": -16,
-        "respect": -4,
-        "comfort": -10,
+        "respect": -7,
+        "comfort": 0,
         "trust": -6,
         "log": [
             "Antlerthorn tells Cherrytail something he hates about her. (high negative effect) - Antlerthorn was 25 moons old",
             "Antlerthorn and Cherrytail listened to Daisymoor's story together. (positive effect) - Antlerthorn was 25 moons old",
             "Antlerthorn and Cherrytail listened to Snakedrop's story together. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1530,9 +1526,10 @@
         "like": 0,
         "respect": 0,
         "comfort": -7,
-        "trust": 0,
+        "trust": -3,
         "log": [
-            "Antlerthorn and Piperthrift talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Antlerthorn was 23 moons old"
+            "Antlerthorn and Piperthrift talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Antlerthorn was 23 moons old",
+            "Piperthrift snitches on Antlerthorn for something minor. (low negative effect) - Antlerthorn was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1638,9 +1635,10 @@
         "like": 0,
         "respect": -3,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [
-            "Tansywhisker snickered when Antlerthorn tripped. (low negative effect) - Antlerthorn was 30 moons old"
+            "Tansywhisker snickered when Antlerthorn tripped. (low negative effect) - Antlerthorn was 30 moons old",
+            "Tansywhisker won't tell Antlerthorn what's got her acting weird. (low negative effect) - Antlerthorn was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1650,12 +1648,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -1664,10 +1664,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Antlerthorn saw Butterflyglide telling stories to the kits. (positive effect) - Antlerthorn was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1684,12 +1686,7 @@
             "Antlerthorn and Molekit gossip about drama nobody else knows. (high positive effect) - Antlerthorn was 15 moons old",
             "Antlerthorn heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1698,7 +1695,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": -8,
         "trust": 0,
         "log": [
@@ -1720,10 +1717,7 @@
             "Antlerthorn swears that Whiskerleg's fangs are longer than usual. (medium negative effect) - Antlerthorn was 24 moons old",
             "Antlerthorn heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Antlerthorn was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1798,10 +1792,7 @@
             "Antlerthorn is disappointed in Ospreyspeckle's subpar work lately. (medium negative effect) - Antlerthorn was 29 moons old",
             "Antlerthorn and Ospreyspeckle roll up moss balls together. (low positive effect) - Antlerthorn was 30 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1827,9 +1818,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "108",
@@ -1909,7 +1898,7 @@
         "like": -6,
         "respect": -5,
         "comfort": -5,
-        "trust": -16,
+        "trust": -3,
         "log": [
             "Antlerthorn lied to Caterpillarfoot's face. (high negative effect) - Antlerthorn was 21 moons old"
         ],
@@ -1976,10 +1965,12 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 6,
         "log": [
             "Antlerthorn calls Anteaterspot useless when they struggle to complete a task together. (medium negative effect) - Antlerthorn was 22 moons old",
-            "Antlerthorn wasn't going to help a Clanmate, but realized that Anteaterspot would do it in a heartbeat. (medium positive effect) - Antlerthorn was 28 moons old"
+            "Antlerthorn wasn't going to help a Clanmate, but realized that Anteaterspot would do it in a heartbeat. (medium positive effect) - Antlerthorn was 28 moons old",
+            "Antlerthorn heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Antlerthorn was 32 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Antlerthorn was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1992,9 +1983,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 17,
+        "trust": 7,
         "log": [
-            "Antlerthorn and Terabyte make an elaborate plan to evict a predator from the Clan's territory. (medium positive effect) - Antlerthorn was 26 moons old"
+            "Antlerthorn and Terabyte make an elaborate plan to evict a predator from the Clan's territory. (medium positive effect) - Antlerthorn was 26 moons old",
+            "Antlerthorn heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Antlerthorn was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2017,12 +2009,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Antlerthorn tells Nymphshine that there's so much to see in the world! (medium positive effect) - Antlerthorn was 35 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "108",
@@ -2143,8 +2139,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Antlerthorn heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Antlerthorn was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2182,8 +2180,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Antlerthorn heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Antlerthorn was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2228,6 +2228,99 @@
     {
         "cat_from_id": "108",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "176",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Antlerthorn was amused by Brindlekit's daring adventure out of camp. (positive effect) - Antlerthorn was 34 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "108",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,

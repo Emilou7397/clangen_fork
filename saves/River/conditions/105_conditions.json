@@ -1,4 +1,18 @@
 {
+    "injuries": {
+        "sore": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 125,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +24,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 35
+                    "chance": 80
                 },
                 {
                     "name": "joint pain",
-                    "chance": 55
+                    "chance": 80
                 }
             ],
             "complication": null,

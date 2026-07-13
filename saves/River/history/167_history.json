@@ -11,16 +11,29 @@
                 "sociability": 1,
                 "stability": 2,
                 "lawfulness": -1,
-                "aggression": 1
+                "aggression": 3,
+                "strings": [
+                    "be friendly towards others",
+                    "be resilient",
+                    "break rules that don't suit {PRONOUN\/m_c\/object}",
+                    "defend {PRONOUN\/m_c\/poss} beliefs"
+                ]
             }
         },
         "skill": {
             "142": {
-                "INSIGHTFUL": 8
+                "INSIGHTFUL": 11,
+                "strings": [
+                    "providing insight"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "forethought",
+        "graduation_age": 14,
+        "moon": 122
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

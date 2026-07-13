@@ -34,8 +34,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Lightpelt heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Lightpelt was 79 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -145,7 +147,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
         "no_longer_neutral": []
     },
@@ -227,10 +229,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lightpelt realizes how hard it is to hold a conversation with Algaepool. (medium negative effect) - Lightpelt was 82 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -241,12 +247,14 @@
         "like": 0,
         "respect": 0,
         "comfort": -1,
-        "trust": 1,
+        "trust": -7,
         "log": [
             "Lightpelt and Yewstar are always back-talking to each other. (high negative effect) - Lightpelt was 55 moons old",
             "Yewstar thinks that Lightpelt isn't so bad after all. (high positive effect) - Lightpelt was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -255,16 +263,17 @@
         "family": false,
         "romance": 17,
         "like": -2,
-        "respect": 11,
+        "respect": 21,
         "comfort": 64,
-        "trust": 8,
+        "trust": 18,
         "log": [
             "Lightpelt feels giddy about getting on the same patrol as Auburnsplash. (medium positive effect) - Lightpelt was 51 moons old",
             "Lightpelt comforts Auburnsplash after a terrible nightmare. (high positive effect) - Lightpelt was 55 moons old",
             "Auburnsplash brought Lightpelt some dry bedding. (low positive effect) - Lightpelt was 57 moons old",
             "Lightpelt calms down when she realizes Auburnsplash is nearby. (medium positive effect) - Lightpelt was 62 moons old",
             "Auburnsplash complained about her patrol assignment all day, much to the annoyance of Lightpelt, Heathpaw, Primfreckle, and Reedheart. (negative effect) - Lightpelt was 65 moons old",
-            "Auburnsplash points out to Lightpelt that a spider is in his nest before he sits in it. (low positive effect) - Lightpelt was 72 moons old"
+            "Auburnsplash points out to Lightpelt that a spider is in his nest before he sits in it. (low positive effect) - Lightpelt was 72 moons old",
+            "Auburnsplash saved Lightpelt from choking on a prey-bone. (positive effect) - Lightpelt was 79 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -325,9 +334,7 @@
             "Lightpelt heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 75 moons old",
             "Lightpelt explains what a joke means to Bitebone. (low positive effect) - Lightpelt was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -405,12 +412,7 @@
             "Lightpelt noticed how successful Suntooth's hunting patrol was. (positive effect) - Lightpelt was 63 moons old",
             "Lightpelt heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -534,9 +536,7 @@
             "Gardeniaglow guides Lightpelt to someone she is looking for. (low positive effect) - Lightpelt was 54 moons old",
             "Gardeniaglow vents about something trivial to Lightpelt. (low positive effect) - Lightpelt was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -544,12 +544,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 0,
+        "like": 21,
+        "respect": 7,
+        "comfort": 20,
+        "trust": 6,
         "log": [
-            "Lightpelt learns some pelt-grooming techniques from Mossflight, and tells Mossflight some of her own. (low positive effect) - Lightpelt was 69 moons old"
+            "Lightpelt learns some pelt-grooming techniques from Mossflight, and tells Mossflight some of her own. (low positive effect) - Lightpelt was 69 moons old",
+            "Lightpelt and Mossflight always have something to share with each other. (high positive effect) - Lightpelt was 79 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -561,7 +562,7 @@
         "romance": 0,
         "like": 8,
         "respect": 31,
-        "comfort": 46,
+        "comfort": 59,
         "trust": 8,
         "log": [
             "Lightpelt reassures Hushshimmer about something that was bothering them. (low positive effect) - Lightpelt was 52 moons old",
@@ -569,7 +570,9 @@
             "When Lightpelt and Hushshimmer realize they've been grooming their pelts the same way, they laugh about it. (low positive effect) - Lightpelt was 73 moons old",
             "Lightpelt heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -674,10 +677,7 @@
         "log": [
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Lightpelt was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -692,10 +692,7 @@
         "log": [
             "Lightpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -727,10 +724,7 @@
             "Lightpelt notices that Diablofoot brought him a big piece of prey. (medium positive effect) - Lightpelt was 77 moons old",
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Lightpelt was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -745,9 +739,7 @@
         "log": [
             "Lightpelt was being condescending towards Heavythud all day long. (low negative effect) - Lightpelt was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -818,10 +810,11 @@
         "romance": 0,
         "like": -2,
         "respect": -4,
-        "comfort": -11,
+        "comfort": 6,
         "trust": -3,
         "log": [
-            "Shinefur told Lightpelt something awful, and Lightpelt may never look at her quite the same. (high negative effect) - Lightpelt was 70 moons old"
+            "Shinefur told Lightpelt something awful, and Lightpelt may never look at her quite the same. (high negative effect) - Lightpelt was 70 moons old",
+            "It seems like there's an unspoken apology between Lightpelt and Shinefur. (medium positive effect) - Lightpelt was 81 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -910,10 +903,7 @@
         "log": [
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Lightpelt was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1000,9 +990,7 @@
             "Lightpelt noticed how successful Onemuzzle's hunting patrol was. (positive effect) - Lightpelt was 61 moons old",
             "Lightpelt and Onemuzzle spend the morning telling interesting stories. (low positive effect) - Lightpelt was 77 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1166,9 +1154,7 @@
         "log": [
             "Lightpelt was impressed by Gentleghost's hunting prowess. (positive effect) - Lightpelt was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1193,7 +1179,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1204,11 +1190,11 @@
         "cat_to_id": "105",
         "mates": true,
         "family": false,
-        "romance": 27,
-        "like": 29,
+        "romance": 53,
+        "like": 55,
         "respect": 12,
-        "comfort": 48,
-        "trust": 24,
+        "comfort": 61,
+        "trust": 37,
         "log": [
             "Oddmuzzle tells Lightpelt that her pelt is shiny today. (low positive effect) - Lightpelt was 53 moons old",
             "Lightpelt had a disagreement with Oddmuzzle over kits. (medium negative effect) - Lightpelt was 64 moons old",
@@ -1216,7 +1202,10 @@
             "Lightpelt had a disagreement with Oddmuzzle over kits. (medium negative effect) - Lightpelt was 68 moons old",
             "Lightpelt purrs for a long time at one of Oddmuzzle's lame jokes. (high positive effect) - Lightpelt was 70 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1265,11 +1254,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 13,
-        "log": [],
+        "like": -2,
+        "respect": -11,
+        "comfort": 11,
+        "trust": 9,
+        "log": [
+            "Lightpelt gets hit with waves of envy whenever Dahliacrest is laughing with friends. (high negative effect) - Lightpelt was 80 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1331,7 +1322,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1343,12 +1334,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -8,
+        "respect": -7,
+        "comfort": -8,
+        "trust": -21,
+        "log": [
+            "Cherrytail uses one of Lightpelt's fears against him. (high negative effect) - Lightpelt was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1387,10 +1385,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lightpelt accuses Brinerump of stealing something. (medium negative effect) - Lightpelt was 82 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1424,16 +1426,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -17,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": -21,
+        "respect": -15,
+        "comfort": -7,
+        "trust": -8,
         "log": [
-            "Lightpelt is baffled by something Currenthiss says about religion. (medium negative effect) - Lightpelt was 78 moons old"
+            "Lightpelt is baffled by something Currenthiss says about religion. (medium negative effect) - Lightpelt was 78 moons old",
+            "Lightpelt overheard Currenthiss spreading a hurtful rumor. (high negative effect) - Lightpelt was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1475,9 +1476,7 @@
             "Tansywhisker won't tell Lightpelt what's got her acting weird. (low negative effect) - Lightpelt was 71 moons old",
             "Tansywhisker does something that makes Lightpelt's day a little happier. (low positive effect) - Lightpelt was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1519,9 +1518,7 @@
             "Molekit learns that Lightpelt told a Clanmate one of his secrets. (low negative effect) - Lightpelt was 60 moons old",
             "Lightpelt heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1543,15 +1540,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Lightpelt heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1718,10 +1713,7 @@
         "log": [
             "Late into the evening, Meadowspots invites Fluttershade, Lightpelt, Diablofoot, and Icyriver to stretch with her and enjoy each other's company. (positive effect) - Lightpelt was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1743,10 +1735,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Lightpelt can't help but admire how well Mewhoney gets along with the rest of the Clan. (medium positive effect) - Lightpelt was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1801,8 +1795,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 6,
+        "log": [
+            "Lightpelt heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Lightpelt was 79 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Lightpelt was 79 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1814,9 +1811,10 @@
         "like": 4,
         "respect": 4,
         "comfort": 16,
-        "trust": 4,
+        "trust": -6,
         "log": [
-            "After something unsettling happens, Lightpelt and Terabyte find comfort in one another's company. (high positive effect) - Lightpelt was 68 moons old"
+            "After something unsettling happens, Lightpelt and Terabyte find comfort in one another's company. (high positive effect) - Lightpelt was 68 moons old",
+            "Lightpelt heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Lightpelt was 79 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1947,12 +1945,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": -11,
+        "respect": 6,
+        "comfort": -4,
+        "trust": -4,
         "log": [
-            "Lightpelt heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 74 moons old"
+            "Lightpelt heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 74 moons old",
+            "Lightpelt and Minnowlily nearly got in a bloody fight if it weren't for the intervention of a Clanmate. (high negative effect) - Lightpelt was 80 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1965,8 +1964,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Lightpelt heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Lightpelt was 79 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2004,8 +2005,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Lightpelt heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Lightpelt was 79 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2016,10 +2019,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lightpelt said something that rubbed Garlicberry the wrong way. (low negative effect) - Lightpelt was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -2050,6 +2057,99 @@
     {
         "cat_from_id": "113",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "176",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Lightpelt was amused by Brindlekit's daring adventure out of camp. (positive effect) - Lightpelt was 81 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,

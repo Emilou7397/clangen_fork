@@ -59,9 +59,7 @@
             "Warmswirl heard about Cobaltstrike's victory in battle against a gang of rogues. (positive effect) - Warmswirl was 35 moons old",
             "Warmswirl heard about how Cobaltstrike's patrol drove off a vixen. (positive effect) - Warmswirl was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -87,8 +85,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Warmswirl heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Warmswirl was 64 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -330,7 +330,7 @@
         "like": 78,
         "respect": 85,
         "comfort": 100,
-        "trust": 74,
+        "trust": 82,
         "log": [
             "Carptail, Shardpaw, Warmpaw, Hushpaw, and Suntooth hang out while stretching. (positive effect)- Warmpaw was 11 moons old",
             "Stretching might be good for one's health, but Peatcrest, Yewheather, Warmpaw, and Shardtail wish Carptail didn't insist on stretching at the crack of dawn. (negative effect)- Warmpaw was 13 moons old",
@@ -342,9 +342,6 @@
             "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
             "trust"
         ]
     },
@@ -408,7 +405,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 5,
         "respect": -8,
         "comfort": 0,
         "trust": 0,
@@ -586,11 +583,7 @@
             "Warmswirl noticed how successful Suntooth's hunting patrol was. (positive effect) - Warmswirl was 48 moons old",
             "Warmswirl heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -646,19 +639,17 @@
         "mates": false,
         "family": false,
         "romance": 12,
-        "like": 12,
+        "like": 20,
         "respect": 10,
-        "comfort": 4,
+        "comfort": 12,
         "trust": 0,
         "log": [
             "At first, Hushkit, Shardkit, Warmkit, and Saffronfoot are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Warmkit was 4 moons old",
             "Warmswirl laughs at bad jokes from Saffronfoot. (medium positive effect) - Warmswirl was 40 moons old",
-            "Warmswirl heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 61 moons old"
+            "Warmswirl heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 61 moons old",
+            "Saffronfoot, Warmswirl, and Skulkwillow had a nice talk while eating. (positive effect) - Warmswirl was 65 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -786,7 +777,7 @@
         "romance": 0,
         "like": 50,
         "respect": 9,
-        "comfort": 93,
+        "comfort": 97,
         "trust": 27,
         "log": [
             "Olivebranch makes sure Hushkit, Warmkit, Mosskit, and Shardkit all get to have their turn during a game. (positive effect)- Warmkit was 3 moons old",
@@ -795,14 +786,10 @@
             "Mossflight, Curryfoot, and Warmswirl took a sunbath and had a little small talk. (positive effect)- Warmswirl was 30 moons old",
             "The moonlight encourages Mossflight, Gardeniaglow, Verbenabloom, Shardtail, and Warmswirl to slow down and stretch. (positive effect)- Warmswirl was 33 moons old",
             "Warmswirl and Mossflight took a lovely nap together instead of patrolling. (positive effect) - Warmswirl was 36 moons old",
-            "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old"
+            "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old",
+            "Warmswirl and Mossflight enjoy the rain together. (low positive effect) - Warmswirl was 65 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -911,7 +898,7 @@
         "romance": 0,
         "like": 19,
         "respect": 10,
-        "comfort": 12,
+        "comfort": 4,
         "trust": 22,
         "log": [
             "These cats enjoyed fantastical stories together while stuck in the den. (positive effect)- Warmswirl was 24 moons old",
@@ -930,7 +917,7 @@
         "romance": 0,
         "like": -7,
         "respect": 7,
-        "comfort": 3,
+        "comfort": -14,
         "trust": -1,
         "log": [
             "Warmswirl has a weird feeling about something Fringepaw said the other day. (low negative effect)- Warmswirl was 19 moons old",
@@ -939,9 +926,12 @@
             "Warmswirl and Fringesnap worked on their skills together on a training patrol. (positive effect)- Warmswirl was 34 moons old",
             "Fringesnap accuses Warmswirl of lying about something Warmswirl has no reason to lie about. (medium negative effect) - Warmswirl was 46 moons old",
             "Warmswirl includes Fringesnap in a conversation that Fringesnap struggled to join. (low positive effect) - Warmswirl was 47 moons old",
-            "Fringesnap respects Warmswirl's opinion despite disagreeing with it. (low positive effect) - Warmswirl was 50 moons old"
+            "Fringesnap respects Warmswirl's opinion despite disagreeing with it. (low positive effect) - Warmswirl was 50 moons old",
+            "Warmswirl and Fringesnap talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Warmswirl was 67 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -964,7 +954,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 22,
+        "like": 19,
         "respect": 0,
         "comfort": 12,
         "trust": 87,
@@ -978,7 +968,7 @@
             "Warmswirl and Verbenabloom volunteer to go on an extra border patrol together. (medium positive effect) - Warmswirl was 61 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like"
         ]
     },
     {
@@ -1023,15 +1013,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 25,
+        "like": 33,
         "respect": 10,
-        "comfort": 8,
+        "comfort": 16,
         "trust": 5,
         "log": [
             "Skulkwillow, Warmswirl, and Erminedaisy took a sunbath and had a little small talk. (positive effect)- Warmswirl was 18 moons old",
             "These cats enjoyed fantastical stories together while stuck in the den. (positive effect)- Warmswirl was 24 moons old",
             "Warmswirl hopes he is assigned to patrol with Skulkwillow tomorrow. (medium positive effect)- Warmswirl was 26 moons old",
-            "Warmswirl heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old"
+            "Warmswirl heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old",
+            "Saffronfoot, Warmswirl, and Skulkwillow had a nice talk while eating. (positive effect) - Warmswirl was 65 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1058,7 +1049,7 @@
         "romance": 0,
         "like": 2,
         "respect": -21,
-        "comfort": 2,
+        "comfort": -11,
         "trust": -8,
         "log": [
             "Warmswirl scolds Diablofoot about something she did, but Diablofoot doesn't take him seriously. (high negative effect)- Warmswirl was 18 moons old",
@@ -1075,10 +1066,11 @@
         "like": 0,
         "respect": -16,
         "comfort": -8,
-        "trust": 0,
+        "trust": 12,
         "log": [
             "Sardinepaw, Elmpaw, Heavypaw, and Talonpaw pointedly ignore Warmswirl's reminders to focus on training instead of gossiping. (negative effect)- Warmswirl was 20 moons old",
-            "Warmswirl and Heavythud say goodbye, but end up walking in the same direction. (low negative effect)- Warmswirl was 27 moons old"
+            "Warmswirl and Heavythud say goodbye, but end up walking in the same direction. (low negative effect)- Warmswirl was 27 moons old",
+            "Only Warmswirl and Heavythud know the details about a specific piece of Clan drama. (medium positive effect) - Warmswirl was 64 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1090,8 +1082,8 @@
         "romance": 0,
         "like": 13,
         "respect": -16,
-        "comfort": 13,
-        "trust": 10,
+        "comfort": 26,
+        "trust": 23,
         "log": [
             "Sardinepaw, Elmpaw, Heavypaw, and Talonpaw pointedly ignore Warmswirl's reminders to focus on training instead of gossiping. (negative effect)- Warmswirl was 20 moons old"
         ],
@@ -1124,9 +1116,10 @@
         "like": 0,
         "respect": 0,
         "comfort": -12,
-        "trust": 0,
+        "trust": 12,
         "log": [
-            "Warmswirl had a terrible dream about Reedheart. (medium negative effect) - Warmswirl was 56 moons old"
+            "Warmswirl had a terrible dream about Reedheart. (medium negative effect) - Warmswirl was 56 moons old",
+            "Reedheart doesn't entertain a rumor that is being spread about Warmswirl. (medium positive effect) - Warmswirl was 66 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1136,7 +1129,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 63,
+        "like": 76,
         "respect": 23,
         "comfort": 100,
         "trust": 53,
@@ -1176,17 +1169,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 11,
-        "respect": -4,
-        "comfort": 32,
-        "trust": 29,
+        "like": 13,
+        "respect": 0,
+        "comfort": 35,
+        "trust": 40,
         "log": [
             "Warmpaw visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Warmpaw was 11 moons old",
             "Sardinepaw, Elmpaw, Heavypaw, and Talonpaw pointedly ignore Warmswirl's reminders to focus on training instead of gossiping. (negative effect)- Warmswirl was 20 moons old",
             "Warmswirl and Talonlake splash each other in a puddle, but it doesn't look playful... (low negative effect) - Warmswirl was 38 moons old",
-            "Warmswirl noticed how successful Talonlake's hunting patrol was. (positive effect) - Warmswirl was 46 moons old"
+            "Warmswirl noticed how successful Talonlake's hunting patrol was. (positive effect) - Warmswirl was 46 moons old",
+            "Warmswirl is letting Talonlake share his troubles with him, hoping he'll feel better afterward. (high positive effect) - Warmswirl was 68 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1207,12 +1205,7 @@
             "Warmswirl heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Warmswirl was 46 moons old",
             "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1258,13 +1251,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 8,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Warmswirl noticed how successful Paellapad's hunting patrol was. (positive effect)- Warmswirl was 24 moons old",
-            "Warmswirl heard about how Paellapad's patrol drove off a vixen. (positive effect) - Warmswirl was 42 moons old"
+            "Warmswirl heard about how Paellapad's patrol drove off a vixen. (positive effect) - Warmswirl was 42 moons old",
+            "Paellapad, Tansywhisker, and Warmswirl had a nice talk while eating. (positive effect) - Warmswirl was 65 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1276,9 +1270,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 17,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Warmswirl notices that Icyriver brought him a big piece of prey. (medium positive effect) - Warmswirl was 64 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1320,8 +1316,8 @@
         "cat_to_id": "83",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 6,
+        "romance": 13,
+        "like": 19,
         "respect": 8,
         "comfort": 9,
         "trust": -3,
@@ -1385,14 +1381,15 @@
         "romance": 0,
         "like": 74,
         "respect": 56,
-        "comfort": 92,
+        "comfort": 100,
         "trust": 72,
         "log": [
             "Warmswirl visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Warmswirl was 20 moons old",
             "Volepaw lets Warmswirl grab a piece of fresh-kill first. (low positive effect)- Warmswirl was 30 moons old",
             "Volepaw makes a small sacrifice that benefits Warmswirl. (low positive effect)- Warmswirl was 33 moons old",
             "Warmswirl is glad to have a Clanmate like Voletuft. (high positive effect) - Warmswirl was 36 moons old",
-            "Warmswirl could recognize Voletuft just by the sound of their paw steps. (high positive effect) - Warmswirl was 50 moons old"
+            "Warmswirl could recognize Voletuft just by the sound of their paw steps. (high positive effect) - Warmswirl was 50 moons old",
+            "Voletuft brought Warmswirl and other Clanmates warm bedding for a cold night. (medium positive effect) - Warmswirl was 65 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1443,12 +1440,7 @@
             "Shimmerrunner, Warmswirl, Flightsplash, Coconutpaw, and Anteaterspot blow off steam by stretching with and venting to each other. (positive effect) - Warmswirl was 58 moons old",
             "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1508,9 +1500,7 @@
             "Warmswirl protects Hailfreckle from something on a patrol. (medium positive effect) - Warmswirl was 59 moons old",
             "Warmswirl was flattered by Hailfreckle's politeness this morning. (low positive effect) - Warmswirl was 63 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1633,9 +1623,7 @@
             "Kiwifoot, Warmswirl, and Diablofoot had a nice talk while eating. (positive effect) - Warmswirl was 47 moons old",
             "Warmswirl purrs for a long time at one of Kiwifoot's lame jokes. (high positive effect) - Warmswirl was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1656,7 +1644,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
+        "like": 6,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1716,9 +1704,13 @@
         "like": 13,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -7,
+        "log": [
+            "Warmswirl starts to see flaws in Lightpelt's philosophies. (medium negative effect) - Warmswirl was 68 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1726,13 +1718,14 @@
         "mates": false,
         "family": false,
         "romance": 17,
-        "like": 8,
-        "respect": 13,
-        "comfort": 21,
-        "trust": 0,
+        "like": 15,
+        "respect": 34,
+        "comfort": 29,
+        "trust": 6,
         "log": [
             "Dahliacrest, Warmswirl, and Fluttershade took a sunbath and had a little small talk. (positive effect) - Warmswirl was 46 moons old",
-            "Warmswirl goes for a nice long walk with Dahliacrest. (medium positive effect) - Warmswirl was 61 moons old"
+            "Warmswirl goes for a nice long walk with Dahliacrest. (medium positive effect) - Warmswirl was 61 moons old",
+            "Warmswirl is deeply touched hearing just how much Dahliacrest remembers about him. (high positive effect) - Warmswirl was 66 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1855,10 +1848,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 3,
+        "comfort": -14,
         "trust": 3,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Warmswirl realizes how hard it is to hold a conversation with Brinerump. (medium negative effect) - Warmswirl was 67 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1935,7 +1932,7 @@
         "romance": 0,
         "like": -20,
         "respect": 3,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 17,
         "log": [
             "Warmswirl and Minnowlily got into a vicious fight. (negative effect) - Warmswirl was 41 moons old",
@@ -1943,7 +1940,9 @@
             "Warmswirl heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old",
             "Warmswirl tried on an accessory that Minnowlily threw away, but realized Minnowlily looked a lot better in it. (medium negative effect) - Warmswirl was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1951,11 +1950,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Paellapad, Tansywhisker, and Warmswirl had a nice talk while eating. (positive effect) - Warmswirl was 65 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1997,9 +1998,7 @@
         "log": [
             "Warmswirl heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -2027,10 +2026,7 @@
         "log": [
             "Warmswirl heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -2151,11 +2147,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -2207,10 +2205,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Frondpad, Warmswirl, Dustkit, and Howlkit congratulate Caterpillarfoot on her latest catch. (positive effect) - Warmswirl was 64 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2219,15 +2219,19 @@
         "mates": false,
         "family": false,
         "romance": 18,
-        "like": 20,
-        "respect": -25,
-        "comfort": 17,
+        "like": 25,
+        "respect": -20,
+        "comfort": 23,
         "trust": 10,
         "log": [
             "Warmswirl notices that Mewhoney always gets better fresh-kill to eat. (high negative effect) - Warmswirl was 57 moons old",
             "Fleadusk, Mewhoney, and Warmswirl took a sunbath and had a little small talk. (positive effect) - Warmswirl was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -2279,10 +2283,12 @@
         "like": 12,
         "respect": 13,
         "comfort": 12,
-        "trust": 0,
+        "trust": 6,
         "log": [
             "Warmswirl stayed up all night thinking of ways to impress Anteaterspot. (low positive effect) - Warmswirl was 53 moons old",
-            "Shimmerrunner, Warmswirl, Flightsplash, Coconutpaw, and Anteaterspot blow off steam by stretching with and venting to each other. (positive effect) - Warmswirl was 58 moons old"
+            "Shimmerrunner, Warmswirl, Flightsplash, Coconutpaw, and Anteaterspot blow off steam by stretching with and venting to each other. (positive effect) - Warmswirl was 58 moons old",
+            "Warmswirl heard that Anteaterspot was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Warmswirl was 64 moons old",
+            "This is intended to balance the negative value associated with this cat's death. Report this text as a bug if you see it. (positive effect) - Warmswirl was 64 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2295,9 +2301,10 @@
         "like": 0,
         "respect": -7,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Warmswirl notices that Terabyte has been avoiding his responsibilities lately. (medium negative effect) - Warmswirl was 57 moons old"
+            "Warmswirl notices that Terabyte has been avoiding his responsibilities lately. (medium negative effect) - Warmswirl was 57 moons old",
+            "Warmswirl heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Warmswirl was 64 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2433,9 +2440,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -3,
+        "trust": -13,
         "log": [
-            "Coquitostep won't stop looking at a specific Clanmate while talking to Warmswirl. (low negative effect) - Warmswirl was 62 moons old"
+            "Coquitostep won't stop looking at a specific Clanmate while talking to Warmswirl. (low negative effect) - Warmswirl was 62 moons old",
+            "Warmswirl heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Warmswirl was 64 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2458,11 +2466,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Stellarpatch tells Sandpaw, Gorgehunt, Warmswirl, and Garlicberry a story that earns more skepticism than admiration. (negative effect) - Warmswirl was 65 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2474,8 +2484,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Warmswirl heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Warmswirl was 64 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2520,6 +2532,99 @@
     {
         "cat_from_id": "51",
         "cat_to_id": "180",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "176",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "182",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "184",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "185",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "186",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 10,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Warmswirl was amused by Brindlekit's daring adventure out of camp. (positive effect) - Warmswirl was 66 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "187",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "189",
         "mates": false,
         "family": false,
         "romance": 0,
