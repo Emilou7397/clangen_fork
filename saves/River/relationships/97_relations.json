@@ -642,13 +642,18 @@
         "cat_to_id": "47",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -8,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 15,
+        "like": 8,
+        "respect": 9,
+        "comfort": 16,
+        "trust": 16,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -803,12 +808,7 @@
             "Snakedrop heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 36 moons old",
             "Snakedrop compliments Fleadusk on how well groomed his pelt is today. (high positive effect) - Snakedrop was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -1141,10 +1141,7 @@
         "log": [
             "Snakedrop is discomforted by Mallowpelt's muttering. (high negative effect) - Snakedrop was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -1180,10 +1177,7 @@
             "Voletuft gave Snakedrop a sprig of catmint they found. (high positive effect) - Snakedrop was 39 moons old",
             "Snakedrop and Voletuft worked together to gather juniper needles and oak leaves. (positive effect) - Snakedrop was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -1192,7 +1186,7 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 0,
+        "respect": 10,
         "comfort": 9,
         "trust": 0,
         "log": [
@@ -1204,10 +1198,12 @@
             "Snakedrop saw Flutterfeather mess up while on patrol. (negative effect) - Snakedrop was 37 moons old",
             "Snakedrop and Flutterfeather have decided that they may not be the right fit for each other after all. They opt to leave things on good terms and break up. - Snakedrop was 40 moons old",
             "Snakedrop and Flutterfeather worked together to gather juniper needles and oak leaves. (positive effect) - Snakedrop was 40 moons old",
-            "Snakedrop and Flutterfeather were short with each other during a herb gathering patrol. (negative effect) - Snakedrop was 44 moons old"
+            "Snakedrop and Flutterfeather were short with each other during a herb gathering patrol. (negative effect) - Snakedrop was 44 moons old",
+            "While assisting Flutterfeather with gathering blackberries and raspberries, Snakedrop learned about how much effort and thought goes into preserving herbs and preparing for leaf-bare. (positive effect) - Snakedrop was 45 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort"
         ]
     },
@@ -1471,11 +1467,7 @@
             "Snakedrop calls Antlerthorn useless when they struggle to complete a task together. (medium negative effect) - Snakedrop was 25 moons old",
             "Snakedrop and Antlerthorn were short with each other during a herb gathering patrol. (negative effect) - Snakedrop was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -1483,15 +1475,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": -23,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Shimmerpaw, Dancingpaw, Gentlepaw, and Daisypaw are too busy goofing off to listen to Snakedrop's advice. (negative effect)- Snakedrop was 12 moons old",
-            "Daisymoor tries to make Snakedrop look bad during training. (medium negative effect) - Snakedrop was 18 moons old"
+            "Daisymoor tries to make Snakedrop look bad during training. (medium negative effect) - Snakedrop was 18 moons old",
+            "Snakedrop prays that he isn't on patrol with Daisymoor tomorrow. (medium negative effect) - Snakedrop was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1688,9 +1683,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1712,11 +1709,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop admires how brave Gorgehunt is. (medium positive effect) - Snakedrop was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2165,9 +2166,7 @@
         "log": [
             "Shinebelly was complimented by another Clan during the recent Gathering, but Snakedrop wasn't. (medium negative effect) - Snakedrop was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -2279,9 +2278,7 @@
             "Snakedrop shares a joke about a neighboring Clan with Stellarpatch. (low positive effect) - Snakedrop was 39 moons old",
             "Snakedrop has snuggled up against Stellarpatch. (medium positive effect) - Snakedrop was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -2434,6 +2431,32 @@
     {
         "cat_from_id": "97",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

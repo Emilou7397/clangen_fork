@@ -405,15 +405,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 21,
+        "respect": 18,
+        "comfort": 7,
+        "trust": 21,
         "log": [
             "Flutterpaw is talking with Bitebone. (low positive effect)- Flutterpaw was 12 moons old",
-            "Flutterfeather heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flutterfeather was 39 moons old"
+            "Flutterfeather heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flutterfeather was 39 moons old",
+            "Flutterfeather and Bitebone agree on something the rest of the Clan finds contentious. (high positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -422,15 +428,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 25,
+        "respect": 30,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Flutterkit is pretending to be Prancelaurel. (medium positive effect)- Flutterkit was 4 moons old",
             "Flutterpaw heard about how Prancelaurel's patrol drove off a scavenging fox. (positive effect)- Flutterpaw was 6 moons old",
-            "Flutterfeather saw Prancelaurel being considerate. (low positive effect) - Flutterfeather was 18 moons old"
+            "Flutterfeather saw Prancelaurel being considerate. (low positive effect) - Flutterfeather was 18 moons old",
+            "Flutterfeather heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -630,10 +639,7 @@
             "Flutterfeather has noticed Freezefoot isn't doing a lot of work lately. (medium negative effect) - Flutterfeather was 41 moons old",
             "Flutterfeather rolls his eyes while listening to Freezefoot's most recent complaint, but makes sure to thoroughly check her for any ailments. (high positive effect) - Flutterfeather was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -826,13 +832,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Flutterfeather appreciated Fluttershade's help gathering daisies and dandelions. (positive effect) - Flutterfeather was 45 moons old"
+            "Flutterfeather appreciated Fluttershade's help gathering daisies and dandelions. (positive effect) - Flutterfeather was 45 moons old",
+            "Flutterfeather heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -908,14 +918,17 @@
         "romance": 10,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 29,
         "trust": 0,
         "log": [
             "Flutterfeather stayed up all night thinking of ways to impress Elmtrail. (low positive effect) - Flutterfeather was 28 moons old",
             "Flutterfeather and Elmtrail had a conversation where they realized they didn't have much in common. (low negative effect) - Flutterfeather was 33 moons old",
-            "Shinefur, Voletuft, Elmtrail, Yewstar, and Flutterfeather hang out while stretching. (positive effect) - Flutterfeather was 45 moons old"
+            "Shinefur, Voletuft, Elmtrail, Yewstar, and Flutterfeather hang out while stretching. (positive effect) - Flutterfeather was 45 moons old",
+            "Flutterfeather and Elmtrail share stories of a Clanmate they didn't realize they both miss. (medium positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -932,9 +945,7 @@
             "Flutterfeather heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flutterfeather was 38 moons old",
             "Brindletooth doesn't entertain a rumor that is being spread about Flutterfeather. (medium positive effect) - Flutterfeather was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1209,9 +1220,7 @@
             "Flutterfeather was irritated with Voletuft for getting sidetracked during an herb-gathering patrol. (negative effect) - Flutterfeather was 43 moons old",
             "Shinefur, Voletuft, Elmtrail, Yewstar, and Flutterfeather hang out while stretching. (positive effect) - Flutterfeather was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1410,12 +1419,7 @@
             "Flutterfeather appreciated Snakedrop's help gathering daisies and dandelions. (positive effect) - Flutterfeather was 45 moons old",
             "Flutterfeather and Snakedrop were short with each other during a herb gathering patrol. (negative effect) - Flutterfeather was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1535,11 +1539,7 @@
             "Flutterfeather appreciated Antlerthorn's help gathering daisies and dandelions. (positive effect) - Flutterfeather was 45 moons old",
             "Flutterfeather and Antlerthorn were short with each other during a herb gathering patrol. (negative effect) - Flutterfeather was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -1687,9 +1687,7 @@
         "log": [
             "Flutterfeather notices that Piperthrift is fixing a damaged part of the camp without being asked. (low positive effect) - Flutterfeather was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -2034,13 +2032,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Creekmoss, Flutterfeather, and Meadowspots took a sunbath and had a little small talk. (positive effect) - Flutterfeather was 36 moons old"
+            "Creekmoss, Flutterfeather, and Meadowspots took a sunbath and had a little small talk. (positive effect) - Flutterfeather was 36 moons old",
+            "Flutterfeather heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -2167,12 +2168,7 @@
         "log": [
             "Flutterfeather gives Nymphshine a wonderfully colored pebble he found, and hides behind his whiskers when thanked. (high positive effect) - Flutterfeather was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -2248,10 +2244,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Flutterfeather heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2261,13 +2259,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flutterfeather is excited for his family to grow further. (positive effect) - Flutterfeather was 35 moons old"
+            "Flutterfeather is excited for his family to grow further. (positive effect) - Flutterfeather was 35 moons old",
+            "Flutterfeather heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "87",
@@ -2369,9 +2370,7 @@
         "log": [
             "Flutterfeather likes the way Heathstripe laughs. (medium positive effect) - Flutterfeather was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "87",
@@ -2406,10 +2405,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Flutterfeather heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Flutterfeather was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2482,6 +2483,32 @@
     {
         "cat_from_id": "87",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "87",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

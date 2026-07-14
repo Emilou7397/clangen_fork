@@ -81,12 +81,7 @@
             "Algaepool and Cobaltstrike debated something interesting for hours yesterday. (high positive effect) - Algaepool was 101 moons old",
             "Cobaltstrike knows secrets about Algaepool that he hasn't told anyone else. (high positive effect) - Algaepool was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "16",
@@ -1026,12 +1021,7 @@
             "Algaepool feels a little safer when Gardeniaglow joins him in the clearing. (low positive effect) - Algaepool was 100 moons old",
             "Algaepool depends on Gardeniaglow to back him up during a debate. (high positive effect) - Algaepool was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "16",
@@ -1239,13 +1229,14 @@
         "romance": 0,
         "like": 19,
         "respect": 8,
-        "comfort": 12,
+        "comfort": -5,
         "trust": 10,
         "log": [
             "Algaepool nearly tripped, but was caught by Fluttershade. (medium positive effect)- Algaepool was 52 moons old",
             "Fluttershade vents about something trivial to Algaepool. (low positive effect)- Algaepool was 54 moons old",
             "The moonlight encourages Poolleaf, Algaepool, Paellapad, Fluttershade, and Reedheart to slow down and stretch. (positive effect)- Algaepool was 72 moons old",
-            "Algaepool saw Fluttershade the other day and did get a chance to meow hello! (medium positive effect) - Algaepool was 98 moons old"
+            "Algaepool saw Fluttershade the other day and did get a chance to meow hello! (medium positive effect) - Algaepool was 98 moons old",
+            "Algaepool realizes that a strange smell in camp is coming from Fluttershade. (medium negative effect) - Algaepool was 107 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1355,9 +1346,7 @@
             "Algaepool keeps asking Reedheart to explain a joke, but Reedheart just says that Algaepool had to be there. (low negative effect) - Algaepool was 104 moons old",
             "Algaepool gets some good advice from Reedheart about something trivial. (low positive effect) - Algaepool was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "16",
@@ -1918,9 +1907,7 @@
             "Algaepool suspects Lightpelt lied about something trivial. (low negative effect) - Algaepool was 81 moons old",
             "Algaepool thought Lightpelt was polite today. (low positive effect) - Algaepool was 94 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "16",
@@ -2160,11 +2147,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Butterflyglide pulled an embarrassing prank on Algaepool's friend. (low negative effect) - Algaepool was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -2599,9 +2590,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "16",
@@ -2828,6 +2817,32 @@
     {
         "cat_from_id": "16",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "16",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "16",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

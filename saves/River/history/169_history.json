@@ -10,16 +10,27 @@
             "103": {
                 "aggression": 5,
                 "sociability": 2,
-                "stability": -2
+                "stability": 0,
+                "strings": [
+                    "defend {PRONOUN\/m_c\/poss} beliefs",
+                    "put others at ease"
+                ]
             }
         },
         "skill": {
             "103": {
-                "RUNNER": 15
+                "RUNNER": 17,
+                "strings": [
+                    "running"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "heart",
+        "graduation_age": 13,
+        "moon": 127
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

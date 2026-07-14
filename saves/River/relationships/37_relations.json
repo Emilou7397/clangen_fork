@@ -35,7 +35,7 @@
         "family": false,
         "romance": 22,
         "like": 53,
-        "respect": 55,
+        "respect": 60,
         "comfort": 61,
         "trust": 34,
         "log": [
@@ -51,9 +51,15 @@
             "Saffronfoot heard about how Prancelaurel's patrol drove off a scavenging fox. (positive effect)- Saffronfoot was 56 moons old",
             "Saffronfoot, Prancelaurel, and Gentlekit took a sunbath and had a little small talk. (positive effect)- Saffronfoot was 57 moons old",
             "Prancelaurel, Quailfur, Saffronfoot, Carptail, and Riomane hang out while stretching. (positive effect)- Saffronfoot was 58 moons old",
-            "Saffronfoot and Prancelaurel talk about what they see in the clouds. (low positive effect) - Saffronfoot was 90 moons old"
+            "Saffronfoot and Prancelaurel talk about what they see in the clouds. (low positive effect) - Saffronfoot was 90 moons old",
+            "Saffronfoot heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -419,12 +425,7 @@
             "Saffronfoot heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saffronfoot was 89 moons old",
             "Stretching might be good for one's health, but Heathstripe, Sandpaw, Saffronfoot, and Peatcrest wish Primfreckle didn't insist on stretching at the crack of dawn. (negative effect) - Saffronfoot was 96 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -453,10 +454,10 @@
         "mates": false,
         "family": false,
         "romance": 75,
-        "like": 42,
-        "respect": 33,
-        "comfort": 65,
-        "trust": -25,
+        "like": 46,
+        "respect": 37,
+        "comfort": 71,
+        "trust": -21,
         "log": [
             "These cats recently interacted.- Sarki was 15 moons old",
             "Carptail, Primfreckle, Craneflight, and Saffronfoot can't escape from Peatcrest waking them up to do early morning stretches. (negative effect)- Saffronfoot was 16 moons old",
@@ -486,10 +487,10 @@
             "Peatcrest tells Oddmuzzle, Saffronfoot, Carptail, and Auburnsplash a story that seems to grow less believable every meow. (negative effect) - Saffronfoot was 90 moons old"
         ],
         "no_longer_neutral": [
-            "comfort",
             "respect",
             "trust",
-            "like"
+            "like",
+            "comfort"
         ]
     },
     {
@@ -522,7 +523,7 @@
         "romance": 0,
         "like": 41,
         "respect": -11,
-        "comfort": 23,
+        "comfort": 30,
         "trust": -6,
         "log": [
             "These cats recently interacted.- Sarki was 15 moons old",
@@ -531,9 +532,12 @@
             "The moonlight encourages Fidgetmouse, Pigeonbloom, Freezefoot, Saffronfoot, and Kamautail to slow down and stretch. (positive effect)- Saffronfoot was 44 moons old",
             "Saffronfoot heard Fidgetmouse fell asleep guarding camp. (negative effect)- Saffronfoot was 46 moons old",
             "If it were a life-or-death situation, Saffronfoot thinks that Fidgetmouse should be saved first. (medium positive effect)- Saffronfoot was 47 moons old",
-            "Saffronfoot can tell Fidgetmouse worries about his health and safety. (high positive effect) - Saffronfoot was 94 moons old"
+            "Saffronfoot can tell Fidgetmouse worries about his health and safety. (high positive effect) - Saffronfoot was 94 moons old",
+            "Fidgetmouse doesn't laugh when Saffronfoot does something embarrassing. (medium positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -564,12 +568,7 @@
             "Saffronfoot enjoyed reflecting on old stories with Carptail. (positive effect) - Saffronfoot was 71 moons old",
             "Saffronfoot helped Carptail interpret a vision. (positive effect) - Saffronfoot was 96 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -755,9 +754,7 @@
             "Saffronfoot heard that Peakspore chased a rogue off the territory. (positive effect)- Saffronfoot was 61 moons old",
             "Saffronfoot and Peakspore enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Saffronfoot was 95 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -779,9 +776,7 @@
             "Saffronfoot and Bitebone enjoyed a relaxing patrol gathering thyme together. (positive effect) - Saffronfoot was 94 moons old",
             "Saffronfoot and Bitebone enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Saffronfoot was 95 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -1026,11 +1021,12 @@
         "like": 8,
         "respect": -10,
         "comfort": 13,
-        "trust": 0,
+        "trust": -3,
         "log": [
             "Saffronfoot heard that Gardeniaglow's whole patrol fell asleep instead of training. (negative effect)- Saffronfoot was 43 moons old",
             "Saffronfoot heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Saffronfoot was 72 moons old",
-            "Saffronfoot can't stop thinking about Gardeniaglow. (medium positive effect) - Saffronfoot was 83 moons old"
+            "Saffronfoot can't stop thinking about Gardeniaglow. (medium positive effect) - Saffronfoot was 83 moons old",
+            "Gardeniaglow won't tell Saffronfoot what he ate this morning. (low negative effect) - Saffronfoot was 98 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1229,7 +1225,7 @@
         "family": false,
         "romance": 21,
         "like": 55,
-        "respect": 8,
+        "respect": 13,
         "comfort": 14,
         "trust": -3,
         "log": [
@@ -1239,9 +1235,14 @@
             "Saffronfoot heard Fluttershade fell asleep guarding camp. (negative effect)- Saffronfoot was 64 moons old",
             "Saffronfoot heard Fluttershade fell asleep guarding camp. (negative effect) - Saffronfoot was 76 moons old",
             "Saffronfoot wants to spend the entire day with Fluttershade. (high positive effect) - Saffronfoot was 85 moons old",
-            "Saffronfoot hears a nice story about Fluttershade. (low positive effect) - Saffronfoot was 95 moons old"
+            "Saffronfoot hears a nice story about Fluttershade. (low positive effect) - Saffronfoot was 95 moons old",
+            "Saffronfoot heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -1276,9 +1277,7 @@
             "Saffronfoot heard Murkhaven fell asleep guarding camp. (negative effect) - Saffronfoot was 83 moons old",
             "Saffronfoot heard that Murkhaven chased a kittypet off the territory. (positive effect) - Saffronfoot was 97 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -1366,12 +1365,7 @@
             "Saffronfoot was noticeably distracted while Reedheart was trying to tell a story. (high negative effect) - Saffronfoot was 79 moons old",
             "Saffronfoot heard that Reedheart chased a rogue off the territory. (positive effect) - Saffronfoot was 96 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -1482,17 +1476,23 @@
         "family": false,
         "romance": 0,
         "like": 42,
-        "respect": 37,
+        "respect": 47,
         "comfort": 29,
-        "trust": 13,
+        "trust": 23,
         "log": [
             "Saffronfoot wants Paellapad to stay safe and happy. (high positive effect)- Saffronfoot was 51 moons old",
             "Saffronfoot noticed how successful Paellapad's hunting patrol was. (positive effect)- Saffronfoot was 53 moons old",
             "Saffronfoot saw Paellapad show off a skill he never knew she had. (high positive effect)- Saffronfoot was 64 moons old",
             "Saffronfoot heard about how Paellapad's patrol drove off a vixen. (positive effect) - Saffronfoot was 71 moons old",
-            "Saffronfoot notices that Paellapad brought him a big piece of prey. (medium positive effect) - Saffronfoot was 78 moons old"
+            "Saffronfoot notices that Paellapad brought him a big piece of prey. (medium positive effect) - Saffronfoot was 78 moons old",
+            "Saffronfoot appreciated that Paellapad helped gather catmint without losing her head over the tantalizing smell. (positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -2080,16 +2080,21 @@
         "family": false,
         "romance": 0,
         "like": 18,
-        "respect": 43,
+        "respect": 53,
         "comfort": 0,
-        "trust": 10,
+        "trust": 20,
         "log": [
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Saffronfoot. (positive effect) - Saffronfoot was 70 moons old",
             "Blizzardstripe draws a pretty symbol in the sand that Saffronfoot makes sure not to mess up. (low positive effect) - Saffronfoot was 72 moons old",
             "Saffronfoot gained a greater respect for Blizzardstripe's loyalty when he protected Yewstar from a rogue. (positive effect) - Saffronfoot was 76 moons old",
-            "Saffronfoot was grateful for Blizzardstripe's help gathering tansy and ragwort. (positive effect) - Saffronfoot was 81 moons old"
+            "Saffronfoot was grateful for Blizzardstripe's help gathering tansy and ragwort. (positive effect) - Saffronfoot was 81 moons old",
+            "Saffronfoot appreciated that Blizzardstripe helped gather catmint without losing his head over the tantalizing smell. (positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -2203,10 +2208,7 @@
         "log": [
             "Saffronfoot gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Saffronfoot was 97 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -2263,17 +2265,23 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 63,
+        "respect": 73,
         "comfort": 93,
-        "trust": 88,
+        "trust": 98,
         "log": [
             "Saffronfoot and Whiskerleg chatted and gossiped while gathering mallow and betony together. (positive effect) - Saffronfoot was 84 moons old",
             "Saffronfoot gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Saffronfoot was 85 moons old",
             "Saffronfoot and Whiskerleg successfully gathered daisies together. (positive effect) - Saffronfoot was 89 moons old",
             "Saffronfoot and Whiskerleg successfully gathered dandelions and wild garlic together. (positive effect) - Saffronfoot was 90 moons old",
-            "Saffronfoot and Whiskerleg worked together to gather plantain. (positive effect) - Saffronfoot was 93 moons old"
+            "Saffronfoot and Whiskerleg worked together to gather plantain. (positive effect) - Saffronfoot was 93 moons old",
+            "Saffronfoot appreciated that Whiskerleg helped gather catmint without losing her head over the tantalizing smell. (positive effect) - Saffronfoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -2437,10 +2445,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Saffronfoot heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2608,12 +2618,7 @@
             "Saffronfoot and Pigmentpelt enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Saffronfoot was 95 moons old",
             "Saffronfoot was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Saffronfoot was 97 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "37",
@@ -2663,10 +2668,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Saffronfoot heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2676,11 +2683,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Saffronfoot heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Saffronfoot was 92 moons old"
+            "Saffronfoot heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Saffronfoot was 92 moons old",
+            "Saffronfoot heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2764,11 +2772,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saffronfoot gained respect for Garlicberry's skill in herb-gathering while helping her gather juniper berries. (positive effect) - Saffronfoot was 97 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "37",
@@ -2816,11 +2828,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 18,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Saffronfoot and Jasminesprout spend the morning telling interesting stories. (low positive effect) - Saffronfoot was 96 moons old"
+            "Saffronfoot and Jasminesprout spend the morning telling interesting stories. (low positive effect) - Saffronfoot was 96 moons old",
+            "Saffronfoot heard Jasminesprout fell asleep guarding camp. (negative effect) - Saffronfoot was 98 moons old",
+            "Saffronfoot heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Saffronfoot was 98 moons old"
         ],
         "no_longer_neutral": [
             "respect"
@@ -2894,6 +2908,32 @@
     {
         "cat_from_id": "37",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "37",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "37",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

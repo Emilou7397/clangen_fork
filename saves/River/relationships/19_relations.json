@@ -415,7 +415,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 26,
         "respect": 6,
         "comfort": 18,
         "trust": -15,
@@ -433,7 +433,9 @@
             "Late into the evening, Pigeonbloom invites Cobaltstrike, Archbellow, Yewstar, and Harefeather to stretch with them and enjoy each other's company. (positive effect) - Yewstar was 93 moons old",
             "Yewstar wishes Harefeather would take things more seriously. (medium negative effect) - Yewstar was 95 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -523,9 +525,15 @@
             "During a particularly hot greenleaf, Yewstar and Carptail spent their evenings cooling down together. (positive effect) - Yewstar was 90 moons old",
             "Yewstar and Carptail quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Yewstar was 90 moons old",
             "Yewstar helped Carptail bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Yewstar was 100 moons old",
-            "Yewstar and Carptail enjoyed a little race while gathering oak and elder leaves. (positive effect) - Yewstar was 102 moons old"
+            "Yewstar and Carptail enjoyed a little race while gathering oak and elder leaves. (positive effect) - Yewstar was 102 moons old",
+            "Yewstar and Carptail worked together to gather wild garlic and mallow. (positive effect) - Yewstar was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -685,8 +693,8 @@
         "family": false,
         "romance": 0,
         "like": 51,
-        "respect": 11,
-        "comfort": 60,
+        "respect": 19,
+        "comfort": 68,
         "trust": -15,
         "log": [
             "Yewpaw was not happy to hear that Fidgetmouse was caught outside of the Clan's territory. (negative effect)- Yewpaw was 8 moons old",
@@ -700,7 +708,10 @@
             "The moonlight encourages Carptail, Stoatshade, Fidgetmouse, Yewheather, and Pearpelt to slow down and stretch. (positive effect)- Yewheather was 61 moons old",
             "When Yewstar gets hurt, Fidgetmouse is the first to ask if he's okay. (medium positive effect) - Yewstar was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -765,10 +776,7 @@
             "Yewstar lets Bitebone bring back fresh-kill he caught on a patrol. (medium positive effect) - Yewstar was 84 moons old",
             "Yewstar heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Yewstar was 97 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -1104,9 +1112,7 @@
             "Yewstar goes for a nice long walk with Mossflight. (medium positive effect) - Yewstar was 101 moons old",
             "Yewstar realizes that Mossflight's been avoiding him. (medium negative effect) - Yewstar was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -1171,13 +1177,16 @@
         "like": 89,
         "respect": 43,
         "comfort": 100,
-        "trust": 73,
+        "trust": 85,
         "log": [
             "Yewheather has snuggled up against Warmpaw. (medium positive effect)- Yewheather was 44 moons old",
             "Warmswirl, Carptail, and Yewheather had a nice talk while eating. (positive effect)- Yewheather was 54 moons old",
-            "Warmswirl, Yewheather, and Silverstar took a sunbath and had a little small talk. (positive effect)- Yewheather was 55 moons old"
+            "Warmswirl, Yewheather, and Silverstar took a sunbath and had a little small talk. (positive effect)- Yewheather was 55 moons old",
+            "Yewstar has faith in Warmswirl. (medium positive effect) - Yewstar was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -1360,11 +1369,7 @@
             "Yewstar heard Murkhaven fell asleep guarding camp. (negative effect) - Yewstar was 91 moons old",
             "Yewstar heard that Murkhaven chased a kittypet off the territory. (positive effect) - Yewstar was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -1454,12 +1459,7 @@
             "Yewstar notices how closely Reedheart sticks to his beliefs. (medium positive effect) - Yewstar was 104 moons old",
             "Yewstar heard that Reedheart chased a rogue off the territory. (positive effect) - Yewstar was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -1528,8 +1528,8 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 85,
-        "respect": 78,
+        "like": 90,
+        "respect": 83,
         "comfort": 93,
         "trust": 76,
         "log": [
@@ -1540,9 +1540,15 @@
             "Frondpad complained so relentlessly about her patrol assignment that Talonlake, Shinefur, and Yewstar could only sigh and bear it. (negative effect) - Yewstar was 82 moons old",
             "Yewstar heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Yewstar was 83 moons old",
             "Yewstar was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Yewstar was 90 moons old",
-            "Yewstar and Frondpad enjoyed a little race while gathering oak and elder leaves. (positive effect) - Yewstar was 102 moons old"
+            "Yewstar and Frondpad enjoyed a little race while gathering oak and elder leaves. (positive effect) - Yewstar was 102 moons old",
+            "Yewstar and Frondpad worked together to gather wild garlic and mallow. (positive effect) - Yewstar was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -1789,8 +1795,8 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 86,
-        "respect": 40,
+        "like": 91,
+        "respect": 45,
         "comfort": 100,
         "trust": 85,
         "log": [
@@ -1800,9 +1806,15 @@
             "Yewstar heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Yewstar was 80 moons old",
             "Yewstar runs to greet Flightsplash when he returns from a patrol. (medium positive effect) - Yewstar was 83 moons old",
             "Yewstar and Flightsplash quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Yewstar was 90 moons old",
-            "Yewstar and Flightsplash quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Yewstar was 91 moons old"
+            "Yewstar and Flightsplash quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Yewstar was 91 moons old",
+            "Yewstar and Flightsplash worked together to gather wild garlic and mallow. (positive effect) - Yewstar was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -2023,7 +2035,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": -3,
@@ -2089,9 +2101,7 @@
             "Yewstar hears a nice story about Lightpelt. (low positive effect) - Yewstar was 89 moons old",
             "Lightpelt keeps asking Yewstar if he trusts him. (low negative effect) - Yewstar was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -2227,9 +2237,7 @@
             "Blizzardstripe protected Yewstar from a rogue. (positive effect) - Yewstar was 84 moons old",
             "Blizzardstripe helps Yewstar fix a matted piece of fur on his back. (medium positive effect) - Yewstar was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -2346,10 +2354,7 @@
         "log": [
             "Silkymunch saved Yewstar from a fox. (positive effect) - Yewstar was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "19",
@@ -2763,14 +2768,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Yewstar was impressed by how Shinebelly caught a squirrel fighting with a rattlesnake. (positive effect) - Yewstar was 104 moons old"
+            "Yewstar was impressed by how Shinebelly caught a squirrel fighting with a rattlesnake. (positive effect) - Yewstar was 104 moons old",
+            "Shinebelly tells Yewstar that his pelt is shiny today. (low positive effect) - Yewstar was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "19",
@@ -2962,8 +2970,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Yewstar heard Jasminesprout fell asleep guarding camp. (negative effect) - Yewstar was 106 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3049,6 +3059,32 @@
     {
         "cat_from_id": "19",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "19",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "19",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

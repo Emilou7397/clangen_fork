@@ -760,9 +760,7 @@
             "Piperpaw and Sardinespeckle enjoyed working on their skills together on a training patrol. (positive effect) - Piperpaw was 12 moons old",
             "Piperpaw learned a lot about pair-fighting by training with Sardinespeckle. (positive effect) - Piperpaw was 13 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1045,9 +1043,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1129,9 +1129,7 @@
         "log": [
             "Piperkit was impressed by Gentleghost's hunting prowess. (positive effect) - Piperkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1198,9 +1196,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1281,11 +1277,7 @@
             "Piperthrift and Snookbumble avoided each other after an unpleasant training patrol. (negative effect) - Piperthrift was 25 moons old",
             "Snookbumble shares a suspiciously exaggerated tale with Piperthrift, Wavelight, Flightsplash, and Heathbeetle, who seem far from convinced of its veracity. (negative effect) - Piperthrift was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1372,12 +1364,13 @@
         "like": 0,
         "respect": 10,
         "comfort": 13,
-        "trust": 0,
+        "trust": 13,
         "log": [
-            "Blizzardstripe's bravery in a fight against a vixen greatly impressed Piperkit. (positive effect) - Piperkit was 3 moons old"
+            "Blizzardstripe's bravery in a fight against a vixen greatly impressed Piperkit. (positive effect) - Piperkit was 3 moons old",
+            "Piperthrift appreciates Blizzardstripe telling him that he had a feather stuck to his face. (low positive effect) - Piperthrift was 31 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "trust"
         ]
     },
     {
@@ -1449,9 +1442,7 @@
             "Piperthrift and Currenthiss took a lovely nap together instead of patrolling. (positive effect) - Piperthrift was 23 moons old",
             "Currenthiss helps Piperthrift hide from a Clanmate. (low positive effect) - Piperthrift was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1472,10 +1463,7 @@
             "When an argument started on patrol, Gorgehunt scolded Piperthrift for acting like a kit. (negative effect) - Piperthrift was 24 moons old",
             "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Piperthrift was 30 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1568,10 +1556,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 16,
         "trust": 0,
         "log": [
-            "Piperthrift has been spending time with Glowfur lately. (low positive effect) - Piperthrift was 29 moons old"
+            "Piperthrift has been spending time with Glowfur lately. (low positive effect) - Piperthrift was 29 moons old",
+            "Glowfur brought Piperthrift some dry bedding. (low positive effect) - Piperthrift was 31 moons old"
         ],
         "no_longer_neutral": [
             "comfort"
@@ -1620,7 +1609,7 @@
         "like": 10,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [
             "Piperpaw was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Piperpaw was 7 moons old"
         ],
@@ -1740,12 +1729,14 @@
         "like": 6,
         "respect": 5,
         "comfort": -8,
-        "trust": 16,
+        "trust": 24,
         "log": [
             "Piperpaw isn't afraid to ask Clawkit a difficult question. (high positive effect) - Piperpaw was 11 moons old",
             "Clawpaw squashes a bug that Piperthrift was watching. (medium negative effect) - Piperthrift was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1760,9 +1751,7 @@
         "log": [
             "Creekmoss uses one of Piperthrift's fears against him. (high negative effect) - Piperthrift was 30 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1893,10 +1882,7 @@
         "log": [
             "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Piperthrift was 30 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -2219,6 +2205,32 @@
     {
         "cat_from_id": "123",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

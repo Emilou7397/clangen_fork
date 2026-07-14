@@ -286,10 +286,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -384,16 +386,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
+        "like": -4,
         "respect": 13,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Gorgekit makes stinky faces at Suntooth for seemingly no reason. (medium negative effect) - Gorgekit was 5 moons old",
             "Gorgepaw noticed how successful Suntooth's hunting patrol was. (positive effect) - Gorgepaw was 8 moons old",
-            "Gorgehunt heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gorgehunt was 21 moons old"
+            "Gorgehunt heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gorgehunt was 21 moons old",
+            "Suntooth, Swallowstripe, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1247,9 +1253,7 @@
         "log": [
             "Shadowfreckle snickered when Gorgehunt tripped. (low negative effect) - Gorgehunt was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1315,11 +1319,7 @@
             "Piperthrift and Gorgehunt discussed the vision Gorgehunt claimed to have. (positive effect) - Gorgehunt was 17 moons old",
             "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1465,12 +1465,7 @@
             "Gorgehunt talks with Silkymunch about some Clan drama. (low positive effect) - Gorgehunt was 24 moons old",
             "Gorgehunt and Silkymunch snuck out of camp together. (high positive effect) - Gorgehunt was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1492,11 +1487,7 @@
             "Gorgehunt and Butterflyglide enjoyed hanging out and chatting during a training session. (positive effect) - Gorgehunt was 21 moons old",
             "Gorgehunt lied to Butterflyglide's face. (high negative effect) - Gorgehunt was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1523,12 +1514,13 @@
         "romance": 0,
         "like": 10,
         "respect": 0,
-        "comfort": 10,
+        "comfort": -3,
         "trust": 5,
         "log": [
             "Gorgehunt and Glowfur got spooked on patrol, then argued about what caused the noise that scared them. (negative effect) - Gorgehunt was 19 moons old",
             "Gorgehunt and Glowfur picked up some new tricks while sparring together. (positive effect) - Gorgehunt was 20 moons old",
-            "Gorgehunt and Glowfur enjoyed hanging out and chatting during a training session. (positive effect) - Gorgehunt was 21 moons old"
+            "Gorgehunt and Glowfur enjoyed hanging out and chatting during a training session. (positive effect) - Gorgehunt was 21 moons old",
+            "Gorgehunt sees Glowfur staring off into the distance. It's kind of creepy. (low negative effect) - Gorgehunt was 29 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1554,16 +1546,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 25,
+        "like": 33,
         "respect": 0,
-        "comfort": 10,
+        "comfort": 18,
         "trust": 15,
         "log": [
             "Gorgehunt and Swallowstripe took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Gorgehunt was 13 moons old",
             "Gorgehunt and Swallowstripe picked up some new tricks while sparring together. (positive effect) - Gorgehunt was 20 moons old",
-            "Gorgehunt and Swallowstripe enjoyed hanging out and chatting during a training session. (positive effect) - Gorgehunt was 21 moons old"
+            "Gorgehunt and Swallowstripe enjoyed hanging out and chatting during a training session. (positive effect) - Gorgehunt was 21 moons old",
+            "Suntooth, Swallowstripe, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1592,13 +1589,11 @@
         "like": 16,
         "respect": 13,
         "comfort": 4,
-        "trust": 5,
+        "trust": -3,
         "log": [
             "Gorgehunt and Midnighthaze heckled another Clan at the Gathering together. (high positive effect) - Gorgehunt was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1725,10 +1720,14 @@
         "romance": 0,
         "like": 13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gorgehunt can't stop thinking about the strange joke Meadowspots told the other day. (medium negative effect) - Gorgehunt was 29 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1797,9 +1796,7 @@
         "log": [
             "Gorgehunt scoffed loudly at one of Lilynoise's suggestions. (medium negative effect) - Gorgehunt was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1845,10 +1842,7 @@
         "log": [
             "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1856,12 +1850,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -2167,6 +2163,32 @@
     {
         "cat_from_id": "131",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

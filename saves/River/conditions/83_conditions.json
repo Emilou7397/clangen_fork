@@ -1,4 +1,23 @@
 {
+    "injuries": {
+        "bite-wound": {
+            "severity": "major",
+            "mortality": 67,
+            "duration": 3,
+            "moon_start": 127,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 11
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": []
+        }
+    },
     "permanent conditions": {
         "lost their tail": {
             "severity": "minor",
@@ -10,11 +29,11 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 346
+                    "chance": 356
                 },
                 {
                     "name": "phantom pain",
-                    "chance": 287
+                    "chance": 297
                 }
             ],
             "complication": null,

@@ -186,7 +186,7 @@
         "cat_to_id": "204",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 35,
         "respect": -13,
         "comfort": 6,
@@ -196,7 +196,8 @@
             "Quailfur appreciates Stoatshade, Shinespot, Pebblefur, and Algaepool joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Quailfur was 30 moons old",
             "Quailfur feels like Stoatshade is more accomplished than him. (medium positive effect)- Quailfur was 33 moons old",
             "Goldshard invites Stoatshade, Quailfur, Gardeniaglow, and Silverstar to share what's been on their minds and to have an honest talk with each other. (positive effect)- Quailfur was 49 moons old",
-            "Stoatshade is upset after spending the day with Quailfur's bad attitude. (low negative effect) - Quailfur was 82 moons old"
+            "Stoatshade is upset after spending the day with Quailfur's bad attitude. (low negative effect) - Quailfur was 82 moons old",
+            "Quailfur thinks Stoatshade is really funny. (low positive effect) - Quailfur was 96 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -547,9 +548,7 @@
             "Quailfur noticed that Algaepool was in a foul mood. (negative effect) - Quailfur was 76 moons old",
             "Quailfur noticed that Algaepool was in a foul mood. (negative effect) - Quailfur was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -653,11 +652,11 @@
         "cat_to_id": "26",
         "mates": false,
         "family": false,
-        "romance": 22,
-        "like": 6,
-        "respect": 61,
-        "comfort": 9,
-        "trust": 58,
+        "romance": 27,
+        "like": 11,
+        "respect": 66,
+        "comfort": 13,
+        "trust": 63,
         "log": [
             "Quailpaw compliments Peakpaw on her bravery today. (medium positive effect)- Quailpaw was 8 moons old",
             "Stretching might be good for one's health, but Pearpaw, Sunpaw, Bitepaw, and Quailpaw wish Peakspore didn't insist on stretching at the crack of dawn. (negative effect)- Quailpaw was 10 moons old",
@@ -667,7 +666,12 @@
             "Quailfur appreciated Peakspore settling a dispute on patrol. (positive effect)- Quailfur was 37 moons old",
             "Verbenakit, Peakspore, and Quailfur took a sunbath and had a little small talk. (positive effect)- Quailfur was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "respect",
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -737,9 +741,7 @@
             "Oddmuzzle, Prancelaurel, and Quailfur had a nice talk while eating. (positive effect) - Quailfur was 85 moons old",
             "Quailfur thinks Prancelaurel has interesting things to talk about. (medium positive effect) - Quailfur was 95 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -769,12 +771,7 @@
             "Bouncepelt complained about his patrol assignment all day, much to the annoyance of Harefeather, Quailfur, Mallowpelt, and Silkymunch. (negative effect) - Quailfur was 92 moons old",
             "There's nothing that can separate Quailfur and Bouncepelt. (high positive effect) - Quailfur was 95 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1253,9 +1250,7 @@
             "Late into the evening, Fluttershade invites Brinerump, Archbellow, Quailfur, and Hushshimmer to stretch with her and enjoy each other's company. (positive effect) - Quailfur was 76 moons old",
             "Quailfur enjoyed driving away rogues with Fluttershade. (positive effect) - Quailfur was 86 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1371,7 +1366,7 @@
         "like": 22,
         "respect": 48,
         "comfort": 6,
-        "trust": 51,
+        "trust": 38,
         "log": [
             "Quailfur and Reedheart enjoyed brushing up on their hunting tricks together. (positive effect)- Quailfur was 39 moons old",
             "Quailfur can't remember a word for the life of him, but Reedheart helps him remember it. (medium positive effect)- Quailfur was 47 moons old",
@@ -1382,7 +1377,9 @@
             "Quailfur admires Reedheart's dedication. (medium positive effect) - Quailfur was 78 moons old",
             "Quailfur and Reedheart agree with each other when no one else does. (high positive effect) - Quailfur was 80 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1425,9 +1422,7 @@
         "log": [
             "Quailfur noticed how successful Talonlake's hunting patrol was. (positive effect) - Quailfur was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1922,13 +1917,19 @@
         "cat_to_id": "113",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 16,
+        "like": 6,
+        "respect": 4,
+        "comfort": 6,
+        "trust": 6,
+        "log": [
+            "Quailfur asks Lightpelt to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Quailfur was 96 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1988,12 +1989,7 @@
         "log": [
             "Quailfur argues with Shadowfreckle in front of other cats and reveals something embarrassing. (high negative effect) - Quailfur was 94 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2052,17 +2048,19 @@
         "cat_to_id": "124",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -24,
+        "romance": 5,
+        "like": -20,
         "respect": 10,
-        "comfort": -8,
-        "trust": 0,
+        "comfort": -3,
+        "trust": 5,
         "log": [
             "Blizzardstripe makes a snide remark about one of Quailfur's friends. (medium negative effect) - Quailfur was 66 moons old",
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Quailfur. (positive effect) - Quailfur was 68 moons old",
             "Quailfur claimed to give Blizzardstripe a piece of crowfood on accident. (medium negative effect) - Quailfur was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -2426,20 +2424,18 @@
         "cat_to_id": "154",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -28,
-        "respect": -17,
-        "comfort": -6,
-        "trust": -6,
+        "romance": 6,
+        "like": -22,
+        "respect": -12,
+        "comfort": -1,
+        "trust": -2,
         "log": [
             "The Clan is very uncomfortable whenever Quailfur talks about Mew. (high negative effect) - Quailfur was 75 moons old",
             "Mewhoney returned to the warrior's den dripping mud everywhere and managed to ruin Fleadusk, Bitterleaf, and Quailfur's nests. (negative effect) - Quailfur was 95 moons old"
         ],
         "no_longer_neutral": [
-            "like",
             "respect",
-            "comfort",
-            "trust"
+            "like"
         ]
     },
     {
@@ -2643,14 +2639,18 @@
         "romance": 0,
         "like": 10,
         "respect": 27,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [
             "Quailfur heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 86 moons old",
             "Quailfur and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Quailfur was 89 moons old",
-            "Quailfur appreciated that Minnowlily let him bring a sprig of tansy back to his den to freshen the air. (positive effect) - Quailfur was 91 moons old"
+            "Quailfur appreciated that Minnowlily let him bring a sprig of tansy back to his den to freshen the air. (positive effect) - Quailfur was 91 moons old",
+            "Quailfur wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Quailfur was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -2844,6 +2844,32 @@
     {
         "cat_from_id": "35",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

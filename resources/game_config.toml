@@ -686,16 +686,16 @@ dev_tools = false
     # Clan size * required_herbs_per_cat / adequate number will determine adequate supply qualifier.
     # Clan size * required_herbs_per_cat * excess number will determine excess supply qualifier
     required_herbs_per_cat = 1
-    adequate = 3
-    excess = 2
+    adequate = 4
+    excess = 3
 
     # amount of herbs types found modifier for medcats with skill SENSE
-    primary_sense = 3
-    secondary_sense = 2
+    primary_sense = 4
+    secondary_sense = 3
 
     # quantity of herbs modifier for medcats with skill CLEVER
-    primary_clever = 3
-    secondary_clever = 2
+    primary_clever = 4
+    secondary_clever = 3
 
     # base effects for herbs that have specified effects
     base_mortality_effect = 3
@@ -703,7 +703,7 @@ dev_tools = false
     base_risk_effect = 3
 
     # herb bonus applied when cats should gather a boosted number of herbs
-    general_amount_bonus = 2
+    general_amount_bonus = 3
 
     # adjust weights for finding [1 herb type, 2 herb types, 3 herb types] for each season
     [clan_resources.herbs.forest]

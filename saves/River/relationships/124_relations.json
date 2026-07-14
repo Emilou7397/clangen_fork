@@ -299,12 +299,7 @@
             "Blizzardstripe keeps complaining about something Auburnsplash did. (medium negative effect) - Blizzardstripe was 111 moons old",
             "Blizzardstripe and Auburnsplash defended their Clan at the Gathering together. (high positive effect) - Blizzardstripe was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -385,12 +380,15 @@
         "like": 0,
         "respect": 18,
         "comfort": 0,
-        "trust": 0,
+        "trust": -7,
         "log": [
             "Blizzardstripe heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Blizzardstripe was 90 moons old",
-            "Bouncepelt motivated Blizzardstripe to get out of his nest this morning. (low positive effect) - Blizzardstripe was 108 moons old"
+            "Bouncepelt motivated Blizzardstripe to get out of his nest this morning. (low positive effect) - Blizzardstripe was 108 moons old",
+            "Blizzardstripe knows that Bouncepelt is hiding something. (medium negative effect) - Blizzardstripe was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -460,17 +458,21 @@
         "cat_to_id": "35",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 2,
+        "romance": 5,
+        "like": 6,
         "respect": 10,
-        "comfort": 2,
-        "trust": 10,
+        "comfort": 7,
+        "trust": 15,
         "log": [
             "Quailfur was part of the patrol that invited Blizzardstripe to RiverClan. (positive effect) - Blizzardstripe was 82 moons old",
             "The silence between Blizzardstripe and Quailfur feels more uncomfortable than usual. (low negative effect) - Blizzardstripe was 97 moons old",
             "Blizzardstripe heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blizzardstripe was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -574,10 +576,7 @@
         "log": [
             "Blizzardstripe and Mossflight practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -738,9 +737,7 @@
         "log": [
             "Diablofoot was part of the patrol that invited Blizzardstripe to RiverClan. (positive effect) - Blizzardstripe was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1370,10 +1367,14 @@
         "romance": 0,
         "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Wavelight brought Blizzardstripe some dry bedding. (low positive effect) - Blizzardstripe was 113 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1403,12 +1404,7 @@
         "log": [
             "Blizzardstripe offers to groom a hard-to-reach place for Piperthrift, who thanks him earnestly. (high positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1606,10 +1602,7 @@
             "Blizzardstripe and Carnationmunch have a fun patrol and plan to tell stories about it later to their Clanmates. (medium positive effect) - Blizzardstripe was 110 moons old",
             "Blizzardstripe sees Carnationmunch neglect a Clanmate. (high negative effect) - Blizzardstripe was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1767,11 +1760,7 @@
             "Blizzardstripe asks Mewhoney about something complicated and regrets it when Mewhoney misses the point. (high negative effect) - Blizzardstripe was 109 moons old",
             "Blizzardstripe and Mewhoney practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -1779,12 +1768,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1868,14 +1859,16 @@
         "romance": 0,
         "like": 5,
         "respect": 5,
-        "comfort": 22,
+        "comfort": 19,
         "trust": 5,
         "log": [
             "Blizzardstripe enjoyed driving away rogues with Braveheart. (positive effect) - Blizzardstripe was 98 moons old",
             "Blizzardstripe and Braveheart had a successful hunt together. (positive effect) - Blizzardstripe was 100 moons old",
             "Blizzardstripe bumps heads with Braveheart reassuringly. (medium positive effect) - Blizzardstripe was 102 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "124",
@@ -1947,10 +1940,7 @@
         "log": [
             "Blizzardstripe and Dogheather practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -2021,9 +2011,7 @@
             "Blizzardstripe heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
             "Blizzardstripe and Coquitostep practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -2065,9 +2053,7 @@
             "Blizzardstripe heard that Speckleflake was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Blizzardstripe was 108 moons old",
             "Blizzardstripe and Speckleflake practiced teamwork on a training patrol. (positive effect) - Blizzardstripe was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "124",
@@ -2204,6 +2190,32 @@
     {
         "cat_from_id": "124",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "124",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

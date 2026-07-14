@@ -437,8 +437,8 @@ class HerbSupply:
         secondary = None
         if med_cat.skills.secondary:
             secondary = med_cat.skills.secondary.path
-        amount_modifier = 1
-        quantity_modifier = 1
+        amount_modifier = 2
+        quantity_modifier = 2
 
         if primary == SkillPath.SENSE:
             amount_modifier = constants.CONFIG["clan_resources"]["herbs"][

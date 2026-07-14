@@ -10,9 +10,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -100,12 +98,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": -16,
         "respect": 0,
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -162,10 +162,7 @@
             "Sandkit heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandkit was 4 moons old",
             "Stretching might be good for one's health, but Heathstripe, Sandpaw, Saffronfoot, and Peatcrest wish Primfreckle didn't insist on stretching at the crack of dawn. (negative effect) - Sandpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -248,9 +245,7 @@
             "Sandkit heard about how Algaepool shared prey with a kittypet. (negative effect) - Sandkit was 0 moons old",
             "Algaepool pulled an embarrassing prank on Sandpaw's friend. (low negative effect) - Sandpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -614,10 +609,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Sandthrush saw Fluttershade land the blow on a fox that won the battle. (positive effect) - Sandthrush was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -911,12 +908,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Sandpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1055,11 +1057,7 @@
             "Sandpaw learned about hunting in tide pools from Mallardfeather. (positive effect) - Sandpaw was 8 moons old",
             "Sandpaw, Mallardfeather, and Dahliacrest had a nice talk while eating. (positive effect) - Sandpaw was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1195,12 +1193,7 @@
             "Bitebone, Snookbumble, Fluttershade, and Sandpaw are impressed by Dahliacrest's recent catch. (positive effect) - Sandpaw was 9 moons old",
             "Sandpaw, Mallardfeather, and Dahliacrest had a nice talk while eating. (positive effect) - Sandpaw was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1209,11 +1202,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sandthrush confronted Wasppelt about their bad attitude but that only makes Wasppelt act out more. (medium negative effect) - Sandthrush was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1275,14 +1272,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": -12,
+        "respect": 22,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Sandpaw gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Sandpaw was 7 moons old"
+            "Sandpaw gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Sandpaw was 7 moons old",
+            "Howlpaw, Sandpaw, Dustpaw, and Voletuft can't escape from Cherrytail waking them up to do early morning stretches. (negative effect) - Sandpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1297,10 +1299,7 @@
         "log": [
             "Stretching might be good for one's health, but Sandpaw, Dahliacrest, Flightsplash, and Pigeonbloom wish Piperthrift didn't insist on stretching at the crack of dawn. (negative effect) - Sandpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1336,12 +1335,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Sandpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1397,10 +1401,7 @@
         "log": [
             "Sandpaw gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Sandpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1501,9 +1502,7 @@
         "log": [
             "Sandpaw and Midnighthaze enjoyed practicing new battle moves together. (positive effect) - Sandpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1547,9 +1546,7 @@
         "log": [
             "Sandpaw was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Sandpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1923,14 +1920,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": -8,
+        "comfort": 4,
         "trust": 0,
         "log": [
-            "Sandpaw was being condescending towards Dustkit all day long. (low negative effect) - Sandpaw was 10 moons old"
+            "Sandpaw was being condescending towards Dustkit all day long. (low negative effect) - Sandpaw was 10 moons old",
+            "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Sandpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1938,12 +1938,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Sandpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1954,11 +1959,14 @@
         "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Sandpaw and Jason played together on RiverClan's border. (positive effect) - Sandpaw was 7 moons old"
+            "Sandpaw and Jason played together on RiverClan's border. (positive effect) - Sandpaw was 7 moons old",
+            "Sandpaw heard Jasminesprout fell asleep guarding camp. (negative effect) - Sandpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -2028,6 +2036,32 @@
     {
         "cat_from_id": "169",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "169",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "169",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

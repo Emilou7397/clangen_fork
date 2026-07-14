@@ -127,11 +127,13 @@
         "like": -10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Heath attacked Yewstar, but Moletooth fought him off. (negative effect) - Heath was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -265,10 +267,7 @@
         "log": [
             "Stretching might be good for one's health, but Heathstripe, Sandpaw, Saffronfoot, and Peatcrest wish Primfreckle didn't insist on stretching at the crack of dawn. (negative effect) - Heathstripe was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -525,14 +524,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 10,
+        "like": 2,
+        "respect": 2,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Heathstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old"
+            "Heathstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old",
+            "Heathstripe and Mossflight were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -594,15 +596,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 10,
+        "like": 2,
+        "respect": 2,
         "comfort": 0,
         "trust": 12,
         "log": [
             "Heathstripe and Verbenabloom worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old",
-            "Heathstripe comes up with a plan to sneak out of camp with Verbenabloom. (medium positive effect) - Heathstripe was 48 moons old"
+            "Heathstripe comes up with a plan to sneak out of camp with Verbenabloom. (medium positive effect) - Heathstripe was 48 moons old",
+            "Heathstripe and Verbenabloom were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -881,10 +886,7 @@
         "log": [
             "Heathstripe got stuck in the same tree with Onemuzzle for hours and realized how much they have in common. (high positive effect) - Heathstripe was 53 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -986,12 +988,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 6,
+        "comfort": 6,
+        "trust": 16,
+        "log": [
+            "Heathstripe feels comfortable challenging Dancingfleck on something he said. (high positive effect) - Heathstripe was 54 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1012,12 +1020,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1123,15 +1133,18 @@
         "family": false,
         "romance": 33,
         "like": 5,
-        "respect": -3,
-        "comfort": 20,
+        "respect": 10,
+        "comfort": 17,
         "trust": 10,
         "log": [
             "Heathstripe felt that Minnowlily didn't take his vision seriously. (negative effect) - Heathstripe was 51 moons old",
             "Heathstripe and Minnowlily take a nap together. (low positive effect) - Heathstripe was 52 moons old",
-            "Minnowlily and Heathstripe had a productive time searching Twoleg beach dens for herbs. (positive effect) - Heathstripe was 52 moons old"
+            "Minnowlily and Heathstripe had a productive time searching Twoleg beach dens for herbs. (positive effect) - Heathstripe was 52 moons old",
+            "Minnowlily draws a pretty symbol in the sand that Heathstripe makes sure not to mess up. (low positive effect) - Heathstripe was 54 moons old",
+            "Heathstripe wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Heathstripe was 54 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "comfort",
             "trust"
         ]
@@ -1790,9 +1803,7 @@
         "comfort": 0,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -1890,6 +1901,32 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

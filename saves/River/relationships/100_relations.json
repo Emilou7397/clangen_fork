@@ -68,9 +68,7 @@
             "Heatherfern tells Gentlepaw that she was worried about him. (low positive effect) - Gentlepaw was 11 moons old",
             "Gentleghost remembers something nice that Heatherfern did. (low positive effect) - Gentleghost was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -653,11 +651,7 @@
             "Gentleghost heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gentleghost was 32 moons old",
             "Gentleghost, Hushshimmer, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Gentleghost was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -762,7 +756,7 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 0,
+        "trust": -3,
         "log": [
             "Gentleghost and Verbenabloom enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gentleghost was 37 moons old"
         ],
@@ -784,12 +778,7 @@
             "Gentleghost heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gentleghost was 32 moons old",
             "Gentleghost, Hushshimmer, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Gentleghost was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1202,10 +1191,7 @@
             "Gentleghost tells Skiphare that he looks terrible today. (high negative effect) - Gentleghost was 15 moons old",
             "Gentleghost became suspicious of Skiphare after catching him trying to sneak out of camp. (negative effect) - Gentleghost was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1572,9 +1558,7 @@
         "log": [
             "Gentleghost listens to Piperthrift's big plans for the day. (low positive effect) - Gentleghost was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1637,14 +1621,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -8,
+        "like": -5,
+        "respect": -6,
+        "comfort": -16,
+        "trust": -12,
         "log": [
-            "Gentleghost noticed that Currenthiss wasn't in her nest last night. (low negative effect) - Gentleghost was 36 moons old"
+            "Gentleghost noticed that Currenthiss wasn't in her nest last night. (low negative effect) - Gentleghost was 36 moons old",
+            "Gentleghost bristles after being scolded by Currenthiss. (high negative effect) - Gentleghost was 42 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1691,9 +1680,7 @@
             "Gentleghost and Tansywhisker enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Gentleghost was 38 moons old",
             "Gentleghost noticed that Tansywhisker had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Gentleghost was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -1763,7 +1750,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 32,
+        "like": 24,
         "respect": 15,
         "comfort": 38,
         "trust": 20,
@@ -1771,9 +1758,12 @@
             "Gentleghost visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Gentleghost was 13 moons old",
             "Gentleghost and Whiskerleg chatted and gossiped while gathering mallow and betony together. (positive effect) - Gentleghost was 28 moons old",
             "Gentleghost and Whiskerleg successfully gathered daisies together. (positive effect) - Gentleghost was 33 moons old",
-            "Gentleghost heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gentleghost was 34 moons old"
+            "Gentleghost heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gentleghost was 34 moons old",
+            "Gentleghost tried to explain something to Whiskerleg, but she just didn't understand. (low negative effect) - Gentleghost was 42 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "100",
@@ -1879,10 +1869,7 @@
             "Gentleghost keeps asking Heathkit to explain a joke, but Heathkit just says that Gentleghost had to be there. (low negative effect) - Gentleghost was 21 moons old",
             "The Clan notices that Gentleghost and Heathbeetle always sit far away from one another. (medium negative effect) - Gentleghost was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "100",
@@ -2066,8 +2053,8 @@
         "mates": true,
         "family": false,
         "romance": 54,
-        "like": 51,
-        "respect": 11,
+        "like": 66,
+        "respect": 26,
         "comfort": 58,
         "trust": 31,
         "log": [
@@ -2076,7 +2063,9 @@
             "Gentleghost and Nymphshine enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gentleghost was 37 moons old",
             "Gentleghost and Nymphshine enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Gentleghost was 38 moons old",
             "Gentleghost purrs for a long time at one of Nymphshine's lame jokes. (high positive effect) - Gentleghost was 39 moons old",
-            "Gentleghost learned how mallow got its name from Nymphshine. (positive effect) - Gentleghost was 40 moons old"
+            "Gentleghost learned how mallow got its name from Nymphshine. (positive effect) - Gentleghost was 40 moons old",
+            "Gentleghost learned how mallow got its name from Nymphshine. (positive effect) - Gentleghost was 41 moons old",
+            "Gentleghost appreciated Nymphshine's joke about how appropriately-named elder leaves are. (positive effect) - Gentleghost was 42 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2389,6 +2378,32 @@
     {
         "cat_from_id": "100",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "100",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "100",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

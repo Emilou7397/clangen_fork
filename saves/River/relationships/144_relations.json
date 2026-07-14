@@ -340,13 +340,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": -13,
         "log": [
-            "Ospreyspeckle finds out something small about Prancelaurel that Prancelaurel had lied about before. (low negative effect) - Ospreyspeckle was 19 moons old"
+            "Ospreyspeckle finds out something small about Prancelaurel that Prancelaurel had lied about before. (low negative effect) - Ospreyspeckle was 19 moons old",
+            "Ospreyspeckle heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -533,15 +536,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
+        "like": 27,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 8,
         "log": [
             "Ospreyspeckle and Mossflight successfully gathered burdock together. (positive effect) - Ospreyspeckle was 19 moons old",
-            "Ospreyspeckle and Mossflight worked together to gather wild garlic and mallow. (positive effect) - Ospreyspeckle was 22 moons old"
+            "Ospreyspeckle and Mossflight worked together to gather wild garlic and mallow. (positive effect) - Ospreyspeckle was 22 moons old",
+            "Brindlekit, Mossflight, Hushshimmer, and Ospreyspeckle attend a get-together Lightpelt hosts and have a newfound appreciation for each other. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -549,14 +557,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Ospreyspeckle heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ospreyspeckle was 18 moons old"
+            "Ospreyspeckle heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ospreyspeckle was 18 moons old",
+            "Brindlekit, Mossflight, Hushshimmer, and Ospreyspeckle attend a get-together Lightpelt hosts and have a newfound appreciation for each other. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -655,10 +668,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Ospreyspeckle heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1078,12 +1093,7 @@
             "Ospreyspeckle heard about Dancingfleck's victory in battle against a gang of rogues. (positive effect) - Ospreyspeckle was 25 moons old",
             "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1209,11 +1219,7 @@
             "Nightglow tells Ospreyspeckle, Glowfur, and Bouncepelt a story that seems to grow less believable every meow. (negative effect) - Ospreyspeckle was 16 moons old",
             "Nightglow recruits Paellapad, Pigeonbloom, Brindlekit, and Ospreyspeckle to tidy up camp upon noticing how unorganized it has become. (negative effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1221,12 +1227,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 4,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Brindlekit, Mossflight, Hushshimmer, and Ospreyspeckle attend a get-together Lightpelt hosts and have a newfound appreciation for each other. (positive effect) - Ospreyspeckle was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -1256,12 +1266,7 @@
             "Ospreyspeckle heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Ospreyspeckle was 25 moons old",
             "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1270,20 +1275,18 @@
         "family": false,
         "romance": 0,
         "like": 28,
-        "respect": 15,
+        "respect": 23,
         "comfort": 12,
         "trust": 15,
         "log": [
             "Snookbumble compliments one of Ospreyspeckle's friends. (low positive effect) - Ospreyspeckle was 14 moons old",
             "Snookbumble thanked Ospreyspeckle for bringing her food. (low positive effect) - Ospreyspeckle was 17 moons old",
             "Ospreyspeckle heard about Snookbumble's victory in battle against a gang of rogues. (positive effect) - Ospreyspeckle was 25 moons old",
-            "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Ospreyspeckle was 27 moons old"
+            "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Ospreyspeckle was 27 moons old",
+            "Ospreyspeckle and Snookbumble spend the morning telling interesting stories. (low positive effect) - Ospreyspeckle was 28 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "respect"
         ]
     },
     {
@@ -1301,12 +1304,7 @@
             "Ospreyspeckle heard about Shadowfreckle's victory in battle against a gang of rogues. (positive effect) - Ospreyspeckle was 25 moons old",
             "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1533,9 +1531,7 @@
             "Ospreypaw feels comfortable challenging Glowpaw on something he said. (high positive effect) - Ospreypaw was 8 moons old",
             "Ospreyspeckle turned to Glowfur in a time of need, only for Glowfur to abandon her. (high negative effect) - Ospreyspeckle was 26 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1581,10 +1577,7 @@
             "Carnationmunch's laugh reminds Ospreyspeckle of someone she misses. (low positive effect) - Ospreyspeckle was 16 moons old",
             "Ospreyspeckle purrs for a long time at one of Carnationmunch's lame jokes. (high positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1730,14 +1723,18 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 5,
+        "respect": 10,
         "comfort": 8,
         "trust": 5,
         "log": [
             "Ospreyspeckle and Meadowspots persevered on a difficult hunt to bring down a large octopus together. (positive effect) - Ospreyspeckle was 15 moons old",
-            "Ospreyspeckle and Meadowspots worked together to gather wild garlic and mallow. (positive effect) - Ospreyspeckle was 16 moons old"
+            "Ospreyspeckle and Meadowspots worked together to gather wild garlic and mallow. (positive effect) - Ospreyspeckle was 16 moons old",
+            "Ospreyspeckle heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -1906,11 +1903,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ospreyspeckle notices that Shinebelly doesn't want to help out. (low negative effect) - Ospreyspeckle was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -1938,9 +1939,7 @@
         "log": [
             "Ospreyspeckle won't take Howlshine seriously. (medium negative effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -1949,13 +1948,16 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Ospreyspeckle and Marshnose purr about something small together. (medium positive effect) - Ospreyspeckle was 25 moons old"
+            "Ospreyspeckle and Marshnose purr about something small together. (medium positive effect) - Ospreyspeckle was 25 moons old",
+            "Ospreyspeckle heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -1964,10 +1966,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Ospreyspeckle heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2057,12 +2061,7 @@
         "log": [
             "Garlicberry won't tell Ospreyspeckle what she's doing. (high negative effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -2090,9 +2089,7 @@
         "log": [
             "Ospreyspeckle overhears Dustkit dispelling a false rumor about a Clanmate. (medium positive effect) - Ospreyspeckle was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "144",
@@ -2114,10 +2111,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Ospreyspeckle heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Ospreyspeckle was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2165,14 +2164,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 22,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Ospreyspeckle was amused by Brindlekit's daring adventure out of camp. (positive effect) - Ospreyspeckle was 25 moons old"
+            "Ospreyspeckle was amused by Brindlekit's daring adventure out of camp. (positive effect) - Ospreyspeckle was 25 moons old",
+            "Brindlekit, Mossflight, Hushshimmer, and Ospreyspeckle attend a get-together Lightpelt hosts and have a newfound appreciation for each other. (positive effect) - Ospreyspeckle was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "144",
@@ -2190,6 +2194,32 @@
     {
         "cat_from_id": "144",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "144",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "144",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

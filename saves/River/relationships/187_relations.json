@@ -20,10 +20,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -51,9 +53,7 @@
         "log": [
             "Stoatshade makes sure Moonchaser is following the Warrior Code. (medium negative effect) - Moonchaser was 151 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -62,13 +62,16 @@
         "family": false,
         "romance": 8,
         "like": -6,
-        "respect": 3,
-        "comfort": -8,
+        "respect": 20,
+        "comfort": 5,
         "trust": -7,
         "log": [
-            "Moonchaser broke up with Erminedaisy and Erminedaisy has taken it very hard. He seems to be avoiding Moonchaser as much as possible. - Moonchaser was 148 moons old"
+            "Moonchaser broke up with Erminedaisy and Erminedaisy has taken it very hard. He seems to be avoiding Moonchaser as much as possible. - Moonchaser was 148 moons old",
+            "Moonchaser shares a bit of shelter from the rain with Erminedaisy. (medium positive effect) - Moonchaser was 152 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -96,9 +99,7 @@
         "log": [
             "Ochretail keeps calling Moonchaser by the wrong name. (medium negative effect) - Moonchaser was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -563,11 +564,7 @@
             "Reedheart was part of the patrol that rescued Samantha from a cruel Twoleg and brought him to RiverClan. (positive effect) - Samantha was 148 moons old",
             "Moonchaser heard that Reedheart chased a rogue off the territory. (positive effect) - Moonchaser was 149 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -636,10 +633,7 @@
         "log": [
             "Paellapad accidentally hurts Moonchaser during an argument between them. (high negative effect) - Moonchaser was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1165,10 +1159,7 @@
         "log": [
             "Moonchaser gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Moonchaser was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1248,10 +1239,7 @@
         "log": [
             "Moonchaser and Carnationmunch debated something interesting for hours yesterday. (high positive effect) - Moonchaser was 151 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1305,9 +1293,7 @@
         "log": [
             "Moonchaser was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Moonchaser was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1485,12 +1471,14 @@
         "cat_to_id": "162",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 7,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moonchaser picked out the best piece of prey to share with Braveheart. (medium positive effect) - Moonchaser was 152 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1608,8 +1596,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Moonchaser heard Jasminesprout fell asleep guarding camp. (negative effect) - Moonchaser was 151 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1684,7 +1674,7 @@
         "cat_to_id": "184",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 0,
         "respect": 0,
         "comfort": 0,
@@ -1721,6 +1711,32 @@
     {
         "cat_from_id": "187",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "187",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "187",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,

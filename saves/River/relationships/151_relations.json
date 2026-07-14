@@ -722,12 +722,7 @@
             "The Clan is very uncomfortable whenever Clawswirl talks about Reedheart. (high negative effect) - Clawswirl was 17 moons old",
             "Clawswirl respected Reedheart's intense work ethic during a patrol, even though it wore them out. (positive effect) - Clawswirl was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -853,9 +848,7 @@
             "Clawkit noticed how successful Poolleaf's hunting patrol was. (positive effect) - Clawkit was 3 moons old",
             "Clawswirl gives Poolleaf some feathers from the bird they caught to line her nest. (medium positive effect) - Clawswirl was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -969,9 +962,7 @@
         "log": [
             "Flightsplash ignored Clawswirl's question. (medium negative effect) - Clawswirl was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1211,9 +1202,7 @@
         "log": [
             "Clawswirl and Snookbumble make each other laugh. (low positive effect) - Clawswirl was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1270,9 +1259,7 @@
             "Clawswirl appreciates Cherrytail telling them that they had a feather stuck to their face. (low positive effect) - Clawswirl was 18 moons old",
             "Clawswirl smells something strange on Cherrytail. (low negative effect) - Clawswirl was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1283,11 +1270,14 @@
         "like": 0,
         "respect": 8,
         "comfort": -8,
-        "trust": 0,
+        "trust": 8,
         "log": [
-            "Piperthrift's good morning to Clawpaw meant a lot to them. (low positive effect) - Clawpaw was 9 moons old"
+            "Piperthrift's good morning to Clawpaw meant a lot to them. (low positive effect) - Clawpaw was 9 moons old",
+            "Clawswirl includes Piperthrift in a conversation that Piperthrift struggled to join. (low positive effect) - Clawswirl was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1322,13 +1312,15 @@
         "cat_to_id": "129",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -16,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 5,
+        "like": -10,
+        "respect": 5,
+        "comfort": 5,
+        "trust": 5,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1469,9 +1461,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1605,7 +1599,7 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 17,
+        "respect": 20,
         "comfort": 81,
         "trust": 61,
         "log": [
@@ -1614,9 +1608,15 @@
             "Creekpaw, Clawpaw, and Meadowpaw took a sunbath and had a little small talk. (positive effect) - Clawpaw was 10 moons old",
             "Clawswirl feels a little safer when Creekmoss joins them in the clearing. (low positive effect) - Clawswirl was 17 moons old",
             "Clawswirl and Creekmoss enjoyed hanging out and chatting during a training session. (positive effect) - Clawswirl was 17 moons old",
-            "Creekmoss was very considerate while on patrol with Clawswirl. (positive effect) - Clawswirl was 18 moons old"
+            "Creekmoss was very considerate while on patrol with Clawswirl. (positive effect) - Clawswirl was 18 moons old",
+            "Clawswirl was impressed by Creekmoss's quick reflexes on a hunting patrol. (positive effect) - Clawswirl was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1846,9 +1846,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1983,10 +1981,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Clawswirl called Dustpaw the wrong name. (medium negative effect) - Clawswirl was 24 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2084,6 +2086,32 @@
     {
         "cat_from_id": "151",
         "cat_to_id": "189",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "192",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "193",
         "mates": false,
         "family": false,
         "romance": 0,
