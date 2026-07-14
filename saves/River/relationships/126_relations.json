@@ -90,10 +90,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Brinerump heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Brinerump was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -149,25 +151,29 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
         "cat_to_id": "11",
         "mates": false,
         "family": false,
-        "romance": 3,
+        "romance": 0,
         "like": 8,
         "respect": 8,
-        "comfort": 3,
+        "comfort": -10,
         "trust": 0,
         "log": [
             "After the Gathering, Brinerump notices that Peatcrest is making sure everyone got home. (low positive effect) - Brinerump was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -272,10 +278,7 @@
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Brinerump was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -361,8 +364,8 @@
         "mates": false,
         "family": false,
         "romance": 12,
-        "like": 2,
-        "respect": 5,
+        "like": -10,
+        "respect": -7,
         "comfort": 10,
         "trust": -3,
         "log": [
@@ -370,9 +373,14 @@
             "Brinerump just barely missed a mouse, but Bouncepelt caught it right after, handing it off to him. (medium positive effect) - Brinerump was 52 moons old",
             "Brinerump heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Brinerump was 58 moons old",
             "Bouncepelt tells Diablofoot, Fidgetmouse, and Brinerump a story that earns more skepticism than admiration. (negative effect) - Brinerump was 64 moons old",
-            "Brinerump heard Bouncepelt fell asleep guarding camp. (negative effect) - Brinerump was 73 moons old"
+            "Brinerump heard Bouncepelt fell asleep guarding camp. (negative effect) - Brinerump was 73 moons old",
+            "Bouncepelt tromped into the warrior's den with muddy paws, trailing muck straight through Brinerump and Harefeather's nests. (negative effect) - Brinerump was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -478,14 +486,19 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 8,
+        "like": 16,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Brinerump heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Brinerump was 73 moons old"
+            "Brinerump heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Brinerump was 73 moons old",
+            "Brinerump, Saffronfoot, and Diablofoot had a nice talk while eating. (positive effect) - Brinerump was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -557,10 +570,11 @@
         "romance": 0,
         "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 3,
         "trust": 0,
         "log": [
-            "Brinerump greets Mossflight as she's exiting the warriors' den. (medium positive effect) - Brinerump was 66 moons old"
+            "Brinerump greets Mossflight as she's exiting the warriors' den. (medium positive effect) - Brinerump was 66 moons old",
+            "Brinerump reassures Mossflight about something that was bothering her. (low positive effect) - Brinerump was 82 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -695,10 +709,7 @@
             "Fluttershade reminds Brinerump to grab something from the fresh-kill pile if she hasn't already. (medium positive effect) - Brinerump was 81 moons old",
             "Brinerump heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Brinerump was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -738,17 +749,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 29,
+        "like": 37,
         "respect": 8,
-        "comfort": 14,
+        "comfort": 22,
         "trust": 16,
         "log": [
             "Brinerump and Diablofoot worked together to use an eagle as a scout for their own hunt. (positive effect) - Brinerump was 55 moons old",
             "Brinerump and Diablofoot enjoyed a relaxing patrol gathering thyme together. (positive effect) - Brinerump was 63 moons old",
             "Brinerump and Diablofoot worked together to use an eagle as a scout for their own hunt. (positive effect) - Brinerump was 70 moons old",
-            "Brinerump and Diablofoot heckled another Clan at the Gathering together. (high positive effect) - Brinerump was 73 moons old"
+            "Brinerump and Diablofoot heckled another Clan at the Gathering together. (high positive effect) - Brinerump was 73 moons old",
+            "Brinerump, Saffronfoot, and Diablofoot had a nice talk while eating. (positive effect) - Brinerump was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -970,7 +987,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": -3,
         "respect": 10,
         "comfort": -3,
         "trust": 10,
@@ -987,13 +1004,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Brinerump heard Mallowpelt fell asleep guarding camp. (negative effect) - Brinerump was 68 moons old"
+            "Brinerump heard Mallowpelt fell asleep guarding camp. (negative effect) - Brinerump was 68 moons old",
+            "Brinerump disapproved of Mallowpelt wearing a collar. (negative effect) - Brinerump was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1069,9 +1089,7 @@
             "Brinerump heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Brinerump was 55 moons old",
             "When Brinerump asked Flightsplash for help, Flightsplash ignored him. (low negative effect) - Brinerump was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -1160,13 +1178,16 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Brinerump spends some time sheltering with Hollyheart during a storm. (medium positive effect) - Brinerump was 73 moons old"
+            "Brinerump spends some time sheltering with Hollyheart during a storm. (medium positive effect) - Brinerump was 73 moons old",
+            "Hollyheart acts childishly in front of Brinerump. (low negative effect) - Brinerump was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1200,9 +1221,7 @@
             "Brinerump complains about something Kiwifoot did. (low negative effect) - Brinerump was 64 moons old",
             "Brinerump and Kiwifoot argued over the focus of a training session. (negative effect) - Brinerump was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -1722,14 +1741,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": -17,
         "log": [
-            "Creekkit doesn't want to apologize to Brinerump for something. (medium negative effect) - Brinerump was 63 moons old"
+            "Creekkit doesn't want to apologize to Brinerump for something. (medium negative effect) - Brinerump was 63 moons old",
+            "Brinerump enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Brinerump was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1739,12 +1761,15 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
-            "Brinerump heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Brinerump was 81 moons old"
+            "Brinerump heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Brinerump was 81 moons old",
+            "Brinerump sees Meadowspots staring off into the distance. It's kind of creepy. (low negative effect) - Brinerump was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "126",
@@ -1966,9 +1991,7 @@
             "Brinerump is looking out for Marshpaw's well-being. (medium positive effect) - Brinerump was 76 moons old",
             "Brinerump heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Brinerump was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -2016,9 +2039,7 @@
             "Coquitostep thanked Brinerump for bringing him food. (low positive effect) - Brinerump was 78 moons old",
             "Coquitostep thanked Brinerump for bringing him food. (low positive effect) - Brinerump was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -2142,10 +2163,7 @@
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Brinerump was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -2173,10 +2191,7 @@
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Brinerump was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -2191,10 +2206,7 @@
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Brinerump was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "126",
@@ -2238,6 +2250,45 @@
     {
         "cat_from_id": "126",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "126",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

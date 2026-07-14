@@ -19,13 +19,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": -8,
         "log": [
-            "Heatherfern won't stop looking at a specific Clanmate while talking to Terabyte. (low negative effect) - Terabyte was 103 moons old"
+            "Heatherfern won't stop looking at a specific Clanmate while talking to Terabyte. (low negative effect) - Terabyte was 103 moons old",
+            "Terabyte complains about something Heatherfern did. (low negative effect) - Terabyte was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -76,10 +79,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Terabyte heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Terabyte was 111 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -577,9 +582,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -804,10 +807,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Terabyte notices that Poolleaf is playing with her fresh-kill. (medium negative effect) - Terabyte was 112 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -846,13 +853,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Terabyte heard Mallowpelt fell asleep guarding camp. (negative effect) - Terabyte was 98 moons old"
+            "Terabyte heard Mallowpelt fell asleep guarding camp. (negative effect) - Terabyte was 98 moons old",
+            "Terabyte disapproved of Mallowpelt wearing a collar. (negative effect) - Terabyte was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -868,12 +878,7 @@
             "The moonlight encourages Terabyte, Silkymunch, Snakedrop, Skulkwillow, and Onemuzzle to slow down and stretch. (positive effect) - Terabyte was 97 moons old",
             "Terabyte and Onemuzzle enjoy each other's company. (high positive effect) - Terabyte was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1280,13 +1285,16 @@
         "romance": 0,
         "like": -3,
         "respect": -8,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
         "log": [
             "Brinerump accidentally gave Terabyte a piece of fresh-kill he didn't like. (low negative effect) - Terabyte was 95 moons old",
-            "Terabyte complains about something Brinerump did. (low negative effect) - Terabyte was 108 moons old"
+            "Terabyte complains about something Brinerump did. (low negative effect) - Terabyte was 108 moons old",
+            "Terabyte and Brinerump talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Terabyte was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1572,11 +1580,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Terabyte enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Terabyte was 112 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1607,10 +1617,7 @@
             "Terabyte and Mewhoney are arguing about who should take the blame for something trivial. (low negative effect) - Terabyte was 110 moons old",
             "Terabyte can't believe how talented Mewhoney is! (high positive effect) - Terabyte was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1618,14 +1625,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Terabyte heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Terabyte was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1697,12 +1706,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 26,
+        "trust": 19,
         "log": [
             "Brave says something vulnerable to Terabyte. (low positive effect) - Terabyte was 95 moons old",
-            "Braveheart says something vulnerable to Terabyte. (low positive effect) - Terabyte was 102 moons old"
+            "Braveheart says something vulnerable to Terabyte. (low positive effect) - Terabyte was 102 moons old",
+            "Terabyte realizes that Braveheart's been avoiding him. (medium negative effect) - Terabyte was 112 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1865,14 +1877,17 @@
         "cat_to_id": "175",
         "mates": true,
         "family": false,
-        "romance": 33,
-        "like": 13,
-        "respect": -3,
-        "comfort": 33,
-        "trust": 10,
-        "log": [],
+        "romance": 54,
+        "like": 19,
+        "respect": 4,
+        "comfort": 40,
+        "trust": 18,
+        "log": [
+            "Terabyte can't stop gushing over Stellarpatch. (high positive effect) - Terabyte was 112 moons old"
+        ],
         "no_longer_neutral": [
             "like",
+            "trust",
             "comfort"
         ]
     },
@@ -2052,6 +2067,55 @@
     {
         "cat_from_id": "161",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 70,
+        "respect": 40,
+        "comfort": 80,
+        "trust": 70,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 66,
+        "respect": 36,
+        "comfort": 76,
+        "trust": 66,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

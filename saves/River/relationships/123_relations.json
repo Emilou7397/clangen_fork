@@ -33,14 +33,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -10,
+        "like": -16,
+        "respect": -5,
+        "comfort": -6,
+        "trust": -15,
         "log": [
-            "Piperthrift heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Piperthrift was 26 moons old"
+            "Piperthrift heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Piperthrift was 26 moons old",
+            "Piperthrift tries to comfort Pebblechase, but Pebblechase shoves him away. (high negative effect) - Piperthrift was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -918,15 +923,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 15,
-        "comfort": 0,
-        "trust": 0,
+        "like": 21,
+        "respect": 21,
+        "comfort": 7,
+        "trust": 7,
         "log": [
             "Piperkit heard about how Gracklefur's patrol drove off a vixen. (positive effect) - Piperkit was 4 moons old",
-            "Piperthrift heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Piperthrift was 22 moons old"
+            "Piperthrift heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Piperthrift was 22 moons old",
+            "Piperthrift and Gracklefur heckled another Clan at the Gathering together. (high positive effect) - Piperthrift was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1045,9 +1056,7 @@
         "comfort": 0,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1249,17 +1258,22 @@
         "mates": false,
         "family": false,
         "romance": 7,
-        "like": -23,
-        "respect": 6,
+        "like": -33,
+        "respect": -2,
         "comfort": -24,
-        "trust": 6,
+        "trust": -2,
         "log": [
             "Piperkit and Wasppaw are always back-talking to each other. (high negative effect) - Piperkit was 5 moons old",
             "Wasppelt's bad mood ruined a training patrol for Piperthrift. (negative effect) - Piperthrift was 25 moons old",
             "Piperthrift and Wasppelt avoided each other after an unpleasant training patrol. (negative effect) - Piperthrift was 25 moons old",
-            "Wasppelt encouraged a fight between Piperthrift and a Clanmate, and Piperthrift ended up injured. (negative effect) - Piperthrift was 27 moons old"
+            "Wasppelt encouraged a fight between Piperthrift and a Clanmate, and Piperthrift ended up injured. (negative effect) - Piperthrift was 27 moons old",
+            "Piperthrift thought Wasppelt did a poor job of leading a training patrol. (negative effect) - Piperthrift was 32 moons old",
+            "Piperthrift and Wasppelt argued about what to practice on a training patrol. (negative effect) - Piperthrift was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1267,7 +1281,7 @@
         "mates": true,
         "family": false,
         "romance": 33,
-        "like": 7,
+        "like": -3,
         "respect": -4,
         "comfort": 6,
         "trust": 18,
@@ -1275,9 +1289,13 @@
             "Piperpaw swore he saw Snookpaw burying something. (high negative effect) - Piperpaw was 6 moons old",
             "Piperthrift saw Snookbumble give an elder the best piece of prey on the pile. (positive effect) - Piperthrift was 22 moons old",
             "Piperthrift and Snookbumble avoided each other after an unpleasant training patrol. (negative effect) - Piperthrift was 25 moons old",
-            "Snookbumble shares a suspiciously exaggerated tale with Piperthrift, Wavelight, Flightsplash, and Heathbeetle, who seem far from convinced of its veracity. (negative effect) - Piperthrift was 29 moons old"
+            "Snookbumble shares a suspiciously exaggerated tale with Piperthrift, Wavelight, Flightsplash, and Heathbeetle, who seem far from convinced of its veracity. (negative effect) - Piperthrift was 29 moons old",
+            "Piperthrift and Snookbumble argued about what to practice on a training patrol. (negative effect) - Piperthrift was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1331,16 +1349,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 55,
+        "like": 45,
         "respect": 16,
         "comfort": 38,
         "trust": 44,
         "log": [
             "Piperkit thinks about how lucky he is to have someone like Cherrykit as a friend. (high positive effect) - Piperkit was 1 moon old",
             "Piperkit remembers something nice that Cherrykit did. (low positive effect) - Piperkit was 4 moons old",
-            "Piperthrift and Cherrytail avoided each other after an unpleasant training patrol. (negative effect) - Piperthrift was 25 moons old"
+            "Piperthrift and Cherrytail avoided each other after an unpleasant training patrol. (negative effect) - Piperthrift was 25 moons old",
+            "Piperthrift and Cherrytail argued about what to practice on a training patrol. (negative effect) - Piperthrift was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1369,9 +1393,7 @@
             "Blizzardstripe's bravery in a fight against a vixen greatly impressed Piperkit. (positive effect) - Piperkit was 3 moons old",
             "Piperthrift appreciates Blizzardstripe telling him that he had a feather stuck to his face. (low positive effect) - Piperthrift was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1520,7 +1542,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 23,
         "respect": 10,
         "comfort": 10,
         "trust": 17,
@@ -1530,7 +1552,9 @@
             "Butterflyglide and Piperthrift discussed the vision Gorgehunt claimed to have. (positive effect) - Piperthrift was 19 moons old",
             "Piperthrift saw Butterflyglide telling stories to the kits. (positive effect) - Piperthrift was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1562,9 +1586,7 @@
             "Piperthrift has been spending time with Glowfur lately. (low positive effect) - Piperthrift was 29 moons old",
             "Glowfur brought Piperthrift some dry bedding. (low positive effect) - Piperthrift was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1734,9 +1756,7 @@
             "Piperpaw isn't afraid to ask Clawkit a difficult question. (high positive effect) - Piperpaw was 11 moons old",
             "Clawpaw squashes a bug that Piperthrift was watching. (medium negative effect) - Piperthrift was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "123",
@@ -1759,15 +1779,18 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 8,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 4,
+        "respect": -4,
+        "comfort": -5,
+        "trust": -16,
         "log": [
             "Meadowspots thanked Piperthrift for bringing her food. (low positive effect) - Piperthrift was 24 moons old",
-            "Piperthrift thinks Meadowspots has very soft fur. (low positive effect) - Piperthrift was 27 moons old"
+            "Piperthrift thinks Meadowspots has very soft fur. (low positive effect) - Piperthrift was 27 moons old",
+            "Piperthrift goes to tell a secret to Meadowspots only for Meadowspots to tell someone else's secret to him. (high negative effect) - Piperthrift was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1828,14 +1851,17 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": -18,
+        "respect": -30,
         "comfort": -4,
         "trust": -16,
         "log": [
             "Piperpaw notices one of his friends talking to Lilykit. (low negative effect) - Piperpaw was 13 moons old",
-            "Piperthrift can never seem to explain her health in a way that makes Lilynoise listen... (high negative effect) - Piperthrift was 26 moons old"
+            "Piperthrift can never seem to explain her health in a way that makes Lilynoise listen... (high negative effect) - Piperthrift was 26 moons old",
+            "Piperthrift is jealous that Lilynoise got to go to the last Gathering. (medium negative effect) - Piperthrift was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -1860,14 +1886,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
-        "respect": 0,
+        "like": 1,
+        "respect": -12,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Piperthrift heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Piperthrift was 26 moons old"
+            "Piperthrift heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Piperthrift was 26 moons old",
+            "Terabyte tromped into the warrior's den with muddy paws, trailing muck straight through Prancelaurel and Piperthrift's nests. (negative effect) - Piperthrift was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "123",
@@ -2240,5 +2270,48 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "123",
+        "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Piperthrift and Jademuzzle argued about what to practice on a training patrol. (negative effect) - Piperthrift was 32 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     }
 ]

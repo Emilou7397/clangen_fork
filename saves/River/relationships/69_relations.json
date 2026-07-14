@@ -164,13 +164,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 20,
         "comfort": 0,
-        "trust": 15,
+        "trust": 20,
         "log": [
-            "Elmtrail heard about Pigeonbloom's victory in battle against a gang of rogues. (positive effect) - Elmtrail was 26 moons old"
+            "Elmtrail heard about Pigeonbloom's victory in battle against a gang of rogues. (positive effect) - Elmtrail was 26 moons old",
+            "Elmtrail heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -237,11 +241,7 @@
             "Elmtrail's eagerness to do early morning stretches rubs off on Verbenabloom, Mallowpelt, Primfreckle, and Cobaltstrike. (positive effect) - Elmtrail was 53 moons old",
             "Elmtrail couldn't imagine how boring things would be without a friend like Primfreckle. (high positive effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -787,14 +787,17 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": -10,
+        "respect": -27,
         "comfort": 0,
         "trust": -13,
         "log": [
             "Elmtrail disapproved of Fringesnap wearing a collar. (negative effect) - Elmtrail was 26 moons old",
-            "Fringesnap sneezed on Elmtrail. (low negative effect) - Elmtrail was 30 moons old"
+            "Fringesnap sneezed on Elmtrail. (low negative effect) - Elmtrail was 30 moons old",
+            "Elmtrail is jealous that Fringesnap got to go to the last Gathering. (medium negative effect) - Elmtrail was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -895,7 +898,7 @@
         "cat_to_id": "65",
         "mates": false,
         "family": false,
-        "romance": 20,
+        "romance": 28,
         "like": 41,
         "respect": 71,
         "comfort": 19,
@@ -911,9 +914,15 @@
             "Elmtrail and Murkhaven had a productive training patrol together. (positive effect) - Elmtrail was 36 moons old",
             "Elmtrail was impressed by Murkhaven's hunting prowess. (positive effect) - Elmtrail was 42 moons old",
             "Elmtrail heard Murkhaven fell asleep guarding camp. (negative effect) - Elmtrail was 44 moons old",
-            "Elmtrail heard that Murkhaven chased a kittypet off the territory. (positive effect) - Elmtrail was 58 moons old"
+            "Elmtrail heard that Murkhaven chased a kittypet off the territory. (positive effect) - Elmtrail was 58 moons old",
+            "Flutterfeather knows Elmtrail is also interested in Murkhaven. (negative effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -921,7 +930,7 @@
         "mates": false,
         "family": false,
         "romance": 11,
-        "like": 17,
+        "like": 20,
         "respect": 3,
         "comfort": 12,
         "trust": -22,
@@ -930,9 +939,12 @@
             "Elmtrail heard Diablofoot fell asleep guarding camp. (negative effect)- Elmtrail was 15 moons old",
             "Elmtrail heard Diablofoot fell asleep guarding camp. (negative effect)- Elmtrail was 22 moons old",
             "The moonlight encourages Mossflight, Diablofoot, Elmtrail, Pearpelt, and Fluttershade to slow down and stretch. (positive effect)- Elmtrail was 25 moons old",
-            "Elmtrail heard Diablofoot fell asleep guarding camp. (negative effect) - Elmtrail was 28 moons old"
+            "Elmtrail heard Diablofoot fell asleep guarding camp. (negative effect) - Elmtrail was 28 moons old",
+            "Diablofoot compliments Elmtrail's name. (low positive effect) - Elmtrail was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -1047,11 +1059,11 @@
         "cat_to_id": "73",
         "mates": true,
         "family": false,
-        "romance": 75,
+        "romance": 96,
         "like": 100,
-        "respect": 48,
+        "respect": 54,
         "comfort": 100,
-        "trust": 42,
+        "trust": 48,
         "log": [
             "Elmpaw doesn't think it's usually this easy to convince Talonkit, Sardinekit, Shinekit, and Frondkit to settle down, but it is today. (positive effect)- Elmpaw was 7 moons old",
             "Elmtrail and Shinefur gossip about drama nobody else knows. (high positive effect)- Elmtrail was 18 moons old",
@@ -1063,13 +1075,14 @@
             "Elmtrail and Shinefur successfully gathered herbs together despite the rainy weather. (positive effect) - Elmtrail was 54 moons old",
             "Shinefur, Voletuft, Elmtrail, Yewstar, and Flutterfeather hang out while stretching. (positive effect) - Elmtrail was 57 moons old",
             "Elmtrail and Shinefur had a fight over if they would take a new mate if one of them died or went missing. (medium negative effect) - Elmtrail was 58 moons old",
-            "Elmtrail and Shinefur enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Elmtrail was 60 moons old"
+            "Elmtrail and Shinefur enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Elmtrail was 60 moons old",
+            "Elmtrail purrs for a long time at one of Shinefur's lame jokes. (high positive effect) - Elmtrail was 61 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -1269,7 +1282,7 @@
         "family": false,
         "romance": 0,
         "like": 43,
-        "respect": 18,
+        "respect": 8,
         "comfort": 63,
         "trust": 0,
         "log": [
@@ -1279,9 +1292,14 @@
             "Mallowpelt gently woke up Elmtrail this morning. (medium positive effect) - Elmtrail was 37 moons old",
             "Elmtrail heard Mallowpelt fell asleep guarding camp. (negative effect) - Elmtrail was 47 moons old",
             "Elmtrail's eagerness to do early morning stretches rubs off on Verbenabloom, Mallowpelt, Primfreckle, and Cobaltstrike. (positive effect) - Elmtrail was 53 moons old",
-            "Elmtrail and Mallowpelt worked together to gather plantain. (positive effect) - Elmtrail was 56 moons old"
+            "Elmtrail and Mallowpelt worked together to gather plantain. (positive effect) - Elmtrail was 56 moons old",
+            "Elmtrail disapproved of Mallowpelt wearing a collar. (negative effect) - Elmtrail was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -1298,9 +1316,7 @@
             "Onemuzzle squashes a bug that Elmtrail was watching. (medium negative effect) - Elmtrail was 38 moons old",
             "Elmtrail and Onemuzzle enjoyed working on their skills together on a training patrol. (positive effect) - Elmtrail was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1353,9 +1369,7 @@
             "Elmtrail noticed that Flutterfeather was in a foul mood. (negative effect) - Elmtrail was 54 moons old",
             "Shinefur, Voletuft, Elmtrail, Yewstar, and Flutterfeather hang out while stretching. (positive effect) - Elmtrail was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1382,11 +1396,7 @@
             "Elmtrail was amazed to encounter a ghost while patrolling with Saltknoll. (positive effect) - Elmtrail was 58 moons old",
             "Elmtrail and Saltknoll enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1437,16 +1447,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
+        "like": 14,
         "respect": 7,
         "comfort": 5,
         "trust": 0,
         "log": [
             "Elmtrail and Skiphare worked together to gather betony. (positive effect) - Elmtrail was 45 moons old",
             "Elmtrail and Skiphare successfully gathered herbs together despite the rainy weather. (positive effect) - Elmtrail was 50 moons old",
-            "Skiphare and Elmtrail enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Elmtrail was 51 moons old"
+            "Skiphare and Elmtrail enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Elmtrail was 51 moons old",
+            "Elmtrail prevents something from falling on Skiphare. (low positive effect) - Elmtrail was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -1488,10 +1501,7 @@
             "Elmtrail and Shimmerrunner worked together to gather plantain. (positive effect) - Elmtrail was 56 moons old",
             "Elmtrail and Shimmerrunner enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2161,14 +2171,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": -8,
         "log": [
-            "Elmtrail's friend doesn't trust Creekpaw. (low negative effect) - Elmtrail was 43 moons old"
+            "Elmtrail's friend doesn't trust Creekpaw. (low negative effect) - Elmtrail was 43 moons old",
+            "Elmtrail enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Elmtrail was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2312,10 +2325,7 @@
         "log": [
             "Elmtrail offers to groom a hard-to-reach place for Nymphshine, who thanks her earnestly. (high positive effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2336,15 +2346,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 5,
         "comfort": 0,
         "trust": -15,
         "log": [
             "Elmtrail heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Elmtrail was 45 moons old",
-            "Elmtrail was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Elmtrail was 58 moons old"
+            "Elmtrail was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Elmtrail was 58 moons old",
+            "Elmtrail was annoyed that Pigmentpelt caught her trying to sneak out of camp. (negative effect) - Elmtrail was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2629,9 +2643,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Driftstripe helps Elmtrail hide from a Clanmate. (low positive effect) - Elmtrail was 61 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2649,6 +2667,45 @@
     {
         "cat_from_id": "69",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

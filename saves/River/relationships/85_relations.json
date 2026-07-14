@@ -75,9 +75,7 @@
             "Onemuzzle, Frondpad, and Heatherfern took a sunbath and had a little small talk. (positive effect)- Onemuzzle was 16 moons old",
             "Onemuzzle quickly apologizes after bumping into Heatherfern. They have a small laugh about it. (low positive effect) - Onemuzzle was 51 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -161,10 +159,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Onemuzzle heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Onemuzzle was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -322,9 +322,7 @@
             "Onemuzzle enjoyed spending an evening listening to Dancingscreech's stories. (positive effect) - Onemuzzle was 34 moons old",
             "Onemuzzle was impressed by Dancingscreech's hunting prowess. (positive effect) - Onemuzzle was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -380,12 +378,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 12,
         "log": [
             "During a patrol, Onepaw and Archbellow have a long conversation about their beliefs and agree on many things. (medium positive effect)- Onepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -435,10 +435,7 @@
             "Prancelaurel tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Onemuzzle and Whiskerleg. (negative effect) - Onemuzzle was 36 moons old",
             "Onemuzzle heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Onemuzzle was 51 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -790,7 +787,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -19,
+        "like": -11,
         "respect": 29,
         "comfort": 17,
         "trust": 32,
@@ -799,7 +796,9 @@
             "Amberfur, wanting to help keep his Clanmates in shape and ready for anything, wakes Pheasantpaw, Poolpaw, Mallowpaw, and Onepaw up early for morning stretches. (negative effect)- Onepaw was 8 moons old",
             "Amberfur lets Onemuzzle know that a Clanmate was talking badly about them. (low positive effect) - Onemuzzle was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -882,12 +881,7 @@
             "Onemuzzle heard Fluttershade fell asleep guarding camp. (negative effect) - Onemuzzle was 28 moons old",
             "Onemuzzle heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Onemuzzle was 51 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -1090,10 +1084,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 80,
-        "respect": 64,
-        "comfort": 31,
-        "trust": 30,
+        "like": 85,
+        "respect": 80,
+        "comfort": 36,
+        "trust": 35,
         "log": [
             "Onepaw heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Onepaw was 9 moons old",
             "Onemuzzle has a lot of fun with Frondpad! (high positive effect)- Onemuzzle was 15 moons old",
@@ -1106,9 +1100,15 @@
             "Onemuzzle heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Onemuzzle was 28 moons old",
             "Onemuzzle was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Onemuzzle was 34 moons old",
             "Skiphare appreciates Piperthrift, Frondpad, Garlicberry, and Onemuzzle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Onemuzzle was 47 moons old",
-            "Onemuzzle and Frondpad enjoyed a little race while gathering oak and elder leaves. (positive effect) - Onemuzzle was 47 moons old"
+            "Onemuzzle and Frondpad enjoyed a little race while gathering oak and elder leaves. (positive effect) - Onemuzzle was 47 moons old",
+            "Onemuzzle overhears Frondpad educating Clanmates about their fallen ancestors. (high positive effect) - Onemuzzle was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -1258,7 +1258,7 @@
         "family": true,
         "romance": 0,
         "like": 46,
-        "respect": -3,
+        "respect": -13,
         "comfort": 66,
         "trust": 51,
         "log": [
@@ -1274,9 +1274,15 @@
             "Onemuzzle and Mallowpelt drove off rogues together. (positive effect) - Onemuzzle was 37 moons old",
             "Onemuzzle heard Mallowpelt fell asleep guarding camp. (negative effect) - Onemuzzle was 37 moons old",
             "Onemuzzle thought Mallowpelt was polite today. (low positive effect) - Onemuzzle was 44 moons old",
-            "Onemuzzle was impressed by Mallowpelt's battle with a skua. (positive effect) - Onemuzzle was 44 moons old"
+            "Onemuzzle was impressed by Mallowpelt's battle with a skua. (positive effect) - Onemuzzle was 44 moons old",
+            "Onemuzzle disapproved of Mallowpelt wearing a collar. (negative effect) - Onemuzzle was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -1298,10 +1304,7 @@
             "Onemuzzle appreciates Voletuft telling them that they had a feather stuck to their face. (low positive effect) - Onemuzzle was 31 moons old",
             "Voletuft kept getting distracted while helping Onemuzzle and nearly got them hurt. (medium negative effect) - Onemuzzle was 43 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -1738,12 +1741,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [
             "Onemuzzle heard that Wavepaw chased a rogue off the territory. (positive effect) - Onemuzzle was 33 moons old",
-            "Onemuzzle heard that Wavelight touched noses with a loner. (negative effect) - Onemuzzle was 36 moons old"
+            "Onemuzzle heard that Wavelight touched noses with a loner. (negative effect) - Onemuzzle was 36 moons old",
+            "Onemuzzle appreciates Wavelight telling them that they had a feather stuck to their face. (low positive effect) - Onemuzzle was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -1906,16 +1912,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 37,
-        "respect": 31,
+        "like": 25,
+        "respect": 19,
         "comfort": 60,
         "trust": 54,
         "log": [
             "Onemuzzle visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Onemuzzle was 22 moons old",
             "The moonlight encourages Terabyte, Silkymunch, Snakedrop, Skulkwillow, and Onemuzzle to slow down and stretch. (positive effect) - Onemuzzle was 36 moons old",
-            "Onemuzzle gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Onemuzzle was 50 moons old"
+            "Onemuzzle gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Onemuzzle was 50 moons old",
+            "No matter how many warning looks Carnationmunch, Onemuzzle, and Skulkwillow send him, Silkymunch keeps talking over the Gathering announcements. (negative effect) - Onemuzzle was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -2086,10 +2098,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -2138,14 +2152,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
-        "respect": 3,
+        "like": 8,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Onemuzzle was impressed by Creekmoss's quick reflexes on a hunting patrol. (positive effect) - Onemuzzle was 51 moons old"
+            "Onemuzzle was impressed by Creekmoss's quick reflexes on a hunting patrol. (positive effect) - Onemuzzle was 51 moons old",
+            "Onemuzzle enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Onemuzzle was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -2263,9 +2281,7 @@
             "The moonlight encourages Terabyte, Silkymunch, Snakedrop, Skulkwillow, and Onemuzzle to slow down and stretch. (positive effect) - Onemuzzle was 36 moons old",
             "Onemuzzle heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Onemuzzle was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "85",
@@ -2406,14 +2422,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 8,
+        "respect": 16,
+        "comfort": 8,
+        "trust": 21,
         "log": [
-            "Onemuzzle heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Onemuzzle was 41 moons old"
+            "Onemuzzle heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Onemuzzle was 41 moons old",
+            "Onemuzzle knows that the advice Minnowlily gave them will be helpful. (high positive effect) - Onemuzzle was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -2537,13 +2559,16 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -5,
         "log": [
             "Onemuzzle heard Jasminesprout fell asleep guarding camp. (negative effect) - Onemuzzle was 50 moons old",
-            "Onemuzzle heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Onemuzzle was 51 moons old"
+            "Onemuzzle heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Onemuzzle was 51 moons old",
+            "Onemuzzle learns that Jasminesprout is scared of thunder, too. (low positive effect) - Onemuzzle was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "85",
@@ -2643,6 +2668,45 @@
     {
         "cat_from_id": "85",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "85",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "85",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "85",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

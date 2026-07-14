@@ -1183,11 +1183,14 @@
         "like": 0,
         "respect": -8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Clawpaw doesn't tell Wasppelt that she forgot to groom a part of her fur. (low negative effect) - Clawpaw was 14 moons old"
+            "Clawpaw doesn't tell Wasppelt that she forgot to groom a part of her fur. (low negative effect) - Clawpaw was 14 moons old",
+            "Wasppelt learns that Clawswirl told a Clanmate one of their secrets. (low negative effect) - Clawswirl was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1195,14 +1198,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 0,
+        "like": -4,
+        "respect": -4,
+        "comfort": 8,
+        "trust": -11,
         "log": [
-            "Clawswirl and Snookbumble make each other laugh. (low positive effect) - Clawswirl was 22 moons old"
+            "Clawswirl and Snookbumble make each other laugh. (low positive effect) - Clawswirl was 22 moons old",
+            "Snookbumble doesn't believe Clawswirl when they explain that a rumor about them is false. (high negative effect) - Clawswirl was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1275,9 +1282,7 @@
             "Piperthrift's good morning to Clawpaw meant a lot to them. (low positive effect) - Clawpaw was 9 moons old",
             "Clawswirl includes Piperthrift in a conversation that Piperthrift struggled to join. (low positive effect) - Clawswirl was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1318,9 +1323,7 @@
         "comfort": 5,
         "trust": 5,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1367,12 +1370,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "When an argument started on patrol, Tansywhisker scolded Clawswirl for acting like a kit. (negative effect) - Clawswirl was 25 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1463,9 +1471,7 @@
         "comfort": 0,
         "trust": -8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1611,12 +1617,7 @@
             "Creekmoss was very considerate while on patrol with Clawswirl. (positive effect) - Clawswirl was 18 moons old",
             "Clawswirl was impressed by Creekmoss's quick reflexes on a hunting patrol. (positive effect) - Clawswirl was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -1895,12 +1896,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Clawswirl heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Clawswirl was 19 moons old"
+            "Clawswirl heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Clawswirl was 19 moons old",
+            "Clawswirl loses in a race against Coquitostep and acts bitterly about it. (low negative effect) - Clawswirl was 25 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1986,9 +1988,7 @@
         "log": [
             "Clawswirl called Dustpaw the wrong name. (medium negative effect) - Clawswirl was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "151",
@@ -2112,6 +2112,45 @@
     {
         "cat_from_id": "151",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -80,12 +80,13 @@
         "family": false,
         "romance": 17,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": -7,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Stellarpatch goes for a nice long walk with Pigeonbloom. (medium positive effect) - Stellarpatch was 150 moons old",
-            "Stellarpatch finds the way Pigeonbloom acts increasingly uncomfortable. (medium negative effect) - Stellarpatch was 153 moons old"
+            "Stellarpatch finds the way Pigeonbloom acts increasingly uncomfortable. (medium negative effect) - Stellarpatch was 153 moons old",
+            "Stellarpatch heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Stellarpatch was 153 moons old"
         ],
         "no_longer_neutral": [
             "comfort"
@@ -166,14 +167,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Fidgetmouse points out that Stellarpatch's fresh-kill has gone bad before she eats it. (medium positive effect) - Stellarpatch was 147 moons old"
+            "Fidgetmouse points out that Stellarpatch's fresh-kill has gone bad before she eats it. (medium positive effect) - Stellarpatch was 147 moons old",
+            "Stellarpatch and Fidgetmouse make fun of one another, but it sounds more like insults than playful banter. (medium negative effect) - Stellarpatch was 154 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "175",
@@ -770,13 +774,16 @@
         "family": false,
         "romance": 0,
         "like": -3,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Stellarpatch is grossed out by something Mallowpelt did. (low negative effect) - Stellarpatch was 149 moons old"
+            "Stellarpatch is grossed out by something Mallowpelt did. (low negative effect) - Stellarpatch was 149 moons old",
+            "Stellarpatch disapproved of Mallowpelt wearing a collar. (negative effect) - Stellarpatch was 154 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "175",
@@ -869,9 +876,7 @@
         "log": [
             "Hailfreckle brought Stellarpatch some dry bedding. (low positive effect) - Stellarpatch was 153 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "175",
@@ -1162,12 +1167,14 @@
         "cat_to_id": "124",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stellarpatch nuzzles against Blizzardstripe and purrs. (medium positive effect) - Stellarpatch was 154 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1381,15 +1388,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
-        "trust": -5,
+        "like": 31,
+        "respect": 7,
+        "comfort": 16,
+        "trust": 3,
         "log": [
             "Pigmentpelt was part of the patrol that took in Stella when he was sick. (positive effect) - Stella was 143 moons old",
-            "Stellarpatch was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Stellarpatch was 151 moons old"
+            "Stellarpatch was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Stellarpatch was 151 moons old",
+            "Stellarpatch and Pigmentpelt defended their Clan at the Gathering together. (high positive effect) - Stellarpatch was 155 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "175",
@@ -1496,12 +1508,15 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Stellarpatch heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Stellarpatch was 146 moons old"
+            "Stellarpatch heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Stellarpatch was 146 moons old",
+            "Stellarpatch reassures Caterpillarfoot about something that was bothering her. (low positive effect) - Stellarpatch was 155 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "175",
@@ -1588,11 +1603,10 @@
             "When Stellarpatch needs someone to do him a favor, he never asks Terabyte first. (medium negative effect) - Stellarpatch was 147 moons old",
             "Stellarpatch heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Stellarpatch was 148 moons old",
             "Stellarpatch told Terabyte to shut up. (high negative effect) - Stellarpatch was 150 moons old",
-            "Stellarpatch can't stop gushing over Terabyte. (high positive effect) - Stellarpatch was 153 moons old"
+            "Stellarpatch can't stop gushing over Terabyte. (high positive effect) - Stellarpatch was 153 moons old",
+            "Terabyte can't stop gushing over Stellarpatch. (high positive effect) - Stellarpatch was 153 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "175",
@@ -1867,6 +1881,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
+        "like": -13,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "175",
+        "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
         "like": 0,
         "respect": 0,
         "comfort": 0,
@@ -1876,7 +1905,43 @@
     },
     {
         "cat_from_id": "175",
-        "cat_to_id": "193",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 74,
+        "respect": 44,
+        "comfort": 84,
+        "trust": 74,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "175",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 73,
+        "respect": 43,
+        "comfort": 83,
+        "trust": 73,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "175",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

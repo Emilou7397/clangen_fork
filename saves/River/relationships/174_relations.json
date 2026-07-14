@@ -131,9 +131,7 @@
         "log": [
             "Heath attacked Yewstar, but Moletooth fought him off. (negative effect) - Heath was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -236,10 +234,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -525,14 +525,16 @@
         "family": false,
         "romance": 0,
         "like": 2,
-        "respect": 2,
+        "respect": 9,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Heathstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old",
-            "Heathstripe and Mossflight were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old"
+            "Heathstripe and Mossflight were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old",
+            "Heathstripe and Mossflight successfully gathered herbs together despite the rainy weather. (positive effect) - Heathstripe was 55 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "comfort"
         ]
     },
@@ -597,15 +599,17 @@
         "family": false,
         "romance": 0,
         "like": 2,
-        "respect": 2,
+        "respect": 9,
         "comfort": 0,
         "trust": 12,
         "log": [
             "Heathstripe and Verbenabloom worked together to gather juniper needles and oak leaves. (positive effect) - Heathstripe was 47 moons old",
             "Heathstripe comes up with a plan to sneak out of camp with Verbenabloom. (medium positive effect) - Heathstripe was 48 moons old",
-            "Heathstripe and Verbenabloom were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old"
+            "Heathstripe and Verbenabloom were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 53 moons old",
+            "Heathstripe and Verbenabloom successfully gathered herbs together despite the rainy weather. (positive effect) - Heathstripe was 55 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "trust"
         ]
     },
@@ -642,11 +646,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe and Skulkwillow successfully gathered herbs together despite the rainy weather. (positive effect) - Heathstripe was 55 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -707,11 +715,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe and Brindletooth successfully gathered herbs together despite the rainy weather. (positive effect) - Heathstripe was 55 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -987,8 +999,8 @@
         "cat_to_id": "96",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 4,
+        "romance": 8,
+        "like": 12,
         "respect": 6,
         "comfort": 6,
         "trust": 16,
@@ -996,9 +1008,7 @@
             "Heathstripe feels comfortable challenging Dancingfleck on something he said. (high positive effect) - Heathstripe was 54 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -1023,10 +1033,12 @@
         "like": -10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -13,
+        "log": [
+            "Heathstripe thinks Hollyheart has been acting strangely. (low negative effect) - Heathstripe was 56 moons old"
+        ],
         "no_longer_neutral": [
-            "like"
+            "trust"
         ]
     },
     {
@@ -1131,9 +1143,9 @@
         "cat_to_id": "112",
         "mates": true,
         "family": false,
-        "romance": 33,
+        "romance": 39,
         "like": 5,
-        "respect": 10,
+        "respect": 17,
         "comfort": 17,
         "trust": 10,
         "log": [
@@ -1141,7 +1153,10 @@
             "Heathstripe and Minnowlily take a nap together. (low positive effect) - Heathstripe was 52 moons old",
             "Minnowlily and Heathstripe had a productive time searching Twoleg beach dens for herbs. (positive effect) - Heathstripe was 52 moons old",
             "Minnowlily draws a pretty symbol in the sand that Heathstripe makes sure not to mess up. (low positive effect) - Heathstripe was 54 moons old",
-            "Heathstripe wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Heathstripe was 54 moons old"
+            "Heathstripe wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Heathstripe was 54 moons old",
+            "Heathstripe and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Heathstripe was 55 moons old",
+            "Heathstripe is prancing around in front of Minnowlily. (low positive effect) - Heathstripe was 56 moons old",
+            "Heathstripe and Minnowlily had a disagreement on how to raise kits. (medium negative effect) - Heathstripe was 56 moons old"
         ],
         "no_longer_neutral": [
             "respect",
@@ -1220,12 +1235,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe tells Blotchstripe something interesting about another Clan. (medium positive effect) - Heathstripe was 55 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1353,9 +1372,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1436,9 +1457,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1537,11 +1560,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Heathstripe was 55 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1798,12 +1823,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 13,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Garlicberry thanked Heathstripe for bringing her food. (low positive effect) - Heathstripe was 55 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1927,6 +1956,45 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

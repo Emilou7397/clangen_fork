@@ -112,13 +112,19 @@
         "family": false,
         "romance": 0,
         "like": 40,
-        "respect": 30,
+        "respect": 35,
         "comfort": 70,
-        "trust": 60,
+        "trust": 65,
         "log": [
-            "These cats recently interacted. - Howlkit was 0 moons old"
+            "These cats recently interacted. - Howlkit was 0 moons old",
+            "Howlpaw heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Howlpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -204,12 +210,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -772,13 +780,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 17,
         "trust": 0,
         "log": [
-            "Howlkit asks Mallowpelt innocent but invasive questions. (medium positive effect) - Howlkit was 4 moons old"
+            "Howlkit asks Mallowpelt innocent but invasive questions. (medium positive effect) - Howlkit was 4 moons old",
+            "Howlpaw disapproved of Mallowpelt wearing a collar. (negative effect) - Howlpaw was 8 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -834,10 +846,7 @@
         "log": [
             "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Howlpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "180",
@@ -858,12 +867,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -8,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Skiphare complained about his patrol assignment all day, much to the annoyance of Shimmerrunner, Dancingscreech, and Howlpaw. (negative effect) - Howlpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -914,12 +928,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Snakedrop tells Howlpaw, Dustpaw, Kinkpaw, and Bitterleaf a story that earns more skepticism than admiration. (negative effect) - Howlpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1111,10 +1130,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Wasppelt seems amused when Howlpaw trips. (medium negative effect) - Howlpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1182,11 +1205,7 @@
             "Howlkit gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Howlkit was 1 moon old",
             "Howlpaw, Sandpaw, Dustpaw, and Voletuft can't escape from Cherrytail waking them up to do early morning stretches. (negative effect) - Howlpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "180",
@@ -1240,10 +1259,7 @@
         "log": [
             "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Howlpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "180",
@@ -1633,14 +1649,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
-        "respect": 5,
-        "comfort": 6,
-        "trust": 6,
+        "like": 12,
+        "respect": 2,
+        "comfort": 2,
+        "trust": -5,
         "log": [
-            "Howlkit eats with Braveheart all the time! (high positive effect) - Howlkit was 3 moons old"
+            "Howlkit eats with Braveheart all the time! (high positive effect) - Howlkit was 3 moons old",
+            "Braveheart doesn't believe Howlpaw when he explains that a rumor about him is false. (high negative effect) - Howlpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1720,10 +1739,7 @@
         "log": [
             "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Howlpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "180",
@@ -1798,14 +1814,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 8,
         "log": [
             "Howlpaw heard Jasminesprout fell asleep guarding camp. (negative effect) - Howlpaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1842,7 +1861,7 @@
         "family": false,
         "romance": 0,
         "like": 57,
-        "respect": 15,
+        "respect": 32,
         "comfort": 89,
         "trust": 55,
         "log": [
@@ -1853,13 +1872,11 @@
             "Howlkit and Dustkit swap secrets with each other. (high positive effect) - Howlkit was 5 moons old",
             "Dustpaw does something that makes Howlpaw's day a little happier. (low positive effect) - Howlpaw was 6 moons old",
             "Saltknoll convinces Dustpaw, Howlpaw, Sandpaw, and Drizzlepelt to wind down and stretch with him. (positive effect) - Howlpaw was 6 moons old",
-            "Dustpaw doesn't judge Howlpaw for being anxious about a bad dream. (medium positive effect) - Howlpaw was 7 moons old"
+            "Dustpaw doesn't judge Howlpaw for being anxious about a bad dream. (medium positive effect) - Howlpaw was 7 moons old",
+            "Howlpaw compliments Dustpaw on his bravery today. (medium positive effect) - Howlpaw was 8 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "respect"
         ]
     },
     {
@@ -1868,12 +1885,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -11,
+        "respect": -2,
+        "comfort": -2,
+        "trust": -3,
+        "log": [
+            "Howlpaw keeps leaving all of the boring apprentice tasks for Kinkpaw to do by herself. (high negative effect) - Howlpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1956,6 +1977,45 @@
     {
         "cat_from_id": "180",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "180",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "180",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "180",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

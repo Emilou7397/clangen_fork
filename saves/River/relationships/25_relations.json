@@ -513,7 +513,7 @@
         "like": 45,
         "respect": 20,
         "comfort": 24,
-        "trust": 6,
+        "trust": 9,
         "log": [
             "Fidgetmouse gives Archbellow something that he dropped. (low positive effect)- Archbellow was 38 moons old",
             "Fidgetmouse snitches on Archbellow for something minor. (low negative effect)- Archbellow was 40 moons old",
@@ -534,7 +534,9 @@
             "Fidgetmouse and Archbellow worked together to drive off a rogue. (positive effect)- Archbellow was 93 moons old",
             "Fidgetmouse tracked a trail of muddy pawprints into the elder's den, straight through the nests of Nightglow and Archbellow. (negative effect) - Archbellow was 130 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -588,9 +590,12 @@
             "Archbellow thanks Dancingscreech for covering for him during a patrol earlier. (medium positive effect) - Archbellow was 117 moons old",
             "Archbellow enjoyed spending an evening listening to Dancingscreech's stories. (positive effect) - Archbellow was 117 moons old",
             "Archbellow was impressed by Dancingscreech's hunting prowess. (positive effect) - Archbellow was 123 moons old",
-            "Archbellow promises Dancingscreech to always be there to protect her with his life. (high positive effect) - Archbellow was 126 moons old"
+            "Archbellow promises Dancingscreech to always be there to protect her with his life. (high positive effect) - Archbellow was 126 moons old",
+            "Archbellow quickly apologizes after bumping into Dancingscreech. They have a small laugh about it. (low positive effect) - Archbellow was 135 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -784,12 +789,7 @@
             "Prancelaurel, Archbellow, and Carptail took a sunbath and had a little small talk. (positive effect)- Archbellow was 92 moons old",
             "Archbellow heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -997,7 +997,7 @@
         "romance": 16,
         "like": 34,
         "respect": 30,
-        "comfort": 13,
+        "comfort": 21,
         "trust": 4,
         "log": [
             "Archbellow can't help but admire Saffronfoot's pelt. (low positive effect)- Archbellow was 53 moons old",
@@ -1009,9 +1009,12 @@
             "Archbellow, Curryfoot, and Saffronfoot had a nice talk while eating. (positive effect)- Archbellow was 90 moons old",
             "Archbellow's friend doesn't trust Saffronfoot. (low negative effect) - Archbellow was 103 moons old",
             "Archbellow wants to spend the entire day with Saffronfoot. (high positive effect) - Archbellow was 110 moons old",
-            "Archbellow heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Archbellow was 125 moons old"
+            "Archbellow heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Archbellow was 125 moons old",
+            "Saffronfoot gives advice to Archbellow. It's not good advice, but Archbellow appreciates the effort. (low positive effect) - Archbellow was 135 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -1283,11 +1286,7 @@
             "Late into the evening, Fluttershade invites Brinerump, Archbellow, Quailfur, and Hushshimmer to stretch with her and enjoy each other's company. (positive effect) - Archbellow was 114 moons old",
             "Archbellow heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -1509,7 +1508,7 @@
         "family": false,
         "romance": 32,
         "like": 55,
-        "respect": 5,
+        "respect": 17,
         "comfort": 42,
         "trust": 28,
         "log": [
@@ -1524,9 +1523,15 @@
             "Paellapad just noticed how beautiful Archbellow's eyes are. (low positive effect) - Archbellow was 101 moons old",
             "Paellapad tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Archbellow, Gracklefur, and Mossflight. (negative effect) - Archbellow was 106 moons old",
             "Archbellow warns Paellapad about something on the ground so she doesn't trip. (low positive effect) - Archbellow was 120 moons old",
-            "Archbellow checks in on Paellapad every day. (high positive effect) - Archbellow was 127 moons old"
+            "Archbellow checks in on Paellapad every day. (high positive effect) - Archbellow was 127 moons old",
+            "Reedheart, Algaepool, Saffronfoot, and Archbellow talk about Paellapad's combat prowess during a skirmish. (positive effect) - Archbellow was 134 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -1608,15 +1613,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 3,
-        "comfort": 8,
-        "trust": 0,
+        "like": -5,
+        "respect": -3,
+        "comfort": -8,
+        "trust": -6,
         "log": [
             "Archbellow noticed how successful Onemuzzle's hunting patrol was. (positive effect) - Archbellow was 110 moons old",
-            "Archbellow thinks Onemuzzle has been acting strangely. (low negative effect) - Archbellow was 127 moons old"
+            "Archbellow thinks Onemuzzle has been acting strangely. (low negative effect) - Archbellow was 127 moons old",
+            "The Clan feels uneasy whenever Archbellow and Onemuzzle speak to each other. (high negative effect) - Archbellow was 134 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -2148,9 +2157,7 @@
         "log": [
             "Archbellow bickers with Gorgehunt over who gets what nest material. (low negative effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -2401,12 +2408,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 5,
+        "respect": 8,
+        "comfort": 3,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Archbellow enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Archbellow was 133 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -2422,10 +2433,7 @@
             "Murkhaven appreciates Archbellow, Meadowspots, Heathbeetle, and Minnowlily joining them to stretch late into the night so they wouldn't be alone. (positive effect) - Archbellow was 124 moons old",
             "Archbellow heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -2481,9 +2489,7 @@
         "log": [
             "Archbellow takes a bout of bad weather as a bad omen about Coconutkit. (high negative effect) - Archbellow was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -2530,10 +2536,7 @@
             "Archbellow heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Archbellow was 128 moons old",
             "Archbellow is telling jokes about Terabyte. (high negative effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -2643,10 +2646,7 @@
             "Archbellow talks to Marshpaw about a mutual friend they have both been worrying about. (high positive effect) - Archbellow was 125 moons old",
             "Archbellow heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Archbellow was 133 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "25",
@@ -2862,12 +2862,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 11,
+        "respect": 4,
+        "comfort": 3,
+        "trust": 4,
+        "log": [
+            "Archbellow and Moonchaser heckled another Clan at the Gathering together. (high positive effect) - Archbellow was 134 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "25",
@@ -2898,6 +2902,45 @@
     {
         "cat_from_id": "25",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "25",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "25",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "25",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

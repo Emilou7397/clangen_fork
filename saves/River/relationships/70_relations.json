@@ -5,7 +5,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
+        "like": -15,
         "respect": -5,
         "comfort": 0,
         "trust": 0,
@@ -13,7 +13,9 @@
             "Brindlekit heard that Cobaltstrike's whole patrol fell asleep instead of training. (negative effect)- Brindlekit was 5 moons old",
             "Brindletooth sighs loudly every time Cobaltstrike does anything on patrol. (medium negative effect) - Brindletooth was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -432,11 +434,7 @@
             "Pheasantbrush, Brindletooth, and Prancelaurel took a sunbath and had a little small talk. (positive effect)- Brindletooth was 24 moons old",
             "Brindletooth heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "70",
@@ -656,15 +654,19 @@
         "family": false,
         "romance": 25,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": -11,
         "trust": 0,
         "log": [
             "Brindletooth overheard a joke from Mossflight they didn't get. (low negative effect) - Brindletooth was 29 moons old",
             "Brindletooth is admiring Mossflight from afar... (low positive effect) - Brindletooth was 37 moons old",
-            "Brindletooth wonders why Mossflight keeps spending time with them when others usually don't like their attitude, but they certainly won't object. (medium positive effect) - Brindletooth was 55 moons old"
+            "Brindletooth wonders why Mossflight keeps spending time with them when others usually don't like their attitude, but they certainly won't object. (medium positive effect) - Brindletooth was 55 moons old",
+            "Brindletooth and Mossflight successfully gathered herbs together despite the rainy weather. (positive effect) - Brindletooth was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -787,15 +789,20 @@
         "family": false,
         "romance": 0,
         "like": -9,
-        "respect": 52,
+        "respect": 59,
         "comfort": 6,
         "trust": 4,
         "log": [
             "Brindlekit thinks Verbenakit is being thoughtful of others. (medium positive effect)- Brindlekit was 1 moon old",
             "Brindletooth wasn't going to help a Clanmate, but realized that Verbenabloom would do it in a heartbeat. (medium positive effect)- Brindletooth was 25 moons old",
-            "Brindletooth notices that Verbenabloom is always one of the first to volunteer for a difficult task. (medium positive effect)- Brindletooth was 26 moons old"
+            "Brindletooth notices that Verbenabloom is always one of the first to volunteer for a difficult task. (medium positive effect)- Brindletooth was 26 moons old",
+            "Brindletooth and Verbenabloom successfully gathered herbs together despite the rainy weather. (positive effect) - Brindletooth was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -840,10 +847,7 @@
             "Brindletooth and Fluttershade chatted and gossiped while gathering mallow and betony together. (positive effect) - Brindletooth was 56 moons old",
             "Brindletooth heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "70",
@@ -852,7 +856,7 @@
         "family": false,
         "romance": 79,
         "like": 63,
-        "respect": 29,
+        "respect": 36,
         "comfort": 52,
         "trust": 66,
         "log": [
@@ -874,7 +878,8 @@
             "Spittle and flecks of bone fly while Skulkwillow gobbles down prey, reminding Brindletooth, Hushshimmer, and Peakspore to seek out better mealtime companionship next time. (negative effect) - Brindletooth was 53 moons old",
             "Brindletooth and Skulkwillow chatted and gossiped while gathering mallow and betony together. (positive effect) - Brindletooth was 56 moons old",
             "Brindletooth purrs for a long time at one of Skulkwillow's lame jokes. (high positive effect) - Brindletooth was 58 moons old",
-            "Skulkwillow tells Fluttershade, Hushshimmer, and Brindletooth a story that earns more skepticism than admiration. (negative effect) - Brindletooth was 59 moons old"
+            "Skulkwillow tells Fluttershade, Hushshimmer, and Brindletooth a story that earns more skepticism than admiration. (negative effect) - Brindletooth was 59 moons old",
+            "Brindletooth and Skulkwillow successfully gathered herbs together despite the rainy weather. (positive effect) - Brindletooth was 61 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1206,7 +1211,7 @@
         "romance": 0,
         "like": 11,
         "respect": 6,
-        "comfort": 14,
+        "comfort": 6,
         "trust": 51,
         "log": [
             "Brindlepaw didn't think it would be too hard to watch the kits, but Talonkit, Sardinekit, Frondkit, and Poolkit prove that thought very, very wrong. (negative effect)- Brindlepaw was 9 moons old",
@@ -1221,9 +1226,12 @@
             "Brindletooth was impressed by Poolleaf's confidence in fighting rogues. (positive effect) - Brindletooth was 47 moons old",
             "Poolleaf tells Brindletooth that she was worried about them. (low positive effect) - Brindletooth was 50 moons old",
             "Poolleaf's eagerness to do early morning stretches rubs off on Ospreyspeckle, Brindletooth, Heavythud, and Primfreckle. (positive effect) - Brindletooth was 52 moons old",
-            "Brindletooth and Poolleaf work well on a patrol together. (medium positive effect) - Brindletooth was 53 moons old"
+            "Brindletooth and Poolleaf work well on a patrol together. (medium positive effect) - Brindletooth was 53 moons old",
+            "Brindletooth notices a strange glint in Poolleaf's eyes. (low negative effect) - Brindletooth was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -1472,12 +1480,17 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Brindletooth was 60 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -1705,14 +1718,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 13,
         "trust": 0,
         "log": [
-            "Brindletooth and Shadowpaw often look at each other and smile knowingly about something. (low positive effect) - Brindletooth was 38 moons old"
+            "Brindletooth and Shadowpaw often look at each other and smile knowingly about something. (low positive effect) - Brindletooth was 38 moons old",
+            "Shadowfreckle compliments Brindletooth's name. (low positive effect) - Brindletooth was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -1993,9 +2009,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 17,
+        "log": [
+            "Brindletooth and Midnighthaze find a hidden part of the territory and keep it a secret together. (medium positive effect) - Brindletooth was 61 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2016,15 +2036,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 24,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": -10,
         "log": [
             "Brindletooth heard that Ospreypaw had a serious conversation with a kittypet. (negative effect) - Brindletooth was 44 moons old",
-            "Poolleaf's eagerness to do early morning stretches rubs off on Ospreyspeckle, Brindletooth, Heavythud, and Primfreckle. (positive effect) - Brindletooth was 52 moons old"
+            "Poolleaf's eagerness to do early morning stretches rubs off on Ospreyspeckle, Brindletooth, Heavythud, and Primfreckle. (positive effect) - Brindletooth was 52 moons old",
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2236,12 +2261,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Brindletooth was 60 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2349,7 +2379,7 @@
         "family": false,
         "romance": 0,
         "like": 40,
-        "respect": 10,
+        "respect": 17,
         "comfort": 7,
         "trust": 0,
         "log": [
@@ -2357,7 +2387,8 @@
             "Brindletooth and Minnowlily successfully gathered daisies together. (positive effect) - Brindletooth was 52 moons old",
             "Brindletooth appreciated that Minnowlily let them bring a sprig of tansy back to their den to freshen the air. (positive effect) - Brindletooth was 55 moons old",
             "Brindletooth and Minnowlily chatted and gossiped while gathering mallow and betony together. (positive effect) - Brindletooth was 56 moons old",
-            "Brindletooth wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Brindletooth was 60 moons old"
+            "Brindletooth wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Brindletooth was 60 moons old",
+            "Brindletooth and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Brindletooth was 61 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2371,14 +2402,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Brindletooth heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Brindletooth was 55 moons old"
+            "Brindletooth heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Brindletooth was 55 moons old",
+            "Brindletooth tells Coquitostep to talk a little quieter. (low negative effect) - Brindletooth was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2444,11 +2478,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Brindletooth and Heathstripe successfully gathered herbs together despite the rainy weather. (positive effect) - Brindletooth was 61 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2517,9 +2555,7 @@
         "log": [
             "Brindletooth worries that one of their friends prefers Frognose. (medium negative effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "70",
@@ -2540,14 +2576,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 22,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Brindletooth was amused by Brindlekit's daring adventure out of camp. (positive effect) - Brindletooth was 57 moons old"
+            "Brindletooth was amused by Brindlekit's daring adventure out of camp. (positive effect) - Brindletooth was 57 moons old",
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "70",
@@ -2575,10 +2616,7 @@
         "log": [
             "Brindletooth snaps at Driftstripe to leave them alone. (high negative effect) - Brindletooth was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "70",
@@ -2596,6 +2634,45 @@
     {
         "cat_from_id": "70",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "70",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "70",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "70",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

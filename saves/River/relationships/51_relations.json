@@ -327,7 +327,7 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 78,
+        "like": 86,
         "respect": 85,
         "comfort": 100,
         "trust": 82,
@@ -341,7 +341,9 @@
             "Carptail soothes Warmswirl about a bad dream he had. (medium positive effect)- Warmswirl was 27 moons old",
             "Flightsplash, Mossflight, Frondpad, and Carptail attend a get-together Warmswirl hosts and have a newfound appreciation for each other. (positive effect) - Warmswirl was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -837,9 +839,7 @@
             "Warmswirl doesn't shy away from Hushshimmer's presence. (high positive effect) - Warmswirl was 52 moons old",
             "Warmswirl heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -973,19 +973,22 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 8,
-        "respect": 35,
-        "comfort": -4,
-        "trust": 13,
+        "like": 12,
+        "respect": 51,
+        "comfort": 1,
+        "trust": 18,
         "log": [
             "Warmswirl is prancing around in front of Fleadusk. (low positive effect)- Warmswirl was 22 moons old",
             "Warmswirl realizes that a strange smell in camp is coming from Fleadusk. (medium negative effect)- Warmswirl was 23 moons old",
             "These cats enjoyed fantastical stories together while stuck in the den. (positive effect)- Warmswirl was 24 moons old",
             "Warmswirl tells a story to Fleadusk and Fleadusk suggests how to make it even better. (medium positive effect) - Warmswirl was 37 moons old",
             "Warmswirl heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old",
-            "Fleadusk, Mewhoney, and Warmswirl took a sunbath and had a little small talk. (positive effect) - Warmswirl was 60 moons old"
+            "Fleadusk, Mewhoney, and Warmswirl took a sunbath and had a little small talk. (positive effect) - Warmswirl was 60 moons old",
+            "Warmswirl calls out a Clanmate for spreading a rumor about Fleadusk. (high positive effect) - Warmswirl was 71 moons old"
         ],
         "no_longer_neutral": [
+            "like",
+            "respect",
             "trust"
         ]
     },
@@ -1269,9 +1272,7 @@
         "log": [
             "Warmswirl notices that Icyriver brought him a big piece of prey. (medium positive effect) - Warmswirl was 64 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1387,10 +1388,7 @@
             "Warmswirl could recognize Voletuft just by the sound of their paw steps. (high positive effect) - Warmswirl was 50 moons old",
             "Voletuft brought Warmswirl and other Clanmates warm bedding for a cold night. (medium positive effect) - Warmswirl was 65 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -1554,9 +1552,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Snakedrop says something vulnerable to Warmswirl. (low positive effect) - Warmswirl was 70 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1631,11 +1633,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Oddmuzzle draws a pretty symbol in the sand that Warmswirl makes sure not to mess up. (low positive effect) - Warmswirl was 71 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1678,9 +1684,7 @@
         "log": [
             "Warmswirl and Daisymoor purr about something small together. (medium positive effect) - Warmswirl was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -2038,9 +2042,7 @@
         "log": [
             "Warmswirl chats with Swallowstripe about his day. (medium positive effect) - Warmswirl was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "51",
@@ -2064,11 +2066,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Warmswirl is sparring with Midnighthaze. (medium positive effect) - Warmswirl was 70 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -2646,6 +2652,45 @@
     {
         "cat_from_id": "51",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

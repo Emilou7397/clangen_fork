@@ -75,10 +75,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Howlshine heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Howlshine was 19 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -807,13 +809,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Howlkit heard Mallowpelt fell asleep guarding camp. (negative effect) - Howlkit was 5 moons old"
+            "Howlkit heard Mallowpelt fell asleep guarding camp. (negative effect) - Howlkit was 5 moons old",
+            "Howlshine disapproved of Mallowpelt wearing a collar. (negative effect) - Howlshine was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -849,14 +854,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": -8,
         "respect": 0,
         "comfort": -5,
         "trust": 0,
         "log": [
-            "Howlkit noticed that Flutterfeather was in a foul mood. (negative effect) - Howlkit was 5 moons old"
+            "Howlkit noticed that Flutterfeather was in a foul mood. (negative effect) - Howlkit was 5 moons old",
+            "Flutterfeather stepped on Howlshine's paw and pretended not to notice. (low negative effect) - Howlshine was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -919,12 +927,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shimmerrunner eats as ravenously as a wolverine and by the time she's done, Howlshine, Kiwifoot, and Paellapad barely have the stomach to finish their own meals. (negative effect) - Howlshine was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1039,13 +1052,14 @@
         "cat_to_id": "109",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 0,
         "respect": 15,
         "comfort": 0,
         "trust": 15,
         "log": [
-            "Howlshine heard about Daisymoor's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old"
+            "Howlshine heard about Daisymoor's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old",
+            "Howlshine just barely missed a mouse, but Daisymoor caught it right after, handing it off to him. (medium positive effect) - Howlshine was 21 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1436,9 +1450,7 @@
             "Howlshine was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Howlshine was 17 moons old",
             "Howlshine and Pigmentpelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Howlshine was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1560,12 +1572,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlshine and Miteleaf have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Howlshine was 21 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1680,12 +1696,7 @@
             "Howlshine was impressed by how Shinebelly caught a squirrel fighting with a rattlesnake. (positive effect) - Howlshine was 17 moons old",
             "Howlshine associates his favorite smell with Shinebelly. (high positive effect) - Howlshine was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1719,12 +1730,7 @@
             "Howlshine enjoyed driving away rogues with Marshnose. (positive effect) - Howlshine was 16 moons old",
             "Howlshine and Marshnose stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Howlshine was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1735,12 +1741,15 @@
         "like": 5,
         "respect": -5,
         "comfort": 0,
-        "trust": -5,
+        "trust": 8,
         "log": [
             "Howlshine heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Howlshine was 13 moons old",
-            "Sandpaw was very considerate while on patrol with Howlshine. (positive effect) - Howlshine was 15 moons old"
+            "Sandpaw was very considerate while on patrol with Howlshine. (positive effect) - Howlshine was 15 moons old",
+            "Sandthrush sends a Clanmate to help Howlshine with something he's struggling with. (low positive effect) - Howlshine was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1908,9 +1917,7 @@
         "log": [
             "Though Howlshine asks around, he can't find Frognose anywhere. (low negative effect) - Howlshine was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1980,6 +1987,45 @@
     {
         "cat_from_id": "166",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

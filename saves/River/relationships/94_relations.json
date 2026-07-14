@@ -232,7 +232,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [],
         "no_longer_neutral": []
     },
@@ -655,16 +655,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 3,
+        "like": -12,
+        "respect": -9,
         "comfort": 12,
         "trust": 15,
         "log": [
             "Mossflight appreciates Peakspore, Sardinespeckle, Shimmerpaw, and Prancelaurel joining her to stretch late into the night so she wouldn't be alone. (positive effect)- Shimmerpaw was 6 moons old",
             "Shimmerrunner heard about Mossflight's victory in battle against a gang of rogues. (positive effect) - Shimmerrunner was 22 moons old",
-            "Mossflight tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Shimmerrunner and Icyriver. (negative effect) - Shimmerrunner was 28 moons old"
+            "Mossflight tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Shimmerrunner and Icyriver. (negative effect) - Shimmerrunner was 28 moons old",
+            "Mossflight returned to the warrior's den dripping mud everywhere and managed to ruin Shimmerrunner and Dancingscreech's nests. (negative effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -797,9 +803,7 @@
             "Shimmerrunner notices a strange glint in Verbenabloom's eyes. (low negative effect) - Shimmerrunner was 22 moons old",
             "Shimmerrunner and Verbenabloom enjoy the rain together. (low positive effect) - Shimmerrunner was 40 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -815,9 +819,7 @@
             "Shimmerrunner heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 37 moons old",
             "Fleadusk says something vulnerable to Shimmerrunner. (low positive effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -884,15 +886,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": -4,
-        "comfort": 4,
-        "trust": 16,
+        "like": 10,
+        "respect": 24,
+        "comfort": 25,
+        "trust": 20,
         "log": [
             "Shimmerrunner sees a Clanmate complimenting Heavythud and feels a pang of envy. (low negative effect)- Shimmerrunner was 13 moons old",
-            "Shimmerrunner feels safe with Heavythud around. (high positive effect) - Shimmerrunner was 35 moons old"
+            "Shimmerrunner feels safe with Heavythud around. (high positive effect) - Shimmerrunner was 35 moons old",
+            "Shimmerrunner finds comfort in the quiet of Heavythud's medicine den. (medium positive effect) - Shimmerrunner was 49 moons old",
+            "Shimmerrunner and Heavythud learn a lot about each other when they're stuck in a den during a storm. (high positive effect) - Shimmerrunner was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -913,10 +922,7 @@
             "Shimmerrunner and Elmtrail worked together to gather plantain. (positive effect) - Shimmerrunner was 43 moons old",
             "Shimmerrunner and Elmtrail enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -979,12 +985,7 @@
             "Shinefur lets Shimmerrunner know that a Clanmate was talking badly about her. (low positive effect) - Shimmerrunner was 41 moons old",
             "Shimmerrunner and Shinefur enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -1256,11 +1257,7 @@
             "Shimmerrunner was amazed to encounter a ghost while patrolling with Saltknoll. (positive effect) - Shimmerrunner was 45 moons old",
             "Shimmerrunner and Saltknoll enjoyed a little competition while gathering oak and elder leaves. (positive effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -1318,8 +1315,8 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 37,
-        "respect": 17,
+        "like": 29,
+        "respect": 9,
         "comfort": 46,
         "trust": 16,
         "log": [
@@ -1330,9 +1327,15 @@
             "Shimmerrunner and Skiphare are chatting about what they're doing today. (medium positive effect) - Shimmerrunner was 21 moons old",
             "Skiphare spent a whole training patrol gossiping and asking invasive questions about Shimmerrunner's personal life. (negative effect) - Shimmerrunner was 23 moons old",
             "Shimmerrunner and Skiphare practiced teamwork on a training patrol. (positive effect) - Shimmerrunner was 27 moons old",
-            "Shimmerrunner and Skiphare worked together to gather betony. (positive effect) - Shimmerrunner was 32 moons old"
+            "Shimmerrunner and Skiphare worked together to gather betony. (positive effect) - Shimmerrunner was 32 moons old",
+            "Skiphare complained about his patrol assignment all day, much to the annoyance of Shimmerrunner, Dancingscreech, and Howlpaw. (negative effect) - Shimmerrunner was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -1400,9 +1403,7 @@
             "Shimmerrunner told Dancingfleck to stop padding after her like a lost kit. (medium negative effect) - Shimmerrunner was 37 moons old",
             "Dancingfleck respects Shimmerrunner's opinion despite disagreeing with it. (low positive effect) - Shimmerrunner was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -1431,13 +1432,16 @@
         "like": 5,
         "respect": 5,
         "comfort": 0,
-        "trust": 22,
+        "trust": 14,
         "log": [
             "Shimmerrunner and Gentleghost had a productive training patrol together. (positive effect) - Shimmerrunner was 18 moons old",
             "Shimmerrunner was impressed by Gentleghost's hunting prowess. (positive effect) - Shimmerrunner was 20 moons old",
-            "Shimmerrunner offers to take Gentleghost's place on a patrol when he isn't feeling well. (medium positive effect) - Shimmerrunner was 33 moons old"
+            "Shimmerrunner offers to take Gentleghost's place on a patrol when he isn't feeling well. (medium positive effect) - Shimmerrunner was 33 moons old",
+            "Gentleghost snitches on Shimmerrunner for something minor. (low negative effect) - Shimmerrunner was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -2008,11 +2012,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Shimmerrunner enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Shimmerrunner was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2429,12 +2435,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 8,
+        "comfort": 21,
+        "trust": 8,
+        "log": [
+            "Shimmerrunner overhears Ashenkit saying something nice about her. (high positive effect) - Shimmerrunner was 48 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -2495,6 +2508,45 @@
     {
         "cat_from_id": "94",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "94",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "94",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "94",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -628,8 +628,10 @@
         "like": 20,
         "respect": 0,
         "comfort": 20,
-        "trust": 10,
-        "log": [],
+        "trust": -2,
+        "log": [
+            "Blotchstripe thinks that Fluttershade spread a rumor about her. (medium negative effect) - Blotchstripe was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1101,11 +1103,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1157,12 +1162,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Blotchstripe makes up a new Clan with Daisymoor. (medium positive effect) - Blotchstripe was 32 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1208,18 +1217,24 @@
         "cat_to_id": "116",
         "mates": true,
         "family": false,
-        "romance": 62,
-        "like": 14,
-        "respect": 20,
-        "comfort": 46,
-        "trust": 17,
+        "romance": 83,
+        "like": 21,
+        "respect": 26,
+        "comfort": 52,
+        "trust": 23,
         "log": [
             "Blotchkit sees Waspkit staring off into the distance. It's kind of creepy. (low negative effect) - Blotchkit was 3 moons old",
             "Blotchkit shares a joke about a neighboring Clan with Waspkit. (low positive effect) - Blotchkit was 4 moons old",
             "Blotchstripe decorates Wasppelt's nest with flowers to surprise her! (high positive effect) - Blotchstripe was 25 moons old",
-            "Blotchstripe is prancing around in front of Wasppelt. (low positive effect) - Blotchstripe was 26 moons old"
+            "Blotchstripe is prancing around in front of Wasppelt. (low positive effect) - Blotchstripe was 26 moons old",
+            "Blotchstripe and Wasppelt snuck out of camp together. (high positive effect) - Blotchstripe was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1403,12 +1418,7 @@
             "Blotchpaw laughs at bad jokes from Gorgepaw. (medium positive effect) - Blotchpaw was 11 moons old",
             "Blotchstripe is glad to have a Clanmate like Gorgehunt. (high positive effect) - Blotchstripe was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1579,11 +1589,7 @@
         "log": [
             "Blotchstripe notices that Braveocean is always one of the first to volunteer for a difficult task. (medium positive effect) - Blotchstripe was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1621,12 +1627,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -16,
+        "comfort": -4,
+        "trust": -6,
+        "log": [
+            "Blotchstripe scolds Heathbeetle about something she did, but Heathbeetle doesn't take her seriously. (high negative effect) - Blotchstripe was 33 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1694,9 +1705,7 @@
             "Blotchstripe suspects Meadowspots lied about something trivial. (low negative effect) - Blotchstripe was 29 moons old",
             "Meadowspots keeps asking Blotchstripe if she trusts her. (low negative effect) - Blotchstripe was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -2027,12 +2036,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -2080,10 +2091,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Blotchstripe sees a glimmer of determination in Kinkpaw's eyes. (low positive effect) - Blotchstripe was 33 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2172,6 +2185,45 @@
     {
         "cat_from_id": "120",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

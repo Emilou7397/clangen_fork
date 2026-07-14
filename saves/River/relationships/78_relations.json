@@ -370,17 +370,20 @@
         "cat_to_id": "19",
         "mates": false,
         "family": false,
-        "romance": 8,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 5,
+        "romance": 0,
+        "like": -4,
+        "respect": 0,
+        "comfort": -6,
+        "trust": -1,
         "log": [
             "Paellapad and Yewheather had a successful hunt together. (positive effect)- Paellapad was 64 moons old",
             "Paellapad heard about how Yewstar's patrol drove off a scavenging fox. (positive effect)- Paellapad was 67 moons old",
-            "Paellapad gets a little irritated seeing Yewstar ignore a mess in camp. (low negative effect) - Paellapad was 87 moons old"
+            "Paellapad gets a little irritated seeing Yewstar ignore a mess in camp. (low negative effect) - Paellapad was 87 moons old",
+            "Paellapad catches Yewstar staring at another cat. (high negative effect) - Paellapad was 111 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "78",
@@ -469,11 +472,7 @@
             "Fidgetmouse, Paellapad, Pebblechase, Bitterleaf, and Prancelaurel blow off steam by stretching with and venting to each other. (positive effect) - Paellapad was 99 moons old",
             "Paellapad heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Paellapad was 109 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -673,18 +672,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 12,
+        "like": 5,
+        "respect": -6,
+        "comfort": 5,
+        "trust": -4,
         "log": [
             "Paellapad and Gardeniaglow watch one another's back on a patrol. (medium positive effect)- Paellapad was 71 moons old",
-            "Paellapad and Gardeniaglow enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Paellapad was 108 moons old"
+            "Paellapad and Gardeniaglow enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Paellapad was 108 moons old",
+            "Paellapad goes to tell a secret to Gardeniaglow only for Gardeniaglow to tell someone else's secret to her. (high negative effect) - Paellapad was 111 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
+            "respect"
         ]
     },
     {
@@ -840,10 +838,7 @@
             "Paellapad and Fluttershade enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Paellapad was 108 moons old",
             "Paellapad heard about how Fluttershade's patrol killed a scavenging fox. (positive effect) - Paellapad was 109 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -976,9 +971,7 @@
             "Sardinespeckle complained so relentlessly about her patrol assignment that Blizzardstripe, Paellapad, and Poolleaf could only sigh and bear it. (negative effect) - Paellapad was 81 moons old",
             "Paellapad remembers something nice that Sardinespeckle did. (low positive effect) - Paellapad was 109 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -1297,12 +1290,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 8,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shimmerrunner eats as ravenously as a wolverine and by the time she's done, Howlshine, Kiwifoot, and Paellapad barely have the stomach to finish their own meals. (negative effect) - Paellapad was 110 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "78",
@@ -1392,9 +1391,7 @@
             "Paellapad finds the way Hollyheart acts increasingly uncomfortable. (medium negative effect) - Paellapad was 100 moons old",
             "Paellapad and Hollyheart enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Paellapad was 108 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -1440,9 +1437,7 @@
             "Paellapad turns to Oddmuzzle in a time of need. (medium positive effect) - Paellapad was 77 moons old",
             "Oddmuzzle uses one of Paellapad's fears against her. (high negative effect) - Paellapad was 109 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -1450,14 +1445,21 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
-        "respect": 0,
-        "comfort": 5,
-        "trust": 8,
+        "like": -18,
+        "respect": -16,
+        "comfort": 0,
+        "trust": 6,
         "log": [
-            "Paellapad enjoyed the chat Mallardfeather started up with a HibiscusClan patrol. (positive effect)- Paellapad was 72 moons old"
+            "Paellapad enjoyed the chat Mallardfeather started up with a HibiscusClan patrol. (positive effect)- Paellapad was 72 moons old",
+            "Mallardfeather tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Paellapad and Icyriver. (negative effect) - Paellapad was 109 moons old",
+            "Paellapad doubts whether Mallardfeather even likes her at all... (high negative effect) - Paellapad was 110 moons old",
+            "Mallardfeather says something vulnerable to Paellapad. (low positive effect) - Paellapad was 110 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "78",
@@ -1573,12 +1575,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Paellapad was amused when Shadowfreckle got an octopus stuck on his head while trying to catch it for the fresh-kill pile. (positive effect) - Paellapad was 110 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "78",
@@ -1990,11 +1997,7 @@
             "Meadowspots points out that Paellapad's fresh-kill has gone bad before she eats it. (medium positive effect) - Paellapad was 99 moons old",
             "Paellapad heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Paellapad was 109 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "78",
@@ -2455,6 +2458,45 @@
     {
         "cat_from_id": "78",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "78",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "78",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "78",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,

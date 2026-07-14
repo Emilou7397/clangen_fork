@@ -157,10 +157,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Dancingfleck heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Dancingfleck was 46 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -169,12 +171,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -4,
+        "comfort": -16,
+        "trust": -4,
+        "log": [
+            "Dancingfleck sees a darkness in Ochretail's eyes. (high negative effect) - Dancingfleck was 47 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -416,10 +422,7 @@
             "Dancingfleck and Prancelaurel defended their Clan at the Gathering together. (high positive effect) - Dancingfleck was 33 moons old",
             "Dancingfleck heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Dancingfleck was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
@@ -926,15 +929,20 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
             "Dancingfleck heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 36 moons old",
-            "Dancingfleck is prancing around in front of Brindletooth. (low positive effect) - Dancingfleck was 45 moons old"
+            "Dancingfleck is prancing around in front of Brindletooth. (low positive effect) - Dancingfleck was 45 moons old",
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Dancingfleck was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1123,10 +1131,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -11,
-        "respect": 5,
-        "comfort": 5,
-        "trust": 0,
+        "like": 10,
+        "respect": 13,
+        "comfort": 12,
+        "trust": 7,
         "log": [
             "Pheasantbrush pesters Dancingpaw, Hailpaw, Shimmerpaw, and Volepaw into helping her with repairs across camp. (negative effect)- Dancingpaw was 6 moons old",
             "Dancingpaw notices that Pheasantbrush always gets better fresh-kill to eat. (high negative effect)- Dancingpaw was 9 moons old",
@@ -1134,9 +1142,15 @@
             "Dancingfleck and Pheasantbrush fight over a piece of prey, but soon decide to share it instead. (high positive effect) - Dancingfleck was 33 moons old",
             "Dancingfleck heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Dancingfleck was 35 moons old",
             "Dancingfleck and Pheasantbrush took a lovely nap together instead of patrolling. (positive effect) - Dancingfleck was 38 moons old",
-            "Dancingfleck always assumes the worst of Pheasantbrush. (high negative effect) - Dancingfleck was 44 moons old"
+            "Dancingfleck always assumes the worst of Pheasantbrush. (high negative effect) - Dancingfleck was 44 moons old",
+            "Dancingfleck and Pheasantbrush worked well together on a patrol. (high positive effect) - Dancingfleck was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1161,15 +1175,18 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 5,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Dancingfleck thanks Mallowpelt for covering for him during a patrol earlier. (medium positive effect) - Dancingfleck was 16 moons old",
             "Dancingfleck heard Mallowpelt fell asleep guarding camp. (negative effect) - Dancingfleck was 32 moons old",
-            "Dancingfleck was impressed by Mallowpelt's battle with a skua. (positive effect) - Dancingfleck was 39 moons old"
+            "Dancingfleck was impressed by Mallowpelt's battle with a skua. (positive effect) - Dancingfleck was 39 moons old",
+            "Dancingfleck disapproved of Mallowpelt wearing a collar. (negative effect) - Dancingfleck was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1951,15 +1968,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 37,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 24,
         "trust": -10,
         "log": [
             "Dancingfleck heard that Ospreypaw had a serious conversation with a kittypet. (negative effect) - Dancingfleck was 30 moons old",
-            "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Dancingfleck was 45 moons old"
+            "Late into the evening, Wasppelt invites Ospreyspeckle, Snookbumble, Dancingfleck, and Shadowfreckle to stretch with them and enjoy each other's company. (positive effect) - Dancingfleck was 45 moons old",
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Dancingfleck was 46 moons old",
+            "Ospreyspeckle guides Dancingfleck to someone he is looking for. (low positive effect) - Dancingfleck was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2053,13 +2076,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Dancingfleck heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Dancingfleck was 46 moons old"
+            "Dancingfleck heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Dancingfleck was 46 moons old",
+            "Dancingfleck appreciated that Meadowspots checked with a medicine cat before gathering herbs on a hunting patrol. (positive effect) - Dancingfleck was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2182,12 +2208,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": -3,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Dancingfleck was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2273,9 +2304,7 @@
         "log": [
             "Dancingfleck heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Dancingfleck was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
@@ -2377,21 +2406,21 @@
         "log": [
             "Garlicberry vents about something trivial to Dancingfleck. (low positive effect) - Dancingfleck was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "96",
         "cat_to_id": "174",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Dancingfleck feels giddy about getting on the same patrol as Heathstripe. (medium positive effect) - Dancingfleck was 48 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2481,12 +2510,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Dancingfleck was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2530,6 +2564,47 @@
     {
         "cat_from_id": "96",
         "cat_to_id": "193",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "199",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 13,
+        "log": [],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "200",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "203",
         "mates": false,
         "family": false,
         "romance": 0,
