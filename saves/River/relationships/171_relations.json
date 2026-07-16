@@ -101,12 +101,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": -4,
+        "respect": -6,
+        "comfort": -4,
+        "trust": -4,
         "log": [
-            "Coquitostep heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 74 moons old"
+            "Coquitostep heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 74 moons old",
+            "Coquitostep sees Bitterleaf lazing about in the sunshine and is resentful at how little he's expected to contribute. (high negative effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -116,7 +117,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
+        "like": 19,
         "respect": 17,
         "comfort": 21,
         "trust": 7,
@@ -124,7 +125,9 @@
             "Coquitostep heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 74 moons old",
             "Primfreckle says something very sincere and comforting to Coquitostep. (high positive effect) - Coquitostep was 77 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -177,13 +180,16 @@
         "family": false,
         "romance": 0,
         "like": 2,
-        "respect": 0,
+        "respect": -5,
         "comfort": -8,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Coquitostep and Carptail successfully gathered burdock together. (positive effect) - Coquitostep was 73 moons old"
+            "Coquitostep and Carptail successfully gathered burdock together. (positive effect) - Coquitostep was 73 moons old",
+            "Coquitostep heard that Carptail touched noses with a rogue. (negative effect) - Coquitostep was 89 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -214,10 +220,7 @@
         "log": [
             "Coquitostep and Algaepool bring each other prey. (medium positive effect) - Coquitostep was 84 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -264,11 +267,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -8,
+        "respect": -21,
+        "comfort": -7,
+        "trust": -7,
+        "log": [
+            "Coquitostep doesn't get why Archbellow gets big, juicy prey just because of his age. (high negative effect) - Coquitostep was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -298,9 +303,7 @@
             "Coquitostep heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 74 moons old",
             "Coquitostep is frustrated after finishing a task that Bitebone was supposed to do. (medium negative effect) - Coquitostep was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -311,9 +314,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -408,12 +413,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
-        "trust": -3,
+        "comfort": 5,
+        "trust": 2,
         "log": [
-            "Coquitostep has to snap Freezefoot out of a daze to ask a question. (low negative effect) - Coquitostep was 81 moons old"
+            "Coquitostep has to snap Freezefoot out of a daze to ask a question. (low negative effect) - Coquitostep was 81 moons old",
+            "Coquitostep was glad Freezefoot acknowledged his abilities. (positive effect) - Coquitostep was 86 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -423,11 +429,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 5,
+        "respect": -5,
+        "comfort": 5,
+        "trust": -5,
+        "log": [
+            "Coquitostep heard Gardeniaglow fell asleep guarding camp. (negative effect) - Coquitostep was 86 moons old",
+            "Coquitostep was glad Gardeniaglow acknowledged his abilities. (positive effect) - Coquitostep was 86 moons old",
+            "Coquitostep heard Gardeniaglow fell asleep guarding camp. (negative effect) - Coquitostep was 89 moons old",
+            "Coquitostep heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Coquitostep was 91 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -535,13 +546,14 @@
         "mates": false,
         "family": false,
         "romance": 16,
-        "like": 6,
-        "respect": 15,
-        "comfort": 4,
-        "trust": 4,
+        "like": 22,
+        "respect": 20,
+        "comfort": 10,
+        "trust": 8,
         "log": [
             "Coquitostep heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 73 moons old",
-            "Coquitostep gives Fleadusk a beautiful feather he found, and hides behind his whiskers when thanked. (high positive effect) - Coquitostep was 76 moons old"
+            "Coquitostep gives Fleadusk a beautiful feather he found, and hides behind his whiskers when thanked. (high positive effect) - Coquitostep was 76 moons old",
+            "Coquitostep and Fleadusk enjoy each other's company. (high positive effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -565,15 +577,20 @@
         "cat_to_id": "64",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 21,
         "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "respect": 18,
+        "comfort": -1,
+        "trust": 7,
         "log": [
-            "Coquitostep heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 73 moons old"
+            "Coquitostep heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 73 moons old",
+            "Coquitostep saves a piece of prey for Skulkwillow because he knows it's his favorite. (high positive effect) - Coquitostep was 87 moons old",
+            "Skulkwillow eats as ravenously as a wolverine and by the time he's done, Brindletooth, Elmtrail, Coquitostep, and Hushshimmer barely have the stomach to finish their own meals. (negative effect) - Coquitostep was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -609,11 +626,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 4,
+        "respect": 3,
+        "comfort": 2,
+        "trust": -2,
+        "log": [
+            "Coquitostep finds out something small about Heavythud that Heavythud had lied about before. (low negative effect) - Coquitostep was 86 moons old",
+            "Coquitostep doesn't shy away from Heavythud's presence. (high positive effect) - Coquitostep was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -625,9 +645,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Coquitostep is prancing around in front of Elmtrail. (low positive effect) - Coquitostep was 80 moons old"
+            "Coquitostep is prancing around in front of Elmtrail. (low positive effect) - Coquitostep was 80 moons old",
+            "Elmtrail and Coquitostep drove off a scavenging fox together. (positive effect) - Coquitostep was 90 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -644,9 +665,7 @@
         "log": [
             "Coquitostep heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -654,13 +673,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 17,
-        "comfort": 0,
-        "trust": 5,
+        "like": 5,
+        "respect": 27,
+        "comfort": 5,
+        "trust": 20,
         "log": [
             "Pheasantbrush, Sardinespeckle, Heathbeetle, and Coquitostep are enthralled by Reedheart's eloquence. (positive effect) - Coquitostep was 77 moons old",
-            "Coquitostep heard that Reedheart chased a rogue off the territory. (positive effect) - Coquitostep was 80 moons old"
+            "Coquitostep heard that Reedheart chased a rogue off the territory. (positive effect) - Coquitostep was 80 moons old",
+            "Coquitostep was glad Reedheart acknowledged his abilities. (positive effect) - Coquitostep was 86 moons old",
+            "Coquitostep gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Coquitostep was 87 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -675,9 +696,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -713,12 +732,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -3,
+        "respect": -3,
+        "comfort": -3,
+        "trust": -16,
+        "log": [
+            "Coquitostep heard Frondpad fell asleep guarding camp. (negative effect) - Coquitostep was 90 moons old",
+            "Coquitostep lied to Frondpad's face. (high negative effect) - Coquitostep was 91 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -743,10 +767,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -755,11 +781,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "During rough weather, Icyriver helps Coquitostep get safely to his den. (medium positive effect) - Coquitostep was 90 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -820,12 +850,7 @@
             "Mallowpelt was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old",
             "Coquitostep disapproved of Mallowpelt wearing a collar. (negative effect) - Coquitostep was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -849,8 +874,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Voletuft and Coquitostep drove off a scavenging fox together. (positive effect) - Coquitostep was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -913,11 +940,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Coquitostep and Hailfreckle enjoyed brushing up on their hunting tricks together. (positive effect) - Coquitostep was 89 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -926,12 +955,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 15,
         "respect": 0,
         "comfort": 10,
-        "trust": 23,
+        "trust": 28,
         "log": [
-            "Shimmerrunner was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old"
+            "Shimmerrunner was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old",
+            "Coquitostep and Shimmerrunner enjoyed brushing up on their hunting tricks together. (positive effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -957,14 +987,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
-        "respect": -12,
+        "like": -7,
+        "respect": -2,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Snakedrop returned to the warrior's den dripping mud everywhere and managed to ruin Butterflyglide, Coquitostep, and Gardeniaglow's nests. (negative effect) - Coquitostep was 77 moons old"
+            "Snakedrop returned to the warrior's den dripping mud everywhere and managed to ruin Butterflyglide, Coquitostep, and Gardeniaglow's nests. (negative effect) - Coquitostep was 77 moons old",
+            "Coquitostep and Snakedrop enjoyed brushing up on their hunting tricks together. (positive effect) - Coquitostep was 89 moons old",
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Coquitostep. (positive effect) - Coquitostep was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -975,9 +1009,10 @@
         "like": 3,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 3,
         "log": [
-            "Coquitostep can't help but admire Hollyheart's pelt. (low positive effect) - Coquitostep was 77 moons old"
+            "Coquitostep can't help but admire Hollyheart's pelt. (low positive effect) - Coquitostep was 77 moons old",
+            "Hollyheart vents about something trivial to Coquitostep. (low positive effect) - Coquitostep was 92 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1005,8 +1040,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Kiwifoot and Coquitostep drove off a scavenging fox together. (positive effect) - Coquitostep was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1041,12 +1078,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 15,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 15,
         "log": [
-            "Antlerthorn was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old"
+            "Antlerthorn was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old",
+            "Coquitostep and Antlerthorn enjoyed brushing up on their hunting tricks together. (positive effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1056,12 +1094,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 15,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 15,
         "log": [
-            "Daisymoor was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old"
+            "Daisymoor was part of the patrol that saved Coquito from a dog. (positive effect) - Coquito was 72 moons old",
+            "Coquitostep and Daisymoor enjoyed brushing up on their hunting tricks together. (positive effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1101,10 +1140,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1112,12 +1153,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
-        "trust": -15,
+        "comfort": 5,
+        "trust": -10,
         "log": [
-            "Coquitostep was deeply disappointed to hear that Dahliacrest broke the Code. (negative effect) - Coquitostep was 74 moons old"
+            "Coquitostep was deeply disappointed to hear that Dahliacrest broke the Code. (negative effect) - Coquitostep was 74 moons old",
+            "Coquitostep was glad Dahliacrest acknowledged his abilities. (positive effect) - Coquitostep was 86 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1254,12 +1296,13 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": -5,
         "log": [
             "Coquitostep and Drizzlepelt had a productive training patrol together. (positive effect) - Coquitostep was 72 moons old",
-            "Coquitostep appreciated Drizzlepelt taking charge to coordinate battle training for the patrol. (positive effect) - Coquitostep was 72 moons old"
+            "Coquitostep appreciated Drizzlepelt taking charge to coordinate battle training for the patrol. (positive effect) - Coquitostep was 72 moons old",
+            "Coquitostep was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Coquitostep was 91 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1284,14 +1327,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 22,
         "respect": -3,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Coquitostep and Gorgehunt had a productive training patrol together. (positive effect) - Coquitostep was 72 moons old"
+            "Coquitostep and Gorgehunt had a productive training patrol together. (positive effect) - Coquitostep was 72 moons old",
+            "Coquitostep thinks Gorgehunt has interesting things to talk about. (medium positive effect) - Coquitostep was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1316,12 +1362,13 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 15,
+        "respect": 10,
         "comfort": 0,
-        "trust": 20,
+        "trust": 15,
         "log": [
             "Coquitostep and Silkymunch had a productive training patrol together. (positive effect) - Coquitostep was 72 moons old",
-            "Coquitostep gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Coquitostep was 82 moons old"
+            "Coquitostep gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Coquitostep was 82 moons old",
+            "Coquitostep heard that Silkymunch touched noses with a kittypet. (negative effect) - Coquitostep was 86 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1395,9 +1442,7 @@
         "log": [
             "Coquitostep thinks about how Swallowstripe is always reliable. (medium positive effect) - Coquitostep was 85 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -1462,9 +1507,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -15,
+        "trust": -20,
         "log": [
-            "Coquitostep was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Coquitostep was 81 moons old"
+            "Coquitostep was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Coquitostep was 81 moons old",
+            "Coquitostep heard Pigmentpelt fell asleep guarding camp. (negative effect) - Coquitostep was 87 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1528,11 +1574,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Creekmoss tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Coquitostep and Bitebone. (negative effect) - Coquitostep was 87 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1548,9 +1596,7 @@
         "log": [
             "Coquitostep appreciated that Meadowspots checked with a medicine cat before gathering herbs on a hunting patrol. (positive effect) - Coquitostep was 84 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -1575,11 +1621,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Coquitostep heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Coquitostep was 76 moons old"
+            "Coquitostep heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Coquitostep was 76 moons old",
+            "Coquitostep heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Coquitostep was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1603,11 +1650,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 20,
+        "log": [
+            "Coconutocean saved Coquitostep from a big dog. (positive effect) - Coquitostep was 90 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1720,7 +1772,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1738,12 +1790,7 @@
         "log": [
             "Coquitostep and Marshnose defended their Clan at the Gathering together. (high positive effect) - Coquitostep was 84 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
@@ -1752,12 +1799,13 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": -5,
+        "respect": 10,
         "comfort": 0,
-        "trust": -5,
+        "trust": 10,
         "log": [
             "Coquitostep heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Coquitostep was 77 moons old",
-            "Sandpaw was very considerate while on patrol with Coquitostep. (positive effect) - Coquitostep was 79 moons old"
+            "Sandpaw was very considerate while on patrol with Coquitostep. (positive effect) - Coquitostep was 79 moons old",
+            "Coquitostep gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Coquitostep was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1781,10 +1829,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stellarpatch's good morning to Coquitostep meant a lot to him. (low positive effect) - Coquitostep was 86 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1824,10 +1874,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -12,
+        "log": [
+            "Heathstripe volunteers Coquitostep for something that he didn't want to do... (medium negative effect) - Coquitostep was 87 moons old",
+            "Coquitostep sees that Heathstripe's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Coquitostep was 88 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1890,12 +1943,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -5,
+        "log": [
+            "Coquitostep scoffed loudly at one of Frognose's suggestions. (medium negative effect) - Coquitostep was 91 moons old",
+            "Coquitostep heard about how Frognose shared prey with a kittypet. (negative effect) - Coquitostep was 91 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1939,15 +1997,20 @@
     {
         "cat_from_id": "171",
         "cat_to_id": "189",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 0,
+        "romance": 20,
         "like": 0,
         "respect": 13,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 20,
+        "trust": 10,
+        "log": [
+            "Driftstripe purrs for a long time at one of Coquitostep's lame jokes. (high positive effect) - Coquitostep was 91 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1997,13 +2060,244 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
+        "trust": -10,
+        "log": [
+            "Coquitostep wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Coquitostep was 88 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -5,
+        "respect": -5,
+        "comfort": 0,
+        "trust": 5,
+        "log": [
+            "Coquitostep heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Coquitostep was 87 moons old",
+            "Jademuzzle and Coquitostep drove off a scavenging fox together. (positive effect) - Coquitostep was 90 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 5,
+        "respect": 0,
+        "comfort": 5,
+        "trust": 10,
+        "log": [
+            "Coquitostep was glad Hollyblossom acknowledged his abilities. (positive effect) - Coquitostep was 86 moons old",
+            "Hollyblossom and Coquitostep drove off a scavenging fox together. (positive effect) - Coquitostep was 90 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "171",
-        "cat_to_id": "203",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "227",
         "mates": false,
         "family": false,
         "romance": 0,

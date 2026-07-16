@@ -11,9 +11,26 @@
     },
     "app_ceremony": {},
     "lead_ceremony": null,
-    "afterlife_acceptance": null,
+    "afterlife_acceptance": "starclan_default_4",
     "possible_history": {},
-    "died_by": [],
+    "died_by": [
+        {
+            "involved": "79",
+            "text": "m_c was murdered by Icyriver.",
+            "moon": 136
+        }
+    ],
     "scar_events": [],
-    "murder": {}
+    "murder": {
+        "is_victim": [
+            {
+                "murderer": "79",
+                "revealed": {
+                    "to_clan": false,
+                    "aware_individuals": []
+                },
+                "moon": 136
+            }
+        ]
+    }
 }

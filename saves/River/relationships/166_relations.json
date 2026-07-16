@@ -159,7 +159,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -172,10 +172,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Howlshine heard that Carptail touched noses with a rogue. (negative effect) - Howlshine was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -201,7 +203,7 @@
         "romance": 0,
         "like": 0,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 3,
         "trust": -5,
         "log": [
             "Howlpaw heard about how Algaepool shared prey with a kittypet. (negative effect) - Howlpaw was 6 moons old"
@@ -315,10 +317,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": -5,
         "log": [
-            "Howlpaw heard Bouncepelt fell asleep guarding camp. (negative effect) - Howlpaw was 11 moons old"
+            "Howlpaw heard Bouncepelt fell asleep guarding camp. (negative effect) - Howlpaw was 11 moons old",
+            "Howlshine overheard a joke from Bouncepelt he didn't get. (low negative effect) - Howlshine was 25 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -427,13 +430,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -13,
+        "respect": -18,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Gardeniaglow pulled an embarrassing prank on Howlpaw's friend. (low negative effect) - Howlpaw was 8 moons old"
+            "Gardeniaglow pulled an embarrassing prank on Howlpaw's friend. (low negative effect) - Howlpaw was 8 moons old",
+            "Howlshine heard Gardeniaglow fell asleep guarding camp. (negative effect) - Howlshine was 21 moons old",
+            "Howlshine heard Gardeniaglow fell asleep guarding camp. (negative effect) - Howlshine was 24 moons old",
+            "Howlshine heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Howlshine was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -557,9 +566,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Howlshine enjoyed the chat Fluttershade started up with a HickoryClan patrol. (positive effect) - Howlshine was 23 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -655,12 +666,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
-        "trust": 10,
+        "trust": 20,
         "log": [
             "Howlshine and Reedheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Howlshine was 13 moons old",
-            "Howlshine heard that Reedheart chased a rogue off the territory. (positive effect) - Howlshine was 16 moons old"
+            "Howlshine heard that Reedheart chased a rogue off the territory. (positive effect) - Howlshine was 16 moons old",
+            "Howlshine gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Howlshine was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -716,8 +728,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Howlshine heard Frondpad fell asleep guarding camp. (negative effect) - Howlshine was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -816,9 +830,7 @@
             "Howlkit heard Mallowpelt fell asleep guarding camp. (negative effect) - Howlkit was 5 moons old",
             "Howlshine disapproved of Mallowpelt wearing a collar. (negative effect) - Howlshine was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -862,9 +874,7 @@
             "Howlkit noticed that Flutterfeather was in a foul mood. (negative effect) - Howlkit was 5 moons old",
             "Flutterfeather stepped on Howlshine's paw and pretended not to notice. (low negative effect) - Howlshine was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -934,10 +944,7 @@
         "log": [
             "Shimmerrunner eats as ravenously as a wolverine and by the time she's done, Howlshine, Kiwifoot, and Paellapad barely have the stomach to finish their own meals. (negative effect) - Howlshine was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -961,11 +968,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Howlshine. (positive effect) - Howlshine was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1027,12 +1038,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlshine considers spreading a rumor about Oddmuzzle. (medium negative effect) - Howlshine was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1070,11 +1085,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1172,10 +1190,11 @@
         "like": 8,
         "respect": 15,
         "comfort": 8,
-        "trust": 15,
+        "trust": -2,
         "log": [
             "Howlshine, Fringesnap, and Wavelight had a nice talk while eating. (positive effect) - Howlshine was 15 moons old",
-            "Howlshine heard about Wavelight's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old"
+            "Howlshine heard about Wavelight's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old",
+            "Howlshine can't seem to get a straight answer from Wavelight lately. (medium negative effect) - Howlshine was 22 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1215,9 +1234,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Howlshine thinks that Blizzardstripe's tone sounds off today. (low negative effect) - Howlshine was 26 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1240,11 +1261,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Howlshine was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Howlshine was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1252,12 +1278,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 21,
+        "respect": 8,
+        "comfort": 6,
+        "trust": 7,
+        "log": [
+            "Howlshine checks in on Currenthiss every day. (high positive effect) - Howlshine was 26 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1278,7 +1311,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": -10,
@@ -1294,11 +1327,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 10,
         "comfort": 0,
-        "trust": 15,
+        "trust": 17,
         "log": [
-            "Howlshine gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Howlshine was 17 moons old"
+            "Howlshine gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Howlshine was 17 moons old",
+            "Howlshine heard that Silkymunch touched noses with a kittypet. (negative effect) - Howlshine was 21 moons old",
+            "Silkymunch explained something in detail to Howlshine that others wouldn't explain to him. (medium positive effect) - Howlshine was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1359,13 +1394,16 @@
         "like": 0,
         "respect": 25,
         "comfort": 0,
-        "trust": 12,
+        "trust": 9,
         "log": [
             "Howlkit gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Howlkit was 5 moons old",
             "Whiskerleg won't tell Howlpaw what's got her acting weird. (low negative effect) - Howlpaw was 11 moons old",
-            "Howlpaw heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlpaw was 11 moons old"
+            "Howlpaw heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlpaw was 11 moons old",
+            "Howlshine has a weird feeling about something Whiskerleg said the other day. (low negative effect) - Howlshine was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1386,7 +1424,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1414,12 +1452,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 8,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlshine was flattered by Braveocean's politeness this morning. (low positive effect) - Howlshine was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1442,15 +1484,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -5,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
-        "trust": -15,
+        "trust": -20,
         "log": [
             "Howlshine was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Howlshine was 17 moons old",
-            "Howlshine and Pigmentpelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Howlshine was 18 moons old"
+            "Howlshine and Pigmentpelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Howlshine was 18 moons old",
+            "Howlshine heard Pigmentpelt fell asleep guarding camp. (negative effect) - Howlshine was 23 moons old",
+            "Pigmentpelt's caution and clever thinking helped Howlshine's patrol use a gray fox to distract prey during a hunt. (positive effect) - Howlshine was 24 moons old",
+            "Howlshine approved of Pigmentpelt's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Howlshine was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1458,14 +1505,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -5,
+        "like": -10,
+        "respect": -23,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Howlshine heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Howlshine was 12 moons old"
+            "Howlshine heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Howlshine was 12 moons old",
+            "Howlshine was irritated by Shiveringdusk's childish antics during a training patrol. (negative effect) - Howlshine was 25 moons old",
+            "Shiveringdusk keeps asking Howlshine silly questions. (low negative effect) - Howlshine was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1520,7 +1571,8 @@
         "trust": 19,
         "log": [
             "Howlshine offers to groom a hard-to-reach place for Creekmoss, who thanks him earnestly. (high positive effect) - Howlshine was 16 moons old",
-            "Creekmoss left a gift in Howlshine's nest for him to find. (medium positive effect) - Howlshine was 16 moons old"
+            "Creekmoss left a gift in Howlshine's nest for him to find. (medium positive effect) - Howlshine was 16 moons old",
+            "Creekmoss catches Howlshine staring at another cat. (high negative effect) - Howlshine was 21 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1532,10 +1584,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1557,12 +1611,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Howlshine heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Howlshine was 12 moons old",
-            "Howlshine and Caterpillarfoot worked together to use an eagle as a scout for their own hunt. (positive effect) - Howlshine was 13 moons old"
+            "Howlshine and Caterpillarfoot worked together to use an eagle as a scout for their own hunt. (positive effect) - Howlshine was 13 moons old",
+            "Howlshine heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Howlshine was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1572,16 +1627,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 4,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Howlshine and Miteleaf have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Howlshine was 21 moons old"
+            "Howlshine and Miteleaf have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Howlshine was 21 moons old",
+            "Howlshine and Miteleaf spend some time together and nearly forget what made them upset with one another in the first place. (medium positive effect) - Howlshine was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1603,20 +1657,27 @@
     {
         "cat_from_id": "166",
         "cat_to_id": "158",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 8,
-        "like": 6,
-        "respect": 6,
-        "comfort": 0,
-        "trust": -8,
+        "romance": 44,
+        "like": 11,
+        "respect": 11,
+        "comfort": 32,
+        "trust": 18,
         "log": [
             "Howlpaw comforts Lilypaw's anxieties about being a good healer. (medium positive effect) - Howlpaw was 6 moons old",
             "Lilynoise was complimented by another Clan during the recent Gathering, but Howlshine wasn't. (medium negative effect) - Howlshine was 13 moons old",
             "Howlshine confesses something to Lilynoise, but realizes she can't relate at all. (low negative effect) - Howlshine was 14 moons old",
-            "Howlshine disapproved of Lilynoise wearing a collar. (negative effect) - Howlshine was 15 moons old"
+            "Howlshine disapproved of Lilynoise wearing a collar. (negative effect) - Howlshine was 15 moons old",
+            "Howlshine observes Lilynoise carefully attending to any cat that needs help. (medium positive effect) - Howlshine was 25 moons old",
+            "Howlshine promises Lilynoise to always be there to protect her with his life. (high positive effect) - Howlshine was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1739,13 +1800,15 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": -5,
+        "respect": 10,
         "comfort": 0,
-        "trust": 8,
+        "trust": 40,
         "log": [
             "Howlshine heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Howlshine was 13 moons old",
             "Sandpaw was very considerate while on patrol with Howlshine. (positive effect) - Howlshine was 15 moons old",
-            "Sandthrush sends a Clanmate to help Howlshine with something he's struggling with. (low positive effect) - Howlshine was 20 moons old"
+            "Sandthrush sends a Clanmate to help Howlshine with something he's struggling with. (low positive effect) - Howlshine was 20 moons old",
+            "Howlshine gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Howlshine was 25 moons old",
+            "Sandthrush skips eating a meal so Howlshine can have food. (medium positive effect) - Howlshine was 28 moons old"
         ],
         "no_longer_neutral": [
             "trust"
@@ -1774,10 +1837,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 17,
         "trust": -10,
         "log": [
-            "Howlshine heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Howlshine was 14 moons old"
+            "Howlshine heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Howlshine was 14 moons old",
+            "Howlshine runs to greet Coquitostep when he returns from a patrol. (medium positive effect) - Howlshine was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1911,13 +1975,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": -13,
+        "trust": -18,
         "log": [
-            "Though Howlshine asks around, he can't find Frognose anywhere. (low negative effect) - Howlshine was 19 moons old"
+            "Though Howlshine asks around, he can't find Frognose anywhere. (low negative effect) - Howlshine was 19 moons old",
+            "Howlshine heard about how Frognose shared prey with a kittypet. (negative effect) - Howlshine was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -2019,13 +2086,241 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
+        "trust": -10,
+        "log": [
+            "Howlshine wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Howlshine was 24 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -5,
+        "respect": -5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Howlshine heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Howlshine was 23 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
-        "cat_to_id": "203",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 13,
+        "comfort": 13,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "227",
         "mates": false,
         "family": false,
         "romance": 0,

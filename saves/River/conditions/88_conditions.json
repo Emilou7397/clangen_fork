@@ -1,4 +1,30 @@
 {
+    "injuries": {
+        "mangled tail": {
+            "severity": "severe",
+            "mortality": 68,
+            "duration": 3,
+            "moon_start": 134,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 15
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [
+                "lost their tail"
+            ],
+            "event_triggered": false,
+            "potential_scars": [
+                "HALFTAIL",
+                "MANTAIL",
+                "NOTAIL",
+                "TAILSCAR"
+            ]
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +36,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 281
+                    "chance": 327
                 },
                 {
                     "name": "joint pain",
-                    "chance": 281
+                    "chance": 327
                 }
             ],
             "complication": null,

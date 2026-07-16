@@ -123,11 +123,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": -10,
         "log": [
             "Cherrykit was not happy to hear that Bitterleaf took food from a Twoleg. (negative effect) - Cherrykit was 0 moons old",
-            "Cherrytail heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Cherrytail was 22 moons old"
+            "Cherrytail heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Cherrytail was 22 moons old",
+            "Cherrytail said something that rubbed Bitterleaf the wrong way. (low negative effect) - Cherrytail was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -211,11 +212,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 8,
+        "trust": 3,
         "log": [
-            "Carptail sends a Clanmate to help Cherrypaw with something she's struggling with. (low positive effect) - Cherrypaw was 10 moons old"
+            "Carptail sends a Clanmate to help Cherrypaw with something she's struggling with. (low positive effect) - Cherrypaw was 10 moons old",
+            "Cherrytail heard that Carptail touched noses with a rogue. (negative effect) - Cherrytail was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -313,12 +315,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "The moonlight encourages Prancelaurel, Frondpad, Cherrytail, Whiskerleg, and Peakspore to slow down and stretch. (positive effect) - Cherrytail was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -342,14 +349,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
-        "respect": 5,
-        "comfort": 20,
-        "trust": 10,
+        "like": 48,
+        "respect": 17,
+        "comfort": 38,
+        "trust": 15,
         "log": [
-            "Cherrytail heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Cherrytail was 31 moons old"
+            "Cherrytail heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Cherrytail was 31 moons old",
+            "Cherrytail talks all the time about Prancelaurel. (high positive effect) - Cherrytail was 38 moons old",
+            "The moonlight encourages Prancelaurel, Frondpad, Cherrytail, Whiskerleg, and Peakspore to slow down and stretch. (positive effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -521,17 +535,24 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 19,
+        "respect": 14,
         "comfort": 13,
-        "trust": 15,
+        "trust": 5,
         "log": [
             "Cherrykit heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Cherrykit was 5 moons old",
             "Cherrypaw heard about Gardeniaglow's victory in battle against a gang of rogues. (positive effect) - Cherrypaw was 6 moons old",
             "Gardeniaglow's laugh reminds Cherrypaw of someone she misses. (low positive effect) - Cherrypaw was 8 moons old",
             "Gardeniaglow recruits Drizzlepaw, Wasppaw, Piperpaw, and Cherrypaw to tidy up camp upon noticing how unorganized it has become. (negative effect) - Cherrypaw was 8 moons old",
-            "Cherrytail had a funny dream about Gardeniaglow and can't take him seriously now. (low negative effect) - Cherrytail was 31 moons old"
+            "Cherrytail had a funny dream about Gardeniaglow and can't take him seriously now. (low negative effect) - Cherrytail was 31 moons old",
+            "Cherrytail heard Gardeniaglow fell asleep guarding camp. (negative effect) - Cherrytail was 33 moons old",
+            "Cherrytail heard Gardeniaglow fell asleep guarding camp. (negative effect) - Cherrytail was 36 moons old",
+            "Cherrytail heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Cherrytail was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -573,10 +594,12 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
         "trust": 3,
-        "log": [],
+        "log": [
+            "Cherrytail was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Cherrytail was 35 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -706,12 +729,13 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": 3,
+        "respect": 8,
         "comfort": 0,
         "trust": 15,
         "log": [
             "Cherrypaw heard about Diablofoot's victory in battle against a gang of rogues. (positive effect) - Cherrypaw was 6 moons old",
-            "Diablofoot returned to the warrior's den dripping mud everywhere and managed to ruin Carnationmunch and Cherrytail's nests. (negative effect) - Cherrytail was 22 moons old"
+            "Diablofoot returned to the warrior's den dripping mud everywhere and managed to ruin Carnationmunch and Cherrytail's nests. (negative effect) - Cherrytail was 22 moons old",
+            "Cherrytail heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -767,15 +791,16 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 25,
+        "respect": 35,
         "comfort": -3,
-        "trust": 40,
+        "trust": 50,
         "log": [
             "Cherrypaw learned about octopi from Reedheart. (positive effect) - Cherrypaw was 8 moons old",
             "Cherrypaw appreciated Reedheart settling a dispute on patrol. (positive effect) - Cherrypaw was 9 moons old",
             "Cherrypaw and Reedheart enjoyed practicing new hunting tricks together. (positive effect) - Cherrypaw was 13 moons old",
             "Reedheart praised Cherrypaw's hunting. (positive effect) - Cherrypaw was 13 moons old",
-            "Cherrytail heard that Reedheart chased a rogue off the territory. (positive effect) - Cherrytail was 28 moons old"
+            "Cherrytail heard that Reedheart chased a rogue off the territory. (positive effect) - Cherrytail was 28 moons old",
+            "Cherrytail gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Cherrytail was 35 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -801,11 +826,14 @@
         "like": -12,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -17,
         "log": [
-            "Cherrypaw pranked Shinefur during a patrol. (medium negative effect) - Cherrypaw was 7 moons old"
+            "Cherrypaw pranked Shinefur during a patrol. (medium negative effect) - Cherrypaw was 7 moons old",
+            "Cherrytail learns that Shinefur has been misleading her about something trivial. (medium negative effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -830,16 +858,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 30,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 12,
+        "trust": -5,
         "log": [
             "Cherrykit was impressed by how Frondpad came out of a fight with a dog with only a few bruises. (positive effect) - Cherrykit was 2 moons old",
             "Cherrypaw heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Cherrypaw was 8 moons old",
-            "Cherrypaw was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Cherrypaw was 14 moons old"
+            "Cherrypaw was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Cherrypaw was 14 moons old",
+            "Cherrytail heard Frondpad fell asleep guarding camp. (negative effect) - Cherrytail was 37 moons old",
+            "The moonlight encourages Prancelaurel, Frondpad, Cherrytail, Whiskerleg, and Peakspore to slow down and stretch. (positive effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -974,9 +1008,7 @@
             "Cherrytail heard Mallowpelt fell asleep guarding camp. (negative effect) - Cherrytail was 17 moons old",
             "Cherrytail disapproved of Mallowpelt wearing a collar. (negative effect) - Cherrytail was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -1033,9 +1065,10 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 2,
         "log": [
-            "Saltknoll was part of the patrol that saved Cherrykit and brought her to RiverClan as a newborn. (positive effect) - Cherrykit was 0 moons old"
+            "Saltknoll was part of the patrol that saved Cherrykit and brought her to RiverClan as a newborn. (positive effect) - Cherrykit was 0 moons old",
+            "Saltknoll won't stop looking at a specific Clanmate while talking to Cherrytail. (low negative effect) - Cherrytail was 34 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1135,14 +1168,18 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Cherrypaw heard Snakedrop fell asleep guarding camp. (negative effect) - Cherrypaw was 10 moons old",
-            "Cherrytail enjoyed Snakedrop's story about how Maowi slowed the sun down and created greenleaf. (positive effect) - Cherrytail was 23 moons old"
+            "Cherrytail enjoyed Snakedrop's story about how Maowi slowed the sun down and created greenleaf. (positive effect) - Cherrytail was 23 moons old",
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Cherrytail. (positive effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1164,14 +1201,15 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -10,
+        "respect": -3,
         "comfort": 0,
         "trust": 3,
         "log": [
             "Cherrykit was impressed by Gentleghost's hunting prowess. (positive effect) - Cherrykit was 4 moons old",
             "Cherrypaw heard Gentleghost fell asleep guarding camp. (negative effect) - Cherrypaw was 12 moons old",
             "Cherrypaw heard that Gentleghost caught a rabbit from across the border. (negative effect) - Cherrypaw was 13 moons old",
-            "Cherrytail disapproved of Gentleghost wearing a collar. (negative effect) - Cherrytail was 24 moons old"
+            "Cherrytail disapproved of Gentleghost wearing a collar. (negative effect) - Cherrytail was 24 moons old",
+            "Cherrytail is told about Gentleghost's bravery during a recent time of struggle. (medium positive effect) - Cherrytail was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1188,9 +1226,7 @@
         "log": [
             "Kiwifoot got a weird look on her face when Cherrytail approached her. (low negative effect) - Cherrytail was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -1304,7 +1340,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
+        "like": -20,
         "respect": -8,
         "comfort": -8,
         "trust": -8,
@@ -1316,14 +1352,10 @@
             "Wasppelt's bad mood ruined a training patrol for Cherrytail. (negative effect) - Cherrytail was 25 moons old",
             "Cherrytail and Wasppelt avoided each other after an unpleasant training patrol. (negative effect) - Cherrytail was 25 moons old",
             "Cherrytail thought Wasppelt did a poor job of leading a training patrol. (negative effect) - Cherrytail was 32 moons old",
-            "Cherrytail and Wasppelt argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old"
+            "Cherrytail and Wasppelt argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old",
+            "Cherrytail wanted to practice tracking on patrol, but Wasppelt wouldn't shift away from their rigid training schedule. (negative effect) - Cherrytail was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -1346,10 +1378,7 @@
             "Cherrytail chats quietly with Snookbumble while they're both on camp guard duty. (medium positive effect) - Cherrytail was 32 moons old",
             "Cherrytail and Snookbumble argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -1357,17 +1386,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 2,
-        "respect": 10,
-        "comfort": 25,
-        "trust": 0,
+        "like": 7,
+        "respect": 15,
+        "comfort": 47,
+        "trust": 7,
         "log": [
             "Cherrytail and Shadowfreckle were reminded of each other's competence while training together. (positive effect) - Cherrytail was 15 moons old",
             "Cherrytail was very impressed that Shadowfreckle recognized cranberries on a training patrol and brought them back for the herb stores. (positive effect) - Cherrytail was 17 moons old",
             "Cherrytail and Shadowfreckle listened to Daisymoor's story together. (positive effect) - Cherrytail was 19 moons old",
             "Shadowfreckle bumped into Cherrytail and didn't even apologize! (low negative effect) - Cherrytail was 20 moons old",
             "Cherrytail and Shadowfreckle listened to Snakedrop's story together. (positive effect) - Cherrytail was 23 moons old",
-            "Cherrytail and Shadowfreckle trained and caught up with each other. (positive effect) - Cherrytail was 30 moons old"
+            "Cherrytail and Shadowfreckle trained and caught up with each other. (positive effect) - Cherrytail was 30 moons old",
+            "Cherrytail comforts Shadowfreckle after a terrible nightmare. (high positive effect) - Cherrytail was 35 moons old",
+            "After something unsettling happens, Cherrytail and Shadowfreckle find comfort in one another's company. (high positive effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1396,9 +1427,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 83,
+        "like": 96,
         "respect": 5,
-        "comfort": 97,
+        "comfort": 100,
         "trust": 52,
         "log": [
             "The Clan looks all over for Cherrykit and Wavekit and find out they have a secret hiding place. (medium positive effect) - Cherrykit was 1 moon old",
@@ -1412,7 +1443,9 @@
             "Cherrytail and Wavelight listened to Daisymoor's story together. (positive effect) - Cherrytail was 19 moons old",
             "Cherrytail, Wavelight, and Gracklefur took a sunbath and had a little small talk. (positive effect) - Cherrytail was 23 moons old",
             "Wavelight returned to the warrior's den dripping mud everywhere and managed to ruin Wasppelt and Cherrytail's nests. (negative effect) - Cherrytail was 25 moons old",
-            "Cherrytail and Wavelight trained and caught up with each other. (positive effect) - Cherrytail was 30 moons old"
+            "Cherrytail and Wavelight trained and caught up with each other. (positive effect) - Cherrytail was 30 moons old",
+            "Piperthrift, Wavelight, and Cherrytail had a nice talk while eating. (positive effect) - Cherrytail was 35 moons old",
+            "Cherrytail and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1422,9 +1455,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 41,
-        "respect": 18,
-        "comfort": 31,
+        "like": 64,
+        "respect": 38,
+        "comfort": 54,
         "trust": 38,
         "log": [
             "Cherrypaw hears a nice story about Piperkit. (low positive effect) - Cherrypaw was 6 moons old",
@@ -1432,7 +1465,11 @@
             "Cherrytail thinks Piperpaw has been acting strangely. (low negative effect) - Cherrytail was 15 moons old",
             "Piperthrift tells Cherrytail that he was worried about her. (low positive effect) - Cherrytail was 19 moons old",
             "Cherrytail and Piperthrift avoided each other after an unpleasant training patrol. (negative effect) - Cherrytail was 25 moons old",
-            "Cherrytail and Piperthrift argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old"
+            "Cherrytail and Piperthrift argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old",
+            "Piperthrift, Wavelight, and Cherrytail had a nice talk while eating. (positive effect) - Cherrytail was 35 moons old",
+            "Cherrytail and Piperthrift enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Cherrytail was 36 moons old",
+            "Cherrytail enjoyed Piperthrift's story of how a benevolent fire restored peace to the five ancient Clans. (positive effect) - Cherrytail was 38 moons old",
+            "Cherrytail saw Piperthrift telling stories to the kits. (positive effect) - Cherrytail was 39 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1506,13 +1543,18 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": -13,
+        "respect": -23,
         "comfort": -8,
-        "trust": 3,
+        "trust": -7,
         "log": [
-            "Drizzlepelt acts childishly in front of Cherrytail. (low negative effect) - Cherrytail was 29 moons old"
+            "Drizzlepelt acts childishly in front of Cherrytail. (low negative effect) - Cherrytail was 29 moons old",
+            "Cherrytail was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1521,13 +1563,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -8,
+        "respect": -16,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Cherrytail isn't impressed with Currenthiss's work lately. (low negative effect) - Cherrytail was 31 moons old"
+            "Cherrytail isn't impressed with Currenthiss's work lately. (low negative effect) - Cherrytail was 31 moons old",
+            "Cherrytail doesn't tell Currenthiss that she forgot to groom a part of her fur. (low negative effect) - Cherrytail was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1565,15 +1610,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 22,
+        "like": 27,
         "respect": 0,
-        "comfort": 7,
+        "comfort": 12,
         "trust": -10,
         "log": [
             "Cherrykit is excited for her family to grow further. (positive effect) - Cherrykit was 2 moons old",
             "Cherrytail and Tansywhisker avoided each other after an unpleasant training patrol. (negative effect) - Cherrytail was 25 moons old",
             "Braveocean's eagerness to do early morning stretches rubs off on Whiskerleg, Carnationmunch, Tansywhisker, and Cherrytail. (positive effect) - Cherrytail was 26 moons old",
-            "Cherrytail heard that Tansywhisker had a serious conversation with a kittypet. (negative effect) - Cherrytail was 28 moons old"
+            "Cherrytail heard that Tansywhisker had a serious conversation with a kittypet. (negative effect) - Cherrytail was 28 moons old",
+            "Cherrytail and Tansywhisker enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1583,14 +1629,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
-        "respect": 15,
-        "comfort": 8,
-        "trust": 15,
+        "like": 23,
+        "respect": 2,
+        "comfort": 13,
+        "trust": 10,
         "log": [
             "Cherrykit is excited for her family to grow further. (positive effect) - Cherrykit was 2 moons old",
             "Cherrytail, Silkymunch, and Tomatofreckle had a nice talk while eating. (positive effect) - Cherrytail was 18 moons old",
-            "Cherrytail gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Cherrytail was 30 moons old"
+            "Cherrytail gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Cherrytail was 30 moons old",
+            "Cherrytail heard that Silkymunch touched noses with a kittypet. (negative effect) - Cherrytail was 34 moons old",
+            "Cherrytail wonders why Silkymunch is so pouty today. (low negative effect) - Cherrytail was 35 moons old",
+            "Cherrytail and Silkymunch enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1620,16 +1669,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -17,
-        "respect": 20,
-        "comfort": 0,
-        "trust": -7,
+        "like": -5,
+        "respect": 29,
+        "comfort": -6,
+        "trust": 4,
         "log": [
             "Cherrypaw claimed to catch the prey that Molepaw caught on their patrol. (medium negative effect) - Cherrypaw was 12 moons old",
             "Cherrytail gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Cherrytail was 21 moons old",
             "Cherrytail heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Cherrytail was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1654,18 +1705,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 24,
         "respect": 37,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 7,
         "log": [
             "Cherrytail and Whiskerleg repair some nests together. (medium positive effect) - Cherrytail was 17 moons old",
             "Cherrytail gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Cherrytail was 18 moons old",
             "Cherrytail heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Cherrytail was 23 moons old",
             "Braveocean's eagerness to do early morning stretches rubs off on Whiskerleg, Carnationmunch, Tansywhisker, and Cherrytail. (positive effect) - Cherrytail was 26 moons old",
-            "Whiskerleg forgot something that Cherrytail asked her to remember. (low negative effect) - Cherrytail was 33 moons old"
+            "Whiskerleg forgot something that Cherrytail asked her to remember. (low negative effect) - Cherrytail was 33 moons old",
+            "The moonlight encourages Prancelaurel, Frondpad, Cherrytail, Whiskerleg, and Peakspore to slow down and stretch. (positive effect) - Cherrytail was 39 moons old"
         ],
         "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
             "trust"
         ]
     },
@@ -1706,16 +1761,23 @@
         "mates": true,
         "family": false,
         "romance": 41,
-        "like": 19,
-        "respect": 8,
-        "comfort": 46,
+        "like": -7,
+        "respect": -7,
+        "comfort": 36,
         "trust": 16,
         "log": [
             "Midnighthaze's laugh reminds Cherrytail of someone she misses. (low positive effect) - Cherrytail was 25 moons old",
             "Cherrytail can't stop gushing over Midnighthaze. (high positive effect) - Cherrytail was 28 moons old",
-            "Cherrytail and Midnighthaze took a lovely nap together instead of patrolling. (positive effect) - Cherrytail was 31 moons old"
+            "Cherrytail and Midnighthaze took a lovely nap together instead of patrolling. (positive effect) - Cherrytail was 31 moons old",
+            "Midnighthaze got stuck on patrol, and Cherrytail chewed him out for it. (negative effect) - Cherrytail was 39 moons old",
+            "Midnighthaze got stuck on patrol, and Cherrytail had no patience for it. (negative effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1726,7 +1788,7 @@
         "like": 24,
         "respect": 0,
         "comfort": 42,
-        "trust": -5,
+        "trust": 8,
         "log": [
             "Mossflight, Bitebone, Suntooth, Cherrypaw, and Bravepaw hang out while stretching. (positive effect) - Cherrypaw was 14 moons old",
             "Cherrytail heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Cherrytail was 21 moons old",
@@ -1734,7 +1796,9 @@
             "Braveocean's eagerness to do early morning stretches rubs off on Whiskerleg, Carnationmunch, Tansywhisker, and Cherrytail. (positive effect) - Cherrytail was 26 moons old",
             "Cherrytail and Braveocean took a lovely nap together instead of patrolling. (positive effect) - Cherrytail was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1800,10 +1864,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Cherrytail thinks the prey Poppybriar is biting into on the other side of camp looks delicious. (low negative effect) - Cherrytail was 34 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1814,13 +1880,16 @@
         "romance": 7,
         "like": -8,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": -13,
+        "trust": -13,
         "log": [
             "Cherrytail said something really rude to Clawpaw. (low negative effect) - Cherrytail was 20 moons old",
-            "Cherrytail laughs at bad jokes from Clawswirl. (medium positive effect) - Cherrytail was 28 moons old"
+            "Cherrytail laughs at bad jokes from Clawswirl. (medium positive effect) - Cherrytail was 28 moons old",
+            "Clawswirl snitches on Cherrytail for something minor. (low negative effect) - Cherrytail was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -1836,12 +1905,7 @@
             "Cherrypaw thinks she can tell Creekkit something important. (high positive effect) - Cherrypaw was 11 moons old",
             "Cherrytail enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Cherrytail was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -1865,11 +1929,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 0,
         "comfort": -13,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Cherrytail heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Cherrytail was 24 moons old"
+            "Cherrytail heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Cherrytail was 24 moons old",
+            "Cherrytail heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Cherrytail was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1920,14 +1985,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 8,
+        "respect": -2,
+        "comfort": 21,
+        "trust": 21,
         "log": [
-            "Cherrytail disapproved of Lilynoise wearing a collar. (negative effect) - Cherrytail was 27 moons old"
+            "Cherrytail disapproved of Lilynoise wearing a collar. (negative effect) - Cherrytail was 27 moons old",
+            "Cherrytail gets excellent advice from Lilynoise about something she had been worrying about. (high positive effect) - Cherrytail was 37 moons old",
+            "Cherrytail includes Lilynoise in a conversation that Lilynoise struggled to join. (low positive effect) - Cherrytail was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "122",
@@ -2008,11 +2077,12 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": -2,
+        "trust": -7,
         "log": [
             "Cherrytail heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Cherrytail was 16 moons old",
             "Pigmentpelt lets Cherrytail know that a Clanmate was talking badly about her. (low positive effect) - Cherrytail was 23 moons old",
-            "Cherrytail was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Cherrytail was 29 moons old"
+            "Cherrytail was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Cherrytail was 29 moons old",
+            "Cherrytail heard Pigmentpelt fell asleep guarding camp. (negative effect) - Cherrytail was 35 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2082,12 +2152,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": -5,
+        "trust": 10,
         "log": [
             "Cherrytail heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Cherrytail was 25 moons old",
-            "Cherrytail heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Cherrytail was 31 moons old"
+            "Cherrytail heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Cherrytail was 31 moons old",
+            "Cherrytail gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Cherrytail was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2120,10 +2191,7 @@
             "Cherrytail heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Cherrytail was 26 moons old",
             "Cherrytail is impressed by Coquitostep's competence in any situation. (high positive effect) - Cherrytail was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -2284,10 +2352,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Cherrytail heard about how Frognose shared prey with a kittypet. (negative effect) - Cherrytail was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2304,11 +2374,7 @@
             "Cherrytail finds herself judging the new kitten by his parent's actions. (negative effect) - Cherrytail was 27 moons old",
             "Ashenkit shares a suspiciously exaggerated tale with Cherrytail, Poolleaf, Heatherfern, and Carptail, who seem far from convinced of its veracity. (negative effect) - Cherrytail was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "122",
@@ -2399,8 +2465,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -10,
+        "log": [
+            "Cherrytail wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Cherrytail was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2409,15 +2477,235 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
-        "respect": 0,
+        "like": -15,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Cherrytail and Jademuzzle argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old"
+            "Cherrytail and Jademuzzle argued about what to practice on a training patrol. (negative effect) - Cherrytail was 32 moons old",
+            "Cherrytail heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Cherrytail was 35 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "122",
+        "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

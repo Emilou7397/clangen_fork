@@ -103,9 +103,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Marshpaw heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Marshpaw was 10 moons old"
+            "Marshpaw heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Marshpaw was 10 moons old",
+            "Marshnose and Bitterleaf worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -172,10 +173,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Marshnose heard that Carptail touched noses with a rogue. (negative effect) - Marshnose was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -296,11 +299,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Prancelaurel compliments one of Marshnose's friends. (low positive effect) - Marshnose was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -423,14 +428,18 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Marshnose's feelings are hurt by something Gardeniaglow said, but Gardeniaglow's apology is half-hearted. (low negative effect) - Marshnose was 21 moons old"
+            "Marshnose's feelings are hurt by something Gardeniaglow said, but Gardeniaglow's apology is half-hearted. (low negative effect) - Marshnose was 21 moons old",
+            "Marshnose heard Gardeniaglow fell asleep guarding camp. (negative effect) - Marshnose was 21 moons old",
+            "Marshnose heard Gardeniaglow fell asleep guarding camp. (negative effect) - Marshnose was 24 moons old",
+            "Marshnose heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Marshnose was 26 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "trust"
         ]
     },
     {
@@ -496,10 +505,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -522,11 +533,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -16,
+        "respect": -4,
+        "comfort": -6,
+        "trust": -4,
+        "log": [
+            "Marshnose got lost and Verbenabloom didn't look for him. (high negative effect) - Marshnose was 23 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -536,16 +549,20 @@
         "family": false,
         "romance": 0,
         "like": 4,
-        "respect": 16,
-        "comfort": 16,
+        "respect": 8,
+        "comfort": 8,
         "trust": 4,
         "log": [
             "Marshpaw heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Marshpaw was 9 moons old",
             "Marshnose is always happy to be around Fleadusk. (high positive effect) - Marshnose was 15 moons old",
             "Marshnose didn't warn Fleadusk about a rock on the ground, which caused Fleadusk to trip. (medium negative effect) - Marshnose was 16 moons old",
-            "Fleadusk motivates Marshnose to do something difficult. (medium positive effect) - Marshnose was 17 moons old"
+            "Fleadusk motivates Marshnose to do something difficult. (medium positive effect) - Marshnose was 17 moons old",
+            "Marshnose and Fleadusk reach for the same piece of prey and bicker over it. Marshnose gets it. (low negative effect) - Marshnose was 24 moons old",
+            "Marshnose thinks Fleadusk looks nicer than her today. (low negative effect) - Marshnose was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -599,10 +616,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Marshnose heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Marshnose was 24 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -624,12 +643,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Marshnose has drawn the ire of Elmtrail by deliberately taking the last of her favorite nesting materials for himself. (low negative effect) - Marshnose was 26 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -653,11 +676,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
-        "trust": 5,
+        "trust": 15,
         "log": [
-            "Marshnose heard that Reedheart chased a rogue off the territory. (positive effect) - Marshnose was 16 moons old"
+            "Marshnose heard that Reedheart chased a rogue off the territory. (positive effect) - Marshnose was 16 moons old",
+            "Marshnose gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Marshnose was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -722,8 +746,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Marshnose heard Frondpad fell asleep guarding camp. (negative effect) - Marshnose was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -805,9 +831,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 8,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Marshpaw heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Marshpaw was 10 moons old"
+            "Marshpaw heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Marshpaw was 10 moons old",
+            "Marshnose and Gracklefur worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -825,9 +852,7 @@
             "Marshkit heard Mallowpelt fell asleep guarding camp. (negative effect) - Marshkit was 5 moons old",
             "Marshnose disapproved of Mallowpelt wearing a collar. (negative effect) - Marshnose was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
@@ -958,11 +983,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Marshnose. (positive effect) - Marshnose was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1109,7 +1138,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1135,12 +1164,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -21,
+        "respect": -6,
+        "comfort": -6,
+        "trust": -6,
+        "log": [
+            "After Shadowfreckle says something seemingly innocent, Marshnose sulks for the rest of the day. (high negative effect) - Marshnose was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1231,11 +1267,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Marshnose was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Marshnose was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1287,11 +1328,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 10,
         "comfort": 0,
-        "trust": 15,
+        "trust": 10,
         "log": [
-            "Marshnose gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Marshnose was 17 moons old"
+            "Marshnose gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Marshnose was 17 moons old",
+            "Marshnose heard that Silkymunch touched noses with a kittypet. (negative effect) - Marshnose was 21 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1303,9 +1345,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Butterflyglide is upset after spending the day with Marshnose's bad attitude. (low negative effect) - Marshnose was 27 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1366,9 +1410,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
@@ -1407,12 +1449,15 @@
         "romance": 0,
         "like": 5,
         "respect": 0,
-        "comfort": -8,
-        "trust": 0,
+        "comfort": 9,
+        "trust": -3,
         "log": [
-            "While Braveocean gorges on her piece of fresh kill, Marshpaw, Sandpaw, Skiphare, and Gardeniaglow find that eating is suddenly less appealing. (negative effect) - Marshpaw was 12 moons old"
+            "While Braveocean gorges on her piece of fresh kill, Marshpaw, Sandpaw, Skiphare, and Gardeniaglow find that eating is suddenly less appealing. (negative effect) - Marshpaw was 12 moons old",
+            "Marshnose calms down when she realizes Braveocean is nearby. (medium positive effect) - Marshnose was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1433,13 +1478,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -5,
+        "like": 5,
+        "respect": 0,
         "comfort": 0,
-        "trust": -15,
+        "trust": -20,
         "log": [
             "Marshnose was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Marshnose was 17 moons old",
-            "Marshnose and Pigmentpelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Marshnose was 18 moons old"
+            "Marshnose and Pigmentpelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Marshnose was 18 moons old",
+            "Marshnose heard Pigmentpelt fell asleep guarding camp. (negative effect) - Marshnose was 23 moons old",
+            "Pigmentpelt's caution and clever thinking helped Marshnose's patrol use a gray fox to distract prey during a hunt. (positive effect) - Marshnose was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1449,12 +1496,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -5,
-        "comfort": 0,
+        "like": -10,
+        "respect": -15,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Marshpaw heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Marshpaw was 12 moons old"
+            "Marshpaw heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Marshpaw was 12 moons old",
+            "Marshnose tries to have a conversation with Shiveringdusk but it ends up awkward when neither of them speak up. (low negative effect) - Marshnose was 23 moons old",
+            "Marshnose was irritated by Shiveringdusk's childish antics during a training patrol. (negative effect) - Marshnose was 25 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1479,10 +1528,11 @@
         "romance": 0,
         "like": 0,
         "respect": -8,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Poppybriar keeps asking Marshpaw silly questions. (low negative effect) - Marshpaw was 11 moons old"
+            "Poppybriar keeps asking Marshpaw silly questions. (low negative effect) - Marshpaw was 11 moons old",
+            "When Marshnose asked Poppybriar for help, Poppybriar ignored him. (low negative effect) - Marshnose was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1494,7 +1544,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1508,29 +1558,34 @@
         "like": 0,
         "respect": -8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -12,
         "log": [
-            "Creekmoss pulled an embarrassing prank on Marshnose's friend. (low negative effect) - Marshnose was 20 moons old"
+            "Creekmoss pulled an embarrassing prank on Marshnose's friend. (low negative effect) - Marshnose was 20 moons old",
+            "Creekmoss keeps making excuses about something Marshnose wants to know. (medium negative effect) - Marshnose was 26 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "trust"
         ]
     },
     {
         "cat_from_id": "167",
         "cat_to_id": "153",
-        "mates": false,
+        "mates": true,
         "family": false,
-        "romance": 16,
+        "romance": 24,
         "like": 4,
         "respect": 6,
-        "comfort": -3,
-        "trust": 5,
+        "comfort": 17,
+        "trust": 15,
         "log": [
             "Marshnose gave Meadowspots a sprig of catmint he found. (high positive effect) - Marshnose was 17 moons old",
-            "Meadowspots confuses Marshnose in a conversation. (low negative effect) - Marshnose was 18 moons old"
+            "Meadowspots confuses Marshnose in a conversation. (low negative effect) - Marshnose was 18 moons old",
+            "Marshnose and Meadowspots had a disagreement on how to raise kits. (medium negative effect) - Marshnose was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1552,11 +1607,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Marshpaw heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Marshpaw was 12 moons old"
+            "Marshpaw heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Marshpaw was 12 moons old",
+            "Marshnose heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Marshnose was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1598,19 +1654,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -13,
-        "respect": -10,
-        "comfort": 8,
-        "trust": -16,
+        "like": -7,
+        "respect": -6,
+        "comfort": 14,
+        "trust": 0,
         "log": [
             "Marshpaw is grossed out by something Lilypaw did. (low negative effect) - Marshpaw was 8 moons old",
             "Marshnose shared a embarrassing story about Lilynoise he was asked not to share... (low negative effect) - Marshnose was 14 moons old",
             "Marshnose disapproved of Lilynoise wearing a collar. (negative effect) - Marshnose was 15 moons old",
-            "Marshnose saw Lilynoise hide something before talking to him. (low negative effect) - Marshnose was 21 moons old"
+            "Marshnose saw Lilynoise hide something before talking to him. (low negative effect) - Marshnose was 21 moons old",
+            "Marshnose and Lilynoise agree on something the rest of the Clan finds contentious. (high positive effect) - Marshnose was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
@@ -1665,8 +1720,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Marshnose and Braveheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1721,12 +1778,7 @@
             "Marshnose and Howlshine stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Marshnose was 18 moons old",
             "Clanmates are envious of Marshnose and Howlshine's bond. (high positive effect) - Marshnose was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
@@ -1734,14 +1786,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": -5,
-        "comfort": 0,
-        "trust": 0,
+        "like": -11,
+        "respect": -10,
+        "comfort": -8,
+        "trust": 12,
         "log": [
             "Marshpaw and Sandpaw enjoyed practicing new battle moves together. (positive effect) - Marshpaw was 12 moons old",
             "Marshpaw heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Marshpaw was 13 moons old",
-            "Sandpaw was very considerate while on patrol with Marshnose. (positive effect) - Marshnose was 15 moons old"
+            "Sandpaw was very considerate while on patrol with Marshnose. (positive effect) - Marshnose was 15 moons old",
+            "Marshnose thinks about telling others that Sandthrush broke the Code. (high negative effect) - Marshnose was 22 moons old",
+            "Marshnose and Sandthrush worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old",
+            "Marshnose gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Marshnose was 25 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1773,9 +1828,7 @@
         "log": [
             "Marshnose heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Marshnose was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
@@ -1905,10 +1958,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Marshnose heard about how Frognose shared prey with a kittypet. (negative effect) - Marshnose was 27 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2013,13 +2068,243 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
+        "trust": -10,
+        "log": [
+            "Marshnose wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Marshnose was 24 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -5,
+        "respect": -5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Marshnose heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Marshnose was 23 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "167",
-        "cat_to_id": "203",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 3,
+        "respect": 3,
+        "comfort": 0,
+        "trust": 5,
+        "log": [
+            "Marshnose was impressed by Lionheart's quick reflexes on a hunting patrol. (positive effect) - Marshnose was 22 moons old",
+            "Marshnose and Lionheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 5,
+        "comfort": 10,
+        "trust": 10,
+        "log": [
+            "Marshnose sees Anemoneash arrive in the Clan and he offers to show him around. (positive effect) - Marshnose was 21 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "227",
         "mates": false,
         "family": false,
         "romance": 0,

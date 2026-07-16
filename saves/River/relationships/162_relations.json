@@ -114,10 +114,11 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": -15,
+        "trust": -20,
         "log": [
             "Braveheart heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Braveheart was 118 moons old",
-            "Braveheart was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Braveheart was 132 moons old"
+            "Braveheart was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Braveheart was 132 moons old",
+            "Braveheart heard Pigmentpelt fell asleep guarding camp. (negative effect) - Braveheart was 138 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -167,9 +168,7 @@
             "Stoatshade, Midnighthaze, and Braveheart had a nice talk while eating. (positive effect) - Braveheart was 126 moons old",
             "Stoatshade lets Braveheart know that a Clanmate was talking badly about him. (low positive effect) - Braveheart was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -194,15 +193,14 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": -8,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Braveheart thinks Cobaltstrike was nice to him today. (low positive effect) - Braveheart was 135 moons old"
+            "Braveheart thinks Cobaltstrike was nice to him today. (low positive effect) - Braveheart was 135 moons old",
+            "Cobaltstrike gets a bug off of Braveheart's pelt and takes it out of camp. (low positive effect) - Braveheart was 140 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -211,7 +209,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -245,10 +243,7 @@
         "log": [
             "Braveheart doesn't like that Clanmates trust Erminedaisy more just because he's older. (high negative effect) - Braveheart was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -270,13 +265,20 @@
         "cat_to_id": "5",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 16,
+        "like": 17,
+        "respect": 4,
+        "comfort": 16,
+        "trust": 6,
+        "log": [
+            "Braveheart picks some fragrant flowers for Ochretail. (high positive effect) - Braveheart was 139 moons old",
+            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Braveheart was 139 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -284,17 +286,23 @@
         "mates": false,
         "family": false,
         "romance": 21,
-        "like": 0,
+        "like": -8,
         "respect": 16,
-        "comfort": 7,
-        "trust": 20,
+        "comfort": -1,
+        "trust": 25,
         "log": [
             "Bitterleaf insulted Braveheart's looks behind his back and thought Braveheart didn't hear it. (medium negative effect) - Braveheart was 120 moons old",
             "Braveheart saves a piece of prey for Bitterleaf because he knows it's his favorite. (high positive effect) - Braveheart was 122 moons old",
             "Braveheart heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveheart was 124 moons old",
-            "Braveheart includes Bitterleaf in a conversation that Bitterleaf struggled to join. (low positive effect) - Braveheart was 126 moons old"
+            "Braveheart includes Bitterleaf in a conversation that Bitterleaf struggled to join. (low positive effect) - Braveheart was 126 moons old",
+            "Braveheart and Bitterleaf worked together to use an eagle as a scout for their own hunt. (positive effect) - Braveheart was 137 moons old",
+            "Spittle and flecks of bone fly while Bitterleaf gobbles down prey, reminding Moonchaser, Caterpillarfoot, and Braveheart to seek out better mealtime companionship next time. (negative effect) - Braveheart was 142 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -345,15 +353,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 22,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
             "Braveheart and Fidgetmouse had a successful hunt together. (positive effect) - Braveheart was 120 moons old",
-            "Braveheart is inspired by Fidgetmouse's passion. (medium positive effect) - Braveheart was 131 moons old"
+            "Braveheart is inspired by Fidgetmouse's passion. (medium positive effect) - Braveheart was 131 moons old",
+            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Braveheart was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -362,14 +375,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": -14,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Braveheart can't stop thinking about the strange joke Carptail told the other day. (medium negative effect) - Braveheart was 120 moons old",
-            "Braveheart realizes how hard it is to hold a conversation with Carptail. (medium negative effect) - Braveheart was 130 moons old"
+            "Braveheart realizes how hard it is to hold a conversation with Carptail. (medium negative effect) - Braveheart was 130 moons old",
+            "Braveheart heard that Carptail touched noses with a rogue. (negative effect) - Braveheart was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -479,14 +495,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 18,
-        "comfort": 0,
-        "trust": 12,
+        "like": 16,
+        "respect": 24,
+        "comfort": 5,
+        "trust": 18,
         "log": [
             "During the last gathering, Braveheart and Bitebone defended their Clan against another Clan's heckling. (medium positive effect) - Braveheart was 121 moons old",
             "Braveheart heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveheart was 124 moons old",
-            "Braveheart mews congratulations to Bitebone for a job well done. (low positive effect) - Braveheart was 131 moons old"
+            "Braveheart mews congratulations to Bitebone for a job well done. (low positive effect) - Braveheart was 131 moons old",
+            "Braveheart and Bitebone defended their Clan at the Gathering together. (high positive effect) - Braveheart was 138 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -496,15 +513,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 9,
         "comfort": 0,
         "trust": 4,
         "log": [
             "Braveheart witnessed Prancelaurel's calm assessment of a wrecked floating Twoleg nest and felt more secure afterward. (positive effect) - Braveheart was 117 moons old",
-            "Braveheart heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old"
+            "Braveheart heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old",
+            "Prancelaurel mentions that Braveheart looks good today. (low positive effect) - Braveheart was 141 moons old",
+            "Prancelaurel yawns while Braveheart is trying to tell her something. (low negative effect) - Braveheart was 142 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -528,14 +549,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 15,
         "comfort": 8,
         "trust": 5,
         "log": [
             "Braveheart heard that Suntooth chased a rogue off the territory. (positive effect) - Braveheart was 120 moons old",
             "Braveheart heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveheart was 125 moons old",
-            "Braveheart talks with Suntooth about some Clan drama. (low positive effect) - Braveheart was 127 moons old"
+            "Braveheart talks with Suntooth about some Clan drama. (low positive effect) - Braveheart was 127 moons old",
+            "Suntooth points out that Braveheart's fresh-kill has gone bad before she eats it. (medium positive effect) - Braveheart was 138 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -629,11 +651,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Braveheart heard Gardeniaglow fell asleep guarding camp. (negative effect) - Braveheart was 136 moons old",
+            "Braveheart heard Gardeniaglow fell asleep guarding camp. (negative effect) - Braveheart was 138 moons old",
+            "Braveheart heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Braveheart was 140 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -673,10 +701,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Braveheart was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Braveheart was 137 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -725,11 +755,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -826,12 +859,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 4,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Braveheart thanks Elmtrail for covering for him during a patrol earlier. (medium positive effect) - Braveheart was 130 moons old"
+            "Braveheart thanks Elmtrail for covering for him during a patrol earlier. (medium positive effect) - Braveheart was 130 moons old",
+            "Elmtrail bumped into Braveheart and didn't even apologize! (low negative effect) - Braveheart was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -857,11 +891,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
-        "trust": 5,
+        "trust": 15,
         "log": [
-            "Braveheart heard that Reedheart chased a rogue off the territory. (positive effect) - Braveheart was 131 moons old"
+            "Braveheart heard that Reedheart chased a rogue off the territory. (positive effect) - Braveheart was 131 moons old",
+            "Braveheart gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Braveheart was 138 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -916,11 +951,14 @@
         "like": 0,
         "respect": 15,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Brave was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Brave was 116 moons old"
+            "Brave was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Brave was 116 moons old",
+            "Braveheart heard Frondpad fell asleep guarding camp. (negative effect) - Braveheart was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -954,12 +992,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Braveheart was 139 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -968,13 +1011,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": -12,
         "trust": 0,
         "log": [
-            "Braveheart tells his Clanmates that something's off about Icyriver. (medium negative effect) - Braveheart was 133 moons old"
+            "Braveheart tells his Clanmates that something's off about Icyriver. (medium negative effect) - Braveheart was 133 moons old",
+            "Braveheart appreciates Icyriver's helpful attitude. (low positive effect) - Braveheart was 141 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -997,14 +1043,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 29,
+        "trust": 5,
         "log": [
-            "Braveheart heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveheart was 124 moons old"
+            "Braveheart heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveheart was 124 moons old",
+            "Braveheart and Gracklefur worked together to use an eagle as a scout for their own hunt. (positive effect) - Braveheart was 137 moons old",
+            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Braveheart was 139 moons old",
+            "Braveheart overhears something about Gracklefur that he can relate to. (medium positive effect) - Braveheart was 142 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -1020,9 +1073,7 @@
             "Braveheart heard Mallowpelt fell asleep guarding camp. (negative effect) - Braveheart was 120 moons old",
             "Braveheart disapproved of Mallowpelt wearing a collar. (negative effect) - Braveheart was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1087,7 +1138,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1164,11 +1215,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Braveheart. (positive effect) - Braveheart was 141 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -1225,12 +1280,7 @@
             "Mallardfeather smiles at Braveheart whenever they meet. (medium positive effect) - Braveheart was 118 moons old",
             "Braveheart purrs for a long time at one of Mallardfeather's lame jokes. (high positive effect) - Braveheart was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1355,10 +1405,7 @@
         "log": [
             "Braveheart was amused when Shadowfreckle got an octopus stuck on his head while trying to catch it for the fresh-kill pile. (positive effect) - Braveheart was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1408,7 +1455,7 @@
         "cat_to_id": "124",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 3,
         "respect": 3,
         "comfort": 7,
@@ -1416,7 +1463,8 @@
         "log": [
             "Braveheart was impressed by Blizzardstripe's confidence in fighting rogues. (positive effect) - Braveheart was 118 moons old",
             "Braveheart and Blizzardstripe had a successful hunt together. (positive effect) - Braveheart was 120 moons old",
-            "Braveheart and Blizzardstripe are joking around together, but the jokes are becoming targeted. (high negative effect) - Braveheart was 133 moons old"
+            "Braveheart and Blizzardstripe are joking around together, but the jokes are becoming targeted. (high negative effect) - Braveheart was 133 moons old",
+            "Braveheart is prancing around in front of Blizzardstripe. (low positive effect) - Braveheart was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1440,11 +1488,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Braveheart was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Braveheart was 141 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -1498,11 +1551,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 10,
         "comfort": 0,
-        "trust": 15,
+        "trust": 10,
         "log": [
-            "Braveheart gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Braveheart was 132 moons old"
+            "Braveheart gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Braveheart was 132 moons old",
+            "Braveheart heard that Silkymunch touched noses with a kittypet. (negative effect) - Braveheart was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1721,9 +1775,7 @@
         "log": [
             "Braveheart enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Braveheart was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1760,12 +1812,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -7,
-        "comfort": 0,
-        "trust": 0,
+        "like": -12,
+        "respect": -24,
+        "comfort": -8,
+        "trust": -5,
         "log": [
-            "Braveheart heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Braveheart was 127 moons old"
+            "Braveheart heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Braveheart was 127 moons old",
+            "Braveheart heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Braveheart was 138 moons old",
+            "Braveheart notices a strange glint in Caterpillarfoot's eyes. (low negative effect) - Braveheart was 139 moons old",
+            "Caterpillarfoot tromped into the elder's den with muddy paws, trailing muck straight through Cobaltstrike, Pebblechase, and Braveheart's nests. (negative effect) - Braveheart was 139 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1799,9 +1854,7 @@
             "Stoatshade beckons Coconutkit, Mitekit, Lilykit, and Brave to relax with him and chat. (positive effect) - Brave was 116 moons old",
             "Braveheart learns something new about a Clanmate from Coconutocean. (low positive effect) - Braveheart was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1854,9 +1907,7 @@
             "Braveheart swears that Terabyte stole something from his nest. (high negative effect) - Braveheart was 125 moons old",
             "Braveheart heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Braveheart was 128 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -1925,9 +1976,10 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Braveheart heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old"
+            "Braveheart heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old",
+            "Braveheart and Marshnose worked together to use an eagle as a scout for their own hunt. (positive effect) - Braveheart was 137 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1938,12 +1990,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": -5,
+        "trust": 15,
         "log": [
             "Braveheart heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Braveheart was 127 moons old",
-            "Braveheart heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old"
+            "Braveheart heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old",
+            "Braveheart and Sandthrush worked together to use an eagle as a scout for their own hunt. (positive effect) - Braveheart was 137 moons old",
+            "Braveheart gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Braveheart was 138 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2071,9 +2125,7 @@
             "Braveheart heard about how Jasminesprout's patrol killed a scavenging fox. (positive effect) - Braveheart was 133 moons old",
             "Braveheart gives Jasminesprout some feathers from the bird he caught to line her nest. (medium positive effect) - Braveheart was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
@@ -2095,11 +2147,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -5,
+        "log": [
+            "Braveheart had a funny dream about Frognose and can't take her seriously now. (low negative effect) - Braveheart was 140 moons old",
+            "Braveheart heard about how Frognose shared prey with a kittypet. (negative effect) - Braveheart was 140 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -2201,13 +2258,242 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
+        "trust": -10,
+        "log": [
+            "Braveheart wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Braveheart was 138 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -9,
+        "respect": 3,
+        "comfort": 5,
+        "trust": 4,
+        "log": [
+            "Braveheart is wowed by how bravely Jademuzzle fought the other day. (high positive effect) - Braveheart was 137 moons old",
+            "Braveheart tells Jademuzzle to talk a little quieter. (low negative effect) - Braveheart was 137 moons old",
+            "Braveheart heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Braveheart was 137 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "162",
-        "cat_to_id": "203",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 5,
+        "log": [
+            "Braveheart and Lionheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Braveheart was 137 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "227",
         "mates": false,
         "family": false,
         "romance": 0,

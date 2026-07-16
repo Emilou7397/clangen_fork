@@ -34,14 +34,14 @@
     },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "snake bite": {
-            "death_text": "m_c died after {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was} bitten by a snake.",
-            "scar_text": "m_c was scarred by a snake bite.",
-            "other_cat": null
-        }
-    },
+    "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": null,
+            "text": "m_c was scarred by a snake bite.",
+            "moon": 130
+        }
+    ],
     "murder": {}
 }

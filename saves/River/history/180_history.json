@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "86": {
-                "sociability": 3,
-                "stability": 2
+                "sociability": 7,
+                "stability": 2,
+                "aggression": -1,
+                "strings": [
+                    "step out of {PRONOUN\/m_c\/poss} comfort zone",
+                    "stay collected",
+                    "use words over teeth and claws"
+                ]
             }
         },
         "skill": {
             "86": {
-                "SENSE": 7
+                "SENSE": 12,
+                "strings": [
+                    "noticing small details"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "warmth",
+        "graduation_age": 14,
+        "moon": 134
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

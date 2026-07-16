@@ -1,26 +1,18 @@
 {
     "illnesses": {
-        "grief stricken": {
-            "severity": "major",
+        "stomachache": {
+            "severity": "minor",
             "mortality": 0,
             "infectiousness": 0,
-            "duration": 3,
-            "moon_start": 129,
+            "duration": 1,
+            "moon_start": 136,
             "risks": [
                 {
-                    "name": "lasting grief",
-                    "chance": 135
-                },
-                {
-                    "name": "constant nightmares",
-                    "chance": 50
-                },
-                {
-                    "name": "selective mutism",
-                    "chance": 185
+                    "name": "diarrhea",
+                    "chance": 48
                 }
             ],
-            "event_triggered": true
+            "event_triggered": false
         }
     }
 }

@@ -8,17 +8,32 @@
     "mentor_influence": {
         "trait": {
             "74": {
-                "stability": 4
+                "stability": 6,
+                "sociability": 4,
+                "aggression": -1,
+                "strings": [
+                    "think things through",
+                    "put others at ease",
+                    "be slow to anger"
+                ]
             }
         },
         "skill": {
             "74": {
-                "INSIGHTFUL": 2,
-                "FIGHTER": 3
+                "INSIGHTFUL": 9,
+                "FIGHTER": 6,
+                "strings": [
+                    "providing insight",
+                    "fighting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "strong will",
+        "graduation_age": 13,
+        "moon": 133
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

@@ -1,26 +1,21 @@
 {
-    "illnesses": {
-        "grief stricken": {
+    "injuries": {
+        "cat bite": {
             "severity": "major",
-            "mortality": 0,
-            "infectiousness": 0,
-            "duration": 0,
-            "moon_start": 129,
+            "mortality": 70,
+            "duration": 2,
+            "moon_start": 136,
+            "illness_infectiousness": [],
             "risks": [
                 {
-                    "name": "lasting grief",
-                    "chance": 135
-                },
-                {
-                    "name": "constant nightmares",
-                    "chance": 50
-                },
-                {
-                    "name": "selective mutism",
-                    "chance": 185
+                    "name": "an infected wound",
+                    "chance": 5
                 }
             ],
-            "event_triggered": true
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": []
         }
     }
 }

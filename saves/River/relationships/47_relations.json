@@ -123,13 +123,15 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": -5,
+        "comfort": -18,
         "trust": 0,
         "log": [
             "Goldshard invites Stoatshade, Quailfur, Gardeniaglow, and Silverstar to share what's been on their minds and to have an honest talk with each other. (positive effect)- Gardeniaglow was 24 moons old",
             "Gardeniaglow worries about Stoatshade's mental stability. (medium negative effect) - Gardeniaglow was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -248,12 +250,15 @@
         "like": 0,
         "respect": 18,
         "comfort": -3,
-        "trust": 13,
+        "trust": 10,
         "log": [
             "Gardeniaglow saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Gardeniaglow was 25 moons old",
-            "Gardeniaglow heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 62 moons old"
+            "Gardeniaglow heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 62 moons old",
+            "Gardeniaglow saw Primfreckle hide something before talking to him. (low negative effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -372,7 +377,7 @@
         "romance": 0,
         "like": -22,
         "respect": 35,
-        "comfort": -2,
+        "comfort": -10,
         "trust": 16,
         "log": [
             "Gardeniakit was impressed by how Algaepool was able to resolve a personal dispute with another Clan. (positive effect)- Gardeniakit was 2 moons old",
@@ -393,7 +398,7 @@
         "romance": 0,
         "like": 32,
         "respect": 8,
-        "comfort": 40,
+        "comfort": 48,
         "trust": 0,
         "log": [
             "Gardeniaglow convinces Diablofoot, Duckbelly, Carptail, and Yewheather to wind down and stretch with him. (positive effect)- Gardeniaglow was 18 moons old",
@@ -402,22 +407,26 @@
             "Gardeniaglow, Yewstar, and Skulkwillow took a sunbath and had a little small talk. (positive effect)- Gardeniaglow was 33 moons old",
             "Gardeniaglow's eagerness to do early morning stretches rubs off on Drizzlepelt, Reedheart, Yewstar, and Shiveringdusk. (positive effect) - Gardeniaglow was 68 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
         "cat_to_id": "20",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -10,
-        "respect": 15,
+        "romance": 8,
+        "like": 0,
+        "respect": 2,
         "comfort": 0,
-        "trust": 0,
+        "trust": 9,
         "log": [
             "Gardeniakit was impressed by how Auburnsplash was able to resolve a hunting dispute with another Clan. (positive effect)- Gardeniakit was 2 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -472,14 +481,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 7,
-        "comfort": 13,
-        "trust": 0,
+        "like": -4,
+        "respect": 3,
+        "comfort": 11,
+        "trust": -11,
         "log": [
-            "Gardeniaglow heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 62 moons old"
+            "Gardeniaglow heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 62 moons old",
+            "Gardeniaglow thinks Bitebone is trying to steal one of his friends! (high negative effect) - Gardeniaglow was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -577,15 +590,16 @@
         "romance": 0,
         "like": 20,
         "respect": 26,
-        "comfort": 17,
-        "trust": 0,
+        "comfort": 14,
+        "trust": 13,
         "log": [
             "Gardeniapaw heard about how Suntooth's patrol stole a fox's prey. (positive effect)- Gardeniapaw was 9 moons old",
             "Gardeniapaw saw Suntooth defend the fresh-kill pile from a horde of rats. (positive effect)- Gardeniapaw was 10 moons old",
             "Mossflight, Suntooth, and Gardeniaglow had a nice talk while eating. (positive effect)- Gardeniaglow was 21 moons old",
             "Gardeniaglow convinces Shardtail, Burrweb, Suntooth, and Curryfoot to wind down and stretch with him. (positive effect)- Gardeniaglow was 26 moons old",
             "Gardeniaglow noticed how successful Suntooth's hunting patrol was. (positive effect) - Gardeniaglow was 50 moons old",
-            "Gardeniaglow heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 63 moons old"
+            "Gardeniaglow heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 63 moons old",
+            "Suntooth respects Gardeniaglow's opinion despite disagreeing with it. (low positive effect) - Gardeniaglow was 75 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -656,14 +670,15 @@
         "mates": false,
         "family": false,
         "romance": 21,
-        "like": -6,
-        "respect": 30,
-        "comfort": 7,
-        "trust": 3,
+        "like": 1,
+        "respect": 51,
+        "comfort": 14,
+        "trust": 10,
         "log": [
             "Gardeniaglow got stuck in the same tree with Saffronfoot for hours and realized how much they have in common. (high positive effect)- Gardeniaglow was 27 moons old",
             "Suntooth, Harefeather, Burrweb, and Gardeniaglow respect how dutiful Saffronfoot is to training, but they all wish they weren't up doing stretches at dawn. (negative effect)- Gardeniaglow was 27 moons old",
-            "Gardeniaglow heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 63 moons old"
+            "Gardeniaglow heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 63 moons old",
+            "In the middle of an argument, Gardeniaglow tells Saffronfoot that they'll still always be friends. (high positive effect) - Gardeniaglow was 76 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -838,9 +853,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 92,
+        "like": 100,
         "respect": 29,
-        "comfort": 38,
+        "comfort": 50,
         "trust": -3,
         "log": [
             "Gardeniakit is excited for his family to grow further. (positive effect)- Gardeniakit was 1 moon old",
@@ -853,7 +868,8 @@
             "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Gardeniaglow was 34 moons old",
             "Gardeniaglow and Hushshimmer enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Gardeniaglow was 43 moons old",
             "Gardeniaglow and Hushshimmer drove off rogues together. (positive effect) - Gardeniaglow was 51 moons old",
-            "Gardeniaglow heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old"
+            "Gardeniaglow heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old",
+            "At first, Sardinespeckle, Hushshimmer, Fleadusk, and Gardeniaglow are unsure about Fringesnap's bonding exercise, but it goes wonderfully. (positive effect) - Gardeniaglow was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -864,8 +880,8 @@
         "family": false,
         "romance": 0,
         "like": 37,
-        "respect": 5,
-        "comfort": 7,
+        "respect": 27,
+        "comfort": 10,
         "trust": 10,
         "log": [
             "Gardeniakit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Gardeniakit was 1 moon old",
@@ -876,7 +892,9 @@
             "Gardeniaglow heard about how Warmswirl's patrol drove off a vixen. (positive effect)- Gardeniaglow was 30 moons old",
             "The moonlight encourages Mossflight, Gardeniaglow, Verbenabloom, Shardtail, and Warmswirl to slow down and stretch. (positive effect)- Gardeniaglow was 36 moons old",
             "Spittle and flecks of bone fly while Warmswirl gobbles down prey, reminding Dancingfleck, Currenthiss, Gardeniaglow, and Shadowfreckle to seek out better mealtime companionship next time. (negative effect) - Gardeniaglow was 55 moons old",
-            "Warmswirl forgot something important about Gardeniaglow. (medium negative effect) - Gardeniaglow was 57 moons old"
+            "Warmswirl forgot something important about Gardeniaglow. (medium negative effect) - Gardeniaglow was 57 moons old",
+            "Gardeniaglow was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Gardeniaglow was 75 moons old",
+            "Gardeniaglow can't remember a word for the life of him, but Warmswirl helps him remember it. (medium positive effect) - Gardeniaglow was 77 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -933,7 +951,7 @@
         "romance": 0,
         "like": 12,
         "respect": 5,
-        "comfort": 12,
+        "comfort": 4,
         "trust": 8,
         "log": [
             "Amberfur helps Gardeniaglow hide from a Clanmate. (low positive effect)- Gardeniaglow was 29 moons old",
@@ -947,11 +965,11 @@
         "cat_to_id": "57",
         "mates": true,
         "family": false,
-        "romance": 54,
-        "like": 46,
-        "respect": 0,
-        "comfort": 42,
-        "trust": 46,
+        "romance": 88,
+        "like": 78,
+        "respect": 8,
+        "comfort": 61,
+        "trust": 52,
         "log": [
             "Gardeniaglow rescued Fringesnap when sand caved in under him. (positive effect)- Gardeniaglow was 32 moons old",
             "Fringesnap and Gardeniaglow were heard discussing kits. (high positive effect)- Gardeniaglow was 33 moons old",
@@ -960,7 +978,9 @@
             "Fringesnap sneaks out at night to sleep in Gardeniaglow's nest. (high positive effect) - Gardeniaglow was 43 moons old",
             "Fringesnap's eagerness to do early morning stretches rubs off on Fleadusk, Gardeniaglow, Tomatofreckle, and Skulkwillow. (positive effect) - Gardeniaglow was 48 moons old",
             "Fringesnap can't stop gushing over Gardeniaglow. (high positive effect) - Gardeniaglow was 48 moons old",
-            "Fringesnap and Gardeniaglow snuck out of camp together. (high positive effect) - Gardeniaglow was 71 moons old"
+            "Fringesnap and Gardeniaglow snuck out of camp together. (high positive effect) - Gardeniaglow was 71 moons old",
+            "At first, Sardinespeckle, Hushshimmer, Fleadusk, and Gardeniaglow are unsure about Fringesnap's bonding exercise, but it goes wonderfully. (positive effect) - Gardeniaglow was 73 moons old",
+            "Gardeniaglow and Fringesnap have been sickeningly lovey-dovey all day. (high positive effect) - Gardeniaglow was 77 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -984,7 +1004,7 @@
         "cat_to_id": "61",
         "mates": false,
         "family": false,
-        "romance": 11,
+        "romance": 0,
         "like": 14,
         "respect": -10,
         "comfort": 6,
@@ -993,7 +1013,8 @@
             "Fidgetmouse, Gardeniaglow, and Verbenabloom took a sunbath and had a little small talk. (positive effect)- Gardeniaglow was 21 moons old",
             "Gardeniaglow brings Verbenabloom some fresh-kill, hoping that he remembered what Verbenabloom's favorite was. (high positive effect)- Gardeniaglow was 27 moons old",
             "The moonlight encourages Mossflight, Gardeniaglow, Verbenabloom, Shardtail, and Warmswirl to slow down and stretch. (positive effect)- Gardeniaglow was 36 moons old",
-            "Verbenabloom says that Gardeniaglow smells weird. (medium negative effect) - Gardeniaglow was 57 moons old"
+            "Verbenabloom says that Gardeniaglow smells weird. (medium negative effect) - Gardeniaglow was 57 moons old",
+            "Gardeniaglow feels ignored by Verbenabloom. (low negative effect) - Gardeniaglow was 76 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1003,9 +1024,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 38,
+        "like": 50,
         "respect": 16,
-        "comfort": 53,
+        "comfort": 65,
         "trust": 29,
         "log": [
             "Gardeniaglow remembers something nice that Fleadusk did. (low positive effect)- Gardeniaglow was 25 moons old",
@@ -1015,7 +1036,8 @@
             "Gardeniaglow comes up with a plan to sneak out of camp with Fleadusk. (medium positive effect) - Gardeniaglow was 48 moons old",
             "Fringesnap's eagerness to do early morning stretches rubs off on Fleadusk, Gardeniaglow, Tomatofreckle, and Skulkwillow. (positive effect) - Gardeniaglow was 48 moons old",
             "Gardeniaglow and Fleadusk drove off rogues together. (positive effect) - Gardeniaglow was 51 moons old",
-            "Gardeniaglow heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old"
+            "Gardeniaglow heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old",
+            "At first, Sardinespeckle, Hushshimmer, Fleadusk, and Gardeniaglow are unsure about Fringesnap's bonding exercise, but it goes wonderfully. (positive effect) - Gardeniaglow was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1042,15 +1064,16 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 10,
+        "respect": 25,
         "comfort": 23,
-        "trust": 13,
+        "trust": 28,
         "log": [
             "Gardeniaglow noticed that Skulkwillow was in a foul mood. (negative effect)- Gardeniaglow was 23 moons old",
             "Gardeniaglow, Yewstar, and Skulkwillow took a sunbath and had a little small talk. (positive effect)- Gardeniaglow was 33 moons old",
             "Fringesnap's eagerness to do early morning stretches rubs off on Fleadusk, Gardeniaglow, Tomatofreckle, and Skulkwillow. (positive effect) - Gardeniaglow was 48 moons old",
             "Gardeniaglow and Skulkwillow drove off rogues together. (positive effect) - Gardeniaglow was 51 moons old",
-            "Gardeniaglow heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old"
+            "Gardeniaglow heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old",
+            "Gardeniaglow heard about Skulkwillow's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1076,18 +1099,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
-        "respect": 0,
-        "comfort": 30,
-        "trust": 13,
+        "like": 37,
+        "respect": 5,
+        "comfort": 40,
+        "trust": 18,
         "log": [
             "Gardeniaglow and Diablofoot enjoyed hanging out and chatting during a training session. (positive effect)- Gardeniaglow was 15 moons old",
             "Gardeniaglow convinces Diablofoot, Duckbelly, Carptail, and Yewheather to wind down and stretch with him. (positive effect)- Gardeniaglow was 18 moons old",
             "Gardeniaglow, Diablofoot, and Prancelaurel had a nice talk while eating. (positive effect)- Gardeniaglow was 23 moons old",
             "Gardeniaglow and Diablofoot worked on their skills together on a training patrol. (positive effect)- Gardeniaglow was 27 moons old",
-            "Gardeniaglow and Diablofoot felt frustrated after an unproductive training patrol. (negative effect) - Gardeniaglow was 37 moons old"
+            "Gardeniaglow and Diablofoot felt frustrated after an unproductive training patrol. (negative effect) - Gardeniaglow was 37 moons old",
+            "Gardeniaglow and Diablofoot enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 78 moons old",
+            "Gardeniaglow thought the call from Diablofoot to head home early was wise. (positive effect) - Gardeniaglow was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1110,15 +1139,22 @@
         "cat_to_id": "69",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": -17,
-        "respect": 0,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Gardeniaglow claimed to give Elmtrail a piece of crowfood on accident. (medium negative effect) - Gardeniaglow was 59 moons old"
+            "Gardeniaglow claimed to give Elmtrail a piece of crowfood on accident. (medium negative effect) - Gardeniaglow was 59 moons old",
+            "Gardeniaglow heard about Elmtrail's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old",
+            "Gardeniaglow brushes against Elmtrail while correcting her stance and looks away with a purr. (medium positive effect) - Gardeniaglow was 77 moons old",
+            "Gardeniaglow heard about how Elmtrail's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1127,16 +1163,17 @@
         "family": false,
         "romance": 23,
         "like": 1,
-        "respect": 10,
+        "respect": 25,
         "comfort": 25,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Gardeniaglow can't help but smile seeing Brindletooth smile. (low positive effect)- Gardeniaglow was 31 moons old",
             "Gardeniaglow charms Brindletooth with endless compliments. (medium positive effect) - Gardeniaglow was 43 moons old",
             "Gardeniaglow and Brindletooth share little secrets about themselves. (medium positive effect) - Gardeniaglow was 44 moons old",
             "Brindletooth was seen tossing out a gift Gardeniaglow gave them. (medium negative effect) - Gardeniaglow was 49 moons old",
             "Gardeniaglow claimed to give Brindletooth a piece of crowfood on accident. (medium negative effect) - Gardeniaglow was 58 moons old",
-            "Gardeniaglow heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old"
+            "Gardeniaglow heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 61 moons old",
+            "Gardeniaglow heard about Brindletooth's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1167,18 +1204,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 1,
+        "like": 13,
         "respect": -12,
-        "comfort": -12,
+        "comfort": 0,
         "trust": 13,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 13 moons old",
             "Gardeniaglow had a plan during a patrol, but Sardinespeckle's was a lot better. (medium negative effect) - Gardeniaglow was 39 moons old",
-            "Gardeniaglow includes Sardinespeckle in a conversation that Sardinespeckle struggled to join. (low positive effect) - Gardeniaglow was 72 moons old"
+            "Gardeniaglow includes Sardinespeckle in a conversation that Sardinespeckle struggled to join. (low positive effect) - Gardeniaglow was 72 moons old",
+            "At first, Sardinespeckle, Hushshimmer, Fleadusk, and Gardeniaglow are unsure about Fringesnap's bonding exercise, but it goes wonderfully. (positive effect) - Gardeniaglow was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "47",
@@ -1187,16 +1223,17 @@
         "family": false,
         "romance": 0,
         "like": -21,
-        "respect": 5,
+        "respect": 20,
         "comfort": -6,
-        "trust": 8,
+        "trust": 23,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 13 moons old",
             "Gardeniaglow heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Gardeniaglow was 29 moons old",
             "Gardeniaglow gets some good advice from Shinefur about something trivial. (low positive effect)- Gardeniaglow was 33 moons old",
             "Gardeniaglow and Shinefur couldn't agree which way to go on a patrol and got home late. (medium negative effect)- Gardeniaglow was 36 moons old",
             "Gardeniaglow remembers something nice that Shinefur did. (low positive effect) - Gardeniaglow was 42 moons old",
-            "Gardeniaglow confesses something to Shinefur, but realizes she can't relate at all. (low negative effect) - Gardeniaglow was 46 moons old"
+            "Gardeniaglow confesses something to Shinefur, but realizes she can't relate at all. (low negative effect) - Gardeniaglow was 46 moons old",
+            "Gardeniaglow heard about Shinefur's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1208,13 +1245,14 @@
         "romance": 0,
         "like": -2,
         "respect": 3,
-        "comfort": -11,
+        "comfort": -3,
         "trust": 0,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 13 moons old",
             "Talonlake gives Gardeniaglow something that he dropped. (low positive effect) - Gardeniaglow was 47 moons old",
             "Gardeniaglow noticed how successful Talonlake's hunting patrol was. (positive effect) - Gardeniaglow was 48 moons old",
-            "Talonlake says that Gardeniaglow smells weird. (medium negative effect) - Gardeniaglow was 69 moons old"
+            "Talonlake says that Gardeniaglow smells weird. (medium negative effect) - Gardeniaglow was 69 moons old",
+            "Gardeniaglow and Talonlake enjoy the rain together. (low positive effect) - Gardeniaglow was 76 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1303,7 +1341,7 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 14,
+        "like": 2,
         "respect": 5,
         "comfort": 36,
         "trust": 4,
@@ -1311,7 +1349,8 @@
             "Pearpelt, Icyriver, and Gardeniaglow took a sunbath and had a little small talk. (positive effect)- Gardeniaglow was 34 moons old",
             "Gardeniaglow can't help but admire Icyriver's pelt. (low positive effect) - Gardeniaglow was 41 moons old",
             "Gardeniaglow calms down when he realizes Icyriver is nearby. (medium positive effect) - Gardeniaglow was 52 moons old",
-            "Gardeniaglow overhears Icyriver saying something nice about him. (high positive effect) - Gardeniaglow was 54 moons old"
+            "Gardeniaglow overhears Icyriver saying something nice about him. (high positive effect) - Gardeniaglow was 54 moons old",
+            "Icyriver pulled a prank on Gardeniaglow. (medium negative effect) - Gardeniaglow was 74 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1343,11 +1382,7 @@
         "log": [
             "Gardeniaglow asks Pheasantbrush to look at a little cut on his leg. (high positive effect) - Gardeniaglow was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "47",
@@ -1356,7 +1391,7 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 16,
+        "respect": 24,
         "comfort": 16,
         "trust": 5,
         "log": [
@@ -1421,16 +1456,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -14,
-        "respect": 20,
+        "like": -2,
+        "respect": 25,
         "comfort": -14,
         "trust": 0,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 22 moons old",
             "Voletuft draws a pretty symbol in the sand that Gardeniaglow makes sure not to mess up. (low positive effect) - Gardeniaglow was 40 moons old",
-            "Gardeniaglow is sparring with Voletuft. (medium positive effect) - Gardeniaglow was 49 moons old"
+            "Gardeniaglow is sparring with Voletuft. (medium positive effect) - Gardeniaglow was 49 moons old",
+            "Gardeniaglow hesitantly asks to exchange fresh-kill with Voletuft. Voletuft agrees, since Gardeniaglow's is their favorite kind, anyways. (medium positive effect) - Gardeniaglow was 78 moons old",
+            "Gardeniaglow heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1455,21 +1495,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 30,
         "respect": 18,
-        "comfort": 6,
-        "trust": 22,
+        "comfort": 18,
+        "trust": 34,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 22 moons old",
             "Gardeniaglow reassures Saltpaw about something that was bothering him. (low positive effect)- Gardeniaglow was 34 moons old",
             "Gardeniaglow and Saltknoll heckled another Clan at the Gathering together. (high positive effect) - Gardeniaglow was 55 moons old",
             "Gardeniaglow confesses something to Saltknoll. (high positive effect) - Gardeniaglow was 59 moons old",
             "Gardeniaglow and Saltknoll reach for the same piece of prey and bicker over it. Saltknoll gets it. (low negative effect) - Gardeniaglow was 66 moons old",
-            "Gardeniaglow appreciates Saltknoll's helpful attitude. (low positive effect) - Gardeniaglow was 73 moons old"
+            "Gardeniaglow appreciates Saltknoll's helpful attitude. (low positive effect) - Gardeniaglow was 73 moons old",
+            "Gardeniaglow feels like he can count on Saltknoll to give him the best treatment possible. (medium positive effect) - Gardeniaglow was 74 moons old",
+            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Gardeniaglow was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "47",
@@ -1478,13 +1518,16 @@
         "family": false,
         "romance": 0,
         "like": 18,
-        "respect": 0,
-        "comfort": 18,
-        "trust": 0,
+        "respect": 5,
+        "comfort": 23,
+        "trust": 6,
         "log": [
             "Gardeniaglow is excited for his family to grow further. (positive effect)- Gardeniaglow was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1521,17 +1564,19 @@
         "family": false,
         "romance": 0,
         "like": 30,
-        "respect": 13,
-        "comfort": 28,
+        "respect": 25,
+        "comfort": 36,
         "trust": 9,
         "log": [
             "Gardeniaglow finds his feelings conflicted towards the new family addition. (neutral effect)- Gardeniaglow was 23 moons old",
             "Curryfoot, Hushshimmer, Gardeniaglow, Skippaw, and Erminedaisy blow off steam by stretching with and venting to each other. (positive effect)- Gardeniaglow was 34 moons old",
             "Skiphare compliments one of Gardeniaglow's friends. (low positive effect) - Gardeniaglow was 44 moons old",
             "Gardeniaglow has a lot of fun with Skiphare! (high positive effect) - Gardeniaglow was 65 moons old",
-            "Gardeniaglow tells Skiphare he'll save him a piece of fresh-kill. (medium positive effect) - Gardeniaglow was 72 moons old"
+            "Gardeniaglow tells Skiphare he'll save him a piece of fresh-kill. (medium positive effect) - Gardeniaglow was 72 moons old",
+            "Gardeniaglow shares a bit of shelter from the rain with Skiphare. (medium positive effect) - Gardeniaglow was 80 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "comfort"
         ]
     },
@@ -1602,19 +1647,21 @@
         "cat_to_id": "97",
         "mates": false,
         "family": false,
-        "romance": 15,
-        "like": -13,
-        "respect": -27,
-        "comfort": 16,
-        "trust": 15,
+        "romance": 19,
+        "like": -9,
+        "respect": -13,
+        "comfort": 22,
+        "trust": 19,
         "log": [
             "Gardeniaglow loses in a race against Snakedrop and acts bitterly about it. (low negative effect) - Gardeniaglow was 48 moons old",
             "Snakedrop returned to the warrior's den dripping mud everywhere and managed to ruin Butterflyglide, Coquitostep, and Gardeniaglow's nests. (negative effect) - Gardeniaglow was 65 moons old",
             "A Clanmate tells Gardeniaglow that Snakedrop's stories are better. (high negative effect) - Gardeniaglow was 70 moons old",
-            "Snakedrop complained about his patrol assignment all day, much to the annoyance of Gardeniaglow, Brindletooth, and Skiphare. (negative effect) - Gardeniaglow was 70 moons old"
+            "Snakedrop complained about his patrol assignment all day, much to the annoyance of Gardeniaglow, Brindletooth, and Skiphare. (negative effect) - Gardeniaglow was 70 moons old",
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Gardeniaglow. (positive effect) - Gardeniaglow was 79 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort",
             "trust"
         ]
@@ -1670,18 +1717,25 @@
         "family": false,
         "romance": 3,
         "like": 7,
-        "respect": 0,
+        "respect": 20,
         "comfort": -8,
-        "trust": -8,
+        "trust": 7,
         "log": [
             "Gardeniaglow and Kokomi got spooked on patrol, then argued about what caused the noise that scared them. (negative effect)- Gardeniaglow was 30 moons old",
             "Gardeniaglow greets Kokomi as she's exiting the warriors' den. (medium positive effect)- Gardeniaglow was 37 moons old",
             "Gardeniaglow and Kiwifoot enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Gardeniaglow was 43 moons old",
             "Kiwifoot got a weird look on her face when Gardeniaglow approached her. (low negative effect) - Gardeniaglow was 51 moons old",
             "Gardeniaglow is admiring Kiwifoot from afar... (low positive effect) - Gardeniaglow was 51 moons old",
-            "Gardeniaglow and Kiwifoot drove off rogues together. (positive effect) - Gardeniaglow was 51 moons old"
+            "Gardeniaglow and Kiwifoot drove off rogues together. (positive effect) - Gardeniaglow was 51 moons old",
+            "Gardeniaglow heard about Kiwifoot's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old",
+            "Gardeniaglow heard about how Kiwifoot's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1689,15 +1743,21 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": -16,
-        "respect": 13,
-        "comfort": 10,
+        "like": 4,
+        "respect": 23,
+        "comfort": 20,
         "trust": 8,
         "log": [
             "After Gardeniaglow tidies up an area, Oddmuzzle accidentally messes it up again. (low negative effect) - Gardeniaglow was 55 moons old",
-            "In the middle of a squabble, Oddmuzzle says something to Gardeniaglow that makes the whole Clan gasp. (high negative effect) - Gardeniaglow was 67 moons old"
+            "In the middle of a squabble, Oddmuzzle says something to Gardeniaglow that makes the whole Clan gasp. (high negative effect) - Gardeniaglow was 67 moons old",
+            "Gardeniaglow appreciated Oddmuzzle's help harvesting burdock root. (positive effect) - Gardeniaglow was 77 moons old",
+            "Gardeniaglow and Oddmuzzle enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1757,14 +1817,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 3,
         "log": [
-            "Lightpelt tells Gardeniaglow that he was worried about him. (low positive effect) - Gardeniaglow was 63 moons old"
+            "Lightpelt tells Gardeniaglow that he was worried about him. (low positive effect) - Gardeniaglow was 63 moons old",
+            "Lightpelt, Gardeniaglow, and Moletooth took a sunbath and had a little small talk. (positive effect) - Gardeniaglow was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1816,11 +1880,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 6,
+        "respect": -12,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
+        "log": [
+            "No matter how many warning looks Miteleaf, Snookbumble, and Gardeniaglow send him, Shadowfreckle keeps talking over the Gathering announcements. (negative effect) - Gardeniaglow was 75 moons old",
+            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Gardeniaglow was 76 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1962,9 +2029,7 @@
         "comfort": 0,
         "trust": 8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "47",
@@ -2028,15 +2093,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 7,
         "log": [
             "Gardeniaglow heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 63 moons old",
-            "Moletooth helps Gardeniaglow fix a matted piece of fur on his back. (medium positive effect) - Gardeniaglow was 64 moons old"
+            "Moletooth helps Gardeniaglow fix a matted piece of fur on his back. (medium positive effect) - Gardeniaglow was 64 moons old",
+            "Lightpelt, Gardeniaglow, and Moletooth took a sunbath and had a little small talk. (positive effect) - Gardeniaglow was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2045,10 +2116,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 15,
+        "log": [
+            "Gardeniaglow heard about Glowfur's victory in battle against a gang of rogues. (positive effect) - Gardeniaglow was 74 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2262,12 +2335,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 0,
-        "log": [],
+        "like": 7,
+        "respect": 7,
+        "comfort": 16,
+        "trust": 21,
+        "log": [
+            "Gardeniaglow knows that the advice Mewhoney gave him will be helpful. (high positive effect) - Gardeniaglow was 80 moons old"
+        ],
         "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
             "comfort"
         ]
     },
@@ -2277,11 +2355,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 13,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 13,
-        "log": [],
+        "log": [
+            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Gardeniaglow was 76 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2332,14 +2412,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 10,
         "trust": -10,
         "log": [
-            "Gardeniaglow heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gardeniaglow was 66 moons old"
+            "Gardeniaglow heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gardeniaglow was 66 moons old",
+            "Gardeniaglow and Terabyte enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2449,9 +2534,7 @@
         "log": [
             "Gardeniaglow heard about how Marshnose's patrol killed a scavenging fox. (positive effect) - Gardeniaglow was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "47",
@@ -2489,15 +2572,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": -10,
+        "like": 5,
+        "respect": 10,
+        "comfort": 5,
+        "trust": -5,
         "log": [
             "Gardeniaglow heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gardeniaglow was 66 moons old",
-            "Gardeniaglow approved of Coquitostep's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Gardeniaglow was 71 moons old"
+            "Gardeniaglow approved of Coquitostep's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Gardeniaglow was 71 moons old",
+            "Gardeniaglow was impressed by Coquitostep's ability to set an ambush. (positive effect) - Gardeniaglow was 74 moons old",
+            "Gardeniaglow heard about how Coquitostep's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2547,13 +2634,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
+        "like": 3,
         "respect": 5,
         "comfort": 10,
         "trust": 10,
         "log": [
             "Gardeniaglow asks Garlic if she could use some help getting introduced to the other Clan members. (positive effect) - Gardeniaglow was 62 moons old",
-            "Garlicberry heard Gardeniaglow discussing potential mates but her name never came up. (medium negative effect) - Gardeniaglow was 67 moons old"
+            "Garlicberry heard Gardeniaglow discussing potential mates but her name never came up. (medium negative effect) - Gardeniaglow was 67 moons old",
+            "Gardeniaglow spent the day arguing with Garlicberry about whether she stole something from Gardeniaglow. (medium negative effect) - Gardeniaglow was 79 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2673,12 +2761,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 12,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Tansywhisker, Shimmerrunner, Gardeniaglow, and Dogheather are enthralled by Moonchaser's eloquence. (positive effect) - Gardeniaglow was 68 moons old"
+            "Tansywhisker, Shimmerrunner, Gardeniaglow, and Dogheather are enthralled by Moonchaser's eloquence. (positive effect) - Gardeniaglow was 68 moons old",
+            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Gardeniaglow was 76 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2754,10 +2843,244 @@
         "family": false,
         "romance": 0,
         "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": 12,
+        "log": [
+            "Jademuzzle stands up for Gardeniaglow during a patrol. (medium positive effect) - Gardeniaglow was 75 moons old",
+            "Gardeniaglow heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 8,
+        "trust": 0,
+        "log": [
+            "Gardeniaglow didn't appreciate Hollyblossom's hostile taunting of an allied Clan. (negative effect) - Gardeniaglow was 76 moons old",
+            "Gardeniaglow heard about how Hollyblossom's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 13,
+        "trust": 13,
+        "log": [],
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     }
 ]

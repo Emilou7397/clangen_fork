@@ -36,13 +36,7 @@
     },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "claw-wound": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after {PRONOUN\/m_c\/subject} fought a trespassing rogue.",
-            "scar_text": "m_c was scarred when {PRONOUN\/m_c\/subject} fought a trespassing rogue.",
-            "other_cat": null
-        }
-    },
+    "possible_history": {},
     "died_by": [],
     "scar_events": [
         {
@@ -51,5 +45,16 @@
             "moon": 113
         }
     ],
-    "murder": {}
+    "murder": {
+        "is_murderer": [
+            {
+                "victim": "154",
+                "moon": 136,
+                "revealed": {
+                    "to_clan": false,
+                    "aware_individuals": []
+                }
+            }
+        ]
+    }
 }

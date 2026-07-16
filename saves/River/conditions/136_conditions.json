@@ -1,22 +1,19 @@
 {
     "injuries": {
-        "broken bone": {
-            "severity": "severe",
-            "mortality": 83,
-            "duration": 5,
-            "moon_start": 125,
+        "cat bite": {
+            "severity": "major",
+            "mortality": 66,
+            "duration": 2,
+            "moon_start": 136,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 19
+                    "chance": 5
                 }
             ],
             "complication": null,
-            "cause_permanent": [
-                "weak leg",
-                "twisted leg"
-            ],
+            "cause_permanent": [],
             "event_triggered": false,
             "potential_scars": []
         }

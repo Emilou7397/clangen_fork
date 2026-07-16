@@ -170,9 +170,10 @@
         "like": 12,
         "respect": 0,
         "comfort": 12,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Erminedaisy, Ochretail, Cobaltstrike, Snakedrop, and Poolleaf blow off steam by stretching with and venting to each other. (positive effect) - Snakedrop was 30 moons old"
+            "Erminedaisy, Ochretail, Cobaltstrike, Snakedrop, and Poolleaf blow off steam by stretching with and venting to each other. (positive effect) - Snakedrop was 30 moons old",
+            "Ochretail got a weird look on his face when Snakedrop approached him. (low negative effect) - Snakedrop was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -395,11 +396,12 @@
         "romance": 0,
         "like": -4,
         "respect": -6,
-        "comfort": -5,
+        "comfort": 2,
         "trust": -4,
         "log": [
             "Snakedrop can't stand hearing about how helpful Bitebone is. (high negative effect) - Snakedrop was 24 moons old",
-            "Snakedrop heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 37 moons old"
+            "Snakedrop heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 37 moons old",
+            "Snakedrop and Bitebone get a little giggly off of some mysterious herbs they found on a patrol. (medium positive effect) - Snakedrop was 55 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -432,9 +434,7 @@
             "Snakedrop heard about how Bouncepelt's patrol drove off a scavenging fox. (positive effect) - Snakedrop was 23 moons old",
             "Snakedrop started a huge argument between Poppybriar and Bouncepelt. (negative effect) - Snakedrop was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -547,15 +547,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
+        "like": -4,
         "respect": 26,
         "comfort": 13,
-        "trust": 6,
+        "trust": -2,
         "log": [
             "Snakedrop and Saffronfoot always challenge one another. (high positive effect) - Snakedrop was 33 moons old",
-            "Snakedrop heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 38 moons old"
+            "Snakedrop heard about how Saffronfoot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 38 moons old",
+            "Saffronfoot shares a suspiciously exaggerated tale with Swallowstripe, Prancelaurel, and Snakedrop, who seem far from convinced of its veracity. (negative effect) - Snakedrop was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -645,17 +649,13 @@
         "cat_to_id": "47",
         "mates": false,
         "family": false,
-        "romance": 15,
-        "like": 12,
-        "respect": 9,
-        "comfort": 21,
-        "trust": 20,
+        "romance": 19,
+        "like": 16,
+        "respect": 13,
+        "comfort": 27,
+        "trust": 24,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -668,9 +668,7 @@
         "comfort": 0,
         "trust": 8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -678,14 +676,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": -12,
+        "respect": -2,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [
-            "Snakedrop heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 36 moons old"
+            "Snakedrop heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 36 moons old",
+            "Hushshimmer tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Whiskerleg and Snakedrop. (negative effect) - Snakedrop was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1062,7 +1064,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
         "no_longer_neutral": []
     },
@@ -1075,7 +1077,7 @@
         "like": 23,
         "respect": 13,
         "comfort": 22,
-        "trust": 1,
+        "trust": 9,
         "log": [
             "Snakekit is wowed by how bravely Poolpaw fought the other day. (high positive effect)- Snakekit was 2 moons old",
             "Snakedrop and Poolleaf have a race. Poolleaf wins. (medium positive effect) - Snakedrop was 20 moons old",
@@ -1154,26 +1156,29 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
-        "comfort": 12,
+        "respect": 18,
+        "comfort": 15,
         "trust": 0,
         "log": [
             "Onemuzzle, wanting to help keep their Clanmates in shape and ready for anything, wakes Dancingpaw, Snakepaw, Shimmerpaw, and Skippaw up early for morning stretches. (negative effect)- Snakepaw was 8 moons old",
             "Snakedrop noticed how successful Onemuzzle's hunting patrol was. (positive effect) - Snakedrop was 23 moons old",
             "The moonlight encourages Terabyte, Silkymunch, Snakedrop, Skulkwillow, and Onemuzzle to slow down and stretch. (positive effect) - Snakedrop was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "97",
         "cat_to_id": "86",
         "mates": true,
         "family": false,
-        "romance": 44,
-        "like": 35,
-        "respect": 7,
-        "comfort": 46,
-        "trust": 34,
+        "romance": 60,
+        "like": 41,
+        "respect": 11,
+        "comfort": 64,
+        "trust": 38,
         "log": [
             "Volepaw admits a mistake to Snakepaw and asks for forgiveness. (high positive effect)- Snakepaw was 9 moons old",
             "Snakedrop and Voletuft successfully gathered daisies together. (positive effect) - Snakedrop was 36 moons old",
@@ -1181,13 +1186,15 @@
             "Voletuft gave Snakedrop a sprig of catmint they found. (high positive effect) - Snakedrop was 39 moons old",
             "Snakedrop and Voletuft worked together to gather juniper needles and oak leaves. (positive effect) - Snakedrop was 40 moons old",
             "Voletuft won't keep their mouth shut during the Gathering. Snakedrop, Shinefur, and Hailfreckle can barely hear the leader's announcements! (negative effect) - Snakedrop was 46 moons old",
-            "Snakedrop sneaks out at night to sleep in Voletuft's nest. (high positive effect) - Snakedrop was 48 moons old"
+            "Snakedrop sneaks out at night to sleep in Voletuft's nest. (high positive effect) - Snakedrop was 48 moons old",
+            "Snakedrop is surprised that Voletuft is so quick to comfort him. (medium positive effect) - Snakedrop was 49 moons old",
+            "Snakedrop purrs for a long time at one of Voletuft's lame jokes. (high positive effect) - Snakedrop was 55 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "comfort",
+            "respect",
             "trust",
-            "respect"
+            "comfort"
         ]
     },
     {
@@ -1238,13 +1245,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
-        "respect": 17,
-        "comfort": 13,
-        "trust": 0,
+        "like": 29,
+        "respect": 21,
+        "comfort": 17,
+        "trust": 6,
         "log": [
             "Snakedrop and Flightsplash debate about something interesting. They end up agreeing. (medium positive effect) - Snakedrop was 30 moons old",
-            "Flightsplash gives Snakedrop something that he dropped. (low positive effect) - Snakedrop was 43 moons old"
+            "Flightsplash gives Snakedrop something that he dropped. (low positive effect) - Snakedrop was 43 moons old",
+            "Snakedrop is happy to run into Flightsplash today. (high positive effect) - Snakedrop was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1297,17 +1305,18 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 9,
+        "like": 14,
         "respect": 6,
         "comfort": 47,
-        "trust": 4,
+        "trust": 9,
         "log": [
             "When Snakedrop approached Hailfreckle, he made a weird face. (low negative effect) - Snakedrop was 17 moons old",
             "Snakedrop and Hailfreckle had a productive training patrol together. (positive effect) - Snakedrop was 17 moons old",
             "Snakedrop associates his favorite smell with Hailfreckle. (high positive effect) - Snakedrop was 21 moons old",
             "Snakedrop reassures Hailfreckle about something that was bothering him. (low positive effect) - Snakedrop was 22 moons old",
             "Snakedrop and Hailfreckle can't seem to agree on the truth about something. (medium negative effect) - Snakedrop was 33 moons old",
-            "Snakedrop learns something new about a Clanmate from Hailfreckle. (low positive effect) - Snakedrop was 36 moons old"
+            "Snakedrop learns something new about a Clanmate from Hailfreckle. (low positive effect) - Snakedrop was 36 moons old",
+            "Snakedrop and Hailfreckle enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1317,15 +1326,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 2,
+        "like": 7,
         "respect": -6,
         "comfort": 10,
-        "trust": 2,
+        "trust": 7,
         "log": [
             "Shimmerpaw, Dancingpaw, Gentlepaw, and Daisypaw are too busy goofing off to listen to Snakedrop's advice. (negative effect)- Snakedrop was 12 moons old",
             "Snakedrop enjoyed listening to Shimmerrunner's stories. (positive effect) - Snakedrop was 12 moons old",
             "Shimmerrunner asked Snakedrop to cover his mouth while he coughs, so Snakedrop coughed on her out of spite. (low negative effect) - Snakedrop was 13 moons old",
-            "Snakedrop and Shimmerrunner had a productive training patrol together. (positive effect) - Snakedrop was 17 moons old"
+            "Snakedrop and Shimmerrunner had a productive training patrol together. (positive effect) - Snakedrop was 17 moons old",
+            "Snakedrop and Shimmerrunner enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1356,7 +1366,7 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 39,
+        "like": 47,
         "respect": -12,
         "comfort": 39,
         "trust": 21,
@@ -1425,11 +1435,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 1,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Kiwifoot returned to the warrior's den dripping mud everywhere and managed to ruin Snakedrop, Poolleaf, and Daisymoor's nests. (negative effect) - Snakedrop was 50 moons old",
+            "Snakedrop has been a little kinder to Kiwifoot today. (low positive effect) - Snakedrop was 53 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1468,13 +1481,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": -3,
         "respect": -20,
         "comfort": -8,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Snakedrop calls Antlerthorn useless when they struggle to complete a task together. (medium negative effect) - Snakedrop was 25 moons old",
-            "Snakedrop and Antlerthorn were short with each other during a herb gathering patrol. (negative effect) - Snakedrop was 44 moons old"
+            "Snakedrop and Antlerthorn were short with each other during a herb gathering patrol. (negative effect) - Snakedrop was 44 moons old",
+            "Snakedrop and Antlerthorn enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1484,16 +1498,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -7,
-        "respect": -23,
-        "comfort": 0,
-        "trust": 0,
+        "like": -2,
+        "respect": -6,
+        "comfort": 6,
+        "trust": 5,
         "log": [
             "Shimmerpaw, Dancingpaw, Gentlepaw, and Daisypaw are too busy goofing off to listen to Snakedrop's advice. (negative effect)- Snakedrop was 12 moons old",
             "Daisymoor tries to make Snakedrop look bad during training. (medium negative effect) - Snakedrop was 18 moons old",
-            "Snakedrop prays that he isn't on patrol with Daisymoor tomorrow. (medium negative effect) - Snakedrop was 46 moons old"
+            "Snakedrop prays that he isn't on patrol with Daisymoor tomorrow. (medium negative effect) - Snakedrop was 46 moons old",
+            "Daisymoor gives Snakedrop something that he dropped. (low positive effect) - Snakedrop was 50 moons old",
+            "Snakedrop can't stop thinking about the strange joke Daisymoor told the other day. (medium negative effect) - Snakedrop was 51 moons old",
+            "Snakedrop and Daisymoor enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old",
+            "Snakedrop is told about Daisymoor's bravery during a recent time of struggle. (medium positive effect) - Snakedrop was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1520,8 +1540,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Snakedrop asks Lightpelt a simple question, but Lightpelt reacts strangely to it. (low negative effect) - Snakedrop was 52 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1545,14 +1567,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Snakedrop and Wasppelt felt frustrated after an unproductive training patrol. (negative effect) - Snakedrop was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1562,10 +1586,11 @@
         "romance": 0,
         "like": -5,
         "respect": 0,
-        "comfort": 0,
-        "trust": -5,
+        "comfort": -10,
+        "trust": -15,
         "log": [
-            "Snakedrop and Snookbumble felt frustrated after an unproductive training patrol. (negative effect) - Snakedrop was 29 moons old"
+            "Snakedrop and Snookbumble felt frustrated after an unproductive training patrol. (negative effect) - Snakedrop was 29 moons old",
+            "Snookbumble spent a whole training patrol gossiping and asking invasive questions about Snakedrop's personal life. (negative effect) - Snakedrop was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1578,11 +1603,14 @@
         "like": -5,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -17,
         "log": [
-            "Snakedrop and Shadowfreckle felt frustrated after an unproductive training patrol. (negative effect) - Snakedrop was 29 moons old"
+            "Snakedrop and Shadowfreckle felt frustrated after an unproductive training patrol. (negative effect) - Snakedrop was 29 moons old",
+            "Shadowfreckle volunteers Snakedrop for something that he didn't want to do... (medium negative effect) - Snakedrop was 55 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1630,13 +1658,16 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": -4,
-        "comfort": -11,
+        "respect": 6,
+        "comfort": -1,
         "trust": -4,
         "log": [
-            "Snakedrop badly misinterprets Piperthrift's words. (high negative effect) - Snakedrop was 43 moons old"
+            "Snakedrop badly misinterprets Piperthrift's words. (high negative effect) - Snakedrop was 43 moons old",
+            "Snakedrop saw Piperthrift telling stories to the kits. (positive effect) - Snakedrop was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1662,9 +1693,10 @@
         "like": 0,
         "respect": -13,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Snakedrop thinks Clanmates talk more highly of Brinerump than him. (low negative effect) - Snakedrop was 42 moons old"
+            "Snakedrop thinks Clanmates talk more highly of Brinerump than him. (low negative effect) - Snakedrop was 42 moons old",
+            "Brinerump failed to drive away rogues while on patrol with Snakedrop. (negative effect) - Snakedrop was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1687,7 +1719,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 13,
@@ -1700,12 +1732,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 2,
+        "comfort": -15,
+        "trust": 11,
+        "log": [
+            "Snakedrop feels safe with Currenthiss around. (high positive effect) - Snakedrop was 52 moons old",
+            "Snakedrop realizes that a strange smell in camp is coming from Currenthiss. (medium negative effect) - Snakedrop was 54 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1791,12 +1828,15 @@
         "like": 10,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 17,
         "log": [
             "Snakedrop is excited for his family to grow further. (positive effect) - Snakedrop was 17 moons old",
-            "Snakedrop heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 38 moons old"
+            "Snakedrop heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 38 moons old",
+            "Snakedrop notices how Moletooth is being helpful around camp. (medium positive effect) - Snakedrop was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1804,12 +1844,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 0,
+        "like": -10,
+        "respect": -10,
+        "comfort": -10,
         "trust": 0,
         "log": [
-            "Snakedrop visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Snakedrop was 17 moons old"
+            "Snakedrop visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Snakedrop was 17 moons old",
+            "Glowfur got stuck on patrol, and Snakedrop chewed him out for it. (negative effect) - Snakedrop was 50 moons old",
+            "Glowfur got stuck on patrol, and Snakedrop had no patience for it. (negative effect) - Snakedrop was 50 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1844,9 +1886,7 @@
             "Swallowstripe doesn't say sorry when bumping into Snakedrop. (low negative effect) - Snakedrop was 38 moons old",
             "Snakedrop was being condescending towards Swallowstripe all day long. (low negative effect) - Snakedrop was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -1857,10 +1897,11 @@
         "like": 20,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Snakedrop is excited for his family to grow further. (positive effect) - Snakedrop was 17 moons old",
-            "Snakedrop was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Snakedrop was 22 moons old"
+            "Snakedrop was amused and impressed that Carnationkit snuck out of camp. (positive effect) - Snakedrop was 22 moons old",
+            "Carnationmunch failed to drive away rogues while on patrol with Snakedrop. (negative effect) - Snakedrop was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1930,8 +1971,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Heathbeetle failed to drive away rogues while on patrol with Snakedrop. (negative effect) - Snakedrop was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1961,9 +2004,7 @@
             "Snakedrop noticed that Poppypaw wasn't in his nest last night. (low negative effect) - Snakedrop was 31 moons old",
             "Snakedrop started a huge argument between Poppybriar and Bouncepelt. (negative effect) - Snakedrop was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -2054,10 +2095,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Snakedrop tried to show off on a hunting patrol, but Coconutocean got all the attention instead. (medium negative effect) - Snakedrop was 50 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2129,7 +2172,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2186,8 +2229,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Dogheather failed to drive away rogues while on patrol with Snakedrop. (negative effect) - Snakedrop was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2237,7 +2282,7 @@
         "romance": 0,
         "like": 5,
         "respect": 15,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Snakedrop and Minnowlily worked together to gather plantain. (positive effect) - Snakedrop was 35 moons old",
@@ -2251,12 +2296,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": -10,
+        "trust": -5,
         "log": [
-            "Snakedrop heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Snakedrop was 41 moons old"
+            "Snakedrop heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Snakedrop was 41 moons old",
+            "Snakedrop and Coquitostep enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2376,12 +2422,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2396,9 +2444,7 @@
         "log": [
             "Frognose says something in passing that Snakedrop keeps getting worked up about. (low negative effect) - Snakedrop was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "97",
@@ -2450,8 +2496,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Driftstripe failed to drive away rogues while on patrol with Snakedrop. (negative effect) - Snakedrop was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2509,6 +2557,229 @@
     {
         "cat_from_id": "97",
         "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 7,
+        "respect": 11,
+        "comfort": 4,
+        "trust": 2,
+        "log": [
+            "Snakedrop visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Snakedrop was 51 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "225",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "227",
         "mates": false,
         "family": false,
         "romance": 0,

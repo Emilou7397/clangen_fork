@@ -83,13 +83,14 @@
         "mates": false,
         "family": false,
         "romance": 7,
-        "like": 0,
-        "respect": 10,
+        "like": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Mewhoney heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mewhoney was 73 moons old",
-            "Mewhoney left a gift in Minnowlily's nest for him to find. (medium positive effect) - Mewhoney was 75 moons old"
+            "Mewhoney left a gift in Minnowlily's nest for him to find. (medium positive effect) - Mewhoney was 75 moons old",
+            "Mewhoney and Minnowlily worked together to gather juniper needles and oak leaves. (positive effect) - Mewhoney was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -142,17 +143,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 30,
         "respect": -3,
         "comfort": 13,
         "trust": 10,
         "log": [
             "Mew attacked Yewstar, but Blizzardstripe fought him off. (negative effect) - Mew was 61 moons old",
-            "Mewhoney and Blizzardstripe practiced teamwork on a training patrol. (positive effect) - Mewhoney was 81 moons old"
+            "Mewhoney and Blizzardstripe practiced teamwork on a training patrol. (positive effect) - Mewhoney was 81 moons old",
+            "Mewhoney greets Blizzardstripe as he's exiting the warriors' den. (medium positive effect) - Mewhoney was 88 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "154",
@@ -392,7 +392,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -21,
+        "like": -18,
         "respect": -6,
         "comfort": -8,
         "trust": -6,
@@ -446,16 +446,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 22,
         "comfort": 13,
         "trust": 0,
         "log": [
             "Mewhoney gained a greater appreciation for Bitebone's knowledge of nesting materials and camp-guarding technique. (positive effect) - Mewhoney was 69 moons old",
             "Bitebone snickered when Mewhoney tripped. (low negative effect) - Mewhoney was 70 moons old",
-            "Mewhoney heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mewhoney was 74 moons old"
+            "Mewhoney heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mewhoney was 74 moons old",
+            "Bitebone mentions that Mewhoney looks good today. (low positive effect) - Mewhoney was 90 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -536,10 +539,10 @@
         "cat_to_id": "35",
         "mates": false,
         "family": false,
-        "romance": 6,
-        "like": 14,
-        "respect": 15,
-        "comfort": 5,
+        "romance": 14,
+        "like": 23,
+        "respect": 33,
+        "comfort": 15,
         "trust": 4,
         "log": [
             "Mewhoney sees Quailfur put something back where it belongs. (low positive effect) - Mewhoney was 69 moons old",
@@ -628,9 +631,7 @@
             "Mewhoney gives Gardeniaglow some feathers from the bird he caught to line his nest. (medium positive effect) - Mewhoney was 84 moons old",
             "Mewhoney said something that rubbed Gardeniaglow the wrong way. (low negative effect) - Mewhoney was 84 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "154",
@@ -671,13 +672,14 @@
         "family": false,
         "romance": 18,
         "like": 33,
-        "respect": -16,
+        "respect": -1,
         "comfort": 31,
         "trust": 17,
         "log": [
             "Warmswirl acts childishly in front of Mewhoney. (low negative effect) - Mewhoney was 70 moons old",
             "Fleadusk, Mewhoney, and Warmswirl took a sunbath and had a little small talk. (positive effect) - Mewhoney was 74 moons old",
-            "Mewhoney is jealous that Warmswirl got to go to the last Gathering. (medium negative effect) - Mewhoney was 81 moons old"
+            "Mewhoney is jealous that Warmswirl got to go to the last Gathering. (medium negative effect) - Mewhoney was 81 moons old",
+            "Mewhoney was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Mewhoney was 87 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -701,13 +703,21 @@
         "cat_to_id": "56",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "romance": 13,
+        "like": 26,
+        "respect": 14,
+        "comfort": 28,
+        "trust": 42,
+        "log": [
+            "Amberfur believes in Mewhoney's version of events when something happens and the Clan doubts him. (high positive effect) - Mewhoney was 86 moons old",
+            "Mewhoney is letting Amberfur share her troubles with him, hoping she'll feel better afterward. (high positive effect) - Mewhoney was 91 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -743,15 +753,16 @@
         "mates": false,
         "family": false,
         "romance": 21,
-        "like": 1,
-        "respect": 17,
-        "comfort": 15,
-        "trust": 8,
+        "like": -20,
+        "respect": 10,
+        "comfort": 9,
+        "trust": 2,
         "log": [
             "Mew asks Fleadusk to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Mew was 62 moons old",
             "Mewhoney heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mewhoney was 73 moons old",
             "Fleadusk, Mewhoney, and Warmswirl took a sunbath and had a little small talk. (positive effect) - Mewhoney was 74 moons old",
-            "Mewhoney tried to explain something to Fleadusk, but he just didn't understand. (low negative effect) - Mewhoney was 82 moons old"
+            "Mewhoney tried to explain something to Fleadusk, but he just didn't understand. (low negative effect) - Mewhoney was 82 moons old",
+            "Fleadusk doesn't respect Mewhoney's personal space lately. (high negative effect) - Mewhoney was 87 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -819,23 +830,19 @@
         "cat_to_id": "68",
         "mates": false,
         "family": false,
-        "romance": 10,
-        "like": -17,
-        "respect": -6,
-        "comfort": -26,
-        "trust": -6,
+        "romance": 31,
+        "like": -11,
+        "respect": 2,
+        "comfort": -20,
+        "trust": 1,
         "log": [
             "Mewhoney tells Heavythud that he looks terrible today. (high negative effect) - Mewhoney was 63 moons old",
             "Mewhoney is discomforted by Heavythud's muttering. (high negative effect) - Mewhoney was 73 moons old",
             "Mewhoney felt like Heavythud wasted his time with an unsuccessful thyme-gathering patrol. (negative effect) - Mewhoney was 80 moons old",
-            "Mewhoney noticed that Heavythud was in a sour mood after his herb-gathering patrol was sidetracked by warriors who wanted to hunt instead. (negative effect) - Mewhoney was 84 moons old"
+            "Mewhoney noticed that Heavythud was in a sour mood after his herb-gathering patrol was sidetracked by warriors who wanted to hunt instead. (negative effect) - Mewhoney was 84 moons old",
+            "Mewhoney wants to spend the entire day with Heavythud. (high positive effect) - Mewhoney was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "154",
@@ -844,13 +851,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 17,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Mewhoney can't remember a word for the life of him, but Elmtrail helps him remember it. (medium positive effect) - Mewhoney was 74 moons old"
+            "Mewhoney can't remember a word for the life of him, but Elmtrail helps him remember it. (medium positive effect) - Mewhoney was 74 moons old",
+            "Mewhoney heard about how Elmtrail's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -876,8 +887,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Mewhoney thinks Reedheart has been acting strangely. (low negative effect) - Mewhoney was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -886,23 +899,20 @@
         "mates": true,
         "family": false,
         "romance": 100,
-        "like": 51,
-        "respect": 10,
-        "comfort": 32,
-        "trust": 54,
+        "like": 61,
+        "respect": 20,
+        "comfort": 42,
+        "trust": 64,
         "log": [
             "Sardinespeckle accidentally hurts Mewhoney during an argument between them. (high negative effect) - Mewhoney was 66 moons old",
             "Sardinespeckle gave Mewhoney a gift to smooth over an argument, and Mewhoney has worn it on his pelt ever since. (positive effect) - Mewhoney was 68 moons old",
             "Mewhoney can't stop gushing over Sardinespeckle. (high positive effect) - Mewhoney was 80 moons old",
             "Mewhoney is prancing around in front of Sardinespeckle. (low positive effect) - Mewhoney was 85 moons old",
-            "Mewhoney purrs for a long time at one of Sardinespeckle's lame jokes. (high positive effect) - Mewhoney was 85 moons old"
+            "Mewhoney purrs for a long time at one of Sardinespeckle's lame jokes. (high positive effect) - Mewhoney was 85 moons old",
+            "Mewhoney and Sardinespeckle worked together to gather juniper needles and oak leaves. (positive effect) - Mewhoney was 88 moons old",
+            "Mewhoney and Sardinespeckle watched the Clan's kits play together. (positive effect) - Mewhoney was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "154",
@@ -995,15 +1005,17 @@
         "cat_to_id": "79",
         "mates": false,
         "family": false,
-        "romance": 10,
-        "like": 13,
-        "respect": 14,
-        "comfort": 8,
-        "trust": 5,
+        "romance": 15,
+        "like": 27,
+        "respect": 15,
+        "comfort": 20,
+        "trust": 10,
         "log": [],
         "no_longer_neutral": [
             "respect",
-            "like"
+            "like",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1013,13 +1025,14 @@
         "family": false,
         "romance": 20,
         "like": -24,
-        "respect": 21,
+        "respect": 24,
         "comfort": 4,
         "trust": 6,
         "log": [
             "Mewhoney noticed how successful Poolleaf's hunting patrol was. (positive effect) - Mewhoney was 62 moons old",
             "Mewhoney is taken aback by some of the cruel things Poolleaf is saying to him. (medium negative effect) - Mewhoney was 78 moons old",
-            "Mewhoney doesn't like it when Poolleaf is all talk and no action. (high negative effect) - Mewhoney was 80 moons old"
+            "Mewhoney doesn't like it when Poolleaf is all talk and no action. (high negative effect) - Mewhoney was 80 moons old",
+            "Mewhoney and Poolleaf work together to lead a scary bug out of the camp. (low positive effect) - Mewhoney was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1073,9 +1086,9 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 4,
         "comfort": 0,
-        "trust": 0,
+        "trust": 6,
         "log": [],
         "no_longer_neutral": []
     },
@@ -1086,14 +1099,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 17,
         "comfort": 0,
         "trust": -8,
         "log": [
             "Mewhoney discovered that teaching is not one of Voletuft's skills. (negative effect) - Mewhoney was 68 moons old",
-            "Voletuft brags about their recent catches and impresses Mewhoney, Carnationmunch, Saltknoll, and Gorgehunt. (positive effect) - Mewhoney was 78 moons old"
+            "Voletuft brags about their recent catches and impresses Mewhoney, Carnationmunch, Saltknoll, and Gorgehunt. (positive effect) - Mewhoney was 78 moons old",
+            "Mewhoney heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -1163,11 +1180,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Mewhoney is prancing around in front of Hailfreckle. (low positive effect) - Mewhoney was 69 moons old"
+            "Mewhoney is prancing around in front of Hailfreckle. (low positive effect) - Mewhoney was 69 moons old",
+            "Hailfreckle forgot something that Mewhoney asked her to remember. (low negative effect) - Mewhoney was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -1215,11 +1235,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Mewhoney. (positive effect) - Mewhoney was 91 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -1244,7 +1268,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1256,10 +1280,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Mewhoney heard about how Kiwifoot's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1282,13 +1308,16 @@
         "family": false,
         "romance": 0,
         "like": 21,
-        "respect": 6,
-        "comfort": 8,
+        "respect": 19,
+        "comfort": 21,
         "trust": 6,
         "log": [
             "Mewhoney and Oddmuzzle enjoy each other's company. (high positive effect) - Mewhoney was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -1878,11 +1907,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Mewhoney is fascinated by one of Nymphshine's stories. (medium positive effect) - Mewhoney was 87 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1991,14 +2022,17 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Mewhoney heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Mewhoney was 78 moons old",
-            "Mewhoney and Coquitostep practiced teamwork on a training patrol. (positive effect) - Mewhoney was 81 moons old"
+            "Mewhoney and Coquitostep practiced teamwork on a training patrol. (positive effect) - Mewhoney was 81 moons old",
+            "Mewhoney heard about how Coquitostep's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "154",
@@ -2061,12 +2095,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": -3,
         "trust": 0,
         "log": [
-            "Mewhoney overheard a joke from Heathstripe he didn't get. (low negative effect) - Mewhoney was 85 moons old"
+            "Mewhoney overheard a joke from Heathstripe he didn't get. (low negative effect) - Mewhoney was 85 moons old",
+            "Mewhoney and Heathstripe worked together to gather juniper needles and oak leaves. (positive effect) - Mewhoney was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2157,11 +2192,12 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 10,
+        "respect": -7,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Mewhoney was amused by Brindlekit's daring adventure out of camp. (positive effect) - Mewhoney was 80 moons old"
+            "Mewhoney was amused by Brindlekit's daring adventure out of camp. (positive effect) - Mewhoney was 80 moons old",
+            "Brindlepaw caught a giant piece of prey that Mewhoney wishes he did. (medium negative effect) - Mewhoney was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2226,10 +2262,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Mewhoney was flattered by Flightkit's politeness this morning. (low positive effect) - Mewhoney was 86 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2248,6 +2286,218 @@
     {
         "cat_from_id": "154",
         "cat_to_id": "203",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Mewhoney heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "207",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 5,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Mewhoney heard about how Hollyblossom's patrol drove off a scavenging fox. (positive effect) - Mewhoney was 90 moons old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "208",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 13,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "209",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "212",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "213",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "214",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "215",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "217",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "216",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "219",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "220",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "221",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "222",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "223",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "224",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "154",
+        "cat_to_id": "225",
         "mates": false,
         "family": false,
         "romance": 0,

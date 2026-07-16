@@ -10,11 +10,27 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 182
+                    "chance": 220
                 },
                 {
                     "name": "joint pain",
-                    "chance": 223
+                    "chance": 263
+                }
+            ],
+            "complication": null,
+            "event_triggered": false
+        },
+        "damaged throat": {
+            "severity": "minor",
+            "born_with": false,
+            "moons_until": 0,
+            "moon_start": 135,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "sore throat",
+                    "chance": 40
                 }
             ],
             "complication": null,

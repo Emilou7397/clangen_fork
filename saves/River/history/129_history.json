@@ -32,14 +32,14 @@
     },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "bite-wound": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after trying to save Pheasantbrush from a dog.",
-            "scar_text": "m_c was scarred while trying to save Pheasantbrush from a dog.",
-            "other_cat": "82"
-        }
-    },
+    "possible_history": {},
     "died_by": [],
-    "scar_events": [],
+    "scar_events": [
+        {
+            "involved": "82",
+            "text": "m_c was scarred while trying to save Pheasantbrush from a dog.",
+            "moon": 130
+        }
+    ],
     "murder": {}
 }
