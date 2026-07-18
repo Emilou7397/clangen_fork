@@ -382,11 +382,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Quailkit enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Quailkit was 3 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -818,9 +820,7 @@
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Quailkit. (positive effect) - Quailkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -913,9 +913,7 @@
         "log": [
             "Quailkit knows that Nightglow is hiding something. (medium negative effect) - Quailkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -1073,10 +1071,7 @@
         "log": [
             "Quailkit saw Piperthrift telling stories to the kits. (positive effect) - Quailkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -1243,8 +1238,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Quailkit heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Quailkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1442,9 +1439,7 @@
         "log": [
             "Quailkit lied to Braveheart's face. (high negative effect) - Quailkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -1764,11 +1759,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -5,
+        "respect": -4,
+        "comfort": -16,
+        "trust": -6,
+        "log": [
+            "Quailkit always notices Velvetpaw lurking nearby. (high negative effect) - Quailkit was 4 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1777,12 +1774,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 5,
+        "respect": 16,
+        "comfort": 6,
+        "trust": 4,
+        "log": [
+            "Quailkit is wowed by how bravely Jademuzzle fought the other day. (high positive effect) - Quailkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "220",
@@ -1797,9 +1799,7 @@
         "log": [
             "Quailkit called Hollyblossom the wrong name. (medium negative effect) - Quailkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -1942,9 +1942,7 @@
         "comfort": 47,
         "trust": 50,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "220",
@@ -1952,11 +1950,13 @@
         "mates": false,
         "family": true,
         "romance": 4,
-        "like": 44,
+        "like": 56,
         "respect": 14,
         "comfort": 44,
         "trust": 34,
-        "log": [],
+        "log": [
+            "Quailkit plays moss-ball with Avocetkit. (medium positive effect) - Quailkit was 4 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1965,15 +1965,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
-        "comfort": 13,
+        "comfort": 30,
         "trust": 0,
         "log": [
-            "Bushkit gives advice to Quailkit. It's not good advice, but Quailkit appreciates the effort. (low positive effect) - Quailkit was 3 moons old"
+            "Bushkit gives advice to Quailkit. It's not good advice, but Quailkit appreciates the effort. (low positive effect) - Quailkit was 3 moons old",
+            "Quailkit had a friendly argument with Bushkit about which prey tastes the best. (medium positive effect) - Quailkit was 5 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "comfort",
+            "like"
         ]
     },
     {
@@ -2005,6 +2007,32 @@
     {
         "cat_from_id": "220",
         "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "220",
+        "cat_to_id": "228",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "220",
+        "cat_to_id": "229",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,15 +1,19 @@
 {
     "illnesses": {
-        "stomachache": {
-            "severity": "minor",
-            "mortality": 0,
-            "infectiousness": 0,
-            "duration": 1,
-            "moon_start": 136,
+        "yellowcough": {
+            "severity": "major",
+            "mortality": 15,
+            "infectiousness": 30,
+            "duration": 2,
+            "moon_start": 141,
             "risks": [
                 {
-                    "name": "diarrhea",
-                    "chance": 48
+                    "name": "redcough",
+                    "chance": 80
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 20
                 }
             ],
             "event_triggered": false

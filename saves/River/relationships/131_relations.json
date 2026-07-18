@@ -237,9 +237,7 @@
         "log": [
             "Algaepool helps Gorgehunt hide from a Clanmate. (low positive effect) - Gorgehunt was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -318,10 +316,11 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Gorgehunt heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gorgehunt was 20 moons old"
+            "Gorgehunt heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gorgehunt was 20 moons old",
+            "Gorgehunt and Bitebone make each other laugh. (low positive effect) - Gorgehunt was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -870,9 +869,7 @@
             "Gorgepaw noticed how successful Poolleaf's hunting patrol was. (positive effect) - Gorgepaw was 8 moons old",
             "Gorgehunt turned to Poolleaf in a time of need, only for Poolleaf to abandon her. (high negative effect) - Gorgehunt was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -881,7 +878,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1075,9 +1072,7 @@
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Gorgehunt. (positive effect) - Gorgehunt was 37 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1170,12 +1165,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 21,
+        "respect": 8,
+        "comfort": 6,
+        "trust": 7,
+        "log": [
+            "Gorgehunt and Daisymoor heckled another Clan at the Gathering together. (high positive effect) - Gorgehunt was 42 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1261,11 +1263,12 @@
         "like": 8,
         "respect": 7,
         "comfort": 8,
-        "trust": 0,
+        "trust": 17,
         "log": [
             "Shadowfreckle snickered when Gorgehunt tripped. (low negative effect) - Gorgehunt was 27 moons old",
             "Wasppelt, Shadowfreckle, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 30 moons old",
-            "Gorgehunt sees Shadowfreckle be kind to one of Gorgehunt's friends. (low positive effect) - Gorgehunt was 34 moons old"
+            "Gorgehunt sees Shadowfreckle be kind to one of Gorgehunt's friends. (low positive effect) - Gorgehunt was 34 moons old",
+            "Shadowfreckle takes Gorgehunt's side while Gorgehunt is in a debate. (medium positive effect) - Gorgehunt was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1293,14 +1296,17 @@
         "like": 8,
         "respect": 7,
         "comfort": 0,
-        "trust": 5,
+        "trust": 22,
         "log": [
             "Gorgepaw and Wavepaw enjoyed practicing new hunting tricks together. (positive effect) - Gorgepaw was 11 moons old",
             "Gorgehunt didn't know that Wavepaw was so talented. (medium positive effect) - Gorgehunt was 12 moons old",
             "Gorgehunt sees Wavelight put something back where it belongs. (low positive effect) - Gorgehunt was 14 moons old",
-            "Gorgehunt and Wavelight traded passive aggressive comments during a training session. (negative effect) - Gorgehunt was 14 moons old"
+            "Gorgehunt and Wavelight traded passive aggressive comments during a training session. (negative effect) - Gorgehunt was 14 moons old",
+            "Gorgehunt is grateful that Wavelight has kept a secret of hers. (medium positive effect) - Gorgehunt was 42 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1323,15 +1329,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 30,
+        "like": 23,
+        "respect": 7,
+        "comfort": 29,
+        "trust": 36,
         "log": [
             "Gorgehunt and Piperthrift took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Gorgehunt was 13 moons old",
             "Gorgehunt and Piperthrift discussed the vision Gorgehunt claimed to have. (positive effect) - Gorgehunt was 17 moons old",
             "Piperthrift and Gorgehunt discussed the vision Gorgehunt claimed to have. (positive effect) - Gorgehunt was 17 moons old",
-            "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old"
+            "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old",
+            "Gorgehunt appreciates how Piperthrift always seems to ask how she's doing. (high positive effect) - Gorgehunt was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1489,7 +1496,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 32,
+        "like": 45,
         "respect": 3,
         "comfort": 24,
         "trust": 40,
@@ -1505,9 +1512,7 @@
             "Gorgehunt and Butterflyglide defended their Clan at the Gathering together. (high positive effect) - Gorgehunt was 36 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -1628,11 +1633,7 @@
             "Gorgehunt feels bad that she caused a problem for Braveocean. (medium positive effect) - Gorgehunt was 30 moons old",
             "Gorgehunt called Braveocean lazy, and Braveocean has retaliated by nitpicking everything that Gorgehunt does. (high negative effect) - Gorgehunt was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1702,13 +1703,16 @@
         "like": 17,
         "respect": 0,
         "comfort": 0,
-        "trust": 20,
+        "trust": 37,
         "log": [
             "Gorgehunt and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Gorgehunt was 17 moons old",
             "Poppybriar and Gorgehunt discussed the vision Gorgehunt claimed to have. (positive effect) - Gorgehunt was 17 moons old",
-            "Gorgehunt feels bad that she caused a problem for Poppybriar. (medium positive effect) - Gorgehunt was 21 moons old"
+            "Gorgehunt feels bad that she caused a problem for Poppybriar. (medium positive effect) - Gorgehunt was 21 moons old",
+            "Gorgehunt nearly tripped, but was caught by Poppybriar. (medium positive effect) - Gorgehunt was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1723,9 +1727,7 @@
         "log": [
             "Gorgehunt feels bad that she caused a problem for Clawswirl. (medium positive effect) - Gorgehunt was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1789,16 +1791,15 @@
         "family": false,
         "romance": 0,
         "like": -9,
-        "respect": 0,
+        "respect": -13,
         "comfort": -13,
         "trust": 0,
         "log": [
             "Mitepaw won't give up a warm, sunny spot for Gorgehunt, not even for a minute. (medium negative effect) - Gorgehunt was 16 moons old",
-            "Gorgehunt and Miteleaf reach for the same piece of prey and bicker over it. Miteleaf gets it. (low negative effect) - Gorgehunt was 35 moons old"
+            "Gorgehunt and Miteleaf reach for the same piece of prey and bicker over it. Miteleaf gets it. (low negative effect) - Gorgehunt was 35 moons old",
+            "Gorgehunt thinks the prey Miteleaf is biting into on the other side of camp looks delicious. (low negative effect) - Gorgehunt was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "131",
@@ -1806,11 +1807,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Gorgehunt feels bad that she caused a problem for Coconutocean. (medium positive effect) - Gorgehunt was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1820,13 +1823,16 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 0,
+        "respect": -17,
         "comfort": -13,
         "trust": 0,
         "log": [
-            "Gorgehunt scoffed loudly at one of Lilynoise's suggestions. (medium negative effect) - Gorgehunt was 22 moons old"
+            "Gorgehunt scoffed loudly at one of Lilynoise's suggestions. (medium negative effect) - Gorgehunt was 22 moons old",
+            "Gorgehunt has noticed Lilynoise isn't doing a lot of work lately. (medium negative effect) - Gorgehunt was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -1866,11 +1872,12 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 0,
+        "respect": 13,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old"
+            "Piperthrift, Braveheart, and Gorgehunt had a nice talk while eating. (positive effect) - Gorgehunt was 28 moons old",
+            "Gorgehunt notices that Braveheart is fixing a damaged part of the camp without being asked. (low positive effect) - Gorgehunt was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2200,12 +2207,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -2437,11 +2447,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "131",
@@ -2485,6 +2497,162 @@
     {
         "cat_from_id": "131",
         "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "228",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "229",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "230",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "232",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "233",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "234",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "235",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "236",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "237",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "238",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "239",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "131",
+        "cat_to_id": "240",
         "mates": false,
         "family": false,
         "romance": 0,

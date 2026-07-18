@@ -1734,16 +1734,19 @@
         "romance": 0,
         "like": 1,
         "respect": 0,
-        "comfort": -8,
+        "comfort": -13,
         "trust": 2,
         "log": [
             "Shinepaw sided with Sardinespeckle when Marshpaw argued with her about how dangerous octopi can be. (negative effect) - Marshpaw was 7 moons old",
             "Marshpaw and Shinepaw enjoyed practicing their fighting skills together on a training patrol. (positive effect) - Marshpaw was 8 moons old",
             "Shinepaw hit Marshpaw on the face with his tail while passing by. (low negative effect) - Marshpaw was 9 moons old",
             "Marshpaw heard that Shinebelly caught a rabbit from across the border. (negative effect) - Marshpaw was 12 moons old",
-            "Marshnose was impressed by how Shinebelly caught a squirrel fighting with a rattlesnake. (positive effect) - Marshnose was 17 moons old"
+            "Marshnose was impressed by how Shinebelly caught a squirrel fighting with a rattlesnake. (positive effect) - Marshnose was 17 moons old",
+            "Marshnose and Shinebelly avoided each other after an unpleasant training patrol. (negative effect) - Marshnose was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1788,7 +1791,7 @@
         "romance": 0,
         "like": -11,
         "respect": -10,
-        "comfort": -8,
+        "comfort": -13,
         "trust": 12,
         "log": [
             "Marshpaw and Sandpaw enjoyed practicing new battle moves together. (positive effect) - Marshpaw was 12 moons old",
@@ -1796,9 +1799,15 @@
             "Sandpaw was very considerate while on patrol with Marshnose. (positive effect) - Marshnose was 15 moons old",
             "Marshnose thinks about telling others that Sandthrush broke the Code. (high negative effect) - Marshnose was 22 moons old",
             "Marshnose and Sandthrush worked together to use an eagle as a scout for their own hunt. (positive effect) - Marshnose was 23 moons old",
-            "Marshnose gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Marshnose was 25 moons old"
+            "Marshnose gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Marshnose was 25 moons old",
+            "Marshnose and Sandthrush avoided each other after an unpleasant training patrol. (negative effect) - Marshnose was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "167",
@@ -1918,9 +1927,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Marshnose and Howlsky avoided each other after an unpleasant training patrol. (negative effect) - Marshnose was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1946,9 +1957,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Marshnose and Kinkdapple avoided each other after an unpleasant training patrol. (negative effect) - Marshnose was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1974,9 +1987,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Marshnose and Ashenpelt avoided each other after an unpleasant training patrol. (negative effect) - Marshnose was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2305,6 +2320,19 @@
     {
         "cat_from_id": "167",
         "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "167",
+        "cat_to_id": "228",
         "mates": false,
         "family": false,
         "romance": 0,

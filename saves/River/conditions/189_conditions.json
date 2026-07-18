@@ -1,12 +1,17 @@
 {
     "injuries": {
-        "sprain": {
+        "cat bite": {
             "severity": "major",
-            "mortality": 0,
+            "mortality": 60,
             "duration": 0,
-            "moon_start": 136,
+            "moon_start": 141,
             "illness_infectiousness": [],
-            "risks": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 5
+                }
+            ],
             "complication": null,
             "cause_permanent": [],
             "event_triggered": false,

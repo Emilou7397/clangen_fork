@@ -1,4 +1,20 @@
 {
+    "illnesses": {
+        "stomachache": {
+            "severity": "minor",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 141,
+            "risks": [
+                {
+                    "name": "diarrhea",
+                    "chance": 31
+                }
+            ],
+            "event_triggered": false
+        }
+    },
     "permanent conditions": {
         "blind": {
             "severity": "major",

@@ -190,7 +190,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [],
         "no_longer_neutral": []
     },
@@ -202,10 +202,11 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
+        "comfort": -5,
         "trust": 0,
         "log": [
-            "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Stagkit was 1 moon old"
+            "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Stagkit was 1 moon old",
+            "Stagpaw accuses Auburnsplash of stealing something. (medium negative effect) - Stagpaw was 8 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -358,11 +359,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stagpaw enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Stagpaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -613,12 +616,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -20,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": -20,
+        "trust": -20,
+        "log": [
+            "Stagpaw was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Stagpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "214",
@@ -778,9 +787,7 @@
         "log": [
             "A Clanmate tells Stagkit that Dancingfleck's stories are better. (high negative effect) - Stagkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "214",
@@ -795,9 +802,7 @@
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Stagkit. (positive effect) - Stagkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "214",
@@ -805,11 +810,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 2,
+        "respect": 11,
+        "comfort": 4,
+        "trust": 4,
+        "log": [
+            "Stagpaw overhears Hollyheart educating Clanmates about their fallen ancestors. (high positive effect) - Stagpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1016,10 +1023,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Stagpaw heard that Piperthrift touched noses with a kittypet. (negative effect) - Stagpaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1074,9 +1083,7 @@
         "log": [
             "Stagkit saw Currenthiss hide something before talking to her. (low negative effect) - Stagkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "214",
@@ -1113,8 +1120,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Stagpaw was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Stagpaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1204,8 +1213,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Stagpaw heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Stagpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1215,10 +1226,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 10,
+        "log": [
+            "Stagpaw gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Stagpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1413,12 +1426,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 2,
+        "comfort": 4,
+        "trust": 11,
+        "log": [
+            "Stagpaw tells Braveheart to count on her in a difficult situation. (high positive effect) - Stagpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "214",
@@ -1427,10 +1444,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stagpaw heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Stagpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1479,11 +1498,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Stagpaw gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Stagpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "214",
@@ -1531,11 +1555,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stagpaw notices one of her friends talking to Dustnose. (low negative effect) - Stagpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "214",
@@ -1602,9 +1630,7 @@
         "log": [
             "After sharing tongues, Stagpaw washed off Brindlepaw's scent from her pelt. (medium negative effect) - Stagpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "214",
@@ -1668,7 +1694,7 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 24,
+        "comfort": 37,
         "trust": 12,
         "log": [
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Stagkit was 1 moon old",
@@ -1708,11 +1734,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -16,
+        "respect": -5,
+        "comfort": -6,
+        "trust": -6,
+        "log": [
+            "Stagpaw keeps getting on Lionheart for a bad habit, and it's putting a rift between them. (high negative effect) - Stagpaw was 9 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1734,22 +1762,23 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 100,
+        "like": 92,
         "respect": 57,
-        "comfort": 100,
+        "comfort": 92,
         "trust": 76,
         "log": [
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Stagkit was 1 moon old",
             "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Stagkit was 2 moons old",
             "Stagkit and Sagokit find out they have the same favorite prey! (low positive effect) - Stagkit was 3 moons old",
             "Stagkit and Sagokit develop a secret language together. (high positive effect) - Stagkit was 4 moons old",
-            "Stagkit had a friendly argument with Sagokit about which prey tastes the best. (medium positive effect) - Stagkit was 5 moons old"
+            "Stagkit had a friendly argument with Sagokit about which prey tastes the best. (medium positive effect) - Stagkit was 5 moons old",
+            "Spittle and flecks of bone fly while Sagopaw gobbles down prey, reminding Stagpaw, Scalepaw, and Softpaw to seek out better mealtime companionship next time. (negative effect) - Stagpaw was 9 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust",
-            "comfort"
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1758,16 +1787,25 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 65,
+        "like": 82,
         "respect": 22,
-        "comfort": 64,
-        "trust": 67,
+        "comfort": 98,
+        "trust": 57,
         "log": [
             "Scalekit compliments one of Stagkit's friends. (low positive effect) - Stagkit was 1 moon old",
             "Scalekit makes a small sacrifice that benefits Stagkit. (low positive effect) - Stagkit was 2 moons old",
-            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Stagkit was 2 moons old"
+            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Stagkit was 2 moons old",
+            "Stagpaw tries to guess what her and Scalepaw's warrior names will be. (medium positive effect) - Stagpaw was 7 moons old",
+            "Stagpaw is surprised that Scalepaw is so quick to comfort her. (medium positive effect) - Stagpaw was 9 moons old",
+            "Stagpaw heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Stagpaw was 9 moons old",
+            "Scalepaw is listening to Stagpaw's problems. (medium positive effect) - Stagpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "214",
@@ -1775,20 +1813,16 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 53,
+        "like": 40,
         "respect": 18,
         "comfort": 42,
         "trust": 56,
         "log": [
             "Softkit and Stagkit tried to sneak out of camp together. (positive effect) - Stagkit was 3 moons old",
-            "Softkit's words of comfort mean more to Stagpaw than she knows. (high positive effect) - Stagpaw was 6 moons old"
+            "Softkit's words of comfort mean more to Stagpaw than she knows. (high positive effect) - Stagpaw was 6 moons old",
+            "Stagpaw has drawn the ire of Softpaw by deliberately taking the last of her favorite nesting materials for herself. (low negative effect) - Stagpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "214",
@@ -1825,8 +1859,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Stagpaw heard Electronegativity fell asleep guarding camp. (negative effect) - Stagpaw was 9 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1836,10 +1872,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stagpaw disapproved of Moorghost wearing a collar. (negative effect) - Stagpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1873,12 +1911,14 @@
         "cat_to_id": "222",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Stagpaw had a dream about Avocetpaw. (low positive effect) - Stagpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1923,6 +1963,162 @@
     {
         "cat_from_id": "214",
         "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "228",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "229",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "230",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "232",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "233",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "234",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "235",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "236",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "237",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "238",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "239",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "214",
+        "cat_to_id": "240",
         "mates": false,
         "family": false,
         "romance": 0,

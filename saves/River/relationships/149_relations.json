@@ -39,9 +39,7 @@
             "Heavythud said something about a Clanmate that concerned Poppypaw. (medium negative effect) - Poppypaw was 6 moons old",
             "Poppybriar sees Heavythud staring off into the distance. It's kind of creepy. (low negative effect) - Poppybriar was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -56,10 +54,7 @@
         "log": [
             "Poppybriar tells a story to Cobaltstrike and Cobaltstrike suggests how to make it even better. (medium positive effect) - Poppybriar was 34 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -397,7 +392,7 @@
         "like": 8,
         "respect": 18,
         "comfort": 0,
-        "trust": 10,
+        "trust": 18,
         "log": [
             "Poppykit noticed how successful Suntooth's hunting patrol was. (positive effect) - Poppykit was 4 moons old",
             "Suntooth thanked Poppypaw for bringing her food. (low positive effect) - Poppypaw was 11 moons old",
@@ -548,10 +543,7 @@
             "Poppybriar heard Gardeniaglow fell asleep guarding camp. (negative effect) - Poppybriar was 30 moons old",
             "Poppybriar heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Poppybriar was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -590,12 +582,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Poppybriar and Warmswirl have a race. Warmswirl wins. (medium positive effect) - Poppybriar was 23 moons old"
+            "Poppybriar and Warmswirl have a race. Warmswirl wins. (medium positive effect) - Poppybriar was 23 moons old",
+            "Poppybriar keeps complaining about something Warmswirl did. (medium negative effect) - Poppybriar was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -701,7 +694,7 @@
         "romance": 0,
         "like": 8,
         "respect": 10,
-        "comfort": 8,
+        "comfort": 0,
         "trust": 5,
         "log": [
             "Poppybriar heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poppybriar was 15 moons old",
@@ -849,7 +842,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 3,
         "comfort": 0,
         "trust": -10,
@@ -920,9 +913,7 @@
         "log": [
             "Poppybriar doesn't like Paellapad's sense of humor. (medium negative effect) - Poppybriar was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -930,12 +921,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -20,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": -20,
+        "trust": -20,
+        "log": [
+            "Poppybriar was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Poppybriar was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1094,11 +1091,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 13,
+        "trust": 10,
         "log": [
-            "Poppybriar includes Hailfreckle in a conversation that Hailfreckle struggled to join. (low positive effect) - Poppybriar was 28 moons old"
+            "Poppybriar includes Hailfreckle in a conversation that Hailfreckle struggled to join. (low positive effect) - Poppybriar was 28 moons old",
+            "Poppybriar suspects Hailfreckle lied about something trivial. (low negative effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1150,14 +1150,13 @@
         "like": 0,
         "respect": 10,
         "comfort": -12,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Snakedrop started a huge argument between Poppybriar and Bouncepelt. (negative effect) - Poppybriar was 25 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Poppybriar. (positive effect) - Poppybriar was 33 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "comfort"
+            "trust"
         ]
     },
     {
@@ -1265,18 +1264,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
-        "respect": 0,
-        "comfort": 14,
-        "trust": 0,
+        "like": 24,
+        "respect": 21,
+        "comfort": 21,
+        "trust": 8,
         "log": [
             "During a hunting patrol, Poppybriar and Antlerthorn share a piece of prey that is too small to bring back to camp. (medium positive effect) - Poppybriar was 26 moons old",
             "Poppybriar is impressed by some of Antlerthorn's advice. (medium positive effect) - Poppybriar was 30 moons old",
-            "Poppybriar and Antlerthorn reach for the same piece of prey and bicker over it. Antlerthorn gets it. (low negative effect) - Poppybriar was 34 moons old"
+            "Poppybriar and Antlerthorn reach for the same piece of prey and bicker over it. Antlerthorn gets it. (low negative effect) - Poppybriar was 34 moons old",
+            "Poppybriar asked Antlerthorn for his opinion on a topic and had a surprisingly insightful conversation. (high positive effect) - Poppybriar was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1287,8 +1285,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 20,
+        "log": [
+            "Poppybriar and Daisymoor discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Daisymoor and Poppybriar discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1322,13 +1323,14 @@
         "cat_to_id": "112",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Poppybriar heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poppybriar was 15 moons old"
+            "Poppybriar heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poppybriar was 15 moons old",
+            "Poppybriar can't help but smile seeing Minnowlily smile. (low positive effect) - Poppybriar was 35 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1346,10 +1348,7 @@
             "Lightpelt won't tell Poppybriar what he's doing. (high negative effect) - Poppybriar was 15 moons old",
             "Poppybriar does something brave with Lightpelt's support. (medium positive effect) - Poppybriar was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1388,9 +1387,11 @@
         "like": -19,
         "respect": -6,
         "comfort": -21,
-        "trust": -6,
+        "trust": 14,
         "log": [
-            "A heavy feeling of guilt weighs on Poppybriar whenever he's kind to Wasppelt. (high negative effect) - Poppybriar was 23 moons old"
+            "A heavy feeling of guilt weighs on Poppybriar whenever he's kind to Wasppelt. (high negative effect) - Poppybriar was 23 moons old",
+            "Poppybriar and Wasppelt discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Wasppelt and Poppybriar discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1399,7 +1400,7 @@
         "cat_to_id": "117",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": -11,
         "respect": 4,
         "comfort": -4,
@@ -1407,7 +1408,8 @@
         "log": [
             "Poppybriar heard that Snookbumble touched noses with a kittypet. (negative effect) - Poppybriar was 14 moons old",
             "Poppybriar can tell how brave Snookbumble is being about something important. (low positive effect) - Poppybriar was 26 moons old",
-            "Poppybriar won't tell the Clan what's made him so upset with Snookbumble. (high negative effect) - Poppybriar was 29 moons old"
+            "Poppybriar won't tell the Clan what's made him so upset with Snookbumble. (high negative effect) - Poppybriar was 29 moons old",
+            "Poppybriar brushes against Snookbumble while correcting her stance and looks away with a purr. (medium positive effect) - Poppybriar was 38 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1434,11 +1436,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1446,11 +1450,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Poppybriar and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Poppybriar was 37 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1460,11 +1466,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": -2,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Poppybriar gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Poppybriar was 19 moons old"
+            "Poppybriar gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Poppybriar was 19 moons old",
+            "Cherrytail was supposed to be showing Poppybriar a cool battle move but messed up so badly it made Poppybriar cringe. (medium negative effect) - Poppybriar was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1475,19 +1482,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 10,
+        "respect": 6,
         "comfort": 0,
-        "trust": 20,
+        "trust": 15,
         "log": [
             "Poppybriar and Piperthrift discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
             "Piperthrift and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
-            "Poppybriar enjoyed Piperthrift's story of how a benevolent fire restored peace to the five ancient Clans. (positive effect) - Poppybriar was 32 moons old"
+            "Poppybriar enjoyed Piperthrift's story of how a benevolent fire restored peace to the five ancient Clans. (positive effect) - Poppybriar was 32 moons old",
+            "Poppybriar heard that Piperthrift touched noses with a kittypet. (negative effect) - Poppybriar was 34 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1533,11 +1537,7 @@
             "Poppybriar can't believe how talented Drizzlepelt is! (high positive effect) - Poppybriar was 21 moons old",
             "Poppybriar was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Poppybriar was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1546,13 +1546,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 8,
         "trust": 8,
         "log": [
             "Poppybriar and Currenthiss discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
             "Currenthiss and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
-            "Poppybriar can't seem to get a straight answer from Currenthiss lately. (medium negative effect) - Poppybriar was 14 moons old"
+            "Poppybriar can't seem to get a straight answer from Currenthiss lately. (medium negative effect) - Poppybriar was 14 moons old",
+            "Poppybriar doesn't tell Currenthiss that she forgot to groom a part of her fur. (low negative effect) - Poppybriar was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1564,13 +1565,16 @@
         "romance": 0,
         "like": 13,
         "respect": 0,
-        "comfort": 0,
-        "trust": 20,
+        "comfort": 13,
+        "trust": 33,
         "log": [
             "Poppybriar and Gorgehunt discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
             "Gorgehunt and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1607,16 +1611,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 18,
         "respect": 27,
-        "comfort": 13,
-        "trust": 10,
+        "comfort": 23,
+        "trust": 5,
         "log": [
             "Poppybriar swaps favorite prey with Silkymunch. (medium positive effect) - Poppybriar was 22 moons old",
             "Poppybriar gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Poppybriar was 23 moons old",
-            "Poppybriar heard that Silkymunch touched noses with a kittypet. (negative effect) - Poppybriar was 27 moons old"
+            "Poppybriar heard that Silkymunch touched noses with a kittypet. (negative effect) - Poppybriar was 27 moons old",
+            "Poppybriar was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Poppybriar was 34 moons old",
+            "Poppybriar and Silkymunch enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Poppybriar was 37 moons old",
+            "Poppybriar and Silkymunch listened to Butterflyglide's story together. (positive effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1624,16 +1635,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -3,
-        "respect": 0,
-        "comfort": 0,
+        "like": 12,
+        "respect": 10,
+        "comfort": 5,
         "trust": 20,
         "log": [
             "Poppypaw doesn't understand why Butterflypaw is being so rude. (low negative effect) - Poppypaw was 8 moons old",
             "Poppybriar and Butterflyglide discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
-            "Butterflyglide and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old"
+            "Butterflyglide and Poppybriar discussed the vision Gorgehunt claimed to have. (positive effect) - Poppybriar was 13 moons old",
+            "Poppybriar and Butterflyglide enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Poppybriar was 37 moons old",
+            "Poppybriar learned from Butterflyglide about how the moon controls the tides. (positive effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1641,20 +1658,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
-        "respect": 15,
-        "comfort": -14,
-        "trust": -10,
+        "like": -2,
+        "respect": 23,
+        "comfort": 7,
+        "trust": -7,
         "log": [
             "Poppybriar gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Poppybriar was 14 moons old",
             "Poppybriar goes to tell a secret to Moletooth only for Moletooth to tell someone else's secret to him. (high negative effect) - Poppybriar was 17 moons old",
             "Poppybriar heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poppybriar was 17 moons old",
             "Poppybriar and Moletooth have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Poppybriar was 30 moons old",
-            "Moletooth said something about a Clanmate that concerned Poppybriar. (medium negative effect) - Poppybriar was 32 moons old"
+            "Moletooth said something about a Clanmate that concerned Poppybriar. (medium negative effect) - Poppybriar was 32 moons old",
+            "Moletooth compliments Poppybriar on something he was self-conscious about. (high positive effect) - Poppybriar was 35 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1678,15 +1694,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
+        "like": 11,
         "respect": 46,
-        "comfort": 8,
-        "trust": 11,
+        "comfort": 13,
+        "trust": 31,
         "log": [
             "Whiskerkit doesn't want to apologize to Poppykit for something. (medium negative effect) - Poppykit was 2 moons old",
             "Poppypaw gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Poppypaw was 11 moons old",
             "Poppybriar heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poppybriar was 17 moons old",
-            "Poppybriar thinks the Clan's ancestors smile upon Whiskerleg. (high positive effect) - Poppybriar was 31 moons old"
+            "Poppybriar thinks the Clan's ancestors smile upon Whiskerleg. (high positive effect) - Poppybriar was 31 moons old",
+            "Poppybriar and Whiskerleg discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Whiskerleg and Poppybriar discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Poppybriar and Whiskerleg enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Poppybriar was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1714,14 +1733,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": 2,
         "respect": 20,
         "comfort": 13,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Poppybriar and Carnationmunch enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 18 moons old",
             "Poppybriar vowed to think twice before following Carnationmunch off on another \"adventure\" after getting banged up last time. (negative effect) - Poppybriar was 22 moons old",
-            "Poppybriar and Carnationmunch practiced two-on-one fighting together. (positive effect) - Poppybriar was 30 moons old"
+            "Poppybriar and Carnationmunch practiced two-on-one fighting together. (positive effect) - Poppybriar was 30 moons old",
+            "Poppybriar and Carnationmunch felt frustrated after an unproductive training patrol. (negative effect) - Poppybriar was 35 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1731,14 +1751,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": 2,
         "respect": 20,
         "comfort": 0,
-        "trust": 7,
+        "trust": 2,
         "log": [
             "After the Gathering, Poppybriar notices that Midnighthaze is making sure everyone got home. (low positive effect) - Poppybriar was 13 moons old",
             "Poppybriar and Midnighthaze practiced two-on-one fighting together. (positive effect) - Poppybriar was 30 moons old",
-            "Poppybriar and Midnighthaze practiced fighting as a pair. (positive effect) - Poppybriar was 30 moons old"
+            "Poppybriar and Midnighthaze practiced fighting as a pair. (positive effect) - Poppybriar was 30 moons old",
+            "Poppybriar and Midnighthaze felt frustrated after an unproductive training patrol. (negative effect) - Poppybriar was 35 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1749,13 +1770,14 @@
         "family": false,
         "romance": 0,
         "like": 27,
-        "respect": 21,
+        "respect": 31,
         "comfort": 17,
-        "trust": 18,
+        "trust": 28,
         "log": [
             "Poppykit is proud to be in the same Clan as Bravepaw. (high positive effect) - Poppykit was 4 moons old",
             "Poppybriar and Braveocean worked on their skills together on a training patrol. (positive effect) - Poppybriar was 16 moons old",
-            "Poppybriar and Braveocean enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 18 moons old"
+            "Poppybriar and Braveocean enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 18 moons old",
+            "Poppybriar gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Poppybriar was 36 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1780,16 +1802,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 5,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -20,
         "log": [
             "Poppypaw heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Poppypaw was 10 moons old",
             "Poppybriar was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Poppybriar was 23 moons old",
-            "Poppybriar heard Pigmentpelt fell asleep guarding camp. (negative effect) - Poppybriar was 29 moons old"
+            "Poppybriar heard Pigmentpelt fell asleep guarding camp. (negative effect) - Poppybriar was 29 moons old",
+            "While Pigmentpelt gorges on her piece of fresh kill, Braveocean, Poppybriar, and Talonlake find that eating is suddenly less appealing. (negative effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1797,10 +1824,10 @@
         "mates": true,
         "family": false,
         "romance": 74,
-        "like": 33,
+        "like": 36,
         "respect": 13,
-        "comfort": 51,
-        "trust": 44,
+        "comfort": 59,
+        "trust": 59,
         "log": [
             "Poppykit got stuck in the same tree with Shiveringkit for hours and realized how much they have in common. (high positive effect) - Poppykit was 3 moons old",
             "Shiveringpaw follows through on a small promise made with Poppypaw. (low positive effect) - Poppypaw was 6 moons old",
@@ -1812,13 +1839,17 @@
             "Poppybriar and Shiveringdusk had a successful hunt together. (positive effect) - Poppybriar was 26 moons old",
             "Poppybriar and Shiveringdusk were heard discussing kits. (high positive effect) - Poppybriar was 32 moons old",
             "During a particularly hot greenleaf, Poppybriar and Shiveringdusk spent their evenings cooling down together. (positive effect) - Poppybriar was 32 moons old",
-            "Poppybriar and Shiveringdusk enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 33 moons old"
+            "Poppybriar and Shiveringdusk enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 33 moons old",
+            "Poppybriar and Shiveringdusk felt frustrated after an unproductive training patrol. (negative effect) - Poppybriar was 35 moons old",
+            "Poppybriar and Shiveringdusk discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Shiveringdusk and Poppybriar discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Poppybriar, Shiveringdusk, and Nymphshine took a sunbath and had a little small talk. (positive effect) - Poppybriar was 38 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust",
-            "comfort"
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1881,16 +1912,16 @@
         "like": 18,
         "respect": 0,
         "comfort": 23,
-        "trust": 10,
+        "trust": 30,
         "log": [
             "Poppybriar and Creekmoss worked on their skills together on a training patrol. (positive effect) - Poppybriar was 16 moons old",
             "Poppybriar wishes Creekmoss would take things more seriously. (medium negative effect) - Poppybriar was 17 moons old",
             "Poppybriar and Creekmoss enjoyed hanging out and chatting during a training session. (positive effect) - Poppybriar was 18 moons old",
-            "Creekmoss was very considerate while on patrol with Poppybriar. (positive effect) - Poppybriar was 19 moons old"
+            "Creekmoss was very considerate while on patrol with Poppybriar. (positive effect) - Poppybriar was 19 moons old",
+            "Poppybriar and Creekmoss discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old",
+            "Creekmoss and Poppybriar discussed the vision Poppybriar claimed to have. (positive effect) - Poppybriar was 36 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "149",
@@ -1900,16 +1931,21 @@
         "romance": 0,
         "like": 10,
         "respect": 29,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 8,
         "log": [
             "Poppypaw thinks that Meadowkit is very creative. (medium positive effect) - Poppypaw was 7 moons old",
             "Meadowpaw doesn't want to apologize to Poppypaw for something. (medium negative effect) - Poppypaw was 11 moons old",
             "Poppybriar and Meadowspots persevered on a difficult hunt to bring down a large octopus together. (positive effect) - Poppybriar was 12 moons old",
             "Poppybriar and Meadowspots worked on their skills together on a training patrol. (positive effect) - Poppybriar was 16 moons old",
-            "Poppybriar is inspired by Meadowspots's passion. (medium positive effect) - Poppybriar was 24 moons old"
+            "Poppybriar is inspired by Meadowspots's passion. (medium positive effect) - Poppybriar was 24 moons old",
+            "Poppybriar and Meadowspots listened to Butterflyglide's story together. (positive effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -1966,9 +2002,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -2035,14 +2073,18 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Poppybriar is prancing around in front of Nymphshine. (low positive effect) - Poppybriar was 33 moons old"
+            "Poppybriar is prancing around in front of Nymphshine. (low positive effect) - Poppybriar was 33 moons old",
+            "Poppybriar, Shiveringdusk, and Nymphshine took a sunbath and had a little small talk. (positive effect) - Poppybriar was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -2064,11 +2106,12 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": -5,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Poppybriar heard that Shinebelly caught a rabbit from across the border. (negative effect) - Poppybriar was 18 moons old"
+            "Poppybriar heard that Shinebelly caught a rabbit from across the border. (negative effect) - Poppybriar was 18 moons old",
+            "Poppybriar heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Poppybriar was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2123,15 +2166,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 10,
+        "like": 6,
+        "respect": 41,
+        "comfort": 6,
+        "trust": 27,
         "log": [
             "Poppybriar heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Poppybriar was 19 moons old",
-            "Poppybriar gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Poppybriar was 31 moons old"
+            "Poppybriar gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Poppybriar was 31 moons old",
+            "Poppybriar saw Sandthrush show off a skill he never knew she had. (high positive effect) - Poppybriar was 36 moons old",
+            "Poppybriar gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Poppybriar was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -2431,11 +2481,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Poppybriar and Lionheart felt frustrated after an unproductive training patrol. (negative effect) - Poppybriar was 35 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2475,9 +2527,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Poppybriar heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Poppybriar was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "149",
@@ -2527,8 +2583,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Poppybriar heard Electronegativity fell asleep guarding camp. (negative effect) - Poppybriar was 37 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2538,10 +2596,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Poppybriar disapproved of Moorghost wearing a collar. (negative effect) - Poppybriar was 35 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2625,6 +2685,166 @@
     {
         "cat_from_id": "149",
         "cat_to_id": "227",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "228",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "229",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "230",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "232",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "233",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 13,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Poppybriar noticed Shorekit is doing his best today. (low positive effect) - Poppybriar was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "234",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "235",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "236",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "237",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "238",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "239",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "149",
+        "cat_to_id": "240",
         "mates": false,
         "family": false,
         "romance": 0,
