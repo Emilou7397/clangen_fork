@@ -1,4 +1,28 @@
 {
+    "illnesses": {
+        "grief stricken": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 2,
+            "moon_start": 142,
+            "risks": [
+                {
+                    "name": "lasting grief",
+                    "chance": 107
+                },
+                {
+                    "name": "constant nightmares",
+                    "chance": 22
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 157
+                }
+            ],
+            "event_triggered": true
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +34,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 207
+                    "chance": 214
                 },
                 {
                     "name": "joint pain",
-                    "chance": 209
+                    "chance": 216
                 }
             ],
             "complication": null,

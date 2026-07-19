@@ -161,8 +161,8 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 14,
-        "respect": 50,
+        "like": 2,
+        "respect": 62,
         "comfort": 36,
         "trust": 44,
         "log": [
@@ -177,9 +177,14 @@
             "Peatcrest and Pebblechase come up with a catchy song together. (low positive effect)- Peatcrest was 58 moons old",
             "Peatcrest helped Pebblechase interpret a vision. (positive effect) - Peatcrest was 94 moons old",
             "Peatcrest worried about what Pebblechase's vision could mean and why he received it. (negative effect) - Peatcrest was 94 moons old",
-            "Peatcrest heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Peatcrest was 107 moons old"
+            "Peatcrest heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Peatcrest was 107 moons old",
+            "Stretching might be good for one's health, but Elmtrail, Bitebone, Peatcrest, and Fleadusk wish Pebblechase didn't insist on stretching at the crack of dawn. (negative effect) - Peatcrest was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -356,10 +361,7 @@
             "Peatcrest feels bad that he caused a problem for Ochretail. (medium positive effect) - Peatcrest was 103 moons old",
             "Peatcrest shivers after noticing Ochretail following him around like a shadow. (high negative effect) - Peatcrest was 120 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -750,10 +752,7 @@
             "Peatcrest and Auburnsplash were heard discussing kits. (high positive effect) - Peatcrest was 118 moons old",
             "Peatcrest saw Auburnsplash give an elder the best piece of prey on the pile. (positive effect) - Peatcrest was 123 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -802,7 +801,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 68,
+        "like": 76,
         "respect": 4,
         "comfort": 48,
         "trust": 5,
@@ -814,7 +813,9 @@
             "Peatcrest has had a great time hanging out with Fidgetmouse lately. (high positive effect)- Peatcrest was 61 moons old",
             "Fidgetmouse compliments one of Peatcrest's friends. (low positive effect)- Peatcrest was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -1055,9 +1056,7 @@
             "Peatcrest and Quailfur always have something to share with each other. (high positive effect) - Peatcrest was 117 moons old",
             "Peatcrest overhears something about Quailfur that he can relate to. (medium positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -1196,13 +1195,19 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 13,
+        "respect": 23,
         "comfort": 7,
         "trust": 8,
         "log": [
-            "Peatcrest thinks the Clan's ancestors smile upon Gardeniakit. (high positive effect)- Peatcrest was 47 moons old"
+            "Peatcrest thinks the Clan's ancestors smile upon Gardeniakit. (high positive effect)- Peatcrest was 47 moons old",
+            "Peatcrest heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -1416,14 +1421,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Peatcrest thinks Skulkwillow is shirking his duties. (medium negative effect) - Peatcrest was 100 moons old",
-            "Peatcrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 102 moons old"
+            "Peatcrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 102 moons old",
+            "Peatcrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -1462,11 +1470,7 @@
             "Peatcrest was grateful for Diablofoot's help gathering tansy and ragwort. (positive effect) - Peatcrest was 123 moons old",
             "Peatcrest and Diablofoot enjoyed gathering juniper berries together. (positive effect) - Peatcrest was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -1475,7 +1479,7 @@
         "family": false,
         "romance": 0,
         "like": 27,
-        "respect": 1,
+        "respect": 11,
         "comfort": 58,
         "trust": -21,
         "log": [
@@ -1484,9 +1488,15 @@
             "Bitebone, Tomatofreckle, Mallardfeather, Peatcrest, and Heavythud hang out while stretching. (positive effect)- Peatcrest was 75 moons old",
             "After a heated argument about herbs, Oddmuzzle, Peatcrest, Heavythud, Saffronfoot, and Primfreckle avoid each other. (negative effect)- Peatcrest was 78 moons old",
             "Peatcrest thinks that Heavythud gave him the wrong herbs. (high negative effect) - Peatcrest was 112 moons old",
-            "Reedheart, Heavythud, and Peatcrest had a nice talk while eating. (positive effect) - Peatcrest was 118 moons old"
+            "Reedheart, Heavythud, and Peatcrest had a nice talk while eating. (positive effect) - Peatcrest was 118 moons old",
+            "Peatcrest heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -1508,14 +1518,20 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 16,
+        "respect": 26,
         "comfort": 8,
         "trust": 21,
         "log": [
             "Peatcrest feels comfortable challenging Brindletooth on something they said. (high positive effect)- Peatcrest was 66 moons old",
-            "Peatcrest heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 102 moons old"
+            "Peatcrest heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 102 moons old",
+            "Peatcrest heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -1667,10 +1683,7 @@
         "log": [
             "Peatcrest and Icyriver enjoyed gathering juniper berries together. (positive effect) - Peatcrest was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -1702,9 +1715,7 @@
             "Peatcrest finds his feelings conflicted towards the new family addition. (neutral effect)- Peatcrest was 60 moons old",
             "Peatcrest assumed that his lesson about poisonous plants would go unheard, but Pheasantpaw, Frondpaw, Sardinepaw, and Talonpaw are diligent listeners. (positive effect)- Peatcrest was 67 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -2025,11 +2036,7 @@
             "Late into the evening, Talonlake invites Diablofoot, Kokomi, Prancelaurel, and Peatcrest to stretch with him and enjoy each other's company. (positive effect)- Peatcrest was 72 moons old",
             "Peatcrest and Kiwifoot enjoyed gathering juniper berries together. (positive effect) - Peatcrest was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -2092,14 +2099,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
+        "like": -2,
+        "respect": -10,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Peatcrest, Daisymoor, and Carptail took a sunbath and had a little small talk. (positive effect) - Peatcrest was 85 moons old"
+            "Peatcrest, Daisymoor, and Carptail took a sunbath and had a little small talk. (positive effect) - Peatcrest was 85 moons old",
+            "Daisymoor and Peatcrest snapped at each other after a failed horsetail gathering patrol. (negative effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2134,9 +2145,7 @@
             "Peatcrest notices that Lightpelt is fixing a damaged part of the camp without being asked. (low positive effect) - Peatcrest was 120 moons old",
             "Lightpelt helps Peatcrest hide from a Clanmate. (low positive effect) - Peatcrest was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -2392,12 +2401,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -10,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Butterflyglide and Peatcrest snapped at each other after a failed horsetail gathering patrol. (negative effect) - Peatcrest was 126 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2405,15 +2419,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 7,
+        "like": -10,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Molepaw acts childishly in front of Peatcrest. (low negative effect) - Peatcrest was 92 moons old",
-            "Peatcrest heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 104 moons old"
+            "Peatcrest heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 104 moons old",
+            "Moletooth and Peatcrest snapped at each other after a failed horsetail gathering patrol. (negative effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2529,12 +2546,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -10,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shiveringdusk and Peatcrest snapped at each other after a failed horsetail gathering patrol. (negative effect) - Peatcrest was 126 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2568,12 +2590,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -10,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Poppybriar and Peatcrest snapped at each other after a failed horsetail gathering patrol. (negative effect) - Peatcrest was 126 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2588,9 +2615,7 @@
         "log": [
             "Clawswirl lets Peatcrest know that a Clanmate was talking badly about him. (low positive effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -2971,11 +2996,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Peatcrest heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -2999,11 +3028,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Peatcrest heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Peatcrest was 126 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -3011,14 +3044,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 21,
+        "like": 13,
         "respect": 6,
         "comfort": 7,
         "trust": 8,
         "log": [
-            "Peatcrest won't stand for slander about Frognose. (high positive effect) - Peatcrest was 113 moons old"
+            "Peatcrest won't stand for slander about Frognose. (high positive effect) - Peatcrest was 113 moons old",
+            "Peatcrest has drawn the ire of Frognose by deliberately taking the last of her favorite nesting materials for himself. (low negative effect) - Peatcrest was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -3126,24 +3162,28 @@
         "log": [
             "Velvetpaw tells Primfreckle, Peatcrest, Flightpaw, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Peatcrest was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
         "cat_to_id": "203",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 0,
+        "romance": 21,
+        "like": 16,
+        "respect": 8,
+        "comfort": 18,
+        "trust": 6,
         "log": [
-            "Peatcrest and Jademuzzle chatted and gossiped while gathering mallow and betony together. (positive effect) - Peatcrest was 118 moons old"
+            "Peatcrest and Jademuzzle chatted and gossiped while gathering mallow and betony together. (positive effect) - Peatcrest was 118 moons old",
+            "Peatcrest asks Jademuzzle to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Peatcrest was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "11",
@@ -3201,9 +3241,7 @@
         "log": [
             "Sagopaw won't tell Peatcrest what's got him acting weird. (low negative effect) - Peatcrest was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "11",
@@ -3522,6 +3560,71 @@
     {
         "cat_from_id": "11",
         "cat_to_id": "240",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "11",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "11",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "11",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "11",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "11",
+        "cat_to_id": "246",
         "mates": false,
         "family": false,
         "romance": 0,

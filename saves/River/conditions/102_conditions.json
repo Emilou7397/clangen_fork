@@ -1,19 +1,19 @@
 {
     "illnesses": {
-        "greencough": {
-            "severity": "severe",
+        "yellowcough": {
+            "severity": "major",
             "mortality": 15,
             "infectiousness": 30,
-            "duration": 2,
-            "moon_start": 140,
+            "duration": 1,
+            "moon_start": 142,
             "risks": [
                 {
-                    "name": "yellowcough",
-                    "chance": 64
+                    "name": "redcough",
+                    "chance": 90
                 },
                 {
                     "name": "sore throat",
-                    "chance": 24
+                    "chance": 30
                 }
             ],
             "event_triggered": false

@@ -96,15 +96,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 2,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Pigmentpelt heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 82 moons old",
-            "Pigmentpelt accompanied Minnowlily to harvest burdock root, but Minnowlily wasn't able to find any, and Pigmentpelt felt like the day was a waste. (negative effect) - Pigmentpelt was 105 moons old"
+            "Pigmentpelt accompanied Minnowlily to harvest burdock root, but Minnowlily wasn't able to find any, and Pigmentpelt felt like the day was a waste. (negative effect) - Pigmentpelt was 105 moons old",
+            "Pigmentpelt and Minnowlily successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -288,8 +291,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 3,
+        "log": [
+            "Braveheart says something vulnerable to Pigmentpelt. (low positive effect) - Pigmentpelt was 107 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -578,14 +583,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 20,
         "respect": 0,
         "comfort": 10,
         "trust": 0,
         "log": [
-            "Pigmentpelt and Peakspore enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Pigmentpelt was 89 moons old"
+            "Pigmentpelt and Peakspore enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Pigmentpelt was 89 moons old",
+            "Pigmentpelt and Peakspore successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -638,9 +647,7 @@
             "Quailfur says something vulnerable to Pigmentpelt. (low positive effect) - Pigmentpelt was 103 moons old",
             "Pigmentpelt shares a bit of shelter from the rain with Quailfur. (medium positive effect) - Pigmentpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -705,12 +712,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pigmentpelt and Freezefoot successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -719,13 +730,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Pigmentpelt heard Gardeniaglow fell asleep guarding camp. (negative effect) - Pigmentpelt was 95 moons old"
+            "Pigmentpelt heard Gardeniaglow fell asleep guarding camp. (negative effect) - Pigmentpelt was 95 moons old",
+            "Pigmentpelt heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -818,9 +832,7 @@
             "Pigmentpelt thinks that Fringesnap is very creative. (medium positive effect) - Pigmentpelt was 101 moons old",
             "Pigmentpelt asks Fringesnap a simple question, but Fringesnap reacts strangely to it. (low negative effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -876,13 +888,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Pigmentpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 82 moons old"
+            "Pigmentpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 82 moons old",
+            "Pigmentpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -922,13 +937,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": -12,
         "trust": 0,
         "log": [
-            "Pigmentpelt was rudely awoken by Heavythud. (medium negative effect) - Pigmentpelt was 80 moons old"
+            "Pigmentpelt was rudely awoken by Heavythud. (medium negative effect) - Pigmentpelt was 80 moons old",
+            "Pigmentpelt heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -952,13 +971,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Pigmentpelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 82 moons old"
+            "Pigmentpelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 82 moons old",
+            "Pigmentpelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -990,9 +1012,7 @@
         "log": [
             "Pigmentpelt asks Sardinespeckle to teach her how to sing so well. (medium positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -1018,12 +1038,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -10,
+        "trust": -22,
         "log": [
             "Pigmentpelt heard Talonlake fell asleep guarding camp. (negative effect) - Pigmentpelt was 80 moons old",
-            "Pigmentpelt was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Pigmentpelt was 82 moons old"
+            "Pigmentpelt was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Pigmentpelt was 82 moons old",
+            "Pigmentpelt asks Talonlake about a lie Talonlake told, but he dodges the question. (medium negative effect) - Pigmentpelt was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -1571,11 +1594,7 @@
             "The Clan hears Pigmentpelt and Drizzlepelt laughing together across the camp. (medium positive effect) - Pigmentpelt was 81 moons old",
             "Pigmentpelt and Drizzlepelt defended their Clan at the Gathering together. (high positive effect) - Pigmentpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -1829,9 +1848,7 @@
             "Pigmentpelt heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Pigmentpelt was 85 moons old",
             "Pigmentpelt wasn't going to help a Clanmate, but realized that Caterpillarfoot would do it in a heartbeat. (medium positive effect) - Pigmentpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -1964,16 +1981,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 18,
         "respect": 29,
         "comfort": 8,
         "trust": -7,
         "log": [
             "Pigmentpelt is impressed by Coquitostep's competence in any situation. (high positive effect) - Pigmentpelt was 84 moons old",
             "Pigmentpelt appreciated that Coquitostep checked with a medicine cat before gathering herbs on a hunting patrol. (positive effect) - Pigmentpelt was 86 moons old",
-            "Pigmentpelt heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Pigmentpelt was 87 moons old"
+            "Pigmentpelt heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Pigmentpelt was 87 moons old",
+            "Pigmentpelt and Coquitostep successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -2070,11 +2093,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pigmentpelt heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -2099,11 +2126,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pigmentpelt heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -2243,14 +2274,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 20,
         "respect": 0,
         "comfort": 10,
         "trust": 0,
         "log": [
-            "Pigmentpelt and Hollyblossom chatted and gossiped while gathering mallow and betony together. (positive effect) - Pigmentpelt was 98 moons old"
+            "Pigmentpelt and Hollyblossom chatted and gossiped while gathering mallow and betony together. (positive effect) - Pigmentpelt was 98 moons old",
+            "Pigmentpelt and Hollyblossom successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -2610,6 +2645,71 @@
     {
         "cat_from_id": "145",
         "cat_to_id": "240",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "246",
         "mates": false,
         "family": false,
         "romance": 0,

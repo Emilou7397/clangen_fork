@@ -1,4 +1,23 @@
 {
+    "injuries": {
+        "claw-wound": {
+            "severity": "major",
+            "mortality": 50,
+            "duration": 3,
+            "moon_start": 142,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 17
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": []
+        }
+    },
     "permanent conditions": {
         "seizure prone": {
             "severity": "major",
@@ -10,7 +29,7 @@
             "risks": [
                 {
                     "name": "seizure",
-                    "chance": 389
+                    "chance": 396
                 }
             ],
             "complication": null,

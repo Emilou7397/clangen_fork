@@ -335,12 +335,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 5,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Softkit heard Gardeniaglow fell asleep guarding camp. (negative effect) - Softkit was 2 moons old",
-            "Softkit heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Softkit was 4 moons old"
+            "Softkit heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Softkit was 4 moons old",
+            "Softpaw heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -464,11 +465,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -505,11 +510,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -531,11 +540,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -635,11 +648,7 @@
             "Softpaw and Icyriver roll up moss balls together. (low positive effect) - Softpaw was 7 moons old",
             "Softpaw was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Softpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -829,9 +838,7 @@
         "log": [
             "Softpaw hears a nice story about Hollyheart. (low positive effect) - Softpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -960,12 +967,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw, Gorgehunt, and Wasppelt had a nice talk while eating. (positive effect) - Softpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1107,12 +1119,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw, Gorgehunt, and Wasppelt had a nice talk while eating. (positive effect) - Softpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1193,8 +1210,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Softpaw heard Whiskerleg fell asleep guarding camp. (negative effect) - Softpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1229,14 +1248,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -5,
+        "like": -2,
+        "respect": -11,
+        "comfort": -3,
+        "trust": -7,
         "log": [
-            "Softpaw heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Softpaw was 8 moons old"
+            "Softpaw heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Softpaw was 8 moons old",
+            "Softpaw had a difficult conversation with Midnighthaze, and they both ended up resentful of one another. (high negative effect) - Softpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1279,10 +1302,7 @@
         "comfort": 8,
         "trust": 8,
         "log": [],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -1462,13 +1482,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": -15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Softpaw heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Softpaw was 8 moons old"
+            "Softpaw heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Softpaw was 8 moons old",
+            "Softpaw disapproved of Shinebelly wearing a collar. (negative effect) - Softpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1523,10 +1546,7 @@
             "Softkit gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Softkit was 2 moons old",
             "Softpaw gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Softpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -1588,12 +1608,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -8,
+        "respect": 6,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old",
+            "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Softpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1602,11 +1628,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Softpaw heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Softpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1709,16 +1739,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -21,
-        "respect": -21,
-        "comfort": -6,
-        "trust": -16,
+        "like": -28,
+        "respect": -28,
+        "comfort": -14,
+        "trust": -37,
         "log": [
             "Softkit wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Softkit was 1 moon old",
             "Softpaw notices that Velvetpaw doesn't take their training as seriously as the other apprentices. (high negative effect) - Softpaw was 6 moons old",
-            "Softpaw notices Velvetpaw failed to complete a simple task. (low negative effect) - Softpaw was 9 moons old"
+            "Softpaw notices Velvetpaw failed to complete a simple task. (low negative effect) - Softpaw was 9 moons old",
+            "Velvetpaw accidentally hurts Softpaw during an argument between them. (high negative effect) - Softpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "215",
@@ -1790,12 +1826,7 @@
             "Softpaw thinks Sagopaw was nice to her today. (low positive effect) - Softpaw was 7 moons old",
             "Spittle and flecks of bone fly while Sagopaw gobbles down prey, reminding Stagpaw, Scalepaw, and Softpaw to seek out better mealtime companionship next time. (negative effect) - Softpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -1812,12 +1843,7 @@
             "Softkit pretends to fight off badgers with Scalekit. (medium positive effect) - Softkit was 4 moons old",
             "Softpaw heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Softpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -1918,9 +1944,7 @@
         "log": [
             "Skypaw keeps asking Softpaw if she trusts them. (low negative effect) - Softpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -1935,10 +1959,7 @@
         "log": [
             "Softpaw learns that Avocetpaw has been using her for something. (high negative effect) - Softpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "215",
@@ -2138,6 +2159,71 @@
     {
         "cat_from_id": "215",
         "cat_to_id": "240",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "215",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "215",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "215",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "215",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "215",
+        "cat_to_id": "246",
         "mates": false,
         "family": false,
         "romance": 0,

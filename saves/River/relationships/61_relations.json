@@ -650,7 +650,7 @@
         "family": false,
         "romance": 3,
         "like": 3,
-        "respect": -25,
+        "respect": -15,
         "comfort": 13,
         "trust": -24,
         "log": [
@@ -665,9 +665,14 @@
             "Verbenabloom heard Gardeniaglow fell asleep guarding camp. (negative effect) - Verbenabloom was 64 moons old",
             "Gardeniaglow feels ignored by Verbenabloom. (low negative effect) - Verbenabloom was 66 moons old",
             "Verbenabloom heard Gardeniaglow fell asleep guarding camp. (negative effect) - Verbenabloom was 67 moons old",
-            "Verbenabloom heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Verbenabloom was 69 moons old"
+            "Verbenabloom heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Verbenabloom was 69 moons old",
+            "Verbenabloom heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -924,7 +929,7 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": 86,
+        "respect": 96,
         "comfort": 36,
         "trust": 4,
         "log": [
@@ -942,9 +947,14 @@
             "Verbenabloom heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 52 moons old",
             "After the Gathering, Verbenabloom notices that Skulkwillow is making sure everyone got home. (low positive effect) - Verbenabloom was 54 moons old",
             "Verbenabloom and Skulkwillow successfully gathered herbs together despite the rainy weather. (positive effect) - Verbenabloom was 63 moons old",
-            "Verbenabloom had a good dream about Skulkwillow. (low positive effect) - Verbenabloom was 69 moons old"
+            "Verbenabloom had a good dream about Skulkwillow. (low positive effect) - Verbenabloom was 69 moons old",
+            "Verbenabloom heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -999,15 +1009,19 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": -5,
+        "respect": 5,
         "comfort": -16,
         "trust": 6,
         "log": [
             "Heavypaw thinks Verbenabloom is lying when she apologizes for something. (high negative effect)- Verbenabloom was 12 moons old",
             "Heavythud respects Verbenabloom's opinion despite disagreeing with it. (low positive effect) - Verbenabloom was 53 moons old",
-            "Verbenabloom sees Heavythud put something back where it belongs. (low positive effect) - Verbenabloom was 64 moons old"
+            "Verbenabloom sees Heavythud put something back where it belongs. (low positive effect) - Verbenabloom was 64 moons old",
+            "Verbenabloom heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -1033,7 +1047,7 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 4,
+        "respect": 14,
         "comfort": 3,
         "trust": 3,
         "log": [
@@ -1043,9 +1057,13 @@
             "Verbenabloom swears that Brindletooth's fangs are longer than usual. (medium negative effect) - Verbenabloom was 36 moons old",
             "Verbenabloom heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 52 moons old",
             "Verbenabloom and Brindletooth successfully gathered herbs together despite the rainy weather. (positive effect) - Verbenabloom was 63 moons old",
-            "Verbenabloom took note of Brindletooth's initiative when distracting a skua. (positive effect) - Verbenabloom was 67 moons old"
+            "Verbenabloom took note of Brindletooth's initiative when distracting a skua. (positive effect) - Verbenabloom was 67 moons old",
+            "Verbenabloom heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -1218,12 +1236,7 @@
             "Verbenabloom had fun cracking open a coconut with Icyriver. (positive effect) - Verbenabloom was 62 moons old",
             "Verbenabloom was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -1254,11 +1267,11 @@
         "cat_to_id": "82",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -17,
+        "romance": 6,
+        "like": -11,
         "respect": -31,
         "comfort": 10,
-        "trust": -7,
+        "trust": -1,
         "log": [
             "Verbenabloom and Pheasantpaw returned to camp frustrated with each other after a moss-gathering patrol failed. (negative effect)- Verbenabloom was 16 moons old",
             "Verbenabloom and Pheasantpaw returned to camp frustrated with each other after a moss-gathering patrol failed. (negative effect)- Verbenabloom was 17 moons old",
@@ -1270,12 +1283,7 @@
             "Verbenabloom notices that Pheasantbrush seems to disappear whenever difficult tasks are being discussed. (medium negative effect) - Verbenabloom was 63 moons old",
             "Pheasantbrush tromped into the warrior's den with muddy paws, trailing muck straight through Tansywhisker and Verbenabloom's nests. (negative effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -1734,9 +1742,7 @@
         "log": [
             "Verbenabloom was deeply disappointed to hear that Dahliacrest broke the Code. (negative effect) - Verbenabloom was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -1767,9 +1773,7 @@
             "In the middle of a conversation, Verbenabloom and Snookbumble realize they have less in common than they thought. (medium negative effect) - Verbenabloom was 56 moons old",
             "Verbenabloom felt eyes on her back, and when she looked, Snookbumble was quickly turning away. (low negative effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -1801,9 +1805,7 @@
             "Verbenabloom is jealous that Blotchstripe got to go to the last Gathering. (medium negative effect) - Verbenabloom was 45 moons old",
             "Blotchstripe tells Verbenabloom a joke that she doesn't find funny. (medium negative effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -2045,13 +2047,18 @@
         "like": 13,
         "respect": 25,
         "comfort": 0,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Whiskerpaw does something that makes Verbenabloom's day a little happier. (low positive effect) - Verbenabloom was 43 moons old",
             "Verbenabloom gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Verbenabloom was 49 moons old",
-            "Verbenabloom heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 54 moons old"
+            "Verbenabloom heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 54 moons old",
+            "Verbenabloom heard Whiskerleg fell asleep guarding camp. (negative effect) - Verbenabloom was 77 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -2407,14 +2414,17 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -10,
+        "respect": -20,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Verbenabloom heard that Shinebelly caught a rabbit from across the border. (negative effect) - Verbenabloom was 55 moons old",
-            "Verbenabloom heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Verbenabloom was 74 moons old"
+            "Verbenabloom heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Verbenabloom was 74 moons old",
+            "Verbenabloom disapproved of Shinebelly wearing a collar. (negative effect) - Verbenabloom was 77 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -2462,17 +2472,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
-        "comfort": 0,
+        "respect": 37,
+        "comfort": 13,
         "trust": 20,
         "log": [
             "Verbenabloom heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Verbenabloom was 56 moons old",
             "Verbenabloom gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Verbenabloom was 68 moons old",
-            "Verbenabloom gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Verbenabloom was 76 moons old"
+            "Verbenabloom gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Verbenabloom was 76 moons old",
+            "Verbenabloom can't remember a word for the life of her, but Sandthrush helps her remember it. (medium positive effect) - Verbenabloom was 77 moons old"
         ],
         "no_longer_neutral": [
             "respect",
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -2481,16 +2492,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -3,
+        "like": 10,
         "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Verbenabloom heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 52 moons old",
             "Verbenabloom is annoyed by Minnowlily's negative comments. (low negative effect) - Verbenabloom was 63 moons old",
-            "Verbenabloom and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Verbenabloom was 63 moons old"
+            "Verbenabloom and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Verbenabloom was 63 moons old",
+            "Minnowlily guides Verbenabloom to someone she is looking for. (low positive effect) - Verbenabloom was 77 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -2601,11 +2615,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -2629,11 +2647,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Verbenabloom was 76 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "61",
@@ -2857,9 +2879,7 @@
         "log": [
             "Verbenabloom heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -2914,9 +2934,7 @@
             "Electronegativity gently woke up Verbenabloom this morning. (medium positive effect) - Verbenabloom was 75 moons old",
             "Verbenabloom heard Electronegativity fell asleep guarding camp. (negative effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3107,11 +3125,7 @@
         "log": [
             "Verbenabloom visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3126,10 +3140,7 @@
         "log": [
             "Verbenabloom finds her feelings conflicted towards the new family addition. (neutral effect) - Verbenabloom was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3144,10 +3155,7 @@
         "log": [
             "Verbenabloom finds her feelings conflicted towards the new family addition. (neutral effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3162,10 +3170,7 @@
         "log": [
             "Verbenabloom finds her feelings conflicted towards the new family addition. (neutral effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3180,9 +3185,7 @@
         "log": [
             "Verbenabloom visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3197,11 +3200,7 @@
         "log": [
             "Verbenabloom is excited for her family to grow further. (positive effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "61",
@@ -3216,10 +3215,71 @@
         "log": [
             "Verbenabloom doesn't see how she could be expected to celebrate the new litter. (negative effect) - Verbenabloom was 76 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "61",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "61",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "61",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "61",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "61",
+        "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

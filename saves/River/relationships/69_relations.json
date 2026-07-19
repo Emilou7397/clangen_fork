@@ -70,8 +70,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 34,
-        "respect": -8,
+        "like": 22,
+        "respect": 4,
         "comfort": 1,
         "trust": 0,
         "log": [
@@ -79,9 +79,12 @@
             "Elmtrail, Stoatshade, Heatherfern, Erminedaisy, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Elmtrail was 16 moons old",
             "Elmtrail and Pebblechase worked on their skills together on a training patrol. (positive effect)- Elmtrail was 17 moons old",
             "Elmtrail heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Elmtrail was 55 moons old",
-            "Elmtrail tries to groom her pelt the same way Pebblechase does. (medium positive effect) - Elmtrail was 72 moons old"
+            "Elmtrail tries to groom her pelt the same way Pebblechase does. (medium positive effect) - Elmtrail was 72 moons old",
+            "Stretching might be good for one's health, but Elmtrail, Bitebone, Peatcrest, and Fleadusk wish Pebblechase didn't insist on stretching at the crack of dawn. (negative effect) - Elmtrail was 75 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -182,12 +185,13 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -13,
+        "respect": -1,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Elmtrail warns Ochretail about something on the ground so he doesn't trip. (low positive effect)- Elmtrail was 20 moons old",
-            "Elmtrail doesn't like the way Ochretail interacts with a Clanmate. (low negative effect) - Elmtrail was 35 moons old"
+            "Elmtrail doesn't like the way Ochretail interacts with a Clanmate. (low negative effect) - Elmtrail was 35 moons old",
+            "Ochretail tells a Clanmate that Elmtrail did a great job today. (medium positive effect) - Elmtrail was 75 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -570,9 +574,7 @@
             "Elmtrail feels comfortable challenging Quailfur on something he said. (high positive effect) - Elmtrail was 47 moons old",
             "Elmtrail heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 51 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -605,12 +607,7 @@
             "Elmtrail sees that Saffronfoot's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Elmtrail was 64 moons old",
             "Elmtrail and Saffronfoot heckled another Clan at the Gathering together. (high positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -682,16 +679,20 @@
         "family": false,
         "romance": 8,
         "like": -10,
-        "respect": -10,
+        "respect": 0,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Elmtrail heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Elmtrail was 34 moons old",
             "Elmtrail heard Gardeniaglow fell asleep guarding camp. (negative effect) - Elmtrail was 62 moons old",
             "Elmtrail heard Gardeniaglow fell asleep guarding camp. (negative effect) - Elmtrail was 65 moons old",
-            "Elmtrail heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Elmtrail was 67 moons old"
+            "Elmtrail heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Elmtrail was 67 moons old",
+            "Elmtrail heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -893,7 +894,7 @@
         "family": false,
         "romance": 20,
         "like": 16,
-        "respect": 10,
+        "respect": 20,
         "comfort": 18,
         "trust": 12,
         "log": [
@@ -907,9 +908,15 @@
             "Elmtrail and Skulkwillow had a productive training patrol together. (positive effect) - Elmtrail was 36 moons old",
             "Elmtrail heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 50 moons old",
             "Skulkwillow eats as ravenously as a wolverine and by the time he's done, Brindletooth, Elmtrail, Coquitostep, and Hushshimmer barely have the stomach to finish their own meals. (negative effect) - Elmtrail was 67 moons old",
-            "Elmtrail laughs at bad jokes from Skulkwillow. (medium positive effect) - Elmtrail was 71 moons old"
+            "Elmtrail laughs at bad jokes from Skulkwillow. (medium positive effect) - Elmtrail was 71 moons old",
+            "Elmtrail heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -964,7 +971,7 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 22,
+        "respect": 32,
         "comfort": 100,
         "trust": 34,
         "log": [
@@ -983,7 +990,8 @@
             "Heavythud tells Elmtrail, Paellapad, and Poolleaf a story that seems to grow less believable every meow. (negative effect) - Elmtrail was 33 moons old",
             "Elmtrail brings Heavythud a piece of fresh-kill after a long day of healing work. (medium positive effect) - Elmtrail was 35 moons old",
             "Elmtrail and Heavythud enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Elmtrail was 70 moons old",
-            "Gentleghost's eagerness to do early morning stretches rubs off on Butterflyglide, Elmtrail, Heavythud, and Hailfreckle. (positive effect) - Elmtrail was 73 moons old"
+            "Gentleghost's eagerness to do early morning stretches rubs off on Butterflyglide, Elmtrail, Heavythud, and Hailfreckle. (positive effect) - Elmtrail was 73 moons old",
+            "Elmtrail heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -999,7 +1007,7 @@
         "family": true,
         "romance": 0,
         "like": 68,
-        "respect": 43,
+        "respect": 53,
         "comfort": 89,
         "trust": 62,
         "log": [
@@ -1018,9 +1026,15 @@
             "Brindletooth tells Elmtrail, Talonlake, Hushshimmer, and Sardinespeckle a story that seems to grow less believable every meow. (negative effect) - Elmtrail was 40 moons old",
             "Brindletooth spends the Gathering whispering to Sardinespeckle, Skulkwillow, and Elmtrail, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Elmtrail was 50 moons old",
             "Elmtrail heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 50 moons old",
-            "Brindletooth tromped into the warrior's den with muddy paws, trailing muck straight through Skulkwillow, Sardinespeckle, and Elmtrail's nests. (negative effect) - Elmtrail was 54 moons old"
+            "Brindletooth tromped into the warrior's den with muddy paws, trailing muck straight through Skulkwillow, Sardinespeckle, and Elmtrail's nests. (negative effect) - Elmtrail was 54 moons old",
+            "Elmtrail heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -1239,12 +1253,7 @@
             "Elmtrail can't help but smile seeing Icyriver smile. (low positive effect) - Elmtrail was 53 moons old",
             "Elmtrail was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1431,9 +1440,7 @@
             "Saltknoll helped Elmtrail interpret a vision. (positive effect) - Elmtrail was 66 moons old",
             "Elmtrail gets excellent advice from Saltknoll about something she had been worrying about. (high positive effect) - Elmtrail was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1515,11 +1522,7 @@
             "Hailfreckle skips eating a meal so Elmtrail can have food. (medium positive effect) - Elmtrail was 58 moons old",
             "Gentleghost's eagerness to do early morning stretches rubs off on Butterflyglide, Elmtrail, Heavythud, and Hailfreckle. (positive effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1609,11 +1612,7 @@
             "Elmtrail disapproved of Gentleghost wearing a collar. (negative effect) - Elmtrail was 54 moons old",
             "Gentleghost's eagerness to do early morning stretches rubs off on Butterflyglide, Elmtrail, Heavythud, and Hailfreckle. (positive effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -1661,9 +1660,7 @@
             "Kiwifoot pulled an embarrassing prank on Elmtrail's friend. (low negative effect) - Elmtrail was 40 moons old",
             "Kiwifoot and Elmtrail drove off a scavenging fox together. (positive effect) - Elmtrail was 67 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2041,10 +2038,7 @@
             "Hollyheart, Elmtrail, and Butterflyglide took a sunbath and had a little small talk. (positive effect) - Elmtrail was 51 moons old",
             "Gentleghost's eagerness to do early morning stretches rubs off on Butterflyglide, Elmtrail, Heavythud, and Hailfreckle. (positive effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2088,13 +2082,18 @@
         "like": 7,
         "respect": 25,
         "comfort": 0,
-        "trust": 25,
+        "trust": 20,
         "log": [
             "Elmtrail and Whiskerpaw enjoyed working on their skills together on a training patrol. (positive effect) - Elmtrail was 39 moons old",
             "Elmtrail gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Elmtrail was 47 moons old",
-            "Elmtrail heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 52 moons old"
+            "Elmtrail heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 52 moons old",
+            "Elmtrail heard Whiskerleg fell asleep guarding camp. (negative effect) - Elmtrail was 75 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2439,15 +2438,20 @@
         "family": false,
         "romance": 0,
         "like": -21,
-        "respect": -15,
+        "respect": -25,
         "comfort": -5,
         "trust": -6,
         "log": [
             "Elmtrail heard that Shinebelly caught a rabbit from across the border. (negative effect) - Elmtrail was 53 moons old",
             "Elmtrail realizes how much he hates something about Shinebelly. (high negative effect) - Elmtrail was 57 moons old",
-            "Elmtrail heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Elmtrail was 72 moons old"
+            "Elmtrail heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Elmtrail was 72 moons old",
+            "Elmtrail disapproved of Shinebelly wearing a collar. (negative effect) - Elmtrail was 75 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2503,10 +2507,7 @@
             "Elmtrail gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Elmtrail was 66 moons old",
             "Elmtrail gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2539,9 +2540,7 @@
             "Coquitostep and Elmtrail drove off a scavenging fox together. (positive effect) - Elmtrail was 67 moons old",
             "Elmtrail doesn't tell Coquitostep that he forgot to groom a part of his fur. (low negative effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2634,11 +2633,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Elmtrail heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2662,11 +2665,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Elmtrail heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Elmtrail was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2745,14 +2752,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": -18,
+        "respect": -6,
+        "comfort": -6,
+        "trust": -16,
         "log": [
-            "Elmtrail claimed to catch the prey that Morelstreak caught on their patrol. (medium negative effect) - Elmtrail was 67 moons old"
+            "Elmtrail claimed to catch the prey that Morelstreak caught on their patrol. (medium negative effect) - Elmtrail was 67 moons old",
+            "Elmtrail lied to Morelstreak's face. (high negative effect) - Elmtrail was 75 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "69",
@@ -2882,9 +2895,7 @@
         "log": [
             "Elmtrail heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Elmtrail was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -2954,9 +2965,7 @@
             "Elmtrail disapproved of Moorghost wearing a collar. (negative effect) - Elmtrail was 71 moons old",
             "Elmtrail and Moorghost chat about Clan news. (low positive effect) - Elmtrail was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "69",
@@ -3204,5 +3213,90 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 74,
+        "respect": 44,
+        "comfort": 84,
+        "trust": 74,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 64,
+        "respect": 34,
+        "comfort": 74,
+        "trust": 64,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 71,
+        "respect": 41,
+        "comfort": 81,
+        "trust": 71,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "69",
+        "cat_to_id": "246",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 62,
+        "respect": 32,
+        "comfort": 72,
+        "trust": 62,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
     }
 ]

@@ -512,16 +512,19 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -10,
+        "respect": 0,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Currentkit heard that Gardeniaglow caught a rabbit from across the border. (negative effect) - Currentkit was 3 moons old",
             "Currenthiss heard Gardeniaglow fell asleep guarding camp. (negative effect) - Currenthiss was 32 moons old",
             "Currenthiss heard Gardeniaglow fell asleep guarding camp. (negative effect) - Currenthiss was 35 moons old",
-            "Currenthiss heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Currenthiss was 37 moons old"
+            "Currenthiss heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Currenthiss was 37 moons old",
+            "Currenthiss heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -668,14 +671,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 17,
+        "respect": 27,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Currenthiss heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 19 moons old",
-            "Currenthiss is sparring with Skulkwillow. (medium positive effect) - Currenthiss was 35 moons old"
+            "Currenthiss is sparring with Skulkwillow. (medium positive effect) - Currenthiss was 35 moons old",
+            "Currenthiss heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -716,11 +722,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Currenthiss heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -742,14 +752,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 7,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Currenthiss heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 19 moons old",
-            "Currenthiss notices one of her friends talking to Brindletooth. (low negative effect) - Currenthiss was 38 moons old"
+            "Currenthiss notices one of her friends talking to Brindletooth. (low negative effect) - Currenthiss was 38 moons old",
+            "Currenthiss heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -888,11 +901,7 @@
         "log": [
             "Currenthiss was horrified to learn that Icyriver murdered Mewhoney, even though Icyriver claims his death was justified. (negative effect) - Currenthiss was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1061,9 +1070,7 @@
         "log": [
             "Hailfreckle tries to convince Currenthiss that an obvious lie is real. (medium negative effect) - Currenthiss was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1100,14 +1107,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 18,
         "trust": 0,
         "log": [
-            "Currenthiss and Dancingfleck took a lovely nap together instead of patrolling. (positive effect) - Currenthiss was 21 moons old"
+            "Currenthiss and Dancingfleck took a lovely nap together instead of patrolling. (positive effect) - Currenthiss was 21 moons old",
+            "Currenthiss wants to be closer to Dancingfleck. (low positive effect) - Currenthiss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1218,11 +1228,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": -8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Currenthiss sees Daisymoor put something back where it belongs. (low positive effect) - Currenthiss was 44 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1449,9 +1461,7 @@
             "Currenthiss was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Currenthiss was 37 moons old",
             "Drizzlepelt does something that makes Currenthiss's day a little happier. (low positive effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1614,12 +1624,17 @@
         "like": 0,
         "respect": 25,
         "comfort": 13,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Currenthiss gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Currenthiss was 16 moons old",
-            "Currenthiss heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 21 moons old"
+            "Currenthiss heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 21 moons old",
+            "Currenthiss heard Whiskerleg fell asleep guarding camp. (negative effect) - Currenthiss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1793,10 +1808,7 @@
             "Currenthiss thinks Creekmoss is a bit of a mouse-brain. (medium negative effect) - Currenthiss was 28 moons old",
             "Currenthiss heard Creekmoss talking badly about her. (high negative effect) - Currenthiss was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -1986,14 +1998,18 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -10,
+        "respect": -20,
         "comfort": 0,
         "trust": 13,
         "log": [
             "Currenthiss heard that Shinebelly caught a rabbit from across the border. (negative effect) - Currenthiss was 22 moons old",
-            "Currenthiss heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Currenthiss was 41 moons old"
+            "Currenthiss heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Currenthiss was 41 moons old",
+            "Currenthiss disapproved of Shinebelly wearing a collar. (negative effect) - Currenthiss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -2055,11 +2071,7 @@
             "Currenthiss gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Currenthiss was 35 moons old",
             "Currenthiss gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -2182,11 +2194,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Currenthiss heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -2211,14 +2227,16 @@
         "family": false,
         "romance": 0,
         "like": 16,
-        "respect": 5,
+        "respect": 15,
         "comfort": 4,
         "trust": 4,
         "log": [
-            "Currenthiss won't stand for slander about Kinkdapple. (high positive effect) - Currenthiss was 42 moons old"
+            "Currenthiss won't stand for slander about Kinkdapple. (high positive effect) - Currenthiss was 42 moons old",
+            "Currenthiss heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect"
         ]
     },
     {
@@ -2303,9 +2321,7 @@
         "log": [
             "Though Currenthiss asks around, she can't find Morelstreak anywhere. (low negative effect) - Currenthiss was 43 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -2433,9 +2449,7 @@
         "log": [
             "Currenthiss heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Currenthiss was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -2490,10 +2504,7 @@
             "Currenthiss made an extremely hurtful remark about one of Electronegativity's friends just to spite Electronegativity. (high negative effect) - Currenthiss was 40 moons old",
             "Currenthiss heard Electronegativity fell asleep guarding camp. (negative effect) - Currenthiss was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "130",
@@ -2747,6 +2758,71 @@
     {
         "cat_from_id": "130",
         "cat_to_id": "240",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "242",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "243",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "244",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "245",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "246",
         "mates": false,
         "family": false,
         "romance": 0,
