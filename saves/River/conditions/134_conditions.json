@@ -2,7 +2,7 @@
     "illnesses": {
         "yellowcough": {
             "severity": "major",
-            "mortality": 25,
+            "mortality": 32,
             "infectiousness": 30,
             "duration": 2,
             "moon_start": 142,
@@ -14,6 +14,28 @@
                 {
                     "name": "sore throat",
                     "chance": 30
+                }
+            ],
+            "event_triggered": false
+        },
+        "grief stricken": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 0,
+            "moon_start": 142,
+            "risks": [
+                {
+                    "name": "lasting grief",
+                    "chance": 100
+                },
+                {
+                    "name": "constant nightmares",
+                    "chance": 15
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 150
                 }
             ],
             "event_triggered": false

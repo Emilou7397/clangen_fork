@@ -38,9 +38,7 @@
         "log": [
             "Whitekit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -207,9 +205,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Auburnsplash got a weird look on her face when Whitekit approached her. (low negative effect) - Whitekit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -354,9 +356,7 @@
         "log": [
             "Whitekit heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -475,9 +475,7 @@
         "log": [
             "Whitekit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -531,9 +529,7 @@
         "log": [
             "Whitekit heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -704,9 +700,7 @@
         "log": [
             "Whitekit swears she sees Flightsplash sneaking around the camp at night. (medium negative effect) - Whitekit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -1347,9 +1341,7 @@
         "log": [
             "Whitekit disapproved of Shinebelly wearing a collar. (negative effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -1470,9 +1462,7 @@
         "log": [
             "Whitekit heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -1500,9 +1490,7 @@
         "log": [
             "Whitekit heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whitekit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -1615,11 +1603,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Whitekit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Whitekit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1952,15 +1945,19 @@
         "mates": false,
         "family": true,
         "romance": 3,
-        "like": 43,
-        "respect": 13,
-        "comfort": 43,
-        "trust": 36,
+        "like": 45,
+        "respect": 16,
+        "comfort": 47,
+        "trust": 47,
         "log": [
-            "Branchkit sends a Clanmate to help Whitekit with something she's struggling with. (low positive effect) - Whitekit was 1 moon old"
+            "Branchkit sends a Clanmate to help Whitekit with something she's struggling with. (low positive effect) - Whitekit was 1 moon old",
+            "Whitekit feels safe with Branchkit around. (high positive effect) - Whitekit was 2 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -1970,11 +1967,13 @@
         "family": true,
         "romance": 9,
         "like": 49,
-        "respect": 19,
+        "respect": 6,
         "comfort": 49,
         "trust": 39,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "237",

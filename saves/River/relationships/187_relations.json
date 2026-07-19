@@ -93,15 +93,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": -17,
         "comfort": 0,
         "trust": -17,
         "log": [
             "Ochretail keeps calling Moonchaser by the wrong name. (medium negative effect) - Moonchaser was 150 moons old",
-            "Moonchaser scolds Ochretail for something trivial. (medium negative effect) - Moonchaser was 158 moons old"
+            "Moonchaser scolds Ochretail for something trivial. (medium negative effect) - Moonchaser was 158 moons old",
+            "Moonchaser confesses something to Ochretail, but realizes he can't relate at all. (low negative effect) - Moonchaser was 168 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -116,9 +119,7 @@
         "log": [
             "Spittle and flecks of bone fly while Bitterleaf gobbles down prey, reminding Moonchaser, Caterpillarfoot, and Braveheart to seek out better mealtime companionship next time. (negative effect) - Moonchaser was 161 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -134,11 +135,7 @@
             "Primfreckle snaps at a Clanmate for disagreeing with Moonchaser. (medium positive effect) - Moonchaser was 155 moons old",
             "Moonchaser enjoys the time with Primfreckle and feels secure. (high positive effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -154,9 +151,7 @@
             "Paellapad's eagerness to do early morning stretches rubs off on Hushshimmer, Dancingfleck, Moonchaser, and Harefeather. (positive effect) - Moonchaser was 159 moons old",
             "Moonchaser doesn't understand why no one visits Harefeather to listen to his great stories. (high positive effect) - Moonchaser was 162 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -389,11 +384,7 @@
             "Moonchaser heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Moonchaser was 159 moons old",
             "Moonchaser heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -515,9 +506,7 @@
         "log": [
             "Moonchaser heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -560,9 +549,7 @@
         "log": [
             "Moonchaser heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -591,9 +578,7 @@
             "Brindletooth motivated Moonchaser to get out of his nest this morning. (low positive effect) - Moonchaser was 166 moons old",
             "Moonchaser heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -747,11 +732,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Moonchaser disapproved of Mallowpelt wearing a collar. (negative effect) - Moonchaser was 153 moons old"
+            "Moonchaser disapproved of Mallowpelt wearing a collar. (negative effect) - Moonchaser was 153 moons old",
+            "Moonchaser heard about how Mallowpelt's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -775,13 +761,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": -12,
         "log": [
-            "Moonchaser learns that Voletuft has been misleading him about something trivial. (medium negative effect) - Moonchaser was 159 moons old"
+            "Moonchaser learns that Voletuft has been misleading him about something trivial. (medium negative effect) - Moonchaser was 159 moons old",
+            "Moonchaser heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -888,13 +877,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Snakedrop's bravery in a fight against a vixen greatly impressed Moonchaser. (positive effect) - Moonchaser was 160 moons old"
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Moonchaser. (positive effect) - Moonchaser was 160 moons old",
+            "Moonchaser heard about how Snakedrop's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -1551,9 +1543,7 @@
             "Moonchaser and Nymphshine make each other laugh. (low positive effect) - Moonchaser was 161 moons old",
             "Moonchaser sees Nymphshine help a Clanmate get unstuck from some brambles. (low positive effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1597,9 +1587,7 @@
             "Moonchaser heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Moonchaser was 163 moons old",
             "Moonchaser disapproved of Shinebelly wearing a collar. (negative effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1736,10 +1724,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moonchaser heard about how Garlicberry's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1768,9 +1758,7 @@
         "log": [
             "Moonchaser heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1785,9 +1773,7 @@
         "log": [
             "Moonchaser heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moonchaser was 166 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1854,13 +1840,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -17,
+        "trust": -27,
         "log": [
-            "Morelstreak does something that badly affects Moonchaser. (medium negative effect) - Moonchaser was 155 moons old"
+            "Morelstreak does something that badly affects Moonchaser. (medium negative effect) - Moonchaser was 155 moons old",
+            "Moonchaser was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -1938,10 +1928,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moonchaser heard about how Lionheart's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2169,10 +2161,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moonchaser heard about how Endothermic's patrol drove off a scavenging fox. (positive effect) - Moonchaser was 167 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2299,11 +2293,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Moonchaser and Bigkit come up with a catchy song together. (low positive effect) - Moonchaser was 168 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "187",

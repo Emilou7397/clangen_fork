@@ -218,11 +218,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -487,15 +489,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 20,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 20,
         "trust": 0,
         "log": [
-            "Meadowspots heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
+            "Meadowspots heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old",
+            "Gardeniaglow, Meadowspots, and Mallowpelt took a sunbath and had a little small talk. (positive effect) - Meadowspots was 39 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Meadowspots was 40 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "comfort"
         ]
     },
     {
@@ -652,9 +658,7 @@
             "Meadowspots heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 14 moons old",
             "Meadowspots heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -702,9 +706,7 @@
         "log": [
             "Meadowspots heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -735,9 +737,7 @@
             "Meadowspots heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 14 moons old",
             "Meadowspots heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -926,15 +926,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 17,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -5,
         "log": [
             "Meadowspots has a mock battle with Mallowpelt. (medium positive effect) - Meadowspots was 20 moons old",
-            "Mallowpelt failed to drive away rogues while on patrol with Meadowspots. (negative effect) - Meadowspots was 29 moons old"
+            "Mallowpelt failed to drive away rogues while on patrol with Meadowspots. (negative effect) - Meadowspots was 29 moons old",
+            "Gardeniaglow, Meadowspots, and Mallowpelt took a sunbath and had a little small talk. (positive effect) - Meadowspots was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -1090,15 +1095,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": 19,
         "respect": 31,
-        "comfort": 7,
+        "comfort": 19,
         "trust": 7,
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Meadowspots. (positive effect) - Meadowspots was 32 moons old",
-            "Meadowspots is wowed by how bravely Snakedrop fought the other day. (high positive effect) - Meadowspots was 37 moons old"
+            "Meadowspots is wowed by how bravely Snakedrop fought the other day. (high positive effect) - Meadowspots was 37 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Meadowspots was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -1114,10 +1125,7 @@
             "Hollyheart, Shinepaw, Meadowpaw, Heathpaw, and Shiveringpaw blow off steam by stretching with and venting to each other. (positive effect) - Meadowpaw was 10 moons old",
             "Meadowspots appreciated Hollyheart's joke about how appropriately-named elder leaves are. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -1171,9 +1179,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -1289,9 +1295,7 @@
         "log": [
             "Meadowkit is talking with Shadowpaw. (low positive effect) - Meadowkit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -1299,18 +1303,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 4,
         "respect": -8,
-        "comfort": -8,
+        "comfort": 4,
         "trust": -8,
         "log": [
             "Meadowspots is taken aback by one of Blotchstripe's comments. (low negative effect) - Meadowspots was 37 moons old",
-            "Blotchstripe complained so relentlessly about her patrol assignment that Meadowspots, Howlsky, and Dustnose could only sigh and bear it. (negative effect) - Meadowspots was 38 moons old"
+            "Blotchstripe complained so relentlessly about her patrol assignment that Meadowspots, Howlsky, and Dustnose could only sigh and bear it. (negative effect) - Meadowspots was 38 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Meadowspots was 40 moons old"
         ],
         "no_longer_neutral": [
-            "like",
             "respect",
-            "comfort",
             "trust"
         ]
     },
@@ -1320,7 +1323,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1415,14 +1418,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
+        "like": 10,
         "respect": 0,
         "comfort": -3,
         "trust": 0,
         "log": [
-            "Meadowspots talks about what to do tomorrow with Gorgehunt. (medium positive effect) - Meadowspots was 18 moons old"
+            "Meadowspots talks about what to do tomorrow with Gorgehunt. (medium positive effect) - Meadowspots was 18 moons old",
+            "Gorgehunt pulled a prank on Meadowspots. (medium negative effect) - Meadowspots was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -1909,13 +1915,15 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
             "Meadowpaw heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Meadowpaw was 9 moons old",
             "Meadowspots approved of Pigmentpelt's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Meadowspots was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -1962,9 +1970,7 @@
             "Meadowspots won't take Howlshine seriously. (medium negative effect) - Meadowspots was 33 moons old",
             "Meadowspots can't help but feel uneased at Howlshine's words lately. (low negative effect) - Meadowspots was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -2098,12 +2104,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Meadowspots was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "153",
@@ -2118,9 +2129,7 @@
         "log": [
             "Meadowspots heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -2148,9 +2157,7 @@
         "log": [
             "Meadowspots heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Meadowspots was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -2220,9 +2227,7 @@
         "log": [
             "Meadowspots includes Driftstripe in a conversation that Driftstripe struggled to join. (low positive effect) - Meadowspots was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "153",
@@ -2597,11 +2602,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 12,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Meadowspots helps Wheatkit figure out how to word something. (medium positive effect) - Meadowspots was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "153",

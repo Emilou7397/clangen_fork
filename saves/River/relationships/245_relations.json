@@ -504,12 +504,7 @@
         "comfort": 84,
         "trust": 74,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -561,12 +556,7 @@
         "comfort": 74,
         "trust": 64,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -1211,12 +1201,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -6,
+        "comfort": -4,
+        "trust": -16,
+        "log": [
+            "Creekmoss uses one of Lavenderkit's fears against her. (high negative effect) - Lavenderkit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2022,12 +2017,7 @@
         "comfort": 49,
         "trust": 39,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -2036,15 +2026,14 @@
         "family": true,
         "romance": 2,
         "like": 42,
-        "respect": 12,
+        "respect": 25,
         "comfort": 42,
         "trust": 32,
-        "log": [],
+        "log": [
+            "Lavenderkit sees that Avocetkit's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Lavenderkit was 1 moon old"
+        ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "respect"
         ]
     },
     {
@@ -2053,16 +2042,13 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 45,
+        "like": 48,
         "respect": 15,
         "comfort": 45,
         "trust": 35,
         "log": [],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "like"
         ]
     }
 ]

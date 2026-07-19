@@ -5,16 +5,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 13,
+        "like": 6,
+        "respect": 26,
+        "comfort": 6,
+        "trust": 20,
         "log": [
             "Kinkkit heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Kinkkit was 5 moons old",
-            "Prancelaurel lets Kinkdapple know that a Clanmate was talking badly about her. (low positive effect) - Kinkdapple was 20 moons old"
+            "Prancelaurel lets Kinkdapple know that a Clanmate was talking badly about her. (low positive effect) - Kinkdapple was 20 moons old",
+            "Kinkdapple is deeply touched hearing just how much Prancelaurel remembers about her. (high positive effect) - Kinkdapple was 21 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -45,9 +49,7 @@
         "log": [
             "Kinkdapple and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -418,9 +420,7 @@
             "Kinkdapple heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Kinkdapple was 12 moons old",
             "Kinkdapple and Gardeniaglow successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -577,9 +577,7 @@
         "log": [
             "Kinkdapple and Skulkwillow successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -602,14 +600,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Kinkpaw heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Kinkpaw was 10 moons old"
+            "Kinkpaw heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Kinkpaw was 10 moons old",
+            "Kinkdapple and Diablofoot successfully gathered berries together. (positive effect) - Kinkdapple was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -637,9 +638,7 @@
         "log": [
             "Kinkdapple and Brindletooth successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -837,12 +836,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Kinkdapple saw how Saltknoll persevered in order to gather berries for RiverClan. (positive effect) - Kinkdapple was 20 moons old",
+            "Kinkdapple and Saltknoll successfully gathered berries together. (positive effect) - Kinkdapple was 20 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1445,14 +1451,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": -15,
         "log": [
-            "Kinkkit was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Kinkkit was 3 moons old"
+            "Kinkkit was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Kinkkit was 3 moons old",
+            "Kinkdapple and Pigmentpelt successfully gathered berries together. (positive effect) - Kinkdapple was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1680,9 +1690,7 @@
             "Kinkdapple heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Kinkdapple was 16 moons old",
             "Kinkdapple disapproved of Shinebelly wearing a collar. (negative effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -1747,16 +1755,20 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 30,
-        "comfort": -5,
+        "respect": 47,
+        "comfort": 8,
         "trust": 25,
         "log": [
             "Kinkkit heard about how Sandthrush's patrol killed a scavenging fox. (positive effect) - Kinkkit was 5 moons old",
             "Kinkpaw gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Kinkpaw was 10 moons old",
             "Kinkdapple and Sandthrush avoided each other after an unpleasant training patrol. (negative effect) - Kinkdapple was 14 moons old",
-            "Kinkdapple gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Kinkdapple was 18 moons old"
+            "Kinkdapple gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Kinkdapple was 18 moons old",
+            "Kinkdapple and Sandthrush bring each other prey. (medium positive effect) - Kinkdapple was 21 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1911,12 +1923,7 @@
             "Kinkdapple feels safe with Howlsky around. (high positive effect) - Kinkdapple was 17 moons old",
             "Kinkdapple and Howlsky successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -1970,9 +1977,7 @@
             "Kinkdapple and Ashenpelt avoided each other after an unpleasant training patrol. (negative effect) - Kinkdapple was 14 moons old",
             "Kinkdapple and Ashenpelt couldn't agree which way to go on a patrol and got home late. (medium negative effect) - Kinkdapple was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -2025,13 +2030,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -13,
+        "respect": -23,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Morelstreak acts childishly in front of Kinkpaw. (low negative effect) - Kinkpaw was 7 moons old"
+            "Morelstreak acts childishly in front of Kinkpaw. (low negative effect) - Kinkpaw was 7 moons old",
+            "Kinkdapple was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Kinkdapple was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2106,7 +2115,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -11,
+        "like": 2,
         "respect": -3,
         "comfort": -4,
         "trust": -3,
@@ -2363,12 +2372,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Kinkdapple and Tallneedle successfully gathered berries together. (positive effect) - Kinkdapple was 20 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "182",

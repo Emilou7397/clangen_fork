@@ -103,9 +103,7 @@
         "log": [
             "Primfreckle warns Sagopaw, Bushpaw, Scalepaw, and Flightpaw about a plant they were discussing and teaches them about its dangers. (positive effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -230,10 +228,7 @@
         "log": [
             "Sagopaw turned to Archbellow in a time of need, only for Archbellow to abandon him. (high negative effect) - Sagopaw was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -479,9 +474,7 @@
         "log": [
             "Sagopaw heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -524,9 +517,7 @@
         "log": [
             "Sagopaw heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -554,9 +545,7 @@
         "log": [
             "Sagopaw heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1092,12 +1081,15 @@
         "romance": 0,
         "like": 0,
         "respect": -10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -10,
         "log": [
-            "Sagokit was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Sagokit was 5 moons old"
+            "Sagokit was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Sagokit was 5 moons old",
+            "Sagopaw and Drizzlepelt often look at each other and smile knowingly about something. (low positive effect) - Sagopaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1188,12 +1180,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Sagopaw and Glowfur enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1486,9 +1483,7 @@
             "Sagopaw heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Sagopaw was 8 moons old",
             "Sagopaw disapproved of Shinebelly wearing a collar. (negative effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1590,12 +1585,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Sagopaw and Dustnose enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1611,10 +1611,7 @@
             "Sagopaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old",
             "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1629,9 +1626,7 @@
         "log": [
             "Sagopaw heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1710,11 +1705,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Sagopaw was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Sagopaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1739,16 +1739,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
-        "comfort": 24,
-        "trust": 2,
+        "like": -9,
+        "respect": -7,
+        "comfort": 16,
+        "trust": -4,
         "log": [
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Sagokit was 1 moon old",
             "Sagokit wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Sagokit was 1 moon old",
-            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Sagokit was 2 moons old"
+            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Sagokit was 2 moons old",
+            "Sagopaw doesn't like it when Velvettooth is all talk and no action. (high negative effect) - Sagopaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1829,19 +1834,23 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 79,
+        "like": 89,
         "respect": 48,
         "comfort": 100,
-        "trust": 71,
+        "trust": 81,
         "log": [
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Sagokit was 1 moon old",
             "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Sagokit was 2 moons old",
             "Sagokit and Stagkit work together to lead a scary bug out of the camp. (low positive effect) - Sagokit was 3 moons old",
             "Stagkit doesn't seem very concerned when Sagokit complains about something aching. (low negative effect) - Sagokit was 4 moons old",
-            "Stagpaw returned to the apprentice's den dripping mud everywhere and managed to ruin Sagopaw and Softpaw's nests. (negative effect) - Sagopaw was 8 moons old"
+            "Stagpaw returned to the apprentice's den dripping mud everywhere and managed to ruin Sagopaw and Softpaw's nests. (negative effect) - Sagopaw was 8 moons old",
+            "Sagopaw and Stagpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1850,16 +1859,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 62,
+        "like": 72,
         "respect": 11,
         "comfort": 31,
-        "trust": 32,
+        "trust": 42,
         "log": [
             "Softkit keeps pacing around the clearing late at night and Sagokit is the only one who notices. (high negative effect) - Sagokit was 4 moons old",
             "Sagokit is impressed by some of Softkit's advice. (medium positive effect) - Sagokit was 5 moons old",
-            "Softpaw does something that makes Sagopaw's day a little happier. (low positive effect) - Sagopaw was 8 moons old"
+            "Softpaw does something that makes Sagopaw's day a little happier. (low positive effect) - Sagopaw was 8 moons old",
+            "Sagopaw and Softpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1980,16 +1995,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 7,
         "comfort": 0,
-        "trust": 0,
+        "trust": 10,
         "log": [
             "When an argument started on patrol, Redswirl was unable to settle it. (negative effect) - Sagopaw was 10 moons old",
-            "Sagopaw gained a greater appreciation for Redswirl's knowledge of nesting materials and camp-guarding technique. (positive effect) - Sagopaw was 11 moons old"
+            "Sagopaw gained a greater appreciation for Redswirl's knowledge of nesting materials and camp-guarding technique. (positive effect) - Sagopaw was 11 moons old",
+            "Sagopaw and Redswirl enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "trust"
         ]
     },
     {

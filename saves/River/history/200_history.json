@@ -10,18 +10,32 @@
             "37": {
                 "lawfulness": 2,
                 "sociability": 2,
-                "aggression": 3,
-                "stability": 1
+                "aggression": 7,
+                "stability": 1,
+                "strings": [
+                    "follow rules",
+                    "interact with others",
+                    "start a fight",
+                    "have a positive outlook"
+                ]
             }
         },
         "skill": {
             "37": {
-                "CLEVER": 11,
-                "SENSE": 3
+                "CLEVER": 15,
+                "SENSE": 6,
+                "strings": [
+                    "solving problems",
+                    "noticing small details"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "charisma",
+        "graduation_age": 15,
+        "moon": 143
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

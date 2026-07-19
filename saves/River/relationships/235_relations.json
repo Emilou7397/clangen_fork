@@ -38,9 +38,7 @@
         "log": [
             "Wheatkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -356,9 +354,7 @@
         "log": [
             "Wheatkit heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -477,9 +473,7 @@
         "log": [
             "Wheatkit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -533,9 +527,7 @@
         "log": [
             "Wheatkit heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -556,12 +548,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1235,11 +1229,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1345,9 +1342,7 @@
         "log": [
             "Wheatkit disapproved of Shinebelly wearing a collar. (negative effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -1384,11 +1379,14 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 10,
+        "trust": 18,
         "log": [
-            "Wheatkit gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Wheatkit was 0 moons old"
+            "Wheatkit gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Wheatkit was 0 moons old",
+            "Sandthrush says something vulnerable to Wheatkit. (low positive effect) - Wheatkit was 2 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1468,9 +1466,7 @@
         "log": [
             "Wheatkit heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -1498,9 +1494,7 @@
         "log": [
             "Wheatkit heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -1613,11 +1607,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Wheatkit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Wheatkit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1926,12 +1925,13 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 43,
-        "respect": 12,
-        "comfort": 51,
-        "trust": 34,
+        "like": 45,
+        "respect": 14,
+        "comfort": 62,
+        "trust": 38,
         "log": [
-            "Wheatkit comforts Nutkit after a terrible nightmare. (high positive effect) - Wheatkit was 1 moon old"
+            "Wheatkit comforts Nutkit after a terrible nightmare. (high positive effect) - Wheatkit was 1 moon old",
+            "Wheatkit associates her favorite smell with Nutkit. (high positive effect) - Wheatkit was 2 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2007,13 +2007,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Wheatkit is excited for her family to grow further. (positive effect) - Wheatkit was 0 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "235",

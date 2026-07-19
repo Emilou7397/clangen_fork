@@ -1,27 +1,27 @@
 {
     "injuries": {
-        "mangled tail": {
-            "severity": "severe",
-            "mortality": 60,
+        "claw-wound": {
+            "severity": "major",
+            "mortality": 50,
             "duration": 2,
-            "moon_start": 141,
+            "moon_start": 143,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 9
+                    "chance": 5
                 }
             ],
             "complication": null,
-            "cause_permanent": [
-                "lost their tail"
-            ],
+            "cause_permanent": [],
             "event_triggered": false,
             "potential_scars": [
-                "HALFTAIL",
-                "MANTAIL",
-                "NOTAIL",
-                "TAILSCAR"
+                "FACE",
+                "LEFTBLIND",
+                "RIGHTBLIND",
+                "SIDE",
+                "THREE",
+                "THROAT"
             ]
         }
     }

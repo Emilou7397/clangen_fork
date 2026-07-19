@@ -85,10 +85,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Scalebloom does something brave with Bitterleaf's support. (medium positive effect) - Scalebloom was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -103,9 +107,7 @@
         "log": [
             "Primfreckle warns Sagopaw, Bushpaw, Scalepaw, and Flightpaw about a plant they were discussing and teaches them about its dangers. (positive effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -265,9 +267,7 @@
         "log": [
             "Scalebloom sees Prancelaurel put something back where it belongs. (low positive effect) - Scalebloom was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -472,9 +472,7 @@
         "log": [
             "Scalepaw heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -517,9 +515,7 @@
         "log": [
             "Scalepaw heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -547,9 +543,7 @@
         "log": [
             "Scalepaw heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1051,10 +1045,7 @@
             "Scalepaw heard that Piperthrift touched noses with a kittypet. (negative effect) - Scalepaw was 6 moons old",
             "Piperthrift complained about his patrol assignment all day, much to the annoyance of Skypaw, Bushpaw, Avocetpaw, and Scalepaw. (negative effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1483,9 +1474,7 @@
             "Scalepaw heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Scalepaw was 8 moons old",
             "Scalepaw disapproved of Shinebelly wearing a collar. (negative effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1612,10 +1601,7 @@
             "Scalepaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old",
             "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1630,9 +1616,7 @@
         "log": [
             "Scalepaw heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1674,7 +1658,8 @@
         "trust": 0,
         "log": [
             "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Scalepaw was 6 moons old",
-            "Brindlepaw acts childishly in front of Scalepaw. (low negative effect) - Scalepaw was 7 moons old"
+            "Brindlepaw acts childishly in front of Scalepaw. (low negative effect) - Scalepaw was 7 moons old",
+            "Scalebloom didn't get the joke Brindlesplash was telling. (low negative effect) - Scalebloom was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1711,11 +1696,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Scalebloom was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Scalebloom was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -1730,9 +1720,7 @@
         "log": [
             "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Scalepaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1839,14 +1827,20 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 73,
-        "respect": 17,
-        "comfort": 59,
-        "trust": 62,
+        "like": 80,
+        "respect": 23,
+        "comfort": 80,
+        "trust": 70,
         "log": [
-            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Scalekit was 2 moons old"
+            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Scalekit was 2 moons old",
+            "Scalebloom and Stagpaw spend a few minutes complimenting one another. (high positive effect) - Scalebloom was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",

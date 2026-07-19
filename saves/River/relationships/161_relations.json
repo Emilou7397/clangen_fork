@@ -62,9 +62,7 @@
         "log": [
             "Stoatshade respects Terabyte's opinion despite disagreeing with it. (low positive effect) - Terabyte was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -175,15 +173,19 @@
         "cat_to_id": "13",
         "mates": false,
         "family": false,
-        "romance": 12,
-        "like": 0,
-        "respect": 13,
-        "comfort": -9,
-        "trust": 15,
+        "romance": 19,
+        "like": 20,
+        "respect": 20,
+        "comfort": -1,
+        "trust": 24,
         "log": [
             "Terabyte includes Fidgetmouse in a conversation that Fidgetmouse struggled to join. (low positive effect) - Terabyte was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -299,12 +301,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -3,
+        "respect": -2,
+        "comfort": -3,
+        "trust": -11,
+        "log": [
+            "Terabyte turned to Peakspore in a time of need, only for Peakspore to abandon him. (high negative effect) - Terabyte was 127 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -328,12 +334,13 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -8,
+        "respect": 4,
         "comfort": -8,
         "trust": 0,
         "log": [
             "Terabyte tried to explain something to Prancelaurel, but she just didn't understand. (low negative effect) - Terabyte was 98 moons old",
-            "Terabyte notices one of his friends talking to Prancelaurel. (low negative effect) - Terabyte was 106 moons old"
+            "Terabyte notices one of his friends talking to Prancelaurel. (low negative effect) - Terabyte was 106 moons old",
+            "Terabyte didn't know that Prancelaurel was so talented. (medium positive effect) - Terabyte was 127 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -353,11 +360,7 @@
             "Terabyte and Bouncepelt successfully gathered herbs together despite the rainy weather. (positive effect) - Terabyte was 124 moons old",
             "Terabyte and Bouncepelt successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -479,11 +482,7 @@
             "Terabyte heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Terabyte was 119 moons old",
             "Terabyte heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -639,11 +638,7 @@
             "Terabyte heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 101 moons old",
             "Terabyte heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -690,9 +685,7 @@
         "log": [
             "Terabyte heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -724,9 +717,7 @@
             "Terabyte heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 101 moons old",
             "Terabyte heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -898,14 +889,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Terabyte heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 102 moons old"
+            "Terabyte heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 102 moons old",
+            "Gracklefur and Terabyte brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Terabyte was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1065,10 +1060,7 @@
         "log": [
             "Terabyte and Dancingfleck reach for the same piece of prey and bicker over it. Terabyte gets it. (low negative effect) - Terabyte was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1520,10 +1512,7 @@
             "Terabyte heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 103 moons old",
             "Terabyte heard Whiskerleg fell asleep guarding camp. (negative effect) - Terabyte was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1760,14 +1749,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": -22,
+        "like": 20,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Lilypaw ignored Terabyte's question. (medium negative effect) - Terabyte was 98 moons old",
             "Terabyte disapproved of Lilynoise wearing a collar. (negative effect) - Terabyte was 107 moons old",
-            "Terabyte and Lilynoise successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old"
+            "Terabyte and Lilynoise successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old",
+            "Lilynoise and Terabyte brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Terabyte was 126 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1871,9 +1861,7 @@
             "Terabyte heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Terabyte was 123 moons old",
             "Terabyte disapproved of Shinebelly wearing a collar. (negative effect) - Terabyte was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1894,16 +1882,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 0,
+        "like": 25,
+        "respect": 10,
         "comfort": 5,
         "trust": 5,
         "log": [
             "Terabyte was impressed by Howlshine's confidence in fighting rogues. (positive effect) - Terabyte was 108 moons old",
-            "Terabyte and Howlshine successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old"
+            "Terabyte and Howlshine successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old",
+            "Howlshine and Terabyte brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Terabyte was 126 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect"
         ]
     },
     {
@@ -2066,12 +2056,7 @@
             "Terabyte spends the day helping around the camp with Howlsky. (high positive effect) - Terabyte was 119 moons old",
             "Terabyte heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2101,10 +2086,7 @@
         "log": [
             "Terabyte heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2149,9 +2131,7 @@
         "log": [
             "Terabyte and Brindlesplash successfully gathered juniper together. (positive effect) - Terabyte was 125 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2188,11 +2168,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Terabyte was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Terabyte was 127 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -2213,12 +2198,20 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 70,
-        "respect": 40,
+        "like": 68,
+        "respect": 38,
         "comfort": 80,
         "trust": 70,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flightspot and Terabyte brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Terabyte was 126 moons old",
+            "Flightspot returned to the warrior's den dripping mud everywhere and managed to ruin Terabyte and Talonlake's nests. (negative effect) - Terabyte was 127 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "161",

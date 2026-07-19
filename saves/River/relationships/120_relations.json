@@ -494,15 +494,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Blotchstripe heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
+            "Blotchstripe heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "comfort"
         ]
     },
     {
@@ -658,9 +661,7 @@
             "Blotchstripe heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 21 moons old",
             "Blotchstripe heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -704,9 +705,7 @@
             "Blotchkit sees Heavythud ignore someone. (medium negative effect) - Blotchkit was 5 moons old",
             "Blotchstripe heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -738,11 +737,7 @@
             "Blotchstripe heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 21 moons old",
             "Blotchstripe heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1081,9 +1076,7 @@
             "Blotchstripe feels like Dancingfleck isn't taking his own personal health seriously. (medium negative effect) - Blotchstripe was 34 moons old",
             "Blotchstripe suspects Dancingfleck lied about something trivial. (low negative effect) - Blotchstripe was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1091,15 +1084,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
+        "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
             "After sharing tongues, Blotchstripe washed off Snakedrop's scent from her pelt. (medium negative effect) - Blotchstripe was 37 moons old",
-            "Snakedrop's bravery in a fight against a vixen greatly impressed Blotchstripe. (positive effect) - Blotchstripe was 39 moons old"
+            "Snakedrop's bravery in a fight against a vixen greatly impressed Blotchstripe. (positive effect) - Blotchstripe was 39 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1135,14 +1132,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 13,
-        "comfort": 21,
-        "trust": 0,
+        "like": 29,
+        "respect": 20,
+        "comfort": 29,
+        "trust": 7,
         "log": [
-            "Kiwifoot, Moorghost, and Blotchstripe took a sunbath and had a little small talk. (positive effect) - Blotchstripe was 42 moons old"
+            "Kiwifoot, Moorghost, and Blotchstripe took a sunbath and had a little small talk. (positive effect) - Blotchstripe was 42 moons old",
+            "Blotchstripe is having a wonderful time discussing recent Clan news with Kiwifoot. (high positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1248,8 +1251,8 @@
         "mates": true,
         "family": false,
         "romance": 83,
-        "like": 18,
-        "respect": 26,
+        "like": 10,
+        "respect": 18,
         "comfort": 52,
         "trust": 23,
         "log": [
@@ -1260,9 +1263,15 @@
             "Blotchstripe and Wasppelt snuck out of camp together. (high positive effect) - Blotchstripe was 33 moons old",
             "Blotchstripe tried to explain something to Wasppelt, but they just didn't understand. (low negative effect) - Blotchstripe was 38 moons old",
             "Wasppelt and Blotchstripe have been sickeningly lovey-dovey all day. (high positive effect) - Blotchstripe was 42 moons old",
-            "Wasppelt purrs for a long time at one of Blotchstripe's lame jokes. (high positive effect) - Blotchstripe was 43 moons old"
+            "Wasppelt purrs for a long time at one of Blotchstripe's lame jokes. (high positive effect) - Blotchstripe was 43 moons old",
+            "Wasppelt complained so relentlessly about their patrol assignment that Glowfur, Blotchstripe, and Swallowstripe could only sigh and bear it. (negative effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1288,14 +1297,18 @@
         "romance": 30,
         "like": 13,
         "respect": -3,
-        "comfort": 14,
+        "comfort": 30,
         "trust": 0,
         "log": [
             "The Clan hears Blotchpaw and Shadowpaw laughing together across the camp. (medium positive effect) - Blotchpaw was 7 moons old",
             "Shadowpaw offered to groom Blotchpaw and, despite her grumbling, she awkwardly accepted. (medium positive effect) - Blotchpaw was 12 moons old",
-            "Shadowfreckle can't help but admire Blotchstripe's pelt. (low positive effect) - Blotchstripe was 21 moons old"
+            "Shadowfreckle can't help but admire Blotchstripe's pelt. (low positive effect) - Blotchstripe was 21 moons old",
+            "Wavelight, Shadowfreckle, and Blotchstripe decide they're going to get Wasppelt and Cherrytail together. They talk about how much Wasppelt loves Cherrytail in front of Cherrytail, and, to their pleasure, find the two talking later. (positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1305,14 +1318,20 @@
         "romance": 0,
         "like": 35,
         "respect": 13,
-        "comfort": 71,
+        "comfort": 87,
         "trust": 41,
         "log": [
             "Blotchpaw just told Wavepaw a hilarious joke. (medium positive effect) - Blotchpaw was 8 moons old",
             "Wavelight lets Blotchstripe know that a Clanmate was talking badly about her. (low positive effect) - Blotchstripe was 17 moons old",
-            "Blotchstripe and Wavelight often look at each other and smile knowingly about something. (low positive effect) - Blotchstripe was 21 moons old"
+            "Blotchstripe and Wavelight often look at each other and smile knowingly about something. (low positive effect) - Blotchstripe was 21 moons old",
+            "Wavelight, Shadowfreckle, and Blotchstripe decide they're going to get Wasppelt and Cherrytail together. They talk about how much Wasppelt loves Cherrytail in front of Cherrytail, and, to their pleasure, find the two talking later. (positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1322,13 +1341,16 @@
         "romance": 0,
         "like": 47,
         "respect": 11,
-        "comfort": 41,
+        "comfort": 44,
         "trust": 37,
         "log": [
             "Blotchpaw feels a little safer when Cherrykit joins her in the clearing. (low positive effect) - Blotchpaw was 6 moons old",
-            "Blotchstripe is talking with Cherrytail. (low positive effect) - Blotchstripe was 16 moons old"
+            "Blotchstripe is talking with Cherrytail. (low positive effect) - Blotchstripe was 16 moons old",
+            "Cherrytail gives Blotchstripe something that she dropped. (low positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1731,16 +1753,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 20,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": -16,
         "log": [
             "Blotchstripe suspects Meadowspots lied about something trivial. (low negative effect) - Blotchstripe was 29 moons old",
             "Meadowspots keeps asking Blotchstripe if she trusts her. (low negative effect) - Blotchstripe was 31 moons old",
-            "Blotchstripe sees Meadowspots put something back where it belongs. (low positive effect) - Blotchstripe was 40 moons old"
+            "Blotchstripe sees Meadowspots put something back where it belongs. (low positive effect) - Blotchstripe was 40 moons old",
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1792,9 +1819,9 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": -13,
+        "trust": -8,
         "log": [],
         "no_longer_neutral": [
             "trust"
@@ -2096,12 +2123,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -2116,9 +2148,7 @@
         "log": [
             "Blotchstripe heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -2147,9 +2177,7 @@
             "Blotchstripe sees a glimmer of determination in Kinkpaw's eyes. (low positive effect) - Blotchstripe was 33 moons old",
             "Blotchstripe heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Blotchstripe was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -2290,9 +2318,7 @@
             "Blotchstripe learns something new about a Clanmate from Jademuzzle. (low positive effect) - Blotchstripe was 38 moons old",
             "Blotchstripe shared a embarrassing story about Jademuzzle she was asked not to share... (low negative effect) - Blotchstripe was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",

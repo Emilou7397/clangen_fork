@@ -155,9 +155,7 @@
         "log": [
             "Caterpillarkit overhears a Clanmate praise Algaepool for something Caterpillarkit actually did. (low negative effect) - Caterpillarkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -316,11 +314,7 @@
             "Caterpillarkit, Gardeniaglow, and Saltknoll had a nice talk while eating. (positive effect) - Caterpillarkit was 4 moons old",
             "Caterpillarkit heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -429,11 +423,7 @@
             "Skulkwillow rolled his eyes after Caterpillarkit asked for help. (low negative effect) - Caterpillarkit was 3 moons old",
             "Caterpillarkit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -474,9 +464,7 @@
         "log": [
             "Caterpillarkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -504,9 +492,7 @@
         "log": [
             "Caterpillarkit heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1256,12 +1242,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -1355,9 +1343,7 @@
             "Caterpillarkit heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Caterpillarkit was 2 moons old",
             "Caterpillarkit disapproved of Shinebelly wearing a collar. (negative effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1381,9 +1367,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 10,
+        "trust": -3,
         "log": [
-            "Caterpillarkit gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Caterpillarkit was 3 moons old"
+            "Caterpillarkit gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Caterpillarkit was 3 moons old",
+            "Though Caterpillarpaw asks around, he can't find Sandthrush anywhere. (low negative effect) - Caterpillarpaw was 6 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1452,9 +1439,7 @@
         "log": [
             "Caterpillarkit heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1469,9 +1454,7 @@
         "log": [
             "Caterpillarkit heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1547,11 +1530,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Caterpillarkit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Caterpillarkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -1798,12 +1786,13 @@
         "family": false,
         "romance": 0,
         "like": -3,
-        "respect": 6,
+        "respect": 18,
         "comfort": -3,
         "trust": 0,
         "log": [
             "Caterpillarkit noticed Shorekit is doing his best today. (low positive effect) - Caterpillarkit was 4 moons old",
-            "Caterpillarkit says Shorekit's name is stupid, but Caterpillarkit is just jealous. (medium negative effect) - Caterpillarkit was 5 moons old"
+            "Caterpillarkit says Shorekit's name is stupid, but Caterpillarkit is just jealous. (medium negative effect) - Caterpillarkit was 5 moons old",
+            "Caterpillarpaw appreciates Shorekit for who he is. (medium positive effect) - Caterpillarpaw was 6 moons old"
         ],
         "no_longer_neutral": [
             "respect"

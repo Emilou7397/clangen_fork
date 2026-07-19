@@ -89,22 +89,6 @@
     },
     {
         "cat_from_id": "198",
-        "cat_to_id": "196",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 27,
-        "respect": -13,
-        "comfort": 6,
-        "trust": 7,
-        "log": [
-            "Heatherfern heard about how Dapplefur shared prey with a kittypet. (negative effect)- Heatherfern was 14 moons old",
-            "Heatherfern's eagerness to do early morning stretches rubs off on Pebblechase, Dapplefur, Olivebranch, and Pebblefur. (positive effect)- Heatherfern was 17 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "198",
         "cat_to_id": "197",
         "mates": false,
         "family": false,
@@ -435,21 +419,6 @@
             "Heatherfern and Pigeonbloom worked on their skills together on a training patrol. (positive effect) - Heatherfern was 119 moons old",
             "Heatherfern appreciated Pigeonbloom intervening to smooth things over when Skiphare and Heatherfern argued. (positive effect) - Heatherfern was 119 moons old",
             "Heatherfern heard that Pigeonbloom chased a rogue off the territory. (positive effect) - Heatherfern was 136 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "198",
-        "cat_to_id": "4",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 12,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [
-            "Splinter, Heatherfern, Ochrepaw, and Jaggedsplash think that Redsnout has the best stories. (positive effect)- Heatherfern was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -925,11 +894,7 @@
             "Heatherfern thinks that Archbellow's tone sounds off today. (low negative effect) - Heatherfern was 148 moons old",
             "Heatherfern spent a long time talking with Archbellow but was disappointed by Archbellow's lack of interest. (high negative effect) - Heatherfern was 151 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -964,9 +929,9 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 54,
-        "comfort": 84,
-        "trust": 86,
+        "respect": 60,
+        "comfort": 90,
+        "trust": 90,
         "log": [
             "Bitekit, Archbellow, and Heatherfern had a nice talk while eating. (positive effect)- Heatherfern was 44 moons old",
             "Heatherfern, Bitebone, and Pebblechase had a nice talk while eating. (positive effect)- Heatherfern was 59 moons old",
@@ -986,9 +951,15 @@
             "Heatherfern heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 127 moons old",
             "Every muscle in Heatherfern's body tenses when Bitebone walks by. (high negative effect) - Heatherfern was 131 moons old",
             "Heatherfern sees Bitebone help a Clanmate get unstuck from some brambles. (low positive effect) - Heatherfern was 143 moons old",
-            "Heatherfern hears a nice story about Bitebone. (low positive effect) - Heatherfern was 150 moons old"
+            "Heatherfern hears a nice story about Bitebone. (low positive effect) - Heatherfern was 150 moons old",
+            "Heatherfern purrs whenever Bitebone comes around. (high positive effect) - Heatherfern was 152 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -1329,11 +1300,7 @@
             "Heatherfern heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Heatherfern was 143 moons old",
             "Heatherfern heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -1556,19 +1523,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -15,
-        "respect": 20,
-        "comfort": -5,
-        "trust": 0,
+        "like": -21,
+        "respect": 16,
+        "comfort": -9,
+        "trust": -16,
         "log": [
             "Heatherfern noticed that Skulkwillow was in a foul mood. (negative effect)- Heatherfern was 88 moons old",
             "Heatherfern was irritated by Skulkwillow muttering about who was at fault for a training patrol going sour. (negative effect)- Heatherfern was 88 moons old",
             "Heatherfern heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 126 moons old",
-            "Heatherfern heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
+            "Heatherfern heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old",
+            "Skulkwillow uses one of Heatherfern's fears against her. (high negative effect) - Heatherfern was 152 moons old"
         ],
         "no_longer_neutral": [
             "like",
-            "respect"
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -1620,9 +1590,7 @@
         "log": [
             "Heatherfern heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -1655,9 +1623,7 @@
             "Heatherfern heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 126 moons old",
             "Heatherfern heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -2593,12 +2559,7 @@
             "Heatherfern is inspired by Whiskerleg's passion. (medium positive effect) - Heatherfern was 133 moons old",
             "Heatherfern heard Whiskerleg fell asleep guarding camp. (negative effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -2960,9 +2921,7 @@
             "Heatherfern heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Heatherfern was 147 moons old",
             "Heatherfern disapproved of Shinebelly wearing a collar. (negative effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3149,9 +3108,7 @@
         "log": [
             "Heatherfern heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3182,9 +3139,7 @@
         "log": [
             "Heatherfern heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3268,11 +3223,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Heatherfern was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Heatherfern was 151 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "198",

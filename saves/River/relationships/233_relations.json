@@ -311,9 +311,7 @@
         "log": [
             "Shorekit heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -419,9 +417,7 @@
         "log": [
             "Shorekit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -462,9 +458,7 @@
         "log": [
             "Shorekit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -492,9 +486,7 @@
         "log": [
             "Shorekit heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -518,11 +510,14 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 23,
         "log": [
-            "Shorekit was found by Sardinespeckle and her patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old"
+            "Shorekit was found by Sardinespeckle and her patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old",
+            "Sardinespeckle sends a Clanmate to help Shorepaw with something he's struggling with. (low positive effect) - Shorepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -537,9 +532,7 @@
         "log": [
             "Shorekit didn't know that Shinefur was so talented. (medium positive effect) - Shorekit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1322,9 +1315,7 @@
         "log": [
             "Shorekit disapproved of Shinebelly wearing a collar. (negative effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1419,9 +1410,7 @@
         "log": [
             "Shorekit heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1436,9 +1425,7 @@
         "log": [
             "Shorekit heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1512,11 +1499,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Shorekit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Shorekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1736,13 +1728,16 @@
         "romance": 0,
         "like": -7,
         "respect": -3,
-        "comfort": -3,
+        "comfort": 10,
         "trust": 0,
         "log": [
             "Shorekit sticks his tongue out at Caterpillarkit. (medium negative effect) - Shorekit was 4 moons old",
-            "The silence between Shorekit and Caterpillarkit feels more uncomfortable than usual. (low negative effect) - Shorekit was 5 moons old"
+            "The silence between Shorekit and Caterpillarkit feels more uncomfortable than usual. (low negative effect) - Shorekit was 5 moons old",
+            "Shorepaw sees a pretty flower in Caterpillarpaw's nest. (low positive effect) - Shorepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1781,10 +1776,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
