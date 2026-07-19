@@ -92,7 +92,7 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 69,
+        "respect": 66,
         "comfort": 100,
         "trust": 73,
         "log": [
@@ -111,9 +111,13 @@
             "Heatherfern shares a suspiciously exaggerated tale with Harefeather, Prancelaurel, Yewstar, and Swallowstripe, who seem far from convinced of its veracity. (negative effect) - Prancelaurel was 92 moons old",
             "Prancelaurel can't help but admire how well Heatherfern gets along with the rest of the Clan. (medium positive effect) - Prancelaurel was 104 moons old",
             "Prancelaurel and Heatherfern often look at each other and smile knowingly about something. (low positive effect) - Prancelaurel was 107 moons old",
-            "Heatherfern knows what to say to make Prancelaurel feel better. (medium positive effect) - Prancelaurel was 112 moons old"
+            "Heatherfern knows what to say to make Prancelaurel feel better. (medium positive effect) - Prancelaurel was 112 moons old",
+            "Prancelaurel hopes to leave behind a legacy like Heatherfern. (medium positive effect) - Prancelaurel was 114 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -325,10 +329,10 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 66,
-        "respect": 6,
-        "comfort": 30,
-        "trust": 0,
+        "like": 82,
+        "respect": 19,
+        "comfort": 36,
+        "trust": 5,
         "log": [
             "Prancelaurel and Bitterleaf volunteer to go on an extra border patrol together. (medium positive effect)- Prancelaurel was 13 moons old",
             "Prancelaurel greets Bitterleaf as he's exiting the warriors' den. (medium positive effect)- Prancelaurel was 19 moons old",
@@ -340,9 +344,14 @@
             "Prancelaurel and Bitterleaf talk about what they see in the clouds. (low positive effect) - Prancelaurel was 87 moons old",
             "Fidgetmouse, Paellapad, Pebblechase, Bitterleaf, and Prancelaurel blow off steam by stretching with and venting to each other. (positive effect) - Prancelaurel was 88 moons old",
             "Prancelaurel heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 88 moons old",
-            "Bitterleaf won't tell Prancelaurel what he finds so funny. (medium negative effect) - Prancelaurel was 92 moons old"
+            "Bitterleaf won't tell Prancelaurel what he finds so funny. (medium negative effect) - Prancelaurel was 92 moons old",
+            "Prancelaurel listens to Bitterleaf talk about what life was like when he was young. (high positive effect) - Prancelaurel was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -1286,16 +1295,19 @@
         "family": false,
         "romance": 16,
         "like": 12,
-        "respect": 15,
+        "respect": 5,
         "comfort": 5,
         "trust": 4,
         "log": [
             "Fleakit points out that Prancelaurel's fresh-kill has gone bad before he eats it. (medium positive effect)- Prancelaurel was 37 moons old",
             "Fleadusk hit Prancelaurel on the face with his tail while passing by. (low negative effect)- Prancelaurel was 61 moons old",
             "Prancelaurel heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 87 moons old",
-            "Prancelaurel gives Fleadusk a wonderfully colored pebble she found, and hides behind her whiskers when thanked. (high positive effect) - Prancelaurel was 109 moons old"
+            "Prancelaurel gives Fleadusk a wonderfully colored pebble she found, and hides behind her whiskers when thanked. (high positive effect) - Prancelaurel was 109 moons old",
+            "Prancelaurel disapproved of Fleadusk wearing a collar. (negative effect) - Prancelaurel was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -1451,10 +1463,10 @@
         "mates": false,
         "family": false,
         "romance": 14,
-        "like": 0,
-        "respect": 16,
-        "comfort": 10,
-        "trust": -7,
+        "like": 4,
+        "respect": 20,
+        "comfort": 16,
+        "trust": -1,
         "log": [
             "Prancelaurel and Tay picked up some new tricks while sparring together. (positive effect)- Prancelaurel was 39 moons old",
             "Prancelaurel and Reedheart sunbathe together. (low positive effect)- Prancelaurel was 43 moons old",
@@ -1467,7 +1479,10 @@
             "Prancelaurel heard that Reedheart chased a rogue off the territory. (positive effect) - Prancelaurel was 95 moons old",
             "Prancelaurel gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Prancelaurel was 102 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -2165,15 +2180,21 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 0,
+        "respect": 15,
         "comfort": 12,
-        "trust": 10,
+        "trust": 25,
         "log": [
             "Prancelaurel heard that Wavepaw chased a rogue off the territory. (positive effect) - Prancelaurel was 79 moons old",
             "Prancelaurel heard that Wavelight touched noses with a loner. (negative effect) - Prancelaurel was 82 moons old",
-            "Prancelaurel struggles to make sense of something trivial Wavelight said. (low negative effect) - Prancelaurel was 101 moons old"
+            "Prancelaurel struggles to make sense of something trivial Wavelight said. (low negative effect) - Prancelaurel was 101 moons old",
+            "Prancelaurel gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Prancelaurel was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -2358,14 +2379,17 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 6,
+        "respect": 14,
         "comfort": 16,
         "trust": 13,
         "log": [
             "Prancelaurel is excited for her family to grow further. (positive effect) - Prancelaurel was 69 moons old",
-            "Every muscle in Prancelaurel's body tenses when Butterflypaw walks by. (high negative effect) - Prancelaurel was 82 moons old"
+            "Every muscle in Prancelaurel's body tenses when Butterflypaw walks by. (high negative effect) - Prancelaurel was 82 moons old",
+            "Prancelaurel and Butterflyglide find out they have the same favorite prey! (low positive effect) - Prancelaurel was 114 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -2655,9 +2679,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Prancelaurel was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Prancelaurel was 115 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -2711,15 +2739,21 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": -16,
+        "respect": -6,
         "comfort": -16,
         "trust": -16,
         "log": [
             "Prancelaurel is telling jokes about Terabyte. (high negative effect) - Prancelaurel was 91 moons old",
             "Prancelaurel heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Prancelaurel was 92 moons old",
-            "Terabyte tromped into the warrior's den with muddy paws, trailing muck straight through Prancelaurel and Piperthrift's nests. (negative effect) - Prancelaurel was 98 moons old"
+            "Terabyte tromped into the warrior's den with muddy paws, trailing muck straight through Prancelaurel and Piperthrift's nests. (negative effect) - Prancelaurel was 98 moons old",
+            "Prancelaurel heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -2771,13 +2805,16 @@
         "like": -5,
         "respect": -20,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Prancelaurel heard that Shinebelly caught a rabbit from across the border. (negative effect) - Prancelaurel was 90 moons old",
             "Prancelaurel heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Prancelaurel was 109 moons old",
-            "Prancelaurel disapproved of Shinebelly wearing a collar. (negative effect) - Prancelaurel was 112 moons old"
+            "Prancelaurel disapproved of Shinebelly wearing a collar. (negative effect) - Prancelaurel was 112 moons old",
+            "Prancelaurel heard Shinebelly fell asleep guarding camp. (negative effect) - Prancelaurel was 114 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3063,9 +3100,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Driftstripe is gossiping about Prancelaurel. (medium negative effect) - Prancelaurel was 115 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3105,11 +3146,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Prancelaurel heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 113 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3118,13 +3163,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Prancelaurel wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Prancelaurel was 102 moons old"
+            "Prancelaurel wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Prancelaurel was 102 moons old",
+            "Prancelaurel heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3162,15 +3211,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
+        "like": 8,
         "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Prancelaurel was impressed by Lionheart's quick reflexes on a hunting patrol. (positive effect) - Prancelaurel was 100 moons old",
-            "Prancelaurel saw Lionheart's patrol go out to hunt for the Clan despite the snow. (positive effect) - Prancelaurel was 111 moons old"
+            "Prancelaurel saw Lionheart's patrol go out to hunt for the Clan despite the snow. (positive effect) - Prancelaurel was 111 moons old",
+            "Lionheart was very considerate while on patrol with Prancelaurel. (positive effect) - Prancelaurel was 113 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3398,11 +3451,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Prancelaurel heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Prancelaurel was 113 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3462,12 +3519,19 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 66,
+        "like": 74,
         "respect": 36,
-        "comfort": 76,
+        "comfort": 84,
         "trust": 66,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Prancelaurel was 115 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3521,14 +3585,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
+        "like": 11,
         "respect": -17,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -14,
         "log": [
-            "Prancelaurel finds her feelings conflicted towards the new family addition. (neutral effect) - Prancelaurel was 111 moons old"
+            "Prancelaurel finds her feelings conflicted towards the new family addition. (neutral effect) - Prancelaurel was 111 moons old",
+            "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Prancelaurel was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "28",
@@ -3600,6 +3670,32 @@
     {
         "cat_from_id": "28",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "28",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "28",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

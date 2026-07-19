@@ -1,19 +1,23 @@
 {
     "illnesses": {
-        "greencough": {
-            "severity": "severe",
-            "mortality": 20,
-            "infectiousness": 30,
-            "duration": 2,
-            "moon_start": 143,
+        "grief stricken": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 0,
+            "moon_start": 145,
             "risks": [
                 {
-                    "name": "yellowcough",
-                    "chance": 70
+                    "name": "lasting grief",
+                    "chance": 112
                 },
                 {
-                    "name": "sore throat",
-                    "chance": 30
+                    "name": "constant nightmares",
+                    "chance": 27
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 162
                 }
             ],
             "event_triggered": false

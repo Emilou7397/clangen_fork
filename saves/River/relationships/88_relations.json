@@ -201,15 +201,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 12,
+        "respect": 26,
+        "comfort": 5,
+        "trust": 4,
         "log": [
             "Bitterleaf thanked Saltkit for bringing him food. (low positive effect)- Saltkit was 3 moons old",
-            "Saltknoll heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 39 moons old"
+            "Saltknoll heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 39 moons old",
+            "Saltknoll can't believe how talented Bitterleaf is! (high positive effect) - Saltknoll was 65 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -396,12 +400,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": -8,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll and Peakspore successfully gathered daisies together. (positive effect) - Saltknoll was 64 moons old",
+            "Saltknoll and Peakspore worked together to gather betony. (positive effect) - Saltknoll was 65 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -636,14 +646,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 15,
         "respect": -8,
-        "comfort": 4,
+        "comfort": 9,
         "trust": 6,
         "log": [
-            "Saltknoll complains about something Freezefoot did. (low negative effect) - Saltknoll was 54 moons old"
+            "Saltknoll complains about something Freezefoot did. (low negative effect) - Saltknoll was 54 moons old",
+            "Saltknoll and Freezefoot successfully gathered daisies together. (positive effect) - Saltknoll was 64 moons old",
+            "Saltknoll and Freezefoot worked together to gather betony. (positive effect) - Saltknoll was 65 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -846,14 +863,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 15,
+        "respect": 5,
         "comfort": 5,
         "trust": 29,
         "log": [
             "Saltknoll heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 38 moons old",
-            "Saltknoll promises to always look out for Fleadusk. (high positive effect) - Saltknoll was 42 moons old"
+            "Saltknoll promises to always look out for Fleadusk. (high positive effect) - Saltknoll was 42 moons old",
+            "Saltknoll disapproved of Fleadusk wearing a collar. (negative effect) - Saltknoll was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -894,8 +914,8 @@
         "family": false,
         "romance": 0,
         "like": 14,
-        "respect": 13,
-        "comfort": 26,
+        "respect": 26,
+        "comfort": 39,
         "trust": 11,
         "log": [
             "Saltpaw, Algaepool, and Murkhaven had a nice talk while eating. (positive effect)- Saltpaw was 6 moons old",
@@ -903,7 +923,10 @@
             "Murkhaven doesn't say sorry when bumping into Saltknoll. (low negative effect) - Saltknoll was 54 moons old",
             "Saltknoll has had a lot of good dreams about Murkhaven lately. (high positive effect) - Saltknoll was 58 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1264,7 +1287,7 @@
         "romance": 0,
         "like": 63,
         "respect": 25,
-        "comfort": 64,
+        "comfort": 72,
         "trust": 73,
         "log": [
             "Saltkit feels comfortable challenging Volekit on something she said. (high positive effect)- Saltkit was 1 moon old",
@@ -1276,9 +1299,12 @@
             "Shinefur, Cobaltstrike, Voletuft, Saltknoll, and Flutterfeather blow off steam by stretching with and venting to each other. (positive effect) - Saltknoll was 41 moons old",
             "Voletuft brags about their recent catches and impresses Mewhoney, Carnationmunch, Saltknoll, and Gorgehunt. (positive effect) - Saltknoll was 43 moons old",
             "Saltknoll and Voletuft successfully gathered herbs together despite the rainy weather. (positive effect) - Saltknoll was 50 moons old",
-            "Saltknoll was visibly frustrated by Voletuft while patrolling in the rain empty-pawed. (negative effect) - Saltknoll was 58 moons old"
+            "Saltknoll was visibly frustrated by Voletuft while patrolling in the rain empty-pawed. (negative effect) - Saltknoll was 58 moons old",
+            "Saltknoll sees a pretty flower in Voletuft's nest. (low positive effect) - Saltknoll was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1637,7 +1663,7 @@
         "mates": false,
         "family": false,
         "romance": 37,
-        "like": 28,
+        "like": 36,
         "respect": 25,
         "comfort": 18,
         "trust": 21,
@@ -1649,7 +1675,9 @@
             "Saltknoll thinks Minnowlily has very soft fur. (low positive effect) - Saltknoll was 53 moons old",
             "Saltknoll stayed up all night thinking of ways to impress Minnowlily. (low positive effect) - Saltknoll was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1733,13 +1761,17 @@
         "family": false,
         "romance": 12,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Saltknoll overhears Wavelight tell another cat he kind of likes Saltknoll. (medium positive effect) - Saltknoll was 61 moons old"
+            "Saltknoll overhears Wavelight tell another cat he kind of likes Saltknoll. (medium positive effect) - Saltknoll was 61 moons old",
+            "Saltknoll gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Saltknoll was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -1996,12 +2028,14 @@
         "like": 0,
         "respect": 13,
         "comfort": 0,
-        "trust": -5,
+        "trust": 8,
         "log": [
             "Saltknoll is motivated by Midnighthaze's big smile. (low positive effect) - Saltknoll was 55 moons old",
             "Saltknoll heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Saltknoll was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2125,13 +2159,16 @@
         "romance": 0,
         "like": 6,
         "respect": 11,
-        "comfort": 16,
+        "comfort": 8,
         "trust": 5,
         "log": [
             "Saltknoll associates his favorite smell with Meadowpaw. (high positive effect) - Saltknoll was 31 moons old",
-            "Saltknoll heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Saltknoll was 48 moons old"
+            "Saltknoll heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Saltknoll was 48 moons old",
+            "Saltknoll was being condescending towards Meadowspots all day long. (low negative effect) - Saltknoll was 65 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2171,11 +2208,16 @@
         "like": 12,
         "respect": 0,
         "comfort": 12,
-        "trust": 0,
+        "trust": -15,
         "log": [
-            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Saltknoll was 53 moons old"
+            "Gardeniaglow, Miteleaf, Shadowfreckle, Saltknoll, and Moonchaser blow off steam by stretching with and venting to each other. (positive effect) - Saltknoll was 53 moons old",
+            "Saltknoll was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Saltknoll was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2228,13 +2270,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Saltknoll heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Saltknoll was 43 moons old"
+            "Saltknoll heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Saltknoll was 43 moons old",
+            "Saltknoll heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2244,10 +2290,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Braveheart laughs a little too long at one of Saltknoll's jokes. (low negative effect) - Saltknoll was 66 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2283,15 +2333,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 20,
         "respect": 5,
-        "comfort": 23,
+        "comfort": 28,
         "trust": 8,
         "log": [
             "Saltknoll heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Saltknoll was 33 moons old",
             "Saltknoll heard Pigmentpelt fell asleep guarding camp. (negative effect) - Saltknoll was 53 moons old",
             "Saltknoll supported Saltknoll when he had a difficult time on patrol. (positive effect) - Saltknoll was 63 moons old",
-            "Saltknoll and Pigmentpelt successfully gathered berries together. (positive effect) - Saltknoll was 63 moons old"
+            "Saltknoll and Pigmentpelt successfully gathered berries together. (positive effect) - Saltknoll was 63 moons old",
+            "Saltknoll and Pigmentpelt successfully gathered daisies together. (positive effect) - Saltknoll was 64 moons old",
+            "Saltknoll and Pigmentpelt worked together to gather betony. (positive effect) - Saltknoll was 65 moons old"
         ],
         "no_longer_neutral": [
             "comfort",
@@ -2308,11 +2360,12 @@
         "like": 0,
         "respect": -2,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "When tucking in for the night, Saltknoll saw that Shinebelly fixed his nest. (low positive effect) - Saltknoll was 48 moons old",
             "Saltknoll heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Saltknoll was 60 moons old",
-            "Saltknoll disapproved of Shinebelly wearing a collar. (negative effect) - Saltknoll was 63 moons old"
+            "Saltknoll disapproved of Shinebelly wearing a collar. (negative effect) - Saltknoll was 63 moons old",
+            "Saltknoll heard Shinebelly fell asleep guarding camp. (negative effect) - Saltknoll was 65 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2642,13 +2695,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 22,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Saltknoll appreciates how Skypaw, Bushpaw, Scalepaw, and Flightpaw don't goof around during his lecture about herbs. (positive effect) - Saltknoll was 62 moons old"
+            "Saltknoll appreciates how Skypaw, Bushpaw, Scalepaw, and Flightpaw don't goof around during his lecture about herbs. (positive effect) - Saltknoll was 62 moons old",
+            "Saltknoll heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2657,13 +2713,18 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Saltknoll wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Saltknoll was 53 moons old"
+            "Saltknoll wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Saltknoll was 53 moons old",
+            "Saltknoll heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2746,13 +2807,17 @@
         "romance": 0,
         "like": 0,
         "respect": 12,
-        "comfort": 0,
+        "comfort": 5,
         "trust": -10,
         "log": [
             "Saltknoll heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Saltknoll was 61 moons old",
-            "Saltknoll appreciates how Skypaw, Bushpaw, Scalepaw, and Flightpaw don't goof around during his lecture about herbs. (positive effect) - Saltknoll was 62 moons old"
+            "Saltknoll appreciates how Skypaw, Bushpaw, Scalepaw, and Flightpaw don't goof around during his lecture about herbs. (positive effect) - Saltknoll was 62 moons old",
+            "Saltknoll and Scalebloom worked together to gather betony. (positive effect) - Saltknoll was 65 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -2940,11 +3005,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Saltknoll heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Saltknoll was 64 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "88",
@@ -3163,6 +3232,32 @@
         "log": [
             "Saltknoll is excited for his family to grow further. (positive effect) - Saltknoll was 63 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "88",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "88",
+        "cat_to_id": "248",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

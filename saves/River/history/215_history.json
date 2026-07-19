@@ -9,16 +9,28 @@
         "trait": {
             "179": {
                 "sociability": 5,
-                "aggression": 0
+                "aggression": 0,
+                "lawfulness": 2,
+                "strings": [
+                    "step out of {PRONOUN\/m_c\/poss} comfort zone",
+                    "follow rules"
+                ]
             }
         },
         "skill": {
             "179": {
-                "FIGHTER": 13
+                "FIGHTER": 19,
+                "strings": [
+                    "fighting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "morale",
+        "graduation_age": 14,
+        "moon": 144
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

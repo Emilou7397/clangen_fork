@@ -1128,7 +1128,7 @@
         "cat_to_id": "68",
         "mates": false,
         "family": false,
-        "romance": 39,
+        "romance": 56,
         "like": 23,
         "respect": 0,
         "comfort": 13,
@@ -1137,7 +1137,8 @@
             "Gardeniaglow is asking Heavythud interesting questions. (low positive effect) - Gardeniaglow was 45 moons old",
             "Gardeniaglow can't help but smile seeing Heavythud smile. (low positive effect) - Gardeniaglow was 50 moons old",
             "Gardeniaglow and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Gardeniaglow was 85 moons old",
-            "Gardeniaglow is prancing around in front of Heavythud. (low positive effect) - Gardeniaglow was 87 moons old"
+            "Gardeniaglow is prancing around in front of Heavythud. (low positive effect) - Gardeniaglow was 87 moons old",
+            "Gardeniaglow thinks Heavythud is the most beautiful cat in the Clan. (medium positive effect) - Gardeniaglow was 89 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1164,10 +1165,10 @@
         "cat_to_id": "70",
         "mates": false,
         "family": false,
-        "romance": 23,
+        "romance": 15,
         "like": 23,
         "respect": 25,
-        "comfort": 37,
+        "comfort": 29,
         "trust": 15,
         "log": [
             "Gardeniaglow can't help but smile seeing Brindletooth smile. (low positive effect)- Gardeniaglow was 31 moons old",
@@ -1180,7 +1181,9 @@
             "Snakedrop appreciates Hailfreckle, Fleadusk, Brindletooth, and Gardeniaglow joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Gardeniaglow was 85 moons old",
             "Gardeniaglow and Brindletooth successfully gathered dandelions and wild garlic together. (positive effect) - Gardeniaglow was 85 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1683,14 +1686,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 5,
+        "like": -16,
+        "respect": 0,
+        "comfort": -5,
+        "trust": -1,
         "log": [
-            "Gardeniaglow was impressed by Gentleghost's hunting prowess. (positive effect) - Gardeniaglow was 44 moons old"
+            "Gardeniaglow was impressed by Gentleghost's hunting prowess. (positive effect) - Gardeniaglow was 44 moons old",
+            "After Gentleghost says something seemingly innocent, Gardeniaglow sulks for the rest of the day. (high negative effect) - Gardeniaglow was 88 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -1711,15 +1717,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
+        "like": 20,
+        "respect": 10,
         "comfort": -2,
         "trust": 0,
         "log": [
             "Gardeniaglow's hackles raise when Hollyheart passes by. (medium negative effect)- Gardeniaglow was 33 moons old",
-            "Gardeniaglow and Hollyheart enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 70 moons old"
+            "Gardeniaglow and Hollyheart enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 70 moons old",
+            "Gardeniaglow enjoyed Hollyheart's tale of how the humble daisy played an important role in the Great Journey. (positive effect) - Gardeniaglow was 87 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2415,14 +2425,20 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 10,
         "comfort": 10,
         "trust": -10,
         "log": [
             "Gardeniaglow heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gardeniaglow was 66 moons old",
-            "Gardeniaglow and Terabyte enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 78 moons old"
+            "Gardeniaglow and Terabyte enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Gardeniaglow was 78 moons old",
+            "Gardeniaglow heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 87 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2827,11 +2843,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gardeniaglow heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 87 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2840,11 +2860,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gardeniaglow heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 87 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -2855,10 +2879,11 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": 12,
+        "trust": 4,
         "log": [
             "Jademuzzle stands up for Gardeniaglow during a patrol. (medium positive effect) - Gardeniaglow was 75 moons old",
-            "Gardeniaglow heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old"
+            "Gardeniaglow heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Gardeniaglow was 78 moons old",
+            "Jademuzzle won't tell Gardeniaglow what she ate this morning. (low negative effect) - Gardeniaglow was 88 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2975,12 +3000,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gardeniaglow wants to be closer to Electronegativity. (low positive effect) - Gardeniaglow was 89 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -3106,11 +3135,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gardeniaglow heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gardeniaglow was 87 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "47",
@@ -3299,6 +3332,32 @@
     {
         "cat_from_id": "47",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "47",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

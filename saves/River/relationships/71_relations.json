@@ -401,16 +401,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 22,
-        "respect": 5,
-        "comfort": 14,
-        "trust": 23,
+        "like": 27,
+        "respect": 11,
+        "comfort": 18,
+        "trust": 39,
         "log": [
             "Peakspore was part of the patrol that invited Tay to RiverClan. (positive effect)- Tay was 33 moons old",
             "Reedheart heard that Peakspore chased a rogue off the territory. (positive effect)- Reedheart was 53 moons old",
-            "Peakspore convinces Midnighthaze, Reedheart, Shinefur, and Shadowfreckle to wind down and stretch with him. (positive effect) - Reedheart was 87 moons old"
+            "Peakspore convinces Midnighthaze, Reedheart, Shinefur, and Shadowfreckle to wind down and stretch with him. (positive effect) - Reedheart was 87 moons old",
+            "Reedheart promises to always look out for Peakspore. (high positive effect) - Reedheart was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -436,10 +442,10 @@
         "mates": false,
         "family": false,
         "romance": 3,
-        "like": 7,
-        "respect": -19,
-        "comfort": 18,
-        "trust": -28,
+        "like": 11,
+        "respect": -15,
+        "comfort": 24,
+        "trust": -22,
         "log": [
             "Tay and Prancelaurel picked up some new tricks while sparring together. (positive effect)- Tay was 33 moons old",
             "Reedheart suspects Prancelaurel lied about something trivial. (low negative effect)- Reedheart was 38 moons old",
@@ -453,7 +459,10 @@
             "Reedheart feels like Prancelaurel has been quieter than usual. (low negative effect) - Reedheart was 107 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "trust",
+            "comfort",
+            "like",
+            "respect"
         ]
     },
     {
@@ -774,15 +783,20 @@
         "cat_to_id": "51",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 10,
         "like": 0,
         "respect": 15,
-        "comfort": 8,
+        "comfort": 18,
         "trust": 8,
         "log": [
-            "Reedheart was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Reedheart was 95 moons old"
+            "Reedheart was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Reedheart was 95 moons old",
+            "Warmswirl and Reedheart went on a late night patrol to watch the sunrise together. (positive effect) - Reedheart was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -957,8 +971,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 60,
-        "respect": 37,
+        "like": 70,
+        "respect": 47,
         "comfort": 20,
         "trust": 55,
         "log": [
@@ -976,9 +990,15 @@
             "Reedheart heard about Diablofoot's victory in battle against a gang of rogues. (positive effect) - Reedheart was 66 moons old",
             "Reedheart and Diablofoot worked together to use an eagle as a scout for their own hunt. (positive effect) - Reedheart was 80 moons old",
             "Late into the evening, Carptail invites Gracklefur, Diablofoot, Reedheart, and Auburnsplash to stretch with him and enjoy each other's company. (positive effect) - Reedheart was 91 moons old",
-            "Reedheart thought the call from Diablofoot to head home early was wise. (positive effect) - Reedheart was 99 moons old"
+            "Reedheart thought the call from Diablofoot to head home early was wise. (positive effect) - Reedheart was 99 moons old",
+            "Diablofoot and Reedheart brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Reedheart was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -1212,12 +1232,15 @@
         "romance": 0,
         "like": -5,
         "respect": -5,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Reedheart heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Reedheart was 80 moons old"
+            "Reedheart heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Reedheart was 80 moons old",
+            "Late at night, Reedheart finds Pheasantbrush sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Reedheart was 109 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -1656,7 +1679,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 7,
         "respect": 5,
         "comfort": -12,
         "trust": -3,
@@ -1664,9 +1687,12 @@
             "Reedheart offers to take Dahliacrest's place on a patrol when she isn't feeling well. (medium positive effect) - Reedheart was 75 moons old",
             "Reedheart was deeply disappointed to hear that Dahliacrest broke the Code. (negative effect) - Reedheart was 82 moons old",
             "Reedheart thinks Dahliacrest has a strange sense of humor. (medium negative effect) - Reedheart was 83 moons old",
-            "Reedheart approved of Dahliacrest's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Reedheart was 101 moons old"
+            "Reedheart approved of Dahliacrest's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Reedheart was 101 moons old",
+            "Reedheart is fascinated by one of Dahliacrest's stories. (medium positive effect) - Reedheart was 109 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2226,15 +2252,18 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": -10,
+        "respect": -2,
         "comfort": -3,
         "trust": 0,
         "log": [
             "When Reedheart needs someone to do him a favor, he never asks Lilypaw first. (medium negative effect) - Reedheart was 79 moons old",
             "Reedheart disapproved of Lilynoise wearing a collar. (negative effect) - Reedheart was 87 moons old",
-            "Reedheart wasn't thrilled to be gathering foul-smelling ragwort with Lilynoise. (negative effect) - Reedheart was 102 moons old"
+            "Reedheart wasn't thrilled to be gathering foul-smelling ragwort with Lilynoise. (negative effect) - Reedheart was 102 moons old",
+            "Reedheart was amazed to encounter a ghost while patrolling with Lilynoise. (positive effect) - Reedheart was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2259,16 +2288,21 @@
         "family": false,
         "romance": 38,
         "like": 8,
-        "respect": 7,
+        "respect": 17,
         "comfort": 20,
         "trust": -3,
         "log": [
             "When Reedheart and Terabyte realize they've been grooming their pelts the same way, they laugh about it. (low positive effect) - Reedheart was 86 moons old",
             "Reedheart heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Reedheart was 86 moons old",
             "Reedheart rolls around in some herbs after hearing Terabyte likes their smell. (high positive effect) - Reedheart was 97 moons old",
-            "Reedheart overhears Terabyte tell another cat he kind of likes Reedheart. (medium positive effect) - Reedheart was 100 moons old"
+            "Reedheart overhears Terabyte tell another cat he kind of likes Reedheart. (medium positive effect) - Reedheart was 100 moons old",
+            "Reedheart heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2504,12 +2538,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe and Reedheart brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Reedheart was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2564,12 +2603,15 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Reedheart heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 105 moons old"
+            "Reedheart heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 105 moons old",
+            "Reedheart noticed that Kinkdapple had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Reedheart was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2696,11 +2738,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Reedheart heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2709,11 +2755,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Reedheart heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -2721,15 +2771,17 @@
         "mates": true,
         "family": false,
         "romance": 35,
-        "like": 15,
-        "respect": 8,
+        "like": 17,
+        "respect": 10,
         "comfort": 33,
         "trust": 17,
         "log": [
             "Reedheart and Jademuzzle spend the morning telling interesting stories. (low positive effect) - Reedheart was 94 moons old",
             "Reedheart heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Reedheart was 95 moons old",
             "Jademuzzle gave Reedheart a gift to smooth over an argument, and Reedheart has worn it on his pelt ever since. (positive effect) - Reedheart was 103 moons old",
-            "Jademuzzle shares a suspiciously exaggerated tale with Flightsplash, Dahliacrest, and Reedheart, who seem far from convinced of its veracity. (negative effect) - Reedheart was 106 moons old"
+            "Jademuzzle shares a suspiciously exaggerated tale with Flightsplash, Dahliacrest, and Reedheart, who seem far from convinced of its veracity. (negative effect) - Reedheart was 106 moons old",
+            "Jademuzzle and Reedheart brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Reedheart was 107 moons old",
+            "Jademuzzle complained so relentlessly about her patrol assignment that Dahliacrest, Diablofoot, and Reedheart could only sigh and bear it. (negative effect) - Reedheart was 108 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2807,12 +2859,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Scalebloom and Reedheart brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Reedheart was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -3005,11 +3062,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Reedheart heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "71",
@@ -3203,6 +3264,32 @@
     {
         "cat_from_id": "71",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

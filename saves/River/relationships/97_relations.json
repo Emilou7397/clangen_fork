@@ -514,10 +514,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -29,
-        "respect": 49,
-        "comfort": 53,
-        "trust": 37,
+        "like": -24,
+        "respect": 55,
+        "comfort": 59,
+        "trust": 43,
         "log": [
             "Quailfur, wanting to help keep his Clanmates in shape and ready for anything, wakes Snakepaw, Dancingpaw, Poolpaw, and Algaepool up early for morning stretches. (negative effect)- Snakepaw was 6 moons old",
             "Snakepaw said something really rude to Quailfur. (low negative effect)- Snakepaw was 8 moons old",
@@ -529,7 +529,8 @@
         "no_longer_neutral": [
             "trust",
             "like",
-            "comfort"
+            "comfort",
+            "respect"
         ]
     },
     {
@@ -848,7 +849,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 30,
+        "like": 43,
         "respect": 42,
         "comfort": 9,
         "trust": 0,
@@ -860,7 +861,9 @@
             "Snakedrop is told about Skulkwillow's bravery during a recent time of struggle. (medium positive effect) - Snakedrop was 40 moons old",
             "Snakedrop heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -967,16 +970,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -4,
+        "like": -12,
         "respect": 0,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Sardinespeckle rallies Snakepaw, Hailpaw, Dancingpaw, and Daisypaw to do early morning stretches with her. (negative effect)- Snakepaw was 9 moons old",
             "Snakedrop is jealous that Sardinespeckle got to go to the last Gathering. (medium negative effect) - Snakedrop was 35 moons old",
-            "Shiveringdusk, Snakedrop, and Sardinespeckle took a sunbath and had a little small talk. (positive effect) - Snakedrop was 40 moons old"
+            "Shiveringdusk, Snakedrop, and Sardinespeckle took a sunbath and had a little small talk. (positive effect) - Snakedrop was 40 moons old",
+            "Snakedrop and Sardinespeckle argued about something trivial and neither of them apologized. (low negative effect) - Snakedrop was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1195,11 +1201,11 @@
         "cat_to_id": "86",
         "mates": true,
         "family": false,
-        "romance": 60,
-        "like": 41,
-        "respect": 16,
-        "comfort": 64,
-        "trust": 53,
+        "romance": 76,
+        "like": 47,
+        "respect": 21,
+        "comfort": 73,
+        "trust": 58,
         "log": [
             "Volepaw admits a mistake to Snakepaw and asks for forgiveness. (high positive effect)- Snakepaw was 9 moons old",
             "Snakedrop and Voletuft successfully gathered daisies together. (positive effect) - Snakedrop was 36 moons old",
@@ -1212,7 +1218,9 @@
             "Snakedrop purrs for a long time at one of Voletuft's lame jokes. (high positive effect) - Snakedrop was 55 moons old",
             "Snakedrop and Voletuft worked together to use an eagle as a scout for their own hunt. (positive effect) - Snakedrop was 59 moons old",
             "Snakedrop was impressed by how much prey Voletuft was able to catch in the snow. (positive effect) - Snakedrop was 60 moons old",
-            "Voletuft and Snakedrop drove off a scavenging fox together. (positive effect) - Snakedrop was 61 moons old"
+            "Voletuft and Snakedrop drove off a scavenging fox together. (positive effect) - Snakedrop was 61 moons old",
+            "Snakedrop enjoyed the chat Voletuft started up with a BugClan patrol. (positive effect) - Snakedrop was 62 moons old",
+            "Snakedrop can't stop gushing over Voletuft. (high positive effect) - Snakedrop was 64 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1330,8 +1338,8 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 26,
-        "respect": 6,
+        "like": 14,
+        "respect": 18,
         "comfort": 59,
         "trust": 9,
         "log": [
@@ -1342,9 +1350,15 @@
             "Snakedrop and Hailfreckle can't seem to agree on the truth about something. (medium negative effect) - Snakedrop was 33 moons old",
             "Snakedrop learns something new about a Clanmate from Hailfreckle. (low positive effect) - Snakedrop was 36 moons old",
             "Snakedrop and Hailfreckle enjoyed brushing up on their hunting tricks together. (positive effect) - Snakedrop was 52 moons old",
-            "Snakedrop appreciates Hailfreckle, Fleadusk, Brindletooth, and Gardeniaglow joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Snakedrop was 60 moons old"
+            "Snakedrop appreciates Hailfreckle, Fleadusk, Brindletooth, and Gardeniaglow joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Snakedrop was 60 moons old",
+            "Hailfreckle, wanting to help keep her Clanmates in shape and ready for anything, wakes Garlicberry, Dahliacrest, Whiskerleg, and Snakedrop up early for morning stretches. (negative effect) - Snakedrop was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -1671,14 +1685,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -13,
+        "like": -12,
+        "respect": -25,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Snakedrop sees a Clanmate complimenting Cherrytail and feels a pang of envy. (low negative effect) - Snakedrop was 56 moons old"
+            "Snakedrop sees a Clanmate complimenting Cherrytail and feels a pang of envy. (low negative effect) - Snakedrop was 56 moons old",
+            "Cherrytail tromped into the warrior's den with muddy paws, trailing muck straight through Shadowfreckle and Snakedrop's nests. (negative effect) - Snakedrop was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2054,15 +2072,20 @@
         "cat_to_id": "152",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Snakedrop reassures Creekpaw about something that was bothering him. (low positive effect) - Snakedrop was 30 moons old"
+            "Snakedrop reassures Creekpaw about something that was bothering him. (low positive effect) - Snakedrop was 30 moons old",
+            "Snakedrop thinks Creekmoss is really funny. (low positive effect) - Snakedrop was 63 moons old",
+            "Snakedrop was highly impressed by how Creekmoss used a squirrel and rattlesnake's fight to sneakily kill both pieces of prey. (positive effect) - Snakedrop was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2175,15 +2198,20 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 10,
         "comfort": -5,
         "trust": -10,
         "log": [
             "For a moment, Snakedrop thought Terabyte sounded like someone else. (medium negative effect) - Snakedrop was 28 moons old",
             "The moonlight encourages Terabyte, Silkymunch, Snakedrop, Skulkwillow, and Onemuzzle to slow down and stretch. (positive effect) - Snakedrop was 31 moons old",
-            "Snakedrop heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Snakedrop was 41 moons old"
+            "Snakedrop heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Snakedrop was 41 moons old",
+            "Snakedrop heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2416,10 +2444,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop overhears Heathstripe humming a comforting tune. (low positive effect) - Snakedrop was 64 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2586,11 +2618,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 62 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2599,11 +2635,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Snakedrop heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 62 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2738,13 +2778,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Snakedrop and Electronegativity drove off rogues together. (positive effect) - Snakedrop was 57 moons old"
+            "Snakedrop and Electronegativity drove off rogues together. (positive effect) - Snakedrop was 57 moons old",
+            "After the Gathering, Snakedrop notices that Electronegativity is making sure everyone got home. (low positive effect) - Snakedrop was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -2873,13 +2916,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Endothermic and Snakedrop drove off a scavenging fox together. (positive effect) - Snakedrop was 61 moons old"
+            "Endothermic and Snakedrop drove off a scavenging fox together. (positive effect) - Snakedrop was 61 moons old",
+            "Snakedrop heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snakedrop was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "97",
@@ -3070,6 +3116,32 @@
     {
         "cat_from_id": "97",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "97",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

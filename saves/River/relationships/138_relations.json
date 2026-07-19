@@ -736,12 +736,13 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Whiskerleg heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 18 moons old",
-            "Whiskerleg and Fleadusk took turns playing prey and hunter to help each other practice hunting. (positive effect) - Whiskerleg was 33 moons old"
+            "Whiskerleg and Fleadusk took turns playing prey and hunter to help each other practice hunting. (positive effect) - Whiskerleg was 33 moons old",
+            "Whiskerleg disapproved of Fleadusk wearing a collar. (negative effect) - Whiskerleg was 45 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1150,12 +1151,17 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 13,
-        "respect": 0,
+        "like": 1,
+        "respect": 12,
         "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Hailfreckle, wanting to help keep her Clanmates in shape and ready for anything, wakes Garlicberry, Dahliacrest, Whiskerleg, and Snakedrop up early for morning stretches. (negative effect) - Whiskerleg was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1330,7 +1336,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 30,
+        "like": 43,
         "respect": 17,
         "comfort": 13,
         "trust": 0,
@@ -1339,7 +1345,9 @@
             "Whiskerleg helps Antlerthorn figure out how to word something. (medium positive effect) - Whiskerleg was 32 moons old",
             "Antlerthorn reminds Whiskerleg to grab something from the fresh-kill pile if he hasn't already. (medium positive effect) - Whiskerleg was 41 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1507,7 +1515,7 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": -13,
+        "trust": -5,
         "log": [
             "Whiskerkit heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Whiskerkit was 4 moons old"
         ],
@@ -1520,16 +1528,20 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 8,
+        "respect": 23,
         "comfort": 5,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Whiskerpaw heard that Wavepaw chased a rogue off the territory. (positive effect) - Whiskerpaw was 9 moons old",
             "Whiskerleg saw Wavepaw being considerate. (low positive effect) - Whiskerleg was 12 moons old",
             "Whiskerleg heard that Wavelight touched noses with a loner. (negative effect) - Whiskerleg was 12 moons old",
-            "Whiskerleg and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old"
+            "Whiskerleg and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old",
+            "Whiskerleg gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Whiskerleg was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1704,17 +1716,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 10,
         "respect": 10,
-        "comfort": 5,
+        "comfort": 10,
         "trust": 5,
         "log": [
             "Whiskerleg gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Whiskerleg was 26 moons old",
             "Whiskerleg heard that Silkymunch touched noses with a kittypet. (negative effect) - Whiskerleg was 30 moons old",
             "Whiskerleg was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Whiskerleg was 37 moons old",
-            "Whiskerleg and Silkymunch enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old"
+            "Whiskerleg and Silkymunch enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old",
+            "Whiskerleg and Silkymunch enjoyed telling ghost stories on patrol. (positive effect) - Whiskerleg was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1722,16 +1739,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": 0,
         "respect": -4,
-        "comfort": 14,
+        "comfort": 19,
         "trust": -11,
         "log": [
             "Whiskerpaw turned to Butterflypaw in a time of need, only for Butterflypaw to abandon him. (high negative effect) - Whiskerpaw was 6 moons old",
             "When an argument started on patrol, Whiskerleg realized her Clanmates cared more about winning an argument than being correct. (negative effect) - Whiskerleg was 30 moons old",
-            "Whiskerleg and Butterflyglide enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old"
+            "Whiskerleg and Butterflyglide enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Whiskerleg was 40 moons old",
+            "Whiskerleg and Butterflyglide enjoyed telling ghost stories on patrol. (positive effect) - Whiskerleg was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1739,10 +1760,10 @@
         "mates": false,
         "family": true,
         "romance": 3,
-        "like": 57,
-        "respect": 15,
-        "comfort": 51,
-        "trust": 70,
+        "like": 59,
+        "respect": 12,
+        "comfort": 54,
+        "trust": 59,
         "log": [
             "Whiskerpaw and Molepaw enjoyed working on their skills together on a training patrol. (positive effect) - Whiskerpaw was 7 moons old",
             "During the last gathering, Whiskerleg and Moletooth defended their Clan against another Clan's heckling. (medium positive effect) - Whiskerleg was 17 moons old",
@@ -1754,9 +1775,16 @@
             "Moletooth, Meadowspots, and Whiskerleg had a nice talk while eating. (positive effect) - Whiskerleg was 39 moons old",
             "Whiskerleg was unimpressed to hear that Moletooth impulsively attacked another Clan's patrol. (negative effect) - Whiskerleg was 39 moons old",
             "Moletooth returned to the warrior's den dripping mud everywhere and managed to ruin Meadowspots and Whiskerleg's nests. (negative effect) - Whiskerleg was 40 moons old",
-            "Moletooth complained about his patrol assignment all day, much to the annoyance of Garlicberry, Poolleaf, and Whiskerleg. (negative effect) - Whiskerleg was 41 moons old"
+            "Moletooth complained about his patrol assignment all day, much to the annoyance of Garlicberry, Poolleaf, and Whiskerleg. (negative effect) - Whiskerleg was 41 moons old",
+            "Whiskerleg and Moletooth enjoyed telling ghost stories on patrol. (positive effect) - Whiskerleg was 45 moons old",
+            "Moletooth doesn't believe Whiskerleg when she explains that a rumor about her is false. (high negative effect) - Whiskerleg was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1819,17 +1847,21 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 9,
+        "like": 14,
         "respect": 9,
-        "comfort": -16,
+        "comfort": -11,
         "trust": -13,
         "log": [
             "Midnighthaze thinks Whiskerleg is lying when she apologizes for something. (high negative effect) - Whiskerleg was 18 moons old",
             "Whiskerleg was confused by Midnighthaze's complicated plan for a training session. (negative effect) - Whiskerleg was 24 moons old",
-            "Whiskerleg heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Whiskerleg was 39 moons old"
+            "Whiskerleg heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Whiskerleg was 39 moons old",
+            "Whiskerleg and Midnighthaze enjoyed telling ghost stories on patrol. (positive effect) - Whiskerleg was 45 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1983,7 +2015,7 @@
         "cat_to_id": "153",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 8,
         "respect": 0,
         "comfort": 8,
@@ -2034,12 +2066,18 @@
         "like": 18,
         "respect": 23,
         "comfort": 8,
-        "trust": 0,
+        "trust": -15,
         "log": [
             "Whiskerleg and Miteleaf enjoyed a little balancing competition while gathering oak and elder leaves. (positive effect) - Whiskerleg was 35 moons old",
-            "Lilynoise, Miteleaf, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Whiskerleg was 39 moons old"
+            "Lilynoise, Miteleaf, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Whiskerleg was 39 moons old",
+            "Whiskerleg was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Whiskerleg was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2097,13 +2135,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Whiskerleg heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Whiskerleg was 23 moons old"
+            "Whiskerleg heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Whiskerleg was 23 moons old",
+            "Whiskerleg heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2173,16 +2215,19 @@
         "like": 10,
         "respect": -10,
         "comfort": 0,
-        "trust": -8,
+        "trust": -13,
         "log": [
             "Whiskerleg heard that Shinebelly caught a rabbit from across the border. (negative effect) - Whiskerleg was 21 moons old",
             "Whiskerleg and Shinebelly enjoyed a little balancing competition while gathering oak and elder leaves. (positive effect) - Whiskerleg was 35 moons old",
             "Whiskerleg heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Whiskerleg was 40 moons old",
             "Shinebelly tells Miteleaf, Reedheart, Coconutocean, and Whiskerleg a story that seems to grow less believable every meow. (negative effect) - Whiskerleg was 42 moons old",
-            "Whiskerleg disapproved of Shinebelly wearing a collar. (negative effect) - Whiskerleg was 43 moons old"
+            "Whiskerleg disapproved of Shinebelly wearing a collar. (negative effect) - Whiskerleg was 43 moons old",
+            "Whiskerleg heard Shinebelly fell asleep guarding camp. (negative effect) - Whiskerleg was 45 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "trust"
         ]
     },
     {
@@ -2204,12 +2249,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 13,
+        "respect": 13,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Whiskerleg wants to be closer to Howlshine. (low positive effect) - Whiskerleg was 45 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2498,11 +2549,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Whiskerleg heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2511,13 +2566,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Whiskerleg wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Whiskerleg was 33 moons old"
+            "Whiskerleg wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Whiskerleg was 33 moons old",
+            "Whiskerleg heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2699,12 +2758,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 16,
+        "respect": 5,
+        "comfort": 4,
+        "trust": 5,
+        "log": [
+            "Whiskerleg makes plans in hopes that Skypaw will get involved. (high positive effect) - Whiskerleg was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2740,12 +2803,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 6,
+        "comfort": 6,
+        "trust": 16,
+        "log": [
+            "Whiskerleg tells Redswirl to count on her in a difficult situation. (high positive effect) - Whiskerleg was 45 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2793,13 +2862,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Whiskerleg heard about how Endothermic's patrol drove off a scavenging fox. (positive effect) - Whiskerleg was 43 moons old"
+            "Whiskerleg heard about how Endothermic's patrol drove off a scavenging fox. (positive effect) - Whiskerleg was 43 moons old",
+            "Whiskerleg heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2990,6 +3062,34 @@
     {
         "cat_from_id": "138",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 8,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

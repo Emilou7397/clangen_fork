@@ -583,12 +583,15 @@
         "romance": 0,
         "like": 10,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
-            "Swallowstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Swallowstripe was 21 moons old"
+            "Swallowstripe and Mossflight worked together to gather juniper needles and oak leaves. (positive effect) - Swallowstripe was 21 moons old",
+            "Swallowstripe was being condescending towards Mossflight all day long. (low negative effect) - Swallowstripe was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -732,11 +735,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Swallowstripe heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 18 moons old"
+            "Swallowstripe heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 18 moons old",
+            "Swallowstripe disapproved of Fleadusk wearing a collar. (negative effect) - Swallowstripe was 46 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1150,12 +1154,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 26,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -1324,9 +1330,9 @@
         "cat_to_id": "109",
         "mates": false,
         "family": false,
-        "romance": 12,
+        "romance": 18,
         "like": -28,
-        "respect": -2,
+        "respect": 2,
         "comfort": -8,
         "trust": -16,
         "log": [
@@ -1466,16 +1472,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": -16,
         "comfort": 3,
         "trust": 1,
         "log": [
             "Shadowpaw gives Swallowpaw something that he dropped. (low positive effect) - Swallowpaw was 7 moons old",
             "Swallowpaw and Shadowpaw enjoyed practicing new battle moves together. (positive effect) - Swallowpaw was 9 moons old",
-            "Swallowstripe scolds Shadowfreckle about something he did, but Shadowfreckle doesn't take him seriously. (high negative effect) - Swallowstripe was 35 moons old"
+            "Swallowstripe scolds Shadowfreckle about something he did, but Shadowfreckle doesn't take him seriously. (high negative effect) - Swallowstripe was 35 moons old",
+            "Shadowfreckle flicked some sand over Swallowstripe's fresh-kill while he was eating. (medium negative effect) - Swallowstripe was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -1500,14 +1509,18 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Swallowpaw heard that Wavepaw chased a rogue off the territory. (positive effect) - Swallowpaw was 9 moons old",
-            "Swallowstripe heard that Wavelight touched noses with a loner. (negative effect) - Swallowstripe was 12 moons old"
+            "Swallowstripe heard that Wavelight touched noses with a loner. (negative effect) - Swallowstripe was 12 moons old",
+            "Swallowstripe gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Swallowstripe was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -1816,10 +1829,10 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 8,
-        "respect": -4,
-        "comfort": -10,
-        "trust": -1,
+        "like": 5,
+        "respect": -8,
+        "comfort": -12,
+        "trust": 6,
         "log": [
             "Bravekit doesn't want to apologize to Swallowkit for something. (medium negative effect) - Swallowkit was 5 moons old",
             "Swallowpaw can't seem to get a straight answer from Bravepaw lately. (medium negative effect) - Swallowpaw was 7 moons old",
@@ -1827,9 +1840,15 @@
             "Braveocean doesn't say sorry when bumping into Swallowstripe. (low negative effect) - Swallowstripe was 27 moons old",
             "Braveocean vents about something trivial to Swallowstripe. (low positive effect) - Swallowstripe was 29 moons old",
             "Swallowstripe gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Swallowstripe was 40 moons old",
-            "Braveocean tripped Swallowstripe. Swallowstripe doubts it was an accident. (medium negative effect) - Swallowstripe was 42 moons old"
+            "Braveocean tripped Swallowstripe. Swallowstripe doubts it was an accident. (medium negative effect) - Swallowstripe was 42 moons old",
+            "Swallowstripe lied to Braveocean's face. (high negative effect) - Swallowstripe was 46 moons old",
+            "Braveocean helps Swallowstripe hide from a Clanmate. (low positive effect) - Swallowstripe was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -1997,9 +2016,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Swallowstripe was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Swallowstripe was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2054,13 +2077,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Swallowstripe heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Swallowstripe was 23 moons old"
+            "Swallowstripe heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Swallowstripe was 23 moons old",
+            "Swallowstripe heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2068,12 +2095,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2129,16 +2158,19 @@
         "like": -5,
         "respect": -20,
         "comfort": 8,
-        "trust": -20,
+        "trust": -25,
         "log": [
             "Swallowstripe heard that Shinebelly caught a rabbit from across the border. (negative effect) - Swallowstripe was 21 moons old",
             "Swallowstripe and Shinebelly can't seem to agree on the truth about something. (medium negative effect) - Swallowstripe was 26 moons old",
             "Swallowstripe heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Swallowstripe was 40 moons old",
             "Swallowstripe disapproved of Shinebelly wearing a collar. (negative effect) - Swallowstripe was 43 moons old",
-            "Swallowstripe thinks Shinebelly has been acting strangely. (low negative effect) - Swallowstripe was 44 moons old"
+            "Swallowstripe thinks Shinebelly has been acting strangely. (low negative effect) - Swallowstripe was 44 moons old",
+            "Swallowstripe heard Shinebelly fell asleep guarding camp. (negative effect) - Swallowstripe was 45 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "trust",
+            "respect",
+            "comfort"
         ]
     },
     {
@@ -2455,11 +2487,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Swallowstripe heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2468,13 +2504,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Swallowstripe wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Swallowstripe was 33 moons old"
+            "Swallowstripe wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Swallowstripe was 33 moons old",
+            "Swallowstripe heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2742,11 +2782,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Swallowstripe heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Swallowstripe was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "139",
@@ -2939,6 +2983,32 @@
     {
         "cat_from_id": "139",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "139",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "139",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

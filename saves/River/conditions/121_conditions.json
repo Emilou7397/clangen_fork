@@ -1,26 +1,21 @@
 {
-    "illnesses": {
-        "grief stricken": {
+    "injuries": {
+        "bite-wound": {
             "severity": "major",
-            "mortality": 0,
-            "infectiousness": 0,
-            "duration": 2,
-            "moon_start": 142,
+            "mortality": 64,
+            "duration": 3,
+            "moon_start": 145,
+            "illness_infectiousness": [],
             "risks": [
                 {
-                    "name": "lasting grief",
-                    "chance": 115
-                },
-                {
-                    "name": "constant nightmares",
-                    "chance": 30
-                },
-                {
-                    "name": "selective mutism",
-                    "chance": 165
+                    "name": "an infected wound",
+                    "chance": 15
                 }
             ],
-            "event_triggered": false
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": []
         }
     },
     "permanent conditions": {
@@ -34,11 +29,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 220
+                    "chance": 233
                 },
                 {
                     "name": "joint pain",
-                    "chance": 222
+                    "chance": 235
                 }
             ],
             "complication": null,

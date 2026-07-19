@@ -827,11 +827,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Dancingfleck heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 36 moons old"
+            "Dancingfleck heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 36 moons old",
+            "Dancingfleck disapproved of Fleadusk wearing a collar. (negative effect) - Dancingfleck was 63 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1186,15 +1187,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
-        "respect": -2,
-        "comfort": 0,
-        "trust": 0,
+        "like": -17,
+        "respect": -8,
+        "comfort": -4,
+        "trust": -16,
         "log": [
             "Dancingfleck heard about how Gracklefur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 37 moons old",
-            "Gracklefur returned to the warrior's den dripping mud everywhere and managed to ruin Ospreyspeckle and Dancingfleck's nests. (negative effect) - Dancingfleck was 37 moons old"
+            "Gracklefur returned to the warrior's den dripping mud everywhere and managed to ruin Ospreyspeckle and Dancingfleck's nests. (negative effect) - Dancingfleck was 37 moons old",
+            "Dancingfleck goes to tell a secret to Gracklefur only for Gracklefur to tell someone else's secret to him. (high negative effect) - Dancingfleck was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1250,16 +1256,22 @@
         "romance": 0,
         "like": -6,
         "respect": -13,
-        "comfort": 3,
+        "comfort": 8,
         "trust": -18,
         "log": [
             "Dancingfleck heard Voletuft fell asleep guarding camp. (negative effect) - Dancingfleck was 12 moons old",
             "Dancingfleck and Voletuft enjoy the rain together. (low positive effect) - Dancingfleck was 17 moons old",
             "Dancingfleck shares a piece of fresh-kill with Voletuft. (medium positive effect) - Dancingfleck was 30 moons old",
             "Dancingfleck feels like Voletuft has been quieter than usual. (low negative effect) - Dancingfleck was 36 moons old",
-            "Dancingfleck thinks Voletuft looks nicer than him today. (low negative effect) - Dancingfleck was 53 moons old"
+            "Dancingfleck thinks Voletuft looks nicer than him today. (low negative effect) - Dancingfleck was 53 moons old",
+            "Dancingfleck enjoyed the chat Voletuft started up with a BugClan patrol. (positive effect) - Dancingfleck was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -1713,17 +1725,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 13,
+        "like": 41,
+        "respect": 23,
+        "comfort": 16,
+        "trust": 34,
         "log": [
             "Dancingfleck heard that Wavepaw chased a rogue off the territory. (positive effect) - Dancingfleck was 28 moons old",
             "Dancingfleck and Wavelight were reminded of each other's competence while training together. (positive effect) - Dancingfleck was 30 moons old",
-            "Dancingfleck heard that Wavelight touched noses with a loner. (negative effect) - Dancingfleck was 31 moons old"
+            "Dancingfleck heard that Wavelight touched noses with a loner. (negative effect) - Dancingfleck was 31 moons old",
+            "Dancingfleck eats with Wavelight all the time! (high positive effect) - Dancingfleck was 64 moons old",
+            "Dancingfleck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Dancingfleck was 64 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -1926,19 +1943,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 30,
-        "respect": 20,
-        "comfort": 0,
-        "trust": 8,
+        "like": 46,
+        "respect": 24,
+        "comfort": 4,
+        "trust": 12,
         "log": [
             "Dancingfleck finds his feelings conflicted towards the new family addition. (neutral effect) - Dancingfleck was 17 moons old",
             "Dancingfleck gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Dancingfleck was 36 moons old",
             "Dancingfleck heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 38 moons old",
             "Dancingfleck saw Moletooth the other day and did get a chance to meow hello! (medium positive effect) - Dancingfleck was 49 moons old",
             "Moletooth mentions that Dancingfleck looks good today. (low positive effect) - Dancingfleck was 55 moons old",
-            "Dancingfleck and Moletooth drove off rogues together. (positive effect) - Dancingfleck was 57 moons old"
+            "Dancingfleck and Moletooth drove off rogues together. (positive effect) - Dancingfleck was 57 moons old",
+            "Dancingfleck wants to spend more time with Moletooth! (high positive effect) - Dancingfleck was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2137,11 +2159,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dancingfleck was highly impressed by how Creekmoss used a squirrel and rattlesnake's fight to sneakily kill both pieces of prey. (positive effect) - Dancingfleck was 63 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2202,9 +2228,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Dancingfleck was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Dancingfleck was 64 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2262,14 +2292,20 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 10,
         "comfort": -8,
         "trust": -10,
         "log": [
             "Dancingfleck heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Dancingfleck was 41 moons old",
-            "Dancingfleck chats quietly with Terabyte while they're both on camp guard duty. (medium positive effect) - Dancingfleck was 61 moons old"
+            "Dancingfleck chats quietly with Terabyte while they're both on camp guard duty. (medium positive effect) - Dancingfleck was 61 moons old",
+            "Dancingfleck heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2291,13 +2327,15 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": -3,
+        "respect": -11,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Ospreyspeckle has noticed tensions in the Clan, so she organizes time for Brindlekit, Dancingfleck, Nymphshine, and Brindletooth to relax and have others to talk to. (positive effect) - Dancingfleck was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2339,13 +2377,16 @@
         "like": -5,
         "respect": -20,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Dancingfleck heard that Shinebelly caught a rabbit from across the border. (negative effect) - Dancingfleck was 39 moons old",
             "Dancingfleck heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Dancingfleck was 58 moons old",
-            "Dancingfleck disapproved of Shinebelly wearing a collar. (negative effect) - Dancingfleck was 61 moons old"
+            "Dancingfleck disapproved of Shinebelly wearing a collar. (negative effect) - Dancingfleck was 61 moons old",
+            "Dancingfleck heard Shinebelly fell asleep guarding camp. (negative effect) - Dancingfleck was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2413,15 +2454,18 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": -3,
+        "respect": -6,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Dancingfleck heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 36 moons old",
             "Minnowlily lost his temper with Dancingfleck when Dancingfleck trampled a crucial catmint plant in his excitement about the herb. (negative effect) - Dancingfleck was 52 moons old",
-            "Minnowlily keeps asking Dancingfleck silly questions. (low negative effect) - Dancingfleck was 55 moons old"
+            "Minnowlily keeps asking Dancingfleck silly questions. (low negative effect) - Dancingfleck was 55 moons old",
+            "Dancingfleck complains about something Minnowlily did. (low negative effect) - Dancingfleck was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2680,11 +2724,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 13,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dancingfleck heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 62 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2693,13 +2742,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Dancingfleck wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Dancingfleck was 51 moons old"
+            "Dancingfleck wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Dancingfleck was 51 moons old",
+            "Dancingfleck heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 62 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -2973,11 +3026,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dancingfleck heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dancingfleck was 62 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "96",
@@ -3168,6 +3225,32 @@
     {
         "cat_from_id": "96",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "96",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

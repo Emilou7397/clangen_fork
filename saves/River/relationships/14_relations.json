@@ -1317,15 +1317,19 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 15,
+        "respect": 5,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Diablofoot, Fleadusk, and Carptail took a sunbath and had a little small talk. (positive effect)- Carptail was 58 moons old",
             "Carptail heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 97 moons old",
-            "Carptail and Fleadusk worked together to gather mullein and thyme. (positive effect) - Carptail was 120 moons old"
+            "Carptail and Fleadusk worked together to gather mullein and thyme. (positive effect) - Carptail was 120 moons old",
+            "Carptail disapproved of Fleadusk wearing a collar. (negative effect) - Carptail was 125 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -1353,7 +1357,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
+        "like": 27,
         "respect": 25,
         "comfort": -3,
         "trust": 0,
@@ -1361,9 +1365,13 @@
             "Carptail heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 97 moons old",
             "Skulkwillow reminds Carptail to grab something from the fresh-kill pile if he hasn't already. (medium positive effect) - Carptail was 98 moons old",
             "Carptail and Skulkwillow worked together to gather mullein and thyme. (positive effect) - Carptail was 120 moons old",
-            "Carptail heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old"
+            "Carptail heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old",
+            "Carptail and Skulkwillow successfully gathered burdock together. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -1432,14 +1440,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 19,
+        "like": 29,
         "respect": 10,
         "comfort": 10,
         "trust": 2,
         "log": [
             "Cobaltstrike, Carptail, and Elmtrail had a nice talk while eating. (positive effect)- Carptail was 71 moons old",
             "Carptail and Elmtrail successfully gathered herbs together despite the rainy weather. (positive effect) - Carptail was 109 moons old",
-            "Carptail is happy to run into Elmtrail today. (high positive effect) - Carptail was 123 moons old"
+            "Carptail is happy to run into Elmtrail today. (high positive effect) - Carptail was 123 moons old",
+            "Carptail and Elmtrail successfully gathered burdock together. (positive effect) - Carptail was 123 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1453,7 +1462,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 19,
+        "like": 29,
         "respect": 41,
         "comfort": 12,
         "trust": 6,
@@ -1462,9 +1471,15 @@
             "Carptail is amazed at how skilled Brindletooth really is. (high positive effect) - Carptail was 94 moons old",
             "Carptail heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 97 moons old",
             "Carptail and Brindletooth worked together to gather mullein and thyme. (positive effect) - Carptail was 120 moons old",
-            "Carptail heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old"
+            "Carptail heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old",
+            "Carptail and Brindletooth successfully gathered burdock together. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2000,7 +2015,7 @@
         "family": false,
         "romance": 0,
         "like": 14,
-        "respect": 21,
+        "respect": 29,
         "comfort": 18,
         "trust": -4,
         "log": [
@@ -2009,9 +2024,12 @@
             "Carptail and Hollyheart fight over a piece of prey, but soon decide to share it instead. (high positive effect) - Carptail was 80 moons old",
             "Hollyheart gives Carptail something that he dropped. (low positive effect) - Carptail was 111 moons old",
             "Though Carptail wasn't thrilled to be gathering foul-smelling ragwort with Hollyheart, Hollyheart was highly appreciative. (positive effect) - Carptail was 112 moons old",
-            "Carptail wants Hollyheart to stay safe and happy. (high positive effect) - Carptail was 122 moons old"
+            "Carptail wants Hollyheart to stay safe and happy. (high positive effect) - Carptail was 122 moons old",
+            "Carptail sees Hollyheart help a Clanmate get unstuck from some brambles. (low positive effect) - Carptail was 125 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2116,15 +2134,21 @@
         "cat_to_id": "110",
         "mates": false,
         "family": false,
-        "romance": 21,
-        "like": 8,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 42,
+        "like": 15,
+        "respect": 7,
+        "comfort": 7,
+        "trust": 7,
         "log": [
-            "Carptail can't help but admire Nightglow's pelt. (low positive effect) - Carptail was 115 moons old"
+            "Carptail can't help but admire Nightglow's pelt. (low positive effect) - Carptail was 115 moons old",
+            "Carptail rolls around in some herbs after hearing Nightglow likes their smell. (high positive effect) - Carptail was 124 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2243,16 +2267,22 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 15,
         "comfort": 10,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Carptail heard that Wavepaw chased a rogue off the territory. (positive effect) - Carptail was 89 moons old",
             "Carptail heard that Wavelight touched noses with a loner. (negative effect) - Carptail was 92 moons old",
             "Carptail supported Carptail when he had a difficult time on patrol. (positive effect) - Carptail was 121 moons old",
-            "Carptail and Wavelight successfully gathered berries together. (positive effect) - Carptail was 121 moons old"
+            "Carptail and Wavelight successfully gathered berries together. (positive effect) - Carptail was 121 moons old",
+            "Carptail gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Carptail was 125 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2704,11 +2734,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 12,
-        "trust": 0,
+        "trust": -15,
         "log": [
-            "Miteleaf helps Carptail pick burrs out of his fur. (medium positive effect) - Carptail was 104 moons old"
+            "Miteleaf helps Carptail pick burrs out of his fur. (medium positive effect) - Carptail was 104 moons old",
+            "Carptail was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Carptail was 125 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2763,13 +2797,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Carptail heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Carptail was 102 moons old"
+            "Carptail heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Carptail was 102 moons old",
+            "Carptail heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -2841,13 +2879,16 @@
         "like": -5,
         "respect": -20,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Carptail heard that Shinebelly caught a rabbit from across the border. (negative effect) - Carptail was 100 moons old",
             "Carptail heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Carptail was 119 moons old",
-            "Carptail disapproved of Shinebelly wearing a collar. (negative effect) - Carptail was 122 moons old"
+            "Carptail disapproved of Shinebelly wearing a collar. (negative effect) - Carptail was 122 moons old",
+            "Carptail heard Shinebelly fell asleep guarding camp. (negative effect) - Carptail was 124 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3027,16 +3068,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 34,
+        "like": 44,
         "respect": 2,
         "comfort": 28,
         "trust": -3,
         "log": [
             "Carptail finds his feelings conflicted towards the new family addition. (neutral effect) - Carptail was 100 moons old",
             "Howlpaw mentions that Carptail looks good today. (low positive effect) - Carptail was 109 moons old",
-            "Carptail heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old"
+            "Carptail heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 121 moons old",
+            "Carptail and Howlsky successfully gathered burdock together. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3104,12 +3149,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Carptail and Brindlesplash successfully gathered burdock together. (positive effect) - Carptail was 123 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3177,11 +3226,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Carptail heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 123 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3190,13 +3243,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Carptail wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Carptail was 112 moons old"
+            "Carptail wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Carptail was 112 moons old",
+            "Carptail heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3293,11 +3350,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 12,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Carptail and Stagpaw take turns in a small patch of sunlight. (medium positive effect) - Carptail was 125 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3483,13 +3545,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -12,
         "log": [
-            "Endothermic keeps making excuses about something Carptail wants to know. (medium negative effect) - Carptail was 121 moons old"
+            "Endothermic keeps making excuses about something Carptail wants to know. (medium negative effect) - Carptail was 121 moons old",
+            "Carptail heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Carptail was 123 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3512,7 +3578,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -3588,12 +3654,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -16,
+        "respect": -5,
+        "comfort": -6,
+        "trust": -6,
+        "log": [
+            "Carptail and Edelweisskit are arguing about something important and risking the Clan's safety. (high negative effect) - Carptail was 124 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3692,6 +3764,32 @@
         "log": [
             "Carptail is excited for his family to grow further. (positive effect) - Carptail was 122 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "14",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "14",
+        "cat_to_id": "248",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

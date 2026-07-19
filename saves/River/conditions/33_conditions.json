@@ -1,4 +1,68 @@
 {
+    "illnesses": {
+        "grief stricken": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 0,
+            "moon_start": 145,
+            "risks": [
+                {
+                    "name": "lasting grief",
+                    "chance": 112
+                },
+                {
+                    "name": "constant nightmares",
+                    "chance": 27
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 162
+                }
+            ],
+            "event_triggered": false
+        },
+        "an infected wound": {
+            "severity": "major",
+            "mortality": 19,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 145,
+            "risks": [
+                {
+                    "name": "a festering wound",
+                    "chance": 22
+                }
+            ],
+            "event_triggered": false
+        }
+    },
+    "injuries": {
+        "claw-wound": {
+            "severity": "major",
+            "mortality": 69,
+            "duration": 3,
+            "moon_start": 144,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 7
+                }
+            ],
+            "complication": "infected",
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": [
+                "BACK",
+                "BEAKLOWER",
+                "BEAKSIDE",
+                "HINDLEG",
+                "ONE",
+                "TWO"
+            ]
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +74,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 87
+                    "chance": 104
                 },
                 {
                     "name": "joint pain",
-                    "chance": 110
+                    "chance": 127
                 }
             ],
             "complication": null,

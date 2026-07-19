@@ -406,7 +406,7 @@
         "cat_to_id": "26",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 0,
         "respect": 0,
         "comfort": -8,
@@ -873,9 +873,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 68,
+        "like": 92,
         "respect": 59,
-        "comfort": 95,
+        "comfort": 100,
         "trust": 71,
         "log": [
             "Murkkit and Skulkkit share little secrets about themselves. (medium positive effect)- Murkkit was 1 moon old",
@@ -897,9 +897,16 @@
             "Murkhaven and Skulkwillow worked together to gather plantain. (positive effect) - Murkhaven was 51 moons old",
             "Murkhaven heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 52 moons old",
             "Murkhaven and Skulkwillow successfully gathered daisies together. (positive effect) - Murkhaven was 54 moons old",
-            "Murkhaven heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 76 moons old"
+            "Murkhaven heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 76 moons old",
+            "Skulkwillow convinces Shinefur, Frondpad, Murkhaven, and Silkymunch to wind down and stretch with him. (positive effect) - Murkhaven was 79 moons old",
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -907,12 +914,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -4,
+        "comfort": -6,
+        "trust": -16,
+        "log": [
+            "Diablofoot uses one of Murkhaven's fears against them. (high negative effect) - Murkhaven was 80 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -963,10 +975,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 94,
-        "respect": 68,
-        "comfort": 2,
-        "trust": 46,
+        "like": 100,
+        "respect": 75,
+        "comfort": 9,
+        "trust": 67,
         "log": [
             "Brindlepaw calls out the Clan for targeting Murkhaven. (high positive effect)- Murkhaven was 14 moons old",
             "Murkhaven and Brindletooth relaxed with a casual training session and a chat. (positive effect)- Murkhaven was 21 moons old",
@@ -984,9 +996,15 @@
             "Icyriver started a huge argument between Murkhaven and Brindletooth. (negative effect) - Murkhaven was 54 moons old",
             "Murkhaven and Brindletooth successfully gathered daisies together. (positive effect) - Murkhaven was 54 moons old",
             "Murkhaven sees Brindletooth put something back where it belongs. (low positive effect) - Murkhaven was 59 moons old",
-            "Murkhaven heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 76 moons old"
+            "Murkhaven heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 76 moons old",
+            "Murkhaven tells Brindletooth a deep, dark secret. (high positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1011,9 +1029,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 39,
+        "like": 51,
         "respect": 13,
-        "comfort": 45,
+        "comfort": 57,
         "trust": 38,
         "log": [
             "Nobody ever said kitsitting was easy, but Murkpaw thought that Sardinekit, Talonkit, Elmkit, and Heavykit would be easier to watch than they actually are. (negative effect)- Murkpaw was 8 moons old",
@@ -1022,9 +1040,15 @@
             "Murkhaven and Sardinespeckle worked on their skills together on a training patrol. (positive effect)- Murkhaven was 25 moons old",
             "Murkhaven and Sardinespeckle practiced their hunting together. (positive effect) - Murkhaven was 31 moons old",
             "Murkhaven and Sardinespeckle took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Murkhaven was 40 moons old",
-            "Sardinespeckle, Warmswirl, and Murkhaven had a nice talk while eating. (positive effect) - Murkhaven was 73 moons old"
+            "Sardinespeckle, Warmswirl, and Murkhaven had a nice talk while eating. (positive effect) - Murkhaven was 73 moons old",
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1032,17 +1056,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
+        "like": 27,
         "respect": 18,
-        "comfort": 13,
+        "comfort": 25,
         "trust": 15,
         "log": [
             "Murkhaven heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Murkhaven was 20 moons old",
             "Murkhaven and Shinefur worked on their skills together on a training patrol. (positive effect)- Murkhaven was 25 moons old",
             "Murkhaven had a good dream about Shinefur. (low positive effect)- Murkhaven was 27 moons old",
-            "Murkhaven and Shinefur practiced their hunting together. (positive effect) - Murkhaven was 42 moons old"
+            "Murkhaven and Shinefur practiced their hunting together. (positive effect) - Murkhaven was 42 moons old",
+            "Skulkwillow convinces Shinefur, Frondpad, Murkhaven, and Silkymunch to wind down and stretch with him. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1069,9 +1099,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 25,
+        "like": 37,
         "respect": 99,
-        "comfort": 33,
+        "comfort": 45,
         "trust": 36,
         "log": [
             "Murkhaven shares nest material with Frondpad. (medium positive effect)- Murkhaven was 19 moons old",
@@ -1083,9 +1113,15 @@
             "Murkhaven and Frondpad practiced their hunting together. (positive effect) - Murkhaven was 42 moons old",
             "Murkhaven was impressed by how Frondpad invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Murkhaven was 43 moons old",
             "Murkhaven was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Murkhaven was 46 moons old",
-            "Murkhaven and Frondpad debated something interesting for hours yesterday. (high positive effect) - Murkhaven was 69 moons old"
+            "Murkhaven and Frondpad debated something interesting for hours yesterday. (high positive effect) - Murkhaven was 69 moons old",
+            "Skulkwillow convinces Shinefur, Frondpad, Murkhaven, and Silkymunch to wind down and stretch with him. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1178,10 +1214,10 @@
         "cat_to_id": "80",
         "mates": true,
         "family": false,
-        "romance": 48,
-        "like": 29,
-        "respect": 53,
-        "comfort": 46,
+        "romance": 64,
+        "like": 33,
+        "respect": 57,
+        "comfort": 51,
         "trust": 100,
         "log": [
             "Poolpaw leaped to Murkhaven's defense when she saw a dog attacking them. (positive effect)- Murkhaven was 19 moons old",
@@ -1197,9 +1233,15 @@
             "Poolleaf won't keep her mouth shut during the Gathering. Murkhaven, Snakedrop, and Pheasantbrush can barely hear the leader's announcements! (negative effect) - Murkhaven was 49 moons old",
             "Poolleaf helps Murkhaven fix a matted piece of fur on their back. (medium positive effect) - Murkhaven was 53 moons old",
             "Murkhaven was caught enjoying a moonlit stroll with Poolleaf last night... (high positive effect) - Murkhaven was 66 moons old",
-            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Murkhaven was 69 moons old"
+            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Murkhaven was 69 moons old",
+            "Murkhaven and Poolleaf have been sickeningly lovey-dovey all day. (high positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1335,13 +1377,17 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 0,
-        "comfort": 8,
+        "respect": 17,
+        "comfort": 21,
         "trust": 0,
         "log": [
-            "Saltpaw, Algaepool, and Murkhaven had a nice talk while eating. (positive effect)- Murkhaven was 20 moons old"
+            "Saltpaw, Algaepool, and Murkhaven had a nice talk while eating. (positive effect)- Murkhaven was 20 moons old",
+            "Murkhaven and Saltknoll bring each other prey. (medium positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1892,14 +1938,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 20,
         "respect": 13,
-        "comfort": 8,
+        "comfort": 20,
         "trust": 0,
         "log": [
-            "Verbenabloom, Murkhaven, and Silkymunch took a sunbath and had a little small talk. (positive effect) - Murkhaven was 48 moons old"
+            "Verbenabloom, Murkhaven, and Silkymunch took a sunbath and had a little small talk. (positive effect) - Murkhaven was 48 moons old",
+            "Skulkwillow convinces Shinefur, Frondpad, Murkhaven, and Silkymunch to wind down and stretch with him. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2234,13 +2285,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Murkhaven heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Murkhaven was 57 moons old"
+            "Murkhaven heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Murkhaven was 57 moons old",
+            "Murkhaven heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2289,15 +2344,17 @@
         "cat_to_id": "145",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Murkhaven heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Murkhaven was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2374,9 +2431,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
+        "like": 39,
         "respect": 22,
-        "comfort": 12,
+        "comfort": 24,
         "trust": -12,
         "log": [
             "Murkhaven and Minnowlily worked together to gather plantain. (positive effect) - Murkhaven was 51 moons old",
@@ -2384,9 +2441,15 @@
             "Murkhaven appreciates Archbellow, Meadowspots, Heathbeetle, and Minnowlily joining them to stretch late into the night so they wouldn't be alone. (positive effect) - Murkhaven was 54 moons old",
             "Murkhaven doesn't think that Minnowlily's intentions are all pure. (medium negative effect) - Murkhaven was 54 moons old",
             "Murkhaven and Minnowlily successfully gathered daisies together. (positive effect) - Murkhaven was 54 moons old",
-            "Murkhaven and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Murkhaven was 55 moons old"
+            "Murkhaven and Minnowlily successfully gathered herbs together despite the rainy weather. (positive effect) - Murkhaven was 55 moons old",
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2464,14 +2527,18 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Murkhaven is admiring Heathstripe from afar... (low positive effect) - Murkhaven was 65 moons old"
+            "Murkhaven is admiring Heathstripe from afar... (low positive effect) - Murkhaven was 65 moons old",
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2655,11 +2722,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Murkhaven heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 78 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2668,13 +2739,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 12,
         "trust": 12,
         "log": [
-            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Murkhaven was 68 moons old"
+            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Murkhaven was 68 moons old",
+            "Murkhaven heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2770,12 +2846,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 29,
         "trust": 12,
         "log": [
-            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Murkhaven was 68 moons old"
+            "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Murkhaven was 68 moons old",
+            "Stagpaw doesn't judge Murkhaven for being anxious about a bad dream. (medium positive effect) - Murkhaven was 80 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2940,11 +3019,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Murkhaven heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 78 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -3147,6 +3230,32 @@
     {
         "cat_from_id": "65",
         "cat_to_id": "246",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "247",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "248",
         "mates": false,
         "family": false,
         "romance": 0,

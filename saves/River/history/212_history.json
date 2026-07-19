@@ -10,16 +10,28 @@
             "224": {
                 "stability": 2,
                 "lawfulness": 4,
-                "aggression": 4
+                "aggression": 4,
+                "strings": [
+                    "stay collected",
+                    "heed {PRONOUN\/m_c\/poss} inner compass",
+                    "defend {PRONOUN\/m_c\/poss} beliefs"
+                ]
             }
         },
         "skill": {
             "224": {
-                "TEACHER": 13
+                "TEACHER": 13,
+                "strings": [
+                    "teaching"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "maturity",
+        "graduation_age": 14,
+        "moon": 144
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
