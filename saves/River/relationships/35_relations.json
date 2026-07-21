@@ -667,7 +667,7 @@
         "family": false,
         "romance": 100,
         "like": 100,
-        "respect": 38,
+        "respect": 43,
         "comfort": 100,
         "trust": 74,
         "log": [
@@ -702,7 +702,8 @@
             "Quailfur and Bitebone were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Quailfur was 108 moons old",
             "Quailfur purrs for a long time at one of Bitebone's lame jokes. (high positive effect) - Quailfur was 109 moons old",
             "Quailfur and Bitebone successfully gathered dandelions and wild garlic together. (positive effect) - Quailfur was 111 moons old",
-            "Quailfur and Bitebone worked together to gather plantain. (positive effect) - Quailfur was 113 moons old"
+            "Quailfur and Bitebone worked together to gather plantain. (positive effect) - Quailfur was 113 moons old",
+            "Quailfur and Bitebone worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -934,19 +935,6 @@
     },
     {
         "cat_from_id": "35",
-        "cat_to_id": "40",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "35",
         "cat_to_id": "37",
         "mates": false,
         "family": false,
@@ -969,9 +957,7 @@
             "Quailfur feels ignored by Saffronfoot. (low negative effect) - Quailfur was 97 moons old",
             "Quailfur had a terrible dream about Saffronfoot. (medium negative effect) - Quailfur was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1018,8 +1004,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 35,
-        "respect": 0,
+        "like": 40,
+        "respect": 5,
         "comfort": 49,
         "trust": 1,
         "log": [
@@ -1035,9 +1021,13 @@
             "Quailfur and Gardeniaglow enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Quailfur was 68 moons old",
             "Spittle and flecks of bone fly while Gardeniaglow gobbles down prey, reminding Silkypaw, Carnationpaw, Ospreypaw, and Quailfur to seek out better mealtime companionship next time. (negative effect) - Quailfur was 80 moons old",
             "Quailfur and Gardeniaglow often look at each other and smile knowingly about something. (low positive effect) - Quailfur was 87 moons old",
-            "Quailfur heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 110 moons old"
+            "Quailfur heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 110 moons old",
+            "Quailfur and Gardeniaglow worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1045,17 +1035,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 24,
-        "respect": 3,
+        "like": 29,
+        "respect": 8,
         "comfort": 31,
         "trust": 0,
         "log": [
             "Gardeniaglow appreciates Burrweb, Quailfur, Mossflight, and Curryfoot joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Quailfur was 40 moons old",
             "Gardeniaglow, Quailfur, Mossflight, Burrweb, and Freezefoot hang out while stretching. (positive effect)- Quailfur was 44 moons old",
             "Quailfur mews congratulations to Mossflight for a job well done. (low positive effect) - Quailfur was 98 moons old",
-            "Mossflight saves the funniest jokes for Quailfur. (medium positive effect) - Quailfur was 105 moons old"
+            "Mossflight saves the funniest jokes for Quailfur. (medium positive effect) - Quailfur was 105 moons old",
+            "Quailfur and Mossflight worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1226,11 +1221,7 @@
             "Quailfur appreciates Peakspore, Verbenabloom, Bitterleaf, and Fidgetmouse joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Quailfur was 105 moons old",
             "Quailfur defends Verbenabloom in conversations. (high positive effect) - Quailfur was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1552,12 +1543,7 @@
             "Poolpaw rolled her eyes after Quailfur asked for help. (low negative effect)- Quailfur was 49 moons old",
             "Quailfur noticed how successful Poolleaf's hunting patrol was. (positive effect) - Quailfur was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1814,12 +1800,7 @@
             "Quailfur knows that Snakedrop is hiding something. (medium negative effect) - Quailfur was 66 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Quailfur. (positive effect) - Quailfur was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "like",
-            "comfort",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2066,9 +2047,7 @@
         "log": [
             "Quailfur is wowed by how bravely Wavelight fought the other day. (high positive effect) - Quailfur was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2186,9 +2165,7 @@
         "log": [
             "Quailfur can't stand being around Gorgehunt. (high negative effect) - Quailfur was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2555,9 +2532,7 @@
         "log": [
             "Lilynoise forgot something that Quailfur asked her to remember. (low negative effect) - Quailfur was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2590,11 +2565,7 @@
             "Quailfur heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Quailfur was 91 moons old",
             "Quailfur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2666,10 +2637,7 @@
             "Quailfur smells something strange on Shinebelly. (low negative effect) - Quailfur was 101 moons old",
             "Quailfur and Shinebelly successfully gathered dandelions and wild garlic together. (positive effect) - Quailfur was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2731,8 +2699,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 24,
+        "like": 20,
+        "respect": 29,
         "comfort": 5,
         "trust": 0,
         "log": [
@@ -2742,7 +2710,8 @@
             "Quailfur wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Quailfur was 96 moons old",
             "Quailfur, Diablofoot, and Minnowlily took a sunbath and had a little small talk. (positive effect) - Quailfur was 101 moons old",
             "Quailfur and Minnowlily were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Quailfur was 108 moons old",
-            "Quailfur and Minnowlily worked together to gather plantain. (positive effect) - Quailfur was 113 moons old"
+            "Quailfur and Minnowlily worked together to gather plantain. (positive effect) - Quailfur was 113 moons old",
+            "Quailfur and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2764,10 +2733,7 @@
             "Coquitostep's caution and clever thinking helped Quailfur's patrol use a gray fox to distract prey during a hunt. (positive effect) - Quailfur was 104 moons old",
             "Quailfur and Coquitostep successfully gathered dandelions and wild garlic together. (positive effect) - Quailfur was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -2843,11 +2809,7 @@
             "Quailfur and Heathstripe successfully gathered dandelions and wild garlic together. (positive effect) - Quailfur was 111 moons old",
             "Heathstripe made sure that Quailfur was alright after a difficult patrol. (positive effect) - Quailfur was 111 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3014,9 +2976,7 @@
             "Quailfur heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old",
             "Quailfur and Flightspot worked together to gather plantain. (positive effect) - Quailfur was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3031,9 +2991,7 @@
         "log": [
             "Quailfur heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3058,11 +3016,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Quailfur and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3303,9 +3263,7 @@
         "log": [
             "Quailfur heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3334,9 +3292,7 @@
             "Quailfur and Tallneedle worked together to gather plantain. (positive effect) - Quailfur was 113 moons old",
             "Quailfur is jealous that Tallneedle got to go to the last Gathering. (medium negative effect) - Quailfur was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3392,9 +3348,7 @@
         "comfort": 0,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3529,6 +3483,19 @@
     {
         "cat_from_id": "35",
         "cat_to_id": "248",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "251",
         "mates": false,
         "family": false,
         "romance": 0,
