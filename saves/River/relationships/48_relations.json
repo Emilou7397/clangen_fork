@@ -78,14 +78,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 7,
         "comfort": 8,
-        "trust": 8,
+        "trust": 3,
         "log": [
             "Heatherfern says something vulnerable to Mosspaw. (low positive effect)- Mosspaw was 8 moons old",
-            "Mossflight can't remember a word for the life of her, but Heatherfern helps her remember it. (medium positive effect) - Mossflight was 43 moons old"
+            "Mossflight can't remember a word for the life of her, but Heatherfern helps her remember it. (medium positive effect) - Mossflight was 43 moons old",
+            "Mossflight heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Mossflight was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -135,9 +139,7 @@
         "log": [
             "Mossflight heard a story about something kind Stoatshade did. (low positive effect) - Mossflight was 92 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -210,11 +212,7 @@
             "An issue becomes benign when Mossflight remembers Ochretail's advice. (medium positive effect) - Mossflight was 66 moons old",
             "Mossflight heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Mossflight was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -811,9 +809,7 @@
             "Mossflight and Freezefoot took a lovely nap together instead of patrolling. (positive effect) - Mossflight was 38 moons old",
             "Mossflight stole Freezefoot's catch right out from under her claws. (medium negative effect) - Mossflight was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -875,12 +871,7 @@
             "Mossflight and Gardeniaglow worked together to gather wild garlic and mallow. (positive effect) - Mossflight was 89 moons old",
             "Mossflight and Gardeniaglow worked together to gather plantain. (positive effect) - Mossflight was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -961,9 +952,7 @@
             "Mossflight and Warmswirl reach for the same piece of prey and bicker over it. Mossflight gets it. (low negative effect) - Mossflight was 68 moons old",
             "Warmswirl appreciates Frondpad, Sardinespeckle, Yewstar, and Mossflight joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Mossflight was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1038,14 +1027,17 @@
         "family": false,
         "romance": 9,
         "like": 0,
-        "respect": -17,
+        "respect": -14,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Mossflight disapproved of Fringesnap wearing a collar. (negative effect) - Mossflight was 38 moons old",
-            "Mossflight is jealous that Fringesnap got to go to the last Gathering. (medium negative effect) - Mossflight was 46 moons old"
+            "Mossflight is jealous that Fringesnap got to go to the last Gathering. (medium negative effect) - Mossflight was 46 moons old",
+            "Fringesnap gets a bug off of Mossflight's pelt and takes it out of camp. (low positive effect) - Mossflight was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1066,8 +1058,8 @@
         "mates": true,
         "family": false,
         "romance": 100,
-        "like": 48,
-        "respect": 28,
+        "like": 58,
+        "respect": 38,
         "comfort": 100,
         "trust": 100,
         "log": [
@@ -1103,7 +1095,8 @@
             "Verbenabloom returned to the warrior's den dripping mud everywhere and managed to ruin Icyriver, Mossflight, and Hailfreckle's nests. (negative effect) - Mossflight was 82 moons old",
             "Mossflight purrs for a long time at one of Verbenabloom's lame jokes. (high positive effect) - Mossflight was 84 moons old",
             "Mossflight and Verbenabloom quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Mossflight was 87 moons old",
-            "Mossflight and Verbenabloom worked together to gather plantain. (positive effect) - Mossflight was 90 moons old"
+            "Mossflight and Verbenabloom worked together to gather plantain. (positive effect) - Mossflight was 90 moons old",
+            "Verbenabloom and Mossflight brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Mossflight was 92 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1121,7 +1114,7 @@
         "like": 18,
         "respect": 22,
         "comfort": 17,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "The moonlight encourages Fleadusk, Tomatofreckle, Snippool, Mossflight, and Silverstar to slow down and stretch. (positive effect)- Mossflight was 21 moons old",
             "Mossflight wasn't going to help a Clanmate, but realized that Fleadusk would do it in a heartbeat. (medium positive effect) - Mossflight was 50 moons old",
@@ -1132,9 +1125,14 @@
             "Fleadusk, Gracklefur, and Mossflight had a nice talk while eating. (positive effect) - Mossflight was 67 moons old",
             "Mossflight considers spreading a rumor about Fleadusk. (medium negative effect) - Mossflight was 72 moons old",
             "Mossflight and Fleadusk successfully gathered burdock together. (positive effect) - Mossflight was 85 moons old",
-            "Mossflight disapproved of Fleadusk wearing a collar. (negative effect) - Mossflight was 89 moons old"
+            "Mossflight disapproved of Fleadusk wearing a collar. (negative effect) - Mossflight was 89 moons old",
+            "Mossflight heard Fleadusk fell asleep guarding camp. (negative effect) - Mossflight was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1174,10 +1172,7 @@
             "Mossflight heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mossflight was 85 moons old",
             "Mossflight was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Mossflight was 92 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1293,9 +1288,7 @@
             "Mossflight gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Mossflight was 75 moons old",
             "Reedheart tells Mossflight, Jademuzzle, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Mossflight was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1354,11 +1347,7 @@
             "Mossflight was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Mossflight was 61 moons old",
             "Mossflight was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Mossflight was 91 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1475,10 +1464,11 @@
         "like": 4,
         "respect": 5,
         "comfort": 2,
-        "trust": 2,
+        "trust": -3,
         "log": [
             "Mossflight noticed how successful Poolleaf's hunting patrol was. (positive effect) - Mossflight was 50 moons old",
-            "Mossflight got stuck in the same tree with Poolleaf for hours and realized how much they have in common. (high positive effect) - Mossflight was 67 moons old"
+            "Mossflight got stuck in the same tree with Poolleaf for hours and realized how much they have in common. (high positive effect) - Mossflight was 67 moons old",
+            "Mossflight was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Mossflight was 93 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1490,12 +1480,14 @@
         "romance": 0,
         "like": -5,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Mossflight heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Mossflight was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1714,9 +1706,7 @@
             "Mossflight appreciates Peakspore, Sardinespeckle, Shimmerpaw, and Prancelaurel joining her to stretch late into the night so she wouldn't be alone. (positive effect)- Mossflight was 31 moons old",
             "Mossflight, Shimmerrunner, and Amberfur took a sunbath and had a little small talk. (positive effect) - Mossflight was 88 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1767,9 +1757,7 @@
             "Snakedrop's bravery in a fight against a vixen greatly impressed Mossflight. (positive effect) - Mossflight was 79 moons old",
             "Snakedrop keeps asking Mossflight silly questions. (low negative effect) - Mossflight was 92 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -1855,15 +1843,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 30,
+        "like": 10,
+        "respect": 40,
         "comfort": 0,
         "trust": 43,
         "log": [
             "Mossflight is surprised by how quickly Oddmuzzle can heal a Clanmate. (medium positive effect) - Mossflight was 56 moons old",
-            "Oddmuzzle is giving Mossflight advice. (medium positive effect) - Mossflight was 62 moons old"
+            "Oddmuzzle is giving Mossflight advice. (medium positive effect) - Mossflight was 62 moons old",
+            "Oddmuzzle and Mossflight brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Mossflight was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -2361,15 +2354,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 1,
-        "respect": -9,
+        "like": 11,
+        "respect": 1,
         "comfort": 9,
         "trust": 1,
         "log": [
             "Mossflight finds her feelings conflicted towards the new family addition. (neutral effect) - Mossflight was 45 moons old",
-            "Mossflight heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Mossflight was 65 moons old"
+            "Mossflight heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Mossflight was 65 moons old",
+            "Shiveringdusk and Mossflight brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Mossflight was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -2403,12 +2400,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Poppybriar and Mossflight brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Mossflight was 92 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -2824,11 +2826,7 @@
             "Mossflight and Heathstripe successfully gathered burdock together. (positive effect) - Mossflight was 85 moons old",
             "Mossflight and Heathstripe worked together to gather plantain. (positive effect) - Mossflight was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -2961,8 +2959,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
-        "respect": 5,
+        "like": 37,
+        "respect": 15,
         "comfort": 34,
         "trust": 15,
         "log": [
@@ -2971,10 +2969,12 @@
             "The moonlight encourages Driftstripe, Mossflight, Blotchstripe, Minnowlily, and Brindlepaw to slow down and stretch. (positive effect) - Mossflight was 82 moons old",
             "Mossflight and Driftstripe quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Mossflight was 87 moons old",
             "Mossflight asks to be on a patrol with Driftstripe. (medium positive effect) - Mossflight was 89 moons old",
-            "Mossflight and Driftstripe worked together to gather plantain. (positive effect) - Mossflight was 90 moons old"
+            "Mossflight and Driftstripe worked together to gather plantain. (positive effect) - Mossflight was 90 moons old",
+            "Driftstripe and Mossflight brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Mossflight was 92 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort",
             "trust"
         ]
@@ -2986,12 +2986,13 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": -10,
+        "respect": -2,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Both Mossflight and Morelstreak enthusiastically congratulate another Clanmate on something. (medium positive effect) - Mossflight was 78 moons old",
-            "Mossflight was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Mossflight was 87 moons old"
+            "Mossflight was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Mossflight was 87 moons old",
+            "Mossflight notices Morelstreak doing something generous. (low positive effect) - Mossflight was 93 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3072,10 +3073,7 @@
             "Mossflight and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Mossflight was 89 moons old",
             "Mossflight and Hollyblossom worked together to gather plantain. (positive effect) - Mossflight was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -3119,11 +3117,7 @@
             "Sagopaw eats as ravenously as a wolverine and by the time he's done, Gracklefur, Mossflight, Braveocean, and Howlshine barely have the stomach to finish their own meals. (negative effect) - Mossflight was 83 moons old",
             "Mossflight heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Mossflight was 91 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -3279,9 +3273,7 @@
         "log": [
             "Mossflight was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Mossflight was 91 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "48",
@@ -3344,11 +3336,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Mossflight disapproved of Caterpillarstripe wearing a collar. (negative effect) - Mossflight was 93 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -3643,6 +3639,32 @@
     {
         "cat_from_id": "48",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "48",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "48",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

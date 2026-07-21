@@ -21,16 +21,21 @@
         "family": false,
         "romance": 4,
         "like": 9,
-        "respect": -27,
+        "respect": -32,
         "comfort": 9,
-        "trust": 4,
+        "trust": -1,
         "log": [
             "Heatherfern won't stop looking at a specific Clanmate while talking to Terabyte. (low negative effect) - Terabyte was 103 moons old",
             "Terabyte complains about something Heatherfern did. (low negative effect) - Terabyte was 113 moons old",
             "After Heatherfern finished her food, Terabyte noticed she made a mess. (medium negative effect) - Terabyte was 115 moons old",
-            "Terabyte suspects that Heatherfern gets special treatment. (low negative effect) - Terabyte was 119 moons old"
+            "Terabyte suspects that Heatherfern gets special treatment. (low negative effect) - Terabyte was 119 moons old",
+            "Terabyte heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Terabyte was 133 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -160,15 +165,21 @@
         "romance": 23,
         "like": 15,
         "respect": 10,
-        "comfort": 22,
+        "comfort": 10,
         "trust": 28,
         "log": [
             "Peatcrest introduces himself as RiverClan's medicine cat and asks Terabyte to warn him at any sign of sickness. (positive effect) - Terabyte was 93 moons old",
             "Terabyte and Peatcrest went on a late night patrol to watch the sunrise together. (positive effect) - Terabyte was 95 moons old",
             "Terabyte might be reading a little too far into Peatcrest's kindness. (low positive effect) - Terabyte was 100 moons old",
-            "Peatcrest respects Terabyte's opinion despite disagreeing with it. (low positive effect) - Terabyte was 118 moons old"
+            "Peatcrest respects Terabyte's opinion despite disagreeing with it. (low positive effect) - Terabyte was 118 moons old",
+            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Terabyte was 132 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -200,9 +211,7 @@
             "Terabyte had a dream about Carptail. (low positive effect) - Terabyte was 123 moons old",
             "Terabyte thanks Carptail for keeping the Clan healthy. (medium positive effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -304,13 +313,16 @@
         "romance": 0,
         "like": 2,
         "respect": 3,
-        "comfort": -3,
+        "comfort": 10,
         "trust": 6,
         "log": [
             "Terabyte turned to Peakspore in a time of need, only for Peakspore to abandon him. (high negative effect) - Terabyte was 127 moons old",
-            "Terabyte and Peakspore worked together to gather plantain. (positive effect) - Terabyte was 129 moons old"
+            "Terabyte and Peakspore worked together to gather plantain. (positive effect) - Terabyte was 129 moons old",
+            "Terabyte likes to sit near Peakspore during conversations. (low positive effect) - Terabyte was 133 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -604,10 +616,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Terabyte heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 101 moons old",
-            "Terabyte disapproved of Fleadusk wearing a collar. (negative effect) - Terabyte was 129 moons old"
+            "Terabyte disapproved of Fleadusk wearing a collar. (negative effect) - Terabyte was 129 moons old",
+            "Terabyte heard Fleadusk fell asleep guarding camp. (negative effect) - Terabyte was 133 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -738,11 +751,7 @@
             "Reedheart thanked Terabyte for bringing him food. (low positive effect) - Terabyte was 121 moons old",
             "Reedheart tells Mossflight, Jademuzzle, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -787,9 +796,7 @@
             "Terabyte was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Terabyte was 101 moons old",
             "Terabyte was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -872,12 +879,15 @@
         "like": 3,
         "respect": 5,
         "comfort": -24,
-        "trust": 6,
+        "trust": 1,
         "log": [
             "Terabyte notices that Poolleaf is playing with her fresh-kill. (medium negative effect) - Terabyte was 112 moons old",
-            "Terabyte and Poolleaf reach for the same piece of prey and bicker over it. Poolleaf gets it. (low negative effect) - Terabyte was 122 moons old"
+            "Terabyte and Poolleaf reach for the same piece of prey and bicker over it. Poolleaf gets it. (low negative effect) - Terabyte was 122 moons old",
+            "Terabyte was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Terabyte was 133 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -910,9 +920,7 @@
             "Terabyte and Gracklefur worked together to gather plantain. (positive effect) - Terabyte was 129 moons old",
             "Terabyte thanks Gracklefur for covering for him during a patrol earlier. (medium positive effect) - Terabyte was 130 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -985,14 +993,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -8,
+        "like": 8,
+        "respect": 6,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Terabyte felt that Saltknoll didn't take his vision seriously. (negative effect) - Terabyte was 123 moons old"
+            "Terabyte felt that Saltknoll didn't take his vision seriously. (negative effect) - Terabyte was 123 moons old",
+            "Terabyte trusted Saltknoll to interpret Terabyte's vision. (positive effect) - Terabyte was 132 moons old",
+            "Saltknoll helped Terabyte interpret a vision. (positive effect) - Terabyte was 132 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1000,12 +1013,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 6,
+        "respect": 7,
+        "comfort": 21,
+        "trust": 8,
+        "log": [
+            "Flightsplash says something very sincere and comforting to Terabyte. (high positive effect) - Terabyte was 133 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1505,10 +1525,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Terabyte was 132 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -1716,10 +1740,10 @@
         "cat_to_id": "155",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 6,
         "like": -30,
         "respect": -39,
-        "comfort": -11,
+        "comfort": -6,
         "trust": -5,
         "log": [
             "Terabyte heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Terabyte was 104 moons old",
@@ -1730,8 +1754,6 @@
             "Terabyte doesn't like that Clanmates trust Caterpillarfoot more just because she's older. (high negative effect) - Terabyte was 132 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "like",
             "comfort"
         ]
     },
@@ -1945,9 +1967,7 @@
             "Terabyte gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Terabyte was 125 moons old",
             "Terabyte learns something new about a Clanmate from Sandthrush. (low positive effect) - Terabyte was 130 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2167,9 +2187,7 @@
         "log": [
             "Terabyte asks Moonchaser how he's doing. (low positive effect) - Terabyte was 121 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2321,9 +2339,7 @@
         "log": [
             "Terabyte heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2475,9 +2491,7 @@
         "log": [
             "Terabyte was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2541,11 +2555,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Terabyte disapproved of Caterpillarstripe wearing a collar. (negative effect) - Terabyte was 133 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "161",
@@ -2560,9 +2578,7 @@
         "log": [
             "Terabyte has drawn the ire of Tallneedle by deliberately taking the last of her favorite nesting materials for himself. (low negative effect) - Terabyte was 131 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2840,6 +2856,32 @@
     {
         "cat_from_id": "161",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

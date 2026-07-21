@@ -33,14 +33,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Waterkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Waterkit was 0 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -62,11 +64,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "respect": -5,
+        "comfort": 8,
+        "trust": -5,
+        "log": [
+            "Waterpaw and Heatherfern often look at each other and smile knowingly about something. (low positive effect) - Waterpaw was 8 moons old",
+            "Waterpaw heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Waterpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -200,10 +207,7 @@
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -464,11 +468,14 @@
         "like": 0,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Waterkit disapproved of Fleadusk wearing a collar. (negative effect) - Waterkit was 3 moons old"
+            "Waterkit disapproved of Fleadusk wearing a collar. (negative effect) - Waterkit was 3 moons old",
+            "Waterpaw heard Fleadusk fell asleep guarding camp. (negative effect) - Waterpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -518,11 +525,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -628,8 +637,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Waterpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -679,14 +690,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
+        "like": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Waterkit heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Waterkit was 1 moon old"
+            "Waterkit heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Waterkit was 1 moon old",
+            "Waterpaw learned about hunting in tide pools from Voletuft. (positive effect) - Waterpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -742,10 +757,7 @@
         "log": [
             "Hailfreckle shares a suspiciously exaggerated tale with Shorepaw, Bubpaw, Wheatpaw, and Waterpaw, who seem far from convinced of its veracity. (negative effect) - Waterpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -1705,14 +1717,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
+        "like": -12,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Waterkit heard about how Lionheart's patrol drove off a scavenging fox. (positive effect) - Waterkit was 1 moon old"
+            "Waterkit heard about how Lionheart's patrol drove off a scavenging fox. (positive effect) - Waterkit was 1 moon old",
+            "Early in the morning, Lionheart rallies Waterpaw, Herringpaw, Bushpaw, and Caterpillarpaw to do stretches in hopes of keeping her Clanmates prepared for anything. (negative effect) - Waterpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1740,9 +1756,7 @@
         "log": [
             "Waterkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Waterkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -1876,9 +1890,7 @@
         "log": [
             "Waterkit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Waterkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -1916,11 +1928,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterpaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Waterpaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1969,10 +1985,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1991,12 +2009,7 @@
             "Wheatkit takes Waterkit's side while Waterkit is in a debate. (medium positive effect) - Waterkit was 5 moons old",
             "Wheatpaw lets Waterpaw grab a piece of fresh-kill first. (low positive effect) - Waterpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2012,12 +2025,7 @@
             "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old",
             "Waterkit doesn't get why Branchkit gets more praise for doing the same thing everyone else does. (high negative effect) - Waterkit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2032,12 +2040,7 @@
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2063,11 +2066,11 @@
         "romance": 2,
         "like": 42,
         "respect": 12,
-        "comfort": 42,
+        "comfort": 55,
         "trust": 45,
         "log": [],
         "no_longer_neutral": [
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -2096,10 +2099,7 @@
         "log": [
             "Waterpaw saw Weedkit being considerate. (low positive effect) - Waterpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2108,10 +2108,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "When tucking in for the night, Waterpaw saw that Avocetpaw fixed her nest. (low positive effect) - Waterpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2127,10 +2129,7 @@
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2236,9 +2235,7 @@
         "log": [
             "Waterpaw observes Merlot carefully attending to any cat that needs help. (medium positive effect) - Waterpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2256,6 +2253,32 @@
     {
         "cat_from_id": "239",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

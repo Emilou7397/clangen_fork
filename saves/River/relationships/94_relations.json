@@ -524,9 +524,7 @@
             "Shimmerrunner heard about Quailfur's victory in battle against a gang of rogues. (positive effect) - Shimmerrunner was 22 moons old",
             "Shimmerrunner heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -674,9 +672,7 @@
             "Mossflight, Shimmerrunner, and Amberfur took a sunbath and had a little small talk. (positive effect) - Shimmerrunner was 63 moons old",
             "Mossflight helps Shimmerrunner hide from a Clanmate. (low positive effect) - Shimmerrunner was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -943,14 +939,17 @@
         "romance": 0,
         "like": 8,
         "respect": 20,
-        "comfort": 0,
+        "comfort": -13,
         "trust": -17,
         "log": [
             "Shimmerrunner heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 37 moons old",
             "Shimmerrunner asks Brindletooth about a lie Brindletooth told, but they dodge the question. (medium negative effect) - Shimmerrunner was 57 moons old",
-            "Shimmerrunner heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 61 moons old"
+            "Shimmerrunner heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 61 moons old",
+            "Shimmerrunner sees the blood of fresh-kill on Brindletooth's paws and feels a prickle of discomfort. (low negative effect) - Shimmerrunner was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -1115,9 +1114,7 @@
             "Shimmerrunner argues with Poolleaf in front of other cats and reveals something embarrassing. (high negative effect) - Shimmerrunner was 35 moons old",
             "Poolleaf respects Shimmerrunner's opinion despite disagreeing with it. (low positive effect) - Shimmerrunner was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -1176,11 +1173,11 @@
         "cat_to_id": "84",
         "mates": true,
         "family": false,
-        "romance": 96,
-        "like": 58,
-        "respect": 60,
-        "comfort": 43,
-        "trust": 59,
+        "romance": 100,
+        "like": 65,
+        "respect": 66,
+        "comfort": 49,
+        "trust": 75,
         "log": [
             "Shimmerrunner warns Mallowpelt about something on the ground so he doesn't trip. (low positive effect) - Shimmerrunner was 17 moons old",
             "Shimmerrunner asked Mallowpelt for his opinion on a topic and had a surprisingly insightful conversation. (high positive effect) - Shimmerrunner was 19 moons old",
@@ -1191,9 +1188,16 @@
             "Shimmerrunner can't stop gushing over Mallowpelt. (high positive effect) - Shimmerrunner was 52 moons old",
             "Shimmerrunner can't stop gushing over Mallowpelt. (high positive effect) - Shimmerrunner was 53 moons old",
             "Shimmerrunner and Mallowpelt enjoyed gathering juniper berries together. (positive effect) - Shimmerrunner was 58 moons old",
-            "Shimmerrunner saw Mallowpelt give an elder the best piece of prey on the pile. (positive effect) - Shimmerrunner was 63 moons old"
+            "Shimmerrunner saw Mallowpelt give an elder the best piece of prey on the pile. (positive effect) - Shimmerrunner was 63 moons old",
+            "During a particularly hot greenleaf, Shimmerrunner and Mallowpelt spent their evenings cooling down together. (positive effect) - Shimmerrunner was 68 moons old",
+            "Shimmerrunner was caught enjoying a moonlit stroll with Mallowpelt last night... (high positive effect) - Shimmerrunner was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -1234,11 +1238,7 @@
             "Shimmerrunner was impressed by how much prey Voletuft was able to catch in the snow. (positive effect) - Shimmerrunner was 61 moons old",
             "Shimmerrunner, Voletuft, and Jademuzzle took a sunbath and had a little small talk. (positive effect) - Shimmerrunner was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -1490,10 +1490,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -1961,9 +1963,7 @@
             "Shimmerrunner heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Shimmerrunner was 58 moons old",
             "Shimmerrunner feels bad that she caused a problem for Midnighthaze. (medium positive effect) - Shimmerrunner was 67 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -2233,10 +2233,7 @@
             "Shimmerrunner brings Nymphshine a piece of fresh-kill after a long day of healing work. (medium positive effect) - Shimmerrunner was 36 moons old",
             "Shimmerrunner was rudely awoken by Nymphshine. (medium negative effect) - Shimmerrunner was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -2608,9 +2605,7 @@
             "Shimmerrunner heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shimmerrunner was 63 moons old",
             "Shimmerrunner overhears something about Flightspot that she can relate to. (medium positive effect) - Shimmerrunner was 67 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -2640,10 +2635,7 @@
         "log": [
             "Shimmerrunner, Voletuft, and Jademuzzle took a sunbath and had a little small talk. (positive effect) - Shimmerrunner was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "94",
@@ -2651,14 +2643,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": -10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -10,
         "log": [
-            "Shimmerrunner didn't accomplish any useful training during a patrol because of Hollyblossom's lackluster leadership. (negative effect) - Shimmerrunner was 49 moons old"
+            "Shimmerrunner didn't accomplish any useful training during a patrol because of Hollyblossom's lackluster leadership. (negative effect) - Shimmerrunner was 49 moons old",
+            "Spittle and flecks of bone fly while Hollyblossom gobbles down prey, reminding Midnighthaze, Sardinespeckle, and Shimmerrunner to seek out better mealtime companionship next time. (negative effect) - Shimmerrunner was 68 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -3084,9 +3082,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Lavenderpaw makes a small sacrifice that benefits Shimmerrunner. (low positive effect) - Shimmerrunner was 69 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "94",
@@ -3208,6 +3210,32 @@
     {
         "cat_from_id": "94",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "94",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "94",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

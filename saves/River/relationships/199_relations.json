@@ -64,10 +64,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flightspot heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Flightspot was 21 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -534,12 +536,15 @@
         "like": 5,
         "respect": -10,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Flightpaw and Fleadusk took turns playing prey and hunter to help each other practice hunting. (positive effect) - Flightpaw was 6 moons old",
-            "Flightspot disapproved of Fleadusk wearing a collar. (negative effect) - Flightspot was 16 moons old"
+            "Flightspot disapproved of Fleadusk wearing a collar. (negative effect) - Flightspot was 16 moons old",
+            "Flightspot heard Fleadusk fell asleep guarding camp. (negative effect) - Flightspot was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -689,11 +694,7 @@
             "Flightpaw appreciated Talonlake settling a dispute on patrol. (positive effect) - Flightpaw was 11 moons old",
             "Flightspot was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Flightspot was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -709,9 +710,7 @@
             "Flightkit heard Frondpad fell asleep guarding camp. (negative effect) - Flightkit was 5 moons old",
             "Frondpad stands up for Flightspot during a patrol. (medium positive effect) - Flightspot was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -750,8 +749,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flightspot was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Flightspot was 20 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1442,14 +1443,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Flightkit heard Pigmentpelt fell asleep guarding camp. (negative effect) - Flightkit was 3 moons old"
+            "Flightkit heard Pigmentpelt fell asleep guarding camp. (negative effect) - Flightkit was 3 moons old",
+            "Flightspot thanks Pigmentpelt for covering for him during a patrol earlier. (medium positive effect) - Flightspot was 21 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1522,12 +1526,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1829,7 +1835,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2040,7 +2046,7 @@
         "family": true,
         "romance": 5,
         "like": 19,
-        "respect": 4,
+        "respect": 12,
         "comfort": 90,
         "trust": 1,
         "log": [
@@ -2055,9 +2061,14 @@
             "Flightpaw sees a pretty flower in Velvetpaw's nest. (low positive effect) - Flightpaw was 12 moons old",
             "Velvetpaw tells Primfreckle, Peatcrest, Flightpaw, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Flightpaw was 12 moons old",
             "Flightspot and Velvettooth successfully gathered dandelions and wild garlic together. (positive effect) - Flightspot was 15 moons old",
-            "Flightspot thanks Velvettooth for checking when they ask if he's feeling alright. (medium positive effect) - Flightspot was 17 moons old"
+            "Flightspot thanks Velvettooth for checking when they ask if he's feeling alright. (medium positive effect) - Flightspot was 17 moons old",
+            "Flightspot was amazed to encounter a ghost while patrolling with Velvettooth. (positive effect) - Flightspot was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -2130,11 +2141,7 @@
             "Flightspot feels safe with Sagopaw around. (high positive effect) - Flightspot was 15 moons old",
             "Flightspot heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Flightspot was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2167,9 +2174,7 @@
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Flightkit was 3 moons old",
             "Stagkit says something vulnerable to Flightpaw. (low positive effect) - Flightpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2185,9 +2190,7 @@
             "Flightpaw ignored Softpaw's advice on a patrol and nearly got hurt because of it. (medium negative effect) - Flightpaw was 9 moons old",
             "A Clanmate notices Flightspot mocking Softspring behind her back. (medium negative effect) - Flightspot was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2254,18 +2257,16 @@
         "like": 6,
         "respect": 6,
         "comfort": 6,
-        "trust": -7,
+        "trust": -15,
         "log": [
             "Skypaw didn't put a lot of thought into an answer for Flightspot's question. (low negative effect) - Flightspot was 16 moons old",
             "Flightspot and Skypaw had a great time on a patrol. (high positive effect) - Flightspot was 18 moons old",
             "Skytooth offered to groom Flightspot and, despite his grumbling, he awkwardly accepted. (medium positive effect) - Flightspot was 19 moons old",
-            "Skytooth tells Flightspot, Avocetpaw, and Lightpelt a story that seems to grow less believable every meow. (negative effect) - Flightspot was 19 moons old"
+            "Skytooth tells Flightspot, Avocetpaw, and Lightpelt a story that seems to grow less believable every meow. (negative effect) - Flightspot was 19 moons old",
+            "Flightspot has to snap Skytooth out of a daze to ask a question. (low negative effect) - Flightspot was 21 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
+            "trust"
         ]
     },
     {
@@ -2294,9 +2295,7 @@
         "log": [
             "Flightspot and Bushpaw debate about something interesting. Though they disagree, they stay amicable. (medium positive effect) - Flightspot was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2311,9 +2310,7 @@
         "log": [
             "Flightspot was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Flightspot was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2376,11 +2373,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flightspot disapproved of Caterpillarstripe wearing a collar. (negative effect) - Flightspot was 21 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -2631,12 +2632,7 @@
         "log": [
             "Flightspot takes a bout of bad weather as a bad omen about Dashkit. (high negative effect) - Flightspot was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "199",
@@ -2680,6 +2676,32 @@
     {
         "cat_from_id": "199",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "199",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "199",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -736,9 +736,7 @@
         "log": [
             "Wavelight is upset that Elmtrail slept through patrol assignments. (medium negative effect) - Wavelight was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "121",
@@ -786,9 +784,7 @@
             "Wavepaw and Sardinespeckle enjoyed working on their skills together on a training patrol. (positive effect) - Wavepaw was 12 moons old",
             "Wavelight thinks Sardinespeckle has been acting strangely. (low negative effect) - Wavelight was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "121",
@@ -1379,9 +1375,7 @@
             "Wavelight, Shadowfreckle, and Blotchstripe decide they're going to get Wasppelt and Cherrytail together. They talk about how much Wasppelt loves Cherrytail in front of Cherrytail, and, to their pleasure, find the two talking later. (positive effect) - Wavelight was 47 moons old",
             "Wavelight is motivated by Blotchstripe's big smile. (low positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "121",
@@ -1512,16 +1506,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 26,
         "respect": 6,
-        "comfort": 16,
+        "comfort": 24,
         "trust": 17,
         "log": [
             "After something unsettling happens, Wavekit and Currentkit find comfort in one another's company. (high positive effect) - Wavekit was 5 moons old",
             "Wavepaw and Currentpaw enjoyed working on their skills together on a training patrol. (positive effect) - Wavepaw was 12 moons old",
-            "Currenthiss didn't get the joke Wavelight was telling. (low negative effect) - Wavelight was 19 moons old"
+            "Currenthiss didn't get the joke Wavelight was telling. (low negative effect) - Wavelight was 19 moons old",
+            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -1732,9 +1732,7 @@
             "Wavelight saw Braveocean's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Wavelight was 46 moons old",
             "Wavelight has been spending time with Braveocean lately. (low positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "121",
@@ -1895,11 +1893,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -2117,12 +2117,15 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Wavelight heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 21 moons old"
+            "Wavelight heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 21 moons old",
+            "When Wavelight asked Minnowlily for help, Minnowlily ignored him. (low negative effect) - Wavelight was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -2227,14 +2230,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 10,
         "comfort": 0,
         "trust": -3,
         "log": [
-            "Wavelight heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 45 moons old"
+            "Wavelight heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 45 moons old",
+            "Howlsky and Wavelight have a misunderstanding that makes them grumpy for the rest of the day. (low negative effect) - Wavelight was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -2257,14 +2263,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Wavelight heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 45 moons old"
+            "Wavelight heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 45 moons old",
+            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -2989,6 +3000,32 @@
     {
         "cat_from_id": "121",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

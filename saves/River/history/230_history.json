@@ -8,18 +8,30 @@
     "mentor_influence": {
         "trait": {
             "208": {
-                "aggression": -3,
+                "aggression": -5,
                 "lawfulness": -1,
-                "stability": 3
+                "stability": 4,
+                "strings": [
+                    "try to avoid violence",
+                    "bend the rules",
+                    "stay collected"
+                ]
             }
         },
         "skill": {
             "208": {
-                "HUNTER": 16
+                "HUNTER": 18,
+                "strings": [
+                    "hunting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "strategy",
+        "graduation_age": 12,
+        "moon": 149
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

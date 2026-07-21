@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Scalebloom heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Scalebloom was 19 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -446,11 +448,14 @@
         "like": 0,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Scalebloom disapproved of Fleadusk wearing a collar. (negative effect) - Scalebloom was 14 moons old"
+            "Scalebloom disapproved of Fleadusk wearing a collar. (negative effect) - Scalebloom was 14 moons old",
+            "Scalebloom heard Fleadusk fell asleep guarding camp. (negative effect) - Scalebloom was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -609,9 +614,7 @@
             "Scalepaw appreciated Talonlake settling a dispute on patrol. (positive effect) - Scalepaw was 7 moons old",
             "Scalebloom was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -665,8 +668,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Scalebloom was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Scalebloom was 18 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -840,12 +845,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -6,
+        "comfort": -7,
+        "trust": -21,
+        "log": [
+            "Scalebloom accuses Hollyheart of not taking care of cats properly. (high negative effect) - Scalebloom was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -853,12 +865,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -884,9 +898,7 @@
         "comfort": 0,
         "trust": 8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1358,12 +1370,7 @@
         "log": [
             "Scalebloom often goes to Creekmoss for guidance. (high positive effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1508,9 +1515,7 @@
             "Scalebloom heard Shinebelly fell asleep guarding camp. (negative effect) - Scalebloom was 13 moons old",
             "Scalebloom grew irritated at Shinebelly while on a patrol and didn't accomplish much. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1569,10 +1574,7 @@
             "Scalebloom grew irritated at Sandthrush while on a patrol and didn't accomplish much. (negative effect) - Scalebloom was 16 moons old",
             "Scalebloom listens to Sandthrush's big plans for the day. (low positive effect) - Scalebloom was 17 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1647,10 +1649,7 @@
             "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Scalepaw was 11 moons old",
             "Scalebloom grew irritated at Howlsky while on a patrol and didn't accomplish much. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1713,12 +1712,7 @@
             "Scalebloom didn't get the joke Brindlesplash was telling. (low negative effect) - Scalebloom was 13 moons old",
             "Scalebloom grew irritated at Brindlesplash while on a patrol and didn't accomplish much. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1793,9 +1787,7 @@
             "Scalebloom heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalebloom was 13 moons old",
             "Scalebloom was being condescending towards Velvettooth all day long. (low negative effect) - Scalebloom was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1880,12 +1872,7 @@
             "Sagopaw stands up for Scalepaw during a patrol. (medium positive effect) - Scalepaw was 11 moons old",
             "Scalebloom heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -1901,9 +1888,7 @@
             "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Scalekit was 2 moons old",
             "Scalebloom and Stagpaw spend a few minutes complimenting one another. (high positive effect) - Scalebloom was 13 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -2014,12 +1999,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Avocetpaw compliments Scalebloom's name. (low positive effect) - Scalebloom was 15 moons old",
             "Scalebloom didn't tell Avocetpaw about the feather stuck to his face, so Avocetpaw spent the whole day looking silly. (low negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2027,12 +2014,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -8,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -4,
+        "comfort": -4,
+        "trust": -24,
+        "log": [
+            "Scalebloom lied to Bushpaw's face. (high negative effect) - Scalebloom was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2048,11 +2040,7 @@
             "When an argument started on patrol, Redswirl was unable to settle it. (negative effect) - Scalepaw was 10 moons old",
             "Scalebloom was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Scalebloom was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -2115,11 +2103,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Scalebloom disapproved of Caterpillarstripe wearing a collar. (negative effect) - Scalebloom was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2425,6 +2417,32 @@
     {
         "cat_from_id": "213",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

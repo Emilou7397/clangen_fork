@@ -207,12 +207,17 @@
         "romance": 0,
         "like": 10,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
         "log": [
-            "Glowfur and Peatcrest worked together to gather juniper needles and oak leaves. (positive effect) - Glowfur was 36 moons old"
+            "Glowfur and Peatcrest worked together to gather juniper needles and oak leaves. (positive effect) - Glowfur was 36 moons old",
+            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Glowfur was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -416,17 +421,23 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 43,
+        "like": 51,
         "respect": 71,
-        "comfort": 89,
+        "comfort": 97,
         "trust": 63,
         "log": [
             "Glowpaw noticed how successful Suntooth's hunting patrol was. (positive effect) - Glowpaw was 7 moons old",
             "Suntooth tells Glowfur, Poolleaf, and Carnationmunch a story that earns more skepticism than admiration. (negative effect) - Glowfur was 18 moons old",
             "Glowfur heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Glowfur was 20 moons old",
-            "Glowfur admires how brave Suntooth is. (medium positive effect) - Glowfur was 32 moons old"
+            "Glowfur admires how brave Suntooth is. (medium positive effect) - Glowfur was 32 moons old",
+            "Glowfur, Moletooth, and Suntooth took a sunbath and had a little small talk. (positive effect) - Glowfur was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -595,9 +606,7 @@
             "Glowfur enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Glowfur was 37 moons old",
             "Hushshimmer says something vulnerable to Glowfur. (low positive effect) - Glowfur was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -878,8 +887,8 @@
         "cat_to_id": "75",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 6,
+        "romance": 8,
+        "like": 14,
         "respect": 30,
         "comfort": 0,
         "trust": 0,
@@ -889,7 +898,9 @@
             "Glowpaw was impressed by how Frondpad came out of a fight with a fox with only a few scrapes. (positive effect) - Glowpaw was 11 moons old",
             "Frondpad and Glowfur enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Glowfur was 42 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -1158,9 +1169,7 @@
             "A Clanmate has to comfort Glowkit when Dancingfleck says something cruel. (high negative effect) - Glowkit was 3 moons old",
             "Dancingfleck is visibly upset to be on a patrol with Glowfur. (medium negative effect) - Glowfur was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -1369,10 +1378,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -1431,10 +1442,7 @@
         "log": [
             "Glowkit and Snookpaw work together to lead a scary bug out of the camp. (low positive effect) - Glowkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -1609,9 +1617,7 @@
             "When an argument started on patrol, Gorgehunt scolded Glowfur for acting like a kit. (negative effect) - Glowfur was 21 moons old",
             "Gorgehunt respects Glowfur's opinion despite disagreeing with it. (low positive effect) - Glowfur was 49 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -1700,9 +1706,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 27,
+        "like": 35,
         "respect": 32,
-        "comfort": 60,
+        "comfort": 68,
         "trust": 53,
         "log": [
             "Glowkit and Molekit agree that thunder is scary. (positive effect) - Glowkit was 1 moon old",
@@ -1711,7 +1717,8 @@
             "Glowfur and Moletooth took a lovely nap together instead of patrolling. (positive effect) - Glowfur was 13 moons old",
             "Glowfur heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Glowfur was 20 moons old",
             "Carnationmunch, Glowfur, Suntooth, and Whiskerleg bemoan Moletooth's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Moletooth likes it. (negative effect) - Glowfur was 35 moons old",
-            "While Moletooth gorges on his piece of fresh kill, Glowfur, Gardeniaglow, and Shadowfreckle find that eating is suddenly less appealing. (negative effect) - Glowfur was 46 moons old"
+            "While Moletooth gorges on his piece of fresh kill, Glowfur, Gardeniaglow, and Shadowfreckle find that eating is suddenly less appealing. (negative effect) - Glowfur was 46 moons old",
+            "Glowfur, Moletooth, and Suntooth took a sunbath and had a little small talk. (positive effect) - Glowfur was 50 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2043,13 +2050,18 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -12,
         "trust": -10,
         "log": [
             "Glowfur heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Glowfur was 23 moons old",
-            "Glowfur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Glowfur was 44 moons old"
+            "Glowfur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Glowfur was 44 moons old",
+            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Glowfur was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -2150,9 +2162,7 @@
             "Glowfur and Howlshine stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Glowfur was 27 moons old",
             "Glowfur is impressed by Howlshine helping others today. (low positive effect) - Glowfur was 35 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -2259,9 +2269,7 @@
             "Glowfur heard about how Garlicberry's patrol drove off a scavenging fox. (positive effect) - Glowfur was 43 moons old",
             "Glowfur and Garlicberry enjoyed practicing new battle moves together. (positive effect) - Glowfur was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -2271,10 +2279,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 21,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Glowfur learns that Heathstripe is scared of thunder, too. (low positive effect) - Glowfur was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "137",
@@ -2562,10 +2574,7 @@
             "Glowfur and Stagpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Glowfur was 43 moons old",
             "Glowfur and Stagpaw enjoyed practicing new battle moves together. (positive effect) - Glowfur was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -2609,9 +2618,7 @@
         "log": [
             "Electronegativity and Glowfur enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Glowfur was 42 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -2767,11 +2774,7 @@
             "Glowfur is welcoming Caterpillarkit. (positive effect) - Glowfur was 39 moons old",
             "Glowfur and Caterpillarpaw enjoyed practicing new battle moves together. (positive effect) - Glowfur was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -2859,9 +2862,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "137",
@@ -3074,6 +3075,32 @@
     {
         "cat_from_id": "137",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "137",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "137",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

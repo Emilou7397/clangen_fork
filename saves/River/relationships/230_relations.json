@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Caterpillarstripe heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Caterpillarstripe was 12 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -44,12 +46,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -6,
+        "comfort": -16,
+        "trust": -4,
+        "log": [
+            "Stoatshade laughs at something Caterpillarstripe said that shouldn't have been laughed at. (high negative effect) - Caterpillarstripe was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -92,10 +99,7 @@
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -414,11 +418,14 @@
         "like": 0,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Caterpillarpaw disapproved of Fleadusk wearing a collar. (negative effect) - Caterpillarpaw was 7 moons old"
+            "Caterpillarpaw disapproved of Fleadusk wearing a collar. (negative effect) - Caterpillarpaw was 7 moons old",
+            "Caterpillarpaw heard Fleadusk fell asleep guarding camp. (negative effect) - Caterpillarpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -557,9 +564,7 @@
         "log": [
             "Caterpillarpaw was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -598,8 +603,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Caterpillarpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Caterpillarpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -641,9 +648,7 @@
         "log": [
             "Caterpillarpaw notices that Mallowpelt is always one of the first to volunteer for a difficult task. (medium positive effect) - Caterpillarpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -911,10 +916,7 @@
         "log": [
             "Wasppelt complained about their patrol assignment all day, much to the annoyance of Stagpaw, Skypaw, Caterpillarpaw, and Shorepaw. (negative effect) - Caterpillarpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1114,12 +1116,7 @@
             "Glowfur is welcoming Caterpillarkit. (positive effect) - Caterpillarkit was 2 moons old",
             "Caterpillarpaw and Glowfur enjoyed practicing new battle moves together. (positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1149,9 +1146,7 @@
         "log": [
             "Swallowstripe follows through on a small promise made with Caterpillarpaw. (low positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1186,13 +1181,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 30,
         "comfort": 0,
-        "trust": 10,
+        "trust": 30,
         "log": [
-            "Caterpillarkit gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Caterpillarkit was 2 moons old"
+            "Caterpillarkit gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Caterpillarkit was 2 moons old",
+            "Braveocean saved Caterpillarpaw from a big dog. (positive effect) - Caterpillarpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -1457,10 +1456,7 @@
             "Caterpillarpaw and Garlicberry enjoyed practicing new battle moves together. (positive effect) - Caterpillarpaw was 9 moons old",
             "Garlicberry praised Caterpillarpaw's battle moves. (positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1571,11 +1567,7 @@
             "Driftstripe offers Caterpillarkit some feathers as a welcome gift that he can use to decorate his new nest. (positive effect) - Caterpillarkit was 2 moons old",
             "Driftstripe complained so relentlessly about his patrol assignment that Shorepaw, Avocetpaw, Caterpillarpaw, and Bushpaw could only sigh and bear it. (negative effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1648,10 +1640,7 @@
         "log": [
             "Caterpillarpaw, Branchpaw, Edelweisspaw, and Wheatpaw respect how dutiful Hollyblossom is to training, but they all wish they weren't up doing stretches at dawn. (negative effect) - Caterpillarpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1659,14 +1648,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
-        "respect": 10,
+        "like": 8,
+        "respect": 22,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Lionheart was very considerate while on patrol with Caterpillarpaw. (positive effect) - Caterpillarpaw was 6 moons old",
             "Caterpillarpaw and Lionheart enjoyed practicing new battle moves together. (positive effect) - Caterpillarpaw was 9 moons old",
-            "Caterpillarpaw learned about hunting in tide pools from Lionheart. (positive effect) - Caterpillarpaw was 10 moons old"
+            "Caterpillarpaw learned about hunting in tide pools from Lionheart. (positive effect) - Caterpillarpaw was 10 moons old",
+            "Early in the morning, Lionheart rallies Waterpaw, Herringpaw, Bushpaw, and Caterpillarpaw to do stretches in hopes of keeping her Clanmates prepared for anything. (negative effect) - Caterpillarpaw was 11 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1686,9 +1676,7 @@
         "log": [
             "Caterpillarpaw heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1800,10 +1788,7 @@
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1818,10 +1803,7 @@
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1836,9 +1818,7 @@
         "log": [
             "Caterpillarpaw was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Caterpillarpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -1874,7 +1854,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 23,
+        "like": 40,
         "respect": 35,
         "comfort": 22,
         "trust": -7,
@@ -1886,13 +1866,11 @@
             "Caterpillarpaw claimed to give Shorepaw a piece of crowfood on accident. (medium negative effect) - Caterpillarpaw was 8 moons old",
             "Caterpillarpaw is impressed with Shorepaw's willingness to help. (medium positive effect) - Caterpillarpaw was 9 moons old",
             "Caterpillarpaw and Shorepaw enjoyed practicing new battle moves together. (positive effect) - Caterpillarpaw was 9 moons old",
-            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old"
+            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old",
+            "Caterpillarstripe gives Shorepaw advice on an upcoming assessment. (medium positive effect) - Caterpillarstripe was 12 moons old"
         ],
         "no_longer_neutral": [
-            "respect",
-            "trust",
-            "like",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -1908,9 +1886,7 @@
         "log": [
             "Nutpaw was complimented by another Clan during the recent Gathering, but Caterpillarpaw wasn't. (medium negative effect) - Caterpillarpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -2003,9 +1979,7 @@
         "log": [
             "Caterpillarpaw and Fishleg share stories of a Clanmate they didn't realize they both miss. (medium positive effect) - Caterpillarpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
@@ -2163,13 +2137,37 @@
         "log": [
             "Caterpillarpaw sees Bubpaw help a Clanmate get unstuck from some brambles. (low positive effect) - Caterpillarpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "230",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "230",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "230",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

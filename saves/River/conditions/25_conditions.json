@@ -1,4 +1,28 @@
 {
+    "illnesses": {
+        "grief stricken": {
+            "severity": "major",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 2,
+            "moon_start": 149,
+            "risks": [
+                {
+                    "name": "lasting grief",
+                    "chance": 118
+                },
+                {
+                    "name": "constant nightmares",
+                    "chance": 33
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 168
+                }
+            ],
+            "event_triggered": false
+        }
+    },
     "injuries": {
         "mangled tail": {
             "severity": "severe",
@@ -9,7 +33,7 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 15
+                    "chance": 27
                 }
             ],
             "complication": null,

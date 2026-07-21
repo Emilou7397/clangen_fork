@@ -19,14 +19,18 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": -16,
+        "respect": -21,
         "comfort": -4,
-        "trust": -16,
+        "trust": -21,
         "log": [
             "Jademuzzle asks Heatherfern about something complicated and regrets it when Heatherfern misses the point. (high negative effect) - Jademuzzle was 105 moons old",
-            "Jademuzzle learns that Heatherfern has been misleading her about something trivial. (medium negative effect) - Jademuzzle was 107 moons old"
+            "Jademuzzle learns that Heatherfern has been misleading her about something trivial. (medium negative effect) - Jademuzzle was 107 moons old",
+            "Jademuzzle heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Jademuzzle was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -52,9 +56,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -251,9 +253,7 @@
         "log": [
             "Jademuzzle wishes she could get her pelt to shine like Archbellow's. (low negative effect) - Jademuzzle was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -294,9 +294,7 @@
         "log": [
             "Jademuzzle finds fault in everything Prancelaurel does. (high negative effect) - Jademuzzle was 101 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -473,9 +471,7 @@
         "log": [
             "Verbenabloom brought Jademuzzle some dry bedding. (low positive effect) - Jademuzzle was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -486,11 +482,14 @@
         "like": 0,
         "respect": -10,
         "comfort": -3,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Jademuzzle disapproved of Fleadusk wearing a collar. (negative effect) - Jademuzzle was 114 moons old"
+            "Jademuzzle disapproved of Fleadusk wearing a collar. (negative effect) - Jademuzzle was 114 moons old",
+            "Jademuzzle heard Fleadusk fell asleep guarding camp. (negative effect) - Jademuzzle was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -608,7 +607,7 @@
         "romance": 35,
         "like": 40,
         "respect": 33,
-        "comfort": 47,
+        "comfort": 52,
         "trust": 27,
         "log": [
             "Jademuzzle gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Jademuzzle was 101 moons old",
@@ -617,7 +616,8 @@
             "Reedheart mentions that Jademuzzle looks good today. (low positive effect) - Jademuzzle was 109 moons old",
             "Reedheart and Jademuzzle brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Jademuzzle was 112 moons old",
             "Jademuzzle and Reedheart chatted and gossiped while gathering mallow and betony together. (positive effect) - Jademuzzle was 114 moons old",
-            "Reedheart tells Mossflight, Jademuzzle, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Jademuzzle was 116 moons old"
+            "Reedheart tells Mossflight, Jademuzzle, and Terabyte a story that seems to grow less believable every meow. (negative effect) - Jademuzzle was 116 moons old",
+            "Jademuzzle and Reedheart had a relaxing, productive patrol gathering blackberry and raspberry leaves. (positive effect) - Jademuzzle was 117 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -655,9 +655,7 @@
             "Jademuzzle sees a Clanmate complimenting Shinefur and feels a pang of envy. (low negative effect) - Jademuzzle was 113 moons old",
             "Jademuzzle worries that the Clan trusts Shinefur more than her. (medium negative effect) - Jademuzzle was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -728,11 +726,15 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 5,
         "log": [
-            "Poolleaf was part of the patrol that invited Judas to RiverClan. (positive effect) - Judas was 97 moons old"
+            "Poolleaf was part of the patrol that invited Judas to RiverClan. (positive effect) - Judas was 97 moons old",
+            "Jademuzzle was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Jademuzzle was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -745,9 +747,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -806,10 +806,7 @@
             "Voletuft and Jademuzzle drove off a scavenging fox together. (positive effect) - Jademuzzle was 103 moons old",
             "Shimmerrunner, Voletuft, and Jademuzzle took a sunbath and had a little small talk. (positive effect) - Jademuzzle was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -838,11 +835,7 @@
             "Jademuzzle and Saltknoll chatted and gossiped while gathering mallow and betony together. (positive effect) - Jademuzzle was 114 moons old",
             "Jademuzzle appreciated that Saltknoll let her bring a sprig of tansy back to her den to freshen the air. (positive effect) - Jademuzzle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -901,11 +894,7 @@
             "Shimmerrunner was part of the patrol that invited Judas to RiverClan. (positive effect) - Judas was 97 moons old",
             "Shimmerrunner, Voletuft, and Jademuzzle took a sunbath and had a little small talk. (positive effect) - Jademuzzle was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -946,11 +935,14 @@
         "like": 5,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Jademuzzle appreciated Hollyheart's joke about how appropriately-named elder leaves are. (positive effect) - Jademuzzle was 110 moons old"
+            "Jademuzzle appreciated Hollyheart's joke about how appropriately-named elder leaves are. (positive effect) - Jademuzzle was 110 moons old",
+            "Jademuzzle suspects Hollyheart lied about something trivial. (low negative effect) - Jademuzzle was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -1296,11 +1288,7 @@
             "Jademuzzle was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Jademuzzle was 106 moons old",
             "Jademuzzle is discomforted by Silkymunch's muttering. (high negative effect) - Jademuzzle was 116 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -1315,9 +1303,7 @@
         "log": [
             "Jademuzzle notices that Butterflyglide is always one of the first to volunteer for a difficult task. (medium positive effect) - Jademuzzle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -1394,12 +1380,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 7,
+        "respect": 6,
+        "comfort": 21,
+        "trust": 7,
+        "log": [
+            "Jademuzzle offers to groom a hard-to-reach place for Midnighthaze, who thanks her earnestly. (high positive effect) - Jademuzzle was 118 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -1655,14 +1648,17 @@
         "romance": 0,
         "like": 0,
         "respect": -15,
-        "comfort": 0,
+        "comfort": 5,
         "trust": -5,
         "log": [
             "Jademuzzle heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Jademuzzle was 108 moons old",
             "Jademuzzle disapproved of Shinebelly wearing a collar. (negative effect) - Jademuzzle was 111 moons old",
-            "Jademuzzle heard Shinebelly fell asleep guarding camp. (negative effect) - Jademuzzle was 113 moons old"
+            "Jademuzzle heard Shinebelly fell asleep guarding camp. (negative effect) - Jademuzzle was 113 moons old",
+            "Jademuzzle and Shinebelly had a relaxing, productive patrol gathering blackberry and raspberry leaves. (positive effect) - Jademuzzle was 117 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -1981,10 +1977,7 @@
             "Hollyblossom and Jademuzzle drove off a scavenging fox together. (positive effect) - Jademuzzle was 103 moons old",
             "Jademuzzle feels like Hollyblossom is more accomplished than her. (medium positive effect) - Jademuzzle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -2027,9 +2020,7 @@
         "log": [
             "Jademuzzle heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Jademuzzle was 116 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -2181,9 +2172,7 @@
         "log": [
             "Jademuzzle was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Jademuzzle was 116 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "203",
@@ -2246,11 +2235,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Jademuzzle disapproved of Caterpillarstripe wearing a collar. (negative effect) - Jademuzzle was 118 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "203",
@@ -2520,9 +2513,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Jademuzzle and Merlotbite had a relaxing, productive patrol gathering blackberry and raspberry leaves. (positive effect) - Jademuzzle was 117 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2541,6 +2536,32 @@
     {
         "cat_from_id": "203",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "203",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "203",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

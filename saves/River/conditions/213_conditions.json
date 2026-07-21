@@ -1,21 +1,13 @@
 {
-    "injuries": {
-        "bite-wound": {
-            "severity": "major",
-            "mortality": 60,
-            "duration": 2,
-            "moon_start": 147,
-            "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "an infected wound",
-                    "chance": 11
-                }
-            ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": []
+    "illnesses": {
+        "heat stroke": {
+            "severity": "severe",
+            "mortality": 27,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 149,
+            "risks": [],
+            "event_triggered": false
         }
     },
     "permanent conditions": {

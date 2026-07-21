@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Tallneedle heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Tallneedle was 116 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -80,10 +82,7 @@
             "Tallneedle sees the blood of fresh-kill on Bitterleaf's paws and feels a prickle of discomfort. (low negative effect) - Tallneedle was 114 moons old",
             "Tallneedle thinks Bitterleaf did something incompetent. (high negative effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -111,9 +110,7 @@
         "log": [
             "Tallneedle worries about how capable Harefeather is. (medium negative effect) - Tallneedle was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -182,9 +179,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 8,
+        "log": [
+            "Tallneedle gets some good advice from Yewstar about something trivial. (low positive effect) - Tallneedle was 116 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -360,9 +361,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Tallneedle shared a embarrassing story about Hushshimmer she was asked not to share... (low negative effect) - Tallneedle was 116 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -390,9 +395,7 @@
         "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -429,12 +432,17 @@
         "like": 15,
         "respect": 0,
         "comfort": 15,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Fleadusk asks Tallneedle if she could use some help getting introduced to the other Clan members. (positive effect) - Tallneedle was 107 moons old",
-            "Tallneedle disapproved of Fleadusk wearing a collar. (negative effect) - Tallneedle was 112 moons old"
+            "Tallneedle disapproved of Fleadusk wearing a collar. (negative effect) - Tallneedle was 112 moons old",
+            "Tallneedle heard Fleadusk fell asleep guarding camp. (negative effect) - Tallneedle was 116 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -472,14 +480,18 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 10,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Tallneedle and Diablofoot successfully gathered berries together. (positive effect) - Tallneedle was 109 moons old",
-            "Tallneedle and Diablofoot worked together to gather juniper needles and oak leaves. (positive effect) - Tallneedle was 112 moons old"
+            "Tallneedle and Diablofoot worked together to gather juniper needles and oak leaves. (positive effect) - Tallneedle was 112 moons old",
+            "Tallneedle and Diablofoot successfully gathered herbs together despite the rainy weather. (positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -488,13 +500,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Tallneedle heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Tallneedle was 108 moons old"
+            "Tallneedle heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Tallneedle was 108 moons old",
+            "Tallneedle and Heavythud successfully gathered herbs together despite the rainy weather. (positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -509,9 +524,7 @@
         "log": [
             "Tallneedle includes Elmtrail in a conversation that Elmtrail struggled to join. (low positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -620,15 +633,16 @@
         "like": -6,
         "respect": -6,
         "comfort": -7,
-        "trust": -21,
+        "trust": -26,
         "log": [
-            "Poolleaf uses one of Tallneedle's fears against her. (high negative effect) - Tallneedle was 113 moons old"
+            "Poolleaf uses one of Tallneedle's fears against her. (high negative effect) - Tallneedle was 113 moons old",
+            "Tallneedle was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Tallneedle was 116 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "trust",
-            "comfort"
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -706,11 +720,7 @@
             "Tallneedle and Saltknoll successfully gathered berries together. (positive effect) - Tallneedle was 109 moons old",
             "Tallneedle appreciated that Saltknoll let her bring a sprig of tansy back to her den to freshen the air. (positive effect) - Tallneedle was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -725,10 +735,7 @@
         "log": [
             "Flightsplash complained so relentlessly about her patrol assignment that Sagospeck, Tallneedle, and Silkroot could only sigh and bear it. (negative effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -804,13 +811,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 13,
         "log": [
-            "Tallneedle feels a little safer when Hollyheart joins her in the clearing. (low positive effect) - Tallneedle was 110 moons old"
+            "Tallneedle feels a little safer when Hollyheart joins her in the clearing. (low positive effect) - Tallneedle was 110 moons old",
+            "Tallneedle and Hollyheart successfully gathered herbs together despite the rainy weather. (positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -937,12 +948,7 @@
             "Tallneedle learns that Dahliacrest is scared of thunder, too. (low positive effect) - Tallneedle was 110 moons old",
             "Tallneedle gives Dahliacrest a wonderfully colored pebble she found, and hides behind her whiskers when thanked. (high positive effect) - Tallneedle was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -1311,13 +1317,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": -15,
         "log": [
-            "Tallneedle was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Tallneedle was 112 moons old"
+            "Tallneedle was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Tallneedle was 112 moons old",
+            "Tallneedle and Miteleaf successfully gathered herbs together despite the rainy weather. (positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -1375,9 +1385,7 @@
         "log": [
             "Tallneedle heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Tallneedle was 110 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -1430,13 +1438,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 17,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Tallneedle gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Tallneedle was 108 moons old"
+            "Tallneedle gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Tallneedle was 108 moons old",
+            "Tallneedle and Sandthrush successfully gathered herbs together despite the rainy weather. (positive effect) - Tallneedle was 115 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -1692,9 +1704,7 @@
         "log": [
             "Tallneedle heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Tallneedle was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -1817,9 +1827,7 @@
         "log": [
             "Tallneedle was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Tallneedle was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -1845,11 +1853,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Tallneedle disapproved of Caterpillarstripe wearing a collar. (negative effect) - Tallneedle was 116 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "232",
@@ -2005,9 +2017,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -2111,9 +2121,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "232",
@@ -2131,6 +2139,32 @@
     {
         "cat_from_id": "232",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "232",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "232",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

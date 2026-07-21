@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Moorghost heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Moorghost was 72 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -131,9 +133,7 @@
         "log": [
             "Moorghost gained a deeper respect when she realized how Peatcrest considered the Clan's future needs while gathering from new growth in newleaf. (positive effect) - Moorghost was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -437,11 +437,14 @@
         "like": -3,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Moorghost disapproved of Fleadusk wearing a collar. (negative effect) - Moorghost was 67 moons old"
+            "Moorghost disapproved of Fleadusk wearing a collar. (negative effect) - Moorghost was 67 moons old",
+            "Moorghost heard Fleadusk fell asleep guarding camp. (negative effect) - Moorghost was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -462,16 +465,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
-        "respect": 14,
-        "comfort": 6,
-        "trust": 6,
+        "like": -10,
+        "respect": 8,
+        "comfort": 0,
+        "trust": 0,
         "log": [
             "Moorghost heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moorghost was 64 moons old",
             "Moorghost overhears Skulkwillow educating Clanmates about their fallen ancestors. (high positive effect) - Moorghost was 65 moons old",
-            "Moorghost is disappointed in Skulkwillow's lack of initiative. (medium negative effect) - Moorghost was 71 moons old"
+            "Moorghost is disappointed in Skulkwillow's lack of initiative. (medium negative effect) - Moorghost was 71 moons old",
+            "The Clan can't believe the things Moorghost and Skulkwillow say to one another. (high negative effect) - Moorghost was 72 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "respect"
         ]
     },
@@ -602,11 +607,7 @@
             "Talonlake says something hateful to Moorghost. (high negative effect) - Moorghost was 57 moons old",
             "Moorghost was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Moorghost was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -623,9 +624,7 @@
             "Frondpad and Moorghost enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Moorghost was 64 moons old",
             "Frondpad helps Moorghost fix a matted piece of fur on her back. (medium positive effect) - Moorghost was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -665,8 +664,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Moorghost was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moorghost was 71 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -766,10 +767,7 @@
         "log": [
             "Moorghost was impressed by Flightsplash's skill in gathering goldenrod when she assisted her during a patrol. (positive effect) - Moorghost was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -883,9 +881,7 @@
         "log": [
             "Kiwifoot, Moorghost, and Blotchstripe took a sunbath and had a little small talk. (positive effect) - Moorghost was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1045,9 +1041,7 @@
         "log": [
             "Kiwifoot, Moorghost, and Blotchstripe took a sunbath and had a little small talk. (positive effect) - Moorghost was 60 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1334,9 +1328,7 @@
         "log": [
             "For a moment, Moorghost thought Poppybriar sounded like someone else. (medium negative effect) - Moorghost was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1368,9 +1360,7 @@
         "log": [
             "Moorghost and Creekmoss volunteer to go on an extra border patrol together. (medium positive effect) - Moorghost was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1574,12 +1564,14 @@
         "cat_to_id": "174",
         "mates": false,
         "family": false,
-        "romance": 13,
+        "romance": 30,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moorghost nuzzles against Heathstripe and purrs. (medium positive effect) - Moorghost was 72 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1653,9 +1645,7 @@
         "log": [
             "Moorghost heard about how Frognose shared prey with a kittypet. (negative effect) - Moorghost was 58 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1683,10 +1673,7 @@
         "log": [
             "Brindlesplash complained about her patrol assignment all day, much to the annoyance of Garlicberry, Moorghost, and Skulkwillow. (negative effect) - Moorghost was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1706,15 +1693,17 @@
         "cat_to_id": "189",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 10,
+        "romance": 8,
+        "like": 18,
         "respect": 8,
         "comfort": 10,
         "trust": 10,
         "log": [
             "Driftstripe was part of the patrol that invited Moorghost to RiverClan. (positive effect) - Moorghost was 55 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -1731,9 +1720,7 @@
             "Moorghost was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Moorghost was 65 moons old",
             "Moorghost caught Morelstreak complaining about her behind her back. (medium negative effect) - Moorghost was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1771,12 +1758,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Jademuzzle tromped into the warrior's den with muddy paws, trailing muck straight through Lionheart and Moorghost's nests. (negative effect) - Moorghost was 71 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -1830,9 +1822,7 @@
         "log": [
             "Moorghost heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Moorghost was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -1960,9 +1950,7 @@
         "log": [
             "Moorghost was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Moorghost was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -2025,11 +2013,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Moorghost disapproved of Caterpillarstripe wearing a collar. (negative effect) - Moorghost was 72 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -2148,9 +2140,7 @@
         "log": [
             "Bigpaw crashes into Moorghost while eager for the new day. (medium negative effect) - Moorghost was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "219",
@@ -2324,6 +2314,32 @@
     {
         "cat_from_id": "219",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "219",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "219",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

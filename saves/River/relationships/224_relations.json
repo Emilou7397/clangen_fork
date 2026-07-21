@@ -21,13 +21,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 17,
+        "respect": 12,
         "comfort": 13,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Redswirl and Heatherfern take turns in a small patch of sunlight. (medium positive effect) - Redswirl was 71 moons old"
+            "Redswirl and Heatherfern take turns in a small patch of sunlight. (medium positive effect) - Redswirl was 71 moons old",
+            "Redswirl heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Redswirl was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -282,9 +286,7 @@
         "log": [
             "Quailfur was part of the patrol that invited Redswirl to RiverClan. (positive effect) - Redswirl was 68 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -328,9 +330,7 @@
             "The moon casts a shadow on Gardeniaglow's face in a way that makes Redswirl uneasy. (medium negative effect) - Redswirl was 79 moons old",
             "Redswirl and Gardeniaglow reach for the same piece of prey and bicker over it. Redswirl gets it. (low negative effect) - Redswirl was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -422,12 +422,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Redswirl disapproved of Fleadusk wearing a collar. (negative effect) - Redswirl was 78 moons old",
-            "Redswirl and Fleadusk quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old"
+            "Redswirl and Fleadusk quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old",
+            "Redswirl was impressed by Fleadusk's skill at finding burdock and digging up its roots. (positive effect) - Redswirl was 82 moons old",
+            "Redswirl heard Fleadusk fell asleep guarding camp. (negative effect) - Redswirl was 82 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -472,9 +474,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -581,9 +581,7 @@
             "Late at night, Redswirl finds Shinefur sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Redswirl was 77 moons old",
             "Redswirl and Shinefur find out they have the same favorite prey! (low positive effect) - Redswirl was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -601,10 +599,7 @@
             "Redswirl was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Redswirl was 81 moons old",
             "Redswirl appreciates Talonlake's helpful attitude. (low positive effect) - Redswirl was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -656,8 +651,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Redswirl was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Redswirl was 83 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -835,12 +832,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -2,
+        "respect": -2,
+        "comfort": -3,
+        "trust": -11,
+        "log": [
+            "Redswirl doesn't bother to ask Hollyheart for help with a minor injury, worried that he might make it worse. (high negative effect) - Redswirl was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -1116,9 +1117,7 @@
         "log": [
             "Redswirl notices that Gorgehunt overslept. (low negative effect) - Redswirl was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -1365,12 +1364,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Redswirl tells Caterpillarfoot that she's an amazing storyteller. (medium positive effect) - Redswirl was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -1544,10 +1547,7 @@
             "Redswirl makes up a new Clan with Heathstripe. (medium positive effect) - Redswirl was 72 moons old",
             "Redswirl appreciated Heathstripe's help harvesting burdock root. (positive effect) - Redswirl was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -1783,9 +1783,7 @@
             "Redswirl and Sagopaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Redswirl was 76 moons old",
             "Redswirl heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Redswirl was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -1983,11 +1981,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Redswirl disapproved of Caterpillarstripe wearing a collar. (negative effect) - Redswirl was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -2283,6 +2285,32 @@
     {
         "cat_from_id": "224",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

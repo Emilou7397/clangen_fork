@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Garlicberry heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Garlicberry was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -270,9 +272,7 @@
         "comfort": 13,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -301,10 +301,7 @@
             "Garlicberry enjoyed Prancelaurel's story of how a benevolent fire restored peace to the five ancient Clans. (positive effect) - Garlicberry was 76 moons old",
             "Garlicberry learned from Prancelaurel about how the Twolegs occupy a particular beach throughout greenleaf. (positive effect) - Garlicberry was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -446,10 +443,7 @@
             "Garlicberry enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Garlicberry was 68 moons old",
             "Garlicberry and Hushshimmer chase off a predator on a patrol together. (medium positive effect) - Garlicberry was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -523,13 +517,19 @@
         "like": 30,
         "respect": 10,
         "comfort": 30,
-        "trust": 30,
+        "trust": 25,
         "log": [
             "Fleadusk offers Garlic some feathers as a welcome gift that she can use to decorate her new nest. (positive effect) - Garlic was 51 moons old",
             "Fleadusk asks Garlic if she could use some help getting introduced to the other Clan members. (positive effect) - Garlic was 51 moons old",
-            "Garlicberry disapproved of Fleadusk wearing a collar. (negative effect) - Garlicberry was 76 moons old"
+            "Garlicberry disapproved of Fleadusk wearing a collar. (negative effect) - Garlicberry was 76 moons old",
+            "Garlicberry heard Fleadusk fell asleep guarding camp. (negative effect) - Garlicberry was 80 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "178",
@@ -559,10 +559,7 @@
             "Garlicberry enjoys the time with Skulkwillow and feels secure. (high positive effect) - Garlicberry was 72 moons old",
             "Garlicberry heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Garlicberry was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -722,9 +719,7 @@
             "Frondpad uses one of Garlicberry's fears against her. (high negative effect) - Garlicberry was 71 moons old",
             "Garlicberry is jealous that Frondpad was praised by the leader. (medium negative effect) - Garlicberry was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -779,8 +774,10 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Garlicberry was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Garlicberry was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -900,7 +897,7 @@
         "cat_to_id": "89",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
         "comfort": -3,
@@ -940,12 +937,7 @@
             "Hailfreckle, wanting to help keep her Clanmates in shape and ready for anything, wakes Garlicberry, Dahliacrest, Whiskerleg, and Snakedrop up early for morning stretches. (negative effect) - Garlicberry was 76 moons old",
             "Hailfreckle tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Garlicberry, Midnighthaze, and Sandthrush. (negative effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -1408,9 +1400,7 @@
             "Garlicberry heard about Glowfur's victory in battle against a gang of rogues. (positive effect) - Garlicberry was 62 moons old",
             "Garlicberry and Glowfur enjoyed practicing new battle moves together. (positive effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -1427,9 +1417,7 @@
             "Garlicberry heard Whiskerleg fell asleep guarding camp. (negative effect) - Garlicberry was 74 moons old",
             "Whiskerleg tells Garlicberry that her pelt is shiny today. (low positive effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -1975,10 +1963,7 @@
         "log": [
             "Brindlesplash complained about her patrol assignment all day, much to the annoyance of Garlicberry, Moorghost, and Skulkwillow. (negative effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2100,9 +2085,7 @@
             "Garlicberry and Hollyblossom worked together to use an eagle as a scout for their own hunt. (positive effect) - Garlicberry was 72 moons old",
             "Garlicberry thinks Hollyblossom was nice to her today. (low positive effect) - Garlicberry was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2120,10 +2103,7 @@
             "Lionheart was very considerate while on patrol with Garlicberry. (positive effect) - Garlicberry was 75 moons old",
             "Garlicberry and Lionheart enjoyed practicing new battle moves together. (positive effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2151,9 +2131,7 @@
         "log": [
             "Garlicberry heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Garlicberry was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2269,9 +2247,7 @@
         "log": [
             "Skytooth got a weird look on their face when Garlicberry approached them. (low negative effect) - Garlicberry was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2312,9 +2288,7 @@
         "log": [
             "Garlicberry was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2378,16 +2352,15 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 15,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Garlicberry and Caterpillarpaw enjoyed practicing new battle moves together. (positive effect) - Garlicberry was 78 moons old",
-            "Garlicberry noticed Caterpillarpaw's hard work during a sparring session. (positive effect) - Garlicberry was 78 moons old"
+            "Garlicberry noticed Caterpillarpaw's hard work during a sparring session. (positive effect) - Garlicberry was 78 moons old",
+            "Garlicberry disapproved of Caterpillarstripe wearing a collar. (negative effect) - Garlicberry was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2450,10 +2423,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Garlicberry sees a glimmer of determination in Branchpaw's eyes. (low positive effect) - Garlicberry was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2517,9 +2492,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Fishleg tries to convince Garlicberry that an obvious lie is real. (medium negative effect) - Garlicberry was 81 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "178",
@@ -2612,9 +2591,7 @@
         "log": [
             "Garlicberry has a weird feeling about something Bluestripe said the other day. (low negative effect) - Garlicberry was 78 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "178",
@@ -2684,6 +2661,32 @@
     {
         "cat_from_id": "178",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "178",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "178",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

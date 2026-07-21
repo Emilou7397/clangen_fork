@@ -138,11 +138,12 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Electronegativity was 59 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -266,9 +267,7 @@
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Electronegativity gained a deeper respect when she realized how Peatcrest considered the Clan's future needs while gathering from new growth in newleaf. (positive effect) - Electronegativity was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -548,11 +547,7 @@
             "Electronegativity thought Warmswirl was polite today. (low positive effect) - Electronegativity was 42 moons old",
             "Warmswirl, Daisymoor, and Electronegativity took a sunbath and had a little small talk. (positive effect) - Electronegativity was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -593,12 +588,15 @@
         "like": 5,
         "respect": 0,
         "comfort": 8,
-        "trust": 0,
+        "trust": -12,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
-            "Electronegativity is prancing around in front of Verbenabloom. (low positive effect) - Electronegativity was 45 moons old"
+            "Electronegativity is prancing around in front of Verbenabloom. (low positive effect) - Electronegativity was 45 moons old",
+            "Verbenabloom does something that badly affects Electronegativity. (medium negative effect) - Electronegativity was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -608,13 +606,18 @@
         "romance": 0,
         "like": 5,
         "respect": -10,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 8,
+        "trust": 6,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
-            "Electronegativity disapproved of Fleadusk wearing a collar. (negative effect) - Electronegativity was 54 moons old"
+            "Electronegativity disapproved of Fleadusk wearing a collar. (negative effect) - Electronegativity was 54 moons old",
+            "Electronegativity heard Fleadusk fell asleep guarding camp. (negative effect) - Electronegativity was 58 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -723,10 +726,7 @@
             "Electronegativity heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Electronegativity was 51 moons old",
             "Electronegativity and Brindletooth enjoy the rain together. (low positive effect) - Electronegativity was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -753,9 +753,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity and Sardinespeckle weren't able to figure out a Twoleg object on patrol. (negative effect) - Electronegativity was 58 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -768,9 +769,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity and Shinefur weren't able to figure out a Twoleg object on patrol. (negative effect) - Electronegativity was 58 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -799,13 +801,16 @@
         "like": 3,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Electronegativity heard Frondpad fell asleep guarding camp. (negative effect) - Electronegativity was 43 moons old",
-            "Frondpad and Electronegativity enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Electronegativity was 51 moons old"
+            "Frondpad and Electronegativity enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Electronegativity was 51 moons old",
+            "Electronegativity and Frondpad weren't able to figure out a Twoleg object on patrol. (negative effect) - Electronegativity was 58 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -847,9 +852,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Electronegativity was 58 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -862,12 +868,16 @@
         "like": 11,
         "respect": 0,
         "comfort": 8,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
-            "Pheasantbrush and Electronegativity enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Electronegativity was 51 moons old"
+            "Pheasantbrush and Electronegativity enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Electronegativity was 51 moons old",
+            "Electronegativity and Pheasantbrush weren't able to figure out a Twoleg object on patrol. (negative effect) - Electronegativity was 58 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -960,11 +970,7 @@
             "In the middle of a conversation, Electronegativity and Flightsplash realize they have less in common than they thought. (medium negative effect) - Electronegativity was 42 moons old",
             "Electronegativity was impressed by Flightsplash's skill in gathering goldenrod when she assisted her during a patrol. (positive effect) - Electronegativity was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -1037,13 +1043,16 @@
         "like": 5,
         "respect": 10,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Electronegativity. (positive effect) - Electronegativity was 45 moons old",
-            "Electronegativity and Snakedrop drove off rogues together. (positive effect) - Electronegativity was 48 moons old"
+            "Electronegativity and Snakedrop drove off rogues together. (positive effect) - Electronegativity was 48 moons old",
+            "Electronegativity and Snakedrop weren't able to figure out a Twoleg object on patrol. (negative effect) - Electronegativity was 58 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1137,12 +1146,7 @@
             "Electronegativity appreciates Daisymoor telling her that she had a feather stuck to her face. (low positive effect) - Electronegativity was 55 moons old",
             "Warmswirl, Daisymoor, and Electronegativity took a sunbath and had a little small talk. (positive effect) - Electronegativity was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -1397,16 +1401,18 @@
         "cat_to_id": "134",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -5,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Electronegativity was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Electronegativity was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1455,9 +1461,7 @@
             "Glowfur and Electronegativity enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Electronegativity was 51 moons old",
             "Glowfur keeps avoiding eye contact with Electronegativity. (medium negative effect) - Electronegativity was 58 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -1671,12 +1675,15 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": -15,
+        "trust": -27,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
-            "Electronegativity was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Electronegativity was 55 moons old"
+            "Electronegativity was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Electronegativity was 55 moons old",
+            "Electronegativity knows that Miteleaf just lied! (medium negative effect) - Electronegativity was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1693,9 +1700,7 @@
             "Electronegativity is impressed by Coconutocean helping others today. (low positive effect) - Electronegativity was 45 moons old",
             "Electronegativity chats quietly with Coconutocean while they're both on camp guard duty. (medium positive effect) - Electronegativity was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -1920,9 +1925,7 @@
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Electronegativity heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Electronegativity was 51 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -2128,11 +2131,7 @@
             "Electronegativity thinks Sagopaw did something incompetent. (high negative effect) - Electronegativity was 47 moons old",
             "Electronegativity heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Electronegativity was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -2282,10 +2281,7 @@
             "Electronegativity and Redswirl drink from the same puddle. (low positive effect) - Electronegativity was 55 moons old",
             "Electronegativity was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Electronegativity was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "216",
@@ -2348,13 +2344,16 @@
         "family": false,
         "romance": 0,
         "like": -3,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Electronegativity and Caterpillarkit are arguing about who should take the blame for something trivial. (low negative effect) - Electronegativity was 52 moons old"
+            "Electronegativity and Caterpillarkit are arguing about who should take the blame for something trivial. (low negative effect) - Electronegativity was 52 moons old",
+            "Electronegativity disapproved of Caterpillarstripe wearing a collar. (negative effect) - Electronegativity was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -2651,6 +2650,32 @@
     {
         "cat_from_id": "216",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "216",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "216",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

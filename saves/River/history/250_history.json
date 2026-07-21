@@ -8,16 +8,30 @@
     "mentor_influence": {
         "trait": {
             "212": {
-                "aggression": -2
+                "aggression": -1,
+                "lawfulness": 3,
+                "strings": [
+                    "use words over teeth and claws",
+                    "follow the status quo"
+                ]
             }
         },
         "skill": {
             "212": {
-                "SPEAKER": 3
+                "SPEAKER": 6,
+                "RUNNER": 3,
+                "strings": [
+                    "arguing",
+                    "running"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "courage",
+        "graduation_age": 12,
+        "moon": 149
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

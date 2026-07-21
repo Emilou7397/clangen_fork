@@ -116,10 +116,7 @@
         "log": [
             "Silkroot enjoyed picking elder leaves with Peatcrest. (positive effect) - Silkroot was 62 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -433,9 +430,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "247",
@@ -571,9 +570,7 @@
         "log": [
             "Poolleaf was part of the patrol that invited Siiri to RiverClan. (positive effect) - Siiri was 58 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -588,9 +585,7 @@
         "log": [
             "Silkroot wishes that a Clanmate liked him as much as they like Pheasantbrush. (medium negative effect) - Silkroot was 61 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -659,10 +654,7 @@
         "log": [
             "Flightsplash complained so relentlessly about her patrol assignment that Sagospeck, Tallneedle, and Silkroot could only sigh and bear it. (negative effect) - Silkroot was 62 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -896,9 +888,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "247",
@@ -913,9 +907,7 @@
         "log": [
             "When tucking in for the night, Silkroot saw that Wavelight fixed his nest. (low positive effect) - Silkroot was 62 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -1057,14 +1049,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 10,
-        "trust": 10,
+        "like": -11,
+        "respect": -6,
+        "comfort": 2,
+        "trust": 4,
         "log": [
-            "Midnighthaze was part of the patrol that invited Siiri to RiverClan. (positive effect) - Siiri was 58 moons old"
+            "Midnighthaze was part of the patrol that invited Siiri to RiverClan. (positive effect) - Siiri was 58 moons old",
+            "Silkroot struggles to accept Midnighthaze's different opinion on something. (high negative effect) - Silkroot was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "247",
@@ -1183,9 +1179,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -1367,9 +1361,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -1540,9 +1532,7 @@
         "log": [
             "Silkroot sees Scalebloom whispering suspiciously to a Clanmate. (low negative effect) - Silkroot was 62 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -1747,12 +1737,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 16,
+        "comfort": 4,
+        "trust": 4,
+        "log": [
+            "Silkroot is wowed by how bravely Whitepaw fought the other day. (high positive effect) - Silkroot was 64 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "247",
@@ -1780,9 +1774,7 @@
         "log": [
             "Silkroot suspects that Waterpaw gets special treatment. (low negative effect) - Silkroot was 63 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "247",
@@ -1958,6 +1950,32 @@
     {
         "cat_from_id": "247",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "247",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "247",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

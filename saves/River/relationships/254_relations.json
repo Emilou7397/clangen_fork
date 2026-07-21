@@ -38,12 +38,7 @@
         "log": [
             "Heavythud eats as ravenously as a wolverine and by the time he's done, Sardinespeckle, Daykit, and Poolleaf barely have the stomach to finish their own meals. (negative effect) - Daykit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -65,10 +60,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Daykit heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Daykit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -190,9 +187,7 @@
         "log": [
             "Daykit wants to hold an important position like Carptail. (low positive effect) - Daykit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -450,8 +445,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Daykit heard Fleadusk fell asleep guarding camp. (negative effect) - Daykit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -560,10 +557,7 @@
         "log": [
             "Daykit loved Shinefur's stories of the Clan's past. (positive effect) - Daykit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -615,8 +609,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Daykit was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Daykit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -760,12 +756,7 @@
         "comfort": 74,
         "trust": 64,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -1231,9 +1222,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Lilynoise tells Daykit that she was worried about her. (low positive effect) - Daykit was 3 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1638,9 +1633,7 @@
         "log": [
             "Daykit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Daykit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -1733,9 +1726,7 @@
         "log": [
             "Daykit noticed Skytooth is doing their best today. (low positive effect) - Daykit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -1776,9 +1767,7 @@
         "log": [
             "Daykit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Daykit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -1813,11 +1802,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Daykit disapproved of Caterpillarstripe wearing a collar. (negative effect) - Daykit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2085,19 +2078,20 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 67,
-        "respect": 11,
-        "comfort": 58,
-        "trust": 31,
+        "like": 73,
+        "respect": 32,
+        "comfort": 66,
+        "trust": 38,
         "log": [
             "Daykit thought Flintkit was polite today. (low positive effect) - Daykit was 1 moon old",
-            "Daykit spent the whole day playing her favorite games with Flintkit. (medium positive effect) - Daykit was 2 moons old"
+            "Daykit spent the whole day playing her favorite games with Flintkit. (medium positive effect) - Daykit was 2 moons old",
+            "Daykit is deeply touched hearing just how much Flintkit remembers about her. (high positive effect) - Daykit was 3 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2111,16 +2105,37 @@
         "comfort": 49,
         "trust": 39,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -72,13 +72,18 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -5,
         "comfort": 20,
-        "trust": -8,
+        "trust": -13,
         "log": [
-            "Frondpad, Pheasantbrush, Talonlake, Burrweb, and Heatherfern hang out while stretching. (positive effect) - Pheasantbrush was 18 moons old"
+            "Frondpad, Pheasantbrush, Talonlake, Burrweb, and Heatherfern hang out while stretching. (positive effect) - Pheasantbrush was 18 moons old",
+            "Pheasantbrush heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Pheasantbrush was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -186,10 +191,7 @@
             "Harefeather, Ochretail, Pheasantbrush, Bitterleaf, and Dancingscreech hang out while stretching. (positive effect) - Pheasantbrush was 47 moons old",
             "Pheasantbrush heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Pheasantbrush was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -744,10 +746,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pheasantbrush likes to sit near Mossflight during conversations. (low positive effect) - Pheasantbrush was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -884,9 +890,9 @@
         "cat_to_id": "61",
         "mates": false,
         "family": false,
-        "romance": 23,
-        "like": 24,
-        "respect": 56,
+        "romance": 28,
+        "like": 30,
+        "respect": 61,
         "comfort": 36,
         "trust": 34,
         "log": [
@@ -900,7 +906,8 @@
             "Pheasantbrush is amazed at how skilled Verbenabloom really is. (high positive effect) - Pheasantbrush was 70 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "respect",
+            "like"
         ]
     },
     {
@@ -912,16 +919,21 @@
         "like": 42,
         "respect": 30,
         "comfort": 20,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Pheasantbrush thought Fleadusk was an exceptionally fun cat to train with. (positive effect)- Pheasantbrush was 14 moons old",
             "Pheasantbrush was flattered by Fleadusk's politeness this morning. (low positive effect) - Pheasantbrush was 23 moons old",
             "When an argument started on patrol, Fleadusk smoothed things over with his natural charm. (positive effect) - Pheasantbrush was 40 moons old",
             "Pheasantbrush heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pheasantbrush was 42 moons old",
             "Pheasantbrush is impressed by some of Fleadusk's advice. (medium positive effect) - Pheasantbrush was 66 moons old",
-            "Pheasantbrush disapproved of Fleadusk wearing a collar. (negative effect) - Pheasantbrush was 69 moons old"
+            "Pheasantbrush disapproved of Fleadusk wearing a collar. (negative effect) - Pheasantbrush was 69 moons old",
+            "Pheasantbrush heard Fleadusk fell asleep guarding camp. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -962,7 +974,7 @@
         "cat_to_id": "65",
         "mates": false,
         "family": false,
-        "romance": 12,
+        "romance": 24,
         "like": 37,
         "respect": 8,
         "comfort": 8,
@@ -976,7 +988,8 @@
             "Pheasantbrush heard Murkhaven fell asleep guarding camp. (negative effect) - Pheasantbrush was 36 moons old",
             "Pheasantbrush heard that Murkhaven chased a kittypet off the territory. (positive effect) - Pheasantbrush was 50 moons old",
             "Murkhaven offered to groom Pheasantbrush and, despite her grumbling, she awkwardly accepted. (medium positive effect) - Pheasantbrush was 54 moons old",
-            "Murkhaven complained so relentlessly about their patrol assignment that Voletuft, Pheasantbrush, and Mallowpelt could only sigh and bear it. (negative effect) - Pheasantbrush was 68 moons old"
+            "Murkhaven complained so relentlessly about their patrol assignment that Voletuft, Pheasantbrush, and Mallowpelt could only sigh and bear it. (negative effect) - Pheasantbrush was 68 moons old",
+            "Pheasantbrush goes for a nice long walk with Murkhaven. (medium positive effect) - Pheasantbrush was 74 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1088,13 +1101,17 @@
         "like": 15,
         "respect": 0,
         "comfort": 0,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Pheasantbrush and Sardinespeckle took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Pheasantbrush was 30 moons old",
             "Pheasantbrush overhears Sardinespeckle tell another cat she kind of likes Pheasantbrush. (medium positive effect) - Pheasantbrush was 33 moons old",
-            "Pheasantbrush was impressed by Sardinespeckle's idea of sabotaging the wood pieces to prevent the Twolegs from building new nests. (positive effect) - Pheasantbrush was 56 moons old"
+            "Pheasantbrush was impressed by Sardinespeckle's idea of sabotaging the wood pieces to prevent the Twolegs from building new nests. (positive effect) - Pheasantbrush was 56 moons old",
+            "Pheasantbrush and Sardinespeckle weren't able to figure out a Twoleg object on patrol. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -1105,14 +1122,20 @@
         "like": 18,
         "respect": 16,
         "comfort": 20,
-        "trust": 22,
+        "trust": 17,
         "log": [
             "Pheasantpaw heard about how Shinefur's patrol drove off a scavenging fox. (positive effect)- Pheasantpaw was 10 moons old",
             "Pheasantbrush and Shinefur heckled another Clan at the Gathering together. (high positive effect) - Pheasantbrush was 19 moons old",
             "Pheasantbrush thinks no other cat is anywhere near as fun or interesting as Shinefur. (medium positive effect) - Pheasantbrush was 53 moons old",
-            "Shinefur and Pheasantbrush snapped at each other after a failed horsetail gathering patrol. (negative effect) - Pheasantbrush was 64 moons old"
+            "Shinefur and Pheasantbrush snapped at each other after a failed horsetail gathering patrol. (negative effect) - Pheasantbrush was 64 moons old",
+            "Pheasantbrush and Shinefur weren't able to figure out a Twoleg object on patrol. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -1141,12 +1164,7 @@
             "Pheasantbrush thinks Talonlake keeps getting in the way instead of helping others. (high negative effect) - Pheasantbrush was 60 moons old",
             "Pheasantbrush was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Pheasantbrush was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -1157,7 +1175,7 @@
         "like": 79,
         "respect": 63,
         "comfort": 54,
-        "trust": 72,
+        "trust": 67,
         "log": [
             "Pheasantpaw called Frondpad the wrong name. (medium negative effect)- Pheasantpaw was 10 moons old",
             "Pheasantpaw heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Pheasantpaw was 10 moons old",
@@ -1187,9 +1205,15 @@
             "Pheasantbrush was impressed by Frondpad's quick thinking during a dog attack. (positive effect) - Pheasantbrush was 62 moons old",
             "Frondpad and Pheasantbrush snapped at each other after a failed horsetail gathering patrol. (negative effect) - Pheasantbrush was 64 moons old",
             "Frondpad and Pheasantbrush enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Pheasantbrush was 66 moons old",
-            "Frondpad sneaks out at night to sleep in Pheasantbrush's nest. (high positive effect) - Pheasantbrush was 68 moons old"
+            "Frondpad sneaks out at night to sleep in Pheasantbrush's nest. (high positive effect) - Pheasantbrush was 68 moons old",
+            "Pheasantbrush and Frondpad weren't able to figure out a Twoleg object on patrol. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -1270,7 +1294,7 @@
         "like": 52,
         "respect": 32,
         "comfort": 43,
-        "trust": 33,
+        "trust": 28,
         "log": [
             "Goldshard invites Pheasantkit, Poolkit, Duckbelly, and Primfreckle to share what's been on their minds and to have an honest talk with each other. (positive effect)- Pheasantkit was 1 moon old",
             "Goldshard hosts a group exercise to help Onekit, Poolkit, Mallowkit, and Pheasantkit understand each other better. (positive effect)- Pheasantkit was 3 moons old",
@@ -1284,9 +1308,15 @@
             "Pheasantbrush doesn't think that Poolleaf has been completely honest lately. (low negative effect) - Pheasantbrush was 43 moons old",
             "Pheasantbrush enjoyed Poolleaf's story of how a benevolent fire restored peace to the five ancient Clans. (positive effect) - Pheasantbrush was 50 moons old",
             "Pheasantbrush is proud to be in the same Clan as Poolleaf. (high positive effect) - Pheasantbrush was 56 moons old",
-            "Pheasantbrush worked with Poolleaf to sabotage a stack of wood pieces to prevent Twolegs from building new nests. (positive effect) - Pheasantbrush was 59 moons old"
+            "Pheasantbrush worked with Poolleaf to sabotage a stack of wood pieces to prevent Twolegs from building new nests. (positive effect) - Pheasantbrush was 59 moons old",
+            "Pheasantbrush was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -1386,7 +1416,7 @@
         "cat_to_id": "86",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 32,
         "respect": 13,
         "comfort": 37,
@@ -1591,12 +1621,13 @@
         "like": 0,
         "respect": 2,
         "comfort": -4,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Snakedrop squashes a bug that Pheasantbrush was watching. (medium negative effect) - Pheasantbrush was 20 moons old",
             "Pheasantbrush heard Snakedrop fell asleep guarding camp. (negative effect) - Pheasantbrush was 32 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Pheasantbrush. (positive effect) - Pheasantbrush was 60 moons old",
-            "Pheasantbrush and Snakedrop worked together to use an eagle as a scout for their own hunt. (positive effect) - Pheasantbrush was 65 moons old"
+            "Pheasantbrush and Snakedrop worked together to use an eagle as a scout for their own hunt. (positive effect) - Pheasantbrush was 65 moons old",
+            "Pheasantbrush and Snakedrop weren't able to figure out a Twoleg object on patrol. (negative effect) - Pheasantbrush was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1837,11 +1868,7 @@
             "Pheasantbrush and Blotchstripe plan all their days together. (high positive effect) - Pheasantbrush was 72 moons old",
             "Pheasantbrush knows that Blotchstripe is hiding something. (medium negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2630,10 +2657,7 @@
             "Pheasantbrush and Heathstripe have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Pheasantbrush was 65 moons old",
             "Pheasantbrush can tell Heathstripe worries about her health and safety. (high positive effect) - Pheasantbrush was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2654,15 +2678,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 20,
-        "comfort": 0,
-        "trust": 0,
+        "like": 31,
+        "respect": 28,
+        "comfort": 8,
+        "trust": 7,
         "log": [
             "Pheasantbrush heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pheasantbrush was 66 moons old",
-            "Pheasantbrush was impressed by Howlsky's tracking skills during a cobweb-gathering patrol. (positive effect) - Pheasantbrush was 67 moons old"
+            "Pheasantbrush was impressed by Howlsky's tracking skills during a cobweb-gathering patrol. (positive effect) - Pheasantbrush was 67 moons old",
+            "Pheasantbrush defends Howlsky in conversations. (high positive effect) - Pheasantbrush was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -2715,7 +2745,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 9,
+        "like": 22,
         "respect": 1,
         "comfort": 3,
         "trust": -6,
@@ -2723,7 +2753,9 @@
             "Pheasantbrush finds her feelings conflicted towards the new family addition. (neutral effect) - Pheasantbrush was 48 moons old",
             "Pheasantbrush thinks Ashenpelt was nice to her today. (low positive effect) - Pheasantbrush was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -2738,9 +2770,7 @@
         "log": [
             "Pheasantbrush finds her feelings conflicted towards the new family addition. (neutral effect) - Pheasantbrush was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2843,9 +2873,7 @@
             "Pheasantbrush heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Pheasantbrush was 56 moons old",
             "Pheasantbrush shares a piece of fresh-kill with Jademuzzle. (medium positive effect) - Pheasantbrush was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2904,9 +2932,7 @@
         "log": [
             "Pheasantbrush heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Pheasantbrush was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2949,9 +2975,7 @@
         "log": [
             "Pheasantbrush doesn't tell Softspring that she forgot to groom a part of her fur. (low negative effect) - Pheasantbrush was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -2975,15 +2999,21 @@
         "like": 6,
         "respect": 19,
         "comfort": 8,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Pheasantbrush is told about Electronegativity's bravery during a recent time of struggle. (medium positive effect) - Pheasantbrush was 63 moons old",
             "Pheasantbrush heard Electronegativity fell asleep guarding camp. (negative effect) - Pheasantbrush was 65 moons old",
             "Electronegativity and Pheasantbrush enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Pheasantbrush was 66 moons old",
             "Pheasantbrush and Electronegativity enjoy the rain together. (low positive effect) - Pheasantbrush was 67 moons old",
-            "Pheasantbrush thinks Electronegativity is being thoughtful of others. (medium positive effect) - Pheasantbrush was 69 moons old"
+            "Pheasantbrush thinks Electronegativity is being thoughtful of others. (medium positive effect) - Pheasantbrush was 69 moons old",
+            "Pheasantbrush and Electronegativity weren't able to figure out a Twoleg object on patrol. (negative effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -3067,9 +3097,7 @@
         "log": [
             "Pheasantbrush was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Pheasantbrush was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -3134,11 +3162,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pheasantbrush disapproved of Caterpillarstripe wearing a collar. (negative effect) - Pheasantbrush was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "82",
@@ -3216,9 +3248,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -3233,9 +3263,7 @@
         "log": [
             "Edelweisspaw draws a pretty symbol in the sand that Pheasantbrush makes sure not to mess up. (low positive effect) - Pheasantbrush was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "82",
@@ -3444,5 +3472,45 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "82",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 31,
+        "respect": 34,
+        "comfort": 57,
+        "trust": 42,
+        "log": [
+            "Pheasantbrush is excited for her family to grow further. (positive effect) - Pheasantbrush was 73 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "82",
+        "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 7,
+        "respect": 10,
+        "comfort": 33,
+        "trust": 18,
+        "log": [
+            "Pheasantbrush visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Pheasantbrush was 73 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     }
 ]

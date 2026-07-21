@@ -69,14 +69,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 17,
+        "respect": 12,
         "comfort": 12,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Gardeniaglow convinces Heatherfern, Pearpelt, Hailfreckle, and Amberfur to wind down and stretch with him. (positive effect) - Amberfur was 34 moons old",
-            "Amberfur and Heatherfern debate about something interesting. They end up agreeing. (medium positive effect) - Amberfur was 39 moons old"
+            "Amberfur and Heatherfern debate about something interesting. They end up agreeing. (medium positive effect) - Amberfur was 39 moons old",
+            "Amberfur heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Amberfur was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -188,12 +193,7 @@
             "Ochretail acts childishly in front of Amberfur. (low negative effect) - Amberfur was 65 moons old",
             "Amberfur heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Amberfur was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -915,9 +915,12 @@
             "Amberfur helps Fringesnap figure out how to word something. (medium positive effect) - Amberfur was 42 moons old",
             "Fringesnap, Amberfur, and Icyriver took a sunbath and had a little small talk. (positive effect) - Amberfur was 51 moons old",
             "Amberfur talks about what to do tomorrow with Fringesnap. (medium positive effect) - Amberfur was 56 moons old",
-            "Fringesnap, Amberfur, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Amberfur was 77 moons old"
+            "Fringesnap, Amberfur, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Amberfur was 77 moons old",
+            "Fringesnap knows what to say to make Amberfur feel better. (medium positive effect) - Amberfur was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -965,7 +968,7 @@
         "like": 60,
         "respect": 21,
         "comfort": 100,
-        "trust": 36,
+        "trust": 31,
         "log": [
             "Both Amberkit and Fleakit avoid one another's eye contact. (low negative effect)- Amberkit was 3 moons old",
             "Amberpaw can't help but smile when around Fleapaw. (low positive effect)- Amberpaw was 7 moons old",
@@ -990,9 +993,15 @@
             "Fringesnap, Amberfur, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Amberfur was 77 moons old",
             "Fleadusk can't stop gushing over Amberfur. (high positive effect) - Amberfur was 79 moons old",
             "Amberfur disapproved of Fleadusk wearing a collar. (negative effect) - Amberfur was 80 moons old",
-            "Fleadusk and Amberfur snuck out of camp together. (high positive effect) - Amberfur was 81 moons old"
+            "Fleadusk and Amberfur snuck out of camp together. (high positive effect) - Amberfur was 81 moons old",
+            "Amberfur heard Fleadusk fell asleep guarding camp. (negative effect) - Amberfur was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -1047,12 +1056,7 @@
             "Amberfur wants to be closer to Skulkwillow. (low positive effect) - Amberfur was 83 moons old",
             "Amberfur was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Amberfur was 83 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -1113,9 +1117,7 @@
             "Amberfur heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Amberfur was 76 moons old",
             "Heavythud follows through on a small promise made with Amberfur. (low positive effect) - Amberfur was 83 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -1231,10 +1233,7 @@
             "Amberfur wonders what she did to make Talonlake so rude towards her today. (low negative effect) - Amberfur was 63 moons old",
             "Amberfur was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -1336,16 +1335,21 @@
         "like": 13,
         "respect": -20,
         "comfort": 26,
-        "trust": 9,
+        "trust": 4,
         "log": [
             "Bitebone, Amberfur, Warmswirl, Peatcrest, and Poolpaw hang out while stretching. (positive effect)- Amberfur was 21 moons old",
             "It is impossible to make Poolpaw, Hailpaw, Volepaw, and Shimmerpaw understand the importance of stretching properly, so Amberfur calls the exercise off. (negative effect)- Amberfur was 24 moons old",
             "Amberfur saw Poolleaf telling stories to the kits. (positive effect)- Amberfur was 25 moons old",
             "Amberfur noticed how successful Poolleaf's hunting patrol was. (positive effect) - Amberfur was 41 moons old",
             "Amberfur and Poolleaf argue about religion in the middle of camp. (high negative effect) - Amberfur was 42 moons old",
-            "Amberfur has big plans for the day, but they're thwarted by Poolleaf doing something more important. (high negative effect) - Amberfur was 50 moons old"
+            "Amberfur has big plans for the day, but they're thwarted by Poolleaf doing something more important. (high negative effect) - Amberfur was 50 moons old",
+            "Amberfur was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Amberfur was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -1491,11 +1495,7 @@
             "Saltknoll laughs a little too long at one of Amberfur's jokes. (low negative effect) - Amberfur was 78 moons old",
             "While Saltknoll gorges on his piece of fresh kill, Amberfur, Peakspore, and Lionheart find that eating is suddenly less appealing. (negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -1789,10 +1789,7 @@
             "Amberfur sees Lightpelt help a Clanmate get unstuck from some brambles. (low positive effect) - Amberfur was 34 moons old",
             "Amberfur notices that Lightpelt always gets better fresh-kill to eat. (high negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -1961,14 +1958,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
-        "comfort": 0,
-        "trust": -10,
+        "like": 21,
+        "respect": -2,
+        "comfort": 6,
+        "trust": -4,
         "log": [
-            "Amberfur was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Amberfur was 71 moons old"
+            "Amberfur was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Amberfur was 71 moons old",
+            "Amberfur and Drizzlepelt heckled another Clan at the Gathering together. (high positive effect) - Amberfur was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -2077,9 +2078,7 @@
             "Amberfur was unimpressed to hear that Moletooth impulsively attacked another Clan's patrol. (negative effect) - Amberfur was 74 moons old",
             "Amberfur prevents something from falling on Moletooth. (low positive effect) - Amberfur was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -2295,7 +2294,7 @@
         "romance": 0,
         "like": 2,
         "respect": 4,
-        "comfort": -16,
+        "comfort": -24,
         "trust": -1,
         "log": [
             "Amberfur shivers after noticing Caterpillarfoot following him around like a shadow. (high negative effect) - Amberfur was 43 moons old",
@@ -2303,7 +2302,9 @@
             "Amberfur heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Amberfur was 67 moons old",
             "Amberfur and Caterpillarfoot roll up moss balls together. (low positive effect) - Amberfur was 77 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -2900,10 +2901,7 @@
             "Amberfur and Sagokit spend a few minutes complimenting one another. (high positive effect) - Amberfur was 67 moons old",
             "Amberfur heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -2933,9 +2931,7 @@
         "log": [
             "Amberfur felt eyes on her back, and when she looked, Stagpaw was quickly turning away. (low negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -3061,10 +3057,7 @@
             "Amberfur is impressed with Redswirl's willingness to help. (medium positive effect) - Amberfur was 75 moons old",
             "Amberfur was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Amberfur was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -3127,11 +3120,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Amberfur disapproved of Caterpillarstripe wearing a collar. (negative effect) - Amberfur was 84 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "56",
@@ -3146,12 +3143,7 @@
         "log": [
             "Amberfur asks Tallneedle to look at a little cut on her leg. (high positive effect) - Amberfur was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "56",
@@ -3431,6 +3423,32 @@
     {
         "cat_from_id": "56",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "56",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "56",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

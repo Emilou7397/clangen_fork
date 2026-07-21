@@ -157,9 +157,9 @@
         "family": false,
         "romance": 0,
         "like": 100,
-        "respect": 93,
+        "respect": 88,
         "comfort": 100,
-        "trust": 59,
+        "trust": 54,
         "log": [
             "Stoatkit learns about a terrible mistake Heatherfern made. (high negative effect)- Stoatkit was 3 moons old",
             "Stoatpaw practiced hunting with Heatherfern during a one-on-one training session. (positive effect)- Stoatpaw was 13 moons old",
@@ -189,9 +189,15 @@
             "Elmtrail, Stoatshade, Heatherfern, Erminedaisy, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Stoatshade was 83 moons old",
             "Heatherfern says something very sincere and comforting to Stoatshade. (high positive effect)- Stoatshade was 84 moons old",
             "Stoatshade warns Heatherfern about something on the ground so she doesn't trip. (low positive effect) - Stoatshade was 105 moons old",
-            "Stoatshade thought Heatherfern was polite today. (low positive effect) - Stoatshade was 129 moons old"
+            "Stoatshade thought Heatherfern was polite today. (low positive effect) - Stoatshade was 129 moons old",
+            "Stoatshade heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Stoatshade was 149 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -431,12 +437,7 @@
             "Stoatshade notices that Ochretail brought him a big piece of prey. (medium positive effect) - Stoatshade was 119 moons old",
             "Stoatshade heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -519,10 +520,7 @@
             "Stoatshade, Bitterleaf, and Pigeonbloom decide they're going to get Heatherfern and Cobaltstrike together. They talk about how much Heatherfern loves Cobaltstrike in front of Cobaltstrike, and, to their pleasure, find the two talking later. (positive effect) - Stoatshade was 126 moons old",
             "Stoatshade thinks that Bitterleaf is acting overly dramatic lately. (medium negative effect) - Stoatshade was 146 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -733,9 +731,7 @@
             "Pigeonbloom, Algaepool, and Stoatshade decide they're going to get Auburnsplash and Ochretail together. They talk about how much Auburnsplash loves Ochretail in front of Ochretail, and, to their pleasure, find the two talking later. (positive effect) - Stoatshade was 117 moons old",
             "Algaepool's advice is more helpful than Stoatshade expected. (medium positive effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -799,23 +795,6 @@
     },
     {
         "cat_from_id": "204",
-        "cat_to_id": "21",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 24,
-        "respect": 3,
-        "comfort": 24,
-        "trust": 0,
-        "log": [
-            "Smokeheart, Erminedaisy, Olivebranch, Rabbitpaw, and Stoatshade hang out while stretching. (positive effect)- Stoatshade was 30 moons old",
-            "Stoatshade noticed how successful Rabbitpaw's hunting patrol was. (positive effect)- Stoatshade was 31 moons old",
-            "The moonlight encourages Rabbitspark, Fidgetmouse, Tomatofreckle, Pebblefur, and Stoatshade to slow down and stretch. (positive effect)- Stoatshade was 46 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "204",
         "cat_to_id": "22",
         "mates": false,
         "family": false,
@@ -870,9 +849,7 @@
             "Stoatshade thinks he can tell Fidgetmouse something important. (high positive effect) - Stoatshade was 104 moons old",
             "Fidgetmouse tells Stoatshade that she was worried about him. (low positive effect) - Stoatshade was 148 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -903,9 +880,7 @@
             "When Stoatshade and Archbellow realize they've been grooming their pelts the same way, they laugh about it. (low positive effect) - Stoatshade was 131 moons old",
             "Stoatshade and Archbellow argue about religion in the middle of camp. (high negative effect) - Stoatshade was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -932,10 +907,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
-        "respect": 16,
-        "comfort": 16,
-        "trust": -8,
+        "like": -2,
+        "respect": 10,
+        "comfort": -5,
+        "trust": -15,
         "log": [
             "Bitepaw didn't take Stoatshade's lesson about octopi seriously. (negative effect)- Stoatshade was 39 moons old",
             "Bitebone, Stoatshade, and Pebblefur had a nice talk while eating. (positive effect)- Stoatshade was 54 moons old",
@@ -943,9 +918,13 @@
             "Bitebone goes out of his way to help Stoatshade with something without being asked. (medium positive effect)- Stoatshade was 81 moons old",
             "Stoatshade heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Stoatshade was 118 moons old",
             "Bitebone, Diablofoot, and Stoatshade had a nice talk while eating. (positive effect) - Stoatshade was 142 moons old",
-            "Bitebone asked Stoatshade to cover his mouth while he coughs, so Stoatshade coughed on him out of spite. (low negative effect) - Stoatshade was 145 moons old"
+            "Bitebone asked Stoatshade to cover his mouth while he coughs, so Stoatshade coughed on him out of spite. (low negative effect) - Stoatshade was 145 moons old",
+            "Stoatshade sees Bitebone neglect a Clanmate. (high negative effect) - Stoatshade was 149 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -1413,15 +1392,19 @@
         "like": 20,
         "respect": 0,
         "comfort": 20,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Stoatshade wants to be as confident as Fleapaw. (medium positive effect)- Stoatshade was 75 moons old",
             "An issue becomes benign when Stoatshade remembers Fleadusk's advice. (medium positive effect)- Stoatshade was 86 moons old",
             "Stoatshade, Icyriver, and Fleadusk had a nice talk while eating. (positive effect)- Stoatshade was 86 moons old",
             "Stoatshade heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Stoatshade was 117 moons old",
-            "Stoatshade disapproved of Fleadusk wearing a collar. (negative effect) - Stoatshade was 145 moons old"
+            "Stoatshade disapproved of Fleadusk wearing a collar. (negative effect) - Stoatshade was 145 moons old",
+            "Stoatshade heard Fleadusk fell asleep guarding camp. (negative effect) - Stoatshade was 149 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -1465,12 +1448,7 @@
             "Stoatshade heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Stoatshade was 141 moons old",
             "Stoatshade was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Stoatshade was 148 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -1488,9 +1466,7 @@
             "Stoatshade heard that Murkhaven chased a kittypet off the territory. (positive effect) - Stoatshade was 126 moons old",
             "Murkhaven guides Stoatshade to someone he is looking for. (low positive effect) - Stoatshade was 148 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -1633,9 +1609,7 @@
             "Stoatshade was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Stoatshade was 117 moons old",
             "Stoatshade was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -1654,10 +1628,7 @@
             "Stoatshade heard Frondpad fell asleep guarding camp. (negative effect) - Stoatshade was 134 moons old",
             "Stoatshade and Frondpad agree on something the rest of the Clan finds contentious. (high positive effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -1737,13 +1708,17 @@
         "like": 0,
         "respect": 28,
         "comfort": 0,
-        "trust": 28,
+        "trust": 23,
         "log": [
             "Poolleaf says something vulnerable to Stoatshade. (low positive effect) - Stoatshade was 105 moons old",
             "Stoatshade noticed how successful Poolleaf's hunting patrol was. (positive effect) - Stoatshade was 106 moons old",
-            "Poolleaf leaped to Stoatshade's defense when she saw a rogue attacking him. (positive effect) - Stoatshade was 109 moons old"
+            "Poolleaf leaped to Stoatshade's defense when she saw a rogue attacking him. (positive effect) - Stoatshade was 109 moons old",
+            "Stoatshade was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Stoatshade was 149 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -2687,14 +2662,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Stoatshade heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Stoatshade was 121 moons old",
             "Stoatshade heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Stoatshade was 132 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -3281,10 +3258,7 @@
         "log": [
             "Stoatshade heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -3361,14 +3335,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 6,
+        "respect": -5,
+        "comfort": 6,
+        "trust": 16,
         "log": [
-            "Stoatshade disapproved of Moorghost wearing a collar. (negative effect) - Stoatshade was 138 moons old"
+            "Stoatshade disapproved of Moorghost wearing a collar. (negative effect) - Stoatshade was 138 moons old",
+            "Stoatshade feels comfortable challenging Moorghost on something she said. (high positive effect) - Stoatshade was 149 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -3438,10 +3417,7 @@
             "After the Gathering, Stoatshade notices that Redswirl is making sure everyone got home. (low positive effect) - Stoatshade was 140 moons old",
             "Stoatshade was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Stoatshade was 147 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "204",
@@ -3505,11 +3481,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Stoatshade disapproved of Caterpillarstripe wearing a collar. (negative effect) - Stoatshade was 149 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -3800,6 +3780,32 @@
     {
         "cat_from_id": "204",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "204",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "204",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

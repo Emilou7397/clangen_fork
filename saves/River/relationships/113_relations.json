@@ -19,10 +19,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Lightpelt heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Lightpelt was 106 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -107,9 +109,7 @@
             "Lightpelt notices a strange glint in Ochretail's eyes. (low negative effect) - Lightpelt was 65 moons old",
             "Lightpelt heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Lightpelt was 103 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -358,10 +358,7 @@
             "Prancelaurel is upset after spending the day with Lightpelt's bad attitude. (low negative effect) - Lightpelt was 66 moons old",
             "Lightpelt thinks about telling others that Prancelaurel broke the Code. (high negative effect) - Lightpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -419,7 +416,7 @@
         "like": 4,
         "respect": -8,
         "comfort": 4,
-        "trust": 4,
+        "trust": -4,
         "log": [
             "Suntooth was part of the patrol that invited Lightpelt to RiverClan. (positive effect) - Lightpelt was 50 moons old",
             "Lightpelt noticed how successful Suntooth's hunting patrol was. (positive effect) - Lightpelt was 63 moons old",
@@ -534,9 +531,7 @@
         "comfort": 0,
         "trust": -8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -602,7 +597,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 11,
+        "like": 24,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -611,7 +606,9 @@
             "Lightpelt got tricked into doing one of Warmswirl's chores. (low negative effect) - Lightpelt was 61 moons old",
             "Lightpelt tells a story to Warmswirl. (medium positive effect) - Lightpelt was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -685,10 +682,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Lightpelt heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 74 moons old",
-            "Lightpelt disapproved of Fleadusk wearing a collar. (negative effect) - Lightpelt was 102 moons old"
+            "Lightpelt disapproved of Fleadusk wearing a collar. (negative effect) - Lightpelt was 102 moons old",
+            "Lightpelt heard Fleadusk fell asleep guarding camp. (negative effect) - Lightpelt was 106 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -726,11 +724,7 @@
             "Lightpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 98 moons old",
             "Lightpelt was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Lightpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -960,14 +954,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 14,
-        "respect": 7,
+        "like": 21,
+        "respect": -6,
         "comfort": 14,
-        "trust": 16,
+        "trust": 11,
         "log": [
             "Lightpelt noticed how successful Poolleaf's hunting patrol was. (positive effect) - Lightpelt was 63 moons old",
             "Lightpelt is letting Poolleaf share her troubles with her, hoping she'll feel better afterward. (high positive effect) - Lightpelt was 66 moons old",
-            "Lightpelt, Kiwifoot, and Poolleaf had a nice talk while eating. (positive effect) - Lightpelt was 105 moons old"
+            "Lightpelt, Kiwifoot, and Poolleaf had a nice talk while eating. (positive effect) - Lightpelt was 105 moons old",
+            "Lightpelt tries to groom his pelt the same way Poolleaf does. (medium positive effect) - Lightpelt was 106 moons old",
+            "Lightpelt was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Lightpelt was 106 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1089,9 +1085,7 @@
             "Lightpelt spent some time hanging out with Saltknoll in the medicine den. (medium positive effect) - Lightpelt was 75 moons old",
             "Saltknoll pulled an embarrassing prank on Lightpelt's friend. (low negative effect) - Lightpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1239,12 +1233,7 @@
             "Lightpelt and Kiwifoot played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect) - Lightpelt was 103 moons old",
             "Lightpelt, Kiwifoot, and Poolleaf had a nice talk while eating. (positive effect) - Lightpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1282,12 +1271,7 @@
             "Oddmuzzle gave Lightpelt a gift to smooth over an argument, and Lightpelt has worn it on his pelt ever since. (positive effect) - Lightpelt was 101 moons old",
             "Lightpelt can't stop gushing over Oddmuzzle. (high positive effect) - Lightpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1501,9 +1485,7 @@
         "log": [
             "Drizzlepelt tells Lightpelt that his pelt is shiny today. (low positive effect) - Lightpelt was 103 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1613,14 +1595,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 15,
-        "comfort": 0,
-        "trust": 15,
+        "like": 4,
+        "respect": 19,
+        "comfort": 16,
+        "trust": 21,
         "log": [
-            "Lightpelt heard about Glowfur's victory in battle against a gang of rogues. (positive effect) - Lightpelt was 87 moons old"
+            "Lightpelt heard about Glowfur's victory in battle against a gang of rogues. (positive effect) - Lightpelt was 87 moons old",
+            "Lightpelt is sharing tongues with Glowfur. (high positive effect) - Lightpelt was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -1854,9 +1841,7 @@
             "Lightpelt was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Lightpelt was 102 moons old",
             "Late at night, Lightpelt finds Miteleaf sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Lightpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -1871,9 +1856,7 @@
         "log": [
             "Lightpelt warns Coconutocean about something on the ground so she doesn't trip. (low positive effect) - Lightpelt was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -2406,9 +2389,7 @@
         "log": [
             "Lightpelt heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Lightpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -2520,12 +2501,7 @@
         "log": [
             "Skytooth tells Flightspot, Avocetpaw, and Lightpelt a story that seems to grow less believable every meow. (negative effect) - Lightpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -2566,9 +2542,7 @@
         "log": [
             "Lightpelt was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Lightpelt was 104 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "113",
@@ -2633,11 +2607,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lightpelt disapproved of Caterpillarstripe wearing a collar. (negative effect) - Lightpelt was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -2928,6 +2906,32 @@
     {
         "cat_from_id": "113",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

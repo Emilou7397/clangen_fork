@@ -399,7 +399,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
+        "like": 21,
         "respect": -2,
         "comfort": 6,
         "trust": -8,
@@ -410,7 +410,9 @@
             "Suntooth was impressed by how quickly Fidgetmouse dispatched  a trapped octopus. (positive effect) - Suntooth was 71 moons old",
             "Suntooth noticed Fidgetmouse flirting with someone else. (medium negative effect) - Suntooth was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -431,9 +433,7 @@
             "Suntooth wakes up Carptail every morning so they're up together. (high positive effect) - Suntooth was 109 moons old",
             "Suntooth and Carptail purr about something small together. (medium positive effect) - Suntooth was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -526,26 +526,6 @@
             "The moonlight encourages Suntooth, Bitterleaf, Auburnsplash, Peatcrest, and Pigeonbloom to slow down and stretch. (positive effect)- Suntooth was 59 moons old",
             "Suntooth is prancing around in front of Auburnsplash. (low positive effect)- Suntooth was 61 moons old",
             "Suntooth is having a wonderful time discussing recent Clan news with Auburnsplash. (high positive effect) - Suntooth was 116 moons old"
-        ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
-    },
-    {
-        "cat_from_id": "33",
-        "cat_to_id": "21",
-        "mates": false,
-        "family": false,
-        "romance": 8,
-        "like": 8,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 0,
-        "log": [
-            "Rabbitspark gives Sunpaw something that she dropped. (low positive effect)- Sunpaw was 7 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -984,9 +964,7 @@
             "Suntooth doesn't think Gardeniaglow's weird joke was just a joke. (medium negative effect) - Suntooth was 101 moons old",
             "Suntooth heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Suntooth was 110 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -1130,9 +1108,7 @@
             "Suntooth struggles to make sense of something trivial Amberfur said. (low negative effect) - Suntooth was 110 moons old",
             "Amberfur respects Suntooth's opinion despite disagreeing with it. (low positive effect) - Suntooth was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -1242,12 +1218,7 @@
             "Suntooth heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Suntooth was 110 moons old",
             "Skulkwillow, Suntooth, and Shinefur took a sunbath and had a little small talk. (positive effect) - Suntooth was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -1392,10 +1363,7 @@
             "Daisymoor, Suntooth, and Shinefur took a sunbath and had a little small talk. (positive effect) - Suntooth was 101 moons old",
             "Skulkwillow, Suntooth, and Shinefur took a sunbath and had a little small talk. (positive effect) - Suntooth was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -1768,15 +1736,21 @@
         "family": false,
         "romance": 0,
         "like": 21,
-        "respect": 3,
+        "respect": 8,
         "comfort": 30,
         "trust": 28,
         "log": [
             "Suntooth is excited for her family to grow further. (positive effect)- Suntooth was 49 moons old",
             "Suntooth wants this training exercise to be a success, but Daisypaw, Dancingpaw, Rollpaw, and Snakepaw refuse to listen, and Suntooth gives up. (negative effect)- Suntooth was 60 moons old",
-            "Dancingfleck's hasty pounce ruined Suntooth's chances of catching a trapped octopus. (negative effect) - Suntooth was 111 moons old"
+            "Dancingfleck's hasty pounce ruined Suntooth's chances of catching a trapped octopus. (negative effect) - Suntooth was 111 moons old",
+            "Suntooth approved of Dancingfleck's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Suntooth was 117 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -1958,12 +1932,15 @@
         "like": -12,
         "respect": 0,
         "comfort": 3,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Suntooth notices how rude Lightpelt is being to a Clanmate. (medium negative effect) - Suntooth was 67 moons old",
-            "Lightpelt lets Suntooth grab a piece of fresh-kill first. (low positive effect) - Suntooth was 104 moons old"
+            "Lightpelt lets Suntooth grab a piece of fresh-kill first. (low positive effect) - Suntooth was 104 moons old",
+            "Lightpelt keeps asking Suntooth if she trusts him. (low negative effect) - Suntooth was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -2024,9 +2001,7 @@
             "Butterflyglide appreciates Suntooth, Pigmentpelt, Onemuzzle, and Shadowfreckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Suntooth was 85 moons old",
             "Suntooth waves to Shadowfreckle with her tail as their patrols cross paths on the territory. (medium positive effect) - Suntooth was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -2245,18 +2220,24 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 75,
+        "like": 83,
         "respect": 59,
-        "comfort": 90,
+        "comfort": 98,
         "trust": 64,
         "log": [
             "Molepaw shares a suspiciously exaggerated tale with Archbellow, Suntooth, Carnationpaw, and Glowpaw, who seem far from convinced of its veracity. (negative effect) - Suntooth was 77 moons old",
             "Suntooth and Moletooth successfully gathered dandelions and wild garlic together. (positive effect) - Suntooth was 88 moons old",
             "Suntooth and Moletooth worked together to gather plantain. (positive effect) - Suntooth was 91 moons old",
             "Carnationmunch, Moletooth, and Suntooth took a sunbath and had a little small talk. (positive effect) - Suntooth was 95 moons old",
-            "Carnationmunch, Glowfur, Suntooth, and Whiskerleg bemoan Moletooth's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Moletooth likes it. (negative effect) - Suntooth was 104 moons old"
+            "Carnationmunch, Glowfur, Suntooth, and Whiskerleg bemoan Moletooth's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Moletooth likes it. (negative effect) - Suntooth was 104 moons old",
+            "Glowfur, Moletooth, and Suntooth took a sunbath and had a little small talk. (positive effect) - Suntooth was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -2264,14 +2245,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 73,
+        "like": 81,
         "respect": 67,
-        "comfort": 91,
+        "comfort": 99,
         "trust": 73,
         "log": [
             "Suntooth and Glowfur enjoy the rain together. (low positive effect) - Suntooth was 91 moons old",
             "Glowfur offers Suntooth, Moletooth, Braveocean, and Carnationmunch hunting tips. (positive effect) - Suntooth was 100 moons old",
-            "Suntooth, Harefeather, Bitebone, and Peatcrest congratulate Glowfur on his latest catch. (positive effect) - Suntooth was 116 moons old"
+            "Suntooth, Harefeather, Bitebone, and Peatcrest congratulate Glowfur on his latest catch. (positive effect) - Suntooth was 116 moons old",
+            "Glowfur, Moletooth, and Suntooth took a sunbath and had a little small talk. (positive effect) - Suntooth was 118 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -2506,9 +2488,7 @@
         "log": [
             "Suntooth stretched in front of Caterpillarfoot. Caterpillarfoot didn't get a great view. (low negative effect) - Suntooth was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -3147,10 +3127,7 @@
         "log": [
             "Suntooth shares nest material with Softspring. (medium positive effect) - Suntooth was 116 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "33",
@@ -3301,14 +3278,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 4,
+        "respect": 26,
+        "comfort": 6,
+        "trust": 5,
         "log": [
-            "Suntooth heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Suntooth was 112 moons old"
+            "Suntooth heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Suntooth was 112 moons old",
+            "Suntooth is wowed by how bravely Endothermic fought the other day. (high positive effect) - Suntooth was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -3355,14 +3336,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 60,
+        "like": 52,
         "respect": 30,
-        "comfort": 70,
+        "comfort": 62,
         "trust": 60,
         "log": [
-            "These cats recently interacted. - Suntooth was 109 moons old"
+            "These cats recently interacted. - Suntooth was 109 moons old",
+            "Nutpaw eats as ravenously as a wolverine and by the time she's done, Suntooth, Wheatpaw, and Prancelaurel barely have the stomach to finish their own meals. (negative effect) - Suntooth was 117 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "33",
@@ -3627,5 +3614,43 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "33",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 13,
+        "respect": 6,
+        "comfort": 13,
+        "trust": 2,
+        "log": [
+            "Suntooth is excited for her family to grow further. (positive effect) - Suntooth was 117 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "33",
+        "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 8,
+        "comfort": 15,
+        "trust": 4,
+        "log": [
+            "Suntooth is excited for her family to grow further. (positive effect) - Suntooth was 117 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     }
 ]

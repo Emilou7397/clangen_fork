@@ -8,18 +8,30 @@
     "mentor_influence": {
         "trait": {
             "178": {
-                "lawfulness": 2,
+                "lawfulness": 3,
                 "stability": -2,
-                "aggression": -3
+                "aggression": -3,
+                "strings": [
+                    "have strong inner morals",
+                    "behave erratically",
+                    "try to avoid violence"
+                ]
             }
         },
         "skill": {
             "178": {
-                "SENSE": 11
+                "SENSE": 13,
+                "strings": [
+                    "noticing small details"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "maturity",
+        "graduation_age": 12,
+        "moon": 149
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

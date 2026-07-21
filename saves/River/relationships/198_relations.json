@@ -252,9 +252,9 @@
         "family": false,
         "romance": 0,
         "like": 100,
-        "respect": 25,
+        "respect": 31,
         "comfort": 100,
-        "trust": 45,
+        "trust": 51,
         "log": [
             "Stoatkit always knows how to make Heatherfern laugh. (high positive effect)- Heatherfern was 14 moons old",
             "Heatherfern rescued Stoatpaw when sand caved in under him. (positive effect)- Heatherfern was 23 moons old",
@@ -283,9 +283,15 @@
             "Heatherfern, Pebblefur, Prancelaurel, Stoatshade, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Heatherfern was 86 moons old",
             "Stoatshade convinces Heatherfern, Pigeonbloom, Bitterleaf, and Craneflight to wind down and stretch with him. (positive effect)- Heatherfern was 88 moons old",
             "Elmtrail, Stoatshade, Heatherfern, Erminedaisy, and Pebblechase blow off steam by stretching with and venting to each other. (positive effect)- Heatherfern was 92 moons old",
-            "Heatherfern sees Stoatshade put something back where it belongs. (low positive effect) - Heatherfern was 127 moons old"
+            "Heatherfern sees Stoatshade put something back where it belongs. (low positive effect) - Heatherfern was 127 moons old",
+            "Heatherfern wakes up Stoatshade every morning so they're up together. (high positive effect) - Heatherfern was 158 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -430,9 +436,9 @@
         "family": false,
         "romance": 0,
         "like": 100,
-        "respect": 2,
-        "comfort": 83,
-        "trust": 16,
+        "respect": 9,
+        "comfort": 100,
+        "trust": 24,
         "log": [
             "Heatherfern noticed how successful Ochretail's hunting patrol was. (positive effect)- Heatherfern was 30 moons old",
             "Heatherfern, Ochretail, and Stoatshade had a nice talk while eating. (positive effect)- Heatherfern was 32 moons old",
@@ -453,11 +459,13 @@
             "Riomane, Heatherfern, Archbellow, Ochretail, and Tomatofreckle blow off steam by stretching with and venting to each other. (positive effect)- Heatherfern was 100 moons old",
             "Heatherfern tries to groom her pelt the same way Ochretail does. (medium positive effect) - Heatherfern was 107 moons old",
             "Ochretail tells Heatherfern that her pelt is shiny today. (low positive effect) - Heatherfern was 145 moons old",
-            "Heatherfern heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Heatherfern was 155 moons old"
+            "Heatherfern heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Heatherfern was 155 moons old",
+            "Heatherfern helps Ochretail work through something difficult that happened to him. (high positive effect) - Heatherfern was 158 moons old"
         ],
         "no_longer_neutral": [
-            "like",
             "comfort",
+            "like",
+            "respect",
             "trust"
         ]
     },
@@ -538,12 +546,7 @@
             "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Braveheart and Heatherfern's nests. (negative effect) - Heatherfern was 149 moons old",
             "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Fidgetmouse and Heatherfern's nests. (negative effect) - Heatherfern was 156 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -622,9 +625,7 @@
             "Peatcrest's knowledge surrounding herbs impresses Quailfur, Auburnsplash, Reedheart, and Heatherfern. (positive effect) - Heatherfern was 149 moons old",
             "Peatcrest compliments one of Heatherfern's friends. (low positive effect) - Heatherfern was 156 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -803,25 +804,6 @@
     },
     {
         "cat_from_id": "198",
-        "cat_to_id": "21",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 27,
-        "respect": -8,
-        "comfort": 14,
-        "trust": -3,
-        "log": [
-            "Rabbitkit, Dancingkit, and Heatherfern took a sunbath and had a little small talk. (positive effect)- Heatherfern was 34 moons old",
-            "Heatherfern noticed how successful Rabbitpaw's hunting patrol was. (positive effect)- Heatherfern was 40 moons old",
-            "Heatherfern told Rabbitspark to shut up. (high negative effect)- Heatherfern was 49 moons old",
-            "Heatherfern is talking with Rabbitspark. (low positive effect)- Heatherfern was 52 moons old",
-            "Heatherfern, Ochretail, and Rabbitspark took a sunbath and had a little small talk. (positive effect)- Heatherfern was 55 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "198",
         "cat_to_id": "22",
         "mates": false,
         "family": false,
@@ -880,10 +862,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 30,
+        "like": 22,
         "respect": -25,
         "comfort": 63,
-        "trust": -3,
+        "trust": -11,
         "log": [
             "Heatherfern, Neel, and Archbellow took a sunbath and had a little small talk. (positive effect)- Heatherfern was 43 moons old",
             "Bitekit, Archbellow, and Heatherfern had a nice talk while eating. (positive effect)- Heatherfern was 44 moons old",
@@ -907,9 +889,15 @@
             "Archbellow tells Erminedaisy, Heatherfern, and Ochretail a story that earns more skepticism than admiration. (negative effect) - Heatherfern was 128 moons old",
             "Archbellow returned to the elder's den dripping mud everywhere and managed to ruin Fidgetmouse, Heatherfern, and Cobaltstrike's nests. (negative effect) - Heatherfern was 138 moons old",
             "Heatherfern thinks that Archbellow's tone sounds off today. (low negative effect) - Heatherfern was 148 moons old",
-            "Heatherfern spent a long time talking with Archbellow but was disappointed by Archbellow's lack of interest. (high negative effect) - Heatherfern was 151 moons old"
+            "Heatherfern spent a long time talking with Archbellow but was disappointed by Archbellow's lack of interest. (high negative effect) - Heatherfern was 151 moons old",
+            "Archbellow shares a suspiciously exaggerated tale with Bitterleaf, Braveheart, and Heatherfern, who seem far from convinced of its veracity. (negative effect) - Heatherfern was 158 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -1039,12 +1027,7 @@
             "Bouncepelt says something vulnerable to Heatherfern. (low positive effect) - Heatherfern was 147 moons old",
             "Heatherfern and Bouncepelt agree on something the rest of the Clan finds contentious. (high positive effect) - Heatherfern was 155 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -1186,21 +1169,6 @@
             "Tomatofreckle tells Pebblechase, Kamautail, and Heatherfern a story that seems to grow less believable every meow. (negative effect) - Heatherfern was 115 moons old",
             "Tomatofreckle complained about her patrol assignment all day, much to the annoyance of Heatherfern, Kamautail, and Pebblechase. (negative effect) - Heatherfern was 118 moons old",
             "Heatherfern and Tomatofreckle drink from the same puddle. (low positive effect) - Heatherfern was 124 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "198",
-        "cat_to_id": "38",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": -20,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [
-            "Heatherfern and Junco got into a vicious fight. (negative effect)- Heatherfern was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1495,14 +1463,18 @@
         "like": 0,
         "respect": -12,
         "comfort": 0,
-        "trust": -3,
+        "trust": -8,
         "log": [
             "Heatherfern asks Fleapaw a simple question, but Fleapaw reacts strangely to it. (low negative effect)- Heatherfern was 82 moons old",
             "Fleadusk didn't finish a chore that Heatherfern asked him to do. (medium negative effect) - Heatherfern was 105 moons old",
             "Heatherfern heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 126 moons old",
-            "Heatherfern disapproved of Fleadusk wearing a collar. (negative effect) - Heatherfern was 153 moons old"
+            "Heatherfern disapproved of Fleadusk wearing a collar. (negative effect) - Heatherfern was 153 moons old",
+            "Heatherfern heard Fleadusk fell asleep guarding camp. (negative effect) - Heatherfern was 157 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -1541,12 +1513,7 @@
             "Skulkwillow uses one of Heatherfern's fears against her. (high negative effect) - Heatherfern was 152 moons old",
             "Heatherfern was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Heatherfern was 156 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -1698,12 +1665,7 @@
             "Heatherfern was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Heatherfern was 125 moons old",
             "Heatherfern was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Heatherfern was 155 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -1807,9 +1769,10 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Heatherfern noticed how successful Poolleaf's hunting patrol was. (positive effect) - Heatherfern was 115 moons old"
+            "Heatherfern noticed how successful Poolleaf's hunting patrol was. (positive effect) - Heatherfern was 115 moons old",
+            "Heatherfern was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Heatherfern was 157 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1851,9 +1814,7 @@
             "Heatherfern is amazed at how skilled Gracklefur really is. (high positive effect) - Heatherfern was 147 moons old",
             "Heatherfern is impressed with Gracklefur's willingness to help. (medium positive effect) - Heatherfern was 156 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -2593,9 +2554,7 @@
         "log": [
             "Heatherfern is excited for her family to grow further. (positive effect) - Heatherfern was 108 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -2872,9 +2831,7 @@
             "Heatherfern heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 152 moons old",
             "Heatherfern thinks Terabyte is acting childish lately. (medium negative effect) - Heatherfern was 157 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3137,10 +3094,7 @@
         "log": [
             "Heatherfern heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3376,9 +3330,7 @@
         "log": [
             "Heatherfern heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Heatherfern was 155 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3531,11 +3483,7 @@
         "log": [
             "Heatherfern was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Heatherfern was 155 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "198",
@@ -3598,11 +3546,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heatherfern disapproved of Caterpillarstripe wearing a collar. (negative effect) - Heatherfern was 157 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -3707,10 +3659,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -3906,5 +3860,62 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "198",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 34,
+        "respect": 28,
+        "comfort": 45,
+        "trust": 23,
+        "log": [
+            "Heatherfern visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Heatherfern was 157 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "198",
+        "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 48,
+        "respect": 42,
+        "comfort": 59,
+        "trust": 37,
+        "log": [
+            "Heatherfern is excited for her family to grow further. (positive effect) - Heatherfern was 157 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "198",
+        "cat_to_id": "226",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Heatherfern and Reaper played together on RiverClan's border. (positive effect) - Heatherfern was 158 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     }
 ]

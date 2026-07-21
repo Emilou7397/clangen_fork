@@ -1223,7 +1223,8 @@
         "log": [
             "Murkhaven and Pheasantbrush took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect) - Murkhaven was 40 moons old",
             "Murkhaven sees Pheasantbrush put something back where it belongs. (low positive effect) - Murkhaven was 64 moons old",
-            "Murkhaven feels a little safer when Pheasantbrush joins them in the clearing. (low positive effect) - Murkhaven was 74 moons old"
+            "Murkhaven feels a little safer when Pheasantbrush joins them in the clearing. (low positive effect) - Murkhaven was 74 moons old",
+            "Pheasantbrush goes for a nice long walk with Murkhaven. (medium positive effect) - Murkhaven was 84 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1473,9 +1474,7 @@
             "Murkhaven and Dancingfleck make each other laugh. (low positive effect) - Murkhaven was 72 moons old",
             "Murkhaven and Dancingfleck come up with a catchy song together. (low positive effect) - Murkhaven was 83 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -1561,11 +1560,7 @@
             "These cats enjoyed fantastical stories together while stuck in the den. (positive effect) - Murkhaven was 41 moons old",
             "Late at night, Murkhaven finds Kiwifoot sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Murkhaven was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -2138,9 +2133,7 @@
             "Creekmoss keeps making excuses about something Murkhaven wants to know. (medium negative effect) - Murkhaven was 66 moons old",
             "When Murkhaven gets hurt, Creekmoss is the first to ask if they're okay. (medium positive effect) - Murkhaven was 83 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -2287,9 +2280,7 @@
         "log": [
             "Murkhaven sees Nymphshine whispering suspiciously to a Clanmate. (low negative effect) - Murkhaven was 82 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -2484,18 +2475,21 @@
         "cat_to_id": "174",
         "mates": false,
         "family": false,
-        "romance": 13,
-        "like": 12,
-        "respect": 0,
-        "comfort": 12,
-        "trust": 13,
+        "romance": 2,
+        "like": 9,
+        "respect": -4,
+        "comfort": 10,
+        "trust": 9,
         "log": [
             "Murkhaven is admiring Heathstripe from afar... (low positive effect) - Murkhaven was 65 moons old",
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old",
-            "Heathstripe follows through on a small promise made with Murkhaven. (low positive effect) - Murkhaven was 82 moons old"
+            "Heathstripe follows through on a small promise made with Murkhaven. (low positive effect) - Murkhaven was 82 moons old",
+            "Murkhaven gave a gift to Heathstripe, but he turned up his nose at the offering. (high negative effect) - Murkhaven was 84 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2743,10 +2737,7 @@
         "log": [
             "Murkhaven associates their favorite smell with Lionheart. (high positive effect) - Murkhaven was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -2928,9 +2919,7 @@
         "log": [
             "Murkhaven and Redswirl make fun of one another, but it sounds more like insults than playful banter. (medium negative effect) - Murkhaven was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "65",
@@ -3204,9 +3193,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Silkroot snitches on Murkhaven for something minor. (low negative effect) - Murkhaven was 84 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -3302,6 +3295,32 @@
     {
         "cat_from_id": "65",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

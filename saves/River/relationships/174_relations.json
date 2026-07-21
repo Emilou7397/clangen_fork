@@ -510,11 +510,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Heathstripe and Freezefoot worked together to gather wild garlic and mallow. (positive effect) - Heathstripe was 75 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -531,9 +533,7 @@
             "Heathstripe heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heathstripe was 68 moons old",
             "Heathstripe and Gardeniaglow worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -553,11 +553,7 @@
             "Heathstripe and Mossflight successfully gathered burdock together. (positive effect) - Heathstripe was 68 moons old",
             "Heathstripe and Mossflight worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -641,11 +637,7 @@
             "Heathstripe includes Verbenabloom in a conversation that Verbenabloom struggled to join. (low positive effect) - Heathstripe was 58 moons old",
             "Heathstripe and Verbenabloom worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -703,12 +695,14 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 12,
+        "comfort": 9,
         "trust": 0,
         "log": [
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Heathstripe was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -754,11 +748,7 @@
             "Heathstripe enjoyed gathering herbs with Elmtrail. (positive effect) - Heathstripe was 74 moons old",
             "Heathstripe always notices Elmtrail lurking nearby. (high negative effect) - Heathstripe was 75 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -810,11 +800,7 @@
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Heathstripe was 72 moons old",
             "Heathstripe enjoyed gathering herbs with Sardinespeckle. (positive effect) - Heathstripe was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -830,12 +816,7 @@
             "Heathstripe gives Shinefur a circular Twoleg object he found, and hides behind his whiskers when thanked. (high positive effect) - Heathstripe was 49 moons old",
             "Heathstripe enjoyed gathering herbs with Shinefur. (positive effect) - Heathstripe was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -917,10 +898,7 @@
         "log": [
             "Heathstripe enjoyed gathering herbs with Poolleaf. (positive effect) - Heathstripe was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -1232,8 +1210,8 @@
         "mates": true,
         "family": false,
         "romance": 39,
-        "like": 10,
-        "respect": 11,
+        "like": 15,
+        "respect": 16,
         "comfort": 29,
         "trust": 23,
         "log": [
@@ -1256,9 +1234,15 @@
             "Heathstripe and Minnowlily were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Heathstripe was 66 moons old",
             "Heathstripe accompanied Minnowlily to harvest burdock root, but Minnowlily wasn't able to find any, and Heathstripe felt like the day was a waste. (negative effect) - Heathstripe was 67 moons old",
             "Heathstripe asks Minnowlily about a specific treatment method. (medium positive effect) - Heathstripe was 69 moons old",
-            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Heathstripe was 72 moons old"
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Heathstripe was 72 moons old",
+            "Heathstripe and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Heathstripe was 75 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1338,13 +1322,16 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": -12,
+        "comfort": -25,
         "trust": 0,
         "log": [
             "Heathstripe tells Blotchstripe something interesting about another Clan. (medium positive effect) - Heathstripe was 55 moons old",
-            "Heathstripe tells his Clanmates that something's off about Blotchstripe. (medium negative effect) - Heathstripe was 61 moons old"
+            "Heathstripe tells his Clanmates that something's off about Blotchstripe. (medium negative effect) - Heathstripe was 61 moons old",
+            "Heathstripe is taken aback by one of Blotchstripe's comments. (low negative effect) - Heathstripe was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1374,9 +1361,7 @@
         "log": [
             "Cherrytail follows through on a small promise made with Heathstripe. (low positive effect) - Heathstripe was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -1506,12 +1491,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 21,
         "trust": 0,
         "log": [
             "Glowfur gives Heathstripe something that he dropped. (low positive effect) - Heathstripe was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1658,12 +1645,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 18,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe and Clawswirl worked together to gather wild garlic and mallow. (positive effect) - Heathstripe was 75 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -2069,9 +2060,7 @@
         "log": [
             "Heathstripe and Driftstripe worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -2150,15 +2139,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 2,
-        "respect": 5,
+        "like": 7,
+        "respect": 10,
         "comfort": 0,
         "trust": 17,
         "log": [
             "Hollyblossom explained something in detail to Heathstripe that others wouldn't explain to him. (medium positive effect) - Heathstripe was 71 moons old",
-            "Heathstripe and Hollyblossom worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
+            "Heathstripe and Hollyblossom worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old",
+            "Heathstripe and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Heathstripe was 75 moons old"
         ],
         "no_longer_neutral": [
+            "like",
+            "respect",
             "trust"
         ]
     },
@@ -2281,14 +2273,17 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 0,
+        "like": 13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Heathstripe is prancing around in front of Moorghost. (low positive effect) - Heathstripe was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -2316,9 +2311,7 @@
         "log": [
             "Heathstripe hopes he just misheard Skypaw's rude remark. (low negative effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -2359,10 +2352,7 @@
         "log": [
             "Heathstripe enjoyed gathering herbs with Redswirl. (positive effect) - Heathstripe was 74 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "174",
@@ -2675,12 +2665,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dashkit tells Heathstripe that she hopes he's her mentor when she becomes an apprentice. (medium positive effect) - Heathstripe was 76 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -2724,6 +2718,32 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

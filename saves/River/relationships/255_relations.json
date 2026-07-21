@@ -77,12 +77,7 @@
         "log": [
             "Bitterleaf sees Aster arrive in the Clan and he offers to show her around. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -105,10 +100,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Aster swears that Harefeather's fangs are longer than usual. (medium negative effect) - Aster was 114 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -240,10 +239,7 @@
         "log": [
             "Prancelaurel's patrol found Aster asking to join the Clan, and Prancelaurel escorted her back to camp. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -284,12 +280,7 @@
         "log": [
             "Quailfur offers Aster some tips for building a new nest. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -309,12 +300,14 @@
         "cat_to_id": "47",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Aster and Gardeniaglow played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect) - Aster was 114 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -343,9 +336,7 @@
         "log": [
             "Aster and Hushshimmer successfully gathered herbs together despite the rainy weather. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -399,12 +390,7 @@
         "log": [
             "Verbenabloom asks Aster if she could use some help getting introduced to the other Clan members. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -686,10 +672,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Aster approved of Dancingfleck's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Aster was 113 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -739,7 +727,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -757,10 +745,7 @@
         "log": [
             "Aster picks some fragrant flowers for Oddmuzzle. (high positive effect) - Aster was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -840,9 +825,7 @@
         "log": [
             "Aster and Dahliacrest successfully gathered herbs together despite the rainy weather. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1078,9 +1061,7 @@
         "log": [
             "Aster and Pigmentpelt successfully gathered herbs together despite the rainy weather. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1199,9 +1180,7 @@
         "log": [
             "Aster and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1255,9 +1234,7 @@
         "log": [
             "Aster is delighted to be working with Shinebelly today. (medium positive effect) - Aster was 113 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1298,9 +1275,7 @@
         "log": [
             "Aster and Coquitostep successfully gathered herbs together despite the rainy weather. (positive effect) - Aster was 112 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1885,9 +1860,7 @@
         "comfort": 0,
         "trust": -8,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1931,6 +1904,32 @@
     {
         "cat_from_id": "255",
         "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "255",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "255",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

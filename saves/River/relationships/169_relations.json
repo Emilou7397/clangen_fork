@@ -32,13 +32,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 17,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Sandthrush heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandthrush was 27 moons old"
+            "Sandthrush heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandthrush was 27 moons old",
+            "Sandthrush and Heavythud successfully gathered herbs together despite the rainy weather. (positive effect) - Sandthrush was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -60,13 +63,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 12,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "When Sandthrush gets hurt, Heatherfern is the first to ask if she's okay. (medium positive effect) - Sandthrush was 23 moons old"
+            "When Sandthrush gets hurt, Heatherfern is the first to ask if she's okay. (medium positive effect) - Sandthrush was 23 moons old",
+            "Sandthrush heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Sandthrush was 35 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -576,9 +582,7 @@
         "log": [
             "Amberfur's laugh reminds Sandthrush of someone she misses. (low positive effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -628,13 +632,16 @@
         "like": 0,
         "respect": 8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Sandkit heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandkit was 3 moons old",
             "Sandthrush appreciated that Fleadusk checked with a medicine cat before gathering herbs on a hunting patrol. (positive effect) - Sandthrush was 25 moons old",
-            "Sandthrush disapproved of Fleadusk wearing a collar. (negative effect) - Sandthrush was 30 moons old"
+            "Sandthrush disapproved of Fleadusk wearing a collar. (negative effect) - Sandthrush was 30 moons old",
+            "Sandthrush heard Fleadusk fell asleep guarding camp. (negative effect) - Sandthrush was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -689,13 +696,17 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": -16,
+        "respect": -9,
         "comfort": -4,
         "trust": -6,
         "log": [
-            "Sandkit overheard Diablofoot spreading a hurtful rumor. (high negative effect) - Sandkit was 5 moons old"
+            "Sandkit overheard Diablofoot spreading a hurtful rumor. (high negative effect) - Sandkit was 5 moons old",
+            "Sandthrush and Diablofoot successfully gathered herbs together despite the rainy weather. (positive effect) - Sandthrush was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -785,9 +796,7 @@
             "Sandkit was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Sandkit was 2 moons old",
             "Sandthrush was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -854,14 +863,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": -7,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Sandthrush and Poolleaf enjoyed a little race while gathering oak and elder leaves. (positive effect) - Sandthrush was 21 moons old"
+            "Sandthrush and Poolleaf enjoyed a little race while gathering oak and elder leaves. (positive effect) - Sandthrush was 21 moons old",
+            "Sandthrush was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Sandthrush was 34 moons old",
+            "Poolleaf is not backing down in an argument with Sandthrush. (medium negative effect) - Sandthrush was 35 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -909,9 +923,7 @@
             "Sandkit heard Mallowpelt fell asleep guarding camp. (negative effect) - Sandkit was 0 moons old",
             "Sandthrush disapproved of Mallowpelt wearing a collar. (negative effect) - Sandthrush was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1012,11 +1024,7 @@
             "Sandthrush and Hailfreckle heckled another Clan at the Gathering together. (high positive effect) - Sandthrush was 31 moons old",
             "Hailfreckle tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Garlicberry, Midnighthaze, and Sandthrush. (negative effect) - Sandthrush was 31 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1046,9 +1054,7 @@
         "log": [
             "Sandthrush has noticed Dancingfleck isn't doing a lot of work lately. (medium negative effect) - Sandthrush was 34 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1072,11 +1078,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sandthrush and Hollyheart successfully gathered herbs together despite the rainy weather. (positive effect) - Sandthrush was 34 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1474,9 +1484,7 @@
             "Sandthrush heard that Silkymunch touched noses with a kittypet. (negative effect) - Sandthrush was 15 moons old",
             "Sandthrush was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Sandthrush was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1521,9 +1529,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1751,16 +1757,20 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 7,
         "comfort": 10,
         "trust": -15,
         "log": [
             "Sandthrush doesn't like the way Miteleaf interacts with a Clanmate. (low negative effect) - Sandthrush was 25 moons old",
             "Sandthrush hears a nice story about Miteleaf. (low positive effect) - Sandthrush was 29 moons old",
-            "Sandthrush was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Sandthrush was 30 moons old"
+            "Sandthrush was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Sandthrush was 30 moons old",
+            "Sandthrush and Miteleaf successfully gathered herbs together despite the rainy weather. (positive effect) - Sandthrush was 34 moons old"
         ],
         "no_longer_neutral": [
-            "comfort"
+            "like",
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -1777,9 +1787,7 @@
             "Sandthrush and Coconutocean get a little giggly off of some mysterious herbs they found on a patrol. (medium positive effect) - Sandthrush was 23 moons old",
             "Sandthrush and Coconutocean enjoy the rain together. (low positive effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1880,10 +1888,7 @@
             "Sandthrush gained respect for Shinebelly's skill in herb-gathering while helping him gather juniper needles. (positive effect) - Sandthrush was 30 moons old",
             "Sandthrush grew irritated at Shinebelly while on a patrol and didn't accomplish much. (negative effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1911,9 +1916,7 @@
         "log": [
             "Sandthrush can't help but admire Howlshine's pelt. (low positive effect) - Sandthrush was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2035,9 +2038,7 @@
             "Heathstripe vents about something trivial to Sandpaw. (low positive effect) - Sandpaw was 8 moons old",
             "Sandthrush has a discussion with Heathstripe over favorite prey, and now they both have a new appreciation for each others' tastes (medium positive effect) - Sandthrush was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2063,7 +2064,7 @@
         "cat_to_id": "180",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 15,
         "respect": 57,
         "comfort": 24,
@@ -2073,14 +2074,10 @@
             "Sandthrush and Howlsky avoided each other after an unpleasant training patrol. (negative effect) - Sandthrush was 22 moons old",
             "Sandthrush heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandthrush was 27 moons old",
             "Sandthrush is wowed by how bravely Howlsky fought the other day. (high positive effect) - Sandthrush was 28 moons old",
-            "Sandthrush grew irritated at Howlsky while on a patrol and didn't accomplish much. (negative effect) - Sandthrush was 32 moons old"
+            "Sandthrush grew irritated at Howlsky while on a patrol and didn't accomplish much. (negative effect) - Sandthrush was 32 moons old",
+            "Sandthrush can't help but admire Howlsky's pelt. (low positive effect) - Sandthrush was 35 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2144,9 +2141,7 @@
             "Sandthrush grew irritated at Ashenpelt while on a patrol and didn't accomplish much. (negative effect) - Sandthrush was 32 moons old",
             "Sandthrush thinks Ashenpelt has been acting stuck up and rude. (medium negative effect) - Sandthrush was 34 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2328,9 +2323,7 @@
         "log": [
             "Sandthrush heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Sandthrush was 33 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2346,10 +2339,7 @@
             "Sandthrush heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Sandthrush was 26 moons old",
             "Sandthrush grew irritated at Scalebloom while on a patrol and didn't accomplish much. (negative effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2362,9 +2352,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2487,9 +2475,7 @@
         "log": [
             "Sandthrush was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Sandthrush was 32 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2552,11 +2538,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sandthrush disapproved of Caterpillarstripe wearing a collar. (negative effect) - Sandthrush was 35 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -2565,11 +2555,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sandthrush and Tallneedle successfully gathered herbs together despite the rainy weather. (positive effect) - Sandthrush was 34 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -2872,6 +2866,32 @@
     {
         "cat_from_id": "169",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "169",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "169",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

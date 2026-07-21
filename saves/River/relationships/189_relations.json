@@ -350,17 +350,22 @@
         "mates": false,
         "family": false,
         "romance": 34,
-        "like": -1,
+        "like": -9,
         "respect": -12,
-        "comfort": 6,
+        "comfort": -2,
         "trust": 8,
         "log": [
             "Driftstripe asks Freezefoot to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Driftstripe was 77 moons old",
             "Both Driftstripe and Freezefoot avoid one another's eye contact. (low negative effect) - Driftstripe was 79 moons old",
             "Freezefoot complained so relentlessly about her patrol assignment that Fleadusk, Frondpad, Mallowpelt, and Driftstripe could only sigh and bear it. (negative effect) - Driftstripe was 82 moons old",
-            "Freezefoot spends the Gathering whispering to Driftstripe, Fleadusk, and Hushshimmer, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Driftstripe was 85 moons old"
+            "Freezefoot spends the Gathering whispering to Driftstripe, Fleadusk, and Hushshimmer, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Driftstripe was 85 moons old",
+            "Freezefoot eats as ravenously as a wolverine and by the time she's done, Mallowpelt, Gardeniaglow, and Driftstripe barely have the stomach to finish their own meals. (negative effect) - Driftstripe was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -376,9 +381,7 @@
             "Driftstripe heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Driftstripe was 84 moons old",
             "Driftstripe and Gardeniaglow worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -386,8 +389,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
-        "respect": 5,
+        "like": 37,
+        "respect": 15,
         "comfort": 18,
         "trust": 15,
         "log": [
@@ -396,10 +399,12 @@
             "Driftstripe enjoyed driving away rogues with Mossflight. (positive effect) - Driftstripe was 76 moons old",
             "The moonlight encourages Driftstripe, Mossflight, Blotchstripe, Minnowlily, and Brindlepaw to slow down and stretch. (positive effect) - Driftstripe was 81 moons old",
             "Driftstripe and Mossflight quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Driftstripe was 86 moons old",
-            "Driftstripe and Mossflight worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old"
+            "Driftstripe and Mossflight worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old",
+            "Mossflight and Driftstripe brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Driftstripe was 91 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort",
             "trust"
         ]
@@ -469,18 +474,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 5,
+        "like": 25,
+        "respect": 15,
         "comfort": 10,
         "trust": 15,
         "log": [
             "Driftstripe had fun cracking open a coconut with Verbenabloom. (positive effect) - Driftstripe was 70 moons old",
             "Driftstripe enjoyed driving away rogues with Verbenabloom. (positive effect) - Driftstripe was 76 moons old",
             "Driftstripe and Verbenabloom quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Driftstripe was 86 moons old",
-            "Driftstripe and Verbenabloom worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old"
+            "Driftstripe and Verbenabloom worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old",
+            "Verbenabloom and Driftstripe brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Driftstripe was 91 moons old"
         ],
         "no_longer_neutral": [
             "like",
+            "respect",
             "comfort",
             "trust"
         ]
@@ -551,16 +558,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
-        "respect": -6,
-        "comfort": -4,
-        "trust": -1,
+        "like": -10,
+        "respect": -10,
+        "comfort": -10,
+        "trust": -17,
         "log": [
             "Driftstripe heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Driftstripe was 75 moons old",
             "Driftstripe thought the call from Diablofoot to head home early was wise. (positive effect) - Driftstripe was 78 moons old",
-            "Driftstripe told Diablofoot to shut up. (high negative effect) - Driftstripe was 79 moons old"
+            "Driftstripe told Diablofoot to shut up. (high negative effect) - Driftstripe was 79 moons old",
+            "Driftstripe swears that Diablofoot stole something from his nest. (high negative effect) - Driftstripe was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -626,9 +639,7 @@
             "Driftstripe and Reedheart chatted and gossiped while gathering mallow and betony together. (positive effect) - Driftstripe was 88 moons old",
             "Driftstripe explains what a joke means to Reedheart. (low positive effect) - Driftstripe was 90 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -863,9 +874,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -940,9 +949,7 @@
             "Gentleghost, Heavythud, and Driftstripe took a sunbath and had a little small talk. (positive effect) - Driftstripe was 85 moons old",
             "Driftstripe complains about something Gentleghost did. (low negative effect) - Driftstripe was 91 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -978,15 +985,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 12,
+        "like": 20,
+        "respect": 22,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Driftstripe and Oddmuzzle successfully gathered juniper together. (positive effect) - Driftstripe was 85 moons old",
-            "Driftstripe lets Oddmuzzle know that he's about to go out and asks if he needs to watch for any herbs. (medium positive effect) - Driftstripe was 90 moons old"
+            "Driftstripe lets Oddmuzzle know that he's about to go out and asks if he needs to watch for any herbs. (medium positive effect) - Driftstripe was 90 moons old",
+            "Oddmuzzle and Driftstripe brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Driftstripe was 91 moons old"
         ],
         "no_longer_neutral": [
+            "like",
             "respect"
         ]
     },
@@ -1417,14 +1426,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
+        "like": 20,
+        "respect": 10,
         "comfort": 10,
         "trust": 10,
         "log": [
-            "Shiveringdusk was part of the patrol that invited Driftstripe to RiverClan. (positive effect) - Driftstripe was 68 moons old"
+            "Shiveringdusk was part of the patrol that invited Driftstripe to RiverClan. (positive effect) - Driftstripe was 68 moons old",
+            "Shiveringdusk and Driftstripe brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Driftstripe was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -1447,14 +1462,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": -3,
+        "like": 20,
+        "respect": 7,
         "comfort": 10,
         "trust": 10,
         "log": [
-            "Poppybriar was part of the patrol that invited Driftstripe to RiverClan. (positive effect) - Driftstripe was 68 moons old"
+            "Poppybriar was part of the patrol that invited Driftstripe to RiverClan. (positive effect) - Driftstripe was 68 moons old",
+            "Poppybriar and Driftstripe brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Driftstripe was 91 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -1624,9 +1645,7 @@
         "log": [
             "Driftstripe and Shinebelly quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Driftstripe was 86 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -1717,9 +1736,7 @@
             "Driftstripe bumps heads with Heathstripe reassuringly. (medium positive effect) - Driftstripe was 89 moons old",
             "Driftstripe and Heathstripe worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -1960,12 +1977,7 @@
             "Driftstripe and Hollyblossom learn a lot about each other when they're stuck in a den during a storm. (high positive effect) - Driftstripe was 86 moons old",
             "Driftstripe and Hollyblossom worked together to gather plantain. (positive effect) - Driftstripe was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -2080,16 +2092,21 @@
         "cat_to_id": "219",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -12,
-        "respect": 12,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 16,
+        "like": -6,
+        "respect": 16,
+        "comfort": 4,
+        "trust": 6,
         "log": [
             "Driftstripe has a mock battle with Moorghost. (medium positive effect) - Driftstripe was 77 moons old",
-            "Driftstripe doesn't like Moorghost's sense of humor. (medium negative effect) - Driftstripe was 84 moons old"
+            "Driftstripe doesn't like Moorghost's sense of humor. (medium negative effect) - Driftstripe was 84 moons old",
+            "Driftstripe decorates Moorghost's nest with flowers to surprise her! (high positive effect) - Driftstripe was 92 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -2394,9 +2411,7 @@
         "log": [
             "Driftstripe noticed Lavenderkit is doing her best today. (low positive effect) - Driftstripe was 91 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -2518,6 +2533,32 @@
     {
         "cat_from_id": "189",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

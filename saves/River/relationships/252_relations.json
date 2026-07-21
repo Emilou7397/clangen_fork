@@ -36,12 +36,7 @@
         "comfort": 78,
         "trust": 68,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -63,10 +58,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flintkit heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Flintkit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -444,9 +441,10 @@
         "like": 16,
         "respect": 5,
         "comfort": 6,
-        "trust": 4,
+        "trust": -1,
         "log": [
-            "Flintkit defends Fleadusk in conversations. (high positive effect) - Flintkit was 1 moon old"
+            "Flintkit defends Fleadusk in conversations. (high positive effect) - Flintkit was 1 moon old",
+            "Flintkit heard Fleadusk fell asleep guarding camp. (negative effect) - Flintkit was 2 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -607,8 +605,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flintkit was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Flintkit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -752,12 +752,7 @@
         "comfort": 84,
         "trust": 74,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -999,12 +994,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 16,
+        "respect": 4,
+        "comfort": 6,
+        "trust": 6,
+        "log": [
+            "Flintkit dispels a bad rumor about Silkymunch. (high positive effect) - Flintkit was 3 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "252",
@@ -1162,9 +1163,7 @@
         "log": [
             "Flintkit suspects that Creekmoss gets special treatment. (low negative effect) - Flintkit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -1437,9 +1436,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -1636,9 +1633,7 @@
         "log": [
             "Flintkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Flintkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -1770,9 +1765,7 @@
         "log": [
             "Flintkit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Flintkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -1807,11 +1800,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flintkit disapproved of Caterpillarstripe wearing a collar. (negative effect) - Flintkit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "252",
@@ -2079,16 +2076,18 @@
         "mates": false,
         "family": true,
         "romance": 8,
-        "like": 48,
-        "respect": 18,
-        "comfort": 56,
-        "trust": 46,
-        "log": [],
+        "like": 53,
+        "respect": 24,
+        "comfort": 62,
+        "trust": 62,
+        "log": [
+            "Flintkit and Dashkit swap secrets with each other. (high positive effect) - Flintkit was 3 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2102,16 +2101,37 @@
         "comfort": 53,
         "trust": 30,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "252",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "252",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,

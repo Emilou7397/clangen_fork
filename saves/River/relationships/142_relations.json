@@ -22,13 +22,16 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -5,
         "comfort": -3,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Midnightkit warns Heatherfern about something on the ground so she doesn't trip. (low positive effect) - Midnightkit was 5 moons old"
+            "Midnightkit warns Heatherfern about something on the ground so she doesn't trip. (low positive effect) - Midnightkit was 5 moons old",
+            "Midnighthaze heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Midnighthaze was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -148,9 +151,7 @@
             "Primfreckle won't help Midnighthaze fix his nest. (low negative effect) - Midnighthaze was 44 moons old",
             "Midnighthaze is feeling lost and asks Primfreckle for advice on what to do. (medium positive effect) - Midnighthaze was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -160,10 +161,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -651,10 +654,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Midnighthaze heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Midnighthaze was 18 moons old",
-            "Midnighthaze disapproved of Fleadusk wearing a collar. (negative effect) - Midnighthaze was 45 moons old"
+            "Midnighthaze disapproved of Fleadusk wearing a collar. (negative effect) - Midnighthaze was 45 moons old",
+            "Midnighthaze heard Fleadusk fell asleep guarding camp. (negative effect) - Midnighthaze was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -839,10 +843,7 @@
             "Talonlake guides Midnighthaze to someone he is looking for. (low positive effect) - Midnighthaze was 37 moons old",
             "Midnighthaze was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Midnighthaze was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -928,9 +929,10 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Midnightpaw noticed how successful Poolleaf's hunting patrol was. (positive effect) - Midnightpaw was 7 moons old"
+            "Midnightpaw noticed how successful Poolleaf's hunting patrol was. (positive effect) - Midnightpaw was 7 moons old",
+            "Midnighthaze was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Midnighthaze was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1037,11 +1039,13 @@
         "like": 8,
         "respect": 6,
         "comfort": 6,
-        "trust": 21,
+        "trust": 13,
         "log": [
             "Midnighthaze trusts Saltknoll with a very important task. (high positive effect) - Midnighthaze was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -1087,9 +1091,7 @@
             "Midnighthaze enjoyed listening to Hailfreckle's stories. (positive effect) - Midnighthaze was 19 moons old",
             "Hailfreckle tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Garlicberry, Midnighthaze, and Sandthrush. (negative effect) - Midnighthaze was 46 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -1102,9 +1104,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -1166,9 +1166,7 @@
             "Midnighthaze shared a embarrassing story about Hollyheart he was asked not to share... (low negative effect) - Midnighthaze was 22 moons old",
             "Midnighthaze feels a little safer when Hollyheart joins him in the clearing. (low positive effect) - Midnighthaze was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -1407,10 +1405,10 @@
         "cat_to_id": "122",
         "mates": true,
         "family": false,
-        "romance": 33,
-        "like": -7,
+        "romance": 6,
+        "like": -24,
         "respect": 15,
-        "comfort": 28,
+        "comfort": 21,
         "trust": 27,
         "log": [
             "Cherrypaw tells Midnighthaze that his pelt is shiny today. (low positive effect) - Midnighthaze was 11 moons old",
@@ -1419,9 +1417,15 @@
             "Cherrytail tells Midnighthaze, Bitebone, Silkymunch, and Suntooth a story that seems to grow less believable every meow. (negative effect) - Midnighthaze was 28 moons old",
             "Midnighthaze was impressed when Cherrytail convinced rogues to leave the territory. (positive effect) - Midnighthaze was 32 moons old",
             "Midnighthaze got stuck on patrol, and Cherrytail chewed him out for it. (negative effect) - Midnighthaze was 36 moons old",
-            "Midnighthaze got stuck on patrol, and Cherrytail had no patience for it. (negative effect) - Midnighthaze was 36 moons old"
+            "Midnighthaze got stuck on patrol, and Cherrytail had no patience for it. (negative effect) - Midnighthaze was 36 moons old",
+            "Cherrytail realizes that she doesn't have the mentality to keep a romantic relationship right now. After a little talk with Midnighthaze, they have decided to break up. - Midnighthaze was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -1518,9 +1522,7 @@
             "Gorgehunt makes a small sacrifice that benefits Midnighthaze. (low positive effect) - Midnighthaze was 35 moons old",
             "Gorgehunt snickered when Midnighthaze tripped. (low negative effect) - Midnighthaze was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -1613,9 +1615,7 @@
             "Midnighthaze and Moletooth make each other laugh. (low positive effect) - Midnighthaze was 27 moons old",
             "Midnighthaze and Moletooth enjoyed telling ghost stories on patrol. (positive effect) - Midnighthaze was 45 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -1891,15 +1891,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 14,
+        "like": 27,
         "respect": 0,
         "comfort": 0,
         "trust": -15,
         "log": [
             "Midnighthaze wants to spend more time around Miteleaf. (medium positive effect) - Midnighthaze was 37 moons old",
-            "Midnighthaze was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Midnighthaze was 46 moons old"
+            "Midnighthaze was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Midnighthaze was 46 moons old",
+            "Miteleaf thanked Midnighthaze for bringing him food. (low positive effect) - Midnighthaze was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -2333,9 +2336,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -2417,12 +2418,14 @@
         "romance": 0,
         "like": -5,
         "respect": -5,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Midnighthaze heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Midnighthaze was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -2430,12 +2433,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Spittle and flecks of bone fly while Hollyblossom gobbles down prey, reminding Midnighthaze, Sardinespeckle, and Shimmerrunner to seek out better mealtime companionship next time. (negative effect) - Midnighthaze was 49 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -2481,9 +2489,7 @@
         "log": [
             "Midnighthaze heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Midnighthaze was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -2521,11 +2527,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": -3,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Midnighthaze said something really rude to Softspring. (low negative effect) - Midnighthaze was 50 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2636,9 +2644,7 @@
         "log": [
             "Midnighthaze was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Midnighthaze was 47 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -2701,11 +2707,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Midnighthaze disapproved of Caterpillarstripe wearing a collar. (negative effect) - Midnighthaze was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "142",
@@ -2980,9 +2990,7 @@
         "log": [
             "Midnighthaze sees Merlotbite put something back where it belongs. (low positive effect) - Midnighthaze was 49 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "142",
@@ -3000,6 +3008,32 @@
     {
         "cat_from_id": "142",
         "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "142",
+        "cat_to_id": "256",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "142",
+        "cat_to_id": "257",
         "mates": false,
         "family": false,
         "romance": 0,
