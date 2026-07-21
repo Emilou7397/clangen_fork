@@ -1464,15 +1464,18 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": 12,
+        "respect": 20,
         "comfort": 37,
         "trust": 0,
         "log": [
             "Murkhaven, Dancingfleck, and Kiwifoot took a sunbath and had a little small talk. (positive effect) - Murkhaven was 35 moons old",
             "Dancingfleck rallies Gentleghost, Murkhaven, Daisymoor, and Craneflight to do early morning stretches with him. (negative effect) - Murkhaven was 41 moons old",
-            "Murkhaven and Dancingfleck make each other laugh. (low positive effect) - Murkhaven was 72 moons old"
+            "Murkhaven and Dancingfleck make each other laugh. (low positive effect) - Murkhaven was 72 moons old",
+            "Murkhaven and Dancingfleck come up with a catchy song together. (low positive effect) - Murkhaven was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -1548,17 +1551,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 13,
         "respect": 0,
-        "comfort": -18,
-        "trust": 5,
+        "comfort": -12,
+        "trust": 11,
         "log": [
             "Murkhaven sees Kiwifoot staring off into the distance. It's kind of creepy. (low negative effect) - Murkhaven was 30 moons old",
             "Murkhaven, Dancingfleck, and Kiwifoot took a sunbath and had a little small talk. (positive effect) - Murkhaven was 35 moons old",
             "These cats enjoyed fantastical stories together while stuck in the den. (positive effect) - Murkhaven was 41 moons old",
             "Late at night, Murkhaven finds Kiwifoot sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Murkhaven was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2124,13 +2131,16 @@
         "romance": 0,
         "like": 2,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 17,
         "trust": -7,
         "log": [
             "Murkhaven enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Murkhaven was 63 moons old",
-            "Creekmoss keeps making excuses about something Murkhaven wants to know. (medium negative effect) - Murkhaven was 66 moons old"
+            "Creekmoss keeps making excuses about something Murkhaven wants to know. (medium negative effect) - Murkhaven was 66 moons old",
+            "When Murkhaven gets hurt, Creekmoss is the first to ask if they're okay. (medium positive effect) - Murkhaven was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2273,9 +2283,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Murkhaven sees Nymphshine whispering suspiciously to a Clanmate. (low negative effect) - Murkhaven was 82 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2474,12 +2488,15 @@
         "like": 12,
         "respect": 0,
         "comfort": 12,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Murkhaven is admiring Heathstripe from afar... (low positive effect) - Murkhaven was 65 moons old",
-            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old"
+            "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Murkhaven was 79 moons old",
+            "Heathstripe follows through on a small promise made with Murkhaven. (low positive effect) - Murkhaven was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2719,12 +2736,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 5,
+        "comfort": 16,
+        "trust": 6,
+        "log": [
+            "Murkhaven associates their favorite smell with Lionheart. (high positive effect) - Murkhaven was 81 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2899,12 +2921,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Murkhaven and Redswirl make fun of one another, but it sounds more like insults than playful banter. (medium negative effect) - Murkhaven was 81 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -3198,6 +3224,84 @@
     {
         "cat_from_id": "65",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

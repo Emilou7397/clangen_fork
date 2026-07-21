@@ -2881,6 +2881,23 @@ class Cat:
         if mediator.status.rank == CatRank.MEDIATOR_APPRENTICE:
             mediator.experience += max(randint(1, 6), 1)
 
+            """Handles mentor influence on apprentice"""
+            mentor = Cat.fetch_cat(mediator.mentor)
+            affect_personality = mediator.personality.mentor_influence(
+                mentor.personality
+            )
+            affect_skills = mediator.skills.mentor_influence(mentor)
+            if affect_personality:
+                mediator.history.add_facet_mentor_influence(
+                    mentor.ID, affect_personality[0], affect_personality[1]
+                )
+                print(str(mediator.name), affect_personality)
+            if affect_skills:
+                mediator.history.add_skill_mentor_influence(
+                    affect_skills[0], affect_skills[1], affect_skills[2]
+                )
+                print(str(mediator.name), affect_skills)
+
         # determine the traits to effect
         # Are they mates?
         mates = rel1.cat_from.ID in rel1.cat_to.mate

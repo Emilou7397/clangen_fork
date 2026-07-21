@@ -138,13 +138,17 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -5,
         "comfort": 12,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Prancelaurel convinces Ochretail, Ashenkit, Dancingscreech, and Auburnsplash to wind down and stretch with her. (positive effect) - Ashenkit was 0 moons old"
+            "Prancelaurel convinces Ochretail, Ashenkit, Dancingscreech, and Auburnsplash to wind down and stretch with her. (positive effect) - Ashenkit was 0 moons old",
+            "Ashenpelt heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Ashenpelt was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -695,17 +699,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
+        "like": 28,
         "respect": 10,
-        "comfort": 0,
-        "trust": 30,
+        "comfort": 8,
+        "trust": 25,
         "log": [
             "Ashenpaw and Talonlake enjoyed working on their skills together on a training patrol. (positive effect) - Ashenpaw was 8 moons old",
             "Ashenpaw and Talonlake took turns playing prey and hunter to help each other practice hunting. (positive effect) - Ashenpaw was 11 moons old",
             "Ashenpaw and Talonlake enjoyed practicing new battle moves together. (positive effect) - Ashenpaw was 12 moons old",
-            "Ashenpelt appreciated Talonlake settling a dispute on patrol. (positive effect) - Ashenpelt was 16 moons old"
+            "Ashenpelt appreciated Talonlake settling a dispute on patrol. (positive effect) - Ashenpelt was 16 moons old",
+            "Ashenpelt was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Ashenpelt was 23 moons old",
+            "Ashenpelt, Brindlesplash, and Talonlake had a nice talk while eating. (positive effect) - Ashenpelt was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -1618,11 +1629,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Ashenpelt isn't impressed with Lilynoise's work lately. (low negative effect) - Ashenpelt was 25 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -1674,7 +1689,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -5,
         "respect": -8,
         "comfort": -2,
         "trust": -5,
@@ -1683,9 +1698,12 @@
             "Ashenpelt and Shinebelly avoided each other after an unpleasant training patrol. (negative effect) - Ashenpelt was 13 moons old",
             "Ashenpelt heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Ashenpelt was 15 moons old",
             "Ashenpelt disapproved of Shinebelly wearing a collar. (negative effect) - Ashenpelt was 18 moons old",
-            "Ashenpelt heard Shinebelly fell asleep guarding camp. (negative effect) - Ashenpelt was 20 moons old"
+            "Ashenpelt heard Shinebelly fell asleep guarding camp. (negative effect) - Ashenpelt was 20 moons old",
+            "Ashenpelt grew irritated at Shinebelly while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -1748,16 +1766,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 25,
+        "like": -5,
+        "respect": 22,
         "comfort": -5,
         "trust": 25,
         "log": [
             "Ashenpaw gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Ashenpaw was 9 moons old",
             "Ashenpelt and Sandthrush avoided each other after an unpleasant training patrol. (negative effect) - Ashenpelt was 13 moons old",
-            "Ashenpelt gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Ashenpelt was 17 moons old"
+            "Ashenpelt gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Ashenpelt was 17 moons old",
+            "Ashenpelt grew irritated at Sandthrush while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -1897,10 +1919,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 74,
-        "respect": 18,
-        "comfort": 25,
-        "trust": 6,
+        "like": 73,
+        "respect": 24,
+        "comfort": 41,
+        "trust": 11,
         "log": [
             "Ashenpaw prevents something from falling on Howlpaw. (low positive effect) - Ashenpaw was 8 moons old",
             "Nymphshine's eagerness to do early morning stretches rubs off on Dustpaw, Howlpaw, Kinkpaw, and Ashenpaw. (positive effect) - Ashenpaw was 8 moons old",
@@ -1909,9 +1931,16 @@
             "Ashenpelt and Howlsky avoided each other after an unpleasant training patrol. (negative effect) - Ashenpelt was 13 moons old",
             "Howlsky might be reading a little too far into Ashenpelt's kindness. (low positive effect) - Ashenpelt was 16 moons old",
             "Ashenpelt heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ashenpelt was 18 moons old",
-            "Ashenpelt sees Howlsky put something back where it belongs. (low positive effect) - Ashenpelt was 21 moons old"
+            "Ashenpelt sees Howlsky put something back where it belongs. (low positive effect) - Ashenpelt was 21 moons old",
+            "Ashenpelt grew irritated at Howlsky while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old",
+            "Ashenpelt comforts Howlsky after a terrible nightmare. (high positive effect) - Ashenpelt was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2000,9 +2029,17 @@
             "Ashenpaw and Brindlepaw took turns playing prey and hunter to help each other practice hunting. (positive effect) - Ashenpaw was 11 moons old",
             "Ashenpaw saved a piece of fresh-kill that he knows is Brindlepaw's favorite. (high positive effect) - Ashenpaw was 12 moons old",
             "Late into the evening, Hollyheart invites Brindlepaw, Flightpaw, Ashenpaw, and Mossflight to stretch with him and enjoy each other's company. (positive effect) - Ashenpaw was 12 moons old",
-            "Howlsky wants to bring Brindlesplash a gift, but she's busy with Ashenpelt. (negative effect) - Ashenpelt was 15 moons old"
+            "Howlsky wants to bring Brindlesplash a gift, but she's busy with Ashenpelt. (negative effect) - Ashenpelt was 15 moons old",
+            "Ashenpelt and Brindlesplash saw something hilarious during a patrol and can't stop giggling about it. (medium positive effect) - Ashenpelt was 23 moons old",
+            "Ashenpelt grew irritated at Brindlesplash while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old",
+            "Ashenpelt, Brindlesplash, and Talonlake had a nice talk while eating. (positive effect) - Ashenpelt was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2037,13 +2074,16 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": -10,
+        "respect": -23,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Ashenpelt was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Ashenpelt was 19 moons old"
+            "Ashenpelt was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Ashenpelt was 19 moons old",
+            "A Clanmate that Ashenpelt wanted to get to know better is already friends with Morelstreak. (low negative effect) - Ashenpelt was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2065,7 +2105,7 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 10,
+        "respect": 18,
         "comfort": 4,
         "trust": 10,
         "log": [
@@ -2073,9 +2113,12 @@
             "Ashenpaw and Flightpaw enjoyed practicing new battle moves together. (positive effect) - Ashenpaw was 12 moons old",
             "Late into the evening, Hollyheart invites Brindlepaw, Flightpaw, Ashenpaw, and Mossflight to stretch with him and enjoy each other's company. (positive effect) - Ashenpaw was 12 moons old",
             "After sharing tongues, Ashenpelt washed off Flightpaw's scent from his pelt. (medium negative effect) - Ashenpelt was 18 moons old",
-            "Ashenpelt heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ashenpelt was 20 moons old"
+            "Ashenpelt heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ashenpelt was 20 moons old",
+            "Ashenpelt and Flightspot find out they have the same favorite prey! (low positive effect) - Ashenpelt was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2157,11 +2200,15 @@
         "like": 0,
         "respect": 0,
         "comfort": -8,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Ashenpelt sees the blood of fresh-kill on Sagopaw's paws and feels a prickle of discomfort. (low negative effect) - Ashenpelt was 20 moons old"
+            "Ashenpelt sees the blood of fresh-kill on Sagopaw's paws and feels a prickle of discomfort. (low negative effect) - Ashenpelt was 20 moons old",
+            "Ashenpelt heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Ashenpelt was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2169,15 +2216,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
+        "like": -1,
         "respect": 4,
         "comfort": 6,
         "trust": 6,
         "log": [
             "Ashenpelt heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Ashenpelt was 17 moons old",
-            "Scalebloom calls out the Clan for targeting Ashenpelt. (high positive effect) - Ashenpelt was 22 moons old"
+            "Scalebloom calls out the Clan for targeting Ashenpelt. (high positive effect) - Ashenpelt was 22 moons old",
+            "Ashenpelt grew irritated at Scalebloom while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2267,12 +2318,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 11,
+        "respect": 2,
+        "comfort": 2,
+        "trust": 2,
+        "log": [
+            "Ashenpelt eats with Skytooth all the time! (high positive effect) - Ashenpelt was 24 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2311,9 +2366,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -13,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -28,
+        "log": [
+            "Ashenpelt was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Ashenpelt was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2597,6 +2656,84 @@
     {
         "cat_from_id": "185",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

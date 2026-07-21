@@ -123,11 +123,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Wavelight heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 22 moons old"
+            "Wavelight heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wavelight was 22 moons old",
+            "After Bitterleaf finished his food, Wavelight noticed he made a mess. (medium negative effect) - Wavelight was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -214,10 +215,11 @@
         "like": 10,
         "respect": 10,
         "comfort": 0,
-        "trust": 10,
+        "trust": -2,
         "log": [
             "Wavelight saw how Carptail persevered in order to gather berries for RiverClan. (positive effect) - Wavelight was 45 moons old",
-            "Wavelight and Carptail successfully gathered berries together. (positive effect) - Wavelight was 45 moons old"
+            "Wavelight and Carptail successfully gathered berries together. (positive effect) - Wavelight was 45 moons old",
+            "Carptail keeps avoiding eye contact with Wavelight. (medium negative effect) - Wavelight was 50 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -636,7 +638,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 2,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -730,11 +732,13 @@
         "like": 0,
         "respect": -12,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Wavelight is upset that Elmtrail slept through patrol assignments. (medium negative effect) - Wavelight was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -774,7 +778,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 18,
         "respect": 0,
         "comfort": 0,
         "trust": 7,
@@ -782,7 +786,9 @@
             "Wavepaw and Sardinespeckle enjoyed working on their skills together on a training patrol. (positive effect) - Wavepaw was 12 moons old",
             "Wavelight thinks Sardinespeckle has been acting strangely. (low negative effect) - Wavelight was 41 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -1359,7 +1365,7 @@
         "family": true,
         "romance": 0,
         "like": 68,
-        "respect": 30,
+        "respect": 38,
         "comfort": 100,
         "trust": 44,
         "log": [
@@ -1370,9 +1376,12 @@
             "Wavelight finds out something small about Blotchstripe that Blotchstripe had lied about before. (low negative effect) - Wavelight was 18 moons old",
             "Blotchstripe thanked Wavelight for bringing her food. (low positive effect) - Wavelight was 29 moons old",
             "Wavelight reassures Blotchstripe about something that was bothering her. (low positive effect) - Wavelight was 41 moons old",
-            "Wavelight, Shadowfreckle, and Blotchstripe decide they're going to get Wasppelt and Cherrytail together. They talk about how much Wasppelt loves Cherrytail in front of Cherrytail, and, to their pleasure, find the two talking later. (positive effect) - Wavelight was 47 moons old"
+            "Wavelight, Shadowfreckle, and Blotchstripe decide they're going to get Wasppelt and Cherrytail together. They talk about how much Wasppelt loves Cherrytail in front of Cherrytail, and, to their pleasure, find the two talking later. (positive effect) - Wavelight was 47 moons old",
+            "Wavelight is motivated by Blotchstripe's big smile. (low positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -1661,11 +1670,12 @@
         "family": false,
         "romance": 0,
         "like": 7,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Wavelight and Swallowstripe purr about something small together. (medium positive effect) - Wavelight was 31 moons old"
+            "Wavelight and Swallowstripe purr about something small together. (medium positive effect) - Wavelight was 31 moons old",
+            "Swallowstripe motivated Wavelight to get out of his nest this morning. (low positive effect) - Wavelight was 50 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1690,7 +1700,7 @@
         "cat_to_id": "142",
         "mates": false,
         "family": false,
-        "romance": 17,
+        "romance": 30,
         "like": 14,
         "respect": -14,
         "comfort": -7,
@@ -1700,7 +1710,8 @@
             "Wavelight thinks about telling others that Midnighthaze broke the Code. (high negative effect) - Wavelight was 29 moons old",
             "Bitebone convinces Verbenabloom, Pigeonbloom, Wavelight, and Midnighthaze to wind down and stretch with him. (positive effect) - Wavelight was 30 moons old",
             "Wavelight was uncomfortable with how Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Wavelight was 42 moons old",
-            "Wavelight saw Midnighthaze's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Wavelight was 46 moons old"
+            "Wavelight saw Midnighthaze's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Wavelight was 46 moons old",
+            "Wavelight is prancing around in front of Midnighthaze. (low positive effect) - Wavelight was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1712,15 +1723,18 @@
         "romance": 0,
         "like": 0,
         "respect": -15,
-        "comfort": -16,
+        "comfort": -8,
         "trust": -5,
         "log": [
             "Wavepaw is jealous that Bravepaw got to go to the last Gathering. (medium negative effect) - Wavepaw was 13 moons old",
             "Wavelight heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Wavelight was 21 moons old",
             "Wavelight bickers with Braveocean over who gets what nest material. (low negative effect) - Wavelight was 33 moons old",
-            "Wavelight saw Braveocean's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Wavelight was 46 moons old"
+            "Wavelight saw Braveocean's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Wavelight was 46 moons old",
+            "Wavelight has been spending time with Braveocean lately. (low positive effect) - Wavelight was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "121",
@@ -2897,6 +2911,84 @@
     {
         "cat_from_id": "121",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "121",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

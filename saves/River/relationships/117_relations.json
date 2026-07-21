@@ -165,15 +165,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
+        "like": 18,
+        "respect": 10,
         "comfort": 8,
         "trust": 26,
         "log": [
             "Snookkit includes Peatcrest in a conversation that Peatcrest struggled to join. (low positive effect) - Snookkit was 3 moons old",
-            "Snookbumble, Gentleghost, and Peatcrest had a nice talk while eating. (positive effect) - Snookbumble was 15 moons old"
+            "Snookbumble, Gentleghost, and Peatcrest had a nice talk while eating. (positive effect) - Snookbumble was 15 moons old",
+            "Snookbumble enjoyed picking elder leaves with Peatcrest. (positive effect) - Snookbumble was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -196,10 +202,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1002,13 +1010,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Snookbumble brings Saltknoll a piece of fresh-kill after a long day of healing work. (medium positive effect) - Snookbumble was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1393,7 +1403,8 @@
             "Snookbumble and Cherrytail avoided each other after an unpleasant training patrol. (negative effect) - Snookbumble was 26 moons old",
             "Snookbumble and Cherrytail trained and caught up with each other. (positive effect) - Snookbumble was 31 moons old",
             "Snookbumble and Cherrytail argued about what to practice on a training patrol. (negative effect) - Snookbumble was 33 moons old",
-            "Snookbumble has a friendly chat with Cherrytail that leaves them both feeling happy. (low positive effect) - Snookbumble was 49 moons old"
+            "Snookbumble has a friendly chat with Cherrytail that leaves them both feeling happy. (low positive effect) - Snookbumble was 49 moons old",
+            "Cherrytail heard Snookbumble talking badly about her. (high negative effect) - Snookbumble was 53 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1498,7 +1509,7 @@
         "mates": false,
         "family": false,
         "romance": 34,
-        "like": 19,
+        "like": 32,
         "respect": 0,
         "comfort": 30,
         "trust": 21,
@@ -1507,7 +1518,9 @@
             "Gorgehunt was complimented by another Clan during the recent Gathering, but Snookbumble wasn't. (medium negative effect) - Snookbumble was 30 moons old",
             "Gorgehunt makes a small sacrifice that benefits Snookbumble. (low positive effect) - Snookbumble was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1601,14 +1614,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 38,
-        "comfort": 0,
-        "trust": 25,
+        "like": 4,
+        "respect": 54,
+        "comfort": 6,
+        "trust": 29,
         "log": [
-            "Glowfur leaped to Snookbumble's defense when he saw a dog attacking her. (positive effect) - Snookbumble was 43 moons old"
+            "Glowfur leaped to Snookbumble's defense when he saw a dog attacking her. (positive effect) - Snookbumble was 43 moons old",
+            "Glowfur's name comes up in a heated conversation, and Snookbumble is the first to stand up for him. (high positive effect) - Snookbumble was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1618,7 +1636,7 @@
         "romance": 0,
         "like": 28,
         "respect": 17,
-        "comfort": 46,
+        "comfort": 63,
         "trust": 8,
         "log": [
             "Snookbumble bumps heads with Whiskerleg reassuringly. (medium positive effect) - Snookbumble was 20 moons old",
@@ -1627,9 +1645,12 @@
             "Snookbumble heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Snookbumble was 24 moons old",
             "Whiskerleg is developing a crush on Snookbumble. (low positive effect) - Snookbumble was 27 moons old",
             "Snookbumble talks to Whiskerleg about a mutual friend they have both been worrying about. (high positive effect) - Snookbumble was 31 moons old",
-            "Whiskerleg tells Snookbumble that her pelt is shiny today. (low positive effect) - Snookbumble was 39 moons old"
+            "Whiskerleg tells Snookbumble that her pelt is shiny today. (low positive effect) - Snookbumble was 39 moons old",
+            "Snookbumble playfully teases Whiskerleg for missing a catch. (medium positive effect) - Snookbumble was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1721,13 +1742,14 @@
         "cat_to_id": "146",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 7,
         "like": -8,
         "respect": 6,
         "comfort": 8,
         "trust": 12,
         "log": [
-            "Snookbumble nearly tripped, but was caught by Shiveringdusk. (medium positive effect) - Snookbumble was 23 moons old"
+            "Snookbumble nearly tripped, but was caught by Shiveringdusk. (medium positive effect) - Snookbumble was 23 moons old",
+            "Snookbumble feels giddy about getting on the same patrol as Shiveringdusk. (medium positive effect) - Snookbumble was 53 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1782,15 +1804,18 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": -4,
+        "like": 9,
         "respect": -4,
         "comfort": 15,
         "trust": -3,
         "log": [
             "Snookbumble was sarcastic to Clawswirl at an inappropriate time. (high negative effect) - Snookbumble was 33 moons old",
-            "Snookbumble and Clawswirl take a nap together. (low positive effect) - Snookbumble was 38 moons old"
+            "Snookbumble and Clawswirl take a nap together. (low positive effect) - Snookbumble was 38 moons old",
+            "Clawswirl tells Snookbumble that her pelt is shiny today. (low positive effect) - Snookbumble was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -1976,13 +2001,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Snookbumble heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Snookbumble was 17 moons old"
+            "Snookbumble heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Snookbumble was 17 moons old",
+            "Pigmentpelt snickered when Snookbumble tripped. (low negative effect) - Snookbumble was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "117",
@@ -2842,6 +2870,84 @@
     {
         "cat_from_id": "117",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "117",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

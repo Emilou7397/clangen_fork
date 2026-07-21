@@ -1,19 +1,22 @@
 {
     "injuries": {
-        "claw-wound": {
-            "severity": "major",
-            "mortality": 50,
-            "duration": 3,
-            "moon_start": 145,
+        "broken bone": {
+            "severity": "severe",
+            "mortality": 66,
+            "duration": 5,
+            "moon_start": 148,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 7
+                    "chance": 5
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "weak leg",
+                "twisted leg"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }

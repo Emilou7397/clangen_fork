@@ -101,10 +101,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterkit heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Waterkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -193,10 +195,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 12,
+        "trust": 12,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -580,8 +587,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterkit was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Waterkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -726,12 +735,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Hailfreckle shares a suspiciously exaggerated tale with Shorepaw, Bubpaw, Wheatpaw, and Waterpaw, who seem far from convinced of its veracity. (negative effect) - Waterpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1722,9 +1736,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Waterkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Waterkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1854,9 +1872,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Waterkit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Waterkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1960,13 +1982,21 @@
         "romance": 0,
         "like": 8,
         "respect": 17,
-        "comfort": 21,
-        "trust": 0,
+        "comfort": 49,
+        "trust": 37,
         "log": [
             "Waterkit shares nest material with Wheatkit. (medium positive effect) - Waterkit was 2 moons old",
-            "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Waterkit was 3 moons old"
+            "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Waterkit was 3 moons old",
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old",
+            "Wheatkit takes Waterkit's side while Waterkit is in a debate. (medium positive effect) - Waterkit was 5 moons old",
+            "Wheatpaw lets Waterpaw grab a piece of fresh-kill first. (low positive effect) - Waterpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1975,13 +2005,19 @@
         "family": true,
         "romance": 5,
         "like": 45,
-        "respect": 15,
-        "comfort": 45,
-        "trust": 18,
+        "respect": -6,
+        "comfort": 39,
+        "trust": 12,
         "log": [
-            "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old"
+            "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old",
+            "Waterkit doesn't get why Branchkit gets more praise for doing the same thing everyone else does. (high negative effect) - Waterkit was 5 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1991,10 +2027,17 @@
         "romance": 4,
         "like": 44,
         "respect": 14,
-        "comfort": 44,
-        "trust": 31,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 56,
+        "trust": 43,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2021,9 +2064,11 @@
         "like": 42,
         "respect": 12,
         "comfort": 42,
-        "trust": 32,
+        "trust": 45,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2045,11 +2090,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterpaw saw Weedkit being considerate. (low positive effect) - Waterpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2072,10 +2122,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 12,
+        "trust": 12,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2119,6 +2174,88 @@
     {
         "cat_from_id": "239",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 17,
+        "log": [
+            "Waterpaw observes Merlot carefully attending to any cat that needs help. (medium positive effect) - Waterpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

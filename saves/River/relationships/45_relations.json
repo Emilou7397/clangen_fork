@@ -206,16 +206,20 @@
         "family": false,
         "romance": 0,
         "like": 23,
-        "respect": 0,
+        "respect": -5,
         "comfort": 16,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "At first, Freezekit, Quailfur, Burrweb, and Peatcrest are unsure about Ochretail's bonding exercise, but it goes wonderfully. (positive effect)- Freezekit was 2 moons old",
             "At first, Freezekit, Heatherfern, Ochretail, and Peatcrest are unsure about Goldshard's bonding exercise, but it goes wonderfully. (positive effect)- Freezekit was 3 moons old",
             "Freezefoot spends some time sheltering with Ochretail during a storm. (medium positive effect)- Freezefoot was 15 moons old",
-            "Ochretail eats as ravenously as a wolverine and by the time he's done, Cherrytail, Freezefoot, and Coquitostep barely have the stomach to finish their own meals. (negative effect) - Freezefoot was 72 moons old"
+            "Ochretail eats as ravenously as a wolverine and by the time he's done, Cherrytail, Freezefoot, and Coquitostep barely have the stomach to finish their own meals. (negative effect) - Freezefoot was 72 moons old",
+            "Freezefoot heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Freezefoot was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -896,7 +900,7 @@
         "like": -19,
         "respect": 0,
         "comfort": 19,
-        "trust": -12,
+        "trust": 0,
         "log": [
             "Freezefoot asks Mossflight about a lie Mossflight told, but she dodges the question. (medium negative effect)- Freezefoot was 20 moons old",
             "Mossflight confuses Freezefoot in a conversation. (low negative effect)- Freezefoot was 22 moons old",
@@ -905,7 +909,8 @@
             "Freezefoot and Mossflight take turns in a small patch of sunlight. (medium positive effect)- Freezefoot was 37 moons old",
             "Freezefoot and Mossflight took a lovely nap together instead of patrolling. (positive effect) - Freezefoot was 44 moons old",
             "Mossflight spends the Gathering whispering to Antlerpaw, Paellapad, Freezefoot, and Hailfreckle, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Freezefoot was 49 moons old",
-            "Freezefoot can't help but admire Mossflight's pelt. (low positive effect) - Freezefoot was 69 moons old"
+            "Freezefoot can't help but admire Mossflight's pelt. (low positive effect) - Freezefoot was 69 moons old",
+            "Freezefoot nearly tripped, but was caught by Mossflight. (medium positive effect) - Freezefoot was 96 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1093,9 +1098,9 @@
         "mates": false,
         "family": false,
         "romance": 19,
-        "like": 64,
+        "like": 72,
         "respect": 27,
-        "comfort": 35,
+        "comfort": 43,
         "trust": 11,
         "log": [
             "Freezefoot doesn't get why Fleakit gets more praise for doing the same thing everyone else does. (high negative effect)- Freezefoot was 17 moons old",
@@ -1105,9 +1110,15 @@
             "Freezefoot enjoyed the chat Fleadusk started up with a BugClan patrol. (positive effect) - Freezefoot was 64 moons old",
             "Freezefoot heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Freezefoot was 67 moons old",
             "Freezefoot considers Fleadusk to be one of her close friends. (high positive effect) - Freezefoot was 84 moons old",
-            "Freezefoot disapproved of Fleadusk wearing a collar. (negative effect) - Freezefoot was 95 moons old"
+            "Freezefoot disapproved of Fleadusk wearing a collar. (negative effect) - Freezefoot was 95 moons old",
+            "Freezefoot, Mallowpelt, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Freezefoot was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -1253,7 +1264,7 @@
         "like": 23,
         "respect": 27,
         "comfort": 5,
-        "trust": 35,
+        "trust": 48,
         "log": [
             "Reedheart was very considerate while on patrol with Freezefoot. (positive effect)- Freezefoot was 26 moons old",
             "Freezefoot and Reedheart had a productive training patrol together. (positive effect)- Freezefoot was 30 moons old",
@@ -1263,9 +1274,12 @@
             "Freezefoot and Reedheart worked on their skills together on a training patrol. (positive effect)- Freezefoot was 35 moons old",
             "Stretching might be good for one's health, but Diablofoot, Freezefoot, Fluttershade, and Primfreckle wish Reedheart didn't insist on stretching at the crack of dawn. (negative effect)- Freezefoot was 37 moons old",
             "Freezefoot heard that Reedheart chased a rogue off the territory. (positive effect) - Freezefoot was 74 moons old",
-            "Freezefoot gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Freezefoot was 81 moons old"
+            "Freezefoot gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Freezefoot was 81 moons old",
+            "Reedheart makes a small sacrifice that benefits Freezefoot. (low positive effect) - Freezefoot was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -1309,13 +1323,16 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
-        "trust": -10,
+        "trust": -15,
         "log": [
             "Freezefoot noticed how successful Talonlake's hunting patrol was. (positive effect) - Freezefoot was 54 moons old",
             "Freezefoot heard Talonlake fell asleep guarding camp. (negative effect) - Freezefoot was 65 moons old",
-            "Freezefoot was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Freezefoot was 67 moons old"
+            "Freezefoot was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Freezefoot was 67 moons old",
+            "Freezefoot was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Freezefoot was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -1485,17 +1502,22 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 25,
+        "like": 33,
         "respect": -10,
-        "comfort": 38,
+        "comfort": 46,
         "trust": -5,
         "log": [
             "Shinefur, Hushshimmer, Mallowpelt, Freezefoot, and Carnationpaw hang out while stretching. (positive effect) - Freezefoot was 61 moons old",
             "Freezefoot heard Mallowpelt fell asleep guarding camp. (negative effect) - Freezefoot was 64 moons old",
             "Freezefoot and Mallowpelt chat about Clan news. (low positive effect) - Freezefoot was 79 moons old",
-            "Freezefoot disapproved of Mallowpelt wearing a collar. (negative effect) - Freezefoot was 79 moons old"
+            "Freezefoot disapproved of Mallowpelt wearing a collar. (negative effect) - Freezefoot was 79 moons old",
+            "Freezefoot, Mallowpelt, and Fleadusk took a sunbath and had a little small talk. (positive effect) - Freezefoot was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -1877,13 +1899,16 @@
         "like": -17,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -12,
         "log": [
             "Freezefoot was woken up early by Lightpelt. (low negative effect) - Freezefoot was 44 moons old",
             "Freezefoot sees Lightpelt being gentle with an injured bug. (low positive effect) - Freezefoot was 49 moons old",
-            "Freezefoot thinks that Lightpelt is acting overly dramatic lately. (medium negative effect) - Freezefoot was 80 moons old"
+            "Freezefoot thinks that Lightpelt is acting overly dramatic lately. (medium negative effect) - Freezefoot was 80 moons old",
+            "Freezefoot knows that Lightpelt is hiding something. (medium negative effect) - Freezefoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -2458,15 +2483,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": -10,
+        "like": -2,
+        "respect": -20,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Freezefoot disapproved of Lilynoise wearing a collar. (negative effect) - Freezefoot was 73 moons old",
-            "Freezefoot and Lilynoise enjoyed a relaxing patrol gathering thyme together. (positive effect) - Freezefoot was 90 moons old"
+            "Freezefoot and Lilynoise enjoyed a relaxing patrol gathering thyme together. (positive effect) - Freezefoot was 90 moons old",
+            "Lilynoise lost her temper with Freezefoot when Freezefoot trampled a crucial catmint plant in her excitement about the herb. (negative effect) - Freezefoot was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -2949,14 +2978,15 @@
         "cat_to_id": "203",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": -5,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Freezefoot heard that Jademuzzle caught a rabbit from across the border. (negative effect) - Freezefoot was 81 moons old",
-            "Freezefoot heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Freezefoot was 84 moons old"
+            "Freezefoot heard about how Jademuzzle's patrol drove off a scavenging fox. (positive effect) - Freezefoot was 84 moons old",
+            "Freezefoot can't help but admire Jademuzzle's pelt. (low positive effect) - Freezefoot was 98 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3014,9 +3044,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Freezefoot heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Freezefoot was 97 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -3166,9 +3200,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Freezefoot was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Freezefoot was 97 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -3299,10 +3337,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Branchkit won't tell Freezefoot what she finds so funny. (medium negative effect) - Freezefoot was 96 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "45",
@@ -3452,6 +3494,88 @@
     {
         "cat_from_id": "45",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 13,
+        "trust": 0,
+        "log": [
+            "Freezefoot had a good dream about Merlot. (low positive effect) - Freezefoot was 97 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

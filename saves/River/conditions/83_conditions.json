@@ -1,4 +1,18 @@
 {
+    "injuries": {
+        "phantom pain": {
+            "severity": "major",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 148,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": true,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "lost their tail": {
             "severity": "minor",
@@ -10,11 +24,11 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 480
+                    "chance": 502
                 },
                 {
                     "name": "phantom pain",
-                    "chance": 422
+                    "chance": 464
                 }
             ],
             "complication": null,

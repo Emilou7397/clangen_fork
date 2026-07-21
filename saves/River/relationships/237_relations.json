@@ -99,10 +99,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Whitekit heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Whitekit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -191,10 +193,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 12,
+        "trust": 12,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -581,8 +588,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Whitekit was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Whitekit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -630,12 +639,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 13,
+        "respect": 6,
+        "comfort": 7,
+        "trust": 7,
+        "log": [
+            "Whitepaw has drawn the ire of Pheasantbrush by deliberately taking the last of her favorite nesting materials for herself. (low negative effect) - Whitepaw was 6 moons old",
+            "Whitepaw didn't realize how generous Pheasantbrush could be. (high positive effect) - Whitepaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1102,12 +1119,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Glowfur takes the sunny spot that Whitekit was about to lay in. (low negative effect) - Whitekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1712,9 +1733,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Whitekit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Whitekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1842,9 +1867,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Whitekit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Whitekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1947,10 +1976,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 12,
+        "trust": 12,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1959,14 +1993,17 @@
         "family": true,
         "romance": 3,
         "like": 45,
-        "respect": 16,
-        "comfort": 47,
+        "respect": 19,
+        "comfort": 50,
         "trust": 47,
         "log": [
             "Branchkit sends a Clanmate to help Whitekit with something she's struggling with. (low positive effect) - Whitekit was 1 moon old",
             "Whitekit feels safe with Branchkit around. (high positive effect) - Whitekit was 2 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1991,12 +2028,18 @@
         "romance": 2,
         "like": 42,
         "respect": 12,
-        "comfort": 42,
-        "trust": 29,
+        "comfort": 54,
+        "trust": 41,
         "log": [
-            "Whitekit shared a embarrassing story about Waterkit she was asked not to share... (low negative effect) - Whitekit was 3 moons old"
+            "Whitekit shared a embarrassing story about Waterkit she was asked not to share... (low negative effect) - Whitekit was 3 moons old",
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2004,12 +2047,17 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 41,
+        "like": 58,
         "respect": 11,
-        "comfort": 41,
+        "comfort": 54,
         "trust": 31,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Whitekit races Bigkit back and forth across the camp clearing. (medium positive effect) - Whitekit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2019,10 +2067,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2030,11 +2080,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Weedkit didn't put a lot of thought into an answer for Whitepaw's question. (low negative effect) - Whitepaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2058,10 +2110,16 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 6,
+        "trust": 12,
+        "log": [
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old",
+            "Whitepaw and Lavenderkit reach for the same piece of prey and bicker over it. Whitepaw gets it. (low negative effect) - Whitepaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2105,6 +2163,86 @@
     {
         "cat_from_id": "237",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": -8,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

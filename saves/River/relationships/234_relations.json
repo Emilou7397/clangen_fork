@@ -698,11 +698,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -833,10 +835,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1338,9 +1342,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -13,
+        "log": [
+            "Braveheart got a weird look on his face when Nutkit approached him. (low negative effect) - Nutkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1960,14 +1968,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 26,
+        "respect": 4,
+        "comfort": 6,
+        "trust": 6,
         "log": [
-            "Nutkit is excited for her family to grow further. (positive effect) - Nutkit was 0 moons old"
+            "Nutkit is excited for her family to grow further. (positive effect) - Nutkit was 0 moons old",
+            "Nutpaw eats with Branchkit all the time! (high positive effect) - Nutpaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2009,12 +2022,15 @@
         "romance": 0,
         "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Nutkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Nutkit was 0 moons old"
+            "Nutkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Nutkit was 0 moons old",
+            "Nutpaw noticed that Waterpaw had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Nutpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2049,13 +2065,20 @@
         "cat_to_id": "243",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 26,
+        "like": 13,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": 6,
+        "trust": 17,
+        "log": [
+            "Nutpaw realizes that a strange smell in camp is coming from Weedkit. (medium negative effect) - Nutpaw was 6 moons old",
+            "Nutpaw overhears Weedkit dispelling a false rumor about a Clanmate. (medium positive effect) - Nutpaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2064,11 +2087,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Nutkit sees the blood of fresh-kill on Avocetkit's paws and feels a prickle of discomfort. (low negative effect) - Nutkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2125,6 +2152,84 @@
     {
         "cat_from_id": "234",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

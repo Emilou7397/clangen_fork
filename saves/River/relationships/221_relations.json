@@ -1010,12 +1010,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 10,
+        "like": 2,
+        "respect": 2,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Skypaw learned about hunting in tide pools from Wasppelt. (positive effect) - Skypaw was 11 moons old"
+            "Skypaw learned about hunting in tide pools from Wasppelt. (positive effect) - Skypaw was 11 moons old",
+            "Wasppelt complained about their patrol assignment all day, much to the annoyance of Stagpaw, Skypaw, Caterpillarpaw, and Shorepaw. (negative effect) - Skypaw was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1337,10 +1338,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Skytooth realizes that a strange smell in camp is coming from Clawswirl. (medium negative effect) - Skytooth was 14 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1593,9 +1598,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1688,7 +1695,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1703,10 +1710,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Skytooth finds the way Brindlesplash acts increasingly uncomfortable. (medium negative effect) - Skytooth was 15 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1791,15 +1802,18 @@
         "cat_to_id": "199",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Skypaw heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skypaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1893,12 +1907,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -8,
+        "comfort": -21,
         "trust": 0,
         "log": [
             "Skypaw is taken aback by one of Sagospeck's comments. (low negative effect) - Skypaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1906,14 +1922,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -17,
+        "like": 3,
+        "respect": 11,
+        "comfort": 2,
+        "trust": -14,
         "log": [
-            "Scalepaw gave Skykit a gift that doesn't make sense. (medium negative effect) - Skykit was 4 moons old"
+            "Scalepaw gave Skykit a gift that doesn't make sense. (medium negative effect) - Skykit was 4 moons old",
+            "Skytooth saw Scalebloom show off a skill they never knew she had. (high positive effect) - Skytooth was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1921,12 +1941,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1935,14 +1957,19 @@
         "family": false,
         "romance": 0,
         "like": 4,
-        "respect": 26,
-        "comfort": 4,
+        "respect": 34,
+        "comfort": 12,
         "trust": -2,
         "log": [
             "Skypaw wanted to impress Softpaw during training. (positive effect) - Skypaw was 8 moons old",
-            "Skypaw is proud to be in the same Clan as Softpaw. (high positive effect) - Skypaw was 10 moons old"
+            "Skypaw is proud to be in the same Clan as Softpaw. (high positive effect) - Skypaw was 10 moons old",
+            "Skytooth saw Softspring being considerate. (low positive effect) - Skytooth was 13 moons old",
+            "Softspring was seen tossing out a gift Skytooth gave her. (medium negative effect) - Skytooth was 15 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -2137,14 +2164,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": -16,
         "respect": 0,
         "comfort": 0,
         "trust": -8,
         "log": [
             "Shorepaw shares a suspiciously exaggerated tale with Mossflight, Butterflyglide, Meadowspots, and Skypaw, who seem far from convinced of its veracity. (negative effect) - Skypaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -2331,6 +2360,86 @@
     {
         "cat_from_id": "221",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": -8,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

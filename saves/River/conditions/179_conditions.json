@@ -1,19 +1,34 @@
 {
     "injuries": {
-        "cracked pads": {
-            "severity": "minor",
-            "mortality": 0,
-            "duration": 1,
-            "moon_start": 145,
-            "illness_infectiousness": [],
+        "water in their lungs": {
+            "severity": "major",
+            "mortality": 67,
+            "duration": 3,
+            "moon_start": 146,
+            "illness_infectiousness": [
+                {
+                    "name": "running nose",
+                    "lower_by": 5
+                },
+                {
+                    "name": "whitecough",
+                    "lower_by": 3
+                }
+            ],
             "risks": [
                 {
-                    "name": "an infected wound",
-                    "chance": 32
+                    "name": "running nose",
+                    "chance": 19
+                },
+                {
+                    "name": "whitecough",
+                    "chance": 29
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "raspy lungs"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }

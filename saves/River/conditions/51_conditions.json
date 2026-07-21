@@ -1,13 +1,28 @@
 {
-    "illnesses": {
-        "tick fever": {
-            "severity": "major",
-            "mortality": 70,
-            "infectiousness": 0,
-            "duration": 0,
-            "moon_start": 145,
-            "risks": [],
-            "event_triggered": false
+    "injuries": {
+        "mangled tail": {
+            "severity": "severe",
+            "mortality": 66,
+            "duration": 3,
+            "moon_start": 148,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 15
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [
+                "lost their tail"
+            ],
+            "event_triggered": false,
+            "potential_scars": [
+                "HALFTAIL",
+                "MANTAIL",
+                "NOTAIL",
+                "TAILSCAR"
+            ]
         }
     },
     "permanent conditions": {
@@ -21,7 +36,7 @@
             "risks": [
                 {
                     "name": "sore throat",
-                    "chance": 207
+                    "chance": 224
                 }
             ],
             "complication": null,

@@ -71,13 +71,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 8,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Lionheart sees a pretty flower in Ochretail's nest. (low positive effect) - Lionheart was 19 moons old"
+            "Lionheart sees a pretty flower in Ochretail's nest. (low positive effect) - Lionheart was 19 moons old",
+            "Lionheart heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Lionheart was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -87,12 +90,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 5,
         "log": [
-            "Lionheart and Bitterleaf worked together to use an eagle as a scout for their own hunt. (positive effect) - Lionheart was 16 moons old"
+            "Lionheart and Bitterleaf worked together to use an eagle as a scout for their own hunt. (positive effect) - Lionheart was 16 moons old",
+            "Late at night, Lionheart finds Bitterleaf sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Lionheart was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -473,11 +479,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Lionheart heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 26 moons old"
+            "Lionheart heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 26 moons old",
+            "Lionheart was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Lionheart was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -603,8 +610,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Lionheart was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Lionheart was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -616,12 +625,14 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 5,
+        "trust": 13,
         "log": [
             "Frondpad was part of the patrol that invited Libra to RiverClan. (positive effect) - Libra was 14 moons old",
             "Lionheart heard Frondpad fell asleep guarding camp. (negative effect) - Lionheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -749,14 +760,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
+        "like": 9,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Saltknoll points out that Lionheart's fresh-kill has gone bad before he eats it. (medium positive effect) - Lionheart was 18 moons old"
+            "Saltknoll points out that Lionheart's fresh-kill has gone bad before he eats it. (medium positive effect) - Lionheart was 18 moons old",
+            "While Saltknoll gorges on his piece of fresh kill, Amberfur, Peakspore, and Lionheart find that eating is suddenly less appealing. (negative effect) - Lionheart was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -822,12 +837,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 5,
         "log": [
             "Lionheart and Dancingfleck drove off rogues together. (positive effect) - Lionheart was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -909,11 +926,14 @@
         "like": 0,
         "respect": -7,
         "comfort": 0,
-        "trust": 0,
+        "trust": -7,
         "log": [
-            "Lionheart and Antlerthorn had to fix something around camp and argued about how to fix it. It ended up being fixed by some other cat. (medium negative effect) - Lionheart was 24 moons old"
+            "Lionheart and Antlerthorn had to fix something around camp and argued about how to fix it. It ended up being fixed by some other cat. (medium negative effect) - Lionheart was 24 moons old",
+            "Lionheart realizes that Antlerthorn's been avoiding her. (medium negative effect) - Lionheart was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1014,14 +1034,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": 5,
         "comfort": 5,
         "trust": 0,
         "log": [
-            "Lionheart appreciated Shadowfreckle's ability to entertain when they met with a CougarClan patrol. (positive effect) - Lionheart was 21 moons old"
+            "Lionheart appreciated Shadowfreckle's ability to entertain when they met with a CougarClan patrol. (positive effect) - Lionheart was 21 moons old",
+            "Lionheart is tired of interacting with Shadowfreckle lately. (medium negative effect) - Lionheart was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1210,11 +1233,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Lionheart and Glowfur enjoyed practicing new battle moves together. (positive effect) - Lionheart was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1652,14 +1677,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 10,
         "log": [
-            "Garlicberry and Lionheart drove off a scavenging fox together. (positive effect) - Lionheart was 27 moons old"
+            "Garlicberry and Lionheart drove off a scavenging fox together. (positive effect) - Lionheart was 27 moons old",
+            "Lionheart and Garlicberry enjoyed practicing new battle moves together. (positive effect) - Lionheart was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1667,16 +1695,19 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
-        "respect": 12,
-        "comfort": 8,
-        "trust": -12,
+        "like": -5,
+        "respect": -4,
+        "comfort": 3,
+        "trust": -18,
         "log": [
             "Lionheart is prancing around in front of Dustnose. (low positive effect) - Lionheart was 19 moons old",
             "Lionheart can't remember a word for the life of her, but Dustnose helps her remember it. (medium positive effect) - Lionheart was 20 moons old",
-            "Lionheart can't seem to get a straight answer from Dustnose lately. (medium negative effect) - Lionheart was 27 moons old"
+            "Lionheart can't seem to get a straight answer from Dustnose lately. (medium negative effect) - Lionheart was 27 moons old",
+            "Lionheart overheard Dustnose spreading a hurtful rumor. (high negative effect) - Lionheart was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1757,11 +1788,13 @@
         "romance": 0,
         "like": -8,
         "respect": 0,
-        "comfort": 12,
-        "trust": -8,
+        "comfort": 4,
+        "trust": 4,
         "log": [
             "Lionheart was irritated when Brindlesplash let her bickering with a Clanmate sidetrack their patrol. (negative effect) - Lionheart was 25 moons old",
-            "Brindlesplash's advice is more helpful than Lionheart expected. (medium positive effect) - Lionheart was 30 moons old"
+            "Brindlesplash's advice is more helpful than Lionheart expected. (medium positive effect) - Lionheart was 30 moons old",
+            "After the Clan finds a strange object, Lionheart notes that Brindlesplash has been a little too fascinated with it. (low negative effect) - Lionheart was 31 moons old",
+            "Something embarrassing happens to Lionheart on a patrol, but Brindlesplash promises not to tell anyone. (medium positive effect) - Lionheart was 33 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1891,9 +1924,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Lionheart heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Lionheart was 32 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1916,11 +1953,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Lionheart and Stagpaw enjoyed practicing new battle moves together. (positive effect) - Lionheart was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2041,9 +2080,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Lionheart was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Lionheart was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -2106,11 +2149,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Lionheart and Caterpillarpaw enjoyed practicing new battle moves together. (positive effect) - Lionheart was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2132,11 +2177,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Lionheart and Shorepaw enjoyed practicing new battle moves together. (positive effect) - Lionheart was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2324,6 +2371,84 @@
     {
         "cat_from_id": "208",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

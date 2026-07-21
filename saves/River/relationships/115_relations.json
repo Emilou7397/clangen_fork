@@ -101,10 +101,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Dahliacrest heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Dahliacrest was 98 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -543,7 +545,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 61,
+        "like": 74,
         "respect": 0,
         "comfort": 10,
         "trust": 5,
@@ -553,9 +555,12 @@
             "Dahliacrest was impressed by Mossflight's confidence in fighting rogues. (positive effect) - Dahliacrest was 68 moons old",
             "Dahliacrest hopes she is assigned to patrol with Mossflight tomorrow. (medium positive effect) - Dahliacrest was 69 moons old",
             "Gorgehunt, Currenthiss, Mossflight, Drizzlepelt, and Dahliacrest blow off steam by stretching with and venting to each other. (positive effect) - Dahliacrest was 70 moons old",
-            "Dahliacrest and Mossflight successfully gathered burdock together. (positive effect) - Dahliacrest was 93 moons old"
+            "Dahliacrest and Mossflight successfully gathered burdock together. (positive effect) - Dahliacrest was 93 moons old",
+            "Dahliacrest hears a nice story about Mossflight. (low positive effect) - Dahliacrest was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -564,7 +569,7 @@
         "family": false,
         "romance": 100,
         "like": 100,
-        "respect": 51,
+        "respect": 58,
         "comfort": 94,
         "trust": 74,
         "log": [
@@ -586,9 +591,15 @@
             "Hushshimmer sees Freezefoot flirt with Dahliacrest right in front of them. (negative effect) - Dahliacrest was 94 moons old",
             "Dahliacrest and Hushshimmer successfully gathered juniper together. (positive effect) - Dahliacrest was 94 moons old",
             "Dahliacrest and Hushshimmer were so cozy in their nest they almost missed the dawn patrol. (positive effect) - Dahliacrest was 96 moons old",
-            "Dahliacrest presented Hushshimmer with a flower, and Hushshimmer has worn it on their pelt ever since. (positive effect) - Dahliacrest was 97 moons old"
+            "Dahliacrest presented Hushshimmer with a flower, and Hushshimmer has worn it on their pelt ever since. (positive effect) - Dahliacrest was 97 moons old",
+            "Dahliacrest and Hushshimmer successfully gathered herbs together despite the rainy weather. (positive effect) - Dahliacrest was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -716,17 +727,22 @@
         "family": false,
         "romance": 0,
         "like": -1,
-        "respect": 12,
+        "respect": 7,
         "comfort": -11,
-        "trust": 12,
+        "trust": 7,
         "log": [
             "Skulkwillow pulled an embarrassing prank on Dahliacrest's friend. (low negative effect) - Dahliacrest was 57 moons old",
             "Dahliacrest tells Skulkwillow that he looks terrible today. (high negative effect) - Dahliacrest was 59 moons old",
             "Dahliacrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dahliacrest was 69 moons old",
             "Skulkwillow won't back down when defending Dahliacrest on something. (high positive effect) - Dahliacrest was 79 moons old",
-            "Dahliacrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dahliacrest was 93 moons old"
+            "Dahliacrest heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dahliacrest was 93 moons old",
+            "Dahliacrest was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Dahliacrest was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -773,14 +789,17 @@
         "family": false,
         "romance": 5,
         "like": 0,
-        "respect": 10,
+        "respect": 23,
         "comfort": 31,
         "trust": 13,
         "log": [
             "Dahliacrest asked about the herbs she was gathering with Heavythud, and she appreciated Heavythud's earnest answers. (positive effect) - Dahliacrest was 91 moons old",
-            "Dahliacrest heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dahliacrest was 93 moons old"
+            "Dahliacrest heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dahliacrest was 93 moons old",
+            "Dahliacrest noticed Heavythud is doing his best today. (low positive effect) - Dahliacrest was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -874,16 +893,19 @@
         "like": 2,
         "respect": 0,
         "comfort": 4,
-        "trust": -7,
+        "trust": -12,
         "log": [
             "Dahliacrest noticed how successful Talonlake's hunting patrol was. (positive effect) - Dahliacrest was 56 moons old",
             "Dahliacrest called Talonlake lazy, and Talonlake has retaliated by nitpicking everything that Dahliacrest does. (high negative effect) - Dahliacrest was 66 moons old",
             "Dahliacrest compliments Talonlake on how well groomed his pelt is today. (high positive effect) - Dahliacrest was 67 moons old",
             "Dahliacrest heard Talonlake fell asleep guarding camp. (negative effect) - Dahliacrest was 67 moons old",
             "Dahliacrest was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Dahliacrest was 69 moons old",
-            "Dahliacrest is prancing around in front of Talonlake. (low positive effect) - Dahliacrest was 79 moons old"
+            "Dahliacrest is prancing around in front of Talonlake. (low positive effect) - Dahliacrest was 79 moons old",
+            "Dahliacrest was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Dahliacrest was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -973,14 +995,15 @@
         "cat_to_id": "80",
         "mates": false,
         "family": false,
-        "romance": 7,
+        "romance": 0,
         "like": 0,
         "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Dahliacrest noticed how successful Poolleaf's hunting patrol was. (positive effect) - Dahliacrest was 58 moons old",
-            "Dahliacrest overhears Poolleaf tell another cat she kind of likes Dahliacrest. (medium positive effect) - Dahliacrest was 86 moons old"
+            "Dahliacrest overhears Poolleaf tell another cat she kind of likes Dahliacrest. (medium positive effect) - Dahliacrest was 86 moons old",
+            "Dahliacrest noticed Poolleaf flirting with someone else. (medium negative effect) - Dahliacrest was 100 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1005,12 +1028,13 @@
         "romance": 0,
         "like": 7,
         "respect": 21,
-        "comfort": 12,
+        "comfort": 0,
         "trust": 0,
         "log": [
             "Dahliacrest heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Dahliacrest was 68 moons old",
             "Late into the evening, Shinebelly invites Butterflyglide, Snookbumble, Pheasantbrush, and Dahliacrest to stretch with him and enjoy each other's company. (positive effect) - Dahliacrest was 74 moons old",
-            "Dahliacrest and Pheasantbrush work together to lead a scary bug out of the camp. (low positive effect) - Dahliacrest was 86 moons old"
+            "Dahliacrest and Pheasantbrush work together to lead a scary bug out of the camp. (low positive effect) - Dahliacrest was 86 moons old",
+            "Dahliacrest keeps looking behind Pheasantbrush during their conversation. (medium negative effect) - Dahliacrest was 99 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1020,8 +1044,8 @@
         "mates": false,
         "family": false,
         "romance": 7,
-        "like": 16,
-        "respect": 15,
+        "like": 22,
+        "respect": 21,
         "comfort": -33,
         "trust": 15,
         "log": [
@@ -1031,7 +1055,10 @@
             "Dahliacrest is telling jokes about Gracklefur. (high negative effect) - Dahliacrest was 96 moons old",
             "Dahliacrest tells her Clanmates that something's off about Gracklefur. (medium negative effect) - Dahliacrest was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -1148,7 +1175,7 @@
         "family": false,
         "romance": 0,
         "like": 1,
-        "respect": 12,
+        "respect": 4,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -1194,12 +1221,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dancingfleck returned to the warrior's den dripping mud everywhere and managed to ruin Dahliacrest and Meadowspots's nests. (negative effect) - Dahliacrest was 100 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -1299,7 +1331,7 @@
         "like": 20,
         "respect": -5,
         "comfort": 8,
-        "trust": -7,
+        "trust": 10,
         "log": [
             "Dahliacrest's hackles raise when Oddmuzzle passes by. (medium negative effect) - Dahliacrest was 56 moons old",
             "Dahliacrest accompanied Oddmuzzle to harvest burdock root, but Oddmuzzle wasn't able to find any, and Dahliacrest felt like the day was a waste. (negative effect) - Dahliacrest was 72 moons old",
@@ -1307,9 +1339,12 @@
             "Dahliacrest was unimpressed that Oddmuzzle couldn't find any of the mullein the patrol was supposed to be gathering. (negative effect) - Dahliacrest was 78 moons old",
             "Dahliacrest and Oddmuzzle enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Dahliacrest was 80 moons old",
             "Dahliacrest asked about the herbs she was gathering with Oddmuzzle, and she appreciated Oddmuzzle's earnest answers. (positive effect) - Dahliacrest was 92 moons old",
-            "Dahliacrest and Oddmuzzle successfully gathered juniper together. (positive effect) - Dahliacrest was 94 moons old"
+            "Dahliacrest and Oddmuzzle successfully gathered juniper together. (positive effect) - Dahliacrest was 94 moons old",
+            "Dahliacrest thinks about how Oddmuzzle is always reliable. (medium positive effect) - Dahliacrest was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -1422,15 +1457,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 3,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -5,
         "log": [
             "Dahliacrest can tell how brave Blotchkit is being about something important. (low positive effect) - Dahliacrest was 54 moons old",
-            "Dahliacrest heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Dahliacrest was 55 moons old"
+            "Dahliacrest heard that Blotchpaw played with a kittypet on RiverClan's border. (negative effect) - Dahliacrest was 55 moons old",
+            "Gorgehunt, Blotchstripe, and Dahliacrest had a nice talk while eating. (positive effect) - Dahliacrest was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -1563,15 +1602,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 20,
+        "like": 28,
         "respect": 8,
-        "comfort": 12,
+        "comfort": 20,
         "trust": 0,
         "log": [
             "While practicing hunting in tide pools, Dahliacrest discovered Gorgepaw is a quick study. (positive effect) - Dahliacrest was 60 moons old",
-            "Gorgehunt, Currenthiss, Mossflight, Drizzlepelt, and Dahliacrest blow off steam by stretching with and venting to each other. (positive effect) - Dahliacrest was 70 moons old"
+            "Gorgehunt, Currenthiss, Mossflight, Drizzlepelt, and Dahliacrest blow off steam by stretching with and venting to each other. (positive effect) - Dahliacrest was 70 moons old",
+            "Gorgehunt, Blotchstripe, and Dahliacrest had a nice talk while eating. (positive effect) - Dahliacrest was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -1932,11 +1976,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Dahliacrest disapproved of Lilynoise wearing a collar. (negative effect) - Dahliacrest was 75 moons old"
+            "Dahliacrest disapproved of Lilynoise wearing a collar. (negative effect) - Dahliacrest was 75 moons old",
+            "Dahliacrest and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Dahliacrest was 99 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2022,15 +2067,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 18,
+        "respect": 25,
         "comfort": 0,
         "trust": -20,
         "log": [
             "Dahliacrest heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Dahliacrest was 64 moons old",
             "Dahliacrest was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Dahliacrest was 77 moons old",
-            "Dahliacrest heard Pigmentpelt fell asleep guarding camp. (negative effect) - Dahliacrest was 83 moons old"
+            "Dahliacrest heard Pigmentpelt fell asleep guarding camp. (negative effect) - Dahliacrest was 83 moons old",
+            "Dahliacrest and Pigmentpelt successfully gathered herbs together despite the rainy weather. (positive effect) - Dahliacrest was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -2138,15 +2187,19 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 0,
+        "respect": 7,
         "comfort": 5,
         "trust": -5,
         "log": [
             "Dahliacrest heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Dahliacrest was 74 moons old",
             "Dahliacrest was impressed by Coquitostep's ability to set an ambush. (positive effect) - Dahliacrest was 82 moons old",
-            "Dahliacrest spends some time sheltering with Coquitostep during a storm. (medium positive effect) - Dahliacrest was 91 moons old"
+            "Dahliacrest spends some time sheltering with Coquitostep during a storm. (medium positive effect) - Dahliacrest was 91 moons old",
+            "Dahliacrest and Coquitostep successfully gathered herbs together despite the rainy weather. (positive effect) - Dahliacrest was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -2224,11 +2277,7 @@
             "Dahliacrest was happy to help Heathstripe gather poppy seeds. (positive effect) - Dahliacrest was 96 moons old",
             "Though Dahliacrest wasn't thrilled to be gathering foul-smelling ragwort with Heathstripe, Heathstripe was highly appreciative. (positive effect) - Dahliacrest was 97 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "115",
@@ -2493,11 +2542,17 @@
         "like": -21,
         "respect": -8,
         "comfort": -6,
-        "trust": -6,
+        "trust": -16,
         "log": [
-            "Dahliacrest and Sagokit are always back-talking to each other. (high negative effect) - Dahliacrest was 84 moons old"
+            "Dahliacrest and Sagokit are always back-talking to each other. (high negative effect) - Dahliacrest was 84 moons old",
+            "Dahliacrest heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Dahliacrest was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -2645,9 +2700,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Dahliacrest was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Dahliacrest was 99 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -2729,7 +2788,9 @@
         "respect": 0,
         "comfort": 13,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Tallneedle gives Dahliacrest a wonderfully colored pebble she found, and hides behind her whiskers when thanked. (high positive effect) - Dahliacrest was 98 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2854,12 +2915,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -4,
+        "comfort": -16,
+        "trust": -5,
+        "log": [
+            "Watching Fishleg stalk silently around camp makes Dahliacrest feel uneasy. (high negative effect) - Dahliacrest was 99 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "115",
@@ -2951,5 +3016,87 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "115",
+        "cat_to_id": "255",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 7,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Dahliacrest and Aster successfully gathered herbs together despite the rainy weather. (positive effect) - Dahliacrest was 99 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     }
 ]

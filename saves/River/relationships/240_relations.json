@@ -99,10 +99,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Bigkit heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Bigkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -469,11 +471,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Bigkit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bigkit was 0 moons old"
+            "Bigkit heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bigkit was 0 moons old",
+            "Bigpaw was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Bigpaw was 6 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -538,11 +541,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Reedheart snickered when Bigpaw tripped. (low negative effect) - Bigpaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -579,8 +586,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Bigkit was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Bigkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -746,11 +755,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1007,12 +1018,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1325,12 +1341,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -16,
+        "comfort": -5,
+        "trust": -6,
+        "log": [
+            "Bigkit gets hit with waves of envy whenever Braveheart is laughing with friends. (high negative effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1708,9 +1729,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Bigkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1840,9 +1865,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Bigkit was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1957,15 +1986,21 @@
         "mates": false,
         "family": true,
         "romance": 2,
-        "like": 45,
+        "like": 57,
         "respect": 12,
-        "comfort": 49,
+        "comfort": 61,
         "trust": 39,
         "log": [
             "Bigkit takes a nap with Branchkit after a long day playing moss-ball. (medium positive effect) - Bigkit was 1 moon old",
-            "Bigkit comes up with a plan to sneak out of camp with Branchkit. (medium positive effect) - Bigkit was 4 moons old"
+            "Bigkit comes up with a plan to sneak out of camp with Branchkit. (medium positive effect) - Bigkit was 4 moons old",
+            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Bigkit was 5 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1973,12 +2008,15 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 45,
+        "like": 58,
         "respect": 15,
-        "comfort": 45,
+        "comfort": 58,
         "trust": 35,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1986,14 +2024,24 @@
         "mates": false,
         "family": true,
         "romance": 8,
-        "like": 54,
-        "respect": 22,
-        "comfort": 54,
-        "trust": 54,
+        "like": 79,
+        "respect": 49,
+        "comfort": 79,
+        "trust": 71,
         "log": [
-            "Bigkit thinks he can tell Edelweisskit something important. (high positive effect) - Bigkit was 2 moons old"
+            "Bigkit thinks he can tell Edelweisskit something important. (high positive effect) - Bigkit was 2 moons old",
+            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Bigkit was 5 moons old",
+            "Bigpaw and Edelweisspaw exchange stories about their mentors. (medium positive effect) - Bigpaw was 6 moons old",
+            "Only Bigpaw and Edelweisspaw know the details about a specific piece of Clan drama. (medium positive effect) - Bigpaw was 6 moons old",
+            "Bigpaw wanted to impress Edelweisspaw during training. (positive effect) - Bigpaw was 6 moons old",
+            "Bigpaw is asking Edelweisspaw interesting questions. (low positive effect) - Bigpaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2001,12 +2049,19 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 49,
-        "respect": 19,
-        "comfort": 49,
-        "trust": 39,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 55,
+        "respect": 27,
+        "comfort": 56,
+        "trust": 60,
+        "log": [
+            "Bigkit and Waterkit swap secrets with each other. (high positive effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2040,12 +2095,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Bigkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2055,10 +2115,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2102,6 +2164,84 @@
     {
         "cat_from_id": "240",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

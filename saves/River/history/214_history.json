@@ -8,17 +8,29 @@
     "mentor_influence": {
         "trait": {
             "137": {
-                "aggression": 2,
-                "stability": 2
+                "aggression": 3,
+                "stability": 2,
+                "sociability": 0,
+                "strings": [
+                    "start a fight",
+                    "think things through"
+                ]
             }
         },
         "skill": {
             "137": {
-                "SWIMMER": 8
+                "SWIMMER": 16,
+                "strings": [
+                    "swimming"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "courage",
+        "graduation_age": 17,
+        "moon": 147
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

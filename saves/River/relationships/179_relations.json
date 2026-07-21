@@ -135,11 +135,18 @@
         "family": true,
         "romance": 0,
         "like": 54,
-        "respect": 44,
+        "respect": 39,
         "comfort": 84,
-        "trust": 74,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 69,
+        "log": [
+            "Dustnose heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Dustnose was 26 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -555,11 +562,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -599,11 +609,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Dustnose heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dustnose was 21 moons old"
+            "Dustnose heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dustnose was 21 moons old",
+            "Dustnose was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Dustnose was 27 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -702,9 +713,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Shinefur sends a Clanmate to help Dustnose with something he's struggling with. (low positive effect) - Dustnose was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -715,15 +730,20 @@
         "like": 16,
         "respect": 10,
         "comfort": -5,
-        "trust": -11,
+        "trust": -16,
         "log": [
             "Dustpaw learned about hunting in tide pools from Talonlake. (positive effect) - Dustpaw was 8 moons old",
             "Dustpaw got hurt when Talonlake told him to pounce on a sharp rock in training. (negative effect) - Dustpaw was 9 moons old",
             "Talonlake tells Dustpaw, Hushshimmer, Shinefur, and Frondpad a story that seems to grow less believable every meow. (negative effect) - Dustpaw was 9 moons old",
             "Dustpaw and Talonlake enjoyed working on their skills together on a training patrol. (positive effect) - Dustpaw was 11 moons old",
-            "Dustpaw discovered that teaching is not one of Talonlake's skills. (negative effect) - Dustpaw was 12 moons old"
+            "Dustpaw discovered that teaching is not one of Talonlake's skills. (negative effect) - Dustpaw was 12 moons old",
+            "Dustnose was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Dustnose was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2054,17 +2074,22 @@
         "cat_to_id": "186",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 13,
-        "respect": -13,
-        "comfort": 0,
-        "trust": 13,
+        "romance": 18,
+        "like": 22,
+        "respect": -4,
+        "comfort": 23,
+        "trust": 29,
         "log": [
             "Dustpaw and Brindlepaw enjoyed working on their skills together on a training patrol. (positive effect) - Dustpaw was 11 moons old",
             "Brindlepaw makes a small sacrifice that benefits Dustpaw. (low positive effect) - Dustpaw was 12 moons old",
-            "Dustnose thought Brindlesplash was polite today. (low positive effect) - Dustnose was 22 moons old"
+            "Dustnose thought Brindlesplash was polite today. (low positive effect) - Dustnose was 22 moons old",
+            "Dustnose confesses to Brindlesplash that he has feelings for Kinkdapple. (positive effect) - Dustnose was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort",
+            "like"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2143,13 +2168,16 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -12,
         "trust": -10,
         "log": [
             "Dustpaw wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Dustpaw was 12 moons old",
-            "Dustnose heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dustnose was 23 moons old"
+            "Dustnose heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dustnose was 23 moons old",
+            "Dustnose realizes that a strange smell in camp is coming from Velvettooth. (medium negative effect) - Dustnose was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2184,7 +2212,7 @@
         "cat_to_id": "208",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 0,
         "like": 0,
         "respect": 5,
         "comfort": 20,
@@ -2193,7 +2221,8 @@
             "Dustnose notices one of his friends laughing with Lionheart. (low negative effect) - Dustnose was 13 moons old",
             "Dustnose thinks Lionheart has been acting strangely. (low negative effect) - Dustnose was 15 moons old",
             "Lionheart saved extra nest bedding for Dustnose. (medium positive effect) - Dustnose was 18 moons old",
-            "Dustnose saw Lionheart's patrol go out to hunt for the Clan despite the snow. (positive effect) - Dustnose was 21 moons old"
+            "Dustnose saw Lionheart's patrol go out to hunt for the Clan despite the snow. (positive effect) - Dustnose was 21 moons old",
+            "Dustnose heard Lionheart discussing potential mates but his name never came up. (medium negative effect) - Dustnose was 27 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2217,15 +2246,19 @@
         "cat_to_id": "212",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 10,
+        "trust": 0,
         "log": [
-            "Dustnose and Sagopaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old"
+            "Dustnose and Sagopaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old",
+            "Dustnose heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Dustnose was 27 moons old",
+            "Dustnose can't help but smile seeing Sagospeck smile. (low positive effect) - Dustnose was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2263,12 +2296,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Dustnose and Softpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old"
+            "Dustnose and Softpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old",
+            "Dustnose didn't warn Softspring about a rock on the ground, which caused Softspring to trip. (medium negative effect) - Dustnose was 27 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2376,11 +2410,14 @@
         "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 10,
+        "trust": -5,
         "log": [
-            "Dustnose and Redswirl enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old"
+            "Dustnose and Redswirl enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old",
+            "Dustnose was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Dustnose was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2662,6 +2699,88 @@
     {
         "cat_from_id": "179",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -8,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Dustnose heard Bluestripe say something mean. (low negative effect) - Dustnose was 26 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

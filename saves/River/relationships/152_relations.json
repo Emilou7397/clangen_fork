@@ -91,13 +91,17 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": -8,
+        "trust": -13,
         "log": [
-            "Ochretail tells Silkypaw, Cherrypaw, Creekpaw, and Butterflypaw a story that earns more skepticism than admiration. (negative effect) - Creekpaw was 7 moons old"
+            "Ochretail tells Silkypaw, Cherrypaw, Creekpaw, and Butterflypaw a story that earns more skepticism than admiration. (negative effect) - Creekpaw was 7 moons old",
+            "Creekmoss heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Creekmoss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -795,13 +799,16 @@
         "like": 0,
         "respect": 3,
         "comfort": 0,
-        "trust": -10,
+        "trust": -15,
         "log": [
             "Creekkit noticed how successful Talonlake's hunting patrol was. (positive effect) - Creekkit was 1 moon old",
             "Creekpaw heard Talonlake fell asleep guarding camp. (negative effect) - Creekpaw was 11 moons old",
-            "Creekmoss was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Creekmoss was 13 moons old"
+            "Creekmoss was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Creekmoss was 13 moons old",
+            "Creekmoss was not happy to hear that Talonlake was caught outside of the Clan's territory. (negative effect) - Creekmoss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -885,14 +892,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 7,
         "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Creekkit noticed how successful Poolleaf's hunting patrol was. (positive effect) - Creekkit was 3 moons old"
+            "Creekkit noticed how successful Poolleaf's hunting patrol was. (positive effect) - Creekkit was 3 moons old",
+            "Creekmoss hopes he is assigned to patrol with Poolleaf tomorrow. (medium positive effect) - Creekmoss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -996,11 +1006,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -1490,14 +1502,16 @@
         "romance": 0,
         "like": 8,
         "respect": 21,
-        "comfort": 34,
+        "comfort": 42,
         "trust": 16,
         "log": [
             "Butterflypaw tells Creekkit that he was worried about him. (low positive effect) - Creekkit was 4 moons old",
             "Creekmoss is wowed by how bravely Butterflyglide fought the other day. (high positive effect) - Creekmoss was 16 moons old",
             "Creekmoss shares a joke about a neighboring Clan with Butterflyglide. (low positive effect) - Creekmoss was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -1537,11 +1551,11 @@
         "cat_to_id": "138",
         "mates": true,
         "family": false,
-        "romance": 13,
-        "like": -3,
-        "respect": 23,
-        "comfort": 17,
-        "trust": 42,
+        "romance": 34,
+        "like": 3,
+        "respect": 31,
+        "comfort": 25,
+        "trust": 48,
         "log": [
             "Creekpaw gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Creekpaw was 10 moons old",
             "Creekmoss learns that Whiskerleg has been using him for something. (high negative effect) - Creekmoss was 14 moons old",
@@ -1550,9 +1564,14 @@
             "Creekmoss and Whiskerleg discussed the vision Poppybriar claimed to have. (positive effect) - Creekmoss was 35 moons old",
             "Whiskerleg and Creekmoss discussed the vision Poppybriar claimed to have. (positive effect) - Creekmoss was 35 moons old",
             "Whiskerleg had a disagreement with Creekmoss over kits. (medium negative effect) - Creekmoss was 36 moons old",
-            "Creekmoss heard Whiskerleg fell asleep guarding camp. (negative effect) - Creekmoss was 38 moons old"
+            "Creekmoss heard Whiskerleg fell asleep guarding camp. (negative effect) - Creekmoss was 38 moons old",
+            "Creekmoss purrs for a long time at one of Whiskerleg's lame jokes. (high positive effect) - Creekmoss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -1560,16 +1579,22 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 5,
-        "respect": 6,
-        "comfort": 8,
-        "trust": 21,
+        "like": 13,
+        "respect": 13,
+        "comfort": 14,
+        "trust": 42,
         "log": [
             "Swallowstripe tells Creekmoss to smile more. (low negative effect) - Creekmoss was 17 moons old",
             "Creekmoss can't help but admire Swallowstripe's pelt. (low positive effect) - Creekmoss was 23 moons old",
-            "Creekmoss thinks he can tell Swallowstripe something important. (high positive effect) - Creekmoss was 38 moons old"
+            "Creekmoss thinks he can tell Swallowstripe something important. (high positive effect) - Creekmoss was 38 moons old",
+            "Creekmoss and Swallowstripe swap secrets with each other. (high positive effect) - Creekmoss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -1750,7 +1775,7 @@
         "like": 100,
         "respect": 32,
         "comfort": 98,
-        "trust": 67,
+        "trust": 80,
         "log": [
             "Creekpaw and Meadowpaw chase off a predator on a patrol together. (medium positive effect) - Creekpaw was 7 moons old",
             "Creekpaw helps Meadowpaw work through something difficult that happened to her. (high positive effect) - Creekpaw was 8 moons old",
@@ -1761,7 +1786,9 @@
             "Creekmoss appreciated that Meadowspots checked with a medicine cat before gathering herbs on a hunting patrol. (positive effect) - Creekmoss was 25 moons old",
             "Creekmoss and Meadowspots trained and caught up with each other. (positive effect) - Creekmoss was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -1812,10 +1839,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 14,
-        "respect": -1,
-        "comfort": -2,
-        "trust": -11,
+        "like": 20,
+        "respect": 3,
+        "comfort": 4,
+        "trust": 5,
         "log": [
             "Creekmoss and Mitepaw enjoyed practicing new battle moves together. (positive effect) - Creekmoss was 12 moons old",
             "Creekmoss and Miteleaf worked on their skills together on a training patrol. (positive effect) - Creekmoss was 15 moons old",
@@ -1824,9 +1851,12 @@
             "Creekmoss thinks Miteleaf did something incompetent. (high negative effect) - Creekmoss was 29 moons old",
             "Creekmoss spends the day helping around the camp with Miteleaf. (high positive effect) - Creekmoss was 31 moons old",
             "Creekmoss swears he sees Miteleaf sneaking around the camp at night. (medium negative effect) - Creekmoss was 40 moons old",
-            "Creekmoss was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Creekmoss was 42 moons old"
+            "Creekmoss was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Creekmoss was 42 moons old",
+            "Creekmoss backs up one of Miteleaf's claims during one of Miteleaf's arguments. (high positive effect) - Creekmoss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2023,14 +2053,17 @@
         "like": 0,
         "respect": 17,
         "comfort": -7,
-        "trust": 20,
+        "trust": 33,
         "log": [
             "Creekmoss heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Creekmoss was 18 moons old",
             "Creekmoss gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Creekmoss was 30 moons old",
             "Creekmoss was rudely awoken by Sandthrush. (medium negative effect) - Creekmoss was 33 moons old",
-            "Creekmoss gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Creekmoss was 38 moons old"
+            "Creekmoss gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Creekmoss was 38 moons old",
+            "Sandthrush respects Creekmoss's opinion despite disagreeing with it. (low positive effect) - Creekmoss was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2384,9 +2417,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Creekmoss heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Creekmoss was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2397,7 +2434,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -10,
+        "trust": 3,
         "log": [
             "Creekmoss heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Creekmoss was 37 moons old"
         ],
@@ -2411,10 +2448,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Creekmoss and Stagclaw enjoy the rain together. (low positive effect) - Creekmoss was 45 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2466,12 +2507,15 @@
         "romance": 0,
         "like": 0,
         "respect": -10,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [
             "Creekmoss disapproved of Moorghost wearing a collar. (negative effect) - Creekmoss was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2534,11 +2578,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": -5,
         "log": [
-            "Redswirl rescued Creekmoss when sand caved in under him. (positive effect) - Creekmoss was 31 moons old"
+            "Redswirl rescued Creekmoss when sand caved in under him. (positive effect) - Creekmoss was 31 moons old",
+            "Creekmoss was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Creekmoss was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "152",
@@ -2820,6 +2867,84 @@
     {
         "cat_from_id": "152",
         "cat_to_id": "251",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "252",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "253",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "254",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "249",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "250",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "152",
+        "cat_to_id": "255",
         "mates": false,
         "family": false,
         "romance": 0,

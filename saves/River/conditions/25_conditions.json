@@ -1,10 +1,10 @@
 {
     "injuries": {
-        "bite-wound": {
-            "severity": "major",
+        "mangled tail": {
+            "severity": "severe",
             "mortality": 15,
             "duration": 3,
-            "moon_start": 145,
+            "moon_start": 148,
             "illness_infectiousness": [],
             "risks": [
                 {
@@ -13,9 +13,16 @@
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "lost their tail"
+            ],
             "event_triggered": false,
-            "potential_scars": []
+            "potential_scars": [
+                "HALFTAIL",
+                "MANTAIL",
+                "NOTAIL",
+                "TAILSCAR"
+            ]
         }
     }
 }
