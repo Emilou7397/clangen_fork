@@ -975,6 +975,7 @@ class PatrolOutcome:
     def _handle_mentor_app(self, patrol: "Patrol") -> str:
         """Handles mentor influence on apprentices"""
 
+        output = ""
         for cat in patrol.patrol_cats:
             if Cat.fetch_cat(cat.mentor) in patrol.patrol_cats:
                 mentor = Cat.fetch_cat(cat.mentor)
@@ -987,13 +988,16 @@ class PatrolOutcome:
                         mentor.ID, affect_personality[0], affect_personality[1]
                     )
                     print(str(cat.name), affect_personality)
+                    output += i18n.t(
+                        "screens.patrol.facets_changed", name=cat.name, facets=cat.personality.get_facet_string()
+                    )
                 if affect_skills:
                     cat.history.add_skill_mentor_influence(
                         affect_skills[0], affect_skills[1], affect_skills[2]
                     )
                     print(str(cat.name), affect_skills)
 
-        return ""
+        return output
 
     # ---------------------------------------------------------------------------- #
     #                                   HELPERS                                    #

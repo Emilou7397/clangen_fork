@@ -557,12 +557,13 @@
         "like": 13,
         "respect": 0,
         "comfort": 5,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Howlpaw heard about how Fleadusk endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlpaw was 9 moons old",
             "Howlshine enjoyed driving away rogues with Fleadusk. (positive effect) - Howlshine was 16 moons old",
             "Howlshine disapproved of Fleadusk wearing a collar. (negative effect) - Howlshine was 36 moons old",
-            "Howlshine heard Fleadusk fell asleep guarding camp. (negative effect) - Howlshine was 40 moons old"
+            "Howlshine heard Fleadusk fell asleep guarding camp. (negative effect) - Howlshine was 40 moons old",
+            "Howlshine disapproved of Fleadusk stealing Twoleg food for the fresh-kill pile. (negative effect) - Howlshine was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -590,12 +591,13 @@
         "like": 0,
         "respect": 7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Skulkwillow acts childishly in front of Howlpaw. (low negative effect) - Howlpaw was 6 moons old",
             "Howlpaw heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlpaw was 9 moons old",
             "Howlshine heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 33 moons old",
-            "Howlshine was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Howlshine was 39 moons old"
+            "Howlshine was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Howlshine was 39 moons old",
+            "Howlshine disapproved of Skulkwillow stealing Twoleg food for the fresh-kill pile. (negative effect) - Howlshine was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -688,11 +690,12 @@
         "like": 0,
         "respect": 15,
         "comfort": 0,
-        "trust": 20,
+        "trust": 15,
         "log": [
             "Howlshine and Reedheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Howlshine was 13 moons old",
             "Howlshine heard that Reedheart chased a rogue off the territory. (positive effect) - Howlshine was 16 moons old",
-            "Howlshine gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Howlshine was 23 moons old"
+            "Howlshine gained a greater respect for Reedheart's loyalty when he protected Yewstar from a rogue. (positive effect) - Howlshine was 23 moons old",
+            "Howlshine disapproved of Reedheart stealing Twoleg food for the fresh-kill pile. (negative effect) - Howlshine was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -925,8 +928,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Howlshine disapproved of Flightsplash stealing Twoleg food for the fresh-kill pile. (negative effect) - Howlshine was 41 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1182,12 +1187,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 15,
-        "comfort": 0,
-        "trust": 15,
+        "like": -5,
+        "respect": 9,
+        "comfort": -5,
+        "trust": -1,
         "log": [
-            "Howlshine heard about Shadowfreckle's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old"
+            "Howlshine heard about Shadowfreckle's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old",
+            "Shadowfreckle uses one of Howlshine's fears against her. (high negative effect) - Howlshine was 42 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1385,16 +1391,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 12,
-        "comfort": 17,
-        "trust": 10,
+        "like": 7,
+        "respect": 33,
+        "comfort": 24,
+        "trust": 16,
         "log": [
             "Howlpaw gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Howlpaw was 8 moons old",
             "Howlpaw heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlpaw was 11 moons old",
             "Howlshine thinks Moletooth looks nicer than him today. (low negative effect) - Howlshine was 13 moons old",
             "When Howlshine gets hurt, Moletooth is the first to ask if he's okay. (medium positive effect) - Howlshine was 15 moons old",
-            "Howlshine was unimpressed to hear that Moletooth impulsively attacked another Clan's patrol. (negative effect) - Howlshine was 30 moons old"
+            "Howlshine was unimpressed to hear that Moletooth impulsively attacked another Clan's patrol. (negative effect) - Howlshine was 30 moons old",
+            "Howlshine is wowed by how bravely Moletooth fought the other day. (high positive effect) - Howlshine was 42 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1710,12 +1717,7 @@
             "Howlshine was grateful that Lilynoise gave her a piece of thyme to put in her nest. (positive effect) - Howlshine was 40 moons old",
             "Howlshine and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Howlshine was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1764,10 +1766,7 @@
             "Howlshine heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 35 moons old",
             "Howlshine and Terabyte successfully gathered herbs together despite the rainy weather. (positive effect) - Howlshine was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -1945,8 +1944,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Howlshine disapproved of Garlicberry stealing Twoleg food for the fresh-kill pile. (negative effect) - Howlshine was 41 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2151,10 +2152,7 @@
             "Howlshine heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 35 moons old",
             "Howlshine and Velvettooth successfully gathered herbs together despite the rainy weather. (positive effect) - Howlshine was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",
@@ -2437,11 +2435,7 @@
             "Howlshine heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 35 moons old",
             "Howlshine and Endothermic successfully gathered herbs together despite the rainy weather. (positive effect) - Howlshine was 41 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "166",

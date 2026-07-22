@@ -1,21 +1,23 @@
 {
     "injuries": {
-        "torn pelt": {
+        "torn ear": {
             "severity": "minor",
             "mortality": 0,
             "duration": 1,
-            "moon_start": 148,
+            "moon_start": 150,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 53
+                    "chance": 41
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "partial hearing loss"
+            ],
             "event_triggered": false,
-            "potential_scars": null
+            "potential_scars": []
         }
     }
 }

@@ -1,21 +1,22 @@
 {
-    "injuries": {
-        "small cut": {
-            "severity": "minor",
-            "mortality": 0,
-            "duration": 1,
-            "moon_start": 149,
-            "illness_infectiousness": [],
+    "illnesses": {
+        "whitecough": {
+            "severity": "major",
+            "mortality": 70,
+            "infectiousness": 30,
+            "duration": 2,
+            "moon_start": 150,
             "risks": [
                 {
-                    "name": "an infected wound",
-                    "chance": 51
+                    "name": "greencough",
+                    "chance": 29
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 31
                 }
             ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": []
+            "event_triggered": false
         }
     }
 }
