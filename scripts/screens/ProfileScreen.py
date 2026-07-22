@@ -1016,6 +1016,8 @@ class ProfileScreen(Screens):
 
         # CHARACTER TRAIT
         output += i18n.t(f"cat.personality.{the_cat.personality.trait}")
+        # FACETS
+        output += f" ({the_cat.personality.lawfulness},{the_cat.personality.sociability},{the_cat.personality.aggression},{the_cat.personality.stability})"
         # NEWLINE ----------
         output += "\n"
 
