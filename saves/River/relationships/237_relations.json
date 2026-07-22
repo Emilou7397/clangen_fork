@@ -12,9 +12,7 @@
         "log": [
             "Prancelaurel reminds Whitepaw to grab something from the fresh-kill pile if she hasn't already. (medium positive effect) - Whitepaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -473,9 +471,7 @@
             "Whitekit disapproved of Fleadusk wearing a collar. (negative effect) - Whitekit was 3 moons old",
             "Whitepaw heard Fleadusk fell asleep guarding camp. (negative effect) - Whitepaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -689,11 +685,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Whitepaw and Voletuft enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -743,11 +741,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Whitepaw and Hailfreckle enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1137,12 +1137,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Whitekit heard Whiskerleg fell asleep guarding camp. (negative effect) - Whitekit was 0 moons old"
+            "Whitekit heard Whiskerleg fell asleep guarding camp. (negative effect) - Whitekit was 0 moons old",
+            "Whitepaw and Whiskerleg enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1913,9 +1914,7 @@
         "log": [
             "Whitepaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Whitepaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -1982,9 +1981,7 @@
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -2001,6 +1998,22 @@
             "Whitekit feels safe with Branchkit around. (high positive effect) - Whitekit was 2 moons old",
             "Branchpaw tromped into the apprentice's den with muddy paws, trailing muck straight through Whitepaw and Avocetpaw's nests. (negative effect) - Whitepaw was 7 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "238",
+        "mates": false,
+        "family": true,
+        "romance": 9,
+        "like": 54,
+        "respect": 6,
+        "comfort": 52,
+        "trust": 44,
+        "log": [
+            "Whitekit reassures Edelweisskit about something that was bothering him. (low positive effect) - Whitekit was 4 moons old",
+            "Whitepaw and Edelweisspaw enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
+        ],
         "no_longer_neutral": [
             "like",
             "respect",
@@ -2010,34 +2023,25 @@
     },
     {
         "cat_from_id": "237",
-        "cat_to_id": "238",
-        "mates": false,
-        "family": true,
-        "romance": 9,
-        "like": 49,
-        "respect": 6,
-        "comfort": 52,
-        "trust": 39,
-        "log": [
-            "Whitekit reassures Edelweisskit about something that was bothering him. (low positive effect) - Whitekit was 4 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "237",
         "cat_to_id": "239",
         "mates": false,
         "family": true,
         "romance": 2,
-        "like": 42,
+        "like": 47,
         "respect": 12,
         "comfort": 54,
-        "trust": 41,
+        "trust": 46,
         "log": [
             "Whitekit shared a embarrassing story about Waterkit she was asked not to share... (low negative effect) - Whitekit was 3 moons old",
-            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old",
+            "Whitepaw and Waterpaw enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",

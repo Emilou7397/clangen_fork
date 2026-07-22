@@ -3301,7 +3301,7 @@ class Cat:
                 i18n.t("general.moons_age", count=self.moons),
                 i18n.t(f"general.{self.status.rank.lower()}", count=1),
                 self.genderalign_string,
-                i18n.t(f"cat.personality.{self.personality.trait}"),
+                i18n.t(f"cat.personality.{self.personality.trait}") + f" ({self.personality.get_facet_string()})",
                 self.skills.skill_string(short=True),
             ]
         )

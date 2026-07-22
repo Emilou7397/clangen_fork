@@ -1439,9 +1439,7 @@
             "Quailfur thinks the Clan's ancestors smile upon Frondpad. (high positive effect) - Quailfur was 106 moons old",
             "Quailfur thinks Frondpad has been acting strangely. (low negative effect) - Quailfur was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -1761,10 +1759,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 48,
-        "respect": 45,
+        "like": 56,
+        "respect": 53,
         "comfort": 60,
-        "trust": 62,
+        "trust": 72,
         "log": [
             "Quailfur visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Quailfur was 49 moons old",
             "Quailfur and Dancingfleck successfully hunted ground squirrels together. (positive effect) - Quailfur was 69 moons old"
@@ -1772,7 +1770,7 @@
         "no_longer_neutral": [
             "trust",
             "respect",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -1781,18 +1779,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 42,
+        "like": 47,
         "respect": 79,
         "comfort": 96,
-        "trust": 55,
+        "trust": 59,
         "log": [
             "Quailfur is excited for his family to grow further. (positive effect)- Quailfur was 49 moons old",
             "Quailfur knows that Snakedrop is hiding something. (medium negative effect) - Quailfur was 66 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Quailfur. (positive effect) - Quailfur was 104 moons old"
         ],
         "no_longer_neutral": [
-            "comfort",
-            "respect"
+            "trust",
+            "like"
         ]
     },
     {
@@ -2983,9 +2981,7 @@
             "Quailfur heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old",
             "Quailfur was amazed to encounter a ghost while patrolling with Velvettooth. (positive effect) - Quailfur was 117 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3437,9 +3433,7 @@
         "log": [
             "Avocetpaw tells Quailfur that he was worried about him. (low positive effect) - Quailfur was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "35",
@@ -3448,11 +3442,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lavenderpaw made trouble during a training patrol and distracted everyone else. (negative effect) - Quailfur was 118 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "35",
