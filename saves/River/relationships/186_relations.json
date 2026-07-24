@@ -198,9 +198,7 @@
         "log": [
             "Brindlesplash learned from Peatcrest to be careful around tansy. (positive effect) - Brindlesplash was 27 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "186",
@@ -679,11 +677,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -2,
+        "respect": -4,
+        "comfort": -11,
+        "trust": -2,
+        "log": [
+            "Brindlesplash feels extremely unsettled when Shinefur looks at her. (high negative effect) - Brindlesplash was 29 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1705,9 +1705,7 @@
             "Brindlesplash grew irritated at Shinebelly while on a patrol and didn't accomplish much. (negative effect) - Brindlesplash was 23 moons old",
             "Brindlesplash thinks that Shinebelly acted disrespectfully during a patrol. (medium negative effect) - Brindlesplash was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "186",
@@ -1915,7 +1913,7 @@
         "romance": 67,
         "like": 48,
         "respect": 27,
-        "comfort": 52,
+        "comfort": 65,
         "trust": 31,
         "log": [
             "Howlsky won't back down when defending Brindlepaw on something. (high positive effect) - Brindlepaw was 14 moons old",
@@ -2174,13 +2172,16 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -12,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Brindlepaw was 13 moons old"
+            "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Brindlepaw was 13 moons old",
+            "Sagospeck has a talent that Brindlesplash wants to have. (medium negative effect) - Brindlesplash was 30 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "186",
@@ -2646,11 +2647,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Brindlesplash saw Flintpaw being considerate. (low positive effect) - Brindlesplash was 30 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "186",
@@ -2772,5 +2777,72 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "186",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "186",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 66,
+        "respect": 36,
+        "comfort": 76,
+        "trust": 66,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "186",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 66,
+        "respect": 36,
+        "comfort": 76,
+        "trust": 66,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "186",
+        "cat_to_id": "263",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 60,
+        "respect": 30,
+        "comfort": 70,
+        "trust": 60,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
     }
 ]

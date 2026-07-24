@@ -202,11 +202,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -8,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Blotchkit had a funny dream about Carptail and can't take him seriously now. (low negative effect) - Blotchkit was 3 moons old"
+            "Blotchkit had a funny dream about Carptail and can't take him seriously now. (low negative effect) - Blotchkit was 3 moons old",
+            "Blotchstripe hears Carptail laugh at a Clanmate's joke even though it was lame. (low positive effect) - Blotchstripe was 57 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -765,9 +766,7 @@
         "log": [
             "Blotchstripe was impressed when Sardinespeckle convinced rogues to leave the territory. (positive effect) - Blotchstripe was 54 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1073,14 +1072,15 @@
         "cat_to_id": "96",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": -17,
-        "comfort": 0,
-        "trust": -13,
+        "romance": 16,
+        "like": 6,
+        "respect": -11,
+        "comfort": 5,
+        "trust": -7,
         "log": [
             "Blotchstripe feels like Dancingfleck isn't taking his own personal health seriously. (medium negative effect) - Blotchstripe was 34 moons old",
-            "Blotchstripe suspects Dancingfleck lied about something trivial. (low negative effect) - Blotchstripe was 46 moons old"
+            "Blotchstripe suspects Dancingfleck lied about something trivial. (low negative effect) - Blotchstripe was 46 moons old",
+            "Blotchstripe compliments Dancingfleck on how sharp his claws are today. (high positive effect) - Blotchstripe was 56 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1108,11 +1108,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Blotchstripe saw Hollyheart telling stories to the kits. (positive effect) - Blotchstripe was 56 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1329,17 +1334,23 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 47,
-        "respect": 11,
-        "comfort": 47,
-        "trust": 37,
+        "like": 49,
+        "respect": 13,
+        "comfort": 58,
+        "trust": 40,
         "log": [
             "Blotchpaw feels a little safer when Cherrykit joins her in the clearing. (low positive effect) - Blotchpaw was 6 moons old",
             "Blotchstripe is talking with Cherrytail. (low positive effect) - Blotchstripe was 16 moons old",
             "Cherrytail gives Blotchstripe something that she dropped. (low positive effect) - Blotchstripe was 47 moons old",
-            "Cherrytail gives advice to Blotchstripe. It's not good advice, but Blotchstripe appreciates the effort. (low positive effect) - Blotchstripe was 49 moons old"
+            "Cherrytail gives advice to Blotchstripe. It's not good advice, but Blotchstripe appreciates the effort. (low positive effect) - Blotchstripe was 49 moons old",
+            "Blotchstripe overhears Cherrytail saying something nice about her. (high positive effect) - Blotchstripe was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1510,9 +1521,7 @@
             "Blotchstripe is complaining that Silkymunch never does anything helpful. (high negative effect) - Blotchstripe was 37 moons old",
             "Blotchstripe does something brave with Silkymunch's support. (medium positive effect) - Blotchstripe was 55 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1752,12 +1761,13 @@
         "like": 20,
         "respect": 0,
         "comfort": 12,
-        "trust": -16,
+        "trust": -8,
         "log": [
             "Blotchstripe suspects Meadowspots lied about something trivial. (low negative effect) - Blotchstripe was 29 moons old",
             "Meadowspots keeps asking Blotchstripe if she trusts her. (low negative effect) - Blotchstripe was 31 moons old",
             "Blotchstripe sees Meadowspots put something back where it belongs. (low positive effect) - Blotchstripe was 40 moons old",
-            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old"
+            "Dustnose, Gardeniaglow, Blotchstripe, Snakedrop, and Meadowspots blow off steam by stretching with and venting to each other. (positive effect) - Blotchstripe was 47 moons old",
+            "Meadowspots tells Blotchstripe that she was worried about her. (low positive effect) - Blotchstripe was 56 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2212,9 +2222,7 @@
             "The moonlight encourages Driftstripe, Mossflight, Blotchstripe, Minnowlily, and Brindlepaw to slow down and stretch. (positive effect) - Blotchstripe was 42 moons old",
             "An issue becomes benign when Blotchstripe remembers Brindlesplash's advice. (medium positive effect) - Blotchstripe was 55 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -2951,6 +2959,58 @@
     {
         "cat_from_id": "120",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

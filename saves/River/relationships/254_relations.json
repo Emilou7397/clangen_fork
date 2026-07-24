@@ -432,10 +432,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Daykit was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Daykit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -620,10 +622,7 @@
             "Daykit was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Daykit was 2 moons old",
             "Daykit was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Daykit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -658,10 +657,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Daypaw heard that Mallowpelt touched noses with a rogue. (negative effect) - Daypaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -796,9 +797,7 @@
         "log": [
             "Daykit isn't impressed with Kiwifoot's work lately. (low negative effect) - Daykit was 5 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "254",
@@ -950,11 +949,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Daypaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Daypaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1158,7 +1162,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1577,12 +1581,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -7,
+        "respect": -6,
+        "comfort": -21,
+        "trust": -7,
+        "log": [
+            "Daypaw doesn't think that Velvettooth's smile is genuine. (high negative effect) - Daypaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1764,10 +1775,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Daykit disapproved of Bushheart wearing a collar. (negative effect) - Daykit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2001,11 +2014,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Daypaw keeps asking Avocetpaw to explain a joke, but Avocetpaw just says that Daypaw had to be there. (low negative effect) - Daypaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2092,21 +2107,21 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 81,
-        "respect": 38,
-        "comfort": 87,
+        "like": 89,
+        "respect": 50,
+        "comfort": 95,
         "trust": 44,
         "log": [
             "Daykit thought Flintkit was polite today. (low positive effect) - Daykit was 1 moon old",
             "Daykit spent the whole day playing her favorite games with Flintkit. (medium positive effect) - Daykit was 2 moons old",
             "Daykit is deeply touched hearing just how much Flintkit remembers about her. (high positive effect) - Daykit was 3 moons old",
-            "When Flintkit gets sick for a few days, Daykit brings her fresh-kill and bedding. (high positive effect) - Daykit was 5 moons old"
+            "When Flintkit gets sick for a few days, Daykit brings her fresh-kill and bedding. (high positive effect) - Daykit was 5 moons old",
+            "Daypaw and Flintpaw exchange stories about their mentors. (medium positive effect) - Daypaw was 7 moons old"
         ],
         "no_longer_neutral": [
-            "like",
+            "comfort",
             "respect",
-            "trust",
-            "comfort"
+            "like"
         ]
     },
     {
@@ -2117,10 +2132,11 @@
         "romance": 9,
         "like": 49,
         "respect": 19,
-        "comfort": 49,
+        "comfort": 57,
         "trust": 65,
         "log": [
-            "Daykit feels a little safer when Dashkit joins her in the clearing. (low positive effect) - Daykit was 4 moons old"
+            "Daykit feels a little safer when Dashkit joins her in the clearing. (low positive effect) - Daykit was 4 moons old",
+            "Daypaw likes to sit near Dashpaw during conversations. (low positive effect) - Daypaw was 6 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2146,9 +2162,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Daypaw wondered where Deltakit went when she disappeared for a few days. (negative effect) - Daypaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2179,6 +2199,58 @@
     {
         "cat_from_id": "254",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

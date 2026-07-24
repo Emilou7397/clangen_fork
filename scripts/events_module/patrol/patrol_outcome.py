@@ -988,8 +988,9 @@ class PatrolOutcome:
                         mentor.ID, affect_personality[0], affect_personality[1]
                     )
                     print(str(cat.name), affect_personality)
+                    output += " "
                     output += i18n.t(
-                        " screens.patrol.facets_changed", name=cat.name, facets=cat.personality.get_facet_string()
+                        "screens.patrol.facets_changed", name=cat.name, facets=cat.personality.get_facet_string()
                     )
                 if affect_skills:
                     cat.history.add_skill_mentor_influence(

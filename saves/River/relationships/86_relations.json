@@ -197,11 +197,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": -10,
         "log": [
             "Voletuft was not happy to hear that Bitterleaf took food from a Twoleg. (negative effect) - Voletuft was 17 moons old",
-            "Voletuft heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Voletuft was 39 moons old"
+            "Voletuft heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Voletuft was 39 moons old",
+            "Bitterleaf squashes a bug that Voletuft was watching. (medium negative effect) - Voletuft was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -281,14 +282,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": -8,
         "log": [
-            "Fidgetmouse tells Cobaltstrike, Voletuft, Pebblechase, and Bitebone a story that earns more skepticism than admiration. (negative effect) - Voletuft was 63 moons old"
+            "Fidgetmouse tells Cobaltstrike, Voletuft, Pebblechase, and Bitebone a story that earns more skepticism than admiration. (negative effect) - Voletuft was 63 moons old",
+            "Fidgetmouse recalls her kithood to Whiskerleg, Skulkwillow, Deltakit, and Voletuft. (positive effect) - Voletuft was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -410,10 +415,7 @@
             "Voletuft swears that Peakspore's fangs are longer than usual. (medium negative effect) - Voletuft was 37 moons old",
             "Voletuft notices that Peakspore always gets better fresh-kill to eat. (high negative effect) - Voletuft was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "86",
@@ -1185,9 +1187,7 @@
             "Silkymunch's eagerness to do early morning stretches rubs off on Speckleflake, Voletuft, Snakedrop, and Poolleaf. (positive effect) - Voletuft was 40 moons old",
             "Voletuft and Poolleaf drink from the same puddle. (low positive effect) - Voletuft was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "86",
@@ -1568,12 +1568,17 @@
         "mates": false,
         "family": false,
         "romance": 5,
-        "like": 5,
-        "respect": 6,
-        "comfort": 4,
-        "trust": 5,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 4,
+        "respect": 3,
+        "comfort": -17,
+        "trust": -3,
+        "log": [
+            "Voletuft enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Voletuft was 72 moons old",
+            "Voletuft badly misinterprets Hollyheart's words. (high negative effect) - Voletuft was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1725,9 +1730,7 @@
             "Voletuft, Shimmerrunner, and Snookbumble took a sunbath and had a little small talk. (positive effect) - Voletuft was 35 moons old",
             "Voletuft heard that Snookbumble touched noses with a kittypet. (negative effect) - Voletuft was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "86",
@@ -1763,7 +1766,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 3,
         "comfort": 0,
         "trust": 20,
@@ -1771,7 +1774,8 @@
             "Wavepaw saved Voletuft from a big dog. (positive effect) - Voletuft was 23 moons old",
             "Voletuft heard that Wavepaw chased a rogue off the territory. (positive effect) - Voletuft was 30 moons old",
             "Voletuft heard that Wavelight touched noses with a loner. (negative effect) - Voletuft was 33 moons old",
-            "The leader was more impressed by what Wavelight brought back from a hunting patrol than what Voletuft did. (medium negative effect) - Voletuft was 57 moons old"
+            "The leader was more impressed by what Wavelight brought back from a hunting patrol than what Voletuft did. (medium negative effect) - Voletuft was 57 moons old",
+            "Voletuft and Wavelight roll up moss balls together. (low positive effect) - Voletuft was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2046,10 +2050,7 @@
             "Voletuft heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Voletuft was 59 moons old",
             "For a moment, Voletuft thought Midnighthaze sounded like someone else. (medium negative effect) - Voletuft was 66 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "86",
@@ -3240,9 +3241,7 @@
         "log": [
             "Voletuft sees the blood of fresh-kill on Silkroot's paws and feels a prickle of discomfort. (low negative effect) - Voletuft was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "86",
@@ -3265,10 +3264,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 17,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Bluestripe gently woke up Voletuft this morning. (medium positive effect) - Voletuft was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -3390,6 +3393,58 @@
     {
         "cat_from_id": "86",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

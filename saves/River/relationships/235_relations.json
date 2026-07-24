@@ -7,7 +7,7 @@
         "romance": 0,
         "like": 100,
         "respect": 88,
-        "comfort": 88,
+        "comfort": 96,
         "trust": 75,
         "log": [
             "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Wheatkit was 4 moons old",
@@ -16,7 +16,8 @@
             "Wheatpaw found Prancelaurel's story of Silverpelt particularly awe-inspiring. (positive effect) - Wheatpaw was 9 moons old",
             "Wheatpaw listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Wheatpaw was 9 moons old",
             "Wheatpaw listened intently to Prancelaurel's story of how a RiverClan warrior rescued a kitten from the water. (positive effect) - Wheatpaw was 10 moons old",
-            "Wheatpaw and Prancelaurel practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
+            "Wheatpaw and Prancelaurel practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old",
+            "Wheatstorm, Prancelaurel, and Suntooth took a sunbath and had a little small talk. (positive effect) - Wheatstorm was 12 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -100,12 +101,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 13,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -3,
+        "respect": 10,
+        "comfort": -11,
+        "trust": -2,
+        "log": [
+            "The Clan feels uneasy whenever Wheatstorm and Stoatshade speak to each other. (high negative effect) - Wheatstorm was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -114,11 +120,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 3,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Wheatkit heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Wheatkit was 5 moons old"
+            "Wheatkit heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Wheatkit was 5 moons old",
+            "Wheatstorm listens to Ochretail's big plans for the day. (low positive effect) - Wheatstorm was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -198,9 +205,7 @@
         "comfort": 0,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -290,14 +295,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 40,
+        "like": 48,
         "respect": 30,
-        "comfort": 70,
+        "comfort": 78,
         "trust": 60,
         "log": [
-            "These cats recently interacted. - Wheatkit was 0 moons old"
+            "These cats recently interacted. - Wheatkit was 0 moons old",
+            "Wheatstorm, Prancelaurel, and Suntooth took a sunbath and had a little small talk. (positive effect) - Wheatstorm was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -463,12 +474,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 6,
+        "like": 21,
+        "respect": 1,
         "comfort": 21,
-        "trust": 6,
+        "trust": 1,
         "log": [
-            "Whenever Verbenabloom's name is mentioned, Wheatpaw relaxes. (high positive effect) - Wheatpaw was 8 moons old"
+            "Whenever Verbenabloom's name is mentioned, Wheatpaw relaxes. (high positive effect) - Wheatpaw was 8 moons old",
+            "Wheatpaw was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Wheatpaw was 10 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -656,10 +668,7 @@
             "Wheatpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Wheatpaw was 7 moons old",
             "Wheatpaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Wheatpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -694,10 +703,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Wheatstorm heard that Mallowpelt touched noses with a rogue. (negative effect) - Wheatstorm was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -999,13 +1010,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
-            "Wheatkit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Wheatkit was 3 moons old"
+            "Wheatkit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Wheatkit was 3 moons old",
+            "Wheatstorm gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Wheatstorm was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1165,9 +1180,7 @@
             "Wheatpaw has noticed Whiskerleg isn't doing a lot of work lately. (medium negative effect) - Wheatpaw was 9 moons old",
             "Whiskerleg and Wheatpaw have a misunderstanding that makes them grumpy for the rest of the day. (low negative effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -1683,9 +1696,7 @@
             "Wheatkit heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 2 moons old",
             "Wheatpaw and Flightspot practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -1820,12 +1831,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Electronegativity returned to the warrior's den dripping mud everywhere and managed to ruin Coquitostep and Wheatstorm's nests. (negative effect) - Wheatstorm was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1888,10 +1904,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Wheatpaw disapproved of Bushheart wearing a collar. (negative effect) - Wheatpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1984,12 +2002,14 @@
         "mates": false,
         "family": false,
         "romance": 12,
-        "like": 0,
+        "like": -3,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Wheatkit nuzzles against Shorekit and purrs. (medium positive effect) - Wheatkit was 1 moon old"
+            "Wheatkit nuzzles against Shorekit and purrs. (medium positive effect) - Wheatkit was 1 moon old",
+            "Shorefrill eats as ravenously as a wolverine and by the time he's done, Wheatpaw, Whitepaw, Waterpaw, and Edelweisspaw barely have the stomach to finish their own meals. (negative effect) - Wheatpaw was 10 moons old",
+            "Shorefrill was very considerate while on patrol with Wheatstorm. (positive effect) - Wheatstorm was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1999,7 +2019,7 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 41,
+        "like": 48,
         "respect": 25,
         "comfort": 58,
         "trust": 40,
@@ -2007,7 +2027,8 @@
             "Wheatkit comforts Nutkit after a terrible nightmare. (high positive effect) - Wheatkit was 1 moon old",
             "Wheatkit associates her favorite smell with Nutkit. (high positive effect) - Wheatkit was 2 moons old",
             "Wheatkit thinks the Clan's ancestors smile upon Nutkit. (high positive effect) - Wheatkit was 4 moons old",
-            "Nutpaw eats as ravenously as a wolverine and by the time she's done, Suntooth, Wheatpaw, and Prancelaurel barely have the stomach to finish their own meals. (negative effect) - Wheatpaw was 7 moons old"
+            "Nutpaw eats as ravenously as a wolverine and by the time she's done, Suntooth, Wheatpaw, and Prancelaurel barely have the stomach to finish their own meals. (negative effect) - Wheatpaw was 7 moons old",
+            "Wheatstorm and Nutpaw are chatting about what they're doing today. (medium positive effect) - Wheatstorm was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2041,11 +2062,7 @@
             "Branchkit keeps calling Wheatpaw by the wrong name. (medium negative effect) - Wheatpaw was 6 moons old",
             "Wheatpaw called Branchpaw lazy, and Branchpaw has retaliated by nitpicking everything that Wheatpaw does. (high negative effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "235",
@@ -2056,11 +2073,12 @@
         "like": -11,
         "respect": -6,
         "comfort": 6,
-        "trust": 4,
+        "trust": -4,
         "log": [
             "Wheatkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Wheatkit was 0 moons old",
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Wheatkit was 4 moons old",
-            "Wheatpaw has a disagreement with Whitepaw over who is the better hunter. (high negative effect) - Wheatpaw was 8 moons old"
+            "Wheatpaw has a disagreement with Whitepaw over who is the better hunter. (high negative effect) - Wheatpaw was 8 moons old",
+            "Wheatstorm noticed that Whitepaw wasn't in his nest last night. (low negative effect) - Wheatstorm was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2313,9 +2331,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Wheatstorm wondered where Deltakit went when she disappeared for a few days. (negative effect) - Wheatstorm was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -2346,6 +2368,58 @@
     {
         "cat_from_id": "235",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

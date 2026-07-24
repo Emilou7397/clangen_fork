@@ -15,12 +15,7 @@
             "Kinkdapple is deeply touched hearing just how much Prancelaurel remembers about her. (high positive effect) - Kinkdapple was 21 moons old",
             "Kinkdapple listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Kinkdapple was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -150,9 +145,7 @@
             "Kinkdapple heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Kinkdapple was 24 moons old",
             "Ochretail is getting too violent in an argument with Kinkdapple. (medium negative effect) - Kinkdapple was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -162,12 +155,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -3,
+        "comfort": 14,
         "trust": 0,
         "log": [
-            "Kinkkit sees the blood of fresh-kill on Bitterleaf's paws and feels a prickle of discomfort. (low negative effect) - Kinkkit was 3 moons old"
+            "Kinkkit sees the blood of fresh-kill on Bitterleaf's paws and feels a prickle of discomfort. (low negative effect) - Kinkkit was 3 moons old",
+            "Bitterleaf's advice is more helpful than Kinkdapple expected. (medium positive effect) - Kinkdapple was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -764,10 +760,7 @@
             "Kinkdapple was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Kinkdapple was 26 moons old",
             "Kinkdapple was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Kinkdapple was 28 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -802,10 +795,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Kinkdapple heard that Mallowpelt touched noses with a rogue. (negative effect) - Kinkdapple was 30 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -956,11 +951,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Kinkdapple enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Kinkdapple was 29 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1203,14 +1200,20 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 15,
+        "respect": 30,
         "comfort": 8,
-        "trust": 15,
+        "trust": 30,
         "log": [
             "Kinkdapple gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Kinkdapple was 22 moons old",
-            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Kinkdapple was 26 moons old"
+            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Kinkdapple was 26 moons old",
+            "Kinkdapple gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Kinkdapple was 30 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1296,9 +1299,7 @@
         "log": [
             "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Kinkdapple was 26 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -1534,8 +1535,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 13,
+        "log": [
+            "Clawswirl tells Kinkdapple that they was worried about her. (low positive effect) - Kinkdapple was 30 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1916,9 +1919,9 @@
         "mates": false,
         "family": false,
         "romance": 25,
-        "like": 42,
+        "like": 50,
         "respect": 10,
-        "comfort": 58,
+        "comfort": 66,
         "trust": 15,
         "log": [
             "Kinkpaw gives Dustpaw advice on an upcoming assessment. (medium positive effect) - Kinkpaw was 6 moons old",
@@ -1931,7 +1934,8 @@
             "Kinkdapple didn't get the joke Dustnose was telling. (low negative effect) - Kinkdapple was 15 moons old",
             "Dustnose thanked Kinkdapple for bringing him food. (low positive effect) - Kinkdapple was 18 moons old",
             "Kinkdapple shares a joke about a neighboring Clan with Dustnose. (low positive effect) - Kinkdapple was 22 moons old",
-            "Dustnose complained so relentlessly about his patrol assignment that Sagospeck, Kinkdapple, and Ashenpelt could only sigh and bear it. (negative effect) - Kinkdapple was 27 moons old"
+            "Dustnose complained so relentlessly about his patrol assignment that Sagospeck, Kinkdapple, and Ashenpelt could only sigh and bear it. (negative effect) - Kinkdapple was 27 moons old",
+            "Dustnose, Ashenpelt, and Kinkdapple took a sunbath and had a little small talk. (positive effect) - Kinkdapple was 29 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1991,9 +1995,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 41,
+        "like": 49,
         "respect": 21,
-        "comfort": 47,
+        "comfort": 55,
         "trust": 16,
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Kinkkit was 4 moons old",
@@ -2008,7 +2012,8 @@
             "Kinkdapple and Ashenpaw heckled another Clan at the Gathering together. (high positive effect) - Kinkdapple was 13 moons old",
             "Kinkdapple and Ashenpelt avoided each other after an unpleasant training patrol. (negative effect) - Kinkdapple was 14 moons old",
             "Kinkdapple and Ashenpelt couldn't agree which way to go on a patrol and got home late. (medium negative effect) - Kinkdapple was 20 moons old",
-            "The Clan hears Kinkdapple and Ashenpelt laughing together across the camp. (medium positive effect) - Kinkdapple was 27 moons old"
+            "The Clan hears Kinkdapple and Ashenpelt laughing together across the camp. (medium positive effect) - Kinkdapple was 27 moons old",
+            "Dustnose, Ashenpelt, and Kinkdapple took a sunbath and had a little small talk. (positive effect) - Kinkdapple was 29 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2179,12 +2184,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -10,
+        "like": -16,
+        "respect": -4,
+        "comfort": -5,
+        "trust": -16,
         "log": [
-            "Kinkdapple heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Kinkdapple was 25 moons old"
+            "Kinkdapple heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Kinkdapple was 25 moons old",
+            "Kinkdapple takes a bout of bad weather as a bad omen about Sagospeck. (high negative effect) - Kinkdapple was 30 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2229,11 +2235,7 @@
         "log": [
             "Kinkdapple talks to Softspring about a mutual friend they have both been worrying about. (high positive effect) - Kinkdapple was 29 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "182",
@@ -2325,11 +2327,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -22,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Kinkdapple disapproved of Bushheart wearing a collar. (negative effect) - Kinkdapple was 30 moons old",
+            "Kinkdapple and Bushheart try to upstage one another during battle training. (medium negative effect) - Kinkdapple was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2728,9 +2735,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Kinkdapple wondered where Deltakit went when she disappeared for a few days. (negative effect) - Kinkdapple was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2761,6 +2772,58 @@
     {
         "cat_from_id": "182",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

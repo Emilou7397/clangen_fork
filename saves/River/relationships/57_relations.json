@@ -1186,9 +1186,7 @@
             "When tucking in for the night, Fringesnap saw that Talonlake fixed his nest. (low positive effect) - Fringesnap was 59 moons old",
             "After the Gathering, Fringesnap notices that Talonlake is making sure everyone got home. (low positive effect) - Fringesnap was 86 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -1600,15 +1598,16 @@
         "mates": false,
         "family": false,
         "romance": 11,
-        "like": 5,
-        "respect": 4,
+        "like": 10,
+        "respect": 9,
         "comfort": -2,
         "trust": -4,
         "log": [
             "Hollyheart is upset after spending the day with Fringesnap's bad attitude. (low negative effect) - Fringesnap was 41 moons old",
             "Fringesnap asks Hollyheart how he's doing. (low positive effect) - Fringesnap was 46 moons old",
             "Fringesnap is feeling lost and asks Hollyheart for advice on what to do. (medium positive effect) - Fringesnap was 64 moons old",
-            "Fringesnap picks some fragrant flowers for Hollyheart. (high positive effect) - Fringesnap was 68 moons old"
+            "Fringesnap picks some fragrant flowers for Hollyheart. (high positive effect) - Fringesnap was 68 moons old",
+            "Fringesnap enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Fringesnap was 86 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2299,12 +2298,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 3,
-        "comfort": 0,
-        "trust": 3,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -8,
+        "respect": -3,
+        "comfort": -21,
+        "trust": -5,
+        "log": [
+            "Fringesnap can't stop thinking about the way Braveheart glared at his Clanmate. (high negative effect) - Fringesnap was 88 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -2433,31 +2437,33 @@
         "romance": 0,
         "like": 8,
         "respect": 10,
-        "comfort": 8,
+        "comfort": 11,
         "trust": 0,
         "log": [
             "Fringesnap heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Fringesnap was 52 moons old",
-            "Minnowlily, Brindletooth, and Fringesnap had a nice talk while eating. (positive effect) - Fringesnap was 67 moons old"
+            "Minnowlily, Brindletooth, and Fringesnap had a nice talk while eating. (positive effect) - Fringesnap was 67 moons old",
+            "Fringesnap shares a joke about a neighboring Clan with Minnowlily. (low positive effect) - Fringesnap was 88 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "57",
         "cat_to_id": "171",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 0,
         "respect": -13,
         "comfort": -13,
         "trust": -10,
         "log": [
             "Fringesnap heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Fringesnap was 57 moons old",
-            "A Clanmate that Fringesnap wanted to get to know better is already friends with Coquitostep. (low negative effect) - Fringesnap was 86 moons old"
+            "A Clanmate that Fringesnap wanted to get to know better is already friends with Coquitostep. (low negative effect) - Fringesnap was 86 moons old",
+            "Fringesnap can't help but admire Coquitostep's pelt. (low positive effect) - Fringesnap was 87 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "57",
@@ -2725,8 +2731,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -17,
+        "log": [
+            "Fringesnap realizes that Jademuzzle's been avoiding him. (medium negative effect) - Fringesnap was 87 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3291,11 +3299,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "57",
@@ -3339,6 +3350,58 @@
     {
         "cat_from_id": "57",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "57",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

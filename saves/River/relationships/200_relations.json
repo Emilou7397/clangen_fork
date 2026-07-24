@@ -12,9 +12,7 @@
         "log": [
             "Prancelaurel won't help Velvettooth fix their nest. (low negative effect) - Velvettooth was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "200",
@@ -916,12 +914,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": -13,
         "log": [
-            "Hollyheart snitches on Velvetkit for something minor. (low negative effect) - Velvetkit was 4 moons old"
+            "Hollyheart snitches on Velvetkit for something minor. (low negative effect) - Velvetkit was 4 moons old",
+            "Velvettooth enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Velvettooth was 23 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1227,11 +1226,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 4,
+        "respect": 3,
+        "comfort": 11,
+        "trust": 3,
+        "log": [
+            "Velvettooth talks to Currenthiss about a mutual friend they have both been worrying about. (high positive effect) - Velvettooth was 24 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1476,9 +1477,7 @@
         "log": [
             "Velvetkit enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Velvetkit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "200",
@@ -1552,11 +1551,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 7,
+        "respect": -3,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Velvettooth and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Velvettooth was 21 moons old"
+            "Velvettooth and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Velvettooth was 21 moons old",
+            "Velvettooth lost faith in Lilynoise when Lilynoise admitted to not being able to identify tansy during an herb-gathering patrol. (negative effect) - Velvettooth was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1792,12 +1792,18 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 16,
-        "trust": 0,
+        "comfort": 32,
+        "trust": 12,
         "log": [
-            "Dustnose brought Velvettooth some dry bedding. (low positive effect) - Velvettooth was 15 moons old"
+            "Dustnose brought Velvettooth some dry bedding. (low positive effect) - Velvettooth was 15 moons old",
+            "Dustnose brought Velvettooth some dry bedding. (low positive effect) - Velvettooth was 24 moons old",
+            "Dustnose lets Velvettooth grab a piece of fresh-kill first. (low positive effect) - Velvettooth was 25 moons old",
+            "Dustnose promises Velvettooth that everything will be okay. (medium positive effect) - Velvettooth was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "200",
@@ -2101,16 +2107,14 @@
             "Velvettooth's friend doesn't trust Scalebloom. (low negative effect) - Velvettooth was 18 moons old",
             "Velvettooth prevents something from falling on Scalebloom. (low positive effect) - Velvettooth was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "200",
         "cat_to_id": "214",
         "mates": false,
         "family": false,
-        "romance": 26,
+        "romance": 23,
         "like": 20,
         "respect": 6,
         "comfort": 41,
@@ -2122,7 +2126,8 @@
             "Stagpaw gives Velvetpaw something that they dropped. (low positive effect) - Velvetpaw was 10 moons old",
             "Velvetpaw thinks they can tell Stagpaw something important. (high positive effect) - Velvetpaw was 13 moons old",
             "Velvettooth can't help but admire Stagclaw's pelt. (low positive effect) - Velvettooth was 20 moons old",
-            "Velvettooth can't help but admire Stagclaw's pelt. (low positive effect) - Velvettooth was 22 moons old"
+            "Velvettooth can't help but admire Stagclaw's pelt. (low positive effect) - Velvettooth was 22 moons old",
+            "Velvettooth didn't realize Stagclaw was flirting with them. (low negative effect) - Velvettooth was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2144,10 +2149,7 @@
             "Velvettooth snaps at Softspring for seeking treatment for something trivial and wasting their time. (medium negative effect) - Velvettooth was 21 moons old",
             "Velvettooth thinks their dreams might not come true with Softspring. (medium negative effect) - Velvettooth was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "200",
@@ -2672,6 +2674,60 @@
     {
         "cat_from_id": "200",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 8,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "200",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "200",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "200",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "200",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

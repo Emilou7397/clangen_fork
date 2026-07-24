@@ -35,9 +35,26 @@
         "moon": 136
     },
     "lead_ceremony": null,
-    "afterlife_acceptance": null,
+    "afterlife_acceptance": "starclan_default_2",
     "possible_history": {},
-    "died_by": [],
+    "died_by": [
+        {
+            "involved": "57",
+            "text": "m_c was secretly murdered by Fringesnap.",
+            "moon": 153
+        }
+    ],
     "scar_events": [],
-    "murder": {}
+    "murder": {
+        "is_victim": [
+            {
+                "murderer": "57",
+                "revealed": {
+                    "to_clan": false,
+                    "aware_individuals": []
+                },
+                "moon": 153
+            }
+        ]
+    }
 }

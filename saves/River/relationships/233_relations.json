@@ -81,9 +81,7 @@
         "log": [
             "Shorefrill notices how Bitterleaf is being helpful around camp. (medium positive effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -613,10 +611,7 @@
             "Shorepaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Shorepaw was 11 moons old",
             "Shorefrill was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Shorefrill was 13 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -651,11 +646,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "respect": -5,
+        "comfort": 13,
+        "trust": 8,
+        "log": [
+            "Shorefrill heard that Mallowpelt touched noses with a rogue. (negative effect) - Shorefrill was 15 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -966,14 +966,20 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 15,
+        "respect": 30,
         "comfort": 10,
-        "trust": 25,
+        "trust": 40,
         "log": [
             "Shorekit was found by Wavelight and his patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old",
-            "Shorepaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shorepaw was 7 moons old"
+            "Shorepaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shorepaw was 7 moons old",
+            "Shorefrill gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shorefrill was 15 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1597,11 +1603,7 @@
             "Shorefrill was grateful that Velvettooth gave him a piece of thyme to put in his nest. (positive effect) - Shorefrill was 13 moons old",
             "Shorefrill helped Velvettooth bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1737,8 +1739,8 @@
         "romance": 0,
         "like": -8,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 3,
+        "trust": 3,
         "log": [
             "Shorepaw tells Skytooth to talk a little quieter. (low negative effect) - Shorepaw was 11 moons old"
         ],
@@ -1765,14 +1767,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 9,
+        "respect": -10,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Shorepaw was 9 moons old"
+            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Shorepaw was 9 moons old",
+            "Shorefrill disapproved of Bushheart wearing a collar. (negative effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1826,11 +1831,7 @@
             "Shorepaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Shorepaw was 11 moons old",
             "Some of Shorefrill's favorite memories are with Caterpillarstripe. (high positive effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1854,8 +1855,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Shorefrill suspects Nutpaw lied about something trivial. (low negative effect) - Shorefrill was 15 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1880,9 +1883,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Shorefrill said he'd cover for Branchpaw, but when it came time, he got Branchpaw in trouble. (medium negative effect) - Shorefrill was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1905,10 +1912,11 @@
         "romance": 0,
         "like": 17,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 17,
         "trust": 0,
         "log": [
-            "Shorefrill noticed that Edelweisspaw is falling behind in training and offered to help him catch up. (medium positive effect) - Shorefrill was 13 moons old"
+            "Shorefrill noticed that Edelweisspaw is falling behind in training and offered to help him catch up. (medium positive effect) - Shorefrill was 13 moons old",
+            "During a hunting patrol, Shorefrill and Edelweisspaw share a piece of prey that is too small to bring back to camp. (medium positive effect) - Shorefrill was 15 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1946,10 +1954,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "When Shorefrill asked Fishleg for help, Fishleg ignored him. (low negative effect) - Shorefrill was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -2089,12 +2101,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -2103,8 +2117,8 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 13,
+        "comfort": 13,
         "trust": -8,
         "log": [
             "Bubpaw shares a suspiciously exaggerated tale with Wheatpaw, Shorepaw, and Bushpaw, who seem far from convinced of its veracity. (negative effect) - Shorepaw was 10 moons old"
@@ -2133,9 +2147,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Shorefrill wondered where Deltakit went when she disappeared for a few days. (negative effect) - Shorefrill was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -2166,6 +2184,58 @@
     {
         "cat_from_id": "233",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

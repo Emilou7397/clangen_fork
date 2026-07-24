@@ -1,19 +1,22 @@
 {
     "injuries": {
-        "torn pelt": {
-            "severity": "minor",
-            "mortality": 0,
-            "duration": 1,
-            "moon_start": 151,
+        "broken bone": {
+            "severity": "severe",
+            "mortality": 60,
+            "duration": 4,
+            "moon_start": 152,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 25
+                    "chance": 15
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "weak leg",
+                "twisted leg"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }

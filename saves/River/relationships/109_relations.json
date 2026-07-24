@@ -1370,8 +1370,8 @@
         "romance": 0,
         "like": 5,
         "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 8,
+        "trust": 8,
         "log": [
             "Daisymoor was impressed by Dahliacrest's hunting prowess. (positive effect) - Daisymoor was 19 moons old"
         ],
@@ -1672,7 +1672,7 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 2,
+        "like": -6,
         "respect": 31,
         "comfort": 14,
         "trust": 8,
@@ -1700,9 +1700,7 @@
             "Whiskerleg and Daisymoor discussed the vision Poppybriar claimed to have. (positive effect) - Daisymoor was 54 moons old",
             "Daisymoor knows that the advice Whiskerleg gave her will be helpful. (high positive effect) - Daisymoor was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "109",
@@ -1742,14 +1740,15 @@
         "family": false,
         "romance": 0,
         "like": 18,
-        "respect": 24,
+        "respect": 16,
         "comfort": 10,
         "trust": 4,
         "log": [
             "Daisymoor is wowed by how bravely Midnightpaw fought the other day. (high positive effect) - Daisymoor was 26 moons old",
             "Daisymoor notices a strange glint in Midnighthaze's eyes. (low negative effect) - Daisymoor was 40 moons old",
             "The moonlight encourages Daisymoor, Dancingfleck, Hushshimmer, Midnighthaze, and Brindlepaw to slow down and stretch. (positive effect) - Daisymoor was 46 moons old",
-            "Daisymoor can tell how brave Midnighthaze is being about something important. (low positive effect) - Daisymoor was 67 moons old"
+            "Daisymoor can tell how brave Midnighthaze is being about something important. (low positive effect) - Daisymoor was 67 moons old",
+            "Midnighthaze acts childishly in front of Daisymoor. (low negative effect) - Daisymoor was 69 moons old"
         ],
         "no_longer_neutral": [
             "respect"
@@ -1888,9 +1887,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 2,
         "log": [
-            "Daisymoor and Meadowspots drove off rogues together. (positive effect) - Daisymoor was 64 moons old"
+            "Daisymoor and Meadowspots drove off rogues together. (positive effect) - Daisymoor was 64 moons old",
+            "Daisymoor finds out something small about Meadowspots that Meadowspots had lied about before. (low negative effect) - Daisymoor was 68 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1937,9 +1937,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -13,
         "log": [
-            "Daisymoor and Miteleaf stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Daisymoor was 56 moons old"
+            "Daisymoor and Miteleaf stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Daisymoor was 56 moons old",
+            "Daisymoor doesn't think that Miteleaf has been completely honest lately. (low negative effect) - Daisymoor was 68 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3009,12 +3010,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 6,
+        "comfort": 21,
+        "trust": 8,
+        "log": [
+            "Daisymoor and Aster gossip about drama nobody else knows. (high positive effect) - Daisymoor was 69 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3058,6 +3066,63 @@
     {
         "cat_from_id": "109",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -8,
+        "respect": 0,
+        "comfort": 0,
+        "trust": -8,
+        "log": [
+            "Mistlekit tells Braveocean, Daisymoor, and Softspring a story that earns more skepticism than admiration. (negative effect) - Daisymoor was 69 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

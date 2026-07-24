@@ -530,7 +530,7 @@
         "romance": 33,
         "like": 40,
         "respect": 0,
-        "comfort": 11,
+        "comfort": -2,
         "trust": -18,
         "log": [
             "Pebblechase wondered where Primkit went when she disappeared for a few days. (negative effect)- Pebblechase was 28 moons old",
@@ -609,12 +609,7 @@
             "Pebblechase bestows wisdom onto Peatcrest. (low positive effect) - Pebblechase was 143 moons old",
             "Pebblechase, Peatcrest, and Auburnsplash had a nice talk while eating. (positive effect) - Pebblechase was 161 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "201",
@@ -813,28 +808,6 @@
             "Pebblechase asks Auburnsplash how she's doing. (low positive effect) - Pebblechase was 154 moons old",
             "Pebblechase, Peatcrest, and Auburnsplash had a nice talk while eating. (positive effect) - Pebblechase was 161 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
-    },
-    {
-        "cat_from_id": "201",
-        "cat_to_id": "22",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 14,
-        "respect": 11,
-        "comfort": 14,
-        "trust": 11,
-        "log": [
-            "Tortellini doesn't entertain a rumor that is being spread about Pebblechase. (medium positive effect)- Pebblechase was 38 moons old",
-            "Pebblechase is amazed at how skilled Tortellini really is. (high positive effect)- Pebblechase was 39 moons old",
-            "Dancingscreech, Fidgetmouse, Rabbitspark, Tortellini, and Pebblechase hang out while stretching. (positive effect)- Pebblechase was 56 moons old"
-        ],
         "no_longer_neutral": []
     },
     {
@@ -938,7 +911,7 @@
         "like": 100,
         "respect": 100,
         "comfort": 100,
-        "trust": 86,
+        "trust": 90,
         "log": [
             "Prancekit, Auburnsplash, and Pebblechase took a sunbath and had a little small talk. (positive effect)- Pebblechase was 44 moons old",
             "Rabbitspark, Auburnsplash, Tortellini, and Pebblechase wish that Prancelaurel let them sleep instead of getting them up for early morning stretches. (negative effect)- Pebblechase was 53 moons old",
@@ -956,9 +929,15 @@
             "Gracklefur, Peakspore, Pebblechase, Prancelaurel, and Paellapad blow off steam by stretching with and venting to each other. (positive effect)- Pebblechase was 100 moons old",
             "Pebblechase calls out a Clanmate for spreading a rumor about Prancelaurel. (high positive effect) - Pebblechase was 122 moons old",
             "Fidgetmouse, Paellapad, Pebblechase, Bitterleaf, and Prancelaurel blow off steam by stretching with and venting to each other. (positive effect) - Pebblechase was 128 moons old",
-            "Pebblechase learned from Prancelaurel about how the moon controls the tides. (positive effect) - Pebblechase was 129 moons old"
+            "Pebblechase learned from Prancelaurel about how the moon controls the tides. (positive effect) - Pebblechase was 129 moons old",
+            "Prancelaurel compliments Pebblechase on something he was self-conscious about. (high positive effect) - Pebblechase was 163 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -1793,10 +1772,7 @@
             "Pebblechase was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Pebblechase was 158 moons old",
             "Pebblechase was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Pebblechase was 160 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "201",
@@ -1848,9 +1824,9 @@
         "family": true,
         "romance": 0,
         "like": 67,
-        "respect": -4,
+        "respect": -9,
         "comfort": 84,
-        "trust": 57,
+        "trust": 52,
         "log": [
             "Pebblechase gave Mallowkit a trinket he found while out of the camp today. (medium positive effect)- Pebblechase was 88 moons old",
             "Pheasantpaw, Mallowpaw, Onepaw, and Poolpaw pointedly ignore Pebblechase's reminders to focus on training instead of gossiping. (negative effect)- Pebblechase was 94 moons old",
@@ -1861,9 +1837,15 @@
             "Pebblechase heard Mallowpelt fell asleep guarding camp. (negative effect) - Pebblechase was 124 moons old",
             "Spittle and flecks of bone fly while Mallowpelt gobbles down prey, reminding Moletooth, Pebblechase, Carnationmunch, and Silkymunch to seek out better mealtime companionship next time. (negative effect) - Pebblechase was 127 moons old",
             "Mallowpelt tromped into the warrior's den with muddy paws, trailing muck straight through Shinefur and Pebblechase's nests. (negative effect) - Pebblechase was 129 moons old",
-            "Pebblechase disapproved of Mallowpelt wearing a collar. (negative effect) - Pebblechase was 138 moons old"
+            "Pebblechase disapproved of Mallowpelt wearing a collar. (negative effect) - Pebblechase was 138 moons old",
+            "Pebblechase heard that Mallowpelt touched noses with a rogue. (negative effect) - Pebblechase was 162 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2352,16 +2334,21 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
             "Pebblechase snaps at Wavekit's annoying antics. (medium negative effect) - Pebblechase was 111 moons old",
             "Pebblechase heard that Wavepaw chased a rogue off the territory. (positive effect) - Pebblechase was 119 moons old",
             "Pebblechase heard that Wavelight touched noses with a loner. (negative effect) - Pebblechase was 122 moons old",
-            "Pebblechase gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Pebblechase was 154 moons old"
+            "Pebblechase gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Pebblechase was 154 moons old",
+            "Pebblechase gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Pebblechase was 162 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2377,9 +2364,7 @@
             "Pebblechase gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Pebblechase was 132 moons old",
             "Pebblechase was impressed when Cherrytail convinced rogues to leave the territory. (positive effect) - Pebblechase was 141 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "201",
@@ -2871,9 +2856,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": -8,
+        "trust": 0,
         "log": [
-            "Pebblechase heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pebblechase was 153 moons old"
+            "Pebblechase heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pebblechase was 153 moons old",
+            "Pebblechase bestows wisdom onto Terabyte. (low positive effect) - Pebblechase was 162 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2883,11 +2869,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -33,
+        "respect": -20,
+        "comfort": -6,
+        "trust": -7,
+        "log": [
+            "Braveheart doesn't respect Pebblechase's personal space lately. (high negative effect) - Pebblechase was 162 moons old",
+            "Braveheart returned to the elder's den dripping mud everywhere and managed to ruin Jademuzzle, Terabyte, and Pebblechase's nests. (negative effect) - Pebblechase was 162 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3442,9 +3431,7 @@
             "Electronegativity reminds Pebblechase to grab something from the fresh-kill pile if she hasn't already. (medium positive effect) - Pebblechase was 156 moons old",
             "Pebblechase notices that Electronegativity is fixing a damaged part of the camp without being asked. (low positive effect) - Pebblechase was 161 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "201",
@@ -3507,11 +3494,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -11,
+        "respect": -21,
         "comfort": 6,
         "trust": -9,
         "log": [
-            "Pebblechase finds his feelings conflicted towards the new family addition. (neutral effect) - Pebblechase was 142 moons old"
+            "Pebblechase finds his feelings conflicted towards the new family addition. (neutral effect) - Pebblechase was 142 moons old",
+            "Pebblechase disapproved of Bushheart wearing a collar. (negative effect) - Pebblechase was 161 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3875,12 +3863,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -16,
+        "comfort": -4,
+        "trust": -6,
+        "log": [
+            "A Clanmate tells Pebblechase that Merlotbite's stories are better. (high negative effect) - Pebblechase was 163 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -3917,11 +3910,16 @@
         "like": 40,
         "respect": 8,
         "comfort": 32,
-        "trust": 9,
+        "trust": -1,
         "log": [
-            "Pebblechase visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Pebblechase was 158 moons old"
+            "Pebblechase visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Pebblechase was 158 moons old",
+            "Pebblechase wondered where Deltakit went when she disappeared for a few days. (negative effect) - Pebblechase was 163 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -3963,5 +3961,78 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 24,
+        "respect": 23,
+        "comfort": 22,
+        "trust": 27,
+        "log": [
+            "Pebblechase is excited for his family to grow further. (positive effect) - Pebblechase was 162 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 27,
+        "respect": 29,
+        "comfort": 25,
+        "trust": 30,
+        "log": [
+            "Pebblechase is excited for his family to grow further. (positive effect) - Pebblechase was 162 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 23,
+        "respect": 21,
+        "comfort": 21,
+        "trust": 26,
+        "log": [
+            "Pebblechase visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Pebblechase was 162 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     }
 ]

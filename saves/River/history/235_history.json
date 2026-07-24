@@ -8,19 +8,32 @@
     "mentor_influence": {
         "trait": {
             "28": {
-                "sociability": 5,
-                "aggression": 2,
-                "stability": -1
+                "sociability": 7,
+                "aggression": 4,
+                "stability": -1,
+                "strings": [
+                    "be friendly towards others",
+                    "defend {PRONOUN\/m_c\/poss} beliefs",
+                    "behave erratically"
+                ]
             }
         },
         "skill": {
             "28": {
-                "INSIGHTFUL": 10,
-                "SPEAKER": 3
+                "INSIGHTFUL": 11,
+                "SPEAKER": 5,
+                "strings": [
+                    "providing insight",
+                    "arguing"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "resilience",
+        "graduation_age": 11,
+        "moon": 152
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

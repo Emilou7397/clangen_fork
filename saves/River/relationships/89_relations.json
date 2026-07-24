@@ -6,7 +6,7 @@
         "family": true,
         "romance": 0,
         "like": 79,
-        "respect": 61,
+        "respect": 66,
         "comfort": 89,
         "trust": 82,
         "log": [
@@ -20,7 +20,8 @@
             "Flightsplash and Yewstar worked together to gather wild garlic and mallow. (positive effect) - Flightsplash was 48 moons old",
             "Flightsplash and Yewstar were glad to catch two birds with one pounce by both gathering plantain <i>and<\/i> cleaning up the most often-used trails of the territory. (positive effect) - Flightsplash was 58 moons old",
             "Flightsplash and Yewstar chase off a predator on a patrol together. (medium positive effect) - Flightsplash was 61 moons old",
-            "Yewstar spent time looking for treasures on the beach with Flightsplash. (positive effect) - Flightsplash was 68 moons old"
+            "Yewstar spent time looking for treasures on the beach with Flightsplash. (positive effect) - Flightsplash was 68 moons old",
+            "Flightsplash heard about how Yewstar's patrol stole a fox's prey. (positive effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -526,7 +527,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 18,
         "comfort": 0,
         "trust": 5,
         "log": [
@@ -535,7 +536,8 @@
             "Flightsplash noticed how successful Suntooth's hunting patrol was. (positive effect) - Flightsplash was 27 moons old",
             "Flightsplash heard that Suntooth chased a rogue off the territory. (positive effect) - Flightsplash was 34 moons old",
             "Flightsplash saw Suntooth get soaked and embarrassed by some dolphins. (negative effect) - Flightsplash was 36 moons old",
-            "Flightsplash heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flightsplash was 40 moons old"
+            "Flightsplash heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flightsplash was 40 moons old",
+            "Flightsplash heard about how Suntooth's patrol stole a fox's prey. (positive effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -855,12 +857,13 @@
         "family": false,
         "romance": 17,
         "like": 0,
-        "respect": 13,
+        "respect": 8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Flightsplash is motivated by Verbenabloom's big smile. (low positive effect)- Flightsplash was 13 moons old",
-            "Flightsplash brushes against Verbenabloom while correcting her stance and looks away with a purr. (medium positive effect) - Flightsplash was 69 moons old"
+            "Flightsplash brushes against Verbenabloom while correcting her stance and looks away with a purr. (medium positive effect) - Flightsplash was 69 moons old",
+            "Flightsplash was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Flightsplash was 72 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1039,7 +1042,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
+        "like": -20,
         "respect": 0,
         "comfort": -8,
         "trust": 0,
@@ -1047,7 +1050,9 @@
             "Flightsplash can't help but feel uneased at Sardinespeckle's words lately. (low negative effect) - Flightsplash was 26 moons old",
             "Flightsplash notices how rude Sardinespeckle is being to a Clanmate. (medium negative effect) - Flightsplash was 63 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "89",
@@ -1202,12 +1207,7 @@
             "Flightsplash was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Flightsplash was 69 moons old",
             "Flightsplash was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Flightsplash was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "89",
@@ -1263,9 +1263,9 @@
         "family": false,
         "romance": 0,
         "like": 65,
-        "respect": 18,
+        "respect": 13,
         "comfort": 35,
-        "trust": -12,
+        "trust": -17,
         "log": [
             "Mallowpelt tells Flightsplash that his pelt is shiny today. (low positive effect)- Flightsplash was 10 moons old",
             "Flightsplash is impressed by Mallowpelt helping others today. (low positive effect)- Flightsplash was 13 moons old",
@@ -1276,9 +1276,15 @@
             "Flightsplash disapproved of Mallowpelt wearing a collar. (negative effect) - Flightsplash was 49 moons old",
             "Flightsplash heard about how Mallowpelt's patrol drove off a scavenging fox. (positive effect) - Flightsplash was 63 moons old",
             "...but wished Mallowpelt had obeyed the \"no rolling on the plants\" rule a little more. (negative effect) - Flightsplash was 66 moons old",
-            "Flightsplash appreciated Mallowpelt's help gathering catmint... (positive effect) - Flightsplash was 66 moons old"
+            "Flightsplash appreciated Mallowpelt's help gathering catmint... (positive effect) - Flightsplash was 66 moons old",
+            "Flightsplash heard that Mallowpelt touched noses with a rogue. (negative effect) - Flightsplash was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "89",
@@ -1510,10 +1516,7 @@
             "Flightsplash swaps favorite prey with Dancingfleck. (medium positive effect) - Flightsplash was 72 moons old",
             "Flightsplash and Dancingfleck failed to steal an eagle's prey during a hunting patrol. (negative effect) - Flightsplash was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "89",
@@ -1521,7 +1524,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 40,
+        "like": 52,
         "respect": 32,
         "comfort": 17,
         "trust": -14,
@@ -1532,14 +1535,10 @@
             "Flightsplash and Snakedrop heckled another Clan at the Gathering together. (high positive effect) - Flightsplash was 36 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Flightsplash. (positive effect) - Flightsplash was 56 moons old",
             "Flightsplash heard about how Snakedrop's patrol drove off a scavenging fox. (positive effect) - Flightsplash was 63 moons old",
-            "Flightsplash and Snakedrop failed to steal an eagle's prey during a hunting patrol. (negative effect) - Flightsplash was 72 moons old"
+            "Flightsplash and Snakedrop failed to steal an eagle's prey during a hunting patrol. (negative effect) - Flightsplash was 72 moons old",
+            "Flightsplash greets Snakedrop as he's exiting the warriors' den. (medium positive effect) - Flightsplash was 73 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "89",
@@ -1747,8 +1746,8 @@
         "mates": false,
         "family": false,
         "romance": 16,
-        "like": 13,
-        "respect": 0,
+        "like": 5,
+        "respect": -8,
         "comfort": 22,
         "trust": -9,
         "log": [
@@ -1756,7 +1755,8 @@
             "Flightsplash heard that Snookbumble touched noses with a kittypet. (negative effect) - Flightsplash was 38 moons old",
             "Snookbumble shares a suspiciously exaggerated tale with Piperthrift, Wavelight, Flightsplash, and Heathbeetle, who seem far from convinced of its veracity. (negative effect) - Flightsplash was 47 moons old",
             "Snookbumble, Flightsplash, and Heathbeetle had a nice talk while eating. (positive effect) - Flightsplash was 49 moons old",
-            "Snookbumble, Flightsplash, and Wavelight had a nice talk while eating. (positive effect) - Flightsplash was 57 moons old"
+            "Snookbumble, Flightsplash, and Wavelight had a nice talk while eating. (positive effect) - Flightsplash was 57 moons old",
+            "Snookbumble complained so relentlessly about her patrol assignment that Wavelight, Clawswirl, Poppybriar, and Flightsplash could only sigh and bear it. (negative effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1801,19 +1801,23 @@
         "family": false,
         "romance": 0,
         "like": 26,
-        "respect": 15,
+        "respect": 30,
         "comfort": 8,
-        "trust": 15,
+        "trust": 30,
         "log": [
             "Flightsplash heard that Wavepaw chased a rogue off the territory. (positive effect) - Flightsplash was 30 moons old",
             "Flightsplash heard that Wavelight touched noses with a loner. (negative effect) - Flightsplash was 33 moons old",
             "Snookbumble, Flightsplash, and Wavelight had a nice talk while eating. (positive effect) - Flightsplash was 57 moons old",
             "Flightsplash and Wavelight successfully gathered berries together. (positive effect) - Flightsplash was 62 moons old",
             "Flightsplash gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Flightsplash was 66 moons old",
-            "Flightsplash prevents something from falling on Wavelight. (low positive effect) - Flightsplash was 72 moons old"
+            "Flightsplash prevents something from falling on Wavelight. (low positive effect) - Flightsplash was 72 moons old",
+            "Flightsplash gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Flightsplash was 74 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "like",
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -2141,9 +2145,7 @@
             "Flightsplash heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Flightsplash was 42 moons old",
             "Flightsplash and Shiveringdusk failed to steal an eagle's prey during a hunting patrol. (negative effect) - Flightsplash was 72 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "89",
@@ -2394,13 +2396,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": -20,
         "log": [
             "Flightsplash heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Flightsplash was 33 moons old",
             "Flightsplash was deeply disappointed to hear that Pigmentpelt broke the Code. (negative effect) - Flightsplash was 46 moons old",
-            "Flightsplash heard Pigmentpelt fell asleep guarding camp. (negative effect) - Flightsplash was 52 moons old"
+            "Flightsplash heard Pigmentpelt fell asleep guarding camp. (negative effect) - Flightsplash was 52 moons old",
+            "Flightsplash heard about how Pigmentpelt's patrol stole a fox's prey. (positive effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2495,11 +2498,7 @@
             "Flightsplash doesn't tell Minnowlily that he forgot to groom a part of his fur. (low negative effect) - Flightsplash was 55 moons old",
             "Spittle and flecks of bone fly while Minnowlily gobbles down prey, reminding Sardinespeckle, Garlicberry, and Flightsplash to seek out better mealtime companionship next time. (negative effect) - Flightsplash was 71 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "89",
@@ -2864,12 +2863,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -10,
+        "like": 21,
+        "respect": 7,
+        "comfort": 7,
+        "trust": -4,
         "log": [
-            "Flightsplash heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Flightsplash was 61 moons old"
+            "Flightsplash heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Flightsplash was 61 moons old",
+            "Flightsplash makes plans in hopes that Scalebloom will get involved. (high positive effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2882,7 +2882,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
         "no_longer_neutral": []
     },
@@ -2937,13 +2937,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": -18,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flightsplash disapproved of Moorghost wearing a collar. (negative effect) - Flightsplash was 58 moons old"
+            "Flightsplash disapproved of Moorghost wearing a collar. (negative effect) - Flightsplash was 58 moons old",
+            "Moorghost pulled an embarrassing prank on Flightsplash's friend. (low negative effect) - Flightsplash was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "89",
@@ -2965,11 +2968,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Flightsplash learns a helpful skill from Skytooth. (medium positive effect) - Flightsplash was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "89",
@@ -2991,11 +2998,12 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flightsplash noticed that Bushpaw is falling behind in training and offered to help her catch up. (medium positive effect) - Flightsplash was 68 moons old"
+            "Flightsplash noticed that Bushpaw is falling behind in training and offered to help her catch up. (medium positive effect) - Flightsplash was 68 moons old",
+            "Flightsplash disapproved of Bushheart wearing a collar. (negative effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3061,12 +3069,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Flightsplash heard about how Endothermic's patrol drove off a scavenging fox. (positive effect) - Flightsplash was 63 moons old",
-            "Flightsplash heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flightsplash was 64 moons old"
+            "Flightsplash heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flightsplash was 64 moons old",
+            "Flightsplash heard about how Endothermic's patrol stole a fox's prey. (positive effect) - Flightsplash was 73 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3407,9 +3416,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Flightsplash wondered where Deltakit went when she disappeared for a few days. (negative effect) - Flightsplash was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "89",
@@ -3440,6 +3453,58 @@
     {
         "cat_from_id": "89",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "89",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "89",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "89",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "89",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -119,7 +119,7 @@
         "romance": 8,
         "like": 7,
         "respect": -5,
-        "comfort": 25,
+        "comfort": 17,
         "trust": -6,
         "log": [
             "Harekit is asking Heatherfern where kits come from. (medium positive effect)- Harekit was 4 moons old",
@@ -133,9 +133,12 @@
             "Fidgetmouse is annoyed Heatherfern paid more attention to Harefeather than she did to her recently. (negative effect) - Harefeather was 88 moons old",
             "Harefeather gave a gift to Heatherfern, but she turned up her nose at the offering. (high negative effect) - Harefeather was 93 moons old",
             "Heatherfern shares a suspiciously exaggerated tale with Harefeather, Prancelaurel, Yewstar, and Swallowstripe, who seem far from convinced of its veracity. (negative effect) - Harefeather was 107 moons old",
-            "Harefeather heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Harefeather was 133 moons old"
+            "Harefeather heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Harefeather was 133 moons old",
+            "Harefeather said something that rubbed Heatherfern the wrong way. (low negative effect) - Harefeather was 138 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -143,8 +146,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 100,
-        "respect": 38,
+        "like": 88,
+        "respect": 26,
         "comfort": 60,
         "trust": -12,
         "log": [
@@ -168,7 +171,8 @@
             "Harefeather and Pebblechase worked together to gather plantain. (positive effect) - Harefeather was 99 moons old",
             "Harefeather heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Harefeather was 107 moons old",
             "Harefeather and Pebblechase talk about what they see in the clouds. (low positive effect) - Harefeather was 114 moons old",
-            "Pebblechase tells Harefeather that his pelt is shiny today. (low positive effect) - Harefeather was 116 moons old"
+            "Pebblechase tells Harefeather that his pelt is shiny today. (low positive effect) - Harefeather was 116 moons old",
+            "Pebblechase tracked a trail of muddy pawprints into the elder's den, straight through the nests of Bitterleaf, Heatherfern, and Harefeather. (negative effect) - Harefeather was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -435,9 +439,7 @@
             "Harefeather, Ochretail, Pheasantbrush, Bitterleaf, and Dancingscreech hang out while stretching. (positive effect) - Harefeather was 108 moons old",
             "Harefeather thinks Clanmates talk more highly of Bitterleaf than him. (low negative effect) - Harefeather was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
@@ -721,29 +723,11 @@
     },
     {
         "cat_from_id": "10",
-        "cat_to_id": "22",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 16,
-        "respect": 8,
-        "comfort": 8,
-        "trust": -6,
-        "log": [
-            "Harefeather and Tortellini were unable to work together to drive off a fox. (negative effect)- Harefeather was 18 moons old",
-            "Harefeather and Tortellini persevered on a difficult hunt to bring down a large octopus together. (positive effect)- Harefeather was 27 moons old",
-            "Tortellini, Harefeather, and Carptail took a sunbath and had a little small talk. (positive effect)- Harefeather was 33 moons old",
-            "Tortellini thanked Harefeather for bringing her food. (low positive effect)- Harefeather was 35 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "10",
         "cat_to_id": "13",
         "mates": true,
         "family": false,
-        "romance": 68,
-        "like": 86,
+        "romance": 71,
+        "like": 89,
         "respect": 41,
         "comfort": 100,
         "trust": 21,
@@ -852,16 +836,14 @@
             "Harefeather heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Harefeather was 103 moons old",
             "Harefeather smells something strange on Bitebone. (low negative effect) - Harefeather was 136 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
         "cat_to_id": "28",
         "mates": false,
         "family": false,
-        "romance": 7,
+        "romance": 10,
         "like": 56,
         "respect": 5,
         "comfort": 58,
@@ -1657,12 +1639,7 @@
             "Harefeather was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Harefeather was 133 moons old",
             "Harefeather was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Harefeather was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
@@ -1709,14 +1686,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -16,
+        "respect": -21,
         "comfort": -8,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Harefeather said something that rubbed Mallowkit the wrong way. (low negative effect)- Harefeather was 65 moons old",
-            "Harefeather attempts to keep Mallowpaw, Pheasantpaw, Sardinepaw, and Onepaw focused during training, but the four continuously talk about unrelated topics. (negative effect)- Harefeather was 68 moons old"
+            "Harefeather attempts to keep Mallowpaw, Pheasantpaw, Sardinepaw, and Onepaw focused during training, but the four continuously talk about unrelated topics. (negative effect)- Harefeather was 68 moons old",
+            "Harefeather heard that Mallowpelt touched noses with a rogue. (negative effect) - Harefeather was 137 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -1882,10 +1863,7 @@
             "Harefeather has to snap Shimmerrunner out of a daze to ask a question. (low negative effect) - Harefeather was 113 moons old",
             "Harefeather saw Shimmerrunner telling stories to the kits. (positive effect) - Harefeather was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
@@ -1968,12 +1946,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": -13,
         "log": [
-            "Harefeather noticed that Hollyheart wasn't in his nest last night. (low negative effect) - Harefeather was 131 moons old"
+            "Harefeather noticed that Hollyheart wasn't in his nest last night. (low negative effect) - Harefeather was 131 moons old",
+            "Harefeather enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Harefeather was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2046,12 +2025,13 @@
         "like": -3,
         "respect": 21,
         "comfort": 21,
-        "trust": 33,
+        "trust": 46,
         "log": [
             "Harefeather sought Antlerpaw's advice on how to manage relationships with cats outside the Clan. (positive effect) - Harefeather was 82 moons old",
             "Harefeather taught Antlerpaw all about how gathering moss will build muscle. (positive effect) - Harefeather was 84 moons old",
             "While Antlerthorn gorges on his piece of fresh kill, Carnationmunch, Harefeather, and Peakspore find that eating is suddenly less appealing. (negative effect) - Harefeather was 97 moons old",
-            "Harefeather appreciates how Antlerthorn always seems to ask how he's doing. (high positive effect) - Harefeather was 109 moons old"
+            "Harefeather appreciates how Antlerthorn always seems to ask how he's doing. (high positive effect) - Harefeather was 109 moons old",
+            "Harefeather bestows wisdom onto Antlerthorn. (low positive effect) - Harefeather was 137 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2180,13 +2160,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
-            "Harefeather gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Harefeather was 129 moons old"
+            "Harefeather gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Harefeather was 129 moons old",
+            "Harefeather gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Harefeather was 137 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -2573,12 +2557,7 @@
             "Harefeather enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Harefeather was 113 moons old",
             "Harefeather overhears Creekmoss educating Clanmates about their fallen ancestors. (high positive effect) - Harefeather was 136 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
@@ -2586,14 +2565,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
-        "respect": 4,
-        "comfort": 16,
-        "trust": 5,
+        "like": 10,
+        "respect": 12,
+        "comfort": 37,
+        "trust": 11,
         "log": [
-            "Harefeather's Clanmates notice that he talks a lot about Meadowpaw. (high positive effect) - Harefeather was 95 moons old"
+            "Harefeather's Clanmates notice that he talks a lot about Meadowpaw. (high positive effect) - Harefeather was 95 moons old",
+            "Harefeather finds peace in Meadowspots's company when it can't be found anywhere else. (high positive effect) - Harefeather was 138 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -2698,9 +2683,7 @@
             "Harefeather asks for the last of Terabyte's fresh-kill, but Terabyte says no. (low negative effect) - Harefeather was 124 moons old",
             "Harefeather heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Harefeather was 128 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "10",
@@ -2941,9 +2924,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -3325,10 +3310,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Harefeather disapproved of Bushheart wearing a collar. (negative effect) - Harefeather was 136 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3637,10 +3624,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -3729,9 +3718,16 @@
         "like": 64,
         "respect": 34,
         "comfort": 74,
-        "trust": 64,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 54,
+        "log": [
+            "Harefeather wondered where Deltakit went when she disappeared for a few days. (negative effect) - Harefeather was 138 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -3754,16 +3750,13 @@
         "romance": 0,
         "like": 60,
         "respect": 30,
-        "comfort": 70,
+        "comfort": 83,
         "trust": 60,
         "log": [
             "These cats recently interacted. - Harefeather was 135 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -3779,11 +3772,58 @@
         "log": [
             "These cats recently interacted. - Harefeather was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

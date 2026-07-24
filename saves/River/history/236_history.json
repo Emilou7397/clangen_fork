@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "215": {
-                "lawfulness": 7,
-                "sociability": -1
+                "lawfulness": 9,
+                "sociability": -3,
+                "stability": -1,
+                "strings": [
+                    "have strong inner morals",
+                    "be cold towards others",
+                    "make impulsive decisions"
+                ]
             }
         },
         "skill": {
             "215": {
-                "RUNNER": 11
+                "RUNNER": 20,
+                "strings": [
+                    "running"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "fearlessness",
+        "graduation_age": 12,
+        "moon": 153
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

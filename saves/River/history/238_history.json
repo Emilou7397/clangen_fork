@@ -8,18 +8,32 @@
     "mentor_influence": {
         "trait": {
             "138": {
-                "sociability": 3,
-                "aggression": 5
+                "sociability": 5,
+                "aggression": 6,
+                "lawfulness": -2,
+                "strings": [
+                    "put others at ease",
+                    "start a fight",
+                    "bend the rules"
+                ]
             }
         },
         "skill": {
             "138": {
-                "HUNTER": 11,
-                "STORY": 4
+                "HUNTER": 19,
+                "STORY": 4,
+                "strings": [
+                    "hunting",
+                    "storytelling"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "insight",
+        "graduation_age": 12,
+        "moon": 153
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

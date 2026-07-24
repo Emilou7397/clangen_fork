@@ -8,24 +8,42 @@
     "mentor_influence": {
         "trait": {
             "139": {
-                "aggression": -1
+                "aggression": -1,
+                "strings": [
+                    "use words over teeth and claws"
+                ]
             },
             "130": {
-                "sociability": -2,
-                "stability": 2,
-                "lawfulness": 1
+                "sociability": -4,
+                "stability": 3,
+                "lawfulness": 1,
+                "strings": [
+                    "bicker with others",
+                    "have a positive outlook",
+                    "have strong inner morals"
+                ]
             }
         },
         "skill": {
             "139": {
-                "INSIGHTFUL": 2
+                "INSIGHTFUL": 2,
+                "strings": [
+                    "providing insight"
+                ]
             },
             "130": {
-                "INSIGHTFUL": 6
+                "INSIGHTFUL": 12,
+                "strings": [
+                    "providing insight"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "responsibility",
+        "graduation_age": 11,
+        "moon": 153
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

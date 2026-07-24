@@ -785,12 +785,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 17,
+        "respect": 5,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Avocetpaw was 7 moons old"
+            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Avocetpaw was 7 moons old",
+            "Avocetpaw enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Avocetpaw was 9 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1188,11 +1189,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Pigmentpelt was complimented by another Clan during the recent Gathering, but Avocetpaw wasn't. (medium negative effect) - Avocetpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "244",
@@ -1304,11 +1309,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Avocetpaw thinks that Lilynoise is so easy to get along with. (medium positive effect) - Avocetpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1627,10 +1634,7 @@
         "log": [
             "Morelstreak complained about his patrol assignment all day, much to the annoyance of Avocetpaw, Edelweisspaw, Whitepaw, and Herringpaw. (negative effect) - Avocetpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -1701,9 +1705,7 @@
         "log": [
             "Avocetpaw was annoyed that Lionheart caught him trying to sneak out of camp. (negative effect) - Avocetpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -1744,9 +1746,7 @@
         "log": [
             "Avocetpaw gets some good advice from Scalebloom about something trivial. (low positive effect) - Avocetpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -1954,13 +1954,13 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Nutkit draws a pretty symbol in the sand that Avocetkit makes sure not to mess up. (low positive effect) - Avocetkit was 4 moons old",
             "Avocetpaw isn't impressed with Nutpaw's work lately. (low negative effect) - Avocetpaw was 9 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "trust"
         ]
     },
     {
@@ -2001,13 +2001,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": -8,
         "log": [
-            "Avocetpaw smells something strange on Whitepaw. (low negative effect) - Avocetpaw was 6 moons old"
+            "Avocetpaw smells something strange on Whitepaw. (low negative effect) - Avocetpaw was 6 moons old",
+            "Avocetpaw compliments Whitewhisker on his bravery today. (medium positive effect) - Avocetpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "244",
@@ -2103,21 +2106,18 @@
         "mates": false,
         "family": true,
         "romance": 6,
-        "like": 60,
+        "like": 42,
         "respect": 6,
-        "comfort": 46,
+        "comfort": 38,
         "trust": 36,
         "log": [
             "Avocetkit plays moss-ball with Lavenderkit. (medium positive effect) - Avocetkit was 5 moons old",
             "Lavenderpaw made trouble during a training patrol and distracted everyone else. (negative effect) - Avocetpaw was 7 moons old",
-            "Avocetpaw wonders if Lavenderpaw likes him or Herringpaw more. (negative effect) - Avocetpaw was 9 moons old"
+            "Avocetpaw wonders if Lavenderpaw likes him or Herringpaw more. (negative effect) - Avocetpaw was 9 moons old",
+            "Lavenderpaw eats as ravenously as a wolverine and by the time she's done, Branchpaw, Avocetpaw, and Edelweisspaw barely have the stomach to finish their own meals. (negative effect) - Avocetpaw was 10 moons old",
+            "Avocetpaw thought it was disrespectful of Lavenderpaw to wander off during training, even if the lesson was a bit boring. (negative effect) - Avocetpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -2133,11 +2133,7 @@
             "Avocetkit wonders if Weedkit likes him or Herringkit more. (negative effect) - Avocetkit was 4 moons old",
             "Avocetpaw wonders if Lavenderpaw likes him or Herringpaw more. (negative effect) - Avocetpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -2176,9 +2172,7 @@
         "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "244",
@@ -2212,7 +2206,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -2300,6 +2294,58 @@
     {
         "cat_from_id": "244",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "244",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "244",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "244",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "244",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

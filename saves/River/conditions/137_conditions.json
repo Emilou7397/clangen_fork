@@ -9,7 +9,7 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 12
+                    "chance": 24
                 }
             ],
             "complication": null,
@@ -19,6 +19,23 @@
             ],
             "event_triggered": false,
             "potential_scars": []
+        },
+        "shock": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 153,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "lingering shock",
+                    "chance": 47
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
         }
     }
 }

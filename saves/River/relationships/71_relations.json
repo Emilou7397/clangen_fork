@@ -160,16 +160,18 @@
         "mates": false,
         "family": false,
         "romance": 9,
-        "like": -23,
-        "respect": 2,
-        "comfort": 2,
-        "trust": -12,
+        "like": -20,
+        "respect": 6,
+        "comfort": 5,
+        "trust": -1,
         "log": [
             "Ochretail doesn't believe Reedheart when he explains that a rumor about him is false. (high negative effect)- Reedheart was 52 moons old",
-            "Ochretail is not backing down in an argument with Reedheart. (medium negative effect) - Reedheart was 80 moons old"
+            "Ochretail is not backing down in an argument with Reedheart. (medium negative effect) - Reedheart was 80 moons old",
+            "Reedheart isn't afraid to ask Ochretail a difficult question. (high positive effect) - Reedheart was 117 moons old"
         ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "respect"
         ]
     },
     {
@@ -547,9 +549,7 @@
             "Reedheart heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 83 moons old",
             "Reedheart asks Suntooth about something complicated and regrets it when Suntooth misses the point. (high negative effect) - Reedheart was 93 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -775,9 +775,7 @@
             "Reedheart enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Reedheart was 101 moons old",
             "Reedheart thinks Hushshimmer is a good singer. (low positive effect) - Reedheart was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -1423,9 +1421,7 @@
             "Reedheart shares a joke about a neighboring Clan with Hailfreckle. (low positive effect) - Reedheart was 84 moons old",
             "Reedheart heard about Hailfreckle's efforts to ensure no cat gets caught unawares by a badger. (positive effect) - Reedheart was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -1495,16 +1491,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -12,
-        "respect": -18,
-        "comfort": -21,
+        "like": -6,
+        "respect": -31,
+        "comfort": -15,
         "trust": -7,
         "log": [
             "Reedheart was impressed by Gentleghost's hunting prowess. (positive effect) - Reedheart was 64 moons old",
             "Reedheart heard Gentleghost fell asleep guarding camp. (negative effect) - Reedheart was 73 moons old",
             "Reedheart heard that Gentleghost caught a rabbit from across the border. (negative effect) - Reedheart was 73 moons old",
             "Reedheart doesn't think that Gentleghost's smile is genuine. (high negative effect) - Reedheart was 85 moons old",
-            "Reedheart disapproved of Gentleghost wearing a collar. (negative effect) - Reedheart was 85 moons old"
+            "Reedheart disapproved of Gentleghost wearing a collar. (negative effect) - Reedheart was 85 moons old",
+            "Gentleghost keeps asking Reedheart silly questions. (low negative effect) - Reedheart was 116 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1527,14 +1524,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 12,
-        "comfort": -13,
-        "trust": -10,
+        "like": 6,
+        "respect": 11,
+        "comfort": -12,
+        "trust": -22,
         "log": [
             "Reedheart is surprised by how quickly Hollyheart can heal a Clanmate. (medium positive effect) - Reedheart was 60 moons old",
             "Hollyheart won't stop looking at a specific Clanmate while talking to Reedheart. (low negative effect) - Reedheart was 95 moons old",
-            "Reedheart appreciated Hollyheart's joke about how appropriately-named elder leaves are. (positive effect) - Reedheart was 105 moons old"
+            "Reedheart appreciated Hollyheart's joke about how appropriately-named elder leaves are. (positive effect) - Reedheart was 105 moons old",
+            "Reedheart enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Reedheart was 115 moons old",
+            "Reedheart thinks that Hollyheart prioritizes other cat's issues instead of Reedheart's chronic ones. (high negative effect) - Reedheart was 116 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1655,9 +1654,7 @@
         "log": [
             "Reedheart doesn't think that Nightglow has been completely honest lately. (low negative effect) - Reedheart was 115 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -2297,11 +2294,7 @@
             "Reedheart heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Reedheart was 107 moons old",
             "Terabyte confesses to Reedheart that he has feelings for Peatcrest. (positive effect) - Reedheart was 114 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -3360,9 +3353,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "71",
@@ -3419,6 +3410,62 @@
     {
         "cat_from_id": "71",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": -17,
+        "trust": 0,
+        "log": [
+            "Reedheart thinks Galepelt has a strange sense of humor. (medium negative effect) - Reedheart was 117 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "71",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

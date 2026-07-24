@@ -87,14 +87,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -6,
-        "respect": -6,
+        "like": -18,
+        "respect": -18,
         "comfort": -16,
         "trust": -6,
         "log": [
-            "Sagospeck and Bitterleaf have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Sagospeck was 18 moons old"
+            "Sagospeck and Bitterleaf have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Sagospeck was 18 moons old",
+            "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Sagospeck, Caterpillarfoot, and Terabyte's nests. (negative effect) - Sagospeck was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -137,9 +143,7 @@
         "log": [
             "Peatcrest asks Sagospeck to stop following him around. (medium negative effect) - Sagospeck was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -442,10 +446,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Sagospeck was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Sagospeck was 21 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -681,10 +687,7 @@
             "Sagospeck was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Sagospeck was 18 moons old",
             "Sagospeck was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Sagospeck was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -719,10 +722,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Sagospeck heard that Mallowpelt touched noses with a rogue. (negative effect) - Sagospeck was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -844,7 +849,7 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Sagokit. (positive effect) - Sagokit was 5 moons old"
@@ -857,11 +862,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sagospeck enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Sagospeck was 21 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1051,13 +1058,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
-            "Sagospeck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sagospeck was 14 moons old"
+            "Sagospeck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sagospeck was 14 moons old",
+            "Sagospeck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sagospeck was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1375,11 +1386,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 7,
+        "respect": 8,
+        "comfort": 7,
+        "trust": 21,
+        "log": [
+            "Sagospeck feels safe with Creekmoss around. (high positive effect) - Sagospeck was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1630,12 +1643,15 @@
         "like": 2,
         "respect": -8,
         "comfort": 0,
-        "trust": 10,
+        "trust": 18,
         "log": [
             "Sagopaw and Dustnose enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old",
-            "Dustnose complained so relentlessly about his patrol assignment that Sagospeck, Kinkdapple, and Ashenpelt could only sigh and bear it. (negative effect) - Sagospeck was 19 moons old"
+            "Dustnose complained so relentlessly about his patrol assignment that Sagospeck, Kinkdapple, and Ashenpelt could only sigh and bear it. (negative effect) - Sagospeck was 19 moons old",
+            "Sagospeck bestows wisdom onto Dustnose. (low positive effect) - Sagospeck was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1690,11 +1706,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -5,
+        "respect": -16,
+        "comfort": -5,
+        "trust": -6,
+        "log": [
+            "Sagospeck heard an ugly rumor about Ashenpelt. (high negative effect) - Sagospeck was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1771,12 +1789,7 @@
             "Sagospeck had a terrible dream about Flightspot. (medium negative effect) - Sagospeck was 17 moons old",
             "Flightspot greatly embarrassed himself in front of Sagospeck. (high negative effect) - Sagospeck was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1900,7 +1913,7 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 72,
+        "like": 80,
         "respect": 11,
         "comfort": 31,
         "trust": 54,
@@ -1911,7 +1924,9 @@
             "Sagopaw and Softpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old",
             "Softspring promises Sagospeck that everything will be okay. (medium positive effect) - Sagospeck was 15 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1995,10 +2010,7 @@
         "log": [
             "After the Clan finds a strange object, Sagospeck notes that Skypaw has been a little too fascinated with it. (low negative effect) - Sagospeck was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -2022,12 +2034,13 @@
         "family": false,
         "romance": 8,
         "like": -4,
-        "respect": 8,
+        "respect": -2,
         "comfort": 0,
         "trust": 0,
         "log": [
             "After the Gathering, Sagopaw notices that Bushpaw is making sure everyone got home. (low positive effect) - Sagopaw was 10 moons old",
-            "Bushpaw pulled a prank on Sagopaw. (medium negative effect) - Sagopaw was 11 moons old"
+            "Bushpaw pulled a prank on Sagopaw. (medium negative effect) - Sagopaw was 11 moons old",
+            "Sagospeck disapproved of Bushheart wearing a collar. (negative effect) - Sagospeck was 21 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2113,7 +2126,7 @@
         "like": 0,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Sagospeck disapproved of Caterpillarstripe wearing a collar. (negative effect) - Sagospeck was 19 moons old"
         ],
@@ -2446,9 +2459,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Sagospeck wondered where Deltakit went when she disappeared for a few days. (negative effect) - Sagospeck was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -2479,6 +2496,58 @@
     {
         "cat_from_id": "212",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "212",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "212",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "212",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "212",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -140,8 +140,8 @@
         "mates": false,
         "family": false,
         "romance": 3,
-        "like": 41,
-        "respect": 14,
+        "like": 29,
+        "respect": 2,
         "comfort": 39,
         "trust": -5,
         "log": [
@@ -160,7 +160,8 @@
             "Fidgetmouse, Paellapad, Pebblechase, Bitterleaf, and Prancelaurel blow off steam by stretching with and venting to each other. (positive effect) - Bitterleaf was 102 moons old",
             "Bitterleaf and Pebblechase worked together to gather wild garlic and mallow. (positive effect) - Bitterleaf was 105 moons old",
             "Pebblechase won't keep his mouth shut during the Gathering. Diablofoot, Bitebone, Bitterleaf, and Silkymunch can barely hear the leader's announcements! (negative effect) - Bitterleaf was 105 moons old",
-            "Bitterleaf heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Bitterleaf was 107 moons old"
+            "Bitterleaf heard that Pebblechase was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Bitterleaf was 107 moons old",
+            "Pebblechase tracked a trail of muddy pawprints into the elder's den, straight through the nests of Bitterleaf, Heatherfern, and Harefeather. (negative effect) - Bitterleaf was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -475,9 +476,7 @@
             "Bitterleaf sees Harefeather put something back where it belongs. (low positive effect) - Bitterleaf was 120 moons old",
             "Bitterleaf realizes that Harefeather's been avoiding him. (medium negative effect) - Bitterleaf was 136 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -708,33 +707,13 @@
     },
     {
         "cat_from_id": "8",
-        "cat_to_id": "22",
-        "mates": false,
-        "family": false,
-        "romance": 0,
-        "like": 62,
-        "respect": 8,
-        "comfort": 38,
-        "trust": 13,
-        "log": [
-            "Both Bitterpaw and Tortellini avoid one another's eye contact. (low negative effect)- Bitterpaw was 8 moons old",
-            "The moonlight encourages Tortellini, Bitterleaf, Olivebranch, Curryfoot, and Carppaw to slow down and stretch. (positive effect)- Bitterleaf was 18 moons old",
-            "Carptail, Bitterleaf, Splinterfang, Curryfoot, and Tortellini blow off steam by stretching with and venting to each other. (positive effect)- Bitterleaf was 23 moons old",
-            "Bitterleaf checks in on Tortellini every day. (high positive effect)- Bitterleaf was 24 moons old",
-            "Bitterleaf and Tortellini enjoyed practicing new battle moves together. (positive effect)- Bitterleaf was 24 moons old",
-            "The moonlight encourages Splinterfang, Bitterleaf, Cobaltstrike, Tortellini, and Kamautail to slow down and stretch. (positive effect)- Bitterleaf was 33 moons old"
-        ],
-        "no_longer_neutral": []
-    },
-    {
-        "cat_from_id": "8",
         "cat_to_id": "13",
         "mates": false,
         "family": false,
         "romance": 3,
         "like": 38,
         "respect": 9,
-        "comfort": 94,
+        "comfort": 97,
         "trust": 12,
         "log": [
             "Bitterleaf spends the day helping around the camp with Fidgetmouse. (high positive effect)- Bitterleaf was 21 moons old",
@@ -752,7 +731,9 @@
             "Bitterleaf appreciates how Fidgetmouse always seems to ask how he's doing. (high positive effect) - Bitterleaf was 118 moons old",
             "Quailfur appreciates Peakspore, Verbenabloom, Bitterleaf, and Fidgetmouse joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Bitterleaf was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -1242,9 +1223,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 10,
+        "trust": -2,
         "log": [
-            "Bitterleaf was extremely impressed by Amberfur's skill in battle against a vixen. (positive effect)- Bitterleaf was 71 moons old"
+            "Bitterleaf was extremely impressed by Amberfur's skill in battle against a vixen. (positive effect)- Bitterleaf was 71 moons old",
+            "Amberfur sides with a Clanmate instead of Bitterleaf on something. (medium negative effect) - Bitterleaf was 137 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1393,14 +1375,17 @@
         "romance": 0,
         "like": 8,
         "respect": 10,
-        "comfort": 14,
-        "trust": 0,
+        "comfort": 27,
+        "trust": 13,
         "log": [
             "Heavythud, Bitterleaf, and Poolleaf took a sunbath and had a little small talk. (positive effect) - Bitterleaf was 88 moons old",
             "The moon casts a shadow on Heavythud's face in a way that makes Bitterleaf uneasy. (medium negative effect) - Bitterleaf was 90 moons old",
             "Bitterleaf heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bitterleaf was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -1713,7 +1698,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -12,
+        "comfort": -20,
         "trust": 0,
         "log": [
             "Bitterleaf and Voletuft talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Bitterleaf was 85 moons old"
@@ -1926,12 +1911,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
-        "respect": 6,
+        "like": 11,
+        "respect": 11,
         "comfort": 10,
         "trust": 13,
         "log": [
-            "Hollyheart vents about something trivial to Bitterleaf. (low positive effect) - Bitterleaf was 121 moons old"
+            "Hollyheart vents about something trivial to Bitterleaf. (low positive effect) - Bitterleaf was 121 moons old",
+            "Bitterleaf enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Bitterleaf was 136 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2034,10 +2020,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 13,
+        "comfort": 26,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Bitterleaf learns that Nightglow is scared of thunder, too. (low positive effect) - Bitterleaf was 138 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -3441,11 +3431,7 @@
         "log": [
             "A Clanmate has to comfort Bitterleaf when Edelweisspaw says something cruel. (high negative effect) - Bitterleaf was 136 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -3598,12 +3584,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -3702,11 +3690,7 @@
         "log": [
             "Bitterleaf visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Bitterleaf was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -3721,11 +3705,58 @@
         "log": [
             "Bitterleaf visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Bitterleaf was 135 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "8",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "8",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "8",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "8",
+        "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
     }
 ]

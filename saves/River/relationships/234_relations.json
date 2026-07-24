@@ -463,12 +463,7 @@
             "Nutpaw was excited to taste the Twoleg food that Fleadusk stole on patrol. (positive effect) - Nutpaw was 8 moons old",
             "Nutpaw is having a wonderful time discussing recent Clan news with Fleadusk. (high positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "234",
@@ -667,10 +662,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Nutpaw heard that Mallowpelt touched noses with a rogue. (negative effect) - Nutpaw was 12 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -704,11 +701,7 @@
             "Saltknoll taught Nutpaw about gathering betony. (positive effect) - Nutpaw was 9 moons old",
             "Nutpaw confided in Saltknoll about a dream that she suspected was a vision. (positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "234",
@@ -767,10 +760,7 @@
             "Nutkit saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Nutkit was 0 moons old",
             "Nutpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "234",
@@ -806,11 +796,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Nutpaw enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Nutpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -993,11 +985,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Nutpaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Nutpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1139,12 +1136,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Glowfur reminds Nutpaw to grab something from the fresh-kill pile if he hasn't already. (medium positive effect) - Nutpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1965,7 +1966,7 @@
         "mates": false,
         "family": true,
         "romance": 7,
-        "like": 47,
+        "like": 50,
         "respect": 17,
         "comfort": 57,
         "trust": 40,
@@ -2054,10 +2055,7 @@
             "Nutpaw thought Waterpaw was polite today. (low positive effect) - Nutpaw was 9 moons old",
             "After something unsettling happens, Nutpaw and Waterpaw find comfort in one another's company. (high positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "234",
@@ -2096,10 +2094,11 @@
         "like": 13,
         "respect": 0,
         "comfort": 6,
-        "trust": 17,
+        "trust": 25,
         "log": [
             "Nutpaw realizes that a strange smell in camp is coming from Weedkit. (medium negative effect) - Nutpaw was 6 moons old",
-            "Nutpaw overhears Weedkit dispelling a false rumor about a Clanmate. (medium positive effect) - Nutpaw was 7 moons old"
+            "Nutpaw overhears Weedkit dispelling a false rumor about a Clanmate. (medium positive effect) - Nutpaw was 7 moons old",
+            "Nutpaw gets some good advice from Weedpaw about something trivial. (low positive effect) - Nutpaw was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2112,11 +2111,14 @@
         "like": 0,
         "respect": 13,
         "comfort": -3,
-        "trust": 0,
+        "trust": 13,
         "log": [
-            "Nutkit sees the blood of fresh-kill on Avocetkit's paws and feels a prickle of discomfort. (low negative effect) - Nutkit was 5 moons old"
+            "Nutkit sees the blood of fresh-kill on Avocetkit's paws and feels a prickle of discomfort. (low negative effect) - Nutkit was 5 moons old",
+            "Avocetpaw tells Nutpaw that he was worried about her. (low positive effect) - Nutpaw was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2231,8 +2233,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 13,
+        "log": [
+            "Nutpaw gets some good advice from Merlotbite about something trivial. (low positive effect) - Nutpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2242,7 +2246,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -2270,9 +2274,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Nutpaw wondered where Deltakit went when she disappeared for a few days. (negative effect) - Nutpaw was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2303,6 +2311,58 @@
     {
         "cat_from_id": "234",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

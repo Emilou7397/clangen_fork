@@ -116,17 +116,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -14,
-        "respect": -6,
+        "like": -26,
+        "respect": -18,
         "comfort": -4,
         "trust": -4,
         "log": [
             "Caterpillarfoot heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarfoot was 120 moons old",
             "Caterpillarfoot has a friendly chat with Bitterleaf that leaves them both feeling happy. (low positive effect) - Caterpillarfoot was 127 moons old",
             "Caterpillarfoot thinks Bitterleaf keeps getting in the way instead of helping others. (high negative effect) - Caterpillarfoot was 132 moons old",
-            "Spittle and flecks of bone fly while Bitterleaf gobbles down prey, reminding Moonchaser, Caterpillarfoot, and Braveheart to seek out better mealtime companionship next time. (negative effect) - Caterpillarfoot was 138 moons old"
+            "Spittle and flecks of bone fly while Bitterleaf gobbles down prey, reminding Moonchaser, Caterpillarfoot, and Braveheart to seek out better mealtime companionship next time. (negative effect) - Caterpillarfoot was 138 moons old",
+            "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Sagospeck, Caterpillarfoot, and Terabyte's nests. (negative effect) - Caterpillarfoot was 155 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -240,12 +244,13 @@
         "like": 5,
         "respect": 13,
         "comfort": 9,
-        "trust": 5,
+        "trust": -3,
         "log": [
             "Algaepool squashes a bug that Caterpillarfoot was watching. (medium negative effect) - Caterpillarfoot was 110 moons old",
             "Caterpillarfoot and Algaepool take a nap together. (low positive effect) - Caterpillarfoot was 120 moons old",
             "Caterpillarfoot feels ignored by Algaepool. (low negative effect) - Caterpillarfoot was 123 moons old",
-            "Caterpillarfoot appreciates how Algaepool always seems to ask how she's doing. (high positive effect) - Caterpillarfoot was 146 moons old"
+            "Caterpillarfoot appreciates how Algaepool always seems to ask how she's doing. (high positive effect) - Caterpillarfoot was 146 moons old",
+            "Algaepool keeps asking Caterpillarfoot if she trusts him. (low negative effect) - Caterpillarfoot was 155 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -318,9 +323,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -908,9 +915,7 @@
             "Caterpillarfoot and Pheasantbrush successfully hunted ground squirrels together. (positive effect) - Caterpillarfoot was 111 moons old",
             "Pheasantbrush compliments one of Caterpillarfoot's friends. (low positive effect) - Caterpillarfoot was 153 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "155",
@@ -963,11 +968,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 13,
         "comfort": -13,
         "trust": 0,
         "log": [
-            "Caterpillarfoot heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Caterpillarfoot was 144 moons old"
+            "Caterpillarfoot heard about how Voletuft's patrol drove off a scavenging fox. (positive effect) - Caterpillarfoot was 144 moons old",
+            "Caterpillarfoot sees that Voletuft's piece of prey looks tastier and asks if they'd like to swap. They agree happily, saying they like that one better. (low positive effect) - Caterpillarfoot was 154 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1773,9 +1779,7 @@
             "After Terabyte finished his food, Caterpillarfoot noticed he made a mess. (medium negative effect) - Caterpillarfoot was 144 moons old",
             "Caterpillarfoot heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarfoot was 145 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "155",
@@ -2148,10 +2152,7 @@
             "Caterpillarfoot can't help but admire Moonchaser's pelt. (low positive effect) - Caterpillarfoot was 147 moons old",
             "Moonchaser laughs at Caterpillarfoot's embarrassing mistake. (high negative effect) - Caterpillarfoot was 153 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "155",
@@ -2256,7 +2257,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -2721,13 +2722,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": -8,
         "trust": 0,
         "log": [
-            "Caterpillarfoot felt eyes on her back, and when she looked, Bluestripe was quickly turning away. (low negative effect) - Caterpillarfoot was 149 moons old"
+            "Caterpillarfoot felt eyes on her back, and when she looked, Bluestripe was quickly turning away. (low negative effect) - Caterpillarfoot was 149 moons old",
+            "Bluestripe is talking to Caterpillarfoot, but she can't stop noticing the mud on Bluestripe's pelt. (low negative effect) - Caterpillarfoot was 155 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -2849,6 +2853,58 @@
     {
         "cat_from_id": "155",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -262,7 +262,7 @@
         "cat_to_id": "27",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 10,
         "respect": 8,
         "comfort": 10,
@@ -447,9 +447,7 @@
         "log": [
             "Driftstripe is tired of interacting with Amberfur lately. (medium negative effect) - Driftstripe was 94 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -544,10 +542,7 @@
         "log": [
             "Driftstripe is impressed by Murkhaven helping others today. (low positive effect) - Driftstripe was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -558,12 +553,13 @@
         "like": -10,
         "respect": -10,
         "comfort": -10,
-        "trust": -17,
+        "trust": -5,
         "log": [
             "Driftstripe heard about Diablofoot taking down a full-grown gannet together with her patrol. (positive effect) - Driftstripe was 75 moons old",
             "Driftstripe thought the call from Diablofoot to head home early was wise. (positive effect) - Driftstripe was 78 moons old",
             "Driftstripe told Diablofoot to shut up. (high negative effect) - Driftstripe was 79 moons old",
-            "Driftstripe swears that Diablofoot stole something from his nest. (high negative effect) - Driftstripe was 92 moons old"
+            "Driftstripe swears that Diablofoot stole something from his nest. (high negative effect) - Driftstripe was 92 moons old",
+            "Driftstripe and Diablofoot find a hidden part of the territory and keep it a secret together. (medium positive effect) - Driftstripe was 95 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -767,14 +763,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -5,
         "comfort": 5,
-        "trust": 22,
+        "trust": 17,
         "log": [
             "Driftstripe enjoyed driving away rogues with Mallowpelt. (positive effect) - Driftstripe was 76 moons old",
-            "Driftstripe and Mallowpelt watch one another's back on a patrol. (medium positive effect) - Driftstripe was 87 moons old"
+            "Driftstripe and Mallowpelt watch one another's back on a patrol. (medium positive effect) - Driftstripe was 87 moons old",
+            "Driftstripe heard that Mallowpelt touched noses with a rogue. (negative effect) - Driftstripe was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -921,17 +920,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 11,
-        "respect": 8,
+        "like": 16,
+        "respect": 13,
         "comfort": -7,
         "trust": 3,
         "log": [
-            "Driftstripe has had a great time hanging out with Hollyheart lately. (high positive effect) - Driftstripe was 72 moons old"
+            "Driftstripe has had a great time hanging out with Hollyheart lately. (high positive effect) - Driftstripe was 72 moons old",
+            "Driftstripe enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Driftstripe was 94 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "189",
@@ -954,15 +951,20 @@
         "cat_to_id": "102",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 5,
-        "trust": 5,
+        "romance": 16,
+        "like": 9,
+        "respect": 5,
+        "comfort": 9,
+        "trust": 11,
         "log": [
-            "Driftstripe had fun cracking open a coconut with Kiwifoot. (positive effect) - Driftstripe was 70 moons old"
+            "Driftstripe had fun cracking open a coconut with Kiwifoot. (positive effect) - Driftstripe was 70 moons old",
+            "Driftstripe enjoys the time with Kiwifoot and feels secure. (high positive effect) - Driftstripe was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -1087,10 +1089,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Driftstripe appreciates Wasppelt for who they are. (medium positive effect) - Driftstripe was 95 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1143,11 +1147,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Driftstripe gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Driftstripe was 96 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -1365,7 +1374,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": -5,
@@ -1483,7 +1492,7 @@
         "romance": 0,
         "like": 15,
         "respect": 5,
-        "comfort": 10,
+        "comfort": 23,
         "trust": 10,
         "log": [
             "Creekmoss was part of the patrol that invited Driftstripe to RiverClan. (positive effect) - Driftstripe was 68 moons old",
@@ -1540,12 +1549,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Driftstripe didn't tell Miteleaf about the feather stuck to his face, so Miteleaf spent the whole day looking silly. (low negative effect) - Driftstripe was 96 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -2221,8 +2234,8 @@
         "romance": 0,
         "like": 15,
         "respect": 5,
-        "comfort": 10,
-        "trust": 10,
+        "comfort": 13,
+        "trust": 13,
         "log": [
             "Driftstripe offers Caterpillarkit some feathers as a welcome gift that he can use to decorate his new nest. (positive effect) - Driftstripe was 81 moons old"
         ],
@@ -2538,9 +2551,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Driftstripe wondered where Deltakit went when she disappeared for a few days. (negative effect) - Driftstripe was 96 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "189",
@@ -2571,6 +2588,58 @@
     {
         "cat_from_id": "189",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "189",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

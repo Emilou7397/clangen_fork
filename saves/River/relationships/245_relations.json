@@ -235,10 +235,7 @@
         "log": [
             "Lavenderpaw and Peakspore have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Lavenderpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -286,11 +283,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": -20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lavenderpaw was bored and annoyed that Quailfur wanted to teach her about the Code instead of something useful like hunting or fighting. (negative effect) - Lavenderpaw was 7 moons old"
+            "Lavenderpaw was bored and annoyed that Quailfur wanted to teach her about the Code instead of something useful like hunting or fighting. (negative effect) - Lavenderpaw was 7 moons old",
+            "Lavenderpaw had no interest in listening to Quailfur natter about nesting materials. (negative effect) - Lavenderpaw was 10 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -445,12 +443,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lavenderpaw was annoyed that Verbenabloom caught her trying to sneak out of camp. (negative effect) - Lavenderpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -589,10 +591,7 @@
         "log": [
             "Lavenderpaw learned about hunting in tide pools from Talonlake. (positive effect) - Lavenderpaw was 8 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -784,12 +783,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 5,
+        "respect": 15,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lavenderpaw enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Lavenderpaw was 9 moons old",
+            "Lavenderpaw saw Hollyheart telling stories to the kits. (positive effect) - Lavenderpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -797,7 +802,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -852,11 +857,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lavenderpaw notices that Daisymoor is fixing a damaged part of the camp without being asked. (low positive effect) - Lavenderpaw was 11 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -1133,9 +1142,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -1528,11 +1535,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 5,
+        "respect": 16,
+        "comfort": 4,
+        "trust": 5,
+        "log": [
+            "Lavenderpaw is wowed by how bravely Ashenpelt fought the other day. (high positive effect) - Lavenderpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1980,10 +1989,7 @@
             "Branchpaw gives Lavenderkit something that she dropped. (low positive effect) - Lavenderkit was 5 moons old",
             "Lavenderpaw doesn't think that Branchpaw's smile is genuine. (high negative effect) - Lavenderpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "245",
@@ -2019,19 +2025,17 @@
         "mates": false,
         "family": false,
         "romance": 15,
-        "like": 15,
-        "respect": 7,
-        "comfort": 20,
-        "trust": 19,
+        "like": 24,
+        "respect": 16,
+        "comfort": 28,
+        "trust": 31,
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Lavenderkit was 3 moons old",
-            "Lavenderpaw started wearing berries in her fur to try to impress Waterpaw. (positive effect) - Lavenderpaw was 9 moons old"
+            "Lavenderpaw started wearing berries in her fur to try to impress Waterpaw. (positive effect) - Lavenderpaw was 9 moons old",
+            "Lavenderpaw offers to take Waterheart's place on a patrol when she isn't feeling well. (medium positive effect) - Lavenderpaw was 11 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust",
-            "respect"
+            "trust"
         ]
     },
     {
@@ -2094,16 +2098,22 @@
         "mates": false,
         "family": true,
         "romance": 2,
-        "like": 52,
-        "respect": 25,
+        "like": 40,
+        "respect": 13,
         "comfort": 42,
         "trust": 25,
         "log": [
             "Lavenderkit sees that Avocetkit's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Lavenderkit was 1 moon old",
             "Avocetkit keeps making excuses about something Lavenderkit wants to know. (medium negative effect) - Lavenderkit was 2 moons old",
-            "Lavenderpaw and Avocetpaw have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Lavenderpaw was 7 moons old"
+            "Lavenderpaw and Avocetpaw have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Lavenderpaw was 7 moons old",
+            "Avocetpaw returned to the apprentice's den dripping mud everywhere and managed to ruin Lavenderpaw and Flintpaw's nests. (negative effect) - Lavenderpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2277,6 +2287,58 @@
     {
         "cat_from_id": "245",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

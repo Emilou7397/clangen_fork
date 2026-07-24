@@ -447,10 +447,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Bigpaw was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Bigpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -524,9 +526,7 @@
         "log": [
             "Bigpaw is disappointed when Elmtrail doesn't uphold a promise. (medium negative effect) - Bigpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "240",
@@ -639,10 +639,7 @@
             "Bigpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Bigpaw was 7 moons old",
             "Bigpaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Bigpaw was 9 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "240",
@@ -677,10 +674,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Bigpaw heard that Mallowpelt touched noses with a rogue. (negative effect) - Bigpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -793,11 +792,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 5,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bigpaw enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Bigpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -914,12 +915,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Bigpelt asks for the last of Dahliacrest's fresh-kill, but Dahliacrest says no. (low negative effect) - Bigpelt was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -980,13 +985,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
-            "Bigkit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Bigkit was 3 moons old"
+            "Bigkit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Bigkit was 3 moons old",
+            "Bigpaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Bigpaw was 11 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1689,9 +1698,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "240",
@@ -1860,10 +1867,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bigpaw disapproved of Bushheart wearing a collar. (negative effect) - Bigpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1998,7 +2007,7 @@
         "romance": 2,
         "like": 57,
         "respect": 12,
-        "comfort": 61,
+        "comfort": 69,
         "trust": 39,
         "log": [
             "Bigkit takes a nap with Branchkit after a long day playing moss-ball. (medium positive effect) - Bigkit was 1 moon old",
@@ -2016,13 +2025,12 @@
         "like": 84,
         "respect": 15,
         "comfort": 58,
-        "trust": 35,
+        "trust": 52,
         "log": [
-            "Bigpaw thought Whitepaw was polite today. (low positive effect) - Bigpaw was 10 moons old"
+            "Bigpaw thought Whitepaw was polite today. (low positive effect) - Bigpaw was 10 moons old",
+            "Bigpaw and Whitepaw chase off a predator on a patrol together. (medium positive effect) - Bigpaw was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "240",
@@ -2050,15 +2058,18 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 55,
+        "like": 63,
         "respect": 27,
         "comfort": 73,
         "trust": 60,
         "log": [
             "Bigkit and Waterkit swap secrets with each other. (high positive effect) - Bigkit was 5 moons old",
-            "Bigpaw and Waterpaw cuddle during a storm. (medium positive effect) - Bigpaw was 8 moons old"
+            "Bigpaw and Waterpaw cuddle during a storm. (medium positive effect) - Bigpaw was 8 moons old",
+            "Bigpelt hears a nice story about Waterheart. (low positive effect) - Bigpelt was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2078,10 +2089,10 @@
         "cat_to_id": "243",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -8,
+        "romance": 8,
+        "like": 0,
         "respect": 0,
-        "comfort": -8,
+        "comfort": 0,
         "trust": 0,
         "log": [
             "While Weedpaw gorges on his piece of fresh kill, Shinefur, Bigpaw, and Cherrytail find that eating is suddenly less appealing. (negative effect) - Bigpaw was 8 moons old"
@@ -2109,12 +2120,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": -10,
         "comfort": 13,
         "trust": 0,
         "log": [
-            "Lavenderpaw made trouble during a training patrol and distracted everyone else. (negative effect) - Bigpaw was 8 moons old"
+            "Lavenderpaw made trouble during a training patrol and distracted everyone else. (negative effect) - Bigpaw was 8 moons old",
+            "Bigpaw thought it was disrespectful of Lavenderpaw to wander off during training, even if the lesson was a bit boring. (negative effect) - Bigpaw was 11 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2204,9 +2216,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
+        "log": [
+            "An issue becomes benign when Bigpaw remembers Daykit's advice. (medium positive effect) - Bigpaw was 11 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2257,9 +2271,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Bigpelt wondered where Deltakit went when she disappeared for a few days. (negative effect) - Bigpelt was 12 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2290,6 +2308,58 @@
     {
         "cat_from_id": "240",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

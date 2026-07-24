@@ -8,20 +8,39 @@
     "mentor_influence": {
         "trait": {
             "74": {
-                "stability": 5,
-                "aggression": 2
+                "stability": 7,
+                "aggression": 2,
+                "lawfulness": -1,
+                "strings": [
+                    "adapt easily",
+                    "start a fight",
+                    "break away from the status quo"
+                ]
             }
         },
         "skill": {
             "74": {
-                "FIGHTER": 14
+                "FIGHTER": 18,
+                "strings": [
+                    "fighting"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "consideration",
+        "graduation_age": 12,
+        "moon": 153
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {},
+    "possible_history": {
+        "bite-wound": {
+            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after trying to save Heatherfern from a dog.",
+            "scar_text": "m_c was scarred while trying to save Heatherfern from a dog.",
+            "other_cat": "198"
+        }
+    },
     "died_by": [],
     "scar_events": [],
     "murder": {}

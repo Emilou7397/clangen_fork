@@ -295,14 +295,17 @@
         "like": 6,
         "respect": 6,
         "comfort": -11,
-        "trust": -11,
+        "trust": -18,
         "log": [
             "Shinepaw is telling jokes about Bitebone. (high negative effect) - Shinepaw was 10 moons old",
             "Shinepaw heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shinepaw was 11 moons old",
             "Shinebelly and Bitebone successfully gathered dandelions and wild garlic together. (positive effect) - Shinebelly was 35 moons old",
-            "Shinebelly and Bitebone can't seem to agree on the truth about something. (medium negative effect) - Shinebelly was 42 moons old"
+            "Shinebelly and Bitebone can't seem to agree on the truth about something. (medium negative effect) - Shinebelly was 42 moons old",
+            "Bitebone doesn't want to apologize to Shinebelly for something. (medium negative effect) - Shinebelly was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -310,14 +313,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -4,
-        "respect": -11,
-        "comfort": -4,
-        "trust": 2,
+        "like": -6,
+        "respect": -13,
+        "comfort": -15,
+        "trust": -2,
         "log": [
             "Shinebelly gets some good advice from Prancelaurel about something trivial. (low positive effect) - Shinebelly was 16 moons old",
             "Shinebelly heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Shinebelly was 20 moons old",
-            "Shinebelly thinks Prancelaurel keeps getting in the way instead of helping others. (high negative effect) - Shinebelly was 38 moons old"
+            "Shinebelly thinks Prancelaurel keeps getting in the way instead of helping others. (high negative effect) - Shinebelly was 38 moons old",
+            "Shinebelly was sarcastic to Prancelaurel at an inappropriate time. (high negative effect) - Shinebelly was 45 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -505,9 +509,7 @@
             "While Warmswirl gorges on his piece of fresh kill, Carptail, Shinepaw, and Cobaltstrike find that eating is suddenly less appealing. (negative effect) - Shinepaw was 9 moons old",
             "Shinebelly was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Shinebelly was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "164",
@@ -559,11 +561,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
-            "Shinebelly and Verbenabloom quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Shinebelly was 36 moons old"
+            "Shinebelly and Verbenabloom quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Shinebelly was 36 moons old",
+            "Shinebelly was disappointed to hear Verbenabloom was fraternizing with another Clan. (negative effect) - Shinebelly was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -768,14 +771,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -8,
+        "respect": -8,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Shinebelly heard Frondpad fell asleep guarding camp. (negative effect) - Shinebelly was 26 moons old"
+            "Shinebelly heard Frondpad fell asleep guarding camp. (negative effect) - Shinebelly was 26 moons old",
+            "Frondpad complained so relentlessly about her patrol assignment that Shinebelly, Elmtrail, and Hollyblossom could only sigh and bear it. (negative effect) - Shinebelly was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -833,10 +840,7 @@
             "Shinebelly was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Shinebelly was 43 moons old",
             "Shinebelly was impressed by Poolleaf's confidence in fighting rogues. (positive effect) - Shinebelly was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "164",
@@ -876,15 +880,20 @@
         "family": false,
         "romance": 4,
         "like": -9,
-        "respect": -22,
+        "respect": -27,
         "comfort": 6,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Shinepaw heard Mallowpelt fell asleep guarding camp. (negative effect) - Shinepaw was 6 moons old",
             "Shinebelly thinks Mallowpelt is a bit of a mouse-brain. (medium negative effect) - Shinebelly was 17 moons old",
-            "Shinebelly disapproved of Mallowpelt wearing a collar. (negative effect) - Shinebelly was 21 moons old"
+            "Shinebelly disapproved of Mallowpelt wearing a collar. (negative effect) - Shinebelly was 21 moons old",
+            "Shinebelly heard that Mallowpelt touched noses with a rogue. (negative effect) - Shinebelly was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -996,10 +1005,7 @@
         "log": [
             "Shinebelly saw Shimmerrunner telling stories to the kits. (positive effect) - Shinebelly was 43 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "164",
@@ -1035,12 +1041,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 17,
+        "respect": 5,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Hollyheart, Shinepaw, Meadowpaw, Heathpaw, and Shiveringpaw blow off steam by stretching with and venting to each other. (positive effect) - Shinepaw was 6 moons old"
+            "Hollyheart, Shinepaw, Meadowpaw, Heathpaw, and Shiveringpaw blow off steam by stretching with and venting to each other. (positive effect) - Shinepaw was 6 moons old",
+            "Shinebelly enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Shinebelly was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1238,13 +1245,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 15,
+        "respect": 30,
         "comfort": 0,
-        "trust": 15,
+        "trust": 30,
         "log": [
-            "Shinebelly gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shinebelly was 37 moons old"
+            "Shinebelly gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shinebelly was 37 moons old",
+            "Shinebelly gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Shinebelly was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -1347,8 +1358,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 3,
+        "log": [
+            "Gorgehunt respects Shinebelly's opinion despite disagreeing with it. (low positive effect) - Shinebelly was 45 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1404,11 +1417,11 @@
         "cat_to_id": "136",
         "mates": false,
         "family": false,
-        "romance": 14,
-        "like": 8,
-        "respect": 34,
-        "comfort": 15,
-        "trust": 25,
+        "romance": 8,
+        "like": -6,
+        "respect": 29,
+        "comfort": 9,
+        "trust": 20,
         "log": [
             "Shinepaw gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Shinepaw was 9 moons old",
             "Shinepaw heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shinepaw was 12 moons old",
@@ -1438,16 +1451,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
+        "like": 35,
         "respect": 35,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 10,
         "log": [
             "Shinepaw gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Shinepaw was 6 moons old",
             "Shinepaw heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shinepaw was 12 moons old",
             "Shinebelly and Whiskerleg enjoyed a little balancing competition while gathering oak and elder leaves. (positive effect) - Shinebelly was 27 moons old",
             "Shinebelly heard Whiskerleg fell asleep guarding camp. (negative effect) - Shinebelly was 34 moons old",
-            "Shinebelly and Whiskerleg had such a good time on a patrol that they came back late. (medium positive effect) - Shinebelly was 36 moons old"
+            "Shinebelly and Whiskerleg had such a good time on a patrol that they came back late. (medium positive effect) - Shinebelly was 36 moons old",
+            "Meadowspots, Shinebelly, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Shinebelly was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1635,15 +1649,16 @@
         "mates": false,
         "family": false,
         "romance": 32,
-        "like": 39,
+        "like": 47,
         "respect": 16,
-        "comfort": 30,
+        "comfort": 38,
         "trust": 9,
         "log": [
             "Hollyheart, Shinepaw, Meadowpaw, Heathpaw, and Shiveringpaw blow off steam by stretching with and venting to each other. (positive effect) - Shinepaw was 6 moons old",
             "Shinebelly heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Shinebelly was 20 moons old",
             "Shinebelly saves a piece of prey for Meadowspots because he knows it's her favorite. (high positive effect) - Shinebelly was 34 moons old",
-            "Shinebelly picks some fragrant flowers for Meadowspots. (high positive effect) - Shinebelly was 41 moons old"
+            "Shinebelly picks some fragrant flowers for Meadowspots. (high positive effect) - Shinebelly was 41 moons old",
+            "Meadowspots, Shinebelly, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Shinebelly was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1698,9 +1713,7 @@
             "Shinebelly and Miteleaf had a productive training patrol together. (positive effect) - Shinebelly was 42 moons old",
             "Shinebelly has snuggled up against Miteleaf. (medium positive effect) - Shinebelly was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "164",
@@ -1876,10 +1889,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
-        "respect": 33,
-        "comfort": 6,
-        "trust": 25,
+        "like": 10,
+        "respect": 49,
+        "comfort": 11,
+        "trust": 29,
         "log": [
             "Shinebelly heard that Sandpaw played with a kittypet on RiverClan's border. (negative effect) - Shinebelly was 14 moons old",
             "Sandpaw was very considerate while on patrol with Shinebelly. (positive effect) - Shinebelly was 16 moons old",
@@ -1889,9 +1902,15 @@
             "Shinebelly and Sandthrush avoided each other after an unpleasant training patrol. (negative effect) - Shinebelly was 29 moons old",
             "Shinebelly gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Shinebelly was 34 moons old",
             "Shinebelly grew irritated at Sandthrush while on a patrol and didn't accomplish much. (negative effect) - Shinebelly was 39 moons old",
-            "Shinebelly and Sandthrush had a productive training patrol together. (positive effect) - Shinebelly was 42 moons old"
+            "Shinebelly and Sandthrush had a productive training patrol together. (positive effect) - Shinebelly was 42 moons old",
+            "Shinebelly calls out a Clanmate for spreading a rumor about Sandthrush. (high positive effect) - Shinebelly was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -2424,10 +2443,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Shinebelly disapproved of Bushheart wearing a collar. (negative effect) - Shinebelly was 45 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2505,15 +2526,18 @@
         "cat_to_id": "230",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": -10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Shinebelly disapproved of Caterpillarstripe wearing a collar. (negative effect) - Shinebelly was 42 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -2619,9 +2643,7 @@
         "log": [
             "Shinebelly is thinking about how much Waterpaw reminds him of his own apprentice days. (medium positive effect) - Shinebelly was 44 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "164",
@@ -2831,9 +2853,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Shinebelly wondered where Deltakit went when she disappeared for a few days. (negative effect) - Shinebelly was 46 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -2864,6 +2890,58 @@
     {
         "cat_from_id": "164",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

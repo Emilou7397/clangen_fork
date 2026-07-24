@@ -228,7 +228,7 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 18,
+        "respect": 31,
         "comfort": 20,
         "trust": 0,
         "log": [
@@ -237,7 +237,9 @@
             "Sardinespeckle, Icyriver, and Primfreckle had a nice talk while eating. (positive effect) - Sardinespeckle was 42 moons old",
             "Sardinespeckle heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sardinespeckle was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -373,12 +375,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -8,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Auburnsplash complained about her patrol assignment all day, much to the annoyance of Dancingfleck, Creekmoss, and Sardinespeckle. (negative effect) - Sardinespeckle was 82 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -749,16 +756,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 54,
+        "like": 62,
         "respect": 8,
-        "comfort": 69,
+        "comfort": 77,
         "trust": 7,
         "log": [
             "Mossflight appreciates Tomatofreckle, Curryfoot, Sardinekit, and Frondkit joining her to stretch late into the night so she wouldn't be alone. (positive effect)- Sardinekit was 0 moons old",
             "Mossflight, Fluttershade, Fidgetmouse, Suntooth, and Sardinepaw blow off steam by stretching with and venting to each other. (positive effect)- Sardinepaw was 9 moons old",
             "Mossflight appreciates Peakspore, Sardinespeckle, Shimmerpaw, and Prancelaurel joining her to stretch late into the night so she wouldn't be alone. (positive effect)- Sardinespeckle was 16 moons old",
             "When Mossflight gets sick for a few days, Sardinespeckle brings her fresh-kill and bedding. (high positive effect) - Sardinespeckle was 43 moons old",
-            "Warmswirl appreciates Frondpad, Sardinespeckle, Yewstar, and Mossflight joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Sardinespeckle was 64 moons old"
+            "Warmswirl appreciates Frondpad, Sardinespeckle, Yewstar, and Mossflight joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Sardinespeckle was 64 moons old",
+            "Gentleghost, Sardinespeckle, and Mossflight had a nice talk while eating. (positive effect) - Sardinespeckle was 82 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1032,9 +1040,7 @@
             "Sardinespeckle and Skulkwillow quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Sardinespeckle was 75 moons old",
             "Skulkwillow doesn't want to apologize to Sardinespeckle for something. (medium negative effect) - Sardinespeckle was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -1180,10 +1186,7 @@
             "Sardinespeckle and Brindletooth quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Sardinespeckle was 75 moons old",
             "Sardinespeckle and Brindletooth stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Sardinespeckle was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -1272,7 +1275,7 @@
         "family": true,
         "romance": 0,
         "like": 90,
-        "respect": 39,
+        "respect": 44,
         "comfort": 100,
         "trust": 36,
         "log": [
@@ -1296,9 +1299,15 @@
             "Sardinespeckle heard Frondpad fell asleep guarding camp. (negative effect) - Sardinespeckle was 64 moons old",
             "Warmswirl appreciates Frondpad, Sardinespeckle, Yewstar, and Mossflight joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Sardinespeckle was 64 moons old",
             "Sardinespeckle and Frondpad weren't able to figure out a Twoleg object on patrol. (negative effect) - Sardinespeckle was 78 moons old",
-            "Sardinespeckle and Frondpad stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Sardinespeckle was 79 moons old"
+            "Sardinespeckle and Frondpad stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Sardinespeckle was 79 moons old",
+            "Sardinespeckle was impressed by Frondpad's quick thinking during a dog attack. (positive effect) - Sardinespeckle was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -1398,10 +1407,7 @@
             "Sardinespeckle was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Sardinespeckle was 79 moons old",
             "Sardinespeckle was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Sardinespeckle was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -1443,20 +1449,25 @@
         "cat_to_id": "84",
         "mates": false,
         "family": false,
-        "romance": 9,
+        "romance": 21,
         "like": -10,
-        "respect": -22,
+        "respect": -27,
         "comfort": 1,
-        "trust": 1,
+        "trust": -4,
         "log": [
             "Sardinespeckle mocks Mallowpelt for something inconsequential. (high negative effect)- Sardinespeckle was 19 moons old",
             "Mallowpelt snickered when Sardinespeckle tripped. (low negative effect) - Sardinespeckle was 25 moons old",
             "Sardinespeckle heard Mallowpelt fell asleep guarding camp. (negative effect) - Sardinespeckle was 44 moons old",
             "Sardinespeckle disapproved of Mallowpelt wearing a collar. (negative effect) - Sardinespeckle was 59 moons old",
             "Sardinespeckle worked with Mallowpelt to sabotage a stack of wood pieces to prevent Twolegs from building new nests. (positive effect) - Sardinespeckle was 61 moons old",
-            "Sardinespeckle sighs loudly every time Mallowpelt does anything on patrol. (medium negative effect) - Sardinespeckle was 73 moons old"
+            "Sardinespeckle sighs loudly every time Mallowpelt does anything on patrol. (medium negative effect) - Sardinespeckle was 73 moons old",
+            "Sardinespeckle thinks no other cat is anywhere near as fun or interesting as Mallowpelt. (medium positive effect) - Sardinespeckle was 82 moons old",
+            "Sardinespeckle heard that Mallowpelt touched noses with a rogue. (negative effect) - Sardinespeckle was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -1554,16 +1565,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 19,
+        "like": 11,
         "respect": 5,
         "comfort": 29,
         "trust": 23,
         "log": [
             "Sardinepaw visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Sardinepaw was 8 moons old",
             "Flightkit guides Sardinespeckle to someone she is looking for. (low positive effect)- Sardinespeckle was 14 moons old",
-            "Sardinespeckle heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Sardinespeckle was 31 moons old"
+            "Sardinespeckle heard that Flightsplash trespassed on another Clan's territory. (negative effect) - Sardinespeckle was 31 moons old",
+            "Sardinespeckle and Flightsplash have an argument about who should get a pretty feather, and end up destroying it in their fight. (low negative effect) - Sardinespeckle was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -1625,11 +1639,7 @@
             "Hailfreckle doesn't believe Sardinespeckle when she explains that a rumor about her is false. (high negative effect) - Sardinespeckle was 79 moons old",
             "Sardinespeckle turned to Hailfreckle in a time of need, only for Hailfreckle to abandon her. (high negative effect) - Sardinespeckle was 81 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -1705,9 +1715,9 @@
         "mates": false,
         "family": false,
         "romance": 9,
-        "like": 23,
+        "like": 31,
         "respect": 0,
-        "comfort": 19,
+        "comfort": 27,
         "trust": 9,
         "log": [
             "Skulkwillow appreciates Hushshimmer, Fleadusk, Gentlepaw, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Sardinespeckle was 24 moons old",
@@ -1717,7 +1727,8 @@
             "Sardinespeckle disapproved of Gentleghost wearing a collar. (negative effect) - Sardinespeckle was 51 moons old",
             "Sardinespeckle noticed that Gentleghost had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Sardinespeckle was 56 moons old",
             "Gentleghost is upset after spending the day with Sardinespeckle's bad attitude. (low negative effect) - Sardinespeckle was 61 moons old",
-            "The moonlight encourages Sardinespeckle, Gentleghost, Garlicberry, Minnowlily, and Dahliacrest to slow down and stretch. (positive effect) - Sardinespeckle was 70 moons old"
+            "The moonlight encourages Sardinespeckle, Gentleghost, Garlicberry, Minnowlily, and Dahliacrest to slow down and stretch. (positive effect) - Sardinespeckle was 70 moons old",
+            "Gentleghost, Sardinespeckle, and Mossflight had a nice talk while eating. (positive effect) - Sardinespeckle was 82 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1740,8 +1751,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 2,
-        "respect": -11,
+        "like": 7,
+        "respect": -6,
         "comfort": 11,
         "trust": -11,
         "log": [
@@ -1749,7 +1760,8 @@
             "Sardinespeckle saw Hollyheart hide something before talking to her. (low negative effect) - Sardinespeckle was 48 moons old",
             "Sardinespeckle and Hollyheart enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Sardinespeckle was 67 moons old",
             "Sardinespeckle quickly apologizes after bumping into Hollyheart. They have a small laugh about it. (low positive effect) - Sardinespeckle was 75 moons old",
-            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Sardinespeckle was 79 moons old"
+            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Sardinespeckle was 79 moons old",
+            "Sardinespeckle enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Sardinespeckle was 81 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1943,17 +1955,23 @@
         "family": false,
         "romance": 0,
         "like": 26,
-        "respect": 21,
+        "respect": 36,
         "comfort": 6,
-        "trust": 31,
+        "trust": 46,
         "log": [
             "Sardinespeckle and Wavepaw enjoyed working on their skills together on a training patrol. (positive effect) - Sardinespeckle was 38 moons old",
             "Sardinespeckle heard that Wavepaw chased a rogue off the territory. (positive effect) - Sardinespeckle was 39 moons old",
             "Sardinespeckle heard that Wavelight touched noses with a loner. (negative effect) - Sardinespeckle was 42 moons old",
             "Sardinespeckle gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sardinespeckle was 75 moons old",
-            "Sardinespeckle and Wavelight defended their Clan at the Gathering together. (high positive effect) - Sardinespeckle was 78 moons old"
+            "Sardinespeckle and Wavelight defended their Clan at the Gathering together. (high positive effect) - Sardinespeckle was 78 moons old",
+            "Sardinespeckle gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sardinespeckle was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -2499,11 +2517,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": 21,
+        "respect": 21,
+        "comfort": 8,
+        "trust": 7,
+        "log": [
+            "Sardinespeckle listens to Braveheart talk about what life was like when he was young. (high positive effect) - Sardinespeckle was 82 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2654,11 +2674,7 @@
             "Sardinespeckle is developing a crush on Minnowlily. (low positive effect) - Sardinespeckle was 77 moons old",
             "Spittle and flecks of bone fly while Minnowlily gobbles down prey, reminding Sardinespeckle, Garlicberry, and Flightsplash to seek out better mealtime companionship next time. (negative effect) - Sardinespeckle was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -2743,7 +2759,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 32,
+        "like": 45,
         "respect": 37,
         "comfort": 9,
         "trust": 0,
@@ -2751,9 +2767,12 @@
             "Sardinespeckle thought of Heathstripe on the last patrol and brought an herb back with her. (medium positive effect) - Sardinespeckle was 61 moons old",
             "Sardinespeckle and Heathstripe worked together to gather juniper needles and oak leaves. (positive effect) - Sardinespeckle was 62 moons old",
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Sardinespeckle was 74 moons old",
-            "Sardinespeckle appreciated Heathstripe's help harvesting burdock root. (positive effect) - Sardinespeckle was 77 moons old"
+            "Sardinespeckle appreciated Heathstripe's help harvesting burdock root. (positive effect) - Sardinespeckle was 77 moons old",
+            "Heathstripe mentions that Sardinespeckle looks good today. (low positive effect) - Sardinespeckle was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -3148,10 +3167,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sardinespeckle disapproved of Bushheart wearing a collar. (negative effect) - Sardinespeckle was 82 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3370,9 +3391,7 @@
         "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "72",
@@ -3564,9 +3583,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Sardinespeckle wondered where Deltakit went when she disappeared for a few days. (negative effect) - Sardinespeckle was 83 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "72",
@@ -3597,6 +3620,58 @@
     {
         "cat_from_id": "72",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "72",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "72",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "72",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "72",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,

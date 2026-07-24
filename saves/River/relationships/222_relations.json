@@ -267,10 +267,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "For a moment, Avocetear thought Bitebone sounded like someone else. (medium negative effect) - Avocetear was 20 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -635,11 +639,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Talonlake thanked Avocetear for bringing them food. (low positive effect) - Avocetear was 19 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -865,12 +871,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "like": 5,
+        "respect": 15,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Avocetear enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Avocetear was 18 moons old",
+            "Avocetear saw Hollyheart telling stories to the kits. (positive effect) - Avocetear was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -1411,12 +1423,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Miteleaf shares a suspiciously exaggerated tale with Coconutocean, Avocetear, and Lightpelt, who seem far from convinced of its veracity. (negative effect) - Avocetear was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -1727,9 +1744,7 @@
         "log": [
             "Avocetear is sharing tongues with Moonchaser. (high positive effect) - Avocetear was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "222",
@@ -1931,28 +1946,27 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
+        "like": -4,
         "respect": 0,
         "comfort": 14,
         "trust": 4,
         "log": [
             "Avocetpaw complains about something Stagpaw did. (low negative effect) - Avocetpaw was 13 moons old",
-            "Avocetear had a difficult conversation with Stagclaw and they now have a deeper understanding of each other. (high positive effect) - Avocetear was 18 moons old"
+            "Avocetear had a difficult conversation with Stagclaw and they now have a deeper understanding of each other. (high positive effect) - Avocetear was 18 moons old",
+            "Stagclaw won't help Avocetear fix his nest. (low negative effect) - Avocetear was 20 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "222",
         "cat_to_id": "215",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 6,
+        "like": 5,
         "respect": 0,
-        "comfort": -8,
-        "trust": 8,
+        "comfort": -4,
+        "trust": 14,
         "log": [
             "After the Clan finds a strange object, Avocetkit notes that Softkit has been a little too fascinated with it. (low negative effect) - Avocetkit was 2 moons old",
             "Softspring says something vulnerable to Avocetpaw. (low positive effect) - Avocetpaw was 11 moons old"
@@ -2031,16 +2045,14 @@
             "Avocetpaw just told Skypaw a hilarious joke. (medium positive effect) - Avocetpaw was 8 moons old",
             "Skytooth tells Flightspot, Avocetpaw, and Lightpelt a story that seems to grow less believable every meow. (negative effect) - Avocetpaw was 13 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "222",
         "cat_to_id": "223",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": 24,
         "respect": 0,
         "comfort": 23,
@@ -2051,7 +2063,8 @@
             "Avocetkit and Bushkit tried to sneak out of camp together. (positive effect) - Avocetkit was 5 moons old",
             "Avocetpaw confesses something to Bushpaw, but realizes she can't relate at all. (low negative effect) - Avocetpaw was 9 moons old",
             "Avocetpaw learns that Bushpaw is scared of thunder, too. (low positive effect) - Avocetpaw was 10 moons old",
-            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Avocetpaw was 13 moons old"
+            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Avocetpaw was 13 moons old",
+            "Avocetear ensnares Bushheart with a charming smile. (medium positive effect) - Avocetear was 19 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2484,6 +2497,58 @@
     {
         "cat_from_id": "222",
         "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "260",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "261",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "262",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "263",
         "mates": false,
         "family": false,
         "romance": 0,
