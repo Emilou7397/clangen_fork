@@ -655,10 +655,10 @@
         "mates": true,
         "family": false,
         "romance": 100,
-        "like": 100,
+        "like": 92,
         "respect": 43,
         "comfort": 100,
-        "trust": 74,
+        "trust": 66,
         "log": [
             "Quailpaw tries to guess what his and Bitepaw's warrior names will be. (medium positive effect)- Quailpaw was 11 moons old",
             "Quailfur and Bitebone enjoyed hanging out and chatting during a training session. (positive effect)- Quailfur was 21 moons old",
@@ -694,9 +694,15 @@
             "Quailfur and Bitebone worked together to gather plantain. (positive effect) - Quailfur was 113 moons old",
             "Quailfur and Bitebone worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old",
             "Quailfur and Bitebone get a little giggly off of some mysterious herbs they found on a patrol. (medium positive effect) - Quailfur was 116 moons old",
-            "Quailfur and Bitebone were so cozy in their nest they almost missed the dawn patrol. (positive effect) - Quailfur was 119 moons old"
+            "Quailfur and Bitebone were so cozy in their nest they almost missed the dawn patrol. (positive effect) - Quailfur was 119 moons old",
+            "Bitebone tells Quailfur, Gracklefur, Elmtrail, and Diablofoot a story that seems to grow less believable every meow. (negative effect) - Quailfur was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -2551,12 +2557,15 @@
         "like": 0,
         "respect": 10,
         "comfort": -13,
-        "trust": -10,
+        "trust": -18,
         "log": [
             "Quailfur heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Quailfur was 91 moons old",
-            "Quailfur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old"
+            "Quailfur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 112 moons old",
+            "Terabyte won't tell Quailfur what he ate this morning. (low negative effect) - Quailfur was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -2991,15 +3000,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 24,
+        "respect": 11,
         "comfort": -17,
         "trust": 24,
         "log": [
             "Quailfur took down a gannet thanks to excellent teamwork with Jademuzzle. (positive effect) - Quailfur was 101 moons old",
             "Jademuzzle took down a gannet thanks to excellent teamwork with Quailfur. (positive effect) - Quailfur was 101 moons old",
-            "Quailfur accuses Jademuzzle of stealing something. (medium negative effect) - Quailfur was 104 moons old"
+            "Quailfur accuses Jademuzzle of stealing something. (medium negative effect) - Quailfur was 104 moons old",
+            "Jademuzzle pulled an embarrassing prank on Quailfur's friend. (low negative effect) - Quailfur was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3025,9 +3037,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3599,6 +3613,32 @@
     {
         "cat_from_id": "35",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

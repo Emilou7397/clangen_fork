@@ -115,12 +115,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -193,12 +195,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Deltakit, Algaepool, and Edelweisspaw took a sunbath and had a little small talk. (positive effect) - Edelweisspaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -633,13 +640,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Edelweisspaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Edelweisspaw was 7 moons old"
+            "Edelweisspaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Edelweisspaw was 7 moons old",
+            "Edelweisspaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Edelweisspaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -689,12 +700,16 @@
         "like": 15,
         "respect": 0,
         "comfort": 0,
-        "trust": 15,
+        "trust": 7,
         "log": [
             "Edelweisspaw and Voletuft enjoyed practicing new battle moves together. (positive effect) - Edelweisspaw was 8 moons old",
-            "Voletuft praised Edelweisspaw's battle moves. (positive effect) - Edelweisspaw was 8 moons old"
+            "Voletuft praised Edelweisspaw's battle moves. (positive effect) - Edelweisspaw was 8 moons old",
+            "Edelweisspaw discovered that teaching is not one of Voletuft's skills. (negative effect) - Edelweisspaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -1063,7 +1078,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1642,14 +1657,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": -8,
+        "respect": -18,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Edelweisskit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Edelweisskit was 1 moon old"
+            "Edelweisskit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Edelweisskit was 1 moon old",
+            "Morelstreak complained about his patrol assignment all day, much to the annoyance of Avocetpaw, Edelweisspaw, Whitepaw, and Herringpaw. (negative effect) - Edelweisspaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2019,16 +2039,21 @@
         "mates": false,
         "family": true,
         "romance": 3,
-        "like": 48,
+        "like": 53,
         "respect": 0,
         "comfort": 53,
         "trust": 38,
         "log": [
             "Whitekit pulled an embarrassing prank on Edelweisskit's friend. (low negative effect) - Edelweisskit was 2 moons old",
             "When Edelweisspaw gets hurt, Whitepaw is the first to ask if he's okay. (medium positive effect) - Edelweisspaw was 6 moons old",
-            "Edelweisspaw and Whitepaw enjoyed practicing new battle moves together. (positive effect) - Edelweisspaw was 8 moons old"
+            "Edelweisspaw and Whitepaw enjoyed practicing new battle moves together. (positive effect) - Edelweisspaw was 8 moons old",
+            "Whitepaw was very considerate while on patrol with Edelweisspaw. (positive effect) - Edelweisspaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2053,13 +2078,16 @@
         "family": true,
         "romance": 5,
         "like": 70,
-        "respect": 15,
+        "respect": 8,
         "comfort": 83,
         "trust": 48,
         "log": [
-            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Edelweisskit was 5 moons old"
+            "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Edelweisskit was 5 moons old",
+            "Edelweisspaw noticed that Bigpaw ignored an easy hunting opportunity on a recent patrol. (medium negative effect) - Edelweisspaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2079,12 +2107,14 @@
         "cat_to_id": "243",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": -13,
-        "log": [],
+        "log": [
+            "Edelweisspaw and Weedpaw played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect) - Edelweisspaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2256,6 +2286,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
+        "like": 8,
+        "respect": 0,
+        "comfort": 8,
+        "trust": 0,
+        "log": [
+            "Deltakit, Algaepool, and Edelweisspaw took a sunbath and had a little small talk. (positive effect) - Edelweisspaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "238",
+        "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
         "like": 0,
         "respect": 0,
         "comfort": 0,
@@ -2265,7 +2313,20 @@
     },
     {
         "cat_from_id": "238",
-        "cat_to_id": "257",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "238",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

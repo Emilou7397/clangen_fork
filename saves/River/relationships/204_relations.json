@@ -526,7 +526,7 @@
         "like": 50,
         "respect": 79,
         "comfort": 93,
-        "trust": -16,
+        "trust": -24,
         "log": [
             "Stoatshade wondered where Primkit went when she disappeared for a few days. (negative effect)- Stoatshade was 18 moons old",
             "Primpaw helps Stoatshade get a thorn out of his paw. (low positive effect)- Stoatshade was 22 moons old",
@@ -545,9 +545,12 @@
             "Primfreckle doesn't judge Stoatshade for being anxious about a bad dream. (medium positive effect) - Stoatshade was 127 moons old",
             "Primfreckle shares a suspiciously exaggerated tale with Bitebone, Quailfur, Auburnsplash, and Stoatshade, who seem far from convinced of its veracity. (negative effect) - Stoatshade was 133 moons old",
             "Primfreckle complained so relentlessly about her patrol assignment that Gracklefur, Stoatshade, and Quailfur could only sigh and bear it. (negative effect) - Stoatshade was 134 moons old",
-            "Stoatshade heard a story about something kind Primfreckle did. (low positive effect) - Stoatshade was 142 moons old"
+            "Stoatshade heard a story about something kind Primfreckle did. (low positive effect) - Stoatshade was 142 moons old",
+            "Stoatshade saw Primfreckle hide something before talking to him. (low negative effect) - Stoatshade was 151 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -1699,16 +1702,20 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 28,
+        "respect": 18,
         "comfort": 0,
-        "trust": 23,
+        "trust": 13,
         "log": [
             "Poolleaf says something vulnerable to Stoatshade. (low positive effect) - Stoatshade was 105 moons old",
             "Stoatshade noticed how successful Poolleaf's hunting patrol was. (positive effect) - Stoatshade was 106 moons old",
             "Poolleaf leaped to Stoatshade's defense when she saw a rogue attacking him. (positive effect) - Stoatshade was 109 moons old",
-            "Stoatshade was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Stoatshade was 149 moons old"
+            "Stoatshade was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Stoatshade was 149 moons old",
+            "Stoatshade was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Stoatshade was 151 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -2059,14 +2066,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 17,
+        "like": 7,
+        "respect": 6,
+        "comfort": 7,
+        "trust": 38,
         "log": [
-            "Oddmuzzle doesn't entertain a rumor that is being spread about Stoatshade. (medium positive effect) - Stoatshade was 139 moons old"
+            "Oddmuzzle doesn't entertain a rumor that is being spread about Stoatshade. (medium positive effect) - Stoatshade was 139 moons old",
+            "Stoatshade depends on Oddmuzzle to back him up during a debate. (high positive effect) - Stoatshade was 151 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -3287,10 +3300,12 @@
         "romance": 0,
         "like": 20,
         "respect": 0,
-        "comfort": 20,
+        "comfort": 17,
         "trust": 10,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "204",
@@ -3793,6 +3808,32 @@
     {
         "cat_from_id": "204",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "204",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "204",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

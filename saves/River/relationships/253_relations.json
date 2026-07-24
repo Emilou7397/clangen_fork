@@ -1097,12 +1097,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -4,
+        "comfort": -11,
+        "trust": -3,
+        "log": [
+            "Pigmentpelt told Dashkit something awful, and Dashkit may never look at her quite the same. (high negative effect) - Dashkit was 5 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "253",
@@ -2063,9 +2067,9 @@
         "mates": false,
         "family": true,
         "romance": 7,
-        "like": 59,
+        "like": 51,
         "respect": 35,
-        "comfort": 63,
+        "comfort": 55,
         "trust": 51,
         "log": [
             "Flintkit guides Dashkit to someone she is looking for. (low positive effect) - Dashkit was 1 moon old",
@@ -2074,7 +2078,10 @@
             "Dashkit thinks Flintkit is being thoughtful of others. (medium positive effect) - Dashkit was 2 moons old",
             "Dashkit learns something new about a Clanmate from Flintkit. (low positive effect) - Dashkit was 3 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "253",
@@ -2085,11 +2092,14 @@
         "like": 42,
         "respect": 12,
         "comfort": 42,
-        "trust": 45,
+        "trust": 42,
         "log": [
-            "Daykit makes a small sacrifice that benefits Dashkit. (low positive effect) - Dashkit was 4 moons old"
+            "Daykit makes a small sacrifice that benefits Dashkit. (low positive effect) - Dashkit was 4 moons old",
+            "Dashkit sees Daykit whispering suspiciously to a Clanmate. (low negative effect) - Dashkit was 5 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "253",
@@ -2120,6 +2130,32 @@
     {
         "cat_from_id": "253",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "253",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "253",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

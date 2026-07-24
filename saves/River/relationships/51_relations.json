@@ -1539,15 +1539,19 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": 0,
-        "comfort": 25,
+        "respect": 10,
+        "comfort": 35,
         "trust": -3,
         "log": [
             "Warmswirl finds his feelings conflicted towards the new family addition. (neutral effect)- Warmswirl was 21 moons old",
             "Shimmerrunner, Warmswirl, Flightsplash, Coconutpaw, and Anteaterspot blow off steam by stretching with and venting to each other. (positive effect) - Warmswirl was 58 moons old",
-            "Warmswirl has been spending time with Shimmerrunner lately. (low positive effect) - Warmswirl was 77 moons old"
+            "Warmswirl has been spending time with Shimmerrunner lately. (low positive effect) - Warmswirl was 77 moons old",
+            "Warmswirl saw Shimmerrunner telling stories to the kits. (positive effect) - Warmswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -1982,18 +1986,21 @@
         "cat_to_id": "112",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": -20,
         "respect": 3,
         "comfort": -8,
-        "trust": 17,
+        "trust": 25,
         "log": [
             "Warmswirl and Minnowlily got into a vicious fight. (negative effect) - Warmswirl was 41 moons old",
             "Warmswirl goes to Minnowlily to ask for his wisdom. (medium positive effect) - Warmswirl was 58 moons old",
             "Warmswirl heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Warmswirl was 59 moons old",
-            "Warmswirl tried on an accessory that Minnowlily threw away, but realized Minnowlily looked a lot better in it. (medium negative effect) - Warmswirl was 62 moons old"
+            "Warmswirl tried on an accessory that Minnowlily threw away, but realized Minnowlily looked a lot better in it. (medium negative effect) - Warmswirl was 62 moons old",
+            "Warmswirl can't help but smile seeing Minnowlily smile. (low positive effect) - Warmswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -2428,9 +2435,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "During the last gathering, Warmswirl and Shinebelly defended their Clan against another Clan's heckling. (medium positive effect) - Warmswirl was 93 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "51",
@@ -3365,6 +3376,32 @@
     {
         "cat_from_id": "51",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "51",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

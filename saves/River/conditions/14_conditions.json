@@ -1,26 +1,16 @@
 {
-    "illnesses": {
-        "grief stricken": {
-            "severity": "major",
+    "injuries": {
+        "sore": {
+            "severity": "minor",
             "mortality": 0,
-            "infectiousness": 0,
-            "duration": 2,
-            "moon_start": 149,
-            "risks": [
-                {
-                    "name": "lasting grief",
-                    "chance": 122
-                },
-                {
-                    "name": "constant nightmares",
-                    "chance": 37
-                },
-                {
-                    "name": "selective mutism",
-                    "chance": 172
-                }
-            ],
-            "event_triggered": false
+            "duration": 1,
+            "moon_start": 151,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": []
         }
     }
 }

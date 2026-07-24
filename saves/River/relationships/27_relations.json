@@ -1087,7 +1087,7 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 25,
+        "respect": 22,
         "comfort": 17,
         "trust": 0,
         "log": [
@@ -1095,9 +1095,12 @@
             "Gardeniaglow snickered when Bitebone tripped. (low negative effect) - Bitebone was 81 moons old",
             "Bitebone notices that Gardeniaglow is fixing a damaged part of the camp without being asked. (low positive effect) - Bitebone was 107 moons old",
             "Bitebone heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bitebone was 111 moons old",
-            "Bitebone and Gardeniaglow worked together to gather wild garlic and mallow. (positive effect) - Bitebone was 115 moons old"
+            "Bitebone and Gardeniaglow worked together to gather wild garlic and mallow. (positive effect) - Bitebone was 115 moons old",
+            "Bitebone complains about something Gardeniaglow did. (low negative effect) - Bitebone was 121 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "27",
@@ -2482,10 +2485,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Bitebone learns that Shiveringdusk is scared of thunder, too. (low positive effect) - Bitebone was 121 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "27",
@@ -3101,15 +3108,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 18,
-        "comfort": 0,
+        "comfort": 10,
         "trust": 0,
         "log": [
             "Bitebone heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bitebone was 113 moons old",
-            "Bitebone was amazed to encounter a ghost while patrolling with Velvettooth. (positive effect) - Bitebone was 118 moons old"
+            "Bitebone was amazed to encounter a ghost while patrolling with Velvettooth. (positive effect) - Bitebone was 118 moons old",
+            "Bitebone was grateful that Velvettooth gave him a piece of thyme to put in his nest. (positive effect) - Bitebone was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "27",
@@ -3743,6 +3755,32 @@
         "log": [
             "Bitebone visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Bitebone was 119 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "27",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "27",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

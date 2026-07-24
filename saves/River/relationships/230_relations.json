@@ -600,13 +600,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Caterpillarpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Caterpillarpaw was 11 moons old"
+            "Caterpillarpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Caterpillarpaw was 11 moons old",
+            "Caterpillarstripe was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Caterpillarstripe was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -1350,13 +1354,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Caterpillarpaw heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarpaw was 6 moons old"
+            "Caterpillarpaw heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarpaw was 6 moons old",
+            "Caterpillarstripe doesn't tell Terabyte that he forgot to groom a part of his fur. (low negative effect) - Caterpillarstripe was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -1795,14 +1802,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 25,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old"
+            "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Caterpillarpaw was 9 moons old",
+            "Caterpillarstripe sees Bushpaw put something back where it belongs. (low positive effect) - Caterpillarstripe was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "230",
@@ -2167,6 +2177,32 @@
     {
         "cat_from_id": "230",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "230",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "230",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

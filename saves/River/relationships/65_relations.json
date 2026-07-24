@@ -644,16 +644,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 16,
-        "comfort": 0,
-        "trust": 0,
+        "like": 7,
+        "respect": 23,
+        "comfort": 6,
+        "trust": 21,
         "log": [
             "Murkhaven thinks Gardeniaglow has been acting stuck up and rude. (medium negative effect) - Murkhaven was 76 moons old",
             "Murkhaven heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Murkhaven was 76 moons old",
-            "Murkhaven and Gardeniaglow work together to lead a scary bug out of the camp. (low positive effect) - Murkhaven was 85 moons old"
+            "Murkhaven and Gardeniaglow work together to lead a scary bug out of the camp. (low positive effect) - Murkhaven was 85 moons old",
+            "Murkhaven is letting Gardeniaglow share his troubles with them, hoping he'll feel better afterward. (high positive effect) - Murkhaven was 86 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -2620,13 +2626,17 @@
         "family": false,
         "romance": 0,
         "like": -2,
-        "respect": -4,
-        "comfort": -2,
+        "respect": 13,
+        "comfort": 11,
         "trust": -11,
         "log": [
-            "Murkhaven lied to Driftstripe's face. (high negative effect) - Murkhaven was 75 moons old"
+            "Murkhaven lied to Driftstripe's face. (high negative effect) - Murkhaven was 75 moons old",
+            "Murkhaven can't remember a word for the life of them, but Driftstripe helps them remember it. (medium positive effect) - Murkhaven was 86 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "65",
@@ -3323,6 +3333,32 @@
     {
         "cat_from_id": "65",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "65",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

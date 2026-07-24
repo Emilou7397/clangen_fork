@@ -499,13 +499,15 @@
         "romance": 0,
         "like": -8,
         "respect": 15,
-        "comfort": -8,
-        "trust": 0,
+        "comfort": 0,
+        "trust": 8,
         "log": [
             "While Warmswirl gorges on his piece of fresh kill, Carptail, Shinepaw, and Cobaltstrike find that eating is suddenly less appealing. (negative effect) - Shinepaw was 9 moons old",
             "Shinebelly was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Shinebelly was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -822,14 +824,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -5,
+        "like": 5,
+        "respect": -10,
+        "comfort": 5,
+        "trust": -10,
         "log": [
-            "Shinebelly was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Shinebelly was 41 moons old"
+            "Shinebelly was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Shinebelly was 41 moons old",
+            "Shinebelly was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Shinebelly was 43 moons old",
+            "Shinebelly was impressed by Poolleaf's confidence in fighting rogues. (positive effect) - Shinebelly was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -983,11 +990,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinebelly saw Shimmerrunner telling stories to the kits. (positive effect) - Shinebelly was 43 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -1672,7 +1684,7 @@
         "romance": 0,
         "like": 51,
         "respect": 38,
-        "comfort": 70,
+        "comfort": 87,
         "trust": 11,
         "log": [
             "Mitepaw asks Shinepaw if he could use some help getting introduced to the other Clan members. (positive effect) - Shinepaw was 6 moons old",
@@ -1683,9 +1695,12 @@
             "Shinebelly and Miteleaf enjoyed a little balancing competition while gathering oak and elder leaves. (positive effect) - Shinebelly was 27 moons old",
             "Shinebelly was deeply disappointed to hear that Miteleaf broke the Code. (negative effect) - Shinebelly was 37 moons old",
             "Shinebelly has a friendly chat with Miteleaf that leaves them both feeling happy. (low positive effect) - Shinebelly was 41 moons old",
-            "Shinebelly and Miteleaf had a productive training patrol together. (positive effect) - Shinebelly was 42 moons old"
+            "Shinebelly and Miteleaf had a productive training patrol together. (positive effect) - Shinebelly was 42 moons old",
+            "Shinebelly has snuggled up against Miteleaf. (medium positive effect) - Shinebelly was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -2597,12 +2612,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Shinebelly is thinking about how much Waterpaw reminds him of his own apprentice days. (medium positive effect) - Shinebelly was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "164",
@@ -2819,6 +2838,32 @@
     {
         "cat_from_id": "164",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "164",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

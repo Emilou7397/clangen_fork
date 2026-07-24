@@ -393,7 +393,7 @@
         "like": 100,
         "respect": 68,
         "comfort": 100,
-        "trust": 100,
+        "trust": 97,
         "log": [
             "Harekit wants to show Bitterkit his favorite toy. (medium positive effect)- Harekit was 2 moons old",
             "Harekit doesn't like Bitterkit's sense of humor. (medium negative effect)- Harekit was 5 moons old",
@@ -435,7 +435,9 @@
             "Harefeather, Ochretail, Pheasantbrush, Bitterleaf, and Dancingscreech hang out while stretching. (positive effect) - Harefeather was 108 moons old",
             "Harefeather thinks Clanmates talk more highly of Bitterleaf than him. (low negative effect) - Harefeather was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -833,7 +835,7 @@
         "like": 35,
         "respect": 3,
         "comfort": 41,
-        "trust": 36,
+        "trust": 28,
         "log": [
             "Bitekit acts childishly in front of Harefeather. (low negative effect)- Harefeather was 20 moons old",
             "Harefeather and Bitebone practiced their hunting together. (positive effect)- Harefeather was 41 moons old",
@@ -847,9 +849,12 @@
             "Bitebone respects Harefeather's opinion despite disagreeing with it. (low positive effect)- Harefeather was 61 moons old",
             "Harefeather and Bitebone drove off rogues together. (positive effect)- Harefeather was 61 moons old",
             "Harefeather asks to be on a patrol with Bitebone. (medium positive effect) - Harefeather was 87 moons old",
-            "Harefeather heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Harefeather was 103 moons old"
+            "Harefeather heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Harefeather was 103 moons old",
+            "Harefeather smells something strange on Bitebone. (low negative effect) - Harefeather was 136 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -1640,18 +1645,24 @@
         "family": false,
         "romance": 0,
         "like": 27,
-        "respect": 3,
+        "respect": -7,
         "comfort": 11,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "The moonlight encourages Fleadusk, Fidgetmouse, Harefeather, Algaepool, and Poolpaw to slow down and stretch. (positive effect)- Harefeather was 70 moons old",
             "Harefeather noticed how successful Poolleaf's hunting patrol was. (positive effect) - Harefeather was 91 moons old",
             "When Harefeather asked Poolleaf for help, Poolleaf ignored him. (low negative effect) - Harefeather was 96 moons old",
             "Harefeather prevents something from falling on Poolleaf. (low positive effect) - Harefeather was 110 moons old",
             "The moonlight encourages Pigmentpelt, Harefeather, Poolleaf, Verbenabloom, and Yewstar to slow down and stretch. (positive effect) - Harefeather was 114 moons old",
-            "Harefeather was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Harefeather was 133 moons old"
+            "Harefeather was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Harefeather was 133 moons old",
+            "Harefeather was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Harefeather was 135 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -1864,13 +1875,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": -3,
         "log": [
-            "Harefeather has to snap Shimmerrunner out of a daze to ask a question. (low negative effect) - Harefeather was 113 moons old"
+            "Harefeather has to snap Shimmerrunner out of a daze to ask a question. (low negative effect) - Harefeather was 113 moons old",
+            "Harefeather saw Shimmerrunner telling stories to the kits. (positive effect) - Harefeather was 135 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -2550,14 +2565,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "like": 13,
+        "respect": 26,
+        "comfort": 8,
+        "trust": 8,
         "log": [
-            "Harefeather enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Harefeather was 113 moons old"
+            "Harefeather enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Harefeather was 113 moons old",
+            "Harefeather overhears Creekmoss educating Clanmates about their fallen ancestors. (high positive effect) - Harefeather was 136 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -2667,8 +2688,8 @@
         "cat_to_id": "161",
         "mates": false,
         "family": false,
-        "romance": 8,
-        "like": 5,
+        "romance": 21,
+        "like": 18,
         "respect": 10,
         "comfort": 0,
         "trust": -10,
@@ -2677,7 +2698,9 @@
             "Harefeather asks for the last of Terabyte's fresh-kill, but Terabyte says no. (low negative effect) - Harefeather was 124 moons old",
             "Harefeather heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Harefeather was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "10",
@@ -3722,5 +3745,45 @@
         "trust": 69,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 60,
+        "respect": 30,
+        "comfort": 70,
+        "trust": 60,
+        "log": [
+            "These cats recently interacted. - Harefeather was 135 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "10",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 60,
+        "respect": 30,
+        "comfort": 70,
+        "trust": 60,
+        "log": [
+            "These cats recently interacted. - Harefeather was 135 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     }
 ]

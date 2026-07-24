@@ -5,14 +5,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
+        "like": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Dustpaw heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Dustpaw was 7 moons old"
+            "Dustpaw heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Dustpaw was 7 moons old",
+            "Dustnose listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Dustnose was 30 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -603,13 +607,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 5,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Dustnose heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Dustnose was 21 moons old",
-            "Dustnose was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Dustnose was 27 moons old"
+            "Dustnose was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Dustnose was 27 moons old",
+            "Dustnose prevents something from falling on Skulkwillow. (low positive effect) - Dustnose was 31 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -798,14 +803,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -5,
+        "like": 5,
+        "respect": -10,
+        "comfort": 5,
+        "trust": -10,
         "log": [
-            "Dustnose was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Dustnose was 28 moons old"
+            "Dustnose was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Dustnose was 28 moons old",
+            "Dustnose was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Dustnose was 30 moons old",
+            "Dustnose was impressed by Poolleaf's confidence in fighting rogues. (positive effect) - Dustnose was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2242,15 +2252,18 @@
         "family": false,
         "romance": 8,
         "like": 10,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Dustnose and Sagopaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Dustnose was 22 moons old",
             "Dustnose heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Dustnose was 27 moons old",
-            "Dustnose can't help but smile seeing Sagospeck smile. (low positive effect) - Dustnose was 28 moons old"
+            "Dustnose can't help but smile seeing Sagospeck smile. (low positive effect) - Dustnose was 28 moons old",
+            "Dustnose is impressed by Sagospeck helping others today. (low positive effect) - Dustnose was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "179",
@@ -2806,5 +2819,45 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 31,
+        "respect": 23,
+        "comfort": 38,
+        "trust": 35,
+        "log": [
+            "Dustnose is excited for his family to grow further. (positive effect) - Dustnose was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "179",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 31,
+        "respect": 23,
+        "comfort": 38,
+        "trust": 35,
+        "log": [
+            "Dustnose is excited for his family to grow further. (positive effect) - Dustnose was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     }
 ]

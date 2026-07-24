@@ -1,20 +1,21 @@
 {
     "injuries": {
-        "torn ear": {
-            "severity": "minor",
-            "mortality": 0,
-            "duration": 1,
-            "moon_start": 150,
+        "broken bone": {
+            "severity": "severe",
+            "mortality": 60,
+            "duration": 4,
+            "moon_start": 151,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 41
+                    "chance": 12
                 }
             ],
             "complication": null,
             "cause_permanent": [
-                "partial hearing loss"
+                "weak leg",
+                "twisted leg"
             ],
             "event_triggered": false,
             "potential_scars": []

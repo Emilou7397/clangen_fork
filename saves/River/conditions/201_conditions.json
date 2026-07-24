@@ -1,0 +1,22 @@
+{
+    "illnesses": {
+        "running nose": {
+            "severity": "minor",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 151,
+            "risks": [
+                {
+                    "name": "whitecough",
+                    "chance": 32
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 37
+                }
+            ],
+            "event_triggered": false
+        }
+    }
+}

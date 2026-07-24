@@ -631,13 +631,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Waterpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Waterpaw was 7 moons old"
+            "Waterpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Waterpaw was 7 moons old",
+            "Waterpaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Waterpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1373,7 +1377,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": -10,
         "comfort": 0,
         "trust": -5,
@@ -1381,7 +1385,9 @@
             "Waterkit disapproved of Shinebelly wearing a collar. (negative effect) - Waterkit was 0 moons old",
             "Waterkit heard Shinebelly fell asleep guarding camp. (negative effect) - Waterkit was 2 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1970,9 +1976,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Waterpaw said something that rubbed Shorefrill the wrong way. (low negative effect) - Waterpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1983,10 +1991,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 16,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2090,13 +2100,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 8,
+        "respect": 16,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Waterpaw saw Weedkit being considerate. (low positive effect) - Waterpaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2118,15 +2130,21 @@
         "cat_to_id": "245",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 12,
-        "trust": 12,
+        "romance": 15,
+        "like": 15,
+        "respect": 7,
+        "comfort": 20,
+        "trust": 19,
         "log": [
-            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old"
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old",
+            "Waterpaw noticed the pleasant scent of berries in Lavenderpaw's fur. (positive effect) - Waterpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2240,12 +2258,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterpaw stiffens up a little whenever someone mentions Bub. (medium negative effect) - Waterpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2276,6 +2298,32 @@
     {
         "cat_from_id": "239",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

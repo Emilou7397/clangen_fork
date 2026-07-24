@@ -524,8 +524,8 @@
         "cat_to_id": "47",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
+        "romance": 8,
+        "like": 13,
         "respect": 15,
         "comfort": 0,
         "trust": 0,
@@ -533,7 +533,9 @@
             "Heathstripe heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heathstripe was 68 moons old",
             "Heathstripe and Gardeniaglow worked together to gather plantain. (positive effect) - Heathstripe was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -893,14 +895,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 21,
+        "respect": 12,
+        "comfort": 3,
+        "trust": 4,
         "log": [
-            "Heathstripe enjoyed gathering herbs with Poolleaf. (positive effect) - Heathstripe was 74 moons old"
+            "Heathstripe enjoyed gathering herbs with Poolleaf. (positive effect) - Heathstripe was 74 moons old",
+            "Heathstripe defends Poolleaf in conversations. (high positive effect) - Heathstripe was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -1215,9 +1221,9 @@
         "mates": true,
         "family": false,
         "romance": 39,
-        "like": 25,
-        "respect": 26,
-        "comfort": 29,
+        "like": 13,
+        "respect": 14,
+        "comfort": 26,
         "trust": 23,
         "log": [
             "Heathstripe felt that Minnowlily didn't take his vision seriously. (negative effect) - Heathstripe was 51 moons old",
@@ -1241,9 +1247,16 @@
             "Heathstripe asks Minnowlily about a specific treatment method. (medium positive effect) - Heathstripe was 69 moons old",
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Heathstripe was 72 moons old",
             "Heathstripe and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Heathstripe was 75 moons old",
-            "Heathstripe appreciated Minnowlily's help harvesting burdock root. (positive effect) - Heathstripe was 76 moons old"
+            "Heathstripe appreciated Minnowlily's help harvesting burdock root. (positive effect) - Heathstripe was 76 moons old",
+            "Heathstripe wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Heathstripe was 77 moons old",
+            "Minnowlily and Heathstripe got into a huge argument over whose fault it was that an herb-gathering patrol failed. (negative effect) - Heathstripe was 78 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -2697,10 +2710,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Heathstripe accuses Bub of stealing something. (medium negative effect) - Heathstripe was 78 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "174",
@@ -2731,6 +2748,32 @@
     {
         "cat_from_id": "174",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "174",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

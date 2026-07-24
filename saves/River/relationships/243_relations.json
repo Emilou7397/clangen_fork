@@ -563,13 +563,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 15,
         "comfort": 12,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Weedpaw was 7 moons old"
+            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Weedpaw was 7 moons old",
+            "Weedpaw was impressed when Sardinespeckle convinced rogues to leave the territory. (positive effect) - Weedpaw was 8 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -632,13 +638,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Weedpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Weedpaw was 7 moons old"
+            "Weedpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Weedpaw was 7 moons old",
+            "Weedpaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Weedpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -753,11 +763,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Weedpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Weedpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2009,15 +2024,17 @@
         "cat_to_id": "238",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": -17,
         "log": [
             "Weedkit was convinced that Edelweisskit was lying about something, but Edelweisskit wasn't. (medium negative effect) - Weedkit was 3 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2026,13 +2043,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Waterkit gives advice to Weedkit. It's not good advice, but Weedkit appreciates the effort. (low positive effect) - Weedkit was 4 moons old"
+            "Waterkit gives advice to Weedkit. It's not good advice, but Weedkit appreciates the effort. (low positive effect) - Weedkit was 4 moons old",
+            "Weedpaw and Waterpaw come up with a catchy song together. (low positive effect) - Weedpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2245,13 +2265,43 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
+        "trust": -12,
+        "log": [
+            "Weedpaw was convinced that Deltakit was lying about something, but Deltakit wasn't. (medium negative effect) - Weedpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "243",
+        "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "243",
-        "cat_to_id": "257",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "243",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

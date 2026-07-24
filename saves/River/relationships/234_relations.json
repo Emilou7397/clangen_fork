@@ -230,7 +230,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -455,14 +455,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 26,
+        "respect": 7,
+        "comfort": 6,
+        "trust": 8,
         "log": [
-            "Nutpaw was excited to taste the Twoleg food that Fleadusk stole on patrol. (positive effect) - Nutpaw was 8 moons old"
+            "Nutpaw was excited to taste the Twoleg food that Fleadusk stole on patrol. (positive effect) - Nutpaw was 8 moons old",
+            "Nutpaw is having a wonderful time discussing recent Clan news with Fleadusk. (high positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -689,15 +695,17 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 10,
         "comfort": 10,
-        "trust": 15,
+        "trust": 30,
         "log": [
             "Nutpaw trusted Saltknoll to interpret Terabyte's vision. (positive effect) - Nutpaw was 7 moons old",
             "Nutpaw felt like Saltknoll wasted her time with an unsuccessful thyme-gathering patrol. (negative effect) - Nutpaw was 8 moons old",
-            "Saltknoll taught Nutpaw about gathering betony. (positive effect) - Nutpaw was 9 moons old"
+            "Saltknoll taught Nutpaw about gathering betony. (positive effect) - Nutpaw was 9 moons old",
+            "Nutpaw confided in Saltknoll about a dream that she suspected was a vision. (positive effect) - Nutpaw was 10 moons old"
         ],
         "no_longer_neutral": [
+            "respect",
             "comfort",
             "trust"
         ]
@@ -737,10 +745,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Nutpaw heard about Hailfreckle's efforts to ensure no cat gets caught unawares by a badger. (positive effect) - Nutpaw was 9 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -750,13 +760,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
-        "comfort": 0,
+        "respect": 15,
+        "comfort": 10,
         "trust": 0,
         "log": [
-            "Nutkit saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Nutkit was 0 moons old"
+            "Nutkit saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Nutkit was 0 moons old",
+            "Nutpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2029,17 +2043,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
-        "respect": 0,
-        "comfort": 4,
-        "trust": 0,
+        "like": 22,
+        "respect": 5,
+        "comfort": 20,
+        "trust": 5,
         "log": [
             "Nutkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Nutkit was 0 moons old",
             "Nutpaw noticed that Waterpaw had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Nutpaw was 7 moons old",
             "It seems like there's an unspoken apology between Nutpaw and Waterpaw. (medium positive effect) - Nutpaw was 8 moons old",
-            "Nutpaw thought Waterpaw was polite today. (low positive effect) - Nutpaw was 9 moons old"
+            "Nutpaw thought Waterpaw was polite today. (low positive effect) - Nutpaw was 9 moons old",
+            "After something unsettling happens, Nutpaw and Waterpaw find comfort in one another's company. (high positive effect) - Nutpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2259,6 +2277,32 @@
     {
         "cat_from_id": "234",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

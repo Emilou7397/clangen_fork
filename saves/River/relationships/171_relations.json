@@ -119,7 +119,7 @@
         "cat_to_id": "9",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 15,
         "respect": 1,
         "comfort": 17,
@@ -127,7 +127,8 @@
         "log": [
             "Coquitostep heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coquitostep was 74 moons old",
             "Primfreckle says something very sincere and comforting to Coquitostep. (high positive effect) - Coquitostep was 77 moons old",
-            "Primfreckle laughs at Coquitostep's embarrassing mistake. (high negative effect) - Coquitostep was 96 moons old"
+            "Primfreckle laughs at Coquitostep's embarrassing mistake. (high negative effect) - Coquitostep was 96 moons old",
+            "Coquitostep can't help but admire Primfreckle's pelt. (low positive effect) - Coquitostep was 107 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -842,7 +843,7 @@
         "cat_to_id": "83",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 10,
         "comfort": 0,
@@ -1252,12 +1253,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coquitostep and Wavelight argued about what to practice on a training patrol. (negative effect) - Coquitostep was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1265,14 +1270,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 10,
         "comfort": 0,
         "trust": 10,
         "log": [
-            "Coquitostep gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Coquitostep was 78 moons old"
+            "Coquitostep gained a greater respect for Cherrytail's loyalty when she protected Yewstar from a rogue. (positive effect) - Coquitostep was 78 moons old",
+            "Coquitostep and Cherrytail argued about what to practice on a training patrol. (negative effect) - Coquitostep was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -1390,7 +1400,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": -5,
         "respect": 10,
         "comfort": 0,
         "trust": 10,
@@ -1398,9 +1408,13 @@
             "Coquitostep and Silkymunch had a productive training patrol together. (positive effect) - Coquitostep was 72 moons old",
             "Coquitostep gained a greater respect for Silkymunch's loyalty when he saved Yewstar from a fox. (positive effect) - Coquitostep was 82 moons old",
             "Coquitostep heard that Silkymunch touched noses with a kittypet. (negative effect) - Coquitostep was 86 moons old",
-            "Coquitostep was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Coquitostep was 93 moons old"
+            "Coquitostep was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Coquitostep was 93 moons old",
+            "Coquitostep and Silkymunch argued about what to practice on a training patrol. (negative effect) - Coquitostep was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -2261,13 +2275,14 @@
         "cat_to_id": "219",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Coquitostep disapproved of Moorghost wearing a collar. (negative effect) - Coquitostep was 94 moons old"
+            "Coquitostep disapproved of Moorghost wearing a collar. (negative effect) - Coquitostep was 94 moons old",
+            "Coquitostep and Moorghost sunbathe together. (low positive effect) - Coquitostep was 107 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2596,12 +2611,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coquitostep and Silkroot argued about what to practice on a training patrol. (negative effect) - Coquitostep was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -2622,12 +2641,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coquitostep and Bluestripe argued about what to practice on a training patrol. (negative effect) - Coquitostep was 107 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "171",
@@ -2725,6 +2748,32 @@
     {
         "cat_from_id": "171",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "171",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

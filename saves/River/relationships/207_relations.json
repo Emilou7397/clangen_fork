@@ -599,13 +599,19 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 15,
         "comfort": 10,
-        "trust": 10,
+        "trust": 25,
         "log": [
-            "Sardinespeckle was part of the patrol that invited Hollyblossom to RiverClan. (positive effect) - Hollyblossom was 75 moons old"
+            "Sardinespeckle was part of the patrol that invited Hollyblossom to RiverClan. (positive effect) - Hollyblossom was 75 moons old",
+            "Hollyblossom was impressed when Sardinespeckle convinced rogues to leave the territory. (positive effect) - Hollyblossom was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -844,12 +850,14 @@
         "romance": 0,
         "like": 0,
         "respect": -17,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
             "Hollyblossom is jealous that Dancingfleck got to go on border patrol this morning. (medium negative effect) - Hollyblossom was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -976,14 +984,18 @@
         "romance": 0,
         "like": 20,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [
             "Hollyblossom and Minnowlily successfully gathered daisies together. (positive effect) - Hollyblossom was 87 moons old",
             "Hollyblossom and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Hollyblossom was 91 moons old",
-            "Hollyblossom and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Hollyblossom was 94 moons old"
+            "Hollyblossom and Minnowlily worked together to gather wild garlic and mallow. (positive effect) - Hollyblossom was 94 moons old",
+            "Hollyblossom wasn't thrilled to be gathering foul-smelling ragwort with Minnowlily. (negative effect) - Hollyblossom was 96 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -1310,11 +1322,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Hollyblossom wishes she could get her pelt to shine like Braveocean's. (low negative effect) - Hollyblossom was 97 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -1500,14 +1516,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 5,
-        "comfort": 0,
+        "like": 15,
+        "respect": 15,
+        "comfort": -8,
         "trust": 0,
         "log": [
-            "Hollyblossom enjoyed Nymphshine's story of how raspberries got their color. (positive effect) - Hollyblossom was 84 moons old"
+            "Hollyblossom enjoyed Nymphshine's story of how raspberries got their color. (positive effect) - Hollyblossom was 84 moons old",
+            "After the Clan finds a strange object, Hollyblossom notes that Nymphshine has been a little too fascinated with it. (low negative effect) - Hollyblossom was 97 moons old",
+            "Hollyblossom enjoyed Nymphshine's explanation of how oak leaves' medicinal properties are drawn from the strength of the tree. (positive effect) - Hollyblossom was 97 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -2424,6 +2446,32 @@
     {
         "cat_from_id": "207",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "207",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "207",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

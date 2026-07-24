@@ -346,14 +346,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lilypaw heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lilypaw was 12 moons old"
+            "Lilypaw heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lilypaw was 12 moons old",
+            "Lilynoise appreciated Bitebone's help gathering dandelion and wild garlic. (positive effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -938,14 +942,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Lilykit noticed how successful Poolleaf's hunting patrol was. (positive effect) - Lilykit was 0 moons old",
-            "Lilynoise was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Lilynoise was 43 moons old"
+            "Lilynoise was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Lilynoise was 43 moons old",
+            "Lilynoise was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1230,16 +1238,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 30,
-        "respect": 44,
+        "like": 40,
+        "respect": 54,
         "comfort": 90,
         "trust": 72,
         "log": [
             "Lilynoise was frustrated by how utterly unhelpful Oddmuzzle was on patrol. (negative effect) - Lilynoise was 23 moons old",
             "Lilynoise, Hollyheart, Carptail, and Algaepool can't escape from Oddmuzzle waking them up to do early morning stretches. (negative effect) - Lilynoise was 24 moons old",
-            "Lilynoise is asking Oddmuzzle interesting questions. (low positive effect) - Lilynoise was 29 moons old"
+            "Lilynoise is asking Oddmuzzle interesting questions. (low positive effect) - Lilynoise was 29 moons old",
+            "Lilynoise appreciated Oddmuzzle's help gathering dandelion and wild garlic. (positive effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1550,9 +1564,10 @@
         "like": -13,
         "respect": 0,
         "comfort": -17,
-        "trust": 0,
+        "trust": 3,
         "log": [
-            "Lilynoise accuses Gorgehunt of stealing something. (medium negative effect) - Lilynoise was 20 moons old"
+            "Lilynoise accuses Gorgehunt of stealing something. (medium negative effect) - Lilynoise was 20 moons old",
+            "Lilynoise appreciates Gorgehunt telling her that she had a feather stuck to her face. (low positive effect) - Lilynoise was 45 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1839,11 +1854,11 @@
         "cat_to_id": "151",
         "mates": false,
         "family": false,
-        "romance": 6,
+        "romance": 11,
         "like": -30,
         "respect": -6,
-        "comfort": 4,
-        "trust": -16,
+        "comfort": 12,
+        "trust": -11,
         "log": [
             "Lilypaw claimed to give Clawpaw a piece of crowfood on accident. (medium negative effect) - Lilypaw was 7 moons old",
             "Lilynoise saw Clawswirl hide something before talking to her. (low negative effect) - Lilynoise was 25 moons old",
@@ -1851,7 +1866,10 @@
             "Clawswirl let Lilynoise down when Lilynoise was counting on them. (medium negative effect) - Lilynoise was 35 moons old",
             "Clawswirl won't help Lilynoise fix her nest. (low negative effect) - Lilynoise was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2422,16 +2440,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 17,
-        "comfort": 0,
+        "comfort": 10,
         "trust": -10,
         "log": [
             "Lilynoise wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Lilynoise was 26 moons old",
             "Lilynoise heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lilynoise was 37 moons old",
-            "Lilynoise and Velvettooth successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 43 moons old"
+            "Lilynoise and Velvettooth successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 43 moons old",
+            "Lilynoise was grateful that Velvettooth gave her a piece of thyme to put in her nest. (positive effect) - Lilynoise was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2575,11 +2599,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -13,
         "log": [
-            "Lilynoise heard Electronegativity fell asleep guarding camp. (negative effect) - Lilynoise was 34 moons old"
+            "Lilynoise heard Electronegativity fell asleep guarding camp. (negative effect) - Lilynoise was 34 moons old",
+            "Lilynoise noticed that Electronegativity wasn't in her nest last night. (low negative effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2647,12 +2674,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lilynoise appreciated Bushheart's help gathering dandelion and wild garlic. (positive effect) - Lilynoise was 45 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2714,16 +2746,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 17,
+        "like": 18,
+        "respect": 27,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Lilynoise and Endothermic enjoyed a relaxing patrol gathering thyme together. (positive effect) - Lilynoise was 34 moons old",
             "Lilynoise heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lilynoise was 37 moons old",
-            "Lilynoise and Endothermic successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 43 moons old"
+            "Lilynoise and Endothermic successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 43 moons old",
+            "Lilynoise appreciated Endothermic's help gathering dandelion and wild garlic. (positive effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2731,14 +2768,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": 10,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lilynoise disapproved of Caterpillarstripe wearing a collar. (negative effect) - Lilynoise was 43 moons old"
+            "Lilynoise disapproved of Caterpillarstripe wearing a collar. (negative effect) - Lilynoise was 43 moons old",
+            "Lilynoise appreciated Caterpillarstripe's help gathering dandelion and wild garlic. (positive effect) - Lilynoise was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -3059,6 +3099,32 @@
     {
         "cat_from_id": "158",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "158",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "158",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

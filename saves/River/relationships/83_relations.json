@@ -224,9 +224,9 @@
         "mates": false,
         "family": false,
         "romance": 26,
-        "like": 37,
+        "like": 45,
         "respect": 38,
-        "comfort": 38,
+        "comfort": 46,
         "trust": 13,
         "log": [
             "Gracklefur saw Primfreckle defend the fresh-kill pile from a horde of rats. (positive effect)- Gracklefur was 58 moons old",
@@ -238,9 +238,15 @@
             "Though Gracklefur wasn't thrilled to be gathering foul-smelling ragwort with Primfreckle, Primfreckle was highly appreciative. (positive effect) - Gracklefur was 99 moons old",
             "Gracklefur and Primfreckle were short with each other during an unsuccessful herb-gathering patrol. (negative effect) - Gracklefur was 101 moons old",
             "Gracklefur and Primfreckle worked together to gather betony. (positive effect) - Gracklefur was 103 moons old",
-            "Primfreckle complained so relentlessly about her patrol assignment that Gracklefur, Stoatshade, and Quailfur could only sigh and bear it. (negative effect) - Gracklefur was 111 moons old"
+            "Primfreckle complained so relentlessly about her patrol assignment that Gracklefur, Stoatshade, and Quailfur could only sigh and bear it. (negative effect) - Gracklefur was 111 moons old",
+            "Gracklefur, Dancingfleck, and Primfreckle had a nice talk while eating. (positive effect) - Gracklefur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -440,10 +446,10 @@
         "mates": false,
         "family": false,
         "romance": 17,
-        "like": 35,
+        "like": 27,
         "respect": 18,
         "comfort": 48,
-        "trust": 5,
+        "trust": -3,
         "log": [
             "Gracklefur and Bitebone drove off rogues together. (positive effect)- Gracklefur was 53 moons old",
             "Mallardfeather's eagerness to do early morning stretches rubs off on Petalglow, Gracklefur, Bushberry, and Bitebone. (positive effect)- Gracklefur was 68 moons old",
@@ -455,9 +461,14 @@
             "Gracklefur and Bitebone enjoyed a relaxing patrol gathering thyme together. (positive effect) - Gracklefur was 98 moons old",
             "Gracklefur brushes against Bitebone while correcting his stance and looks away with a purr. (medium positive effect) - Gracklefur was 103 moons old",
             "Gracklefur and Bitebone worked together to gather betony. (positive effect) - Gracklefur was 103 moons old",
-            "Gracklefur gives Bitebone some feathers from the bird he caught to line his nest. (medium positive effect) - Gracklefur was 122 moons old"
+            "Gracklefur gives Bitebone some feathers from the bird he caught to line his nest. (medium positive effect) - Gracklefur was 122 moons old",
+            "Bitebone tells Quailfur, Gracklefur, Elmtrail, and Diablofoot a story that seems to grow less believable every meow. (negative effect) - Gracklefur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1357,12 +1368,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gracklefur claimed to give Dancingfleck a piece of crowfood on accident. (medium negative effect) - Gracklefur was 128 moons old",
+            "Gracklefur, Dancingfleck, and Primfreckle had a nice talk while eating. (positive effect) - Gracklefur was 128 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1467,14 +1484,18 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Gracklefur thinks Oddmuzzle was nice to him today. (low positive effect) - Gracklefur was 82 moons old",
-            "Oddmuzzle stepped on Gracklefur's paw and pretended not to notice. (low negative effect) - Gracklefur was 101 moons old"
+            "Oddmuzzle stepped on Gracklefur's paw and pretended not to notice. (low negative effect) - Gracklefur was 101 moons old",
+            "Gracklefur and Oddmuzzle successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1560,16 +1581,19 @@
         "cat_to_id": "115",
         "mates": false,
         "family": false,
-        "romance": 7,
+        "romance": 12,
         "like": 33,
-        "respect": 19,
+        "respect": 24,
         "comfort": 6,
-        "trust": 17,
+        "trust": 23,
         "log": [
             "Dahliacrest tries to convince Gracklefur that an obvious lie is real. (medium negative effect) - Gracklefur was 81 moons old",
             "Gracklefur thinks Clanmates talk more highly of Dahliacrest than him. (low negative effect) - Gracklefur was 121 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -1633,13 +1657,16 @@
         "romance": 0,
         "like": -4,
         "respect": -12,
-        "comfort": 8,
-        "trust": 0,
+        "comfort": 21,
+        "trust": 13,
         "log": [
             "Cherrytail, Wavelight, and Gracklefur took a sunbath and had a little small talk. (positive effect) - Gracklefur was 96 moons old",
             "Wavelight tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Antlerthorn and Gracklefur. (negative effect) - Gracklefur was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -2127,7 +2154,7 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 30,
+        "respect": 37,
         "comfort": 0,
         "trust": -10,
         "log": [
@@ -2136,9 +2163,14 @@
             "Gracklefur heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gracklefur was 99 moons old",
             "Terabyte and Gracklefur brought a large shoot of horsetail back to camp together, encouraged by one another's performance. (positive effect) - Gracklefur was 119 moons old",
             "Gracklefur heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gracklefur was 120 moons old",
-            "Gracklefur and Terabyte worked together to gather plantain. (positive effect) - Gracklefur was 122 moons old"
+            "Gracklefur and Terabyte worked together to gather plantain. (positive effect) - Gracklefur was 122 moons old",
+            "Gracklefur and Terabyte successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -2163,16 +2195,21 @@
         "family": false,
         "romance": 0,
         "like": 25,
-        "respect": -1,
+        "respect": 6,
         "comfort": 20,
         "trust": 0,
         "log": [
             "Nymphshine complained about his patrol assignment all day, much to the annoyance of Moletooth, Gracklefur, and Gentleghost. (negative effect) - Gracklefur was 109 moons old",
             "Gracklefur and Nymphshine successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 118 moons old",
             "Nymphshine, Verbenabloom, and Gracklefur had a nice talk while eating. (positive effect) - Gracklefur was 119 moons old",
-            "The moonlight encourages Nymphshine, Brindletooth, Verbenabloom, Gracklefur, and Gentleghost to slow down and stretch. (positive effect) - Gracklefur was 125 moons old"
+            "The moonlight encourages Nymphshine, Brindletooth, Verbenabloom, Gracklefur, and Gentleghost to slow down and stretch. (positive effect) - Gracklefur was 125 moons old",
+            "Gracklefur and Nymphshine successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -2194,7 +2231,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -2296,7 +2333,7 @@
         "cat_to_id": "171",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 5,
         "comfort": 0,
@@ -2304,7 +2341,8 @@
         "log": [
             "Gracklefur heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Gracklefur was 99 moons old",
             "Coquitostep sends a Clanmate to help Gracklefur with something he's struggling with. (low positive effect) - Gracklefur was 107 moons old",
-            "Gracklefur heard about how Coquitostep's patrol drove off a scavenging fox. (positive effect) - Gracklefur was 111 moons old"
+            "Gracklefur heard about how Coquitostep's patrol drove off a scavenging fox. (positive effect) - Gracklefur was 111 moons old",
+            "Gracklefur is prancing around in front of Coquitostep. (low positive effect) - Gracklefur was 128 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2555,15 +2593,18 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 27,
+        "respect": 37,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Gracklefur heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Gracklefur was 120 moons old",
             "Gracklefur and Velvettooth worked together to gather plantain. (positive effect) - Gracklefur was 122 moons old",
-            "Gracklefur is impressed with Velvettooth's willingness to help. (medium positive effect) - Gracklefur was 125 moons old"
+            "Gracklefur is impressed with Velvettooth's willingness to help. (medium positive effect) - Gracklefur was 125 moons old",
+            "Gracklefur helped Velvettooth bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Gracklefur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -2738,13 +2779,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": -3,
         "trust": 0,
         "log": [
-            "Gracklefur was being condescending towards Skytooth all day long. (low negative effect) - Gracklefur was 126 moons old"
+            "Gracklefur was being condescending towards Skytooth all day long. (low negative effect) - Gracklefur was 126 moons old",
+            "Gracklefur and Skytooth successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 127 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -3143,11 +3187,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Gracklefur and Bub successfully gathered herbs together despite the rainy weather. (positive effect) - Gracklefur was 127 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "83",
@@ -3178,6 +3226,32 @@
     {
         "cat_from_id": "83",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "83",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "83",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

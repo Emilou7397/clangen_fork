@@ -567,15 +567,19 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 15,
-        "comfort": 0,
+        "respect": 32,
+        "comfort": 13,
         "trust": 5,
         "log": [
             "Mitepaw and Hushshimmer had a productive training patrol together. (positive effect) - Mitepaw was 6 moons old",
             "Mitepaw heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mitepaw was 11 moons old",
-            "Miteleaf enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Miteleaf was 30 moons old"
+            "Miteleaf enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Miteleaf was 30 moons old",
+            "Miteleaf can't remember a word for the life of him, but Hushshimmer helps him remember it. (medium positive effect) - Miteleaf was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -944,16 +948,19 @@
         "family": false,
         "romance": 8,
         "like": 0,
-        "respect": 11,
+        "respect": 1,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Mitekit noticed how successful Poolleaf's hunting patrol was. (positive effect) - Mitekit was 0 moons old",
             "Miteleaf is impressed by Poolleaf helping others today. (low positive effect) - Miteleaf was 16 moons old",
             "Miteleaf thinks Poolleaf has very soft fur. (low positive effect) - Miteleaf was 40 moons old",
-            "Miteleaf was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Miteleaf was 42 moons old"
+            "Miteleaf was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Miteleaf was 42 moons old",
+            "Miteleaf was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Miteleaf was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -1152,16 +1159,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 13,
         "respect": 25,
-        "comfort": 8,
-        "trust": 15,
+        "comfort": 13,
+        "trust": 20,
         "log": [
             "Bitterleaf, Snakedrop, and Miteleaf had a nice talk while eating. (positive effect) - Miteleaf was 13 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Miteleaf. (positive effect) - Miteleaf was 29 moons old",
-            "Miteleaf heard about Snakedrop's victory in battle against a gang of rogues. (positive effect) - Miteleaf was 33 moons old"
+            "Miteleaf heard about Snakedrop's victory in battle against a gang of rogues. (positive effect) - Miteleaf was 33 moons old",
+            "Miteleaf was impressed by Snakedrop's confidence in fighting rogues. (positive effect) - Miteleaf was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -1836,18 +1849,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 2,
+        "like": 7,
         "respect": -10,
         "comfort": 8,
-        "trust": 20,
+        "trust": 25,
         "log": [
             "Miteleaf and Poppybriar worked on their skills together on a training patrol. (positive effect) - Miteleaf was 12 moons old",
             "Miteleaf feels like Poppybriar is more accomplished than him. (medium positive effect) - Miteleaf was 22 moons old",
             "Miteleaf appreciated Poppybriar settling a dispute on patrol. (positive effect) - Miteleaf was 37 moons old",
             "No matter how many warning looks Miteleaf, Clawswirl, Meadowspots, and Whiskerleg send him, Poppybriar keeps talking over the Gathering announcements. (negative effect) - Miteleaf was 40 moons old",
-            "Miteleaf doesn't like the way Poppybriar interacts with a Clanmate. (low negative effect) - Miteleaf was 43 moons old"
+            "Miteleaf doesn't like the way Poppybriar interacts with a Clanmate. (low negative effect) - Miteleaf was 43 moons old",
+            "Miteleaf and Poppybriar practiced their hunting together. (positive effect) - Miteleaf was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -1855,10 +1874,10 @@
         "mates": true,
         "family": false,
         "romance": 0,
-        "like": -3,
+        "like": 2,
         "respect": -3,
         "comfort": 27,
-        "trust": -5,
+        "trust": 0,
         "log": [
             "Mitepaw got stuck in the same tree with Clawpaw for hours and realized how much they have in common. (high positive effect) - Mitepaw was 8 moons old",
             "Miteleaf and Clawswirl listened to Prancelaurel's story together. (positive effect) - Miteleaf was 13 moons old",
@@ -1868,9 +1887,12 @@
             "Miteleaf and Clawswirl had a disagreement on how to raise kits. (medium negative effect) - Miteleaf was 32 moons old",
             "Miteleaf and Clawswirl stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Miteleaf was 34 moons old",
             "The Clan is surprised to see Miteleaf and Clawswirl chatting casually over a meal. (medium positive effect) - Miteleaf was 37 moons old",
-            "Clawswirl and Miteleaf had enough of each other's fox-dung after arguing about every little thing for the past moon now. Clawswirl calls off their relationship. - Miteleaf was 40 moons old"
+            "Clawswirl and Miteleaf had enough of each other's fox-dung after arguing about every little thing for the past moon now. Clawswirl calls off their relationship. - Miteleaf was 40 moons old",
+            "Miteleaf and Clawswirl practiced their hunting together. (positive effect) - Miteleaf was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -1878,17 +1900,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 17,
         "respect": 5,
         "comfort": 8,
-        "trust": 23,
+        "trust": 28,
         "log": [
             "Mitekit saw Creekpaw being rude. (low negative effect) - Mitekit was 5 moons old",
             "Mitepaw and Creekmoss enjoyed practicing new battle moves together. (positive effect) - Mitepaw was 9 moons old",
             "Miteleaf and Creekmoss worked on their skills together on a training patrol. (positive effect) - Miteleaf was 12 moons old",
-            "Miteleaf enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Miteleaf was 21 moons old"
+            "Miteleaf enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Miteleaf was 21 moons old",
+            "Miteleaf and Creekmoss practiced their hunting together. (positive effect) - Miteleaf was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -1896,10 +1923,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
+        "like": 21,
         "respect": 7,
         "comfort": 10,
-        "trust": 40,
+        "trust": 45,
         "log": [
             "Mitepaw and Meadowpaw had a productive training patrol together. (positive effect) - Mitepaw was 6 moons old",
             "Miteleaf and Meadowspots worked on their skills together on a training patrol. (positive effect) - Miteleaf was 12 moons old",
@@ -1909,9 +1936,15 @@
             "Meadowspots sends a Clanmate to help Miteleaf with something he's struggling with. (low positive effect) - Miteleaf was 17 moons old",
             "Miteleaf enjoyed driving away rogues with Meadowspots. (positive effect) - Miteleaf was 19 moons old",
             "Miteleaf heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Miteleaf was 21 moons old",
-            "Meadowspots calls out the Clan for targeting Miteleaf. (high positive effect) - Miteleaf was 36 moons old"
+            "Meadowspots calls out the Clan for targeting Miteleaf. (high positive effect) - Miteleaf was 36 moons old",
+            "Miteleaf and Meadowspots practiced their hunting together. (positive effect) - Miteleaf was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -2082,7 +2115,7 @@
         "romance": 0,
         "like": 38,
         "respect": 11,
-        "comfort": 26,
+        "comfort": 39,
         "trust": 8,
         "log": [
             "Mitepaw asks Shinepaw if he could use some help getting introduced to the other Clan members. (positive effect) - Mitepaw was 6 moons old",
@@ -2097,7 +2130,9 @@
             "Miteleaf heard Shinebelly fell asleep guarding camp. (negative effect) - Miteleaf was 38 moons old",
             "Miteleaf and Shinebelly had a productive training patrol together. (positive effect) - Miteleaf was 43 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -2120,12 +2155,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 11,
+        "respect": 4,
+        "comfort": 4,
+        "trust": 21,
+        "log": [
+            "Miteleaf knows that the advice Howlshine gave him will be helpful. (high positive effect) - Miteleaf was 45 moons old",
+            "Miteleaf and Howlshine practiced their hunting together. (positive effect) - Miteleaf was 45 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "156",
@@ -3071,6 +3112,32 @@
     {
         "cat_from_id": "156",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "156",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "156",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

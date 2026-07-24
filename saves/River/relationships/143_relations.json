@@ -930,15 +930,20 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": -12,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Bravepaw noticed how successful Poolleaf's hunting patrol was. (positive effect) - Bravepaw was 7 moons old",
             "Braveocean won't take Poolleaf seriously. (medium negative effect) - Braveocean was 40 moons old",
-            "Braveocean was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Braveocean was 49 moons old"
+            "Braveocean was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Braveocean was 49 moons old",
+            "Braveocean was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Braveocean was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1305,15 +1310,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -17,
         "respect": 24,
         "comfort": -10,
         "trust": 15,
         "log": [
             "Braveocean heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Braveocean was 25 moons old",
-            "Braveocean notices a strange glint in Wasppelt's eyes. (low negative effect) - Braveocean was 33 moons old"
+            "Braveocean notices a strange glint in Wasppelt's eyes. (low negative effect) - Braveocean was 33 moons old",
+            "Braveocean laughed at Wasppelt for making a mistake on a patrol. (medium negative effect) - Braveocean was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1584,13 +1592,14 @@
         "romance": 11,
         "like": -6,
         "respect": 24,
-        "comfort": 11,
+        "comfort": -2,
         "trust": 13,
         "log": [
             "Braveocean and Moletooth took a lovely nap together instead of patrolling. (positive effect) - Braveocean was 13 moons old",
             "Braveocean gained a greater respect for Moletooth's loyalty when he protected Yewstar from a rogue. (positive effect) - Braveocean was 17 moons old",
             "Braveocean heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveocean was 20 moons old",
-            "Braveocean rolls around in some herbs after hearing Moletooth likes their smell. (high positive effect) - Braveocean was 46 moons old"
+            "Braveocean rolls around in some herbs after hearing Moletooth likes their smell. (high positive effect) - Braveocean was 46 moons old",
+            "Braveocean notices a strange glint in Moletooth's eyes. (low negative effect) - Braveocean was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1602,7 +1611,7 @@
         "romance": 98,
         "like": 88,
         "respect": 32,
-        "comfort": 81,
+        "comfort": 73,
         "trust": 44,
         "log": [
             "Bravepaw and Glowpaw took a lovely nap together instead of patrolling. (positive effect) - Bravepaw was 9 moons old",
@@ -1615,7 +1624,9 @@
             "Braveocean appreciates Glowfur telling her that she had a feather stuck to her face. (low positive effect) - Braveocean was 49 moons old",
             "Braveocean purrs for a long time at one of Glowfur's lame jokes. (high positive effect) - Braveocean was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1909,14 +1920,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
+        "like": 8,
         "respect": 6,
         "comfort": 5,
-        "trust": 6,
+        "trust": -2,
         "log": [
-            "The whole Clan notices how close Braveocean and Coconutocean are lately. (high positive effect) - Braveocean was 29 moons old"
+            "The whole Clan notices how close Braveocean and Coconutocean are lately. (high positive effect) - Braveocean was 29 moons old",
+            "Coconutocean shares a suspiciously exaggerated tale with Skulkwillow, Braveocean, and Fishleg, who seem far from convinced of its veracity. (negative effect) - Braveocean was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -2774,10 +2789,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -3031,6 +3048,32 @@
     {
         "cat_from_id": "143",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "143",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "143",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -5,16 +5,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
-        "respect": 26,
+        "like": 16,
+        "respect": 36,
         "comfort": 6,
         "trust": 20,
         "log": [
             "Kinkkit heard about how Prancelaurel's patrol killed a scavenging fox. (positive effect) - Kinkkit was 5 moons old",
             "Prancelaurel lets Kinkdapple know that a Clanmate was talking badly about her. (low positive effect) - Kinkdapple was 20 moons old",
-            "Kinkdapple is deeply touched hearing just how much Prancelaurel remembers about her. (high positive effect) - Kinkdapple was 21 moons old"
+            "Kinkdapple is deeply touched hearing just how much Prancelaurel remembers about her. (high positive effect) - Kinkdapple was 21 moons old",
+            "Kinkdapple listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Kinkdapple was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -136,14 +142,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": -5,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Kinkdapple heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Kinkdapple was 24 moons old"
+            "Kinkdapple heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Kinkdapple was 24 moons old",
+            "Ochretail is getting too violent in an argument with Kinkdapple. (medium negative effect) - Kinkdapple was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -748,13 +757,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Kinkdapple was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Kinkdapple was 26 moons old"
+            "Kinkdapple was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Kinkdapple was 26 moons old",
+            "Kinkdapple was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Kinkdapple was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1278,12 +1291,14 @@
         "romance": 0,
         "like": 8,
         "respect": 0,
-        "comfort": 8,
+        "comfort": 16,
         "trust": 0,
         "log": [
             "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Kinkdapple was 26 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2207,12 +2222,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -3,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 6,
+        "respect": 3,
+        "comfort": 21,
+        "trust": 7,
+        "log": [
+            "Kinkdapple talks to Softspring about a mutual friend they have both been worrying about. (high positive effect) - Kinkdapple was 29 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2714,6 +2735,32 @@
     {
         "cat_from_id": "182",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

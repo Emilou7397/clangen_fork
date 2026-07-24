@@ -5,14 +5,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 22,
+        "respect": 10,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Prancelaurel convinces Ochretail, Ashenkit, Dancingscreech, and Auburnsplash to wind down and stretch with her. (positive effect) - Ashenkit was 0 moons old"
+            "Prancelaurel convinces Ochretail, Ashenkit, Dancingscreech, and Auburnsplash to wind down and stretch with her. (positive effect) - Ashenkit was 0 moons old",
+            "Ashenpelt listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Ashenpelt was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -765,13 +770,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Ashenpelt was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Ashenpelt was 25 moons old"
+            "Ashenpelt was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Ashenpelt was 25 moons old",
+            "Ashenpelt was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Ashenpelt was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -1769,15 +1778,18 @@
         "romance": 0,
         "like": 8,
         "respect": 22,
-        "comfort": -5,
+        "comfort": -12,
         "trust": 25,
         "log": [
             "Ashenpaw gained a greater respect for Sandthrush's loyalty when she saved Yewstar from a fox. (positive effect) - Ashenpaw was 9 moons old",
             "Ashenpelt and Sandthrush avoided each other after an unpleasant training patrol. (negative effect) - Ashenpelt was 13 moons old",
             "Ashenpelt gained a greater respect for Sandthrush's loyalty when she protected Yewstar from a rogue. (positive effect) - Ashenpelt was 17 moons old",
-            "Ashenpelt grew irritated at Sandthrush while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old"
+            "Ashenpelt grew irritated at Sandthrush while on a patrol and didn't accomplish much. (negative effect) - Ashenpelt was 23 moons old",
+            "Ashenpelt swears that Sandthrush's fangs are longer than usual. (medium negative effect) - Ashenpelt was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2693,12 +2705,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 21,
+        "comfort": 8,
+        "trust": 6,
+        "log": [
+            "Ashenpelt is amazed at how skilled Merlotbite really is. (high positive effect) - Ashenpelt was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "185",
@@ -2748,12 +2767,40 @@
         "family": false,
         "romance": 0,
         "like": -3,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Ashenpelt finds his feelings conflicted towards the new family addition. (neutral effect) - Ashenpelt was 25 moons old"
         ],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "185",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

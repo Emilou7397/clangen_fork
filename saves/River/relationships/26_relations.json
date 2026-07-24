@@ -600,7 +600,7 @@
         "like": 43,
         "respect": 4,
         "comfort": 41,
-        "trust": 17,
+        "trust": 24,
         "log": [
             "Peakspore heard that Archbellow's whole patrol fell asleep instead of training. (negative effect)- Peakspore was 16 moons old",
             "Peakspore appreciated Archbellow settling a dispute on patrol. (positive effect)- Peakspore was 24 moons old",
@@ -610,9 +610,12 @@
             "The moonlight encourages Silverstar, Bouncepelt, Peakspore, Archbellow, and Cobaltstrike to slow down and stretch. (positive effect)- Peakspore was 33 moons old",
             "Peakspore and Archbellow practiced their hunting together. (positive effect)- Peakspore was 42 moons old",
             "Peakspore always goes to Archbellow first when he needs advice. (high positive effect) - Peakspore was 94 moons old",
-            "Peakspore and Archbellow perk up happily when they see each other. (medium positive effect) - Peakspore was 101 moons old"
+            "Peakspore and Archbellow perk up happily when they see each other. (medium positive effect) - Peakspore was 101 moons old",
+            "Peakspore nearly tripped, but was caught by Archbellow. (medium positive effect) - Peakspore was 121 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "26",
@@ -1005,7 +1008,8 @@
             "Peakspore and Freezefoot successfully gathered daisies together. (positive effect) - Peakspore was 113 moons old",
             "Peakspore and Freezefoot worked together to gather betony. (positive effect) - Peakspore was 114 moons old",
             "Peakspore and Freezefoot worked together to gather plantain. (positive effect) - Peakspore was 115 moons old",
-            "Freezefoot and Peakspore had a fight over if they would take a new mate if one of them died or went missing. (medium negative effect) - Peakspore was 120 moons old"
+            "Freezefoot and Peakspore had a fight over if they would take a new mate if one of them died or went missing. (medium negative effect) - Peakspore was 120 moons old",
+            "Freezefoot can't stop gushing over Peakspore. (high positive effect) - Peakspore was 121 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1535,14 +1539,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Peakspore noticed how successful Poolleaf's hunting patrol was. (positive effect) - Peakspore was 76 moons old",
-            "Peakspore was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Peakspore was 119 moons old"
+            "Peakspore was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Peakspore was 119 moons old",
+            "Peakspore was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Peakspore was 121 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "26",
@@ -1641,15 +1649,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 7,
+        "like": 5,
+        "respect": 5,
+        "comfort": 5,
+        "trust": 11,
         "log": [
             "Volepaw is giving Peakspore advice. (medium positive effect)- Peakspore was 57 moons old",
             "Peakspore heard Voletuft fell asleep guarding camp. (negative effect) - Peakspore was 64 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "26",
@@ -1753,10 +1763,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Peakspore heard about Hailfreckle's efforts to ensure no cat gets caught unawares by a badger. (positive effect) - Peakspore was 120 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3410,14 +3422,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 9,
-        "respect": 6,
-        "comfort": 13,
-        "trust": 0,
+        "like": 7,
+        "respect": 4,
+        "comfort": 2,
+        "trust": -4,
         "log": [
-            "Peakspore is excited for his family to grow further. (positive effect) - Peakspore was 110 moons old"
+            "Peakspore is excited for his family to grow further. (positive effect) - Peakspore was 110 moons old",
+            "Peakspore scolds Nutpaw for not telling anyone about a piece of crowfood in the pile. (high negative effect) - Peakspore was 121 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "26",
@@ -3548,10 +3563,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "26",
@@ -3713,6 +3730,32 @@
         "log": [
             "Peakspore is excited for his family to grow further. (positive effect) - Peakspore was 119 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "26",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "26",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

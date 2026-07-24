@@ -162,13 +162,16 @@
         "family": false,
         "romance": 13,
         "like": -3,
-        "respect": -3,
+        "respect": 10,
         "comfort": -3,
         "trust": 13,
         "log": [
-            "Lightpelt thinks Peatcrest looks nicer than him today. (low negative effect) - Lightpelt was 102 moons old"
+            "Lightpelt thinks Peatcrest looks nicer than him today. (low negative effect) - Lightpelt was 102 moons old",
+            "Lightpelt sees Peatcrest help a Clanmate get unstuck from some brambles. (low positive effect) - Lightpelt was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -270,7 +273,7 @@
         "romance": 30,
         "like": -2,
         "respect": 21,
-        "comfort": 91,
+        "comfort": 100,
         "trust": 18,
         "log": [
             "Lightpelt feels giddy about getting on the same patrol as Auburnsplash. (medium positive effect) - Lightpelt was 51 moons old",
@@ -281,9 +284,12 @@
             "Auburnsplash points out to Lightpelt that a spider is in his nest before he sits in it. (low positive effect) - Lightpelt was 72 moons old",
             "Auburnsplash saved Lightpelt from choking on a prey-bone. (positive effect) - Lightpelt was 79 moons old",
             "Auburnsplash's advice is more helpful than Lightpelt expected. (medium positive effect) - Lightpelt was 95 moons old",
-            "Lightpelt quickly apologizes after bumping into Auburnsplash. They have a small laugh about it. (low positive effect) - Lightpelt was 101 moons old"
+            "Lightpelt quickly apologizes after bumping into Auburnsplash. They have a small laugh about it. (low positive effect) - Lightpelt was 101 moons old",
+            "Lightpelt had a good dream about Auburnsplash. (low positive effect) - Lightpelt was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -954,17 +960,22 @@
         "family": false,
         "romance": 0,
         "like": 21,
-        "respect": -6,
+        "respect": -16,
         "comfort": 14,
-        "trust": 11,
+        "trust": 1,
         "log": [
             "Lightpelt noticed how successful Poolleaf's hunting patrol was. (positive effect) - Lightpelt was 63 moons old",
             "Lightpelt is letting Poolleaf share her troubles with her, hoping she'll feel better afterward. (high positive effect) - Lightpelt was 66 moons old",
             "Lightpelt, Kiwifoot, and Poolleaf had a nice talk while eating. (positive effect) - Lightpelt was 105 moons old",
             "Lightpelt tries to groom his pelt the same way Poolleaf does. (medium positive effect) - Lightpelt was 106 moons old",
-            "Lightpelt was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Lightpelt was 106 moons old"
+            "Lightpelt was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Lightpelt was 106 moons old",
+            "Lightpelt was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Lightpelt was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -2581,15 +2592,18 @@
         "cat_to_id": "229",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Lightpelt heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lightpelt was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "113",
@@ -2921,6 +2935,32 @@
     {
         "cat_from_id": "113",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "113",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -400,17 +400,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -4,
-        "respect": -11,
-        "comfort": -29,
-        "trust": -1,
+        "like": 1,
+        "respect": -6,
+        "comfort": -24,
+        "trust": 3,
         "log": [
             "Volepaw heard that Peakspore chased a rogue off the territory. (positive effect)- Volepaw was 10 moons old",
             "Voletuft worries about Peakspore's mental stability. (medium negative effect) - Voletuft was 35 moons old",
             "Voletuft swears that Peakspore's fangs are longer than usual. (medium negative effect) - Voletuft was 37 moons old",
             "Voletuft notices that Peakspore always gets better fresh-kill to eat. (high negative effect) - Voletuft was 70 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1170,7 +1173,7 @@
         "romance": 0,
         "like": 3,
         "respect": -11,
-        "comfort": 25,
+        "comfort": 28,
         "trust": 0,
         "log": [
             "Volekit mews congratulations to Poolpaw for a job well done. (low positive effect)- Volekit was 3 moons old",
@@ -1179,9 +1182,12 @@
             "Voletuft tried to explain something to Poolleaf, but she just didn't understand. (low negative effect) - Voletuft was 19 moons old",
             "Voletuft noticed how successful Poolleaf's hunting patrol was. (positive effect) - Voletuft was 27 moons old",
             "Voletuft has noticed Poolleaf isn't doing a lot of work lately. (medium negative effect) - Voletuft was 31 moons old",
-            "Silkymunch's eagerness to do early morning stretches rubs off on Speckleflake, Voletuft, Snakedrop, and Poolleaf. (positive effect) - Voletuft was 40 moons old"
+            "Silkymunch's eagerness to do early morning stretches rubs off on Speckleflake, Voletuft, Snakedrop, and Poolleaf. (positive effect) - Voletuft was 40 moons old",
+            "Voletuft and Poolleaf drink from the same puddle. (low positive effect) - Voletuft was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -1711,7 +1717,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 16,
         "respect": -5,
         "comfort": 0,
         "trust": -13,
@@ -1719,7 +1725,9 @@
             "Voletuft, Shimmerrunner, and Snookbumble took a sunbath and had a little small talk. (positive effect) - Voletuft was 35 moons old",
             "Voletuft heard that Snookbumble touched noses with a kittypet. (negative effect) - Voletuft was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -2030,15 +2038,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 6,
         "respect": 0,
-        "comfort": -17,
-        "trust": -5,
+        "comfort": -25,
+        "trust": 0,
         "log": [
             "Voletuft heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Voletuft was 59 moons old",
             "For a moment, Voletuft thought Midnighthaze sounded like someone else. (medium negative effect) - Voletuft was 66 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "like"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -3087,13 +3098,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -3,
+        "like": 2,
         "respect": 0,
         "comfort": 0,
         "trust": -3,
         "log": [
             "Voletuft and Whitepaw enjoyed practicing new battle moves together. (positive effect) - Voletuft was 70 moons old",
-            "Whitepaw tells Voletuft, Hushshimmer, Peakspore, and Bushpaw a story that earns more skepticism than admiration. (negative effect) - Voletuft was 71 moons old"
+            "Whitepaw tells Voletuft, Hushshimmer, Peakspore, and Bushpaw a story that earns more skepticism than admiration. (negative effect) - Voletuft was 71 moons old",
+            "Whitepaw was very considerate while on patrol with Voletuft. (positive effect) - Voletuft was 72 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3223,10 +3235,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Voletuft sees the blood of fresh-kill on Silkroot's paws and feels a prickle of discomfort. (low negative effect) - Voletuft was 72 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "86",
@@ -3348,6 +3364,32 @@
     {
         "cat_from_id": "86",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "86",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

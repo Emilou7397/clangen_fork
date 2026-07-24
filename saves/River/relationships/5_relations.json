@@ -703,11 +703,11 @@
         "cat_to_id": "13",
         "mates": true,
         "family": false,
-        "romance": 88,
+        "romance": 100,
         "like": 100,
-        "respect": 50,
+        "respect": 42,
         "comfort": 100,
-        "trust": 59,
+        "trust": 74,
         "log": [
             "Fidgetmouse got a weird look on her face when Ochretail approached her. (low negative effect)- Ochretail was 33 moons old",
             "Ochretail and Fidgetmouse took advantage of the presence of so many warriors on a training patrol to practice their most advanced moves and gain a deeper trust in each other. (positive effect)- Ochretail was 40 moons old",
@@ -731,9 +731,17 @@
             "Ochretail overhears Fidgetmouse humming a comforting tune. (low positive effect) - Ochretail was 115 moons old",
             "Fidgetmouse purrs for a long time at one of Ochretail's lame jokes. (high positive effect) - Ochretail was 119 moons old",
             "Ochretail had a disagreement with Fidgetmouse over kits. (medium negative effect) - Ochretail was 123 moons old",
-            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Ochretail was 131 moons old"
+            "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Ochretail was 131 moons old",
+            "If it were a life-or-death situation, Ochretail thinks that Fidgetmouse should be saved first. (medium positive effect) - Ochretail was 148 moons old",
+            "Fidgetmouse gave Ochretail a gift to smooth over an argument, and Ochretail has worn it on his pelt ever since. (positive effect) - Ochretail was 148 moons old",
+            "Fidgetmouse was caught enjoying a moonlit stroll with Ochretail last night... (high positive effect) - Ochretail was 148 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "5",
@@ -1079,12 +1087,14 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
             "Ochretail heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ochretail was 138 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "5",
@@ -1400,18 +1410,21 @@
         "cat_to_id": "71",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 9,
         "like": 0,
-        "respect": -30,
-        "comfort": -13,
-        "trust": 3,
+        "respect": -22,
+        "comfort": -5,
+        "trust": 12,
         "log": [
             "Reedheart follows through on a small promise made with Ochretail. (low positive effect)- Ochretail was 67 moons old",
             "Ochretail overheard a joke from Reedheart he didn't get. (low negative effect) - Ochretail was 98 moons old",
             "Ochretail thinks that Reedheart is more talented than him. (medium negative effect) - Ochretail was 122 moons old",
             "Ochretail suspects that Reedheart gets special treatment. (low negative effect) - Ochretail was 147 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "5",
@@ -1607,11 +1620,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Ochretail hears a nice story about Mallowpelt. (low positive effect) - Ochretail was 148 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2169,9 +2184,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 13,
+        "trust": 26,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "5",
@@ -3642,5 +3659,41 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "5",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 64,
+        "respect": 34,
+        "comfort": 74,
+        "trust": 64,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "5",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 63,
+        "respect": 33,
+        "comfort": 73,
+        "trust": 63,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
     }
 ]

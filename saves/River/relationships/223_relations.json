@@ -1988,10 +1988,10 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 28,
-        "respect": -8,
-        "comfort": 16,
-        "trust": 68,
+        "like": 33,
+        "respect": -4,
+        "comfort": 22,
+        "trust": 84,
         "log": [
             "Skykit seems respectful of Bushkit's boundaries as of late. (medium positive effect) - Bushkit was 2 moons old",
             "Skykit gave Bushkit a gift she found while playing, and Bushkit has worn it on her pelt ever since. (positive effect) - Bushkit was 3 moons old",
@@ -2000,9 +2000,14 @@
             "Bushpaw includes Skypaw in a conversation that Skypaw struggled to join. (low positive effect) - Bushpaw was 9 moons old",
             "Bushpaw protects Skypaw from something on a patrol. (medium positive effect) - Bushpaw was 10 moons old",
             "Bushpaw gets some good advice from Skypaw about something trivial. (low positive effect) - Bushpaw was 12 moons old",
-            "Skytooth thinks Bushpaw has a lovely sense of humor. (medium positive effect) - Bushpaw was 15 moons old"
+            "Skytooth thinks Bushpaw has a lovely sense of humor. (medium positive effect) - Bushpaw was 15 moons old",
+            "Bushheart knows that the advice Skytooth gave her will be helpful. (high positive effect) - Bushheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2371,12 +2376,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -7,
+        "respect": -6,
+        "comfort": -21,
+        "trust": -7,
+        "log": [
+            "Bushheart feels extremely unsettled when Daykit looks at her. (high negative effect) - Bushheart was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2435,6 +2447,32 @@
     {
         "cat_from_id": "223",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

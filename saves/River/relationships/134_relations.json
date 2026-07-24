@@ -1211,14 +1211,17 @@
         "romance": 0,
         "like": 0,
         "respect": 2,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 5,
         "log": [
             "Silkykit was impressed by Gentleghost's hunting prowess. (positive effect) - Silkykit was 1 moon old",
             "Gentleghost acts childishly in front of Silkypaw. (low negative effect) - Silkypaw was 7 moons old",
-            "Silkypaw heard about how Gentleghost's patrol drove off a scavenging fox. (positive effect) - Silkypaw was 9 moons old"
+            "Silkypaw heard about how Gentleghost's patrol drove off a scavenging fox. (positive effect) - Silkypaw was 9 moons old",
+            "Silkymunch and Gentleghost share stories of a Clanmate they didn't realize they both miss. (medium positive effect) - Silkymunch was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1461,14 +1464,16 @@
         "romance": 0,
         "like": 28,
         "respect": 8,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Blotchpaw reminds Silkypaw to grab something from the fresh-kill pile if she hasn't already. (medium positive effect) - Silkypaw was 9 moons old",
             "Silkymunch hears a nice story about Blotchstripe. (low positive effect) - Silkymunch was 22 moons old",
             "Silkymunch is motivated by Blotchstripe's big smile. (low positive effect) - Silkymunch was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1476,7 +1481,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 59,
+        "like": 49,
         "respect": 26,
         "comfort": 32,
         "trust": 11,
@@ -1487,9 +1492,15 @@
             "Silkymunch and Wavelight picked up some new tricks while sparring together. (positive effect) - Silkymunch was 30 moons old",
             "Silkymunch and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 33 moons old",
             "Silkymunch was impressed by how Wavelight invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Silkymunch was 38 moons old",
-            "Silkymunch and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 40 moons old"
+            "Silkymunch and Wavelight enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 40 moons old",
+            "Silkymunch and Wavelight argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1497,16 +1508,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": -5,
         "respect": 0,
         "comfort": 13,
         "trust": -8,
         "log": [
             "Cherrytail, Silkymunch, and Tomatofreckle had a nice talk while eating. (positive effect) - Silkymunch was 14 moons old",
             "Cherrytail tells Midnighthaze, Bitebone, Silkymunch, and Suntooth a story that seems to grow less believable every meow. (negative effect) - Silkymunch was 28 moons old",
-            "Silkymunch and Cherrytail enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 33 moons old"
+            "Silkymunch and Cherrytail enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 33 moons old",
+            "Silkymunch and Cherrytail argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1917,9 +1932,9 @@
         "family": false,
         "romance": 0,
         "like": 49,
-        "respect": 24,
+        "respect": 34,
         "comfort": 42,
-        "trust": 6,
+        "trust": 16,
         "log": [
             "Silkykit is excited for his family to grow further. (positive effect) - Silkykit was 2 moons old",
             "Silkypaw and Poppypaw goofed off together during Yewstar's lesson about octopi. (positive effect) - Silkypaw was 9 moons old",
@@ -1927,9 +1942,15 @@
             "Silkymunch and Poppybriar heckled another Clan at the Gathering together. (high positive effect) - Silkymunch was 29 moons old",
             "Silkymunch and Poppybriar enjoyed a friendly debate about prey types while practicing hunting together. (positive effect) - Silkymunch was 40 moons old",
             "Silkymunch and Poppybriar listened to Butterflyglide's story together. (positive effect) - Silkymunch was 41 moons old",
-            "Silkymunch and Poppybriar enjoyed telling ghost stories on patrol. (positive effect) - Silkymunch was 50 moons old"
+            "Silkymunch and Poppybriar enjoyed telling ghost stories on patrol. (positive effect) - Silkymunch was 50 moons old",
+            "Silkymunch was impressed by how Poppybriar invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Silkymunch was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -2223,15 +2244,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
+        "like": -5,
+        "respect": -8,
         "comfort": 0,
-        "trust": -5,
+        "trust": -13,
         "log": [
             "Silkymunch and Coquitostep had a productive training patrol together. (positive effect) - Silkymunch was 17 moons old",
-            "Silkymunch heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Silkymunch was 23 moons old"
+            "Silkymunch heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Silkymunch was 23 moons old",
+            "Silkymunch thought Coquitostep did a poor job of leading a training patrol. (negative effect) - Silkymunch was 52 moons old",
+            "Silkymunch and Coquitostep argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -2978,12 +3004,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Silkymunch and Silkroot argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3004,12 +3034,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -16,
+        "respect": -21,
+        "comfort": -8,
+        "trust": -7,
+        "log": [
+            "Silkymunch asks Bluestripe about something complicated and regrets it when Bluestripe misses the point. (high negative effect) - Silkymunch was 52 moons old",
+            "Silkymunch and Bluestripe argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3117,6 +3155,32 @@
         "log": [
             "Silkymunch finds her feelings conflicted towards the new family addition. (neutral effect) - Silkymunch was 49 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

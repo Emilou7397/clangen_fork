@@ -382,13 +382,16 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 10,
+        "respect": 22,
         "comfort": 15,
         "trust": 15,
         "log": [
-            "Verbenabloom asks Aster if she could use some help getting introduced to the other Clan members. (positive effect) - Aster was 112 moons old"
+            "Verbenabloom asks Aster if she could use some help getting introduced to the other Clan members. (positive effect) - Aster was 112 moons old",
+            "Aster is sparring with Verbenabloom. (medium positive effect) - Aster was 116 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -694,12 +697,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Aster got tricked into doing one of Snakedrop's chores. (low negative effect) - Aster was 116 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -1942,6 +1949,32 @@
     {
         "cat_from_id": "255",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "255",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "255",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

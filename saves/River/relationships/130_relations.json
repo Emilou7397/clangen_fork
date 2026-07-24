@@ -915,15 +915,20 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 3,
+        "respect": -7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Currentpaw noticed how successful Poolleaf's hunting patrol was. (positive effect) - Currentpaw was 8 moons old",
             "Currenthiss asks Poolleaf how she's doing. (low positive effect) - Currenthiss was 51 moons old",
-            "Currenthiss was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Currenthiss was 51 moons old"
+            "Currenthiss was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Currenthiss was 51 moons old",
+            "Currenthiss was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Currenthiss was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -1732,7 +1737,7 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -8,
+        "respect": -21,
         "comfort": -24,
         "trust": 9,
         "log": [
@@ -1741,9 +1746,12 @@
             "Currenthiss heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Currenthiss was 23 moons old",
             "Currenthiss wonders what she did to make Shiveringdusk so rude towards her today. (low negative effect) - Currenthiss was 29 moons old",
             "Currenthiss felt eyes on her back, and when she looked, Shiveringdusk was quickly turning away. (low negative effect) - Currenthiss was 31 moons old",
-            "Shiveringdusk gives Currenthiss a big piece of fresh-kill. (low positive effect) - Currenthiss was 51 moons old"
+            "Shiveringdusk gives Currenthiss a big piece of fresh-kill. (low positive effect) - Currenthiss was 51 moons old",
+            "Currenthiss sees a Clanmate complimenting Shiveringdusk and feels a pang of envy. (low negative effect) - Currenthiss was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -2244,14 +2252,17 @@
         "romance": 0,
         "like": 24,
         "respect": 15,
-        "comfort": 12,
+        "comfort": 20,
         "trust": 4,
         "log": [
             "Currenthiss won't stand for slander about Kinkdapple. (high positive effect) - Currenthiss was 42 moons old",
             "Currenthiss heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Currenthiss was 43 moons old",
-            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Currenthiss was 51 moons old"
+            "Currenthiss, Kinkdapple, and Wavelight had a nice talk while eating. (positive effect) - Currenthiss was 51 moons old",
+            "Currenthiss learns that Kinkdapple is scared of thunder, too. (low positive effect) - Currenthiss was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "130",
@@ -2995,6 +3006,32 @@
     {
         "cat_from_id": "130",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "130",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -424,15 +424,18 @@
         "romance": 0,
         "like": 30,
         "respect": 5,
-        "comfort": 52,
+        "comfort": 44,
         "trust": 6,
         "log": [
             "Auburnsplash helps Diablofoot pick burrs out of her fur. (medium positive effect)- Diablofoot was 44 moons old",
             "Carptail appreciates Pearpelt, Auburnsplash, Fidgetmouse, and Diablofoot joining him to stretch late into the night so he wouldn't be alone. (positive effect)- Diablofoot was 57 moons old",
             "Diablofoot and Auburnsplash have multiple inside jokes with one another. (high positive effect) - Diablofoot was 90 moons old",
-            "Late into the evening, Carptail invites Gracklefur, Diablofoot, Reedheart, and Auburnsplash to stretch with him and enjoy each other's company. (positive effect) - Diablofoot was 93 moons old"
+            "Late into the evening, Carptail invites Gracklefur, Diablofoot, Reedheart, and Auburnsplash to stretch with him and enjoy each other's company. (positive effect) - Diablofoot was 93 moons old",
+            "Diablofoot wonders what she did to make Auburnsplash so rude towards her today. (low negative effect) - Diablofoot was 117 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -476,17 +479,22 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 44,
+        "like": 36,
         "respect": 36,
         "comfort": 49,
-        "trust": 8,
+        "trust": 0,
         "log": [
             "Diablofoot, Kamautail, and Bitebone had a nice talk while eating. (positive effect)- Diablofoot was 58 moons old",
             "Diablofoot heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Diablofoot was 84 moons old",
             "Bitebone, Diablofoot, and Stoatshade had a nice talk while eating. (positive effect) - Diablofoot was 107 moons old",
-            "Diablofoot and Bitebone can't seem to agree on the truth about something. (medium negative effect) - Diablofoot was 110 moons old"
+            "Diablofoot and Bitebone can't seem to agree on the truth about something. (medium negative effect) - Diablofoot was 110 moons old",
+            "Bitebone tells Quailfur, Gracklefur, Elmtrail, and Diablofoot a story that seems to grow less believable every meow. (negative effect) - Diablofoot was 116 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -798,14 +806,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": -1,
         "respect": 15,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Diablofoot sees Mosspaw help a Clanmate get unstuck from some brambles. (low positive effect)- Diablofoot was 35 moons old",
             "The moonlight encourages Mossflight, Diablofoot, Elmtrail, Pearpelt, and Fluttershade to slow down and stretch. (positive effect)- Diablofoot was 59 moons old",
-            "Diablofoot and Mossflight have a race. Mossflight wins. (medium positive effect) - Diablofoot was 97 moons old"
+            "Diablofoot and Mossflight have a race. Mossflight wins. (medium positive effect) - Diablofoot was 97 moons old",
+            "Mossflight and Diablofoot have a misunderstanding that makes them grumpy for the rest of the day. (low negative effect) - Diablofoot was 117 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1286,15 +1295,21 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 3,
+        "respect": -7,
         "comfort": 12,
-        "trust": -8,
+        "trust": -18,
         "log": [
             "Diablofoot noticed how successful Poolleaf's hunting patrol was. (positive effect) - Diablofoot was 72 moons old",
             "Kiwifoot's eagerness to do early morning stretches rubs off on Diablofoot, Poolleaf, Piperpaw, and Shiveringpaw. (positive effect) - Diablofoot was 76 moons old",
-            "Diablofoot was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Diablofoot was 115 moons old"
+            "Diablofoot was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Diablofoot was 115 moons old",
+            "Diablofoot was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Diablofoot was 117 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -2914,12 +2929,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Stagclaw tells Shadowfreckle, Coconutocean, and Diablofoot a story that earns more skepticism than admiration. (negative effect) - Diablofoot was 117 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "66",
@@ -3437,6 +3457,32 @@
     {
         "cat_from_id": "66",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "66",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -262,14 +262,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -14,
+        "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Moonchaser claimed to give Archbellow a piece of crowfood on accident. (medium negative effect) - Moonchaser was 163 moons old"
+            "Moonchaser claimed to give Archbellow a piece of crowfood on accident. (medium negative effect) - Moonchaser was 163 moons old",
+            "The Clan is surprised to see Moonchaser and Archbellow chatting casually over a meal. (medium positive effect) - Moonchaser was 176 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -709,13 +712,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Moonchaser was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moonchaser was 173 moons old"
+            "Moonchaser was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moonchaser was 173 moons old",
+            "Moonchaser was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Moonchaser was 175 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -1502,7 +1509,7 @@
         "family": false,
         "romance": 0,
         "like": 14,
-        "respect": 31,
+        "respect": 23,
         "comfort": 14,
         "trust": 26,
         "log": [
@@ -1511,7 +1518,9 @@
             "Moonchaser is deeply touched hearing just how much Caterpillarfoot remembers about him. (high positive effect) - Moonchaser was 158 moons old",
             "Moonchaser goes to Caterpillarfoot for advice about some recent troubles. (high positive effect) - Moonchaser was 171 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -1563,15 +1572,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 8,
-        "comfort": 8,
-        "trust": 0,
+        "like": -4,
+        "respect": 3,
+        "comfort": 4,
+        "trust": -16,
         "log": [
             "Moonchaser and Nymphshine make each other laugh. (low positive effect) - Moonchaser was 161 moons old",
-            "Moonchaser sees Nymphshine help a Clanmate get unstuck from some brambles. (low positive effect) - Moonchaser was 167 moons old"
+            "Moonchaser sees Nymphshine help a Clanmate get unstuck from some brambles. (low positive effect) - Moonchaser was 167 moons old",
+            "Moonchaser doesn't bother to ask Nymphshine for help with a minor injury, worried that he might make it worse. (high negative effect) - Moonchaser was 176 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "187",
@@ -2121,7 +2133,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2541,6 +2553,32 @@
     {
         "cat_from_id": "187",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "187",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "187",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -679,9 +679,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Branchpaw discovered that teaching is not one of Voletuft's skills. (negative effect) - Branchpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "236",
@@ -1169,10 +1173,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Late at night, Branchpaw finds Braveocean sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Branchpaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "236",
@@ -1958,14 +1966,16 @@
         "family": false,
         "romance": 0,
         "like": -7,
-        "respect": -8,
+        "respect": -21,
         "comfort": -8,
         "trust": -18,
         "log": [
             "Wheatkit respects Branchkit's opinion despite disagreeing with it. (low positive effect) - Branchkit was 1 moon old",
             "Wheatpaw doesn't believe Branchpaw when she explains that a rumor about her is false. (high negative effect) - Branchpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "236",
@@ -1973,14 +1983,20 @@
         "mates": false,
         "family": true,
         "romance": 4,
-        "like": 44,
+        "like": 49,
         "respect": 21,
         "comfort": 47,
         "trust": 34,
         "log": [
-            "Branchkit tells a story to Whitekit and Whitekit suggests how to make it even better. (medium positive effect) - Branchkit was 5 moons old"
+            "Branchkit tells a story to Whitekit and Whitekit suggests how to make it even better. (medium positive effect) - Branchkit was 5 moons old",
+            "Whitepaw was very considerate while on patrol with Branchpaw. (positive effect) - Branchpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "236",
@@ -2093,11 +2109,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -7,
+        "trust": -10,
         "log": [
-            "Branchpaw knows that Herringpaw is hiding something. (medium negative effect) - Branchpaw was 8 moons old"
+            "Branchpaw knows that Herringpaw is hiding something. (medium negative effect) - Branchpaw was 8 moons old",
+            "Branchpaw finds out something small about Herringpaw that Herringpaw had lied about before. (low negative effect) - Branchpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "236",
@@ -2234,6 +2253,32 @@
     {
         "cat_from_id": "236",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "236",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "236",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

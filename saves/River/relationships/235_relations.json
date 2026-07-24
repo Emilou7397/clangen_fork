@@ -5,16 +5,25 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 76,
-        "respect": 58,
+        "like": 100,
+        "respect": 88,
         "comfort": 88,
-        "trust": 70,
+        "trust": 75,
         "log": [
             "Wheatkit, Prancelaurel, and Waterkit had a nice talk while eating. (positive effect) - Wheatkit was 4 moons old",
             "Wheatpaw learned from Prancelaurel about how the Twolegs occupy a particular beach throughout greenleaf. (positive effect) - Wheatpaw was 6 moons old",
-            "Wheatpaw enjoyed Prancelaurel's story about the rogue who tried to lure the Clans away from StarClan. (positive effect) - Wheatpaw was 7 moons old"
+            "Wheatpaw enjoyed Prancelaurel's story about the rogue who tried to lure the Clans away from StarClan. (positive effect) - Wheatpaw was 7 moons old",
+            "Wheatpaw found Prancelaurel's story of Silverpelt particularly awe-inspiring. (positive effect) - Wheatpaw was 9 moons old",
+            "Wheatpaw listened to Prancelaurel's tale of Silverpelt and the creation of StarClan. (positive effect) - Wheatpaw was 9 moons old",
+            "Wheatpaw listened intently to Prancelaurel's story of how a RiverClan warrior rescued a kitten from the water. (positive effect) - Wheatpaw was 10 moons old",
+            "Wheatpaw and Prancelaurel practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -187,9 +196,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -638,13 +649,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Wheatpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Wheatpaw was 7 moons old"
+            "Wheatpaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Wheatpaw was 7 moons old",
+            "Wheatpaw was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Wheatpaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1141,15 +1156,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": -12,
         "comfort": 0,
         "trust": -5,
         "log": [
             "Wheatkit heard Whiskerleg fell asleep guarding camp. (negative effect) - Wheatkit was 0 moons old",
-            "Wheatpaw has noticed Whiskerleg isn't doing a lot of work lately. (medium negative effect) - Wheatpaw was 9 moons old"
+            "Wheatpaw has noticed Whiskerleg isn't doing a lot of work lately. (medium negative effect) - Wheatpaw was 9 moons old",
+            "Whiskerleg and Wheatpaw have a misunderstanding that makes them grumpy for the rest of the day. (low negative effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1658,13 +1676,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Wheatkit heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 2 moons old"
+            "Wheatkit heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Wheatkit was 2 moons old",
+            "Wheatpaw and Flightspot practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -1757,10 +1778,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Wheatpaw and Scalebloom practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1770,10 +1793,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Wheatpaw and Stagclaw practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1835,10 +1860,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Wheatpaw and Skytooth practiced rescuing cats from the water. (positive effect) - Wheatpaw was 10 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2005,15 +2032,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -17,
+        "like": 4,
+        "respect": -21,
+        "comfort": -7,
+        "trust": -25,
         "log": [
             "Wheatkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Wheatkit was 0 moons old",
-            "Branchkit keeps calling Wheatpaw by the wrong name. (medium negative effect) - Wheatpaw was 6 moons old"
+            "Branchkit keeps calling Wheatpaw by the wrong name. (medium negative effect) - Wheatpaw was 6 moons old",
+            "Wheatpaw called Branchpaw lazy, and Branchpaw has retaliated by nitpicking everything that Wheatpaw does. (high negative effect) - Wheatpaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "235",
@@ -2288,6 +2320,32 @@
     {
         "cat_from_id": "235",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "235",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

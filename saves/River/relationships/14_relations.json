@@ -1629,14 +1629,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": 3,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Carptail noticed how successful Poolleaf's hunting patrol was. (positive effect) - Carptail was 86 moons old",
-            "Carptail was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Carptail was 129 moons old"
+            "Carptail was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Carptail was 129 moons old",
+            "Carptail was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Carptail was 131 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -1985,9 +1989,9 @@
         "family": false,
         "romance": 0,
         "like": 18,
-        "respect": 33,
+        "respect": 45,
         "comfort": 23,
-        "trust": 12,
+        "trust": 20,
         "log": [
             "Primfreckle, Carptail, Hollyheart, Peatcrest, and Heavythud have differing opinions about how to wrap wounds, and it escalates into a controversy. (negative effect)- Carptail was 66 moons old",
             "Saffronfoot, Craneflight, Peatcrest, and Carptail respect how dutiful Hollyheart is to training, but they all wish they weren't up doing stretches at dawn. (negative effect) - Carptail was 79 moons old",
@@ -1996,9 +2000,13 @@
             "Though Carptail wasn't thrilled to be gathering foul-smelling ragwort with Hollyheart, Hollyheart was highly appreciative. (positive effect) - Carptail was 112 moons old",
             "Carptail wants Hollyheart to stay safe and happy. (high positive effect) - Carptail was 122 moons old",
             "Carptail sees Hollyheart help a Clanmate get unstuck from some brambles. (low positive effect) - Carptail was 125 moons old",
-            "Carptail knows that the advice Hollyheart gave him will be helpful. (high positive effect) - Carptail was 130 moons old"
+            "Carptail knows that the advice Hollyheart gave him will be helpful. (high positive effect) - Carptail was 130 moons old",
+            "Carptail hopes Hollyheart knows how grateful he is to have him as a medicine cat. (medium positive effect) - Carptail was 131 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3561,12 +3569,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 8,
+        "respect": 7,
+        "comfort": 7,
+        "trust": 21,
+        "log": [
+            "Wheatpaw believes in Carptail's version of events when something happens and the Clan doubts him. (high positive effect) - Carptail was 131 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "14",
@@ -3845,6 +3860,32 @@
     {
         "cat_from_id": "14",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "14",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "14",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

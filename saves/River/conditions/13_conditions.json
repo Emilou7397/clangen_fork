@@ -1,15 +1,20 @@
 {
     "injuries": {
-        "pregnant": {
+        "recovering from birth": {
             "severity": "major",
-            "mortality": 20,
-            "duration": 2,
-            "moon_start": 149,
+            "mortality": 0,
+            "duration": 3,
+            "moon_start": 151,
             "illness_infectiousness": [],
-            "risks": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 24
+                }
+            ],
             "complication": null,
             "cause_permanent": [],
-            "event_triggered": false,
+            "event_triggered": true,
             "potential_scars": null
         }
     },
@@ -24,11 +29,11 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 556
+                    "chance": 564
                 },
                 {
                     "name": "phantom pain",
-                    "chance": 496
+                    "chance": 504
                 }
             ],
             "complication": null,

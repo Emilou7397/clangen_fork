@@ -518,10 +518,11 @@
         "romance": 0,
         "like": 10,
         "respect": 0,
-        "comfort": 10,
+        "comfort": -3,
         "trust": 10,
         "log": [
-            "Sardinespeckle was part of the patrol that invited Fishleg to RiverClan. (positive effect) - Fishleg was 58 moons old"
+            "Sardinespeckle was part of the patrol that invited Fishleg to RiverClan. (positive effect) - Fishleg was 58 moons old",
+            "Both Fishleg and Sardinespeckle avoid one another's eye contact. (low negative effect) - Fishleg was 68 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -638,11 +639,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fishleg wonders why Saltknoll is so pouty today. (low negative effect) - Fishleg was 68 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -1162,11 +1167,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Fishleg was impressed by how Poppybriar invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Fishleg was 67 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -1241,14 +1251,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": -1,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Fishleg and Coconutocean had such a good time on a patrol that they came back late. (medium positive effect) - Fishleg was 67 moons old"
+            "Fishleg and Coconutocean had such a good time on a patrol that they came back late. (medium positive effect) - Fishleg was 67 moons old",
+            "Coconutocean shares a suspiciously exaggerated tale with Skulkwillow, Braveocean, and Fishleg, who seem far from convinced of its veracity. (negative effect) - Fishleg was 68 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -2053,6 +2066,32 @@
     {
         "cat_from_id": "242",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "242",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "242",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

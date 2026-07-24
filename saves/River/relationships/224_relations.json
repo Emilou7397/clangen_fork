@@ -421,14 +421,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 5,
+        "comfort": 5,
         "trust": 0,
         "log": [
             "Redswirl disapproved of Fleadusk wearing a collar. (negative effect) - Redswirl was 78 moons old",
             "Redswirl and Fleadusk quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old",
             "Redswirl was impressed by Fleadusk's skill at finding burdock and digging up its roots. (positive effect) - Redswirl was 82 moons old",
-            "Redswirl heard Fleadusk fell asleep guarding camp. (negative effect) - Redswirl was 82 moons old"
+            "Redswirl heard Fleadusk fell asleep guarding camp. (negative effect) - Redswirl was 82 moons old",
+            "Redswirl appreciated Fleadusk's conversational skills when they met with a CougarClan patrol. (positive effect) - Redswirl was 84 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -450,7 +451,7 @@
         "cat_to_id": "64",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 0,
         "respect": 5,
         "comfort": 0,
@@ -458,7 +459,8 @@
         "log": [
             "Redswirl heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Redswirl was 75 moons old",
             "Redswirl and Skulkwillow quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old",
-            "Redswirl was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Redswirl was 81 moons old"
+            "Redswirl was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Redswirl was 81 moons old",
+            "Redswirl stayed up all night thinking of ways to impress Skulkwillow. (low positive effect) - Redswirl was 85 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -648,14 +650,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": -5,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Redswirl was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Redswirl was 83 moons old",
-            "Redswirl and Poolleaf had a successful hunt together. (positive effect) - Redswirl was 83 moons old"
+            "Redswirl and Poolleaf had a successful hunt together. (positive effect) - Redswirl was 83 moons old",
+            "Redswirl was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Redswirl was 85 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -776,9 +781,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Hailfreckle helps Redswirl hide from a Clanmate. (low positive effect) - Redswirl was 85 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -819,12 +828,14 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
             "Snakedrop's bravery in a fight against a vixen greatly impressed Redswirl. (positive effect) - Redswirl was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -2310,6 +2321,32 @@
     {
         "cat_from_id": "224",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

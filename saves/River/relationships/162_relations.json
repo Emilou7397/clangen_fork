@@ -142,14 +142,19 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Brave attacked Stoatshade but was fought off by Poolleaf. (negative effect) - Brave was 115 moons old",
-            "Braveheart was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Braveheart was 154 moons old"
+            "Braveheart was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Braveheart was 154 moons old",
+            "Braveheart was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Braveheart was 156 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -517,8 +522,8 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 9,
-        "comfort": 0,
+        "respect": 22,
+        "comfort": 13,
         "trust": 4,
         "log": [
             "Braveheart witnessed Prancelaurel's calm assessment of a wrecked floating Twoleg nest and felt more secure afterward. (positive effect) - Braveheart was 117 moons old",
@@ -526,7 +531,10 @@
             "Prancelaurel mentions that Braveheart looks good today. (low positive effect) - Braveheart was 141 moons old",
             "Prancelaurel yawns while Braveheart is trying to tell her something. (low negative effect) - Braveheart was 142 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -1951,15 +1959,18 @@
         "romance": 0,
         "like": -5,
         "respect": -20,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -5,
         "log": [
             "Braveheart heard that Shinebelly caught a rabbit from across the border. (negative effect) - Braveheart was 126 moons old",
             "Braveheart heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Braveheart was 144 moons old",
             "Braveheart disapproved of Shinebelly wearing a collar. (negative effect) - Braveheart was 147 moons old",
-            "Braveheart heard Shinebelly fell asleep guarding camp. (negative effect) - Braveheart was 149 moons old"
+            "Braveheart heard Shinebelly fell asleep guarding camp. (negative effect) - Braveheart was 149 moons old",
+            "Braveheart tries to have a conversation with Shinebelly but it ends up awkward when neither of them speak up. (low negative effect) - Braveheart was 157 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -2606,12 +2617,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "162",
@@ -2917,6 +2931,32 @@
     {
         "cat_from_id": "162",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "162",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,28 +1,22 @@
 {
-    "injuries": {
-        "mangled tail": {
-            "severity": "severe",
-            "mortality": 77,
-            "duration": 3,
-            "moon_start": 148,
-            "illness_infectiousness": [],
+    "illnesses": {
+        "whitecough": {
+            "severity": "major",
+            "mortality": 70,
+            "infectiousness": 30,
+            "duration": 2,
+            "moon_start": 151,
             "risks": [
                 {
-                    "name": "an infected wound",
-                    "chance": 15
+                    "name": "greencough",
+                    "chance": 39
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 41
                 }
             ],
-            "complication": null,
-            "cause_permanent": [
-                "lost their tail"
-            ],
-            "event_triggered": false,
-            "potential_scars": [
-                "HALFTAIL",
-                "MANTAIL",
-                "NOTAIL",
-                "TAILSCAR"
-            ]
+            "event_triggered": false
         }
     },
     "permanent conditions": {
@@ -36,7 +30,7 @@
             "risks": [
                 {
                     "name": "sore throat",
-                    "chance": 234
+                    "chance": 238
                 }
             ],
             "complication": null,

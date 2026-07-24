@@ -77,9 +77,13 @@
         "like": 20,
         "respect": 0,
         "comfort": 20,
-        "trust": 10,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 22,
+        "log": [
+            "Shorefrill notices how Bitterleaf is being helpful around camp. (medium positive effect) - Shorefrill was 14 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -602,13 +606,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Shorepaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Shorepaw was 11 moons old"
+            "Shorepaw was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Shorepaw was 11 moons old",
+            "Shorefrill was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Shorefrill was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1580,14 +1588,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
+        "like": 10,
+        "respect": 20,
+        "comfort": 10,
         "trust": 0,
         "log": [
-            "Shorepaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorepaw was 6 moons old"
+            "Shorepaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorepaw was 6 moons old",
+            "Shorefrill was grateful that Velvettooth gave him a piece of thyme to put in his nest. (positive effect) - Shorefrill was 13 moons old",
+            "Shorefrill helped Velvettooth bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1796,10 +1810,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 37,
-        "respect": -13,
-        "comfort": 35,
-        "trust": -7,
+        "like": 58,
+        "respect": -7,
+        "comfort": 42,
+        "trust": -1,
         "log": [
             "Shorekit sticks his tongue out at Caterpillarkit. (medium negative effect) - Shorekit was 4 moons old",
             "The silence between Shorekit and Caterpillarkit feels more uncomfortable than usual. (low negative effect) - Shorekit was 5 moons old",
@@ -1809,9 +1823,14 @@
             "Caterpillarpaw won't tell Shorepaw what he ate this morning. (low negative effect) - Shorepaw was 9 moons old",
             "Shorepaw and Caterpillarpaw enjoyed practicing new battle moves together. (positive effect) - Shorepaw was 9 moons old",
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Shorepaw was 9 moons old",
-            "Shorepaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Shorepaw was 11 moons old"
+            "Shorepaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Shorepaw was 11 moons old",
+            "Some of Shorefrill's favorite memories are with Caterpillarstripe. (high positive effect) - Shorefrill was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1901,7 +1920,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2121,6 +2140,32 @@
     {
         "cat_from_id": "233",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

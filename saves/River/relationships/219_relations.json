@@ -661,13 +661,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -28,
         "log": [
-            "Moorghost was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moorghost was 71 moons old"
+            "Moorghost was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moorghost was 71 moons old",
+            "Moorghost was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Moorghost was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -804,13 +808,18 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 5,
-        "comfort": -3,
+        "respect": 15,
+        "comfort": 7,
         "trust": 0,
         "log": [
-            "Shimmerrunner and Moorghost drove off a rogue together. (positive effect) - Moorghost was 72 moons old"
+            "Shimmerrunner and Moorghost drove off a rogue together. (positive effect) - Moorghost was 72 moons old",
+            "Moorghost saw Shimmerrunner telling stories to the kits. (positive effect) - Moorghost was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -911,12 +920,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -16,
+        "respect": -4,
+        "comfort": -6,
+        "trust": -4,
+        "log": [
+            "Moorghost and Antlerthorn are always back-talking to each other. (high negative effect) - Moorghost was 74 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -2004,11 +2018,14 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 12,
         "log": [
-            "Moorghost heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moorghost was 66 moons old"
+            "Moorghost heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moorghost was 66 moons old",
+            "Endothermic let Moorghost lean on her shoulder after a recent injury. (medium positive effect) - Moorghost was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -2016,14 +2033,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": -12,
+        "respect": -22,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Moorghost disapproved of Caterpillarstripe wearing a collar. (negative effect) - Moorghost was 72 moons old"
+            "Moorghost disapproved of Caterpillarstripe wearing a collar. (negative effect) - Moorghost was 72 moons old",
+            "Caterpillarstripe tromped into the warrior's den with muddy paws, trailing muck straight through Moorghost and Snookbumble's nests. (negative effect) - Moorghost was 74 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "219",
@@ -2344,6 +2365,32 @@
     {
         "cat_from_id": "219",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "219",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "219",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

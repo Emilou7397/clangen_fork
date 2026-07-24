@@ -361,13 +361,15 @@
         "romance": 0,
         "like": 0,
         "respect": 25,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Shiveringpaw gained a greater appreciation for Bitebone's knowledge of nesting materials and camp-guarding technique. (positive effect) - Shiveringpaw was 11 moons old",
             "Shiveringdusk heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shiveringdusk was 16 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1094,9 +1096,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Shiveringdusk was excited to taste the Twoleg food that Flightsplash stole on patrol. (positive effect) - Shiveringdusk was 47 moons old"
+            "Shiveringdusk was excited to taste the Twoleg food that Flightsplash stole on patrol. (positive effect) - Shiveringdusk was 47 moons old",
+            "Shiveringdusk and Flightsplash failed to steal an eagle's prey during a hunting patrol. (negative effect) - Shiveringdusk was 49 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1135,13 +1138,19 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 10,
         "log": [
-            "Shimmerrunner snitches on Shiveringdusk for something minor. (low negative effect) - Shiveringdusk was 48 moons old"
+            "Shimmerrunner snitches on Shiveringdusk for something minor. (low negative effect) - Shiveringdusk was 48 moons old",
+            "Shiveringdusk saw Shimmerrunner telling stories to the kits. (positive effect) - Shiveringdusk was 48 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1162,15 +1171,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 15,
-        "comfort": 0,
-        "trust": 10,
+        "like": 6,
+        "respect": 20,
+        "comfort": 16,
+        "trust": 11,
         "log": [
             "Dancingfleck failed to drive away rogues while on patrol with Shiveringdusk. (negative effect) - Shiveringdusk was 30 moons old",
-            "Shiveringdusk heard about Dancingfleck's victory in battle against a gang of rogues. (positive effect) - Shiveringdusk was 37 moons old"
+            "Shiveringdusk heard about Dancingfleck's victory in battle against a gang of rogues. (positive effect) - Shiveringdusk was 37 moons old",
+            "Shiveringdusk gets excellent advice from Dancingfleck about something she had been worrying about. (high positive effect) - Shiveringdusk was 49 moons old",
+            "Shiveringdusk and Dancingfleck failed to steal an eagle's prey during a hunting patrol. (negative effect) - Shiveringdusk was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1181,13 +1197,19 @@
         "like": 8,
         "respect": 25,
         "comfort": 8,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Shiveringdusk, Snakedrop, and Sardinespeckle took a sunbath and had a little small talk. (positive effect) - Shiveringdusk was 19 moons old",
             "Snakedrop's bravery in a fight against a vixen greatly impressed Shiveringdusk. (positive effect) - Shiveringdusk was 33 moons old",
-            "Shiveringdusk heard about Snakedrop's victory in battle against a gang of rogues. (positive effect) - Shiveringdusk was 37 moons old"
+            "Shiveringdusk heard about Snakedrop's victory in battle against a gang of rogues. (positive effect) - Shiveringdusk was 37 moons old",
+            "Shiveringdusk and Snakedrop failed to steal an eagle's prey during a hunting patrol. (negative effect) - Shiveringdusk was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1416,7 +1438,7 @@
         "mates": false,
         "family": false,
         "romance": 7,
-        "like": -14,
+        "like": -27,
         "respect": 0,
         "comfort": 3,
         "trust": 11,
@@ -1426,7 +1448,9 @@
             "Shiveringdusk and Wasppelt discussed the vision Poppybriar claimed to have. (positive effect) - Shiveringdusk was 36 moons old",
             "Wasppelt and Shiveringdusk discussed the vision Poppybriar claimed to have. (positive effect) - Shiveringdusk was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -2084,14 +2108,17 @@
         "romance": 30,
         "like": 9,
         "respect": 33,
-        "comfort": 41,
+        "comfort": 53,
         "trust": 15,
         "log": [
             "Poppybriar, Shiveringdusk, and Nymphshine took a sunbath and had a little small talk. (positive effect) - Shiveringdusk was 38 moons old",
             "Shiveringdusk lets Nymphshine know that she's about to go out and asks if she needs to watch for any herbs. (medium positive effect) - Shiveringdusk was 43 moons old",
-            "Shiveringdusk is grossed out by something Nymphshine did. (low negative effect) - Shiveringdusk was 44 moons old"
+            "Shiveringdusk is grossed out by something Nymphshine did. (low negative effect) - Shiveringdusk was 44 moons old",
+            "Shiveringdusk thanks Nymphshine for checking when he asks if she's feeling alright. (medium positive effect) - Shiveringdusk was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -3072,6 +3099,32 @@
     {
         "cat_from_id": "146",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "146",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "146",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

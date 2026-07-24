@@ -132,15 +132,18 @@
         "like": -7,
         "respect": 15,
         "comfort": -16,
-        "trust": 0,
+        "trust": 8,
         "log": [
             "Warmswirl and Minnowlily got into a vicious fight. (negative effect) - Minnowlily was 20 moons old",
             "Minnowlily had a dream about Warmswirl. (low positive effect) - Minnowlily was 42 moons old",
             "The silence between Minnowlily and Warmswirl feels more uncomfortable than usual. (low negative effect) - Minnowlily was 48 moons old",
             "Minnowlily is taken aback by one of Warmswirl's comments. (low negative effect) - Minnowlily was 52 moons old",
-            "Minnowlily was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Minnowlily was 54 moons old"
+            "Minnowlily was impressed by how Warmswirl was able to resolve a hunting dispute with another Clan. (positive effect) - Minnowlily was 54 moons old",
+            "Warmswirl makes a small sacrifice that benefits Minnowlily. (low positive effect) - Minnowlily was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "112",
@@ -335,13 +338,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 22,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Minnowlily saw Poppybriar's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Minnowlily was 64 moons old"
+            "Minnowlily saw Poppybriar's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Minnowlily was 64 moons old",
+            "Minnowlily can't help but admire how well Poppybriar gets along with the rest of the Clan. (medium positive effect) - Minnowlily was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "112",
@@ -1305,14 +1311,20 @@
         "family": false,
         "romance": 3,
         "like": -18,
-        "respect": -6,
+        "respect": -16,
         "comfort": -6,
-        "trust": -11,
+        "trust": -21,
         "log": [
             "The Clan watches Minnowlily and Poolleaf slowly lose their patience with one another. (high negative effect) - Minnowlily was 45 moons old",
-            "Minnowlily was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Minnowlily was 71 moons old"
+            "Minnowlily was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Minnowlily was 71 moons old",
+            "Minnowlily was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Minnowlily was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "112",
@@ -2121,8 +2133,8 @@
         "mates": true,
         "family": false,
         "romance": 54,
-        "like": 37,
-        "respect": 53,
+        "like": 25,
+        "respect": 41,
         "comfort": 48,
         "trust": 34,
         "log": [
@@ -2140,9 +2152,15 @@
             "Minnowlily appreciates Skulkwillow, Murkhaven, Heathstripe, and Sardinespeckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Minnowlily was 67 moons old",
             "Minnowlily and Heathstripe worked together to gather wild garlic and mallow. (positive effect) - Minnowlily was 70 moons old",
             "Minnowlily was flattered by Heathstripe's politeness this morning. (low positive effect) - Minnowlily was 71 moons old",
-            "Minnowlily enjoyed gathering herbs with Heathstripe. (positive effect) - Minnowlily was 71 moons old"
+            "Minnowlily enjoyed gathering herbs with Heathstripe. (positive effect) - Minnowlily was 71 moons old",
+            "Heathstripe and Minnowlily got into a huge argument over whose fault it was that an herb-gathering patrol failed. (negative effect) - Minnowlily was 73 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "112",
@@ -2958,6 +2976,32 @@
     {
         "cat_from_id": "112",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "112",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "112",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

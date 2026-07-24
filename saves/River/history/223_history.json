@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "157": {
-                "stability": 1,
-                "aggression": 1
+                "stability": 3,
+                "aggression": 1,
+                "lawfulness": 2,
+                "strings": [
+                    "think things through",
+                    "resort to violence",
+                    "heed {PRONOUN\/m_c\/poss} inner compass"
+                ]
             }
         },
         "skill": {
             "157": {
-                "TEACHER": 5
+                "TEACHER": 8,
+                "strings": [
+                    "teaching"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "resilience",
+        "graduation_age": 18,
+        "moon": 151
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

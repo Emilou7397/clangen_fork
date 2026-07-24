@@ -566,11 +566,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Whitepaw was impressed when Sardinespeckle convinced rogues to leave the territory. (positive effect) - Whitepaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -692,9 +697,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": -3,
         "log": [
-            "Whitepaw and Voletuft enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
+            "Whitepaw and Voletuft enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old",
+            "Whitepaw discovered that teaching is not one of Voletuft's skills. (negative effect) - Whitepaw was 9 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1198,11 +1204,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1642,14 +1651,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": -8,
+        "respect": -18,
         "comfort": 0,
         "trust": -10,
         "log": [
-            "Whitekit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Whitekit was 1 moon old"
+            "Whitekit was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Whitekit was 1 moon old",
+            "Morelstreak complained about his patrol assignment all day, much to the annoyance of Avocetpaw, Edelweisspaw, Whitepaw, and Herringpaw. (negative effect) - Whitepaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2047,14 +2061,17 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 58,
+        "like": 75,
         "respect": 11,
         "comfort": 54,
         "trust": 31,
         "log": [
-            "Whitekit races Bigkit back and forth across the camp clearing. (medium positive effect) - Whitekit was 5 moons old"
+            "Whitekit races Bigkit back and forth across the camp clearing. (medium positive effect) - Whitekit was 5 moons old",
+            "Whitepaw was playing with Bigpaw and learned a fun new battle move from him! (medium positive effect) - Whitepaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2202,10 +2219,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Daykit helps Whitepaw pick burrs out of his fur. (medium positive effect) - Whitepaw was 10 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2262,6 +2283,32 @@
     {
         "cat_from_id": "237",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

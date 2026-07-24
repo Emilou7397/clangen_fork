@@ -1176,17 +1176,22 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 3,
+        "respect": -7,
         "comfort": 3,
-        "trust": -8,
+        "trust": -18,
         "log": [
             "Hailpaw and Poolpaw enjoyed working on their skills together on a training patrol. (positive effect)- Hailpaw was 6 moons old",
             "Hailfreckle noticed how successful Poolleaf's hunting patrol was. (positive effect) - Hailfreckle was 26 moons old",
             "Hailfreckle saw Poolleaf hide something before talking to her. (low negative effect) - Hailfreckle was 29 moons old",
             "When Hailfreckle and Poolleaf realize they've been grooming their pelts the same way, they laugh about it. (low positive effect) - Hailfreckle was 31 moons old",
-            "Hailfreckle was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Hailfreckle was 68 moons old"
+            "Hailfreckle was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Hailfreckle was 68 moons old",
+            "Hailfreckle was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Hailfreckle was 70 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "93",
@@ -1208,10 +1213,10 @@
         "cat_to_id": "82",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -20,
+        "romance": 13,
+        "like": -7,
         "respect": 18,
-        "comfort": 9,
+        "comfort": 22,
         "trust": 10,
         "log": [
             "Pheasantbrush pesters Dancingpaw, Hailpaw, Shimmerpaw, and Volepaw into helping her with repairs across camp. (negative effect)- Hailpaw was 7 moons old",
@@ -1221,7 +1226,10 @@
             "Hailfreckle doesn't like Pheasantbrush's sense of humor. (medium negative effect) - Hailfreckle was 33 moons old",
             "Hailfreckle heard that Pheasantbrush caught a rabbit from across the border. (negative effect) - Hailfreckle was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "93",
@@ -2216,15 +2224,18 @@
         "romance": 0,
         "like": 8,
         "respect": 0,
-        "comfort": -9,
+        "comfort": -26,
         "trust": -5,
         "log": [
             "Hailfreckle heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Hailfreckle was 40 moons old",
             "Caterpillarfoot, Wasppelt, and Hailfreckle took a sunbath and had a little small talk. (positive effect) - Hailfreckle was 42 moons old",
             "Hailfreckle heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Hailfreckle was 52 moons old",
-            "Hailfreckle was rudely awoken by Caterpillarfoot. (medium negative effect) - Hailfreckle was 64 moons old"
+            "Hailfreckle was rudely awoken by Caterpillarfoot. (medium negative effect) - Hailfreckle was 64 moons old",
+            "Caterpillarfoot hissed at Hailfreckle. (medium negative effect) - Hailfreckle was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "93",
@@ -2462,13 +2473,16 @@
         "romance": 0,
         "like": 0,
         "respect": 10,
-        "comfort": 0,
+        "comfort": -7,
         "trust": 5,
         "log": [
             "Hailfreckle heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Hailfreckle was 37 moons old",
-            "Hailfreckle and Minnowlily quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Hailfreckle was 56 moons old"
+            "Hailfreckle and Minnowlily quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Hailfreckle was 56 moons old",
+            "Hailfreckle had a terrible dream about Minnowlily. (medium negative effect) - Hailfreckle was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "93",
@@ -2979,7 +2993,7 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -15,
+        "trust": -2,
         "log": [
             "Hailfreckle was deeply disappointed to hear that Redswirl broke the Code. (negative effect) - Hailfreckle was 66 moons old"
         ],
@@ -3377,6 +3391,32 @@
     {
         "cat_from_id": "93",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "93",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "93",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -770,13 +770,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
-            "Garlicberry was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Garlicberry was 81 moons old"
+            "Garlicberry was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Garlicberry was 81 moons old",
+            "Garlicberry was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Garlicberry was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "178",
@@ -993,16 +997,22 @@
         "cat_to_id": "99",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": -24,
-        "trust": 0,
+        "romance": 9,
+        "like": 6,
+        "respect": 6,
+        "comfort": -40,
+        "trust": 6,
         "log": [
             "Garlicberry accuses Hollyheart of stealing something. (medium negative effect) - Garlicberry was 59 moons old",
-            "For a moment, Garlicberry thought Hollyheart sounded like someone else. (medium negative effect) - Garlicberry was 63 moons old"
+            "For a moment, Garlicberry thought Hollyheart sounded like someone else. (medium negative effect) - Garlicberry was 63 moons old",
+            "Hollyheart keeps pacing around the clearing late at night and Garlicberry is the only one who notices. (high negative effect) - Garlicberry was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort",
+            "like"
+        ]
     },
     {
         "cat_from_id": "178",
@@ -1111,17 +1121,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 25,
+        "like": 17,
         "respect": -3,
-        "comfort": 12,
+        "comfort": 4,
         "trust": 5,
         "log": [
             "Minnowlily does something that makes Garlicberry's day a little happier. (low positive effect) - Garlicberry was 64 moons old",
             "Garlicberry and Minnowlily quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Garlicberry was 68 moons old",
             "Minnowlily keeps asking Garlicberry silly questions. (low negative effect) - Garlicberry was 69 moons old",
-            "The moonlight encourages Sardinespeckle, Gentleghost, Garlicberry, Minnowlily, and Dahliacrest to slow down and stretch. (positive effect) - Garlicberry was 72 moons old"
+            "The moonlight encourages Sardinespeckle, Gentleghost, Garlicberry, Minnowlily, and Dahliacrest to slow down and stretch. (positive effect) - Garlicberry was 72 moons old",
+            "Spittle and flecks of bone fly while Minnowlily gobbles down prey, reminding Sardinespeckle, Garlicberry, and Flightsplash to seek out better mealtime companionship next time. (negative effect) - Garlicberry was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "178",
@@ -1960,9 +1973,10 @@
         "like": -8,
         "respect": -8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [
-            "Brindlesplash complained about her patrol assignment all day, much to the annoyance of Garlicberry, Moorghost, and Skulkwillow. (negative effect) - Garlicberry was 78 moons old"
+            "Brindlesplash complained about her patrol assignment all day, much to the annoyance of Garlicberry, Moorghost, and Skulkwillow. (negative effect) - Garlicberry was 78 moons old",
+            "Garlicberry feels like Brindlesplash has been quieter than usual. (low negative effect) - Garlicberry was 83 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2689,6 +2703,32 @@
     {
         "cat_from_id": "178",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "178",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "178",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

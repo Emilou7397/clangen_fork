@@ -215,13 +215,16 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity thinks that Bitterleaf stole one of her ideas. (medium negative effect) - Electronegativity was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -843,14 +846,18 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
-            "Electronegativity was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Electronegativity was 58 moons old"
+            "Electronegativity was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Electronegativity was 58 moons old",
+            "Electronegativity was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Electronegativity was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1000,13 +1007,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 10,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity saw Shimmerrunner telling stories to the kits. (positive effect) - Electronegativity was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1157,14 +1168,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 18,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Electronegativity was 41 moons old"
+            "These cats recently interacted. - Electronegativity was 41 moons old",
+            "Electronegativity wants to be closer to Minnowlily. (low positive effect) - Electronegativity was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -1714,13 +1728,15 @@
         "romance": 0,
         "like": 5,
         "respect": 0,
-        "comfort": 3,
+        "comfort": -10,
         "trust": 0,
         "log": [
             "These cats recently interacted. - Electronegativity was 41 moons old",
             "Electronegativity has been spending time with Nymphshine lately. (low positive effect) - Electronegativity was 46 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "216",
@@ -2663,6 +2679,32 @@
     {
         "cat_from_id": "216",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "216",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "216",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -420,9 +420,9 @@
         "family": false,
         "romance": 100,
         "like": 100,
-        "respect": 95,
+        "respect": 100,
         "comfort": 100,
-        "trust": 66,
+        "trust": 85,
         "log": [
             "Fidgetmouse was impressed by how quickly Ochretail dispatched  a trapped octopus. (positive effect)- Fidgetmouse was 35 moons old",
             "Fidgetmouse didn't know that Ochretail was so talented. (medium positive effect)- Fidgetmouse was 37 moons old",
@@ -452,9 +452,16 @@
             "Fidgetmouse purrs for a long time at one of Ochretail's lame jokes. (high positive effect) - Fidgetmouse was 128 moons old",
             "Ochretail had a disagreement with Fidgetmouse over kits. (medium negative effect) - Fidgetmouse was 131 moons old",
             "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Fidgetmouse was 139 moons old",
-            "Fidgetmouse heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Fidgetmouse was 152 moons old"
+            "Fidgetmouse heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Fidgetmouse was 152 moons old",
+            "Fidgetmouse gave Ochretail a gift to smooth over an argument, and Ochretail has worn it on his pelt ever since. (positive effect) - Fidgetmouse was 156 moons old",
+            "Fidgetmouse was caught enjoying a moonlit stroll with Ochretail last night... (high positive effect) - Fidgetmouse was 157 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -1637,17 +1644,23 @@
         "family": false,
         "romance": 0,
         "like": 7,
-        "respect": -25,
-        "comfort": 11,
-        "trust": -5,
+        "respect": -28,
+        "comfort": 19,
+        "trust": -15,
         "log": [
             "The moonlight encourages Fleadusk, Fidgetmouse, Harefeather, Algaepool, and Poolpaw to slow down and stretch. (positive effect)- Fidgetmouse was 91 moons old",
             "Fidgetmouse noticed how successful Poolleaf's hunting patrol was. (positive effect) - Fidgetmouse was 112 moons old",
             "Fidgetmouse scolds Poolleaf about something she did, but Poolleaf doesn't take her seriously. (high negative effect) - Fidgetmouse was 120 moons old",
             "Poolleaf acts childishly in front of Fidgetmouse. (low negative effect) - Fidgetmouse was 137 moons old",
-            "Fidgetmouse was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Fidgetmouse was 154 moons old"
+            "Fidgetmouse was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Fidgetmouse was 154 moons old",
+            "Fidgetmouse was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Fidgetmouse was 156 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -1862,14 +1875,20 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 0,
-        "comfort": 8,
+        "respect": 10,
+        "comfort": 18,
         "trust": -17,
         "log": [
             "Fidgetmouse, Shimmerrunner, and Antlerthorn took a sunbath and had a little small talk. (positive effect) - Fidgetmouse was 143 moons old",
-            "Fidgetmouse realizes that Shimmerrunner's been avoiding her. (medium negative effect) - Fidgetmouse was 149 moons old"
+            "Fidgetmouse realizes that Shimmerrunner's been avoiding her. (medium negative effect) - Fidgetmouse was 149 moons old",
+            "Fidgetmouse saw Shimmerrunner telling stories to the kits. (positive effect) - Fidgetmouse was 156 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -2673,17 +2692,23 @@
         "mates": false,
         "family": false,
         "romance": 19,
-        "like": 12,
-        "respect": 23,
-        "comfort": -22,
-        "trust": 10,
+        "like": 14,
+        "respect": 26,
+        "comfort": -19,
+        "trust": 21,
         "log": [
             "Fidgetmouse heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Fidgetmouse was 128 moons old",
             "Terabyte told Fidgetmouse something awful, and Fidgetmouse may never look at him quite the same. (high negative effect) - Fidgetmouse was 143 moons old",
             "Late at night, Fidgetmouse finds Terabyte sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Fidgetmouse was 146 moons old",
-            "Fidgetmouse heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Fidgetmouse was 149 moons old"
+            "Fidgetmouse heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Fidgetmouse was 149 moons old",
+            "Fidgetmouse is letting Terabyte share his troubles with her, hoping he'll feel better afterward. (high positive effect) - Fidgetmouse was 157 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -3048,7 +3073,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -3738,5 +3763,41 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "13",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 60,
+        "respect": 30,
+        "comfort": 70,
+        "trust": 60,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "13",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 69,
+        "respect": 39,
+        "comfort": 79,
+        "trust": 69,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
     }
 ]

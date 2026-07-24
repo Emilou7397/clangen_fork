@@ -812,7 +812,7 @@
         "family": false,
         "romance": 21,
         "like": 56,
-        "respect": 69,
+        "respect": 77,
         "comfort": 92,
         "trust": 41,
         "log": [
@@ -842,9 +842,12 @@
             "Heatherfern enjoyed driving away rogues with Fidgetmouse. (positive effect) - Heatherfern was 105 moons old",
             "Fidgetmouse tells Heatherfern that her pelt is shiny today. (low positive effect) - Heatherfern was 111 moons old",
             "Spittle and flecks of bone fly while Fidgetmouse gobbles down prey, reminding Dustpaw, Cobaltstrike, Harefeather, and Heatherfern to seek out better mealtime companionship next time. (negative effect) - Heatherfern was 136 moons old",
-            "Fidgetmouse returned to the elder's den dripping mud everywhere and managed to ruin Erminedaisy and Heatherfern's nests. (negative effect) - Heatherfern was 137 moons old"
+            "Fidgetmouse returned to the elder's den dripping mud everywhere and managed to ruin Erminedaisy and Heatherfern's nests. (negative effect) - Heatherfern was 137 moons old",
+            "Heatherfern appreciates Fidgetmouse's helpful attitude. (low positive effect) - Heatherfern was 160 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -1750,14 +1753,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 3,
+        "respect": -7,
         "comfort": 0,
-        "trust": -5,
+        "trust": -15,
         "log": [
             "Heatherfern noticed how successful Poolleaf's hunting patrol was. (positive effect) - Heatherfern was 115 moons old",
-            "Heatherfern was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Heatherfern was 157 moons old"
+            "Heatherfern was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Heatherfern was 157 moons old",
+            "Heatherfern was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Heatherfern was 159 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -2497,13 +2504,16 @@
         "family": false,
         "romance": 0,
         "like": -2,
-        "respect": -6,
+        "respect": 11,
         "comfort": 3,
         "trust": -14,
         "log": [
-            "Heatherfern finds her feelings conflicted towards the new family addition. (neutral effect) - Heatherfern was 108 moons old"
+            "Heatherfern finds her feelings conflicted towards the new family addition. (neutral effect) - Heatherfern was 108 moons old",
+            "Glowfur brings Heatherfern herbs from the medicine den for a headache. (medium positive effect) - Heatherfern was 160 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -2803,11 +2813,11 @@
         "cat_to_id": "161",
         "mates": false,
         "family": false,
-        "romance": 4,
+        "romance": 12,
         "like": 15,
         "respect": -9,
-        "comfort": 14,
-        "trust": 2,
+        "comfort": 22,
+        "trust": 12,
         "log": [
             "Heatherfern heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Heatherfern was 131 moons old",
             "Heatherfern likes the way Terabyte laughs. (medium positive effect) - Heatherfern was 138 moons old",
@@ -2815,7 +2825,10 @@
             "Heatherfern heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Heatherfern was 152 moons old",
             "Heatherfern thinks Terabyte is acting childish lately. (medium negative effect) - Heatherfern was 157 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "198",
@@ -3885,6 +3898,32 @@
         "log": [
             "Heatherfern and Reaper played together on RiverClan's border. (positive effect) - Heatherfern was 158 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "198",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "198",
+        "cat_to_id": "259",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

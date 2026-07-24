@@ -900,14 +900,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Caterpillarfoot and Pheasantbrush successfully hunted ground squirrels together. (positive effect) - Caterpillarfoot was 111 moons old"
+            "Caterpillarfoot and Pheasantbrush successfully hunted ground squirrels together. (positive effect) - Caterpillarfoot was 111 moons old",
+            "Pheasantbrush compliments one of Caterpillarfoot's friends. (low positive effect) - Caterpillarfoot was 153 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -1759,10 +1762,10 @@
         "cat_to_id": "161",
         "mates": false,
         "family": false,
-        "romance": 6,
+        "romance": 12,
         "like": -10,
         "respect": 7,
-        "comfort": 2,
+        "comfort": 8,
         "trust": -3,
         "log": [
             "Caterpillarfoot heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Caterpillarfoot was 124 moons old",
@@ -1770,7 +1773,9 @@
             "After Terabyte finished his food, Caterpillarfoot noticed he made a mess. (medium negative effect) - Caterpillarfoot was 144 moons old",
             "Caterpillarfoot heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Caterpillarfoot was 145 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -2133,16 +2138,20 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -16,
+        "like": -5,
+        "respect": -16,
+        "comfort": -5,
+        "trust": -22,
         "log": [
             "Though Caterpillarfoot asks around, she can't find Moonchaser anywhere. (low negative effect) - Caterpillarfoot was 139 moons old",
             "Moonchaser forgot something that Caterpillarfoot asked him to remember. (low negative effect) - Caterpillarfoot was 143 moons old",
-            "Caterpillarfoot can't help but admire Moonchaser's pelt. (low positive effect) - Caterpillarfoot was 147 moons old"
+            "Caterpillarfoot can't help but admire Moonchaser's pelt. (low positive effect) - Caterpillarfoot was 147 moons old",
+            "Moonchaser laughs at Caterpillarfoot's embarrassing mistake. (high negative effect) - Caterpillarfoot was 153 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "155",
@@ -2814,6 +2823,32 @@
     {
         "cat_from_id": "155",
         "cat_to_id": "257",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "258",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "155",
+        "cat_to_id": "259",
         "mates": false,
         "family": false,
         "romance": 0,
