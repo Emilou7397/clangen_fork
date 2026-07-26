@@ -148,12 +148,7 @@
         "log": [
             "Fishleg heard an ugly rumor about Carptail. (high negative effect) - Fishleg was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "242",
@@ -622,9 +617,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Mallowpelt won't tell Fishleg what he ate this morning. (low negative effect) - Fishleg was 72 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -722,9 +721,7 @@
         "log": [
             "Fishleg is disappointed in Dancingfleck's lack of initiative. (medium negative effect) - Fishleg was 70 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "242",
@@ -754,10 +751,7 @@
         "log": [
             "Fishleg saw Hollyheart telling stories to the kits. (positive effect) - Fishleg was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "242",
@@ -848,12 +842,14 @@
         "cat_to_id": "112",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Fishleg can't help but smile seeing Minnowlily smile. (low positive effect) - Fishleg was 72 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1024,11 +1020,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Fishleg thinks Gorgehunt is bad luck. (medium negative effect) - Fishleg was 71 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1509,7 +1507,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1771,12 +1769,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -2156,6 +2156,19 @@
     {
         "cat_from_id": "242",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "242",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

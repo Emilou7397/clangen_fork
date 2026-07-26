@@ -559,8 +559,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -12,
+        "log": [
+            "Verbenabloom doesn't want to apologize to Bub for something. (medium negative effect) - Bub was 17 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1084,7 +1086,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": -5,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1613,7 +1615,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1628,7 +1630,7 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Bub helped Velvettooth bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Bub was 14 moons old"
         ],
@@ -1699,9 +1701,7 @@
         "log": [
             "Bub picked out the best piece of prey to share with Scalebloom. (medium positive effect) - Bub was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "250",
@@ -1906,12 +1906,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 12,
-        "trust": 0,
+        "like": 2,
+        "respect": 3,
+        "comfort": 23,
+        "trust": 3,
         "log": [
-            "Bub calms down when he realizes Branchpaw is nearby. (medium positive effect) - Bub was 14 moons old"
+            "Bub calms down when he realizes Branchpaw is nearby. (medium positive effect) - Bub was 14 moons old",
+            "Bub helps Branchfox work through something difficult that happened to her. (high positive effect) - Bub was 17 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1939,9 +1940,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Bub and Edelweisstree work well on a patrol together. (medium positive effect) - Bub was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -2026,9 +2031,7 @@
             "Shockingly, Avocetkit, Weedkit, Herringkit, and Lavenderkit listen to Bubpaw with little fuss or complaint. (positive effect) - Bubpaw was 10 moons old",
             "Bub finds the way Lavenderpaw acts increasingly uncomfortable. (medium negative effect) - Bub was 16 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "250",
@@ -2189,5 +2192,22 @@
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": -12,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Bub didn't warn Bede about a rock on the ground, which caused Bede to trip. (medium negative effect) - Bub was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     }
 ]

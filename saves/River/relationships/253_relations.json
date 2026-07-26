@@ -118,9 +118,7 @@
         "log": [
             "Dashpaw turns to Bitterleaf in a time of need. (medium positive effect) - Dashpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "253",
@@ -379,7 +377,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -1032,8 +1030,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 13,
+        "log": [
+            "Moletooth sends a Clanmate to help Dashpaw with something she's struggling with. (low positive effect) - Dashpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1135,11 +1135,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Poppybriar tells Flintpaw, Avocetpaw, Daypaw, and Dashpaw a story that earns more skepticism than admiration. (negative effect) - Dashpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1997,12 +1999,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 13,
+        "respect": 8,
+        "comfort": 7,
+        "trust": -1,
+        "log": [
+            "Lavenderpaw tells Daypaw, Flintpaw, and Dashpaw a story that seems to grow less believable every meow. (negative effect) - Dashpaw was 7 moons old",
+            "Dashpaw and Lavenderfreckle worked well together on a patrol. (high positive effect) - Dashpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "253",
@@ -2075,7 +2084,7 @@
         "mates": false,
         "family": true,
         "romance": 7,
-        "like": 51,
+        "like": 59,
         "respect": 47,
         "comfort": 55,
         "trust": 59,
@@ -2087,9 +2096,7 @@
             "Dashkit learns something new about a Clanmate from Flintkit. (low positive effect) - Dashkit was 3 moons old",
             "Dashpaw and Flintpaw debate about something interesting. They end up agreeing. (medium positive effect) - Dashpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "253",
@@ -2215,6 +2222,19 @@
     {
         "cat_from_id": "253",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "253",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

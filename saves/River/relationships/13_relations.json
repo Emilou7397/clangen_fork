@@ -299,7 +299,7 @@
         "romance": 0,
         "like": 94,
         "respect": 100,
-        "comfort": 97,
+        "comfort": 100,
         "trust": 71,
         "log": [
             "Fidgetmouse likes to sit near Stoatshade during conversations. (low positive effect)- Fidgetmouse was 40 moons old",
@@ -322,9 +322,7 @@
             "Fidgetmouse tells a story to Stoatshade. (medium positive effect) - Fidgetmouse was 131 moons old",
             "Stoatshade does something that makes Fidgetmouse's day a little happier. (low positive effect) - Fidgetmouse was 159 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "13",
@@ -531,9 +529,7 @@
             "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Fidgetmouse and Heatherfern's nests. (negative effect) - Fidgetmouse was 153 moons old",
             "Fidgetmouse learns that Bitterleaf is scared of thunder, too. (low positive effect) - Fidgetmouse was 159 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "13",
@@ -542,8 +538,8 @@
         "family": false,
         "romance": 0,
         "like": 58,
-        "respect": 30,
-        "comfort": 26,
+        "respect": 42,
+        "comfort": 34,
         "trust": -20,
         "log": [
             "Fidgetmouse's confidence in Primfreckle's abilities as a medicine cat was shaken after she accidentally poisoned Carppaw. (negative effect)- Fidgetmouse was 37 moons old",
@@ -562,16 +558,20 @@
             "Fidgetmouse notices that Primfreckle is trying really hard to be a great medicine cat. (medium positive effect)- Fidgetmouse was 80 moons old",
             "Primfreckle and Fidgetmouse have a misunderstanding that makes them grumpy for the rest of the day. (low negative effect) - Fidgetmouse was 116 moons old",
             "Fidgetmouse heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Fidgetmouse was 124 moons old",
-            "Primfreckle doesn't say sorry when bumping into Fidgetmouse. (low negative effect) - Fidgetmouse was 126 moons old"
+            "Primfreckle doesn't say sorry when bumping into Fidgetmouse. (low negative effect) - Fidgetmouse was 126 moons old",
+            "Fidgetmouse finds comfort in the quiet of Primfreckle's medicine den. (medium positive effect) - Fidgetmouse was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "13",
         "cat_to_id": "10",
         "mates": true,
         "family": false,
-        "romance": 67,
+        "romance": 70,
         "like": 92,
         "respect": 26,
         "comfort": 100,
@@ -607,7 +607,8 @@
             "Harefeather is telling Fidgetmouse how much he cherishes her. (medium positive effect) - Fidgetmouse was 138 moons old",
             "Fidgetmouse and Harefeather gossip about drama nobody else knows. (high positive effect) - Fidgetmouse was 147 moons old",
             "Harefeather tracked a trail of muddy pawprints into the elder's den, straight through the nests of Pebblechase and Fidgetmouse. (negative effect) - Fidgetmouse was 148 moons old",
-            "Fidgetmouse compliments Harefeather on how well groomed his pelt is today. (high positive effect) - Fidgetmouse was 158 moons old"
+            "Fidgetmouse compliments Harefeather on how well groomed his pelt is today. (high positive effect) - Fidgetmouse was 158 moons old",
+            "Fidgetmouse is prancing around in front of Harefeather. (low positive effect) - Fidgetmouse was 160 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1538,13 +1539,17 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Fidgetmouse heard about how Frondpad's patrol drove off a scavenging fox. (positive effect)- Fidgetmouse was 91 moons old",
             "Fidgetmouse heard about how Frondpad's patrol drove off a scavenging fox. (positive effect) - Fidgetmouse was 110 moons old",
-            "Fidgetmouse heard Frondpad fell asleep guarding camp. (negative effect) - Fidgetmouse was 139 moons old"
+            "Fidgetmouse heard Frondpad fell asleep guarding camp. (negative effect) - Fidgetmouse was 139 moons old",
+            "Fidgetmouse heard Frondpad fell asleep guarding camp. (negative effect) - Fidgetmouse was 160 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -1858,14 +1863,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 10,
+        "like": 3,
+        "respect": 5,
         "comfort": 18,
         "trust": -17,
         "log": [
             "Fidgetmouse, Shimmerrunner, and Antlerthorn took a sunbath and had a little small talk. (positive effect) - Fidgetmouse was 143 moons old",
             "Fidgetmouse realizes that Shimmerrunner's been avoiding her. (medium negative effect) - Fidgetmouse was 149 moons old",
-            "Fidgetmouse saw Shimmerrunner telling stories to the kits. (positive effect) - Fidgetmouse was 156 moons old"
+            "Fidgetmouse saw Shimmerrunner telling stories to the kits. (positive effect) - Fidgetmouse was 156 moons old",
+            "Fidgetmouse noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Fidgetmouse was 160 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2048,16 +2054,22 @@
         "mates": false,
         "family": false,
         "romance": 3,
-        "like": -5,
+        "like": -13,
         "respect": -24,
-        "comfort": -4,
+        "comfort": -12,
         "trust": -6,
         "log": [
             "Fidgetmouse notices one of her friends laughing with Nightglow. (low negative effect) - Fidgetmouse was 108 moons old",
             "Fidgetmouse gets hit with waves of envy whenever Nightglow is laughing with friends. (high negative effect) - Fidgetmouse was 113 moons old",
-            "Fidgetmouse chats quietly with Nightglow while they're both on camp guard duty. (medium positive effect) - Fidgetmouse was 120 moons old"
+            "Fidgetmouse chats quietly with Nightglow while they're both on camp guard duty. (medium positive effect) - Fidgetmouse was 120 moons old",
+            "Nightglow eats as ravenously as a wolverine and by the time he's done, Jademuzzle, Fidgetmouse, and Terabyte barely have the stomach to finish their own meals. (negative effect) - Fidgetmouse was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -2167,11 +2179,7 @@
             "Fidgetmouse gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Fidgetmouse was 150 moons old",
             "Fidgetmouse gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Fidgetmouse was 158 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "13",
@@ -2696,17 +2704,21 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": -7,
+        "respect": 6,
         "comfort": 5,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Fidgetmouse and Braveheart had a successful hunt together. (positive effect) - Fidgetmouse was 120 moons old",
             "Fidgetmouse and Braveheart talk about a Clanmate and realize they have very different opinions on them. (medium negative effect) - Fidgetmouse was 136 moons old",
             "Ochretail convinces Gracklefur, Fidgetmouse, Braveheart, and Paellapad to wind down and stretch with him. (positive effect) - Fidgetmouse was 139 moons old",
             "Braveheart guides Fidgetmouse to someone she is looking for. (low positive effect) - Fidgetmouse was 152 moons old",
-            "Braveheart returned to the elder's den dripping mud everywhere and managed to ruin Fidgetmouse and Cobaltstrike's nests. (negative effect) - Fidgetmouse was 152 moons old"
+            "Braveheart returned to the elder's den dripping mud everywhere and managed to ruin Fidgetmouse and Cobaltstrike's nests. (negative effect) - Fidgetmouse was 152 moons old",
+            "Fidgetmouse heard that Braveheart touched noses with a rogue. (negative effect) - Fidgetmouse was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -2853,10 +2865,11 @@
         "like": -6,
         "respect": -16,
         "comfort": -4,
-        "trust": -15,
+        "trust": -20,
         "log": [
             "Fidgetmouse heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Fidgetmouse was 128 moons old",
-            "Fidgetmouse has big plans for the day, but they're thwarted by Coquitostep doing something more important. (high negative effect) - Fidgetmouse was 154 moons old"
+            "Fidgetmouse has big plans for the day, but they're thwarted by Coquitostep doing something more important. (high negative effect) - Fidgetmouse was 154 moons old",
+            "Fidgetmouse heard Coquitostep fell asleep guarding camp. (negative effect) - Fidgetmouse was 159 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3183,14 +3196,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -10,
+        "like": 21,
+        "respect": 20,
+        "comfort": 7,
+        "trust": -3,
         "log": [
-            "Fidgetmouse heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Fidgetmouse was 152 moons old"
+            "Fidgetmouse heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Fidgetmouse was 152 moons old",
+            "Fidgetmouse listens to Sagospeck talk about what life was like when he was young. (high positive effect) - Fidgetmouse was 161 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -3198,12 +3216,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -10,
         "log": [
-            "Fidgetmouse heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Fidgetmouse was 145 moons old"
+            "Fidgetmouse heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Fidgetmouse was 145 moons old",
+            "While Scalebloom gorges on her piece of fresh kill, Reedheart, Braveheart, and Fidgetmouse find that eating is suddenly less appealing. (negative effect) - Fidgetmouse was 160 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3663,9 +3682,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Fidgetmouse was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Fidgetmouse was 160 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "13",
@@ -3732,9 +3755,7 @@
         "log": [
             "Fidgetmouse wondered where Deltakit went when she disappeared for a few days. (negative effect) - Fidgetmouse was 159 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "13",
@@ -3756,9 +3777,9 @@
         "family": true,
         "romance": 0,
         "like": 60,
-        "respect": 30,
+        "respect": 38,
         "comfort": 70,
-        "trust": 60,
+        "trust": 68,
         "log": [],
         "no_longer_neutral": []
     },
@@ -3817,6 +3838,19 @@
     {
         "cat_from_id": "13",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "13",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

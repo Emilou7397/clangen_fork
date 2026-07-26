@@ -803,13 +803,18 @@
         "like": -12,
         "respect": 16,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
             "Sandthrush heard Frondpad fell asleep guarding camp. (negative effect) - Sandthrush was 19 moons old",
             "The Clan notices that Sandthrush and Frondpad always sit far away from one another. (medium negative effect) - Sandthrush was 27 moons old",
-            "Sandthrush saw Frondpad being considerate. (low positive effect) - Sandthrush was 36 moons old"
+            "Sandthrush saw Frondpad being considerate. (low positive effect) - Sandthrush was 36 moons old",
+            "Sandthrush heard Frondpad fell asleep guarding camp. (negative effect) - Sandthrush was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -919,9 +924,7 @@
             "Sandthrush disapproved of Mallowpelt wearing a collar. (negative effect) - Sandthrush was 14 moons old",
             "Sandthrush heard that Mallowpelt touched noses with a rogue. (negative effect) - Sandthrush was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1030,12 +1033,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -3,
-        "respect": 0,
+        "like": -8,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shimmerrunner stepped on Sandpaw's paw and pretended not to notice. (low negative effect) - Sandpaw was 12 moons old"
+            "Shimmerrunner stepped on Sandpaw's paw and pretended not to notice. (low negative effect) - Sandpaw was 12 moons old",
+            "Sandthrush noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Sandthrush was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1045,12 +1049,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -12,
-        "comfort": 0,
-        "trust": 0,
+        "like": 16,
+        "respect": -6,
+        "comfort": 5,
+        "trust": 5,
         "log": [
-            "Sandthrush has noticed Dancingfleck isn't doing a lot of work lately. (medium negative effect) - Sandthrush was 34 moons old"
+            "Sandthrush has noticed Dancingfleck isn't doing a lot of work lately. (medium negative effect) - Sandthrush was 34 moons old",
+            "Sandthrush and Dancingfleck defended their Clan at the Gathering together. (high positive effect) - Sandthrush was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1345,10 +1350,7 @@
             "Sandthrush gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sandthrush was 30 moons old",
             "Sandthrush gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sandthrush was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1427,9 +1429,7 @@
             "Sandthrush heard Drizzlepelt talking badly about her. (high negative effect) - Sandthrush was 18 moons old",
             "Sandthrush was not happy to hear that Drizzlepelt took food from a Twoleg. (negative effect) - Sandthrush was 21 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1677,7 +1677,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1813,11 +1813,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -17,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Sandthrush confronted Nymphshine about his bad attitude but that only makes Nymphshine act out more. (medium negative effect) - Sandthrush was 41 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -1851,9 +1855,7 @@
             "Sandthrush heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sandthrush was 29 moons old",
             "Sandthrush noticed Terabyte is doing his best today. (low positive effect) - Sandthrush was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1862,11 +1864,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
-            "Sandthrush and Braveheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Sandthrush was 17 moons old"
+            "Sandthrush and Braveheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Sandthrush was 17 moons old",
+            "Sandthrush heard that Braveheart touched noses with a rogue. (negative effect) - Sandthrush was 41 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1893,9 +1896,7 @@
             "Sandthrush and Shinebelly had a productive training patrol together. (positive effect) - Sandthrush was 35 moons old",
             "Sandthrush scoffed loudly at one of Shinebelly's suggestions. (medium negative effect) - Sandthrush was 38 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -1968,9 +1969,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -10,
+        "trust": -15,
         "log": [
-            "Sandpaw heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Sandpaw was 8 moons old"
+            "Sandpaw heard that Coquitostep was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Sandpaw was 8 moons old",
+            "Sandthrush heard Coquitostep fell asleep guarding camp. (negative effect) - Sandthrush was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2054,7 +2056,7 @@
         "family": false,
         "romance": 4,
         "like": 9,
-        "respect": 6,
+        "respect": -6,
         "comfort": -4,
         "trust": 5,
         "log": [
@@ -2064,7 +2066,8 @@
             "Dustnose eats as ravenously as a wolverine and by the time he's done, Flightsplash, Dahliacrest, and Sandthrush barely have the stomach to finish their own meals. (negative effect) - Sandthrush was 28 moons old",
             "Sandthrush didn't realize Dustnose was flirting with her. (low negative effect) - Sandthrush was 31 moons old",
             "Sandthrush and Dustnose had a productive training patrol together. (positive effect) - Sandthrush was 35 moons old",
-            "Sandthrush appreciated Dustnose taking charge to coordinate battle training for the patrol. (positive effect) - Sandthrush was 35 moons old"
+            "Sandthrush appreciated Dustnose taking charge to coordinate battle training for the patrol. (positive effect) - Sandthrush was 35 moons old",
+            "Sandthrush notices that Dustnose seems to disappear whenever difficult tasks are being discussed. (medium negative effect) - Sandthrush was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2290,7 +2293,7 @@
         "romance": 54,
         "like": 43,
         "respect": 27,
-        "comfort": 26,
+        "comfort": 39,
         "trust": 26,
         "log": [
             "Sandthrush compliments Lionheart on how well groomed her pelt is today. (high positive effect) - Sandthrush was 16 moons old",
@@ -2304,9 +2307,12 @@
             "Sandthrush listens to Lionheart's big plans for the day. (low positive effect) - Sandthrush was 26 moons old",
             "Sandthrush thinks Lionheart was nice to her today. (low positive effect) - Sandthrush was 27 moons old",
             "Lionheart purrs for a long time at one of Sandthrush's lame jokes. (high positive effect) - Sandthrush was 30 moons old",
-            "Sandthrush and Lionheart had a productive training patrol together. (positive effect) - Sandthrush was 35 moons old"
+            "Sandthrush and Lionheart had a productive training patrol together. (positive effect) - Sandthrush was 35 moons old",
+            "Sandthrush and Lionheart often look at each other and smile knowingly about something. (low positive effect) - Sandthrush was 41 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -2829,9 +2835,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Sandthrush was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Sandthrush was 41 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "169",
@@ -2898,9 +2908,7 @@
         "log": [
             "Sandthrush wondered where Deltakit went when she disappeared for a few days. (negative effect) - Sandthrush was 39 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "169",
@@ -2983,6 +2991,19 @@
     {
         "cat_from_id": "169",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "169",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

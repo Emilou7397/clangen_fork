@@ -170,10 +170,7 @@
             "Pigmentpelt reassures Shiveringdusk about something that was bothering him. (low positive effect) - Pigmentpelt was 89 moons old",
             "Pigmentpelt helps Shiveringdusk work through something difficult that happened to her. (high positive effect) - Pigmentpelt was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -615,14 +612,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 18,
-        "respect": 10,
-        "comfort": 10,
-        "trust": -12,
+        "like": 10,
+        "respect": -11,
+        "comfort": 4,
+        "trust": -18,
         "log": [
             "Pigmentpelt heard about how Bitebone endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 83 moons old",
             "Pigmentpelt and Bitebone enjoyed a relaxed afternoon picking raspberry and blackberry leaves. (positive effect) - Pigmentpelt was 89 moons old",
-            "Bitebone tries to convince Pigmentpelt that an obvious lie is real. (medium negative effect) - Pigmentpelt was 98 moons old"
+            "Bitebone tries to convince Pigmentpelt that an obvious lie is real. (medium negative effect) - Pigmentpelt was 98 moons old",
+            "Pigmentpelt had a difficult conversation with Bitebone, and they both ended up resentful of one another. (high negative effect) - Pigmentpelt was 119 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -633,16 +631,17 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 20,
+        "respect": 15,
         "comfort": 12,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Pigmentpelt heard that Suntooth chased a rogue off the territory. (positive effect) - Pigmentpelt was 78 moons old",
             "Pigmentpelt saw Suntooth's patrol bring a huge octopus back to camp. (positive effect) - Pigmentpelt was 79 moons old",
             "Butterflyglide appreciates Suntooth, Pigmentpelt, Onemuzzle, and Shadowfreckle joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Pigmentpelt was 81 moons old",
             "Pigmentpelt didn't get the joke Suntooth was telling. (low negative effect) - Pigmentpelt was 83 moons old",
             "Pigmentpelt heard about how Suntooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 84 moons old",
-            "Pigmentpelt and Suntooth worked together to steal a fox's prey. (positive effect) - Pigmentpelt was 117 moons old"
+            "Pigmentpelt and Suntooth worked together to steal a fox's prey. (positive effect) - Pigmentpelt was 117 moons old",
+            "Suntooth's overconfident move cost Pigmentpelt's patrol the battle against a fox. (negative effect) - Pigmentpelt was 119 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -728,12 +727,13 @@
         "romance": 0,
         "like": 20,
         "respect": 0,
-        "comfort": 5,
+        "comfort": 13,
         "trust": 0,
         "log": [
             "Pigmentpelt and Freezefoot successfully gathered daisies together. (positive effect) - Pigmentpelt was 106 moons old",
             "Pigmentpelt and Freezefoot successfully gathered daisies together. (positive effect) - Pigmentpelt was 108 moons old",
-            "Pigmentpelt and Freezefoot worked together to gather betony. (positive effect) - Pigmentpelt was 109 moons old"
+            "Pigmentpelt and Freezefoot worked together to gather betony. (positive effect) - Pigmentpelt was 109 moons old",
+            "Pigmentpelt learns something new about a Clanmate from Freezefoot. (low positive effect) - Pigmentpelt was 119 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -759,14 +759,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
-        "comfort": 12,
-        "trust": 0,
+        "like": 18,
+        "respect": 4,
+        "comfort": 28,
+        "trust": 5,
         "log": [
-            "Pigmentpelt, Currenthiss, Mossflight, Heathstripe, and Terabyte hang out while stretching. (positive effect) - Pigmentpelt was 96 moons old"
+            "Pigmentpelt, Currenthiss, Mossflight, Heathstripe, and Terabyte hang out while stretching. (positive effect) - Pigmentpelt was 96 moons old",
+            "Mossflight's words of comfort mean more to Pigmentpelt than she knows. (high positive effect) - Pigmentpelt was 120 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -910,9 +914,7 @@
             "Pigmentpelt heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pigmentpelt was 106 moons old",
             "Pigmentpelt is impressed by Skulkwillow helping others today. (low positive effect) - Pigmentpelt was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "145",
@@ -2608,12 +2610,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -3,
+        "respect": -3,
+        "comfort": -3,
+        "trust": -11,
+        "log": [
+            "Nutpaw uses one of Pigmentpelt's fears against her. (high negative effect) - Pigmentpelt was 120 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "145",
@@ -2979,6 +2985,19 @@
     {
         "cat_from_id": "145",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "145",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

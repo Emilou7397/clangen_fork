@@ -226,10 +226,7 @@
         "log": [
             "Peakspore won't back down when defending Deltakit on something. (high positive effect) - Deltakit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "256",
@@ -469,10 +466,7 @@
         "log": [
             "Murkhaven helps Deltakit, Mistlekit, Sparkkit, and Deltakit cope with something difficult. (positive effect) - Deltakit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "256",
@@ -754,10 +748,7 @@
             "Deltakit enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Deltakit was 2 moons old",
             "Deltakit saw Hollyheart telling stories to the kits. (positive effect) - Deltakit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "256",
@@ -1120,12 +1111,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -6,
+        "comfort": -16,
+        "trust": -5,
+        "log": [
+            "Every muscle in Deltapaw's body tenses when Clawswirl walks by. (high negative effect) - Deltapaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -1345,10 +1341,11 @@
         "romance": 0,
         "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Deltakit was excited to taste the Twoleg food that Garlicberry stole on patrol. (positive effect) - Deltakit was 0 moons old"
+            "Deltakit was excited to taste the Twoleg food that Garlicberry stole on patrol. (positive effect) - Deltakit was 0 moons old",
+            "Deltakit is demanding Garlicberry's attention. (medium positive effect) - Deltakit was 5 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2088,18 +2085,19 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 62,
+        "like": 55,
         "respect": 19,
         "comfort": 58,
-        "trust": 51,
+        "trust": 71,
         "log": [
             "Sparkkit lets Deltakit know that a Clanmate was talking badly about her. (low positive effect) - Deltakit was 3 moons old",
-            "Deltakit and Sparkkit hunt moss balls and sticks for the fresh-kill pile. (medium positive effect) - Deltakit was 4 moons old"
+            "Deltakit and Sparkkit hunt moss balls and sticks for the fresh-kill pile. (medium positive effect) - Deltakit was 4 moons old",
+            "Deltakit tried to have a friendly discussion with Sparkkit about what prey tastes best, but it turned into an argument. (medium negative effect) - Deltakit was 5 moons old",
+            "Deltakit and Sparkkit tried to sneak out of camp together. (positive effect) - Deltakit was 5 moons old",
+            "Deltapaw heard Sparkkit say something mean. (low negative effect) - Deltapaw was 6 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
+            "like"
         ]
     },
     {
@@ -2174,6 +2172,19 @@
     {
         "cat_from_id": "256",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

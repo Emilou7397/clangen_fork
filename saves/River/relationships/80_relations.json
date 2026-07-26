@@ -181,14 +181,16 @@
         "romance": 0,
         "like": 20,
         "respect": 6,
-        "comfort": 46,
+        "comfort": 38,
         "trust": 7,
         "log": [
             "Ochretail brought Poolpaw some dry bedding. (low positive effect)- Poolpaw was 12 moons old",
             "Erminedaisy, Ochretail, Cobaltstrike, Snakedrop, and Poolleaf blow off steam by stretching with and venting to each other. (positive effect) - Poolleaf was 38 moons old",
             "Poolleaf and Ochretail share their prey with one another every day. (high positive effect) - Poolleaf was 47 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "80",
@@ -730,10 +732,12 @@
         "family": false,
         "romance": 3,
         "like": 3,
-        "respect": 0,
+        "respect": 5,
         "comfort": 3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Mossflight and Poolleaf drove off a rogue together. (positive effect) - Poolleaf was 80 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -833,7 +837,7 @@
         "family": false,
         "romance": 30,
         "like": 22,
-        "respect": 43,
+        "respect": 30,
         "comfort": 39,
         "trust": 50,
         "log": [
@@ -843,7 +847,9 @@
             "Bitebone, Amberfur, Warmswirl, Peatcrest, and Poolpaw hang out while stretching. (positive effect)- Poolpaw was 13 moons old",
             "Amberfur vents about something trivial to Poolleaf. (low positive effect) - Poolleaf was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "80",
@@ -961,11 +967,7 @@
             "Poolleaf heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poolleaf was 68 moons old",
             "Skulkwillow failed to drive away rogues while on patrol with Poolleaf. (negative effect) - Poolleaf was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "80",
@@ -1134,10 +1136,7 @@
             "Poolleaf notices that Shinefur doesn't want to help out. (low negative effect) - Poolleaf was 43 moons old",
             "Shinefur failed to drive away rogues while on patrol with Poolleaf. (negative effect) - Poolleaf was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "80",
@@ -1314,12 +1313,7 @@
             "Poolleaf enjoyed driving away rogues with Mallowpelt. (positive effect) - Poolleaf was 78 moons old",
             "Mallowpelt failed to drive away rogues while on patrol with Poolleaf. (negative effect) - Poolleaf was 79 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "80",
@@ -1694,9 +1688,7 @@
             "Antlerthorn motivates Poolleaf to do something difficult. (medium positive effect) - Poolleaf was 79 moons old",
             "Poolleaf likes it when Antlerthorn is scolded for something. (medium negative effect) - Poolleaf was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "80",
@@ -1705,7 +1697,7 @@
         "family": false,
         "romance": 25,
         "like": 48,
-        "respect": 3,
+        "respect": -14,
         "comfort": 26,
         "trust": -21,
         "log": [
@@ -1715,9 +1707,12 @@
             "Daisymoor is rolling around a little too playfully with Poolleaf... (high positive effect) - Poolleaf was 41 moons old",
             "Poolleaf, Daisymoor, Fringesnap, Heavythud, and Flightsplash blow off steam by stretching with and venting to each other. (positive effect) - Poolleaf was 50 moons old",
             "Poolleaf thinks Daisymoor was nice to her today. (low positive effect) - Poolleaf was 50 moons old",
-            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Poolleaf was 61 moons old"
+            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Poolleaf was 61 moons old",
+            "Poolleaf is frustrated after finishing a task that Daisymoor was supposed to do. (medium negative effect) - Poolleaf was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "80",
@@ -1842,9 +1837,11 @@
         "romance": 0,
         "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Poolleaf and Cherrytail often look at each other and smile knowingly about something. (low positive effect) - Poolleaf was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2683,12 +2680,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -4,
+        "comfort": -16,
+        "trust": -5,
+        "log": [
+            "The Clan feels uneasy whenever Poolleaf and Moonchaser speak to each other. (high negative effect) - Poolleaf was 82 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "80",
@@ -2909,12 +2911,13 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": -17,
         "log": [
             "Poolleaf daydreams about getting back at Moorghost for wronging her. (medium negative effect) - Poolleaf was 62 moons old",
-            "Moorghost asks Poolleaf to stop following her around. (medium negative effect) - Poolleaf was 78 moons old"
+            "Moorghost asks Poolleaf to stop following her around. (medium negative effect) - Poolleaf was 78 moons old",
+            "Moorghost and Poolleaf drove off a rogue together. (positive effect) - Poolleaf was 80 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2988,10 +2991,7 @@
             "Poolleaf and Redswirl had a successful hunt together. (positive effect) - Poolleaf was 76 moons old",
             "Poolleaf and Redswirl gossip about drama nobody else knows. (high positive effect) - Poolleaf was 80 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "80",
@@ -3038,14 +3038,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Poolleaf heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Poolleaf was 70 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "80",
@@ -3065,8 +3067,8 @@
         "cat_to_id": "232",
         "mates": false,
         "family": false,
-        "romance": 4,
-        "like": 4,
+        "romance": 10,
+        "like": 9,
         "respect": 5,
         "comfort": 5,
         "trust": 4,
@@ -3403,11 +3405,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Poolleaf likes it when Deltakit is scolded for something. (medium negative effect) - Poolleaf was 81 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3465,6 +3469,19 @@
     {
         "cat_from_id": "80",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "80",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,2 +1,2 @@
-1. Search for negative relationships, but exclude IcyRiver because she's exiled
-\{\n[^\}]+"cat_to_id": "(?!79)\d+"[^\}]+-DIGIT\d
+1. Search for negative relationships, but exclude more than one ID (exiled, dead, etc.)
+\{\n[^\}]+"cat_to_id": "(?!79|100)\d+"[^\}]+-DIGIT\d

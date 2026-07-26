@@ -334,7 +334,7 @@
         "romance": 0,
         "like": 20,
         "respect": 0,
-        "comfort": 20,
+        "comfort": 28,
         "trust": 10,
         "log": [],
         "no_longer_neutral": []
@@ -1114,10 +1114,7 @@
         "log": [
             "Blotchstripe saw Hollyheart telling stories to the kits. (positive effect) - Blotchstripe was 56 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1283,12 +1280,13 @@
         "family": false,
         "romance": 0,
         "like": -18,
-        "respect": -3,
+        "respect": -6,
         "comfort": -3,
         "trust": -4,
         "log": [
             "Snookpaw is not backing down in an argument with Blotchkit. (medium negative effect) - Blotchkit was 5 moons old",
-            "The Clan watches Blotchpaw and Snookpaw slowly lose their patience with one another. (high negative effect) - Blotchpaw was 10 moons old"
+            "The Clan watches Blotchpaw and Snookpaw slowly lose their patience with one another. (high negative effect) - Blotchpaw was 10 moons old",
+            "Blotchstripe thinks Snookbumble looks nicer than her today. (low negative effect) - Blotchstripe was 58 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1345,12 +1343,7 @@
             "Cherrytail gives advice to Blotchstripe. It's not good advice, but Blotchstripe appreciates the effort. (low positive effect) - Blotchstripe was 49 moons old",
             "Blotchstripe overhears Cherrytail saying something nice about her. (high positive effect) - Blotchstripe was 57 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "120",
@@ -1847,15 +1840,18 @@
         "cat_to_id": "158",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -6,
-        "respect": -8,
-        "comfort": -21,
-        "trust": -8,
+        "romance": 16,
+        "like": -2,
+        "respect": -3,
+        "comfort": -17,
+        "trust": -3,
         "log": [
-            "Blotchstripe keeps having bad dreams about Lilynoise. (high negative effect) - Blotchstripe was 39 moons old"
+            "Blotchstripe keeps having bad dreams about Lilynoise. (high negative effect) - Blotchstripe was 39 moons old",
+            "Blotchstripe gives Lilynoise a beautiful feather she found, and hides behind her whiskers when thanked. (high positive effect) - Blotchstripe was 59 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -1879,7 +1875,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
         "comfort": 0,
         "trust": -10,
@@ -2781,8 +2777,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 8,
+        "log": [
+            "Blotchstripe feels a little safer when Lavenderpaw joins her in the clearing. (low positive effect) - Blotchstripe was 58 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2926,9 +2924,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 7,
+        "log": [
+            "Deltakit helps Blotchstripe fix a matted piece of fur on her back. (medium positive effect) - Blotchstripe was 59 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "120",
@@ -3011,6 +3013,19 @@
     {
         "cat_from_id": "120",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "120",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

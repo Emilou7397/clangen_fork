@@ -611,8 +611,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Weedfur heard Frondpad fell asleep guarding camp. (negative effect) - Weedfur was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -758,12 +760,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": -5,
+        "respect": 5,
         "comfort": 10,
         "trust": 0,
         "log": [
-            "Weedpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Weedpaw was 9 moons old"
+            "Weedpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Weedpaw was 9 moons old",
+            "Weedfur noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Weedfur was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -993,10 +996,7 @@
             "Weedkit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Weedkit was 2 moons old",
             "Weedfur gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Weedfur was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "243",
@@ -1004,16 +1004,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": -2,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -10,
         "trust": 0,
         "log": [
-            "Weedfur thinks Cherrytail was nice to him today. (low positive effect) - Weedfur was 11 moons old"
+            "Weedfur thinks Cherrytail was nice to him today. (low positive effect) - Weedfur was 11 moons old",
+            "Cherrytail encouraged a fight between Weedfur and a Clanmate, and Weedfur ended up injured. (negative effect) - Weedfur was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "243",
@@ -1366,10 +1365,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Weedfur heard that Braveheart touched noses with a rogue. (negative effect) - Weedfur was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1436,8 +1437,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Weedfur heard Coquitostep fell asleep guarding camp. (negative effect) - Weedfur was 12 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1741,13 +1744,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Weedkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Weedkit was 4 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -1920,11 +1925,14 @@
         "like": 0,
         "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "Weedpaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Weedpaw was 7 moons old"
+            "Weedpaw disapproved of Caterpillarstripe wearing a collar. (negative effect) - Weedpaw was 7 moons old",
+            "Weedfur smells something strange on Caterpillarstripe. (low negative effect) - Weedfur was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2009,12 +2017,7 @@
         "log": [
             "Weedfur and Branchpaw strive to be like one another. (high positive effect) - Weedfur was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "243",
@@ -2022,12 +2025,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -3,
-        "comfort": 0,
-        "trust": 0,
+        "like": -16,
+        "respect": -9,
+        "comfort": -4,
+        "trust": -5,
         "log": [
-            "Weedkit thinks Whitepaw looks nicer than him today. (low negative effect) - Weedkit was 5 moons old"
+            "Weedkit thinks Whitepaw looks nicer than him today. (low negative effect) - Weedkit was 5 moons old",
+            "The Clan can't believe the things Weedfur and Whitewhisker say to one another. (high negative effect) - Weedfur was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2036,13 +2040,15 @@
         "cat_to_id": "238",
         "mates": false,
         "family": false,
-        "romance": 8,
-        "like": 8,
-        "respect": 0,
-        "comfort": -3,
-        "trust": -17,
+        "romance": 18,
+        "like": 12,
+        "respect": 6,
+        "comfort": -1,
+        "trust": -13,
         "log": [
-            "Weedkit was convinced that Edelweisskit was lying about something, but Edelweisskit wasn't. (medium negative effect) - Weedkit was 3 moons old"
+            "Weedkit was convinced that Edelweisskit was lying about something, but Edelweisskit wasn't. (medium negative effect) - Weedkit was 3 moons old",
+            "Weedfur asks Edelweisstree to go fishing with him, but they keep on getting distracted by each other. (high positive effect) - Weedfur was 12 moons old",
+            "Weedfur heard Edelweisstree express an ideal he cannot agree with. (high negative effect) - Weedfur was 12 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2210,9 +2216,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Weedfur was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Weedfur was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2220,12 +2230,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -2,
+        "respect": -11,
+        "comfort": -3,
+        "trust": -4,
+        "log": [
+            "Weedfur asks Daypaw about something complicated and regrets it when Daypaw misses the point. (high negative effect) - Weedfur was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2280,9 +2294,7 @@
             "Weedpaw was convinced that Deltakit was lying about something, but Deltakit wasn't. (medium negative effect) - Weedpaw was 9 moons old",
             "Weedfur wondered where Deltakit went when she disappeared for a few days. (negative effect) - Weedfur was 11 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "243",
@@ -2365,6 +2377,19 @@
     {
         "cat_from_id": "243",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "243",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,28 +1,21 @@
 {
     "injuries": {
-        "rat bite": {
-            "severity": "major",
-            "mortality": 60,
-            "duration": 2,
-            "moon_start": 153,
-            "illness_infectiousness": [
-                {
-                    "name": "whitecough",
-                    "lower_by": 3
-                }
-            ],
+        "torn ear": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 155,
+            "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 11
-                },
-                {
-                    "name": "a festering wound",
-                    "chance": 11
+                    "chance": 33
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "partial hearing loss"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }
@@ -38,7 +31,7 @@
             "risks": [
                 {
                     "name": "seizure",
-                    "chance": 507
+                    "chance": 524
                 }
             ],
             "complication": null,

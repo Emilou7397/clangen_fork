@@ -787,7 +787,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": -1,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
@@ -868,7 +868,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -1091,15 +1091,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 0,
+        "like": -3,
+        "respect": 8,
+        "comfort": -8,
         "trust": -5,
         "log": [
             "Shiveringdusk was excited to taste the Twoleg food that Flightsplash stole on patrol. (positive effect) - Shiveringdusk was 47 moons old",
             "Shiveringdusk and Flightsplash failed to steal an eagle's prey during a hunting patrol. (negative effect) - Shiveringdusk was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1594,17 +1596,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
-        "respect": 22,
-        "comfort": 13,
-        "trust": 0,
+        "like": 23,
+        "respect": 28,
+        "comfort": 29,
+        "trust": 4,
         "log": [
             "Shiveringdusk chats quietly with Gorgehunt while they're both on camp guard duty. (medium positive effect) - Shiveringdusk was 17 moons old",
             "Shiveringdusk can't remember a word for the life of him, but Gorgehunt helps him remember it. (medium positive effect) - Shiveringdusk was 19 moons old",
             "Gorgehunt pulled an embarrassing prank on Shiveringdusk's friend. (low negative effect) - Shiveringdusk was 40 moons old",
-            "When tucking in for the night, Shiveringdusk saw that Gorgehunt fixed her nest. (low positive effect) - Shiveringdusk was 45 moons old"
+            "When tucking in for the night, Shiveringdusk saw that Gorgehunt fixed her nest. (low positive effect) - Shiveringdusk was 45 moons old",
+            "Shiveringdusk is sharing tongues with Gorgehunt. (high positive effect) - Shiveringdusk was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -1677,14 +1684,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -2,
+        "like": 3,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Moletooth guides Shiveringpaw to someone he is looking for. (low positive effect) - Shiveringpaw was 11 moons old",
             "Shiveringdusk heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shiveringdusk was 17 moons old",
-            "Moletooth and Shiveringdusk snapped at each other after a failed horsetail gathering patrol. (negative effect) - Shiveringdusk was 39 moons old"
+            "Moletooth and Shiveringdusk snapped at each other after a failed horsetail gathering patrol. (negative effect) - Shiveringdusk was 39 moons old",
+            "Shiveringdusk and Moletooth practiced their hunting together. (positive effect) - Shiveringdusk was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1694,12 +1702,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -16,
+        "like": -11,
         "respect": -5,
         "comfort": -6,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Shiveringdusk won't tell the Clan what's made her so upset with Glowfur. (high negative effect) - Shiveringdusk was 41 moons old"
+            "Shiveringdusk won't tell the Clan what's made her so upset with Glowfur. (high negative effect) - Shiveringdusk was 41 moons old",
+            "Shiveringdusk and Glowfur practiced their hunting together. (positive effect) - Shiveringdusk was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1709,14 +1718,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 18,
         "comfort": 8,
-        "trust": 20,
+        "trust": 25,
         "log": [
             "Shiveringdusk heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shiveringdusk was 17 moons old",
             "Shiveringdusk and Whiskerleg discussed the vision Poppybriar claimed to have. (positive effect) - Shiveringdusk was 36 moons old",
-            "Whiskerleg and Shiveringdusk discussed the vision Poppybriar claimed to have. (positive effect) - Shiveringdusk was 36 moons old"
+            "Whiskerleg and Shiveringdusk discussed the vision Poppybriar claimed to have. (positive effect) - Shiveringdusk was 36 moons old",
+            "Shiveringdusk and Whiskerleg practiced their hunting together. (positive effect) - Shiveringdusk was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1823,10 +1833,7 @@
         "log": [
             "Shiveringpaw heard of Pigment's hunting skills and was glad to hear she was joining c_n. (positive effect) - Shiveringpaw was 10 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "146",
@@ -1924,10 +1931,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 90,
-        "respect": 24,
-        "comfort": 59,
-        "trust": 65,
+        "like": 100,
+        "respect": 31,
+        "comfort": 65,
+        "trust": 91,
         "log": [
             "Shiveringkit has had a great time hanging out with Creekkit lately. (high positive effect) - Shiveringkit was 5 moons old",
             "Shiveringpaw notices that Creekkit brought him a big piece of prey. (medium positive effect) - Shiveringpaw was 7 moons old",
@@ -1941,14 +1948,11 @@
             "Shiveringdusk approved of Creekmoss's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Shiveringdusk was 40 moons old",
             "Shiveringdusk and Creekmoss enjoyed telling ghost stories on patrol. (positive effect) - Shiveringdusk was 47 moons old",
             "Shiveringdusk notices that Creekmoss has finished all his tasks without issues lately. (medium positive effect) - Shiveringdusk was 50 moons old",
-            "Shiveringdusk can think of a hundred good things to say about Creekmoss. (high positive effect) - Shiveringdusk was 51 moons old"
+            "Shiveringdusk can think of a hundred good things to say about Creekmoss. (high positive effect) - Shiveringdusk was 51 moons old",
+            "Shiveringdusk confesses something to Creekmoss. (high positive effect) - Shiveringdusk was 52 moons old",
+            "Shiveringdusk and Creekmoss practiced their hunting together. (positive effect) - Shiveringdusk was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "146",
@@ -1956,15 +1960,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 40,
+        "like": 45,
         "respect": 0,
         "comfort": 17,
-        "trust": 5,
+        "trust": 10,
         "log": [
             "Hollyheart, Shinepaw, Meadowpaw, Heathpaw, and Shiveringpaw blow off steam by stretching with and venting to each other. (positive effect) - Shiveringpaw was 11 moons old",
             "Shiveringdusk and Meadowspots worked on their skills together on a training patrol. (positive effect) - Shiveringdusk was 16 moons old",
             "Meadowspots failed to drive away rogues while on patrol with Shiveringdusk. (negative effect) - Shiveringdusk was 30 moons old",
-            "Shiveringdusk and Meadowspots enjoyed telling ghost stories on patrol. (positive effect) - Shiveringdusk was 47 moons old"
+            "Shiveringdusk and Meadowspots enjoyed telling ghost stories on patrol. (positive effect) - Shiveringdusk was 47 moons old",
+            "Shiveringdusk and Meadowspots practiced their hunting together. (positive effect) - Shiveringdusk was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2617,9 +2622,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Shiveringdusk offers to take Electronegativity's place on a patrol when she isn't feeling well. (medium positive effect) - Shiveringdusk was 53 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "146",
@@ -2752,11 +2761,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 2,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shiveringdusk heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shiveringdusk was 41 moons old"
+            "Shiveringdusk heard about how Endothermic endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shiveringdusk was 41 moons old",
+            "Shiveringdusk thinks Endothermic looks nicer than her today. (low negative effect) - Shiveringdusk was 52 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3170,6 +3180,19 @@
     {
         "cat_from_id": "146",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "146",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

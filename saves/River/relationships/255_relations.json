@@ -141,9 +141,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Aster and Carptail enjoy the rain together. (low positive effect) - Aster was 119 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -259,10 +261,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Suntooth's overconfident move cost Aster's patrol the battle against a fox. (negative effect) - Aster was 119 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -276,7 +280,8 @@
         "comfort": 15,
         "trust": 15,
         "log": [
-            "Quailfur offers Aster some tips for building a new nest. (positive effect) - Aster was 112 moons old"
+            "Quailfur offers Aster some tips for building a new nest. (positive effect) - Aster was 112 moons old",
+            "Aster feels ignored by Quailfur. (low negative effect) - Aster was 119 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -287,10 +292,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 12,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Aster and Freezefoot bring each other prey. (medium positive effect) - Aster was 119 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -299,12 +306,13 @@
         "mates": false,
         "family": false,
         "romance": 12,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Aster and Gardeniaglow played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect) - Aster was 114 moons old"
+            "Aster and Gardeniaglow played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect) - Aster was 114 moons old",
+            "Gardeniaglow yawns while Aster is trying to tell him something. (low negative effect) - Aster was 120 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -379,10 +387,7 @@
         "log": [
             "Aster and Fringesnap take turns in a small patch of sunlight. (medium positive effect) - Aster was 118 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -793,9 +798,7 @@
         "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1005,9 +1008,7 @@
         "comfort": 0,
         "trust": 13,
         "log": [],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "255",
@@ -1368,9 +1369,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Aster noticed that Kinkdapple wasn't in her nest last night. (low negative effect) - Aster was 120 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -1432,10 +1437,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -1796,12 +1803,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fishleg tromped into the warrior's den with muddy paws, trailing muck straight through Aster and Edelweisstree's nests. (negative effect) - Aster was 120 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "255",
@@ -2040,6 +2052,19 @@
     {
         "cat_from_id": "255",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "255",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

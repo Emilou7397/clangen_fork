@@ -502,8 +502,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -7,
+        "log": [
+            "Coatikit was convinced that Shinefur was lying about something, but Shinefur wasn't. (medium negative effect) - Coatikit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -736,9 +738,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Daisymoor tells Coatikit that she was worried about him. (low positive effect) - Coatikit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -903,7 +909,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -1217,8 +1223,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Coatikit heard Coquitostep fell asleep guarding camp. (negative effect) - Coatikit was 0 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1284,12 +1292,7 @@
         "comfort": 82,
         "trust": 72,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "263",
@@ -1328,12 +1331,7 @@
         "comfort": 80,
         "trust": 70,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "263",
@@ -1998,9 +1996,7 @@
         "log": [
             "Coatikit wondered where Deltakit went when she disappeared for a few days. (negative effect) - Coatikit was 0 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "263",
@@ -2062,14 +2058,13 @@
         "romance": 6,
         "like": 46,
         "respect": 16,
-        "comfort": 46,
+        "comfort": 59,
         "trust": 36,
-        "log": [],
+        "log": [
+            "Coatikit and Icekit enjoy the rain together. (low positive effect) - Coatikit was 2 moons old"
+        ],
         "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
+            "comfort"
         ]
     },
     {
@@ -2078,16 +2073,26 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 40,
+        "like": 48,
         "respect": 10,
-        "comfort": 40,
+        "comfort": 52,
         "trust": 30,
+        "log": [
+            "Coatikit and Egretkit spend the whole day playing hide-n-seek. (medium positive effect) - Coatikit was 1 moon old"
+        ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     }
 ]

@@ -576,12 +576,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -5,
+        "log": [
+            "Flintpaw likes the way Frondpad laughs. (medium positive effect) - Flintpaw was 8 moons old",
+            "Flintpaw heard Frondpad fell asleep guarding camp. (negative effect) - Flintpaw was 8 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "252",
@@ -713,11 +718,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -5,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Flintpaw noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Flintpaw was 8 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -760,12 +767,7 @@
             "Flintkit enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Flintkit was 5 moons old",
             "Flintpaw saw Hollyheart telling stories to the kits. (positive effect) - Flintpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -949,10 +951,7 @@
         "log": [
             "Flintpaw gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Flintpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -1144,11 +1143,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -8,
+        "log": [
+            "Poppybriar tells Flintpaw, Avocetpaw, Daypaw, and Dashpaw a story that earns more skepticism than admiration. (negative effect) - Flintpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1277,10 +1278,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flintpaw heard that Braveheart touched noses with a rogue. (negative effect) - Flintpaw was 9 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1344,8 +1347,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Flintpaw heard Coquitostep fell asleep guarding camp. (negative effect) - Flintpaw was 7 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2008,10 +2013,7 @@
         "log": [
             "Avocetpaw returned to the apprentice's den dripping mud everywhere and managed to ruin Lavenderpaw and Flintpaw's nests. (negative effect) - Flintpaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -2019,12 +2021,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -8,
+        "respect": -8,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Lavenderpaw tells Daypaw, Flintpaw, and Dashpaw a story that seems to grow less believable every meow. (negative effect) - Flintpaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "252",
@@ -2097,18 +2103,24 @@
         "mates": false,
         "family": true,
         "romance": 8,
-        "like": 61,
-        "respect": 32,
+        "like": 57,
+        "respect": 20,
         "comfort": 74,
-        "trust": 70,
+        "trust": 55,
         "log": [
             "Flintkit and Dashkit swap secrets with each other. (high positive effect) - Flintkit was 3 moons old",
             "Flintkit is talking with Dashkit. (low positive effect) - Flintkit was 4 moons old",
             "Flintkit won't stop copying everything Dashkit does. (medium positive effect) - Flintkit was 5 moons old",
-            "Dashkit tells Flintpaw that she was worried about her. (low positive effect) - Flintpaw was 6 moons old"
+            "Dashkit tells Flintpaw that she was worried about her. (low positive effect) - Flintpaw was 6 moons old",
+            "Flintpaw explains what a joke means to Dashpaw. (low positive effect) - Flintpaw was 8 moons old",
+            "Dashpaw tracked a trail of muddy pawprints into the apprentice's den, straight through the nests of Flintpaw and Daypaw. (negative effect) - Flintpaw was 9 moons old",
+            "Flintpaw was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Flintpaw was 9 moons old"
         ],
         "no_longer_neutral": [
-            "respect"
+            "like",
+            "respect",
+            "comfort",
+            "trust"
         ]
     },
     {
@@ -2117,16 +2129,19 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 61,
-        "respect": 10,
-        "comfort": 82,
-        "trust": 43,
+        "like": 67,
+        "respect": 15,
+        "comfort": 98,
+        "trust": 47,
         "log": [
-            "Flintpaw and Daypaw enjoy the rain together. (low positive effect) - Flintpaw was 7 moons old"
+            "Flintpaw and Daypaw enjoy the rain together. (low positive effect) - Flintpaw was 7 moons old",
+            "Flintpaw offers to groom a hard-to-reach place for Daypaw, who thanks her earnestly. (high positive effect) - Flintpaw was 9 moons old"
         ],
         "no_longer_neutral": [
-            "comfort",
-            "like"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2155,9 +2170,7 @@
         "log": [
             "Flintpaw wondered where Deltakit went when she disappeared for a few days. (negative effect) - Flintpaw was 7 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "252",
@@ -2165,12 +2178,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -21,
+        "respect": -8,
+        "comfort": -6,
+        "trust": -6,
+        "log": [
+            "Flintpaw feels betrayed by something Sparkkit said. (high negative effect) - Flintpaw was 9 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "252",
@@ -2240,6 +2260,19 @@
     {
         "cat_from_id": "252",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "252",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -748,12 +748,15 @@
         "like": 0,
         "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": -7,
         "log": [
             "Drizzlepelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Drizzlepelt was 19 moons old",
-            "Drizzlepelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Drizzlepelt was 43 moons old"
+            "Drizzlepelt heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Drizzlepelt was 43 moons old",
+            "Brindletooth keeps avoiding eye contact with Drizzlepelt. (medium negative effect) - Drizzlepelt was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -904,13 +907,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": -5,
         "respect": 0,
         "comfort": 13,
         "trust": 0,
         "log": [
             "Currentpaw, Drizzlepaw, and Pheasantbrush had a nice talk while eating. (positive effect) - Drizzlepaw was 10 moons old",
-            "Drizzlepelt and Pheasantbrush took a lovely nap together instead of patrolling. (positive effect) - Drizzlepelt was 21 moons old"
+            "Drizzlepelt and Pheasantbrush took a lovely nap together instead of patrolling. (positive effect) - Drizzlepelt was 21 moons old",
+            "Drizzlepelt confesses something to Pheasantbrush, but realizes she can't relate at all. (low negative effect) - Drizzlepelt was 56 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1573,7 +1577,7 @@
         "romance": 12,
         "like": -4,
         "respect": 6,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Whiskerpaw tracked a trail of muddy pawprints into the apprentice's den, straight through the nests of Drizzlepaw and Glowpaw. (negative effect) - Drizzlepaw was 10 moons old",
@@ -1642,10 +1646,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -17,
-        "respect": -29,
-        "comfort": -8,
-        "trust": -8,
+        "like": -13,
+        "respect": -25,
+        "comfort": -2,
+        "trust": -3,
         "log": [
             "Drizzlepelt heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Drizzlepelt was 19 moons old",
             "Drizzlepelt spent a long time talking with Braveocean but was disappointed by Braveocean's lack of interest. (high negative effect) - Drizzlepelt was 27 moons old",
@@ -1734,12 +1738,7 @@
             "Poppybriar and Drizzlepelt discussed the vision Gorgehunt claimed to have. (positive effect) - Drizzlepelt was 17 moons old",
             "Drizzlepelt made an extremely hurtful remark about one of Poppybriar's friends just to spite Poppybriar. (high negative effect) - Drizzlepelt was 55 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -1747,16 +1746,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -6,
-        "respect": 0,
-        "comfort": -9,
-        "trust": -1,
+        "like": 1,
+        "respect": 21,
+        "comfort": -1,
+        "trust": 20,
         "log": [
             "Drizzlepelt confesses something to Clawpaw, but realizes they can't relate at all. (low negative effect) - Drizzlepelt was 17 moons old",
             "Drizzlepelt tells Clawswirl something she hates about them. (high negative effect) - Drizzlepelt was 24 moons old",
-            "Drizzlepelt shares a piece of fresh-kill with Clawswirl. (medium positive effect) - Drizzlepelt was 40 moons old"
+            "Drizzlepelt shares a piece of fresh-kill with Clawswirl. (medium positive effect) - Drizzlepelt was 40 moons old",
+            "Drizzlepelt trusts Clawswirl with a very important task. (high positive effect) - Drizzlepelt was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "129",
@@ -1782,8 +1785,8 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 8,
-        "trust": 0,
+        "comfort": 16,
+        "trust": 8,
         "log": [
             "Drizzlepelt heard about how Meadowspots's patrol killed a scavenging fox. (positive effect) - Drizzlepelt was 29 moons old"
         ],
@@ -2026,9 +2029,7 @@
             "Drizzlepelt stiffens up a little whenever someone mentions Sandthrush. (medium negative effect) - Drizzlepelt was 45 moons old",
             "Drizzlepelt and Sandthrush purr about something small together. (medium positive effect) - Drizzlepelt was 55 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "129",
@@ -2743,9 +2744,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Drizzlepelt thinks that Fishleg's tone sounds off today. (low negative effect) - Drizzlepelt was 56 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3017,6 +3020,19 @@
     {
         "cat_from_id": "129",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "129",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

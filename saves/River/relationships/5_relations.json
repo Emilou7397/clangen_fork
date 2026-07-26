@@ -892,7 +892,7 @@
         "romance": 3,
         "like": 25,
         "respect": 17,
-        "comfort": 38,
+        "comfort": 25,
         "trust": 15,
         "log": [
             "Sunkit brought Ochretail some dry bedding. (low positive effect)- Ochretail was 34 moons old",
@@ -909,9 +909,12 @@
             "Suntooth says that Ochretail smells weird. (medium negative effect) - Ochretail was 130 moons old",
             "Ochretail is prancing around in front of Suntooth. (low positive effect) - Ochretail was 133 moons old",
             "Ochretail gets excellent advice from Suntooth about something he had been worrying about. (high positive effect) - Ochretail was 145 moons old",
-            "Ochretail and Suntooth have a race. Suntooth wins. (medium positive effect) - Ochretail was 149 moons old"
+            "Ochretail and Suntooth have a race. Suntooth wins. (medium positive effect) - Ochretail was 149 moons old",
+            "Ochretail said something that rubbed Suntooth the wrong way. (low negative effect) - Ochretail was 152 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "5",
@@ -954,8 +957,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 68,
-        "respect": 7,
+        "like": 80,
+        "respect": -1,
         "comfort": 76,
         "trust": 4,
         "log": [
@@ -969,7 +972,8 @@
             "Ochretail heard Quailfur say something mean. (low negative effect) - Ochretail was 114 moons old",
             "Ochretail heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Ochretail was 115 moons old",
             "When Ochretail panics about something, he thinks of Quailfur to feel better. (high positive effect) - Ochretail was 123 moons old",
-            "Ochretail wonders why Quailfur is so pouty today. (low negative effect) - Ochretail was 128 moons old"
+            "Ochretail wonders why Quailfur is so pouty today. (low negative effect) - Ochretail was 128 moons old",
+            "Ochretail thinks Quailfur is so much braver than him. (medium positive effect) - Ochretail was 151 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1540,12 +1544,13 @@
         "romance": 0,
         "like": 12,
         "respect": 16,
-        "comfort": 12,
+        "comfort": 4,
         "trust": 0,
         "log": [
             "Ochretail noticed Poolleaf is doing her best today. (low positive effect)- Ochretail was 90 moons old",
             "Ochretail noticed how successful Poolleaf's hunting patrol was. (positive effect) - Ochretail was 103 moons old",
-            "Erminedaisy, Ochretail, Cobaltstrike, Snakedrop, and Poolleaf blow off steam by stretching with and venting to each other. (positive effect) - Ochretail was 108 moons old"
+            "Erminedaisy, Ochretail, Cobaltstrike, Snakedrop, and Poolleaf blow off steam by stretching with and venting to each other. (positive effect) - Ochretail was 108 moons old",
+            "The silence between Ochretail and Poolleaf feels more uncomfortable than usual. (low negative effect) - Ochretail was 152 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2919,15 +2924,13 @@
         "cat_to_id": "187",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -13,
-        "respect": -26,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 5,
+        "like": -3,
+        "respect": -21,
+        "comfort": 10,
+        "trust": 10,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "5",
@@ -3450,16 +3453,15 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Ochretail thinks the prey Avocetpaw is biting into on the other side of camp looks delicious. (low negative effect) - Ochretail was 150 moons old"
+            "Ochretail thinks the prey Avocetpaw is biting into on the other side of camp looks delicious. (low negative effect) - Ochretail was 150 moons old",
+            "After sharing tongues, Ochretail washed off Avocetpaw's scent from his pelt. (medium negative effect) - Ochretail was 151 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "5",
@@ -3713,6 +3715,19 @@
     {
         "cat_from_id": "5",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "5",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

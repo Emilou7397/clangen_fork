@@ -95,12 +95,7 @@
             "Sagospeck and Bitterleaf have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Sagospeck was 18 moons old",
             "Bitterleaf tromped into the elder's den with muddy paws, trailing muck straight through Sagospeck, Caterpillarfoot, and Terabyte's nests. (negative effect) - Sagospeck was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -639,11 +634,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": -10,
         "log": [
-            "Sagokit heard Frondpad fell asleep guarding camp. (negative effect) - Sagokit was 3 moons old"
+            "Sagokit heard Frondpad fell asleep guarding camp. (negative effect) - Sagokit was 3 moons old",
+            "Sagospeck heard Frondpad fell asleep guarding camp. (negative effect) - Sagospeck was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -819,11 +817,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -5,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sagospeck noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Sagospeck was 24 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -960,14 +960,16 @@
         "family": false,
         "romance": 0,
         "like": 20,
-        "respect": 10,
+        "respect": 23,
         "comfort": 10,
         "trust": 10,
         "log": [
             "Minnowlily was part of the patrol that saved Sagokit and brought him to RiverClan as a newborn. (positive effect) - Sagokit was 0 moons old",
             "Sagospeck appreciated Minnowlily's help harvesting burdock root. (positive effect) - Sagospeck was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1065,10 +1067,7 @@
             "Sagospeck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sagospeck was 14 moons old",
             "Sagospeck gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Sagospeck was 22 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1517,10 +1516,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Sagospeck heard that Braveheart touched noses with a rogue. (negative effect) - Sagospeck was 24 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1604,8 +1605,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Sagospeck heard Coquitostep fell asleep guarding camp. (negative effect) - Sagospeck was 23 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1649,9 +1652,7 @@
             "Dustnose complained so relentlessly about his patrol assignment that Sagospeck, Kinkdapple, and Ashenpelt could only sigh and bear it. (negative effect) - Sagospeck was 19 moons old",
             "Sagospeck bestows wisdom onto Dustnose. (low positive effect) - Sagospeck was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -1659,13 +1660,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -11,
-        "respect": 6,
-        "comfort": -3,
-        "trust": 0,
+        "like": -7,
+        "respect": 11,
+        "comfort": 3,
+        "trust": 16,
         "log": [
             "Sagopaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 11 moons old",
-            "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Sagopaw was 11 moons old"
+            "Howlsky complained about his patrol assignment all day, much to the annoyance of Sagopaw, Stagpaw, Scalepaw, and Softpaw. (negative effect) - Sagopaw was 11 moons old",
+            "Sagospeck feels comfortable challenging Howlsky on something he said. (high positive effect) - Sagospeck was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1722,13 +1724,15 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -8,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Sagopaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1797,10 +1801,10 @@
         "mates": false,
         "family": false,
         "romance": 10,
-        "like": -9,
-        "respect": 6,
-        "comfort": -1,
-        "trust": -4,
+        "like": -17,
+        "respect": -2,
+        "comfort": -22,
+        "trust": -11,
         "log": [
             "Auburnsplash invites Velvetkit, Sagokit, Stagkit, and Flightkit to share what's been on their minds and to have an honest talk with each other. (positive effect) - Sagokit was 1 moon old",
             "Sagokit wondered where Velvetkit went when they disappeared for a few days. (negative effect) - Sagokit was 1 moon old",
@@ -1808,7 +1812,8 @@
             "Sagopaw doesn't like it when Velvettooth is all talk and no action. (high negative effect) - Sagopaw was 13 moons old",
             "Sagopaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Sagopaw was 13 moons old",
             "For a moment, Sagospeck thought Velvettooth sounded like someone else. (medium negative effect) - Sagospeck was 19 moons old",
-            "Velvettooth and Sagospeck enjoyed splashing each other to beat the heat. (positive effect) - Sagospeck was 19 moons old"
+            "Velvettooth and Sagospeck enjoyed splashing each other to beat the heat. (positive effect) - Sagospeck was 19 moons old",
+            "Sagospeck is telling jokes about Velvettooth. (high negative effect) - Sagospeck was 24 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1873,7 +1878,7 @@
         "family": true,
         "romance": 0,
         "like": 100,
-        "respect": 32,
+        "respect": 45,
         "comfort": 73,
         "trust": 86,
         "log": [
@@ -1882,9 +1887,12 @@
             "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Sagopaw was 6 moons old",
             "Scalepaw seems respectful of Sagopaw's boundaries as of late. (medium positive effect) - Sagopaw was 9 moons old",
             "Sagopaw heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Sagopaw was 10 moons old",
-            "Scalebloom calls out the Clan for targeting Sagospeck. (high positive effect) - Sagospeck was 14 moons old"
+            "Scalebloom calls out the Clan for targeting Sagospeck. (high positive effect) - Sagospeck was 14 moons old",
+            "Sagospeck was flattered by Scalebloom's politeness this morning. (low positive effect) - Sagospeck was 25 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -1915,7 +1923,7 @@
         "romance": 0,
         "like": 80,
         "respect": 11,
-        "comfort": 31,
+        "comfort": 23,
         "trust": 54,
         "log": [
             "Softkit keeps pacing around the clearing late at night and Sagokit is the only one who notices. (high negative effect) - Sagokit was 4 moons old",
@@ -1924,9 +1932,7 @@
             "Sagopaw and Softpaw enjoyed practicing their ambushing strategies together on a training patrol. (positive effect) - Sagopaw was 12 moons old",
             "Softspring promises Sagospeck that everything will be okay. (medium positive effect) - Sagospeck was 15 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -2271,11 +2277,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Weedfur snickered when Sagospeck tripped. (low negative effect) - Sagospeck was 25 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -2377,11 +2387,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 8,
-        "trust": 0,
+        "trust": -15,
         "log": [
-            "Sagospeck learns that Dashkit is scared of thunder, too. (low positive effect) - Sagospeck was 20 moons old"
+            "Sagospeck learns that Dashkit is scared of thunder, too. (low positive effect) - Sagospeck was 20 moons old",
+            "Sagospeck was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Sagospeck was 24 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "212",
@@ -2463,9 +2477,7 @@
         "log": [
             "Sagospeck wondered where Deltakit went when she disappeared for a few days. (negative effect) - Sagospeck was 23 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "212",
@@ -2548,6 +2560,19 @@
     {
         "cat_from_id": "212",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "212",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

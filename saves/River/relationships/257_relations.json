@@ -268,10 +268,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sparkkit isn't impressed with Quailfur's work lately. (low negative effect) - Sparkkit was 5 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -463,10 +465,7 @@
         "log": [
             "Murkhaven helps Deltakit, Mistlekit, Sparkkit, and Deltakit cope with something difficult. (positive effect) - Sparkkit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "257",
@@ -809,7 +808,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -853,9 +852,7 @@
         "log": [
             "Sparkkit mocks Lightpelt for something inconsequential. (high negative effect) - Sparkkit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "257",
@@ -1385,12 +1382,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -8,
+        "comfort": -8,
+        "trust": -21,
+        "log": [
+            "Sparkpaw thinks Kinkdapple is trying to steal one of his friends! (high negative effect) - Sparkpaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "257",
@@ -1987,9 +1991,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2078,19 +2082,20 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 66,
+        "like": 76,
         "respect": 18,
         "comfort": 44,
-        "trust": 50,
+        "trust": 77,
         "log": [
             "Every muscle in Sparkkit's body tenses when Deltakit walks by. (high negative effect) - Sparkkit was 1 moon old",
             "Sparkkit and Deltakit are absolutely inseparable. (high positive effect) - Sparkkit was 2 moons old",
             "Sparkkit doesn't want to do anything without Deltakit. (high positive effect) - Sparkkit was 3 moons old",
-            "Deltakit lets Sparkkit know that a Clanmate was talking badly about her. (low positive effect) - Sparkkit was 4 moons old"
+            "Deltakit lets Sparkkit know that a Clanmate was talking badly about her. (low positive effect) - Sparkkit was 4 moons old",
+            "Deltakit and Sparkkit tried to sneak out of camp together. (positive effect) - Sparkkit was 4 moons old",
+            "Sparkkit asks Deltakit how she's doing. (low positive effect) - Sparkkit was 5 moons old",
+            "Deltapaw helps Sparkpaw fix a matted piece of fur on his back. (medium positive effect) - Sparkpaw was 6 moons old"
         ],
         "no_longer_neutral": [
-            "like",
-            "comfort",
             "trust"
         ]
     },
@@ -2159,13 +2164,26 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
         "no_longer_neutral": []
     },
     {
         "cat_from_id": "257",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "257",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

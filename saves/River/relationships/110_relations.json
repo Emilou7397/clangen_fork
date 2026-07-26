@@ -24,12 +24,13 @@
         "like": 28,
         "respect": 0,
         "comfort": 7,
-        "trust": 23,
+        "trust": 35,
         "log": [
             "Heatherfern was part of the patrol that invited Nintendo DS to RiverClan. (positive effect)- Nintendo DS was 95 moons old",
             "Nightglow was impressed by Heatherfern's confidence in fighting rogues. (positive effect) - Nightglow was 100 moons old",
             "Nightglow is prancing around in front of Heatherfern. (low positive effect) - Nightglow was 126 moons old",
-            "Nightglow just noticed how beautiful Heatherfern's eyes are. (low positive effect) - Nightglow was 145 moons old"
+            "Nightglow just noticed how beautiful Heatherfern's eyes are. (low positive effect) - Nightglow was 145 moons old",
+            "Heatherfern is building up Nightglow's confidence. (medium positive effect) - Nightglow was 158 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -144,9 +145,7 @@
             "Nightglow heard about how Bitterleaf endured the bitter cold to gather herbs for RiverClan. (positive effect) - Nightglow was 122 moons old",
             "Nightglow and Bitterleaf share little secrets about themselves. (medium positive effect) - Nightglow was 150 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "110",
@@ -235,14 +234,15 @@
         "cat_to_id": "14",
         "mates": false,
         "family": false,
-        "romance": 25,
-        "like": 13,
-        "respect": 13,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 46,
+        "like": 21,
+        "respect": 19,
+        "comfort": 6,
+        "trust": 6,
         "log": [
             "Nightglow and Carptail got so into playing around that they got separated from the rest of the patrol, earning themselves an earful back at camp. (medium positive effect) - Nightglow was 110 moons old",
-            "Nightglow appreciates Carptail's helpful attitude. (low positive effect) - Nightglow was 142 moons old"
+            "Nightglow appreciates Carptail's helpful attitude. (low positive effect) - Nightglow was 142 moons old",
+            "Nightglow is rolling around a little too playfully with Carptail... (high positive effect) - Nightglow was 158 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -490,9 +490,7 @@
             "Nightglow worries that the Clan trusts Quailfur more than him. (medium negative effect) - Nightglow was 149 moons old",
             "Nightglow was woken up early by Quailfur. (low negative effect) - Nightglow was 157 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "110",
@@ -607,14 +605,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -8,
-        "comfort": 0,
-        "trust": 0,
+        "like": -5,
+        "respect": -24,
+        "comfort": -6,
+        "trust": -4,
         "log": [
-            "Mossflight snickered when Nightglow tripped. (low negative effect) - Nightglow was 112 moons old"
+            "Mossflight snickered when Nightglow tripped. (low negative effect) - Nightglow was 112 moons old",
+            "Nightglow learns about a terrible mistake Mossflight made. (high negative effect) - Nightglow was 159 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "110",
@@ -1285,9 +1287,13 @@
         "like": 5,
         "respect": 6,
         "comfort": 6,
-        "trust": 4,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 16,
+        "log": [
+            "Oddmuzzle seems respectful of Nightglow's boundaries as of late. (medium positive effect) - Nightglow was 159 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "110",
@@ -1917,12 +1923,7 @@
             "Nightglow laughs at bad jokes from Braveheart. (medium positive effect) - Nightglow was 131 moons old",
             "Nightglow and Braveheart learn a lot about each other when they're stuck in a den during a storm. (high positive effect) - Nightglow was 157 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "110",
@@ -2253,12 +2254,13 @@
         "family": false,
         "romance": 0,
         "like": -2,
-        "respect": 11,
+        "respect": 3,
         "comfort": -12,
         "trust": 2,
         "log": [
             "Nightglow doesn't think that Moonchaser's smile is genuine. (high negative effect) - Nightglow was 130 moons old",
-            "Nightglow is deeply touched hearing just how much Moonchaser remembers about him. (high positive effect) - Nightglow was 135 moons old"
+            "Nightglow is deeply touched hearing just how much Moonchaser remembers about him. (high positive effect) - Nightglow was 135 moons old",
+            "Nightglow complains about something Moonchaser did. (low negative effect) - Nightglow was 158 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3014,6 +3016,19 @@
     {
         "cat_from_id": "110",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "110",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

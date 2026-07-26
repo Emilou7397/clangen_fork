@@ -614,8 +614,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Whitewhisker heard Frondpad fell asleep guarding camp. (negative effect) - Whitewhisker was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -755,9 +757,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": 2,
         "log": [
-            "Whitepaw and Hailfreckle enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
+            "Whitepaw and Hailfreckle enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old",
+            "Whitewhisker smells something strange on Hailfreckle. (low negative effect) - Whitewhisker was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -767,11 +770,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -5,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Whitewhisker noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Whitewhisker was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1194,10 +1199,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1367,11 +1374,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 8,
         "comfort": 13,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -5,
+        "log": [
+            "Whitewhisker heard that Braveheart touched noses with a rogue. (negative effect) - Whitewhisker was 14 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1439,8 +1451,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Whitewhisker heard Coquitostep fell asleep guarding camp. (negative effect) - Whitewhisker was 12 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1504,7 +1518,7 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 2,
         "comfort": 0,
         "trust": 0,
         "log": [
@@ -1954,10 +1968,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Whitewhisker settles near Tallneedle to eat his fresh-kill. (medium positive effect) - Whitewhisker was 14 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -1993,12 +2011,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -13,
+        "like": -21,
         "respect": 0,
-        "comfort": 12,
-        "trust": 12,
+        "comfort": 4,
+        "trust": 24,
         "log": [
-            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old"
+            "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old",
+            "Whitewhisker protects Wheatstorm from something on a patrol. (medium positive effect) - Whitewhisker was 13 moons old",
+            "When an argument started on patrol, Wheatstorm scolded Whitewhisker for acting like a kit. (negative effect) - Whitewhisker was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2044,13 +2064,15 @@
         "like": 47,
         "respect": 12,
         "comfort": 54,
-        "trust": 46,
+        "trust": 59,
         "log": [
             "Whitekit shared a embarrassing story about Waterkit she was asked not to share... (low negative effect) - Whitekit was 3 moons old",
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Whitekit was 4 moons old",
             "Whitepaw and Waterpaw enjoyed practicing new battle moves together. (positive effect) - Whitepaw was 8 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2058,15 +2080,18 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 75,
+        "like": 92,
         "respect": 11,
         "comfort": 67,
         "trust": 44,
         "log": [
             "Whitekit races Bigkit back and forth across the camp clearing. (medium positive effect) - Whitekit was 5 moons old",
-            "Whitepaw was playing with Bigpaw and learned a fun new battle move from him! (medium positive effect) - Whitepaw was 10 moons old"
+            "Whitepaw was playing with Bigpaw and learned a fun new battle move from him! (medium positive effect) - Whitepaw was 10 moons old",
+            "Whitewhisker always says hello to Bigpelt first thing in the morning. (medium positive effect) - Whitewhisker was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2087,18 +2112,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
+        "like": 9,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
             "Weedkit didn't put a lot of thought into an answer for Whitepaw's question. (low negative effect) - Whitepaw was 7 moons old",
             "Weedpaw reminds Whitepaw to grab something from the fresh-kill pile if he hasn't already. (medium positive effect) - Whitepaw was 9 moons old",
             "Whitewhisker wants to be closer to Weedfur. (low positive effect) - Whitewhisker was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -2108,12 +2131,10 @@
         "romance": 0,
         "like": 0,
         "respect": 13,
-        "comfort": 0,
+        "comfort": -3,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -2208,9 +2229,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Whitewhisker was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Whitewhisker was 14 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "237",
@@ -2279,9 +2304,7 @@
         "log": [
             "Whitewhisker wondered where Deltakit went when she disappeared for a few days. (negative effect) - Whitewhisker was 12 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "237",
@@ -2364,6 +2387,19 @@
     {
         "cat_from_id": "237",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "237",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

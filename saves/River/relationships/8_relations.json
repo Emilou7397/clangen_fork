@@ -544,9 +544,9 @@
         "family": false,
         "romance": 27,
         "like": 100,
-        "respect": 11,
+        "respect": 24,
         "comfort": 100,
-        "trust": 6,
+        "trust": 19,
         "log": [
             "At first, Bitterpaw wasn't certain about watching Rabbitkit, Algaekit, Carpkit, and Yewkit. However, the kits surprise him by being on their best behavior. (positive effect)- Bitterpaw was 9 moons old",
             "Bitterpaw, Carpkit, and Pebblefur took a sunbath and had a little small talk. (positive effect)- Bitterpaw was 10 moons old",
@@ -731,9 +731,7 @@
             "Bitterleaf appreciates how Fidgetmouse always seems to ask how he's doing. (high positive effect) - Bitterleaf was 118 moons old",
             "Quailfur appreciates Peakspore, Verbenabloom, Bitterleaf, and Fidgetmouse joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Bitterleaf was 120 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -1382,10 +1380,7 @@
             "The moon casts a shadow on Heavythud's face in a way that makes Bitterleaf uneasy. (medium negative effect) - Bitterleaf was 90 moons old",
             "Bitterleaf heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bitterleaf was 126 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -2025,9 +2020,7 @@
         "log": [
             "Bitterleaf learns that Nightglow is scared of thunder, too. (low positive effect) - Bitterleaf was 138 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -2531,11 +2524,12 @@
         "family": false,
         "romance": 8,
         "like": 0,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bitterleaf can't help but smile seeing Caterpillarfoot smile. (low positive effect) - Bitterleaf was 111 moons old"
+            "Bitterleaf can't help but smile seeing Caterpillarfoot smile. (low positive effect) - Bitterleaf was 111 moons old",
+            "Bitterleaf is disappointed in Caterpillarfoot's lack of initiative. (medium negative effect) - Bitterleaf was 139 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2644,8 +2638,8 @@
         "family": false,
         "romance": 13,
         "like": 10,
-        "respect": 0,
-        "comfort": 13,
+        "respect": 4,
+        "comfort": 19,
         "trust": 18,
         "log": [
             "Bitterleaf doesn't see why Braveheart is upset about something trivial. (low negative effect) - Bitterleaf was 100 moons old",
@@ -2975,15 +2969,18 @@
         "cat_to_id": "187",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 5,
+        "like": 13,
         "respect": -13,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Bitterleaf doesn't tell Moonchaser that he forgot to groom a part of his fur. (low negative effect) - Bitterleaf was 127 moons old"
+            "Bitterleaf doesn't tell Moonchaser that he forgot to groom a part of his fur. (low negative effect) - Bitterleaf was 127 moons old",
+            "Bitterleaf and Moonchaser purr about something small together. (medium positive effect) - Bitterleaf was 140 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -3094,12 +3091,15 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -8,
+        "comfort": -16,
         "trust": 5,
         "log": [
-            "Bitterleaf and Lionheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Bitterleaf was 116 moons old"
+            "Bitterleaf and Lionheart worked together to use an eagle as a scout for their own hunt. (positive effect) - Bitterleaf was 116 moons old",
+            "When Bitterleaf asked Lionheart for help, Lionheart ignored him. (low negative effect) - Bitterleaf was 140 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "8",
@@ -3507,10 +3507,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bitterleaf mews congratulations to Lavenderpaw for a job well done. (low positive effect) - Bitterleaf was 139 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3589,9 +3591,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "8",
@@ -3749,6 +3749,19 @@
     {
         "cat_from_id": "8",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "8",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

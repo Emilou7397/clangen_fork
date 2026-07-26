@@ -59,7 +59,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -130,9 +130,7 @@
             "These cats recently interacted. - Deltakit was 0 moons old",
             "Deltakit learns that Harefeather is scared of thunder, too. (low positive effect) - Deltakit was 2 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -153,19 +151,15 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 66,
-        "respect": 44,
-        "comfort": 84,
-        "trust": 74,
+        "like": 72,
+        "respect": 60,
+        "comfort": 90,
+        "trust": 78,
         "log": [
-            "Fidgetmouse recalls her kithood to Whiskerleg, Skulkwillow, Deltakit, and Voletuft. (positive effect) - Deltakit was 1 moon old"
+            "Fidgetmouse recalls her kithood to Whiskerleg, Skulkwillow, Deltakit, and Voletuft. (positive effect) - Deltakit was 1 moon old",
+            "Deltakit defends Fidgetmouse from a Clanmate's rude remarks. (high positive effect) - Deltakit was 3 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -449,16 +443,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 0,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Murkhaven helps Deltakit, Mistlekit, Sparkkit, and Deltakit cope with something difficult. (positive effect) - Deltakit was 1 moon old"
+            "Murkhaven helps Deltakit, Mistlekit, Sparkkit, and Deltakit cope with something difficult. (positive effect) - Deltakit was 1 moon old",
+            "Deltakit thinks Murkhaven is shirking their duties. (medium negative effect) - Deltakit was 4 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -560,8 +552,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Deltakit heard Frondpad fell asleep guarding camp. (negative effect) - Deltakit was 3 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -689,11 +683,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -5,
+        "respect": -5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Deltakit noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Deltakit was 3 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -736,10 +732,7 @@
             "Deltakit enjoyed spending an evening listening to Hollyheart's stories. (positive effect) - Deltakit was 0 moons old",
             "Deltakit loved Hollyheart's stories of the Clan's past. (positive effect) - Deltakit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -923,10 +916,7 @@
         "log": [
             "Deltakit gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Deltakit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -1221,10 +1211,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Deltakit heard that Braveheart touched noses with a rogue. (negative effect) - Deltakit was 3 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1288,8 +1280,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Deltakit heard Coquitostep fell asleep guarding camp. (negative effect) - Deltakit was 2 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2031,9 +2025,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -15,
+        "log": [
+            "Deltakit was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Deltakit was 3 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2074,9 +2072,7 @@
         "log": [
             "Deltakit wondered where Deltakit went when she disappeared for a few days. (negative effect) - Deltakit was 1 moon old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "258",
@@ -2097,13 +2093,19 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 45,
-        "respect": 15,
-        "comfort": 45,
-        "trust": 43,
-        "log": [],
+        "like": 61,
+        "respect": 19,
+        "comfort": 69,
+        "trust": 48,
+        "log": [
+            "Deltakit just told Mistlekit a hilarious joke. (medium positive effect) - Deltakit was 3 moons old",
+            "Deltakit always has something good to say about Mistlekit. (high positive effect) - Deltakit was 4 moons old"
+        ],
         "no_longer_neutral": [
-            "trust"
+            "like",
+            "respect",
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2148,6 +2150,19 @@
     {
         "cat_from_id": "258",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,

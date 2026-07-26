@@ -308,10 +308,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Skytooth suspects that Quailfur gets special treatment. (low negative effect) - Skytooth was 21 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -480,12 +482,15 @@
         "romance": 0,
         "like": 0,
         "respect": -8,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Skykit complains about something Verbenabloom did. (low negative effect) - Skykit was 5 moons old"
+            "Skykit complains about something Verbenabloom did. (low negative effect) - Skykit was 5 moons old",
+            "Skytooth and Verbenabloom perk up happily when they see each other. (medium positive effect) - Skytooth was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -788,9 +793,7 @@
             "Skypaw saw Flightsplash's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Skypaw was 9 moons old",
             "Skytooth associates their favorite smell with Flightsplash. (high positive effect) - Skytooth was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "221",
@@ -1337,9 +1340,7 @@
             "Skypaw saw Shiveringdusk's patrol bring back ground squirrels from a leaf-bare hunting patrol. (positive effect) - Skypaw was 9 moons old",
             "Shiveringdusk rushed Skytooth back to camp when Skytooth ate deathberries on patrol. (positive effect) - Skytooth was 19 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "221",
@@ -1828,12 +1829,13 @@
         "family": false,
         "romance": 8,
         "like": 8,
-        "respect": 15,
+        "respect": 7,
         "comfort": 8,
         "trust": -3,
         "log": [
             "Skypaw heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skypaw was 10 moons old",
-            "Skytooth and Flightspot practiced rescuing cats from the water. (positive effect) - Skytooth was 18 moons old"
+            "Skytooth and Flightspot practiced rescuing cats from the water. (positive effect) - Skytooth was 18 moons old",
+            "Skytooth isn't impressed with Flightspot's work lately. (low negative effect) - Skytooth was 21 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1843,14 +1845,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Skypaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skypaw was 10 moons old"
+            "Skypaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skypaw was 10 moons old",
+            "Velvettooth tells Skytooth that their pelt is shiny today. (low positive effect) - Skytooth was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "221",
@@ -1976,7 +1981,7 @@
         "cat_to_id": "215",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 20,
         "like": 4,
         "respect": 34,
         "comfort": 12,
@@ -1986,7 +1991,8 @@
             "Skypaw is proud to be in the same Clan as Softpaw. (high positive effect) - Skypaw was 10 moons old",
             "Skytooth saw Softspring being considerate. (low positive effect) - Skytooth was 13 moons old",
             "Softspring was seen tossing out a gift Skytooth gave her. (medium negative effect) - Skytooth was 15 moons old",
-            "Skytooth is prancing around in front of Softspring. (low positive effect) - Skytooth was 17 moons old"
+            "Skytooth is prancing around in front of Softspring. (low positive effect) - Skytooth was 17 moons old",
+            "Skytooth picked out the best piece of prey to share with Softspring. (medium positive effect) - Skytooth was 22 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2073,8 +2079,8 @@
         "romance": 20,
         "like": 32,
         "respect": 4,
-        "comfort": 57,
-        "trust": 58,
+        "comfort": 65,
+        "trust": 66,
         "log": [
             "Skykit is prancing around in front of Bushkit. (low positive effect) - Skykit was 3 moons old",
             "Skykit gave Bushkit a gift she found while playing, and Bushkit has worn it on her pelt ever since. (positive effect) - Skykit was 3 moons old",
@@ -2167,9 +2173,7 @@
         "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "221",
@@ -2573,6 +2577,19 @@
     {
         "cat_from_id": "221",
         "cat_to_id": "263",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "221",
+        "cat_to_id": "266",
         "mates": false,
         "family": false,
         "romance": 0,
