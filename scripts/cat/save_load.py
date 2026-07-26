@@ -32,18 +32,18 @@ def save_cats(clanname, cat_class: Type["Cat"], game: "Game"):
     # Delete all existing relationship files
     if not relationships_dir.exists():
         relationships_dir.mkdir()
-    for f in relationships_dir.glob("*.json"):
-        f.unlink()
-    # Instead, only rewrite alive cats' relationships files
-    # living_cat_ids = {
-    #     inter_cat.ID
-    #     for inter_cat in cat_class.all_cats.values()
-    #     if not inter_cat.dead
-    # }
     # for f in relationships_dir.glob("*.json"):
-    #     cat_id = f.stem.replace("_relations", "")
-    #     if cat_id in living_cat_ids:
-    #         f.unlink()
+    #     f.unlink()
+    # Instead, only rewrite alive cats' relationships files
+    living_cat_ids = {
+        inter_cat.ID
+        for inter_cat in cat_class.all_cats.values()
+        if not inter_cat.dead
+    }
+    for f in relationships_dir.glob("*.json"):
+        cat_id = f.stem.replace("_relations", "")
+        if cat_id in living_cat_ids:
+            f.unlink()
 
     save_faded_cats(clanname, cat_class, game)  # Fades cat and saves them, if needed
 
