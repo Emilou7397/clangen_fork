@@ -1,44 +1,13 @@
 {
     "illnesses": {
-        "stomachache": {
-            "severity": "minor",
-            "mortality": 0,
+        "heat stroke": {
+            "severity": "severe",
+            "mortality": 37,
             "infectiousness": 0,
             "duration": 1,
-            "moon_start": 156,
-            "risks": [
-                {
-                    "name": "diarrhea",
-                    "chance": 24
-                }
-            ],
+            "moon_start": 159,
+            "risks": [],
             "event_triggered": false
-        }
-    },
-    "injuries": {
-        "claw-wound": {
-            "severity": "major",
-            "mortality": 50,
-            "duration": 3,
-            "moon_start": 156,
-            "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "an infected wound",
-                    "chance": 12
-                }
-            ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": [
-                "BACK",
-                "BEAKLOWER",
-                "BEAKSIDE",
-                "HINDLEG",
-                "ONE",
-                "TWO"
-            ]
         }
     }
 }

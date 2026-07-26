@@ -55,13 +55,14 @@ class ChooseMentorScreen(Screens):
         self.the_cat = None
         self.show_only_no_current_app_mentors = False
         self.show_only_no_former_app_mentors = False
-        self.show_only_can_influence_skills_mentors = False
+        self.show_only_can_influence_skill_primary_mentors = False
+        self.show_only_can_influence_skill_secondary_mentors = False
         self.filter_container = None
         self.filter_seperator = None
         self.checkboxes = {}
         self.no_current_app_text = None
         self.no_former_app_text = None
-        self.can_influence_skills_text = None
+        self.can_influence_skill_primary_text = None
 
     def handle_event(self, event):
         if event.type == pygame_gui.UI_BUTTON_START_PRESS:
@@ -117,9 +118,15 @@ class ChooseMentorScreen(Screens):
                 )
                 self.update_buttons()
                 self.update_cat_list()
-            elif event.ui_element == self.checkboxes.get("show_can_influence_skills"):
-                self.show_only_can_influence_skills_mentors = (
-                    not self.show_only_can_influence_skills_mentors
+            elif event.ui_element == self.checkboxes.get("show_can_influence_skill_primary"):
+                self.show_only_can_influence_skill_primary_mentors = (
+                    not self.show_only_can_influence_skill_primary_mentors
+                )
+                self.update_buttons()
+                self.update_cat_list()
+            elif event.ui_element == self.checkboxes.get("show_can_influence_skill_secondary"):
+                self.show_only_can_influence_skill_secondary_mentors = (
+                    not self.show_only_can_influence_skill_secondary_mentors
                 )
                 self.update_buttons()
                 self.update_cat_list()
@@ -270,8 +277,8 @@ class ChooseMentorScreen(Screens):
 
         # Reposition and style checkboxes and labels
         checkbox_x = 508
-        checkbox_y = 20
-        checkbox_spacing = 50
+        checkbox_y = 15
+        checkbox_spacing = 45
 
         self.no_current_app_text = pygame_gui.elements.UITextBox(
             "screens.choose_mentor.no_current_apprentices",
@@ -303,18 +310,33 @@ class ChooseMentorScreen(Screens):
         )
         checkbox_y += checkbox_spacing
 
-        self.can_influence_skills_text = pygame_gui.elements.UITextBox(
-            "screens.choose_mentor.can_influence_skills",
+        self.can_influence_skill_primary_text = pygame_gui.elements.UITextBox(
+            "screens.choose_mentor.can_influence_skill_primary",
             ui_scale(pygame.Rect((checkbox_x + 30, checkbox_y), (100, -1))),
             object_id="#text_box_26_horizleft_vertcenter_spacing_95",
             container=self.filter_container,
         )
-        self.checkboxes["show_can_influence_skills"] = UIImageButton(
+        self.checkboxes["show_can_influence_skill_primary"] = UIImageButton(
             ui_scale(pygame.Rect((checkbox_x, checkbox_y + 6), (34, 34))),
             "",
             object_id="@unchecked_checkbox",
             container=self.filter_container,
-            tool_tip_text="screens.choose_mentor.can_influence_skills_tooltip",
+            tool_tip_text="screens.choose_mentor.can_influence_skill_primary_tooltip",
+        )
+        checkbox_y += checkbox_spacing
+
+        self.can_influence_skill_secondary_text = pygame_gui.elements.UITextBox(
+            "screens.choose_mentor.can_influence_skill_secondary",
+            ui_scale(pygame.Rect((checkbox_x + 30, checkbox_y), (100, -1))),
+            object_id="#text_box_26_horizleft_vertcenter_spacing_95",
+            container=self.filter_container,
+        )
+        self.checkboxes["show_can_influence_skill_secondary"] = UIImageButton(
+            ui_scale(pygame.Rect((checkbox_x, checkbox_y + 6), (34, 34))),
+            "",
+            object_id="@unchecked_checkbox",
+            container=self.filter_container,
+            tool_tip_text="screens.choose_mentor.can_influence_skill_secondary_tooltip",
         )
 
         self.update_apprentice()  # Draws the current apprentice
@@ -333,8 +355,11 @@ class ChooseMentorScreen(Screens):
             "show_only_no_former_app_mentors"
         ] = self.show_only_no_former_app_mentors
         variable_dict[
-            "show_only_can_influence_skills_mentors"
-        ] = self.show_only_can_influence_skills_mentors
+            "show_only_can_influence_skill_primary_mentors"
+        ] = self.show_only_can_influence_skill_primary_mentors
+        variable_dict[
+            "show_only_can_influence_skill_secondary_mentors"
+        ] = self.show_only_can_influence_skill_secondary_mentors
 
         variable_dict["current_page"] = self.current_page
 
@@ -402,14 +427,14 @@ class ChooseMentorScreen(Screens):
         del self.no_current_app_text
         self.no_former_app_text.kill()
         del self.no_former_app_text
-        self.can_influence_skills_text.kill()
-        del self.can_influence_skills_text
+        self.can_influence_skill_primary_text.kill()
+        del self.can_influence_skill_primary_text
         self.checkboxes["show_no_current_app"].kill()
         del self.checkboxes["show_no_current_app"]
         self.checkboxes["show_no_former_app"].kill()
         del self.checkboxes["show_no_former_app"]
-        self.checkboxes["show_can_influence_skills"].kill()
-        del self.checkboxes["show_can_influence_skills"]
+        self.checkboxes["show_can_influence_skill_primary"].kill()
+        del self.checkboxes["show_can_influence_skill_primary"]
 
     def update_apprentice(self):
         """Updates the apprentice focused on."""
@@ -648,9 +673,14 @@ class ChooseMentorScreen(Screens):
                 self.show_only_no_former_app_mentors,
             ),
             (
-                "show_can_influence_skills",
-                self.checkboxes["show_can_influence_skills"],
-                self.show_only_can_influence_skills_mentors,
+                "show_can_influence_skill_primary",
+                self.checkboxes["show_can_influence_skill_primary"],
+                self.show_only_can_influence_skill_primary_mentors,
+            ),
+            (
+                "show_can_influence_skill_secondary",
+                self.checkboxes["show_can_influence_skill_secondary"],
+                self.show_only_can_influence_skill_secondary_mentors,
             ),
         ]
         for name, checkbox, is_checked in checkboxes:
@@ -702,8 +732,8 @@ class ChooseMentorScreen(Screens):
                 if self.show_only_no_current_app_mentors and cat.apprentice:
                     is_valid = False
 
-                # Check for can influence skills filter
-                if self.show_only_can_influence_skills_mentors:
+                # Check for can influence primary skill filter
+                if self.show_only_can_influence_skill_primary_mentors:
                     mentor_tags = (
                         CatSkills.influence_flags[cat.skills.primary.path]
                         if cat.skills.primary
@@ -714,12 +744,22 @@ class ChooseMentorScreen(Screens):
                         if self.the_cat.skills.primary and mentor_tags
                         else False
                     )
+                    if not can_primary:
+                        is_valid = False
+
+                # Check for can influence secondary skill filter
+                if self.show_only_can_influence_skill_secondary_mentors:
+                    mentor_tags = (
+                        CatSkills.influence_flags[cat.skills.primary.path]
+                        if cat.skills.primary
+                        else None
+                    )
                     can_secondary = (
                         bool(CatSkills.influence_flags[self.the_cat.skills.secondary.path] & mentor_tags)
                         if self.the_cat.skills.secondary and mentor_tags
                         else False
                     )
-                    if not (can_primary or can_secondary):
+                    if not can_secondary:
                         is_valid = False
 
                 # Add to valid or invalid list based on checks
@@ -740,8 +780,8 @@ class ChooseMentorScreen(Screens):
                 if self.show_only_no_current_app_mentors and cat.apprentice:
                     is_valid = False
 
-                # Check for can influence skills filter
-                if self.show_only_can_influence_skills_mentors:
+                # Check for can influence primary skill filter
+                if self.show_only_can_influence_skill_primary_mentors:
                     mentor_tags = (
                         CatSkills.influence_flags[cat.skills.primary.path]
                         if cat.skills.primary
@@ -752,12 +792,22 @@ class ChooseMentorScreen(Screens):
                         if self.the_cat.skills.primary and mentor_tags
                         else False
                     )
+                    if not can_primary:
+                        is_valid = False
+
+                # Check for can influence secondary skill filter
+                if self.show_only_can_influence_skill_secondary_mentors:
+                    mentor_tags = (
+                        CatSkills.influence_flags[cat.skills.primary.path]
+                        if cat.skills.primary
+                        else None
+                    )
                     can_secondary = (
                         bool(CatSkills.influence_flags[self.the_cat.skills.secondary.path] & mentor_tags)
                         if self.the_cat.skills.secondary and mentor_tags
                         else False
                     )
-                    if not (can_primary or can_secondary):
+                    if not can_secondary:
                         is_valid = False
 
                 # Add to valid or invalid list based on checks
@@ -779,8 +829,8 @@ class ChooseMentorScreen(Screens):
                 if self.show_only_no_current_app_mentors and cat.apprentice:
                     is_valid = False
 
-                # Check for can influence skills filter
-                if self.show_only_can_influence_skills_mentors:
+                # Check for can influence primary skill filter
+                if self.show_only_can_influence_skill_primary_mentors:
                     mentor_tags = (
                         CatSkills.influence_flags[cat.skills.primary.path]
                         if cat.skills.primary
@@ -791,12 +841,22 @@ class ChooseMentorScreen(Screens):
                         if self.the_cat.skills.primary and mentor_tags
                         else False
                     )
+                    if not can_primary:
+                        is_valid = False
+
+                # Check for can influence secondary skill filter
+                if self.show_only_can_influence_skill_secondary_mentors:
+                    mentor_tags = (
+                        CatSkills.influence_flags[cat.skills.primary.path]
+                        if cat.skills.primary
+                        else None
+                    )
                     can_secondary = (
                         bool(CatSkills.influence_flags[self.the_cat.skills.secondary.path] & mentor_tags)
                         if self.the_cat.skills.secondary and mentor_tags
                         else False
                     )
-                    if not (can_primary or can_secondary):
+                    if not can_secondary:
                         is_valid = False
 
                 # Add to valid or invalid list based on checks

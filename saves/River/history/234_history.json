@@ -11,17 +11,31 @@
                 "lawfulness": 4,
                 "stability": 4,
                 "aggression": 6,
-                "sociability": -2
+                "sociability": -2,
+                "strings": [
+                    "follow the status quo",
+                    "be resilient",
+                    "resort to violence",
+                    "refrain from socializing"
+                ]
             }
         },
         "skill": {
             "88": {
                 "SENSE": 13,
-                "LORE": 13
+                "LORE": 13,
+                "strings": [
+                    "noticing small details",
+                    "remembering lore"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "wisdom",
+        "graduation_age": 16,
+        "moon": 157
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

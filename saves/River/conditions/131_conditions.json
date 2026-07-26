@@ -1,11 +1,11 @@
 {
     "illnesses": {
-        "tick fever": {
-            "severity": "major",
-            "mortality": 79,
+        "heat stroke": {
+            "severity": "severe",
+            "mortality": 24,
             "infectiousness": 0,
-            "duration": 2,
-            "moon_start": 156,
+            "duration": 1,
+            "moon_start": 159,
             "risks": [],
             "event_triggered": false
         }
@@ -21,7 +21,7 @@
             "risks": [
                 {
                     "name": "seizure",
-                    "chance": 534
+                    "chance": 569
                 }
             ],
             "complication": null,

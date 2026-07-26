@@ -232,8 +232,10 @@ class PatrolOutcome:
         return outcome_list
 
     @staticmethod
-    def _profile_link(cat: Cat) -> str:
+    def _profile_link(cat: Cat, ownership: bool = False) -> str:
         """Create a hyperlink to a cat profile from patrol results."""
+        if (ownership):
+            return f'<a href="cat://{cat.ID}"><b>{escape(str(cat.name) + "'s")}</b></a>'
         return f'<a href="cat://{cat.ID}"><b>{escape(str(cat.name))}</b></a>'
 
     def execute_outcome(self, patrol: "Patrol") -> Tuple[str, str, list, Optional[str]]:
@@ -990,7 +992,7 @@ class PatrolOutcome:
                     print(str(cat.name), affect_personality)
                     output += " "
                     output += i18n.t(
-                        "screens.patrol.facets_changed", cat=self._profile_link(cat), facets=cat.personality.get_facet_string()
+                        "screens.patrol.facets_changed", cat=self._profile_link(cat, True), facets=cat.personality.get_facet_string()
                     )
                 if affect_skills:
                     cat.history.add_skill_mentor_influence(

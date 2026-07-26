@@ -9,25 +9,30 @@
         "trait": {
             "28": {
                 "aggression": -4,
-                "lawfulness": 3
+                "lawfulness": 5,
+                "strings": [
+                    "use words over teeth and claws",
+                    "follow rules"
+                ]
             }
         },
         "skill": {
             "28": {
-                "KIT": 8
+                "KIT": 9,
+                "strings": [
+                    "caring for kittens"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "versatility",
+        "graduation_age": 12,
+        "moon": 158
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
-    "possible_history": {
-        "bruises": {
-            "death_text": "m_c died on patrol.",
-            "scar_text": "m_c was scarred on patrol.",
-            "other_cat": null
-        }
-    },
+    "possible_history": {},
     "died_by": [],
     "scar_events": [],
     "murder": {}
