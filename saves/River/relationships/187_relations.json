@@ -101,11 +101,11 @@
         "cat_to_id": "5",
         "mates": false,
         "family": false,
-        "romance": 5,
+        "romance": 9,
         "like": -3,
-        "respect": -30,
+        "respect": -26,
         "comfort": 10,
-        "trust": -12,
+        "trust": -7,
         "log": [
             "Ochretail keeps calling Moonchaser by the wrong name. (medium negative effect) - Moonchaser was 150 moons old",
             "Moonchaser scolds Ochretail for something trivial. (medium negative effect) - Moonchaser was 158 moons old",
@@ -113,24 +113,28 @@
             "Moonchaser heard that Ochretail played with a kittypet on RiverClan's border. (negative effect) - Moonchaser was 171 moons old",
             "Moonchaser doesn't tell Ochretail that he forgot to groom a part of his fur. (low negative effect) - Moonchaser was 178 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "187",
         "cat_to_id": "8",
         "mates": false,
         "family": false,
-        "romance": 5,
-        "like": -6,
-        "respect": -34,
-        "comfort": -16,
+        "romance": 11,
+        "like": 0,
+        "respect": -29,
+        "comfort": -11,
         "trust": -2,
         "log": [
             "Spittle and flecks of bone fly while Bitterleaf gobbles down prey, reminding Moonchaser, Caterpillarfoot, and Braveheart to seek out better mealtime companionship next time. (negative effect) - Moonchaser was 161 moons old",
             "Moonchaser overheard Bitterleaf spreading a hurtful rumor. (high negative effect) - Moonchaser was 178 moons old"
         ],
         "no_longer_neutral": [
-            "like"
+            "respect",
+            "comfort"
         ]
     },
     {
@@ -147,9 +151,7 @@
             "Primfreckle snaps at a Clanmate for disagreeing with Moonchaser. (medium positive effect) - Moonchaser was 155 moons old",
             "Moonchaser enjoys the time with Primfreckle and feels secure. (high positive effect) - Moonchaser was 167 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -680,9 +682,7 @@
             "Moonchaser heard Frondpad fell asleep guarding camp. (negative effect) - Moonchaser was 158 moons old",
             "Moonchaser heard Frondpad fell asleep guarding camp. (negative effect) - Moonchaser was 179 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -729,9 +729,7 @@
             "Moonchaser was not happy to hear that Poolleaf was caught outside of the Clan's territory. (negative effect) - Moonchaser was 173 moons old",
             "Moonchaser was not happy to hear that Poolleaf took food from a Twoleg. (negative effect) - Moonchaser was 175 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1491,9 +1489,7 @@
         "log": [
             "Creekmoss helps Moonchaser get a thorn out of his paw. (low positive effect) - Moonchaser was 180 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1538,9 +1534,7 @@
             "Moonchaser goes to Caterpillarfoot for advice about some recent troubles. (high positive effect) - Moonchaser was 171 moons old",
             "After the Gathering, Moonchaser notices that Caterpillarfoot is making sure everyone got home. (low positive effect) - Moonchaser was 180 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -1634,9 +1628,7 @@
             "Moonchaser thinks Braveheart tells the best stories. (high positive effect) - Moonchaser was 179 moons old",
             "Moonchaser heard that Braveheart touched noses with a rogue. (negative effect) - Moonchaser was 180 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -2511,9 +2503,7 @@
         "log": [
             "Moonchaser was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Moonchaser was 179 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "187",
@@ -2676,6 +2666,19 @@
     {
         "cat_from_id": "187",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "187",
+        "cat_to_id": "268",
         "mates": false,
         "family": false,
         "romance": 0,

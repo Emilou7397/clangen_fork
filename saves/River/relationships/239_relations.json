@@ -920,9 +920,7 @@
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -1229,8 +1227,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterheart heard Shiveringdusk fell asleep guarding camp. (negative effect) - Waterheart was 14 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1277,13 +1277,14 @@
         "cat_to_id": "153",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 8,
         "respect": 6,
         "comfort": 8,
         "trust": 21,
         "log": [
-            "Waterheart promises to always look out for Meadowspots. (high positive effect) - Waterheart was 12 moons old"
+            "Waterheart promises to always look out for Meadowspots. (high positive effect) - Waterheart was 12 moons old",
+            "Waterheart can't help but smile seeing Meadowspots smile. (low positive effect) - Waterheart was 15 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1511,9 +1512,7 @@
         "log": [
             "Waterheart noticed that Dustnose wasn't in his nest last night. (low negative effect) - Waterheart was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -1879,10 +1878,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterheart heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Waterheart was 14 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2041,15 +2042,17 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 45,
-        "respect": -6,
-        "comfort": 42,
+        "like": 60,
+        "respect": -7,
+        "comfort": 57,
         "trust": 19,
         "log": [
             "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old",
             "Waterkit doesn't get why Branchkit gets more praise for doing the same thing everyone else does. (high negative effect) - Waterkit was 5 moons old",
             "Waterpaw shares a joke about a neighboring Clan with Branchpaw. (low positive effect) - Waterpaw was 11 moons old",
-            "Only Waterheart and Branchfox know the details about a specific piece of Clan drama. (medium positive effect) - Waterheart was 13 moons old"
+            "Only Waterheart and Branchfox know the details about a specific piece of Clan drama. (medium positive effect) - Waterheart was 13 moons old",
+            "Though they got very little actual training done, Waterheart had a lot of fun when Branchfox led the patrol on a wild chase across the territory. (positive effect) - Waterheart was 14 moons old",
+            "Waterheart thinks Branchfox is very polite. (low positive effect) - Waterheart was 15 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2069,9 +2072,7 @@
             "Waterpaw appreciates how Whitepaw always seems to ask how she's doing. (high positive effect) - Waterpaw was 9 moons old",
             "Something embarrassing happens to Waterheart on a patrol, but Whitewhisker promises not to tell anyone. (medium positive effect) - Waterheart was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2156,7 +2157,7 @@
         "cat_to_id": "245",
         "mates": false,
         "family": false,
-        "romance": 15,
+        "romance": 27,
         "like": 29,
         "respect": 16,
         "comfort": 28,
@@ -2164,7 +2165,9 @@
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old",
             "Waterpaw noticed the pleasant scent of berries in Lavenderpaw's fur. (positive effect) - Waterpaw was 10 moons old",
-            "Waterheart and Lavenderpaw practiced their hunting together. (positive effect) - Waterheart was 12 moons old"
+            "Waterheart and Lavenderpaw practiced their hunting together. (positive effect) - Waterheart was 12 moons old",
+            "Waterheart thinks no other cat is anywhere near as fun or interesting as Lavenderfreckle. (medium positive effect) - Waterheart was 15 moons old",
+            "Lavenderfreckle can't help but admire Waterheart's pelt. (low positive effect) - Waterheart was 15 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2249,9 +2252,7 @@
         "log": [
             "Waterheart was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Waterheart was 14 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "239",
@@ -2418,6 +2419,32 @@
     {
         "cat_from_id": "239",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

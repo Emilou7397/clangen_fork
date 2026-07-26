@@ -315,9 +315,7 @@
             "Freezefoot bumps heads with Harefeather reassuringly. (medium positive effect) - Freezefoot was 89 moons old",
             "Freezefoot is sharing tongues with Harefeather. (high positive effect) - Freezefoot was 93 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -341,9 +339,7 @@
             "Freezefoot tries to groom her pelt the same way Peatcrest does. (medium positive effect) - Freezefoot was 73 moons old",
             "Peatcrest complained so relentlessly about his patrol assignment that Auburnsplash, Freezefoot, Peakspore, and Ochretail could only sigh and bear it. (negative effect) - Freezefoot was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -952,10 +948,7 @@
             "Freezefoot enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Freezefoot was 87 moons old",
             "No matter how many warning looks Freezefoot, Garlicberry, Verbenabloom, and Dahliacrest send them, Hushshimmer keeps talking over the Gathering announcements. (negative effect) - Freezefoot was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -979,9 +972,7 @@
             "Freezefoot told Warmswirl to stop padding after her like a lost kit. (medium negative effect) - Freezefoot was 103 moons old",
             "Freezefoot and Warmswirl work together to lead a scary bug out of the camp. (low positive effect) - Freezefoot was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -1349,12 +1340,7 @@
             "Frondpad never realized how much she loves spending time with Freezefoot. (low positive effect) - Freezefoot was 99 moons old",
             "Freezefoot heard Frondpad fell asleep guarding camp. (negative effect) - Freezefoot was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -2211,9 +2197,7 @@
             "Freezefoot heard about how Moletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Freezefoot was 69 moons old",
             "Freezefoot listens to Moletooth's big plans for the day. (low positive effect) - Freezefoot was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -2338,9 +2322,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Freezefoot heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Freezefoot was 71 moons old"
+            "Freezefoot heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Freezefoot was 71 moons old",
+            "Freezefoot heard Shiveringdusk fell asleep guarding camp. (negative effect) - Freezefoot was 106 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3061,10 +3046,11 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -10,
         "log": [
-            "Freezefoot heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Freezefoot was 97 moons old"
+            "Freezefoot heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Freezefoot was 97 moons old",
+            "After the Clan finds a strange object, Freezefoot notes that Sagospeck has been a little too fascinated with it. (low negative effect) - Freezefoot was 106 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3186,10 +3172,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Freezefoot heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Freezefoot was 106 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3547,9 +3535,7 @@
         "log": [
             "Freezefoot was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Freezefoot was 105 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "45",
@@ -3672,11 +3658,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "like": -5,
+        "respect": -5,
+        "comfort": -5,
+        "trust": -16,
+        "log": [
+            "Freezefoot swears that Galepelt stole something from her nest. (high negative effect) - Freezefoot was 106 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3721,6 +3709,32 @@
     {
         "cat_from_id": "45",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "45",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

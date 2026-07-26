@@ -22,11 +22,12 @@
         "romance": 0,
         "like": 0,
         "respect": 12,
-        "comfort": 13,
+        "comfort": 26,
         "trust": -5,
         "log": [
             "Redswirl and Heatherfern take turns in a small patch of sunlight. (medium positive effect) - Redswirl was 71 moons old",
-            "Redswirl heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Redswirl was 83 moons old"
+            "Redswirl heard that Heatherfern played with a kittypet on RiverClan's border. (negative effect) - Redswirl was 83 moons old",
+            "Heatherfern brought Redswirl some dry bedding. (low positive effect) - Redswirl was 90 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -796,20 +797,18 @@
             "Hailfreckle helps Redswirl hide from a Clanmate. (low positive effect) - Redswirl was 85 moons old",
             "Redswirl gets some good advice from Hailfreckle about something trivial. (low positive effect) - Redswirl was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
         "cat_to_id": "94",
         "mates": false,
         "family": false,
-        "romance": 7,
+        "romance": 12,
         "like": -33,
         "respect": -32,
         "comfort": -15,
-        "trust": -13,
+        "trust": -7,
         "log": [
             "Redswirl just barely missed a mouse, but Shimmerrunner caught it right after, handing it off to him. (medium positive effect) - Redswirl was 69 moons old",
             "Redswirl has big plans for the day, but they're thwarted by Shimmerrunner doing something more important. (high negative effect) - Redswirl was 75 moons old",
@@ -1308,8 +1307,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Redswirl heard Shiveringdusk fell asleep guarding camp. (negative effect) - Redswirl was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1871,10 +1872,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 30,
-        "trust": -5,
+        "trust": 8,
         "log": [
             "Redswirl heard Electronegativity fell asleep guarding camp. (negative effect) - Redswirl was 74 moons old",
-            "Redswirl chats with Electronegativity about her day. (medium positive effect) - Redswirl was 88 moons old"
+            "Redswirl chats with Electronegativity about her day. (medium positive effect) - Redswirl was 88 moons old",
+            "Redswirl appreciates Electronegativity telling him that he had a feather stuck to his face. (low positive effect) - Redswirl was 90 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1930,10 +1932,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Redswirl heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Redswirl was 90 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2175,7 +2179,7 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": -13,
         "log": [
             "Redswirl has a weird feeling about something Avocetkit said the other day. (low negative effect) - Redswirl was 79 moons old"
@@ -2195,9 +2199,7 @@
         "log": [
             "Redswirl saw Lavenderpaw hide something before talking to him. (low negative effect) - Redswirl was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -2277,9 +2279,7 @@
         "log": [
             "Redswirl was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Redswirl was 89 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "224",
@@ -2442,6 +2442,32 @@
     {
         "cat_from_id": "224",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

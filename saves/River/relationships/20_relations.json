@@ -342,9 +342,7 @@
             "Auburnsplash wants to spend more time around Bitterleaf. (medium positive effect) - Auburnsplash was 100 moons old",
             "Auburnsplash has a friendly chat with Bitterleaf that leaves them both feeling happy. (low positive effect) - Auburnsplash was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "20",
@@ -1156,9 +1154,7 @@
         "log": [
             "After the Gathering, Auburnsplash notices that Amberfur is making sure everyone got home. (low positive effect) - Auburnsplash was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "20",
@@ -1254,16 +1250,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 8,
-        "comfort": 0,
-        "trust": -10,
+        "like": 8,
+        "respect": 4,
+        "comfort": -11,
+        "trust": -12,
         "log": [
             "Auburnsplash is disappointed in Skulkpaw's lack of initiative. (medium negative effect)- Auburnsplash was 51 moons old",
             "Auburnsplash heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Auburnsplash was 96 moons old",
             "Auburnsplash heard about how Skulkwillow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Auburnsplash was 120 moons old",
             "Auburnsplash was disappointed to hear Skulkwillow was fraternizing with another Clan. (negative effect) - Auburnsplash was 127 moons old",
-            "Auburnsplash disapproved of Skulkwillow stealing Twoleg food for the fresh-kill pile. (negative effect) - Auburnsplash was 128 moons old"
+            "Auburnsplash disapproved of Skulkwillow stealing Twoleg food for the fresh-kill pile. (negative effect) - Auburnsplash was 128 moons old",
+            "Auburnsplash scolds Skulkwillow for not telling anyone about a piece of crowfood in the pile. (high negative effect) - Auburnsplash was 135 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1453,12 +1450,7 @@
             "Auburnsplash heard Frondpad fell asleep guarding camp. (negative effect) - Auburnsplash was 113 moons old",
             "Auburnsplash heard Frondpad fell asleep guarding camp. (negative effect) - Auburnsplash was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "20",
@@ -2390,9 +2382,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Auburnsplash heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Auburnsplash was 100 moons old"
+            "Auburnsplash heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Auburnsplash was 100 moons old",
+            "Auburnsplash heard Shiveringdusk fell asleep guarding camp. (negative effect) - Auburnsplash was 135 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2579,14 +2572,15 @@
         "family": false,
         "romance": 13,
         "like": 0,
-        "respect": 10,
+        "respect": 22,
         "comfort": 0,
         "trust": -17,
         "log": [
             "Auburnsplash learns that Terabyte has been misleading her about something trivial. (medium negative effect) - Auburnsplash was 95 moons old",
             "Auburnsplash heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Auburnsplash was 101 moons old",
             "Auburnsplash can't help but admire Terabyte's pelt. (low positive effect) - Auburnsplash was 104 moons old",
-            "Auburnsplash heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Auburnsplash was 122 moons old"
+            "Auburnsplash heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Auburnsplash was 122 moons old",
+            "Auburnsplash can't help but admire how well Terabyte gets along with the rest of the Clan. (medium positive effect) - Auburnsplash was 135 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3227,10 +3221,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Auburnsplash heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Auburnsplash was 135 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3586,9 +3582,7 @@
         "log": [
             "Auburnsplash was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Auburnsplash was 134 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "20",
@@ -3751,6 +3745,32 @@
     {
         "cat_from_id": "20",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "20",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "20",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

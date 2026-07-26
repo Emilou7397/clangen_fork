@@ -163,14 +163,15 @@
         "romance": 23,
         "like": 15,
         "respect": 10,
-        "comfort": 10,
+        "comfort": 23,
         "trust": 28,
         "log": [
             "Peatcrest introduces himself as RiverClan's medicine cat and asks Terabyte to warn him at any sign of sickness. (positive effect) - Terabyte was 93 moons old",
             "Terabyte and Peatcrest went on a late night patrol to watch the sunrise together. (positive effect) - Terabyte was 95 moons old",
             "Terabyte might be reading a little too far into Peatcrest's kindness. (low positive effect) - Terabyte was 100 moons old",
             "Peatcrest respects Terabyte's opinion despite disagreeing with it. (low positive effect) - Terabyte was 118 moons old",
-            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Terabyte was 132 moons old"
+            "Peatcrest started a huge argument between Glowfur and Terabyte. (negative effect) - Terabyte was 132 moons old",
+            "Terabyte and Peatcrest chat about Clan news. (low positive effect) - Terabyte was 140 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -465,10 +466,11 @@
         "like": 18,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -3,
         "log": [
             "Terabyte and Freezefoot roll up moss balls together. (low positive effect) - Terabyte was 108 moons old",
-            "Terabyte and Freezefoot worked together to gather plantain. (positive effect) - Terabyte was 129 moons old"
+            "Terabyte and Freezefoot worked together to gather plantain. (positive effect) - Terabyte was 129 moons old",
+            "Terabyte suspects Freezefoot lied about something trivial. (low negative effect) - Terabyte was 140 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -514,13 +516,14 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 32,
+        "respect": 47,
         "comfort": 13,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Terabyte helps Hushshimmer figure out how to word something. (medium positive effect) - Terabyte was 96 moons old",
             "Terabyte heard about how Hushshimmer endured the bitter cold to gather herbs for RiverClan. (positive effect) - Terabyte was 101 moons old",
-            "Terabyte enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Terabyte was 121 moons old"
+            "Terabyte enjoyed spending an evening listening to Hushshimmer's stories. (positive effect) - Terabyte was 121 moons old",
+            "Hushshimmer saved Terabyte from a hawk. (positive effect) - Terabyte was 139 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -808,9 +811,7 @@
             "Terabyte lets Frondpad bring back fresh-kill he caught on a patrol. (medium positive effect) - Terabyte was 124 moons old",
             "Terabyte heard Frondpad fell asleep guarding camp. (negative effect) - Terabyte was 138 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1224,10 +1225,7 @@
             "Terabyte wants to tell stories as well as Nightglow. (medium positive effect) - Terabyte was 125 moons old",
             "Nightglow eats as ravenously as a wolverine and by the time he's done, Jademuzzle, Fidgetmouse, and Terabyte barely have the stomach to finish their own meals. (negative effect) - Terabyte was 138 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -1636,9 +1634,10 @@
         "like": 0,
         "respect": -5,
         "comfort": 13,
-        "trust": 13,
+        "trust": 8,
         "log": [
-            "Terabyte heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Terabyte was 105 moons old"
+            "Terabyte heard that Shiveringdusk trespassed on another Clan's territory. (negative effect) - Terabyte was 105 moons old",
+            "Terabyte heard Shiveringdusk fell asleep guarding camp. (negative effect) - Terabyte was 139 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1744,11 +1743,11 @@
         "cat_to_id": "155",
         "mates": false,
         "family": false,
-        "romance": 20,
-        "like": -38,
-        "respect": -30,
-        "comfort": -8,
-        "trust": -4,
+        "romance": 28,
+        "like": -34,
+        "respect": -15,
+        "comfort": 4,
+        "trust": 4,
         "log": [
             "Terabyte heard that Caterpillarfoot chased a kittypet off the territory. (positive effect) - Terabyte was 104 moons old",
             "Terabyte heard about how Caterpillarfoot shared prey with a kittypet. (negative effect) - Terabyte was 116 moons old",
@@ -1845,11 +1844,7 @@
             "Braveheart returned to the elder's den dripping mud everywhere and managed to ruin Jademuzzle, Terabyte, and Pebblechase's nests. (negative effect) - Terabyte was 136 moons old",
             "Terabyte heard that Braveheart touched noses with a rogue. (negative effect) - Terabyte was 138 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2297,11 +2292,7 @@
             "Terabyte nuzzles against Jademuzzle and purrs. (medium positive effect) - Terabyte was 128 moons old",
             "Terabyte and Jademuzzle agree on something the rest of the Clan finds contentious. (high positive effect) - Terabyte was 139 moons old"
         ],
-        "no_longer_neutral": [
-            "respect",
-            "trust",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2482,10 +2473,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Terabyte heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Terabyte was 139 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2617,9 +2610,7 @@
         "log": [
             "Shorefrill tells Terabyte that his pelt is shiny today. (low positive effect) - Terabyte was 139 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -2852,9 +2843,7 @@
         "log": [
             "Terabyte was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Terabyte was 138 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "161",
@@ -3021,6 +3010,32 @@
     {
         "cat_from_id": "161",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "161",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

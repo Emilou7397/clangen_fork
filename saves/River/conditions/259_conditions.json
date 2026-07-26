@@ -1,0 +1,46 @@
+{
+    "illnesses": {
+        "running nose": {
+            "severity": "minor",
+            "mortality": 0,
+            "infectiousness": 0,
+            "duration": 1,
+            "moon_start": 156,
+            "risks": [
+                {
+                    "name": "whitecough",
+                    "chance": 61
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 66
+                }
+            ],
+            "event_triggered": false
+        }
+    },
+    "injuries": {
+        "claw-wound": {
+            "severity": "major",
+            "mortality": 9,
+            "duration": 3,
+            "moon_start": 156,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "an infected wound",
+                    "chance": 12
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": [
+                "BACK",
+                "HINDLEG",
+                "ONE",
+                "TWO"
+            ]
+        }
+    }
+}

@@ -583,10 +583,7 @@
             "Shorekit was found by Frondpad and her patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old",
             "Shorefrill heard Frondpad fell asleep guarding camp. (negative effect) - Shorefrill was 17 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1189,10 +1186,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Shorefrill approved of Pigmentpelt's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Shorefrill was 18 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1204,9 +1203,10 @@
         "like": 10,
         "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 5,
         "log": [
-            "Shorekit was found by Shiveringdusk and her patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old"
+            "Shorekit was found by Shiveringdusk and her patrol and taken into the Clan as a kit. (positive effect) - Shorekit was 3 moons old",
+            "Shorefrill heard Shiveringdusk fell asleep guarding camp. (negative effect) - Shorefrill was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1348,9 +1348,7 @@
         "log": [
             "Shorepaw heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorepaw was 6 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1392,8 +1390,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Howlshine snitches on Shorefrill for something minor. (low negative effect) - Shorefrill was 19 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1677,14 +1677,13 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 0,
+        "respect": -7,
         "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "log": [
+            "Scalebloom has a talent that Shorefrill wants to have. (medium negative effect) - Shorefrill was 19 moons old"
+        ],
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -1762,15 +1761,17 @@
         "cat_to_id": "222",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 16,
         "like": 2,
-        "respect": -10,
+        "respect": -15,
         "comfort": 12,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Shorepaw was 9 moons old",
             "Shorefrill can't help but smile when around Avocetear. (low positive effect) - Shorefrill was 17 moons old",
-            "Avocetear and Shorefrill traded passive aggressive comments during a training session. (negative effect) - Shorefrill was 17 moons old"
+            "Avocetear and Shorefrill traded passive aggressive comments during a training session. (negative effect) - Shorefrill was 17 moons old",
+            "Shorefrill heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Shorefrill was 18 moons old",
+            "Shorefrill can't help but smile when around Avocetear. (low positive effect) - Shorefrill was 19 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1843,9 +1844,7 @@
             "Some of Shorefrill's favorite memories are with Caterpillarstripe. (high positive effect) - Shorefrill was 14 moons old",
             "Shorefrill and Caterpillarstripe are chatting about what they're doing today. (medium positive effect) - Shorefrill was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -2094,9 +2093,7 @@
         "log": [
             "Shorefrill was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Shorefrill was 18 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "233",
@@ -2261,6 +2258,32 @@
     {
         "cat_from_id": "233",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,

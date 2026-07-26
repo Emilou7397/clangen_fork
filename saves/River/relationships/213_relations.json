@@ -636,9 +636,7 @@
             "Scalekit heard Frondpad fell asleep guarding camp. (negative effect) - Scalekit was 3 moons old",
             "Scalebloom heard Frondpad fell asleep guarding camp. (negative effect) - Scalebloom was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -775,11 +773,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Scalebloom stretched in front of Flightsplash. Flightsplash didn't get a great view. (low negative effect) - Scalebloom was 26 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1322,8 +1322,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Scalebloom heard Shiveringdusk fell asleep guarding camp. (negative effect) - Scalebloom was 25 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1673,11 +1675,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 23,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Scalepaw heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old"
+            "Scalepaw heard about how Kinkdapple endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalepaw was 11 moons old",
+            "Scalebloom mews congratulations to Kinkdapple for a job well done. (low positive effect) - Scalebloom was 26 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2018,12 +2021,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": -8,
+        "trust": -13,
         "log": [
             "Avocetpaw compliments Scalebloom's name. (low positive effect) - Scalebloom was 15 moons old",
-            "Scalebloom didn't tell Avocetpaw about the feather stuck to his face, so Avocetpaw spent the whole day looking silly. (low negative effect) - Scalebloom was 16 moons old"
+            "Scalebloom didn't tell Avocetpaw about the feather stuck to his face, so Avocetpaw spent the whole day looking silly. (low negative effect) - Scalebloom was 16 moons old",
+            "Scalebloom heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Scalebloom was 25 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2201,9 +2205,7 @@
             "Scalebloom and Wheatpaw practiced rescuing cats from the water. (positive effect) - Scalebloom was 21 moons old",
             "Scalebloom noticed Wheatstorm is doing her best today. (low positive effect) - Scalebloom was 25 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -2400,9 +2402,7 @@
         "log": [
             "Scalebloom was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Scalebloom was 24 moons old"
         ],
-        "no_longer_neutral": [
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "213",
@@ -2571,6 +2571,32 @@
     {
         "cat_from_id": "213",
         "cat_to_id": "266",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "268",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "269",
         "mates": false,
         "family": false,
         "romance": 0,
