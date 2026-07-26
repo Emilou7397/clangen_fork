@@ -34,13 +34,17 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Waterkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Waterkit was 0 moons old"
+            "Waterkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Waterkit was 0 moons old",
+            "Waterheart's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Waterheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -777,11 +781,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Waterheart noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Waterheart was 13 moons old"
+            "Waterheart noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Waterheart was 13 moons old",
+            "Waterheart heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -792,13 +797,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 17,
         "log": [
-            "Waterheart heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old"
+            "Waterheart heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old",
+            "Waterheart heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old",
+            "Dancingfleck explained something in detail to Waterheart that others wouldn't explain to her. (medium positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -890,13 +900,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Waterheart heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old"
+            "Waterheart heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old",
+            "Waterheart heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -957,13 +970,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Waterheart heard that Wasppelt chased a rogue off the territory. (positive effect) - Waterheart was 15 moons old"
+            "Waterheart heard that Wasppelt chased a rogue off the territory. (positive effect) - Waterheart was 15 moons old",
+            "Waterheart heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -971,15 +987,21 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 55,
+        "like": 67,
         "respect": 41,
-        "comfort": 93,
+        "comfort": 100,
         "trust": 63,
         "log": [
             "Snookbumble shares a suspiciously exaggerated tale with Lavenderpaw, Bushpaw, Branchpaw, and Waterpaw, who seem far from convinced of its veracity. (negative effect) - Waterpaw was 8 moons old",
-            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old"
+            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1221,9 +1243,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Waterheart heard that Braveocean caught a rabbit from across the border. (negative effect) - Waterheart was 16 moons old"
+            "Waterheart heard that Braveocean caught a rabbit from across the border. (negative effect) - Waterheart was 16 moons old",
+            "Waterheart was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Waterheart was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1753,11 +1776,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Waterheart heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Waterheart was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2071,7 +2099,7 @@
         "romance": 5,
         "like": 72,
         "respect": -7,
-        "comfort": 72,
+        "comfort": 79,
         "trust": 22,
         "log": [
             "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old",
@@ -2080,9 +2108,12 @@
             "Only Waterheart and Branchfox know the details about a specific piece of Clan drama. (medium positive effect) - Waterheart was 13 moons old",
             "Though they got very little actual training done, Waterheart had a lot of fun when Branchfox led the patrol on a wild chase across the territory. (positive effect) - Waterheart was 14 moons old",
             "Waterheart thinks Branchfox is very polite. (low positive effect) - Waterheart was 15 moons old",
-            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old"
+            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old",
+            "Branchfox doesn't judge Waterheart for being anxious about a bad dream. (medium positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2090,18 +2121,24 @@
         "mates": false,
         "family": true,
         "romance": 4,
-        "like": 69,
+        "like": 81,
         "respect": 21,
-        "comfort": 89,
+        "comfort": 100,
         "trust": 73,
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old",
             "Waterpaw and Whitepaw enjoyed practicing new battle moves together. (positive effect) - Waterpaw was 8 moons old",
             "Waterpaw appreciates how Whitepaw always seems to ask how she's doing. (high positive effect) - Waterpaw was 9 moons old",
             "Something embarrassing happens to Waterheart on a patrol, but Whitewhisker promises not to tell anyone. (medium positive effect) - Waterheart was 14 moons old",
-            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old"
+            "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2131,14 +2168,20 @@
         "mates": false,
         "family": true,
         "romance": 2,
-        "like": 47,
+        "like": 59,
         "respect": 12,
-        "comfort": 55,
+        "comfort": 67,
         "trust": 45,
         "log": [
-            "Bigpelt was very considerate while on patrol with Waterheart. (positive effect) - Waterheart was 15 moons old"
+            "Bigpelt was very considerate while on patrol with Waterheart. (positive effect) - Waterheart was 15 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2193,9 +2236,9 @@
         "mates": true,
         "family": false,
         "romance": 59,
-        "like": 24,
+        "like": 36,
         "respect": 16,
-        "comfort": 48,
+        "comfort": 60,
         "trust": 42,
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Waterkit was 4 moons old",
@@ -2204,9 +2247,15 @@
             "Waterheart thinks no other cat is anywhere near as fun or interesting as Lavenderfreckle. (medium positive effect) - Waterheart was 15 moons old",
             "Lavenderfreckle can't help but admire Waterheart's pelt. (low positive effect) - Waterheart was 15 moons old",
             "Waterheart grew irritated at Lavenderfreckle while on a patrol and didn't accomplish much. (negative effect) - Waterheart was 17 moons old",
-            "Waterheart is the first cat that Lavenderfreckle thinks of when she gets good news. (medium positive effect) - Waterheart was 18 moons old"
+            "Waterheart is the first cat that Lavenderfreckle thinks of when she gets good news. (medium positive effect) - Waterheart was 18 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Waterheart was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2231,10 +2280,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Waterheart heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2257,13 +2308,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Waterheart heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old"
+            "Waterheart heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Waterheart was 16 moons old",
+            "Waterheart heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Waterheart was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2596,6 +2650,32 @@
     {
         "cat_from_id": "239",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

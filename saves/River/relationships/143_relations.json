@@ -754,14 +754,18 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 10,
+        "respect": 0,
         "comfort": 10,
-        "trust": 10,
+        "trust": 0,
         "log": [
             "Heavythud was part of the patrol that saved Bravekit and brought her to RiverClan as a newborn. (positive effect) - Bravekit was 0 moons old",
-            "Braveocean heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveocean was 42 moons old"
+            "Braveocean heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveocean was 42 moons old",
+            "Braveocean's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -994,7 +998,7 @@
         "cat_to_id": "84",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 12,
         "like": 0,
         "respect": -15,
         "comfort": 0,
@@ -1002,7 +1006,8 @@
         "log": [
             "Braveocean heard Mallowpelt fell asleep guarding camp. (negative effect) - Braveocean was 14 moons old",
             "Braveocean disapproved of Mallowpelt wearing a collar. (negative effect) - Braveocean was 29 moons old",
-            "Braveocean heard that Mallowpelt touched noses with a rogue. (negative effect) - Braveocean was 53 moons old"
+            "Braveocean heard that Mallowpelt touched noses with a rogue. (negative effect) - Braveocean was 53 moons old",
+            "Braveocean and Mallowpelt got so into playing around that they got separated from the rest of the patrol, earning themselves an earful back at camp. (medium positive effect) - Braveocean was 61 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1115,14 +1120,17 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 8,
         "log": [
             "Braveocean noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Braveocean was 55 moons old",
-            "Braveocean has drawn the ire of Shimmerrunner by deliberately taking the last of her favorite nesting materials for herself. (low negative effect) - Braveocean was 58 moons old"
+            "Braveocean has drawn the ire of Shimmerrunner by deliberately taking the last of her favorite nesting materials for herself. (low negative effect) - Braveocean was 58 moons old",
+            "Braveocean heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1144,14 +1152,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
+        "respect": 25,
         "comfort": 0,
         "trust": 15,
         "log": [
             "Braveocean heard about Dancingfleck's victory in battle against a gang of rogues. (positive effect) - Braveocean was 25 moons old",
-            "Braveocean heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old"
+            "Braveocean heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old",
+            "Braveocean heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1273,7 +1285,7 @@
         "family": false,
         "romance": 0,
         "like": 7,
-        "respect": 24,
+        "respect": 29,
         "comfort": 18,
         "trust": 17,
         "log": [
@@ -1281,9 +1293,15 @@
             "Braveocean heard about Daisymoor's victory in battle against a gang of rogues. (positive effect) - Braveocean was 25 moons old",
             "Braveocean and Daisymoor share their prey with one another every day. (high positive effect) - Braveocean was 39 moons old",
             "Braveocean hears a nice story about Daisymoor. (low positive effect) - Braveocean was 45 moons old",
-            "Braveocean heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old"
+            "Braveocean heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old",
+            "Braveocean heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1337,16 +1355,22 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 29,
+        "respect": 34,
         "comfort": -10,
         "trust": 20,
         "log": [
             "Braveocean heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Braveocean was 25 moons old",
             "Braveocean notices a strange glint in Wasppelt's eyes. (low negative effect) - Braveocean was 33 moons old",
             "Braveocean laughed at Wasppelt for making a mistake on a patrol. (medium negative effect) - Braveocean was 52 moons old",
-            "Braveocean heard that Wasppelt chased a rogue off the territory. (positive effect) - Braveocean was 57 moons old"
+            "Braveocean heard that Wasppelt chased a rogue off the territory. (positive effect) - Braveocean was 57 moons old",
+            "Braveocean heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -1620,7 +1644,7 @@
         "romance": 0,
         "like": -6,
         "respect": 24,
-        "comfort": -15,
+        "comfort": -28,
         "trust": 13,
         "log": [
             "Braveocean and Moletooth took a lovely nap together instead of patrolling. (positive effect) - Braveocean was 13 moons old",
@@ -1629,7 +1653,9 @@
             "Braveocean rolls around in some herbs after hearing Moletooth likes their smell. (high positive effect) - Braveocean was 46 moons old",
             "Braveocean notices a strange glint in Moletooth's eyes. (low negative effect) - Braveocean was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -2439,7 +2465,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 23,
         "respect": 10,
         "comfort": 10,
         "trust": 0,
@@ -2447,7 +2473,9 @@
             "Braveocean heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Braveocean was 44 moons old",
             "Braveocean and Flightspot were reminded of each other's competence while training together. (positive effect) - Braveocean was 55 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -2488,11 +2516,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Braveocean heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Braveocean was 60 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -2807,10 +2840,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "The moon casts a shadow on Shorefrill's face in a way that makes Braveocean uneasy. (medium negative effect) - Braveocean was 61 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -2977,13 +3014,16 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "When Braveocean approached Silkroot, he made a weird face. (low negative effect) - Braveocean was 45 moons old"
+            "When Braveocean approached Silkroot, he made a weird face. (low negative effect) - Braveocean was 45 moons old",
+            "Braveocean heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -3005,13 +3045,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Braveocean heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old"
+            "Braveocean heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Braveocean was 58 moons old",
+            "Braveocean heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Braveocean was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "143",
@@ -3352,6 +3395,32 @@
         "log": [
             "Rowanlily keeps avoiding eye contact with Braveocean. (medium negative effect) - Braveocean was 60 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "143",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "143",
+        "cat_to_id": "279",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

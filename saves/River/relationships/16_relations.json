@@ -157,7 +157,7 @@
         "family": false,
         "romance": 0,
         "like": 60,
-        "respect": 30,
+        "respect": 33,
         "comfort": 87,
         "trust": 18,
         "log": [
@@ -176,7 +176,9 @@
             "Algaepool overhears something about Stoatshade that he can relate to. (medium positive effect) - Algaepool was 119 moons old",
             "Algaepool has drawn the ire of Stoatshade by deliberately taking the last of his favorite nesting materials for himself. (low negative effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -923,7 +925,7 @@
         "family": false,
         "romance": 18,
         "like": 38,
-        "respect": 7,
+        "respect": -1,
         "comfort": 54,
         "trust": 2,
         "log": [
@@ -934,7 +936,8 @@
             "Freezefoot regales Algaepool, Fidgetmouse, Yewheather, and Olivebranch with stories about her latest fight. (positive effect)- Algaepool was 49 moons old",
             "Freezefoot and Algaepool played around during patrol and got in a bit of trouble, but still returned to camp smiling. (medium positive effect)- Algaepool was 57 moons old",
             "Algaepool, Freezefoot, and Pebblechase decide they're going to get Primfreckle and Yewheather together. They talk about how much Primfreckle loves Yewheather in front of Yewheather, and, to their pleasure, find the two talking later. (positive effect)- Algaepool was 58 moons old",
-            "Freezefoot won't tell Algaepool what she's doing. (high negative effect) - Algaepool was 88 moons old"
+            "Freezefoot won't tell Algaepool what she's doing. (high negative effect) - Algaepool was 88 moons old",
+            "Algaepool doesn't tell Freezefoot that she forgot to groom a part of her fur. (low negative effect) - Algaepool was 140 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1223,12 +1226,13 @@
         "like": 23,
         "respect": 5,
         "comfort": 8,
-        "trust": 13,
+        "trust": 0,
         "log": [
             "Algaepool spends some time sheltering with Murkhaven during a storm. (medium positive effect)- Algaepool was 58 moons old",
             "Saltpaw, Algaepool, and Murkhaven had a nice talk while eating. (positive effect)- Algaepool was 65 moons old",
             "Algaepool was impressed by Murkhaven's hunting prowess. (positive effect) - Algaepool was 89 moons old",
-            "Algaepool is talking with Murkhaven. (low positive effect) - Algaepool was 138 moons old"
+            "Algaepool is talking with Murkhaven. (low positive effect) - Algaepool was 138 moons old",
+            "Algaepool doesn't think that Murkhaven has been completely honest lately. (low negative effect) - Algaepool was 140 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1255,13 +1259,18 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 17,
+        "respect": 7,
         "comfort": 14,
-        "trust": 9,
+        "trust": -1,
         "log": [
-            "Algaepool heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Algaepool was 121 moons old"
+            "Algaepool heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Algaepool was 121 moons old",
+            "Algaepool's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -1682,13 +1691,17 @@
         "family": false,
         "romance": 0,
         "like": 19,
-        "respect": -1,
+        "respect": 4,
         "comfort": 22,
         "trust": -1,
         "log": [
-            "Algaepool finds his feelings conflicted towards the new family addition. (neutral effect)- Algaepool was 60 moons old"
+            "Algaepool finds his feelings conflicted towards the new family addition. (neutral effect)- Algaepool was 60 moons old",
+            "Algaepool heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -1712,13 +1725,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Algaepool heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old"
+            "Algaepool heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old",
+            "Algaepool heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -1853,13 +1869,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Algaepool heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old"
+            "Algaepool heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old",
+            "Algaepool heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -1870,11 +1889,13 @@
         "like": 13,
         "respect": -8,
         "comfort": -12,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Nightglow said something the other day that made Algaepool nervous. (medium negative effect) - Algaepool was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -1915,10 +1936,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Algaepool heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2929,13 +2952,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": -12,
+        "trust": 3,
         "log": [
-            "Algaepool knows that Hollyblossom just lied! (medium negative effect) - Algaepool was 136 moons old"
+            "Algaepool knows that Hollyblossom just lied! (medium negative effect) - Algaepool was 136 moons old",
+            "Algaepool heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -3395,10 +3421,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Algaepool heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3421,13 +3449,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Algaepool heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old"
+            "Algaepool heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Algaepool was 137 moons old",
+            "Algaepool heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Algaepool was 139 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "16",
@@ -3748,6 +3779,32 @@
     {
         "cat_from_id": "16",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "16",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "16",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

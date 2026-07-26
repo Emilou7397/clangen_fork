@@ -36,8 +36,8 @@
         "romance": 0,
         "like": 5,
         "respect": 27,
-        "comfort": -10,
-        "trust": 6,
+        "comfort": -30,
+        "trust": -14,
         "log": [
             "Lilypaw was happy to help Heavythud gather poppy seeds. (positive effect) - Lilypaw was 6 moons old",
             "Sharing the burden of ragwort's foul taste brought Heavythud and Lilypaw closer together, and Heavythud noted his apprentice's dutifulness. (positive effect) - Lilypaw was 9 moons old",
@@ -45,9 +45,14 @@
             "Sharing the burden of ragwort's foul taste brought Heavythud and Lilypaw closer together, and Heavythud noted his apprentice's dutifulness. (positive effect) - Lilypaw was 10 moons old",
             "Lilypaw confided in Heavythud about a vision, but Heavythud told him that it was just a normal dream. (negative effect) - Lilypaw was 11 moons old",
             "Lilynoise heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lilynoise was 35 moons old",
-            "Lilynoise and Heavythud successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 49 moons old"
+            "Lilynoise and Heavythud successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 49 moons old",
+            "Heavythud accidentally poisoned Lilynoise by mixing up the herb dosages. (negative effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1121,14 +1126,17 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": -8,
         "trust": 0,
         "log": [
             "Late at night, Lilynoise finds Shimmerrunner sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Lilynoise was 16 moons old",
-            "Lilynoise noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Lilynoise was 48 moons old"
+            "Lilynoise noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Lilynoise was 48 moons old",
+            "Lilynoise heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1150,15 +1158,21 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 5,
+        "respect": 10,
         "comfort": 12,
         "trust": 8,
         "log": [
             "Dancingfleck sends a Clanmate to help Lilynoise with something she's struggling with. (low positive effect) - Lilynoise was 33 moons old",
             "Pheasantbrush appreciates Dancingfleck, Mallowpelt, Shadowfreckle, and Lilynoise joining her to stretch late into the night so she wouldn't be alone. (positive effect) - Lilynoise was 37 moons old",
-            "Lilynoise heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old"
+            "Lilynoise heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old",
+            "Lilynoise heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1307,13 +1321,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lilynoise heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old"
+            "Lilynoise heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old",
+            "Lilynoise heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1409,14 +1426,17 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": -7,
+        "respect": -2,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Lilynoise is disappointed in Wasppelt's lack of initiative. (medium negative effect) - Lilynoise was 20 moons old",
-            "Lilynoise heard that Wasppelt chased a rogue off the territory. (positive effect) - Lilynoise was 51 moons old"
+            "Lilynoise heard that Wasppelt chased a rogue off the territory. (positive effect) - Lilynoise was 51 moons old",
+            "Lilynoise heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -1774,11 +1794,12 @@
         "like": -5,
         "respect": 5,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Lilypaw heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Lilypaw was 11 moons old",
             "Lilynoise gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Lilynoise was 33 moons old",
-            "Lilynoise heard that Braveocean caught a rabbit from across the border. (negative effect) - Lilynoise was 51 moons old"
+            "Lilynoise heard that Braveocean caught a rabbit from across the border. (negative effect) - Lilynoise was 51 moons old",
+            "Lilynoise was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Lilynoise was 54 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2152,11 +2173,11 @@
         "cat_to_id": "166",
         "mates": true,
         "family": false,
-        "romance": 45,
-        "like": 2,
-        "respect": 7,
-        "comfort": 70,
-        "trust": 2,
+        "romance": 66,
+        "like": 10,
+        "respect": 13,
+        "comfort": 78,
+        "trust": 10,
         "log": [
             "Howlkit learns that Lilypaw told a Clanmate one of his secrets. (low negative effect) - Lilypaw was 8 moons old",
             "Lilynoise overhears Howlshine tell another cat he kind of likes Lilynoise. (medium positive effect) - Lilynoise was 17 moons old",
@@ -2171,9 +2192,15 @@
             "Lilynoise and Howlshine worked together to gather juniper needles and oak leaves. (positive effect) - Lilynoise was 39 moons old",
             "Lilynoise lost her temper with Howlshine when Howlshine trampled a crucial catmint plant in her excitement about the herb. (negative effect) - Lilynoise was 40 moons old",
             "Lilynoise and Howlshine successfully gathered herbs together despite the rainy weather. (positive effect) - Lilynoise was 43 moons old",
-            "Lilynoise learns that Howlshine is scared of thunder, too. (low positive effect) - Lilynoise was 48 moons old"
+            "Lilynoise learns that Howlshine is scared of thunder, too. (low positive effect) - Lilynoise was 48 moons old",
+            "Lilynoise promises Howlshine to always be there to protect her with her life. (high positive effect) - Lilynoise was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2519,13 +2546,18 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Lilynoise is hiding behind a bush ready to pounce on Hollyblossom. (medium positive effect) - Lilynoise was 41 moons old"
+            "Lilynoise is hiding behind a bush ready to pounce on Hollyblossom. (medium positive effect) - Lilynoise was 41 moons old",
+            "Lilynoise heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2533,16 +2565,19 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": -6,
+        "like": -14,
         "respect": 0,
         "comfort": -4,
         "trust": -6,
         "log": [
             "Lilynoise doesn't get why Lionheart gets more praise for doing the same thing everyone else does. (high negative effect) - Lilynoise was 34 moons old",
             "Lilynoise is prancing around in front of Lionheart. (low positive effect) - Lilynoise was 35 moons old",
-            "Lionheart motivated Lilynoise to get out of her nest this morning. (low positive effect) - Lilynoise was 41 moons old"
+            "Lionheart motivated Lilynoise to get out of her nest this morning. (low positive effect) - Lilynoise was 41 moons old",
+            "Lilynoise had a disagreement with Lionheart about something or other. (low negative effect) - Lilynoise was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -2579,15 +2614,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
-        "respect": 0,
-        "comfort": 12,
-        "trust": -10,
+        "like": 12,
+        "respect": 6,
+        "comfort": 33,
+        "trust": -3,
         "log": [
             "Lilynoise, Scalepaw, Sagopaw, Flightpaw, and Brindlepaw hang out while stretching. (positive effect) - Lilynoise was 31 moons old",
-            "Lilynoise heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Lilynoise was 34 moons old"
+            "Lilynoise heard that Scalepaw had a serious conversation with a kittypet. (negative effect) - Lilynoise was 34 moons old",
+            "Lilynoise can tell Scalebloom worries about her health and safety. (high positive effect) - Lilynoise was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -3009,10 +3049,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Lilynoise heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3035,13 +3077,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lilynoise heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old"
+            "Lilynoise heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Lilynoise was 51 moons old",
+            "Lilynoise heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Lilynoise was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "158",
@@ -3372,6 +3417,32 @@
     {
         "cat_from_id": "158",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "158",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "158",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

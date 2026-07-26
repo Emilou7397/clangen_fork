@@ -36,14 +36,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 12,
-        "trust": 0,
+        "trust": -10,
         "log": [
             "Molepaw lets Heavythud vent to him about the difficulties as a healer. (medium positive effect) - Molepaw was 8 moons old",
-            "Moletooth heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moletooth was 42 moons old"
+            "Moletooth heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Moletooth was 42 moons old",
+            "Moletooth's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -1134,14 +1138,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 31,
+        "respect": 36,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Moletooth and Shimmerrunner come up with a catchy song together. (low positive effect) - Moletooth was 20 moons old",
-            "Moletooth saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Moletooth was 42 moons old"
+            "Moletooth saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Moletooth was 42 moons old",
+            "Moletooth heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -1163,7 +1170,7 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 17,
+        "respect": 22,
         "comfort": 0,
         "trust": 32,
         "log": [
@@ -1171,9 +1178,14 @@
             "Moletooth thinks about how Dancingfleck is always reliable. (medium positive effect) - Moletooth was 36 moons old",
             "Moletooth and Dancingfleck drove off rogues together. (positive effect) - Moletooth was 39 moons old",
             "Dancingfleck's hasty pounce ruined Moletooth's chances of catching a trapped octopus. (negative effect) - Moletooth was 43 moons old",
-            "Moletooth heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old"
+            "Moletooth heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old",
+            "Moletooth heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -1321,7 +1333,7 @@
         "family": false,
         "romance": 54,
         "like": 16,
-        "respect": 22,
+        "respect": 27,
         "comfort": 28,
         "trust": 59,
         "log": [
@@ -1330,9 +1342,15 @@
             "Daisymoor tells Moletooth that she was worried about him. (low positive effect) - Moletooth was 43 moons old",
             "Moletooth purrs for a long time at one of Daisymoor's lame jokes. (high positive effect) - Moletooth was 45 moons old",
             "Moletooth and Daisymoor worked together to gather wild garlic and mallow. (positive effect) - Moletooth was 48 moons old",
-            "Moletooth heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old"
+            "Moletooth heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old",
+            "Moletooth heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -1427,15 +1445,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
+        "respect": 25,
         "comfort": 0,
         "trust": 12,
         "log": [
             "Molepaw doesn't think that Wasppelt has been completely honest lately. (low negative effect) - Molepaw was 11 moons old",
             "Moletooth heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Moletooth was 25 moons old",
-            "Moletooth saw Wasppelt's patrol go out to hunt for the Clan despite the snow. (positive effect) - Moletooth was 42 moons old"
+            "Moletooth saw Wasppelt's patrol go out to hunt for the Clan despite the snow. (positive effect) - Moletooth was 42 moons old",
+            "Moletooth heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -1819,7 +1841,7 @@
         "romance": 0,
         "like": -21,
         "respect": 8,
-        "comfort": -12,
+        "comfort": -29,
         "trust": -8,
         "log": [
             "Bravekit laughs a little too long at one of Molekit's jokes. (low negative effect) - Molekit was 5 moons old",
@@ -1831,9 +1853,12 @@
             "Moletooth is amazed at how skilled Braveocean really is. (high positive effect) - Moletooth was 22 moons old",
             "Moletooth stiffens up a little whenever someone mentions Braveocean. (medium negative effect) - Moletooth was 24 moons old",
             "Moletooth stretched in front of Braveocean. Braveocean didn't get a great view. (low negative effect) - Moletooth was 48 moons old",
-            "Moletooth gave a gift to Braveocean, but she turned up her nose at the offering. (high negative effect) - Moletooth was 53 moons old"
+            "Moletooth gave a gift to Braveocean, but she turned up her nose at the offering. (high negative effect) - Moletooth was 53 moons old",
+            "Braveocean squashes a bug that Moletooth was watching. (medium negative effect) - Moletooth was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -2291,12 +2316,15 @@
         "romance": 0,
         "like": -5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Moletooth was irritated that Dustnose's playful behavior on patrol derailed his story. (negative effect) - Moletooth was 35 moons old"
+            "Moletooth was irritated that Dustnose's playful behavior on patrol derailed his story. (negative effect) - Moletooth was 35 moons old",
+            "Moletooth is asking Dustnose interesting questions. (low positive effect) - Moletooth was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -2496,14 +2524,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 12,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Coconutocean, Pheasantbrush, Moletooth, Hollyheart, and Hollyblossom blow off steam by stretching with and venting to each other. (positive effect) - Moletooth was 41 moons old",
-            "Moletooth doesn't like Hollyblossom's sense of humor. (medium negative effect) - Moletooth was 47 moons old"
+            "Moletooth doesn't like Hollyblossom's sense of humor. (medium negative effect) - Moletooth was 47 moons old",
+            "Moletooth heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -3009,10 +3042,12 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Moletooth heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3035,14 +3070,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Moletooth and Bluestripe worked together to gather wild garlic and mallow. (positive effect) - Moletooth was 48 moons old",
-            "Moletooth heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old"
+            "Moletooth heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Moletooth was 58 moons old",
+            "Moletooth heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Moletooth was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "136",
@@ -3365,6 +3403,32 @@
     {
         "cat_from_id": "136",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "136",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "136",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -32,13 +32,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Nutkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Nutkit was 0 moons old"
+            "Nutkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Nutkit was 0 moons old",
+            "Nutwhisker's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -771,15 +774,19 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": 10,
+        "respect": 15,
         "comfort": 10,
         "trust": 0,
         "log": [
             "Nutkit saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Nutkit was 0 moons old",
             "Nutpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Nutpaw was 10 moons old",
-            "Nutpaw noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Nutpaw was 13 moons old"
+            "Nutpaw noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Nutpaw was 13 moons old",
+            "Nutwhisker heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -788,13 +795,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Nutwhisker heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old"
+            "Nutwhisker heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old",
+            "Nutwhisker heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -890,13 +900,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Nutwhisker heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old"
+            "Nutwhisker heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old",
+            "Nutwhisker heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -959,14 +972,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Nutkit saw Wasppelt's patrol go out to hunt for the Clan despite the snow. (positive effect) - Nutkit was 0 moons old",
-            "Nutwhisker heard that Wasppelt chased a rogue off the territory. (positive effect) - Nutwhisker was 16 moons old"
+            "Nutwhisker heard that Wasppelt chased a rogue off the territory. (positive effect) - Nutwhisker was 16 moons old",
+            "Nutwhisker heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1223,9 +1239,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Nutwhisker heard that Braveocean caught a rabbit from across the border. (negative effect) - Nutwhisker was 16 moons old"
+            "Nutwhisker heard that Braveocean caught a rabbit from across the border. (negative effect) - Nutwhisker was 16 moons old",
+            "Nutwhisker was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Nutwhisker was 19 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1319,9 +1336,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Nutwhisker nearly tripped, but was caught by Caterpillarfoot. (medium positive effect) - Nutwhisker was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1749,11 +1770,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Nutwhisker heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Nutwhisker was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -1897,14 +1923,16 @@
         "romance": 0,
         "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": -10,
         "log": [
             "Nutpaw heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Nutpaw was 15 moons old",
             "Nutwhisker heard that Avocetear touched noses with a rogue. (negative effect) - Nutwhisker was 18 moons old",
             "Nutwhisker appreciated Avocetear's help gathering dandelion and wild garlic. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2208,13 +2236,18 @@
         "family": false,
         "romance": 0,
         "like": -6,
-        "respect": -7,
+        "respect": -2,
         "comfort": -21,
         "trust": -8,
         "log": [
-            "Nutwhisker hisses at Silkroot over something small. (high negative effect) - Nutwhisker was 18 moons old"
+            "Nutwhisker hisses at Silkroot over something small. (high negative effect) - Nutwhisker was 18 moons old",
+            "Nutwhisker heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2236,13 +2269,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Nutwhisker heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old"
+            "Nutwhisker heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Nutwhisker was 16 moons old",
+            "Nutwhisker heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Nutwhisker was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2265,14 +2301,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": -15,
+        "like": 8,
+        "respect": 7,
+        "comfort": 7,
+        "trust": 6,
         "log": [
-            "Nutpaw was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Nutpaw was 14 moons old"
+            "Nutpaw was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Nutpaw was 14 moons old",
+            "Nutwhisker feels comfortable challenging Dashshimmer on something she said. (high positive effect) - Nutwhisker was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "234",
@@ -2569,6 +2611,32 @@
     {
         "cat_from_id": "234",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "234",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

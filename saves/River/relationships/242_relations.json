@@ -474,13 +474,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 5,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Fishleg and Heavythud worked together to gather betony. (positive effect) - Fishleg was 76 moons old"
+            "Fishleg and Heavythud worked together to gather betony. (positive effect) - Fishleg was 76 moons old",
+            "Fishleg's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Fishleg was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -717,10 +721,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Fishleg heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -730,12 +736,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -2,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Fishleg is disappointed in Dancingfleck's lack of initiative. (medium negative effect) - Fishleg was 70 moons old",
-            "Fishleg heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old"
+            "Fishleg heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old",
+            "Fishleg heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -833,14 +840,19 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 10,
         "log": [
             "Fishleg and Daisymoor worked on their skills together on a training patrol. (positive effect) - Fishleg was 66 moons old",
-            "Fishleg heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old"
+            "Fishleg heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old",
+            "Fishleg heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -906,11 +918,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 18,
         "comfort": 13,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fishleg heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -1114,10 +1131,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Fishleg and Glowfur reach for the same piece of prey and bicker over it. Fishleg gets it. (low negative effect) - Fishleg was 77 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -1613,11 +1634,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Fishleg heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Fishleg was 76 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -1983,13 +2009,17 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 5,
         "comfort": -3,
         "trust": 10,
         "log": [
-            "Fishleg and Silkroot worked on their skills together on a training patrol. (positive effect) - Fishleg was 66 moons old"
+            "Fishleg and Silkroot worked on their skills together on a training patrol. (positive effect) - Fishleg was 66 moons old",
+            "Fishleg heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -2011,14 +2041,19 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 10,
         "log": [
             "Fishleg and Bluestripe worked on their skills together on a training patrol. (positive effect) - Fishleg was 66 moons old",
-            "Fishleg heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old"
+            "Fishleg heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Fishleg was 74 moons old",
+            "Fishleg heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Fishleg was 76 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -2321,9 +2356,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 6,
+        "log": [
+            "Willowfog tells Fishleg that she was worried about him. (low positive effect) - Fishleg was 77 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "242",
@@ -2341,6 +2380,32 @@
     {
         "cat_from_id": "242",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "242",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "242",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

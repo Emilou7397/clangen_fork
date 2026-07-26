@@ -1,29 +1,32 @@
 {
-    "injuries": {
-        "tick bites": {
-            "severity": "minor",
+    "illnesses": {
+        "grief stricken": {
+            "severity": "major",
             "mortality": 0,
-            "duration": 2,
-            "moon_start": 158,
-            "illness_infectiousness": [],
+            "infectiousness": 0,
+            "duration": 0,
+            "moon_start": 160,
             "risks": [
                 {
-                    "name": "an infected wound",
-                    "chance": 52
+                    "name": "lasting grief",
+                    "chance": 117
                 },
                 {
-                    "name": "tick fever",
-                    "chance": 72
+                    "name": "constant nightmares",
+                    "chance": 32
+                },
+                {
+                    "name": "selective mutism",
+                    "chance": 167
                 }
             ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": []
-        },
+            "event_triggered": true
+        }
+    },
+    "injuries": {
         "poisoned": {
             "severity": "major",
-            "mortality": 15,
+            "mortality": 21,
             "duration": 2,
             "moon_start": 159,
             "illness_infectiousness": [],

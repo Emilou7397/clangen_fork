@@ -32,13 +32,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": -10,
         "comfort": 12,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Weedpaw was 7 moons old"
+            "Heavythud, Weedpaw, Avocetpaw, Sardinespeckle, and Hollyheart blow off steam by stretching with and venting to each other. (positive effect) - Weedpaw was 7 moons old",
+            "Weedfur's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -773,14 +779,18 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": 5,
+        "respect": 10,
         "comfort": 10,
         "trust": 0,
         "log": [
             "Weedpaw saw Shimmerrunner telling stories to the kits. (positive effect) - Weedpaw was 9 moons old",
-            "Weedfur noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Weedfur was 12 moons old"
+            "Weedfur noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Weedfur was 12 moons old",
+            "Weedfur heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -789,13 +799,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Weedfur heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old"
+            "Weedfur heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old",
+            "Weedfur heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -888,13 +901,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Weedfur heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old"
+            "Weedfur heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old",
+            "Weedfur heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -955,13 +971,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Weedfur heard that Wasppelt chased a rogue off the territory. (positive effect) - Weedfur was 15 moons old"
+            "Weedfur heard that Wasppelt chased a rogue off the territory. (positive effect) - Weedfur was 15 moons old",
+            "Weedfur heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -1216,9 +1235,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Weedfur heard that Braveocean caught a rabbit from across the border. (negative effect) - Weedfur was 15 moons old"
+            "Weedfur heard that Braveocean caught a rabbit from across the border. (negative effect) - Weedfur was 15 moons old",
+            "Weedfur was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Weedfur was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1736,11 +1756,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Weedfur heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Weedfur was 17 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2061,13 +2086,16 @@
         "romance": 0,
         "like": -16,
         "respect": -9,
-        "comfort": -4,
+        "comfort": 8,
         "trust": -5,
         "log": [
             "Weedkit thinks Whitepaw looks nicer than him today. (low negative effect) - Weedkit was 5 moons old",
-            "The Clan can't believe the things Weedfur and Whitewhisker say to one another. (high negative effect) - Weedfur was 12 moons old"
+            "The Clan can't believe the things Weedfur and Whitewhisker say to one another. (high negative effect) - Weedfur was 12 moons old",
+            "Whitewhisker noticed Weedfur was struggling, and offered to help him. (medium positive effect) - Weedfur was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2198,10 +2226,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Weedfur heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2224,13 +2254,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Weedfur heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old"
+            "Weedfur heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Weedfur was 15 moons old",
+            "Weedfur heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Weedfur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2239,11 +2272,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Weedfur was scolded for something that Flintwhisker gets praised for. (medium negative effect) - Weedfur was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "243",
@@ -2556,6 +2593,32 @@
     {
         "cat_from_id": "243",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "243",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "243",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -391,10 +391,10 @@
         "cat_to_id": "48",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 3,
         "like": 8,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 3,
         "trust": 0,
         "log": [
             "Morelstreak heard about how Mossflight's patrol drove off a vixen. (positive effect) - Morelstreak was 97 moons old"
@@ -516,7 +516,7 @@
         "family": false,
         "romance": 0,
         "like": 11,
-        "respect": 21,
+        "respect": 8,
         "comfort": 13,
         "trust": 2,
         "log": [
@@ -525,7 +525,9 @@
             "Morelstreak can't believe how talented Skulkwillow is! (high positive effect) - Morelstreak was 90 moons old",
             "Morelstreak was excited to taste the Twoleg food that Skulkwillow stole on patrol. (positive effect) - Morelstreak was 90 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -563,13 +565,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Morelstreak heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Morelstreak was 82 moons old"
+            "Morelstreak heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Morelstreak was 82 moons old",
+            "Morelstreak's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -578,14 +583,17 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 12,
+        "respect": 25,
         "comfort": 11,
         "trust": 18,
         "log": [
             "Elmtrail lets Morelstreak know that a Clanmate was talking badly about him. (low positive effect) - Morelstreak was 99 moons old",
-            "Morelstreak notices a strange glint in Elmtrail's eyes. (low negative effect) - Morelstreak was 100 moons old"
+            "Morelstreak notices a strange glint in Elmtrail's eyes. (low negative effect) - Morelstreak was 100 moons old",
+            "Morelstreak can tell how brave Elmtrail is being about something important. (low positive effect) - Morelstreak was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -877,13 +885,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Morelstreak saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Morelstreak was 82 moons old"
+            "Morelstreak saw Shimmerrunner's patrol go out to hunt for the Clan despite the snow. (positive effect) - Morelstreak was 82 moons old",
+            "Morelstreak heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -892,16 +903,21 @@
         "family": false,
         "romance": 0,
         "like": 11,
-        "respect": -2,
+        "respect": 3,
         "comfort": 11,
         "trust": -11,
         "log": [
             "Dancingfleck was part of the patrol that invited Morel to RiverClan. (positive effect) - Morel was 68 moons old",
             "Morelstreak turned to Dancingfleck in a time of need, only for Dancingfleck to abandon him. (high negative effect) - Morelstreak was 90 moons old",
             "Brindlesplash, Morelstreak, and Dancingfleck had a nice talk while eating. (positive effect) - Morelstreak was 96 moons old",
-            "Morelstreak heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old"
+            "Morelstreak heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old",
+            "Morelstreak heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -1019,13 +1035,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Morelstreak and Daisymoor drove off rogues together. (positive effect) - Morelstreak was 78 moons old",
             "Morelstreak and Daisymoor stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Morelstreak was 81 moons old",
-            "Morelstreak heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old"
+            "Morelstreak heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old",
+            "Morelstreak heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1094,7 +1111,7 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 5,
+        "respect": 10,
         "comfort": 18,
         "trust": 15,
         "log": [
@@ -1103,9 +1120,15 @@
             "Morelstreak and Wasppelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Morelstreak was 81 moons old",
             "Morelstreak saw Wasppelt's patrol go out to hunt for the Clan despite the snow. (positive effect) - Morelstreak was 82 moons old",
             "Morelstreak learns some pelt-grooming techniques from Wasppelt, and tells Wasppelt some of his own. (low positive effect) - Morelstreak was 93 moons old",
-            "Morelstreak heard about how Wasppelt's patrol drove off a vixen. (positive effect) - Morelstreak was 97 moons old"
+            "Morelstreak heard about how Wasppelt's patrol drove off a vixen. (positive effect) - Morelstreak was 97 moons old",
+            "Morelstreak heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -1947,18 +1970,24 @@
         "family": false,
         "romance": 0,
         "like": 11,
-        "respect": 10,
+        "respect": 25,
         "comfort": 30,
-        "trust": 11,
+        "trust": 26,
         "log": [
             "Morelstreak and Hollyblossom had a fight over if they would take a new mate if one of them died or went missing. (medium negative effect) - Morelstreak was 78 moons old",
             "When a Clanmate asked Morelstreak about Hollyblossom, Morelstreak hissed angrily at them, saying he doesn't want to hear anything about that fox-heart again and they're no longer mates. - Morelstreak was 78 moons old",
             "Morelstreak heard a rumor that Hollyblossom likes someone else. (medium negative effect) - Morelstreak was 83 moons old",
             "Morelstreak respected Hollyblossom's intense work ethic during a patrol, even though it wore him out. (positive effect) - Morelstreak was 95 moons old",
             "Morelstreak was impressed by Hollyblossom's confidence in fighting rogues. (positive effect) - Morelstreak was 96 moons old",
-            "Hollyblossom rolls around in some herbs after hearing Morelstreak likes their smell. (high positive effect) - Morelstreak was 98 moons old"
+            "Hollyblossom rolls around in some herbs after hearing Morelstreak likes their smell. (high positive effect) - Morelstreak was 98 moons old",
+            "Morelstreak heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -2423,10 +2452,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Morelstreak heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2449,14 +2480,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Morelstreak heard about how Bluestripe's patrol drove off a vixen. (positive effect) - Morelstreak was 97 moons old",
-            "Morelstreak heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old"
+            "Morelstreak heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Morelstreak was 98 moons old",
+            "Morelstreak heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Morelstreak was 100 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -2635,12 +2669,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coatipaw says something in passing that Morelstreak keeps getting worked up about. (low negative effect) - Morelstreak was 101 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "192",
@@ -2777,6 +2815,32 @@
     {
         "cat_from_id": "192",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "192",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "192",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

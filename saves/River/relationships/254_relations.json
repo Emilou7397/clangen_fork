@@ -32,13 +32,19 @@
         "family": true,
         "romance": 0,
         "like": 46,
-        "respect": 44,
+        "respect": 34,
         "comfort": 76,
-        "trust": 74,
+        "trust": 64,
         "log": [
-            "Heavythud eats as ravenously as a wolverine and by the time he's done, Sardinespeckle, Daykit, and Poolleaf barely have the stomach to finish their own meals. (negative effect) - Daykit was 0 moons old"
+            "Heavythud eats as ravenously as a wolverine and by the time he's done, Sardinespeckle, Daykit, and Poolleaf barely have the stomach to finish their own meals. (negative effect) - Daykit was 0 moons old",
+            "Daypaw's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -740,11 +746,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Daypaw noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Daypaw was 8 moons old"
+            "Daypaw noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Daypaw was 8 moons old",
+            "Daypaw heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -755,13 +762,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Daypaw heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old"
+            "Daypaw heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old",
+            "Daypaw heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -854,13 +864,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Daypaw heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old"
+            "Daypaw heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old",
+            "Daypaw heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -921,13 +934,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Daypaw heard that Wasppelt chased a rogue off the territory. (positive effect) - Daypaw was 10 moons old"
+            "Daypaw heard that Wasppelt chased a rogue off the territory. (positive effect) - Daypaw was 10 moons old",
+            "Daypaw heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1137,9 +1153,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Daypaw heard that Braveocean caught a rabbit from across the border. (negative effect) - Daypaw was 11 moons old"
+            "Daypaw heard that Braveocean caught a rabbit from across the border. (negative effect) - Daypaw was 11 moons old",
+            "Daypaw was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Daypaw was 13 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1165,9 +1182,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 3,
         "log": [
-            "Daypaw heard Shiveringdusk fell asleep guarding camp. (negative effect) - Daypaw was 9 moons old"
+            "Daypaw heard Shiveringdusk fell asleep guarding camp. (negative effect) - Daypaw was 9 moons old",
+            "Shiveringdusk tells Daypaw that she was worried about her. (low positive effect) - Daypaw was 14 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1651,11 +1669,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Daypaw heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Daypaw was 13 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1663,14 +1686,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 7,
+        "like": -1,
         "respect": 7,
-        "comfort": 21,
+        "comfort": 13,
         "trust": 8,
         "log": [
-            "Daypaw and Lionheart spend a few minutes complimenting one another. (high positive effect) - Daypaw was 11 moons old"
+            "Daypaw and Lionheart spend a few minutes complimenting one another. (high positive effect) - Daypaw was 11 moons old",
+            "Lionheart eats as ravenously as a wolverine and by the time she's done, Egretpaw, Deltapaw, Daypaw, and Coatipaw barely have the stomach to finish their own meals. (negative effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -1799,15 +1827,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": -12,
+        "respect": 2,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Daypaw heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Daypaw was 9 moons old",
-            "Daypaw heard that Avocetear touched noses with a rogue. (negative effect) - Daypaw was 12 moons old"
+            "Daypaw heard that Avocetear touched noses with a rogue. (negative effect) - Daypaw was 12 moons old",
+            "Daypaw, Deltapaw, Coatipaw, and Icepaw bemoan Avocetear's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Avocetear likes it. (negative effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2057,14 +2089,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -13,
+        "like": -5,
         "respect": 0,
         "comfort": -13,
-        "trust": 0,
+        "trust": 8,
         "log": [
             "Daypaw keeps asking Avocetpaw to explain a joke, but Avocetpaw just says that Daypaw had to be there. (low negative effect) - Daypaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2101,10 +2135,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Daypaw heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2140,13 +2176,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Daypaw heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old"
+            "Daypaw heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Daypaw was 11 moons old",
+            "Daypaw heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Daypaw was 13 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2385,11 +2424,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "254",
@@ -2448,6 +2489,32 @@
     {
         "cat_from_id": "254",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "254",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

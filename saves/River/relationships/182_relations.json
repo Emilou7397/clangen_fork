@@ -39,13 +39,18 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Kinkdapple and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old"
+            "Kinkdapple and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Kinkdapple was 19 moons old",
+            "Kinkdapple's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -908,11 +913,12 @@
         "romance": 0,
         "like": -4,
         "respect": -15,
-        "comfort": 8,
+        "comfort": 5,
         "trust": 0,
         "log": [
             "Hailfreckle, Amberfur, and Kinkdapple had a nice talk while eating. (positive effect) - Kinkdapple was 17 moons old",
-            "Hailfreckle returned to the warrior's den dripping mud everywhere and managed to ruin Hushshimmer, Kinkdapple, and Poppybriar's nests. (negative effect) - Kinkdapple was 34 moons old"
+            "Hailfreckle returned to the warrior's den dripping mud everywhere and managed to ruin Hushshimmer, Kinkdapple, and Poppybriar's nests. (negative effect) - Kinkdapple was 34 moons old",
+            "Late at night, Kinkdapple finds Hailfreckle sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Kinkdapple was 38 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -923,15 +929,19 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": 7,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Kinkdapple didn't tell Shimmerrunner about the feather stuck to her face, so Shimmerrunner spent the whole day looking silly. (low negative effect) - Kinkdapple was 16 moons old",
             "Kinkdapple has a mock battle with Shimmerrunner. (medium positive effect) - Kinkdapple was 28 moons old",
-            "Kinkdapple noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Kinkdapple was 32 moons old"
+            "Kinkdapple noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Kinkdapple was 32 moons old",
+            "Kinkdapple heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -940,14 +950,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 17,
         "log": [
             "Kinkdapple offers to take Dancingfleck's place on a patrol when he isn't feeling well. (medium positive effect) - Kinkdapple was 32 moons old",
-            "Kinkdapple heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1076,14 +1090,17 @@
         "family": false,
         "romance": 13,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Kinkdapple is prancing around in front of Daisymoor. (low positive effect) - Kinkdapple was 35 moons old",
-            "Kinkdapple heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1174,13 +1191,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Kinkdapple heard that Wasppelt chased a rogue off the territory. (positive effect) - Kinkdapple was 34 moons old"
+            "Kinkdapple heard that Wasppelt chased a rogue off the territory. (positive effect) - Kinkdapple was 34 moons old",
+            "Kinkdapple heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1461,14 +1481,17 @@
         "mates": true,
         "family": false,
         "romance": 20,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 20,
+        "comfort": 25,
         "trust": 5,
         "log": [
-            "Kinkdapple heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Kinkdapple was 16 moons old"
+            "Kinkdapple heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Kinkdapple was 16 moons old",
+            "Kinkdapple and Midnighthaze trained and caught up with each other. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1479,14 +1502,19 @@
         "like": 10,
         "respect": 5,
         "comfort": 10,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Kinkdapple gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Kinkdapple was 16 moons old",
             "Kinkdapple and Braveocean were reminded of each other's competence while training together. (positive effect) - Kinkdapple was 32 moons old",
             "Kinkdapple and Braveocean had a productive training patrol together. (positive effect) - Kinkdapple was 34 moons old",
-            "Kinkdapple heard that Braveocean caught a rabbit from across the border. (negative effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard that Braveocean caught a rabbit from across the border. (negative effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1746,18 +1774,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": -20,
-        "comfort": -5,
+        "comfort": 0,
         "trust": -10,
         "log": [
             "Kinkdapple and Shinebelly avoided each other after an unpleasant training patrol. (negative effect) - Kinkdapple was 14 moons old",
             "Kinkdapple heard that Shinebelly trespassed on another Clan's territory. (negative effect) - Kinkdapple was 16 moons old",
             "Kinkdapple disapproved of Shinebelly wearing a collar. (negative effect) - Kinkdapple was 19 moons old",
             "Kinkdapple heard Shinebelly fell asleep guarding camp. (negative effect) - Kinkdapple was 21 moons old",
-            "Kinkdapple heard that Shinebelly played with a kittypet on RiverClan's border. (negative effect) - Kinkdapple was 34 moons old"
+            "Kinkdapple heard that Shinebelly played with a kittypet on RiverClan's border. (negative effect) - Kinkdapple was 34 moons old",
+            "Kinkdapple and Shinebelly trained and caught up with each other. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -1985,9 +2017,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 74,
+        "like": 79,
         "respect": 11,
-        "comfort": 58,
+        "comfort": 63,
         "trust": 29,
         "log": [
             "Nymphshine's eagerness to do early morning stretches rubs off on Dustpaw, Howlpaw, Kinkpaw, and Ashenpaw. (positive effect) - Kinkpaw was 9 moons old",
@@ -2001,9 +2033,15 @@
             "Kinkdapple and Howlsky were reminded of each other's competence while training together. (positive effect) - Kinkdapple was 32 moons old",
             "Kinkdapple and Howlsky took a lovely nap together instead of patrolling. (positive effect) - Kinkdapple was 33 moons old",
             "Kinkdapple and Howlsky had a productive training patrol together. (positive effect) - Kinkdapple was 34 moons old",
-            "Kinkdapple heard about how Howlsky's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard about how Howlsky's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple and Howlsky trained and caught up with each other. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2067,17 +2105,23 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
+        "like": 20,
         "respect": 23,
-        "comfort": 30,
+        "comfort": 35,
         "trust": 15,
         "log": [
             "Auburnsplash has noticed tensions in the Clan, so she organizes time for Ashenkit, Kinkkit, Brindlekit, and Brinerump to relax and have others to talk to. (positive effect) - Kinkkit was 4 moons old",
             "Kinkpaw and Brindlepaw took turns playing prey and hunter to help each other practice hunting. (positive effect) - Kinkpaw was 10 moons old",
             "Kinkdapple and Brindlesplash took a lovely nap together instead of patrolling. (positive effect) - Kinkdapple was 33 moons old",
-            "Kinkdapple was impressed by Brindlesplash's battle with a skua. (positive effect) - Kinkdapple was 36 moons old"
+            "Kinkdapple was impressed by Brindlesplash's battle with a skua. (positive effect) - Kinkdapple was 36 moons old",
+            "Kinkdapple and Brindlesplash trained and caught up with each other. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2190,13 +2234,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 8,
+        "respect": 23,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Kinkdapple and Hollyblossom work together to lead a scary bug out of the camp. (low positive effect) - Kinkdapple was 12 moons old"
+            "Kinkdapple and Hollyblossom work together to lead a scary bug out of the camp. (low positive effect) - Kinkdapple was 12 moons old",
+            "Kinkdapple heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2675,13 +2723,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": -17,
         "trust": 0,
         "log": [
-            "Kinkdapple was rudely awoken by Silkroot. (medium negative effect) - Kinkdapple was 25 moons old"
+            "Kinkdapple was rudely awoken by Silkroot. (medium negative effect) - Kinkdapple was 25 moons old",
+            "Kinkdapple heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2703,13 +2754,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Kinkdapple heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Kinkdapple was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -2928,16 +2982,20 @@
         "cat_to_id": "269",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
+        "romance": 3,
+        "like": 10,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 5,
         "log": [
             "Kinkdapple and Vida had a productive training patrol together. (positive effect) - Kinkdapple was 34 moons old",
-            "Kinkdapple heard about how Vida's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old"
+            "Kinkdapple heard about how Vida's patrol drove a vixen out of their territory. (positive effect) - Kinkdapple was 35 moons old",
+            "Kinkdapple and Vida trained and caught up with each other. (positive effect) - Kinkdapple was 37 moons old",
+            "Kinkdapple is prancing around in front of Vida. (low positive effect) - Kinkdapple was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "182",
@@ -3038,6 +3096,32 @@
     {
         "cat_from_id": "182",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "182",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

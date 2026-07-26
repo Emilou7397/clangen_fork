@@ -1,4 +1,35 @@
 {
+    "injuries": {
+        "joint pain": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 0,
+            "moon_start": 160,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": true,
+            "potential_scars": null
+        },
+        "shock": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 160,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "lingering shock",
+                    "chance": 60
+                }
+            ],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -10,11 +41,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 56
+                    "chance": 64
                 },
                 {
                     "name": "joint pain",
-                    "chance": 76
+                    "chance": 104
                 }
             ],
             "complication": null,

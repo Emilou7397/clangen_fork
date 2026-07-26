@@ -1308,16 +1308,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 13,
+        "like": -12,
+        "respect": 3,
         "comfort": 12,
-        "trust": 0,
+        "trust": -10,
         "log": [
             "When tucking in for the night, Quailfur saw that Heavypaw fixed his nest. (low positive effect)- Quailfur was 51 moons old",
             "Quailfur drops into the medicine den to ask Heavythud if he's eaten yet. (medium positive effect) - Quailfur was 88 moons old",
-            "Quailfur heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 110 moons old"
+            "Quailfur heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Quailfur was 110 moons old",
+            "Quailfur's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Quailfur was 128 moons old",
+            "Heavythud makes a crude remark about the Clan to Quailfur. (medium negative effect) - Quailfur was 129 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust",
+            "like"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1732,13 +1738,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Quailfur and Shimmerrunner share stories of a Clanmate they didn't realize they both miss. (medium positive effect) - Quailfur was 116 moons old"
+            "Quailfur and Shimmerrunner share stories of a Clanmate they didn't realize they both miss. (medium positive effect) - Quailfur was 116 moons old",
+            "Quailfur heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1760,15 +1769,21 @@
         "family": false,
         "romance": 0,
         "like": 62,
-        "respect": 64,
+        "respect": 69,
         "comfort": 60,
         "trust": 78,
         "log": [
             "Quailfur visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Quailfur was 49 moons old",
             "Quailfur and Dancingfleck successfully hunted ground squirrels together. (positive effect) - Quailfur was 69 moons old",
-            "Quailfur heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old"
+            "Quailfur heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old",
+            "Quailfur heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1865,7 +1880,7 @@
         "romance": 0,
         "like": 8,
         "respect": 8,
-        "comfort": 8,
+        "comfort": 0,
         "trust": -8,
         "log": [
             "Oddmuzzle, Prancelaurel, and Quailfur had a nice talk while eating. (positive effect) - Quailfur was 85 moons old"
@@ -1908,14 +1923,18 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Quailfur laughed at Daisymoor for making a mistake on a patrol. (medium negative effect) - Quailfur was 70 moons old",
-            "Quailfur heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old"
+            "Quailfur heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old",
+            "Quailfur heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -1972,13 +1991,17 @@
         "family": false,
         "romance": 0,
         "like": 4,
-        "respect": 16,
+        "respect": 21,
         "comfort": 6,
         "trust": 4,
         "log": [
-            "Quailfur can't believe how talented Waspkit is! (high positive effect) - Quailfur was 68 moons old"
+            "Quailfur can't believe how talented Waspkit is! (high positive effect) - Quailfur was 68 moons old",
+            "Quailfur heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -2612,8 +2635,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -21,
-        "respect": -10,
+        "like": -18,
+        "respect": -7,
         "comfort": -21,
         "trust": -7,
         "log": [
@@ -2621,9 +2644,15 @@
             "Pigmentpelt was complimented by another Clan during the recent Gathering, but Quailfur wasn't. (medium negative effect) - Quailfur was 85 moons old",
             "Quailfur sighs at the mere mention of Pigmentpelt. (high negative effect) - Quailfur was 102 moons old",
             "Quailfur approved of Pigmentpelt's plan to pick off ground squirrels and enjoyed a successful hunt. (positive effect) - Quailfur was 124 moons old",
-            "Pigmentpelt won't tell Quailfur what she finds so funny. (medium negative effect) - Quailfur was 126 moons old"
+            "Pigmentpelt won't tell Quailfur what she finds so funny. (medium negative effect) - Quailfur was 126 moons old",
+            "Quailfur was impressed by Pigmentpelt's quick reflexes on a hunting patrol. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3007,16 +3036,19 @@
         "like": 6,
         "respect": 11,
         "comfort": -17,
-        "trust": 24,
+        "trust": 7,
         "log": [
             "Quailfur took down a gannet thanks to excellent teamwork with Jademuzzle. (positive effect) - Quailfur was 101 moons old",
             "Jademuzzle took down a gannet thanks to excellent teamwork with Quailfur. (positive effect) - Quailfur was 101 moons old",
             "Quailfur accuses Jademuzzle of stealing something. (medium negative effect) - Quailfur was 104 moons old",
             "Jademuzzle pulled an embarrassing prank on Quailfur's friend. (low negative effect) - Quailfur was 120 moons old",
             "Quailfur is talking with Jademuzzle. (low positive effect) - Quailfur was 122 moons old",
-            "Jademuzzle does something that makes Quailfur's day a little happier. (low positive effect) - Quailfur was 125 moons old"
+            "Jademuzzle does something that makes Quailfur's day a little happier. (low positive effect) - Quailfur was 125 moons old",
+            "Quailfur thinks that Jademuzzle spread a rumor about him. (medium negative effect) - Quailfur was 129 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3025,13 +3057,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 5,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Quailfur and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old"
+            "Quailfur and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Quailfur was 114 moons old",
+            "Quailfur heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3501,10 +3537,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Quailfur heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3527,13 +3565,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Quailfur heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old"
+            "Quailfur heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Quailfur was 126 moons old",
+            "Quailfur heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Quailfur was 128 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "35",
@@ -3860,6 +3901,32 @@
     {
         "cat_from_id": "35",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "35",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

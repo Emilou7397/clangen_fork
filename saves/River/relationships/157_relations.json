@@ -39,13 +39,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Coconutocean heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coconutocean was 35 moons old"
+            "Coconutocean heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coconutocean was 35 moons old",
+            "Coconutocean's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1129,14 +1132,18 @@
         "family": false,
         "romance": 0,
         "like": 7,
-        "respect": -5,
+        "respect": 0,
         "comfort": 25,
         "trust": 0,
         "log": [
             "Shimmerrunner, Warmswirl, Flightsplash, Coconutpaw, and Anteaterspot blow off steam by stretching with and venting to each other. (positive effect) - Coconutpaw was 9 moons old",
-            "Coconutocean noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Coconutocean was 48 moons old"
+            "Coconutocean noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Coconutocean was 48 moons old",
+            "Coconutocean heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1160,13 +1167,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Coconutocean heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old"
+            "Coconutocean heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old",
+            "Coconutocean heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1299,7 +1309,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": -20,
         "trust": -5,
@@ -1308,7 +1318,9 @@
             "After the Clan finds a strange object, Coconutocean notes that Antlerthorn has been a little too fascinated with it. (low negative effect) - Coconutocean was 49 moons old",
             "Coconutocean heard Antlerthorn fell asleep guarding camp. (negative effect) - Coconutocean was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1317,14 +1329,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": -13,
         "log": [
             "Daisymoor won't tell Coconutocean what she ate this morning. (low negative effect) - Coconutocean was 20 moons old",
-            "Coconutocean heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old"
+            "Coconutocean heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old",
+            "Coconutocean heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1419,14 +1435,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": -13,
         "trust": -8,
         "log": [
             "Wasppelt won't tell Coconutocean what they ate this morning. (low negative effect) - Coconutocean was 38 moons old",
-            "Coconutocean heard that Wasppelt chased a rogue off the territory. (positive effect) - Coconutocean was 50 moons old"
+            "Coconutocean heard that Wasppelt chased a rogue off the territory. (positive effect) - Coconutocean was 50 moons old",
+            "Coconutocean heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1590,12 +1611,15 @@
         "romance": 0,
         "like": 8,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 7,
         "trust": -13,
         "log": [
-            "Gorgehunt keeps asking Coconutocean if she trusts her. (low negative effect) - Coconutocean was 53 moons old"
+            "Gorgehunt keeps asking Coconutocean if she trusts her. (low negative effect) - Coconutocean was 53 moons old",
+            "Coconutocean basks in the sun with Gorgehunt. (medium positive effect) - Coconutocean was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -1768,14 +1792,18 @@
         "like": -9,
         "respect": -7,
         "comfort": 0,
-        "trust": 5,
+        "trust": 0,
         "log": [
             "Coconutpaw heard that Braveocean seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Coconutpaw was 11 moons old",
             "Braveocean tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Silkymunch and Coconutocean. (negative effect) - Coconutocean was 27 moons old",
             "Coconutocean gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Coconutocean was 32 moons old",
-            "Coconutocean heard that Braveocean caught a rabbit from across the border. (negative effect) - Coconutocean was 51 moons old"
+            "Coconutocean heard that Braveocean caught a rabbit from across the border. (negative effect) - Coconutocean was 51 moons old",
+            "Coconutocean was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -2498,13 +2526,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 15,
         "comfort": 12,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Coconutocean, Pheasantbrush, Moletooth, Hollyheart, and Hollyblossom blow off steam by stretching with and venting to each other. (positive effect) - Coconutocean was 34 moons old"
+            "Coconutocean, Pheasantbrush, Moletooth, Hollyheart, and Hollyblossom blow off steam by stretching with and venting to each other. (positive effect) - Coconutocean was 34 moons old",
+            "Coconutocean heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -2592,9 +2626,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -7,
+        "log": [
+            "Coconutocean thinks that Softspring spread a rumor about her. (medium negative effect) - Coconutocean was 54 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -2833,12 +2871,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -2977,10 +3017,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Coconutocean heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3003,13 +3045,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Coconutocean heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old"
+            "Coconutocean heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Coconutocean was 51 moons old",
+            "Coconutocean heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Coconutocean was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "157",
@@ -3336,6 +3381,32 @@
     {
         "cat_from_id": "157",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "157",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "157",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

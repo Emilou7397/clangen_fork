@@ -211,12 +211,14 @@
         "cat_to_id": "28",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Galepelt is prancing around in front of Prancelaurel. (low positive effect) - Galepelt was 120 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -424,13 +426,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 2,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Galepelt notices that Heavythud is trying really hard to be a great medicine cat. (medium positive effect) - Galepelt was 116 moons old"
+            "Galepelt notices that Heavythud is trying really hard to be a great medicine cat. (medium positive effect) - Galepelt was 116 moons old",
+            "Galepelt's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -631,11 +636,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Galepelt noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Galepelt was 114 moons old"
+            "Galepelt noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Galepelt was 114 moons old",
+            "Galepelt heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -646,14 +652,20 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 5,
+        "respect": 10,
         "comfort": 18,
         "trust": 10,
         "log": [
             "Dancingfleck was part of the patrol that invited Galepelt to RiverClan. (positive effect) - Galepelt was 112 moons old",
-            "Galepelt heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old"
+            "Galepelt heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old",
+            "Galepelt heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -749,13 +761,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Galepelt heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old"
+            "Galepelt heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old",
+            "Galepelt heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -816,13 +831,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Galepelt heard that Wasppelt chased a rogue off the territory. (positive effect) - Galepelt was 117 moons old"
+            "Galepelt heard that Wasppelt chased a rogue off the territory. (positive effect) - Galepelt was 117 moons old",
+            "Galepelt heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1008,9 +1026,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Galepelt heard that Braveocean caught a rabbit from across the border. (negative effect) - Galepelt was 117 moons old"
+            "Galepelt heard that Braveocean caught a rabbit from across the border. (negative effect) - Galepelt was 117 moons old",
+            "Galepelt was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Galepelt was 120 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1051,8 +1070,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Galepelt was impressed when Poppybriar drove rogues off the territory. (positive effect) - Galepelt was 119 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1426,11 +1447,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Galepelt heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Galepelt was 119 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1757,10 +1783,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1782,10 +1810,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Galepelt heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1821,13 +1851,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": -8,
         "trust": 0,
         "log": [
-            "Galepelt heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old"
+            "Galepelt heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Galepelt was 117 moons old",
+            "Galepelt heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -2106,12 +2140,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -7,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Galepelt prays that she isn't on patrol with Willowfog tomorrow. (medium negative effect) - Galepelt was 120 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -2131,6 +2169,32 @@
     {
         "cat_from_id": "260",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

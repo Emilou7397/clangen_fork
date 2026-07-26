@@ -476,13 +476,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Shorekit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old"
+            "Shorekit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Shorekit was 4 moons old",
+            "Shorefrill's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Shorefrill was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -492,12 +495,15 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Shorefrill heard that Elmtrail chased a kittypet off the territory. (positive effect) - Shorefrill was 21 moons old"
+            "Shorefrill heard that Elmtrail chased a kittypet off the territory. (positive effect) - Shorefrill was 21 moons old",
+            "The Clan notices Shorefrill and Elmtrail share patrols more often. (medium positive effect) - Shorefrill was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -743,11 +749,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shorefrill noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Shorefrill was 17 moons old"
+            "Shorefrill noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Shorefrill was 17 moons old",
+            "Shorefrill heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -758,13 +765,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shorefrill heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old"
+            "Shorefrill heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old",
+            "Shorefrill heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -855,13 +865,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shorefrill heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old"
+            "Shorefrill heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old",
+            "Shorefrill heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -924,14 +937,17 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -3,
+        "respect": 2,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Wasppelt complained about their patrol assignment all day, much to the annoyance of Stagpaw, Skypaw, Caterpillarpaw, and Shorepaw. (negative effect) - Shorepaw was 8 moons old",
-            "Shorefrill heard that Wasppelt chased a rogue off the territory. (positive effect) - Shorefrill was 19 moons old"
+            "Shorefrill heard that Wasppelt chased a rogue off the territory. (positive effect) - Shorefrill was 19 moons old",
+            "Shorefrill heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1190,9 +1206,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Shorefrill heard that Braveocean caught a rabbit from across the border. (negative effect) - Shorefrill was 20 moons old"
+            "Shorefrill heard that Braveocean caught a rabbit from across the border. (negative effect) - Shorefrill was 20 moons old",
+            "Shorefrill was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Shorefrill was 22 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1481,11 +1498,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Shorefrill was impressed by how Dustnose invented a new battle move for rescuing injured Clanmates in the midst of battle. (positive effect) - Shorefrill was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1652,11 +1674,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Shorefrill heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Shorefrill was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -1901,13 +1928,17 @@
         "cat_to_id": "235",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 8,
         "respect": 0,
         "comfort": 8,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Shorefrill can't help but admire Wheatstorm's pelt. (low positive effect) - Shorefrill was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -2062,10 +2093,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Shorefrill heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2088,13 +2121,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Shorefrill heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old"
+            "Shorefrill heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Shorefrill was 20 moons old",
+            "Shorefrill heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Shorefrill was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "233",
@@ -2420,6 +2456,32 @@
     {
         "cat_from_id": "233",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "233",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

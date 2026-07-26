@@ -566,10 +566,10 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 86,
-        "respect": 25,
-        "comfort": 52,
-        "trust": -5,
+        "like": 100,
+        "respect": 30,
+        "comfort": 56,
+        "trust": 0,
         "log": [
             "Harefeather, Ochretail, and Pebblechase took a sunbath and had a little small talk. (positive effect)- Pebblechase was 44 moons old",
             "Pebblechase heard Harefeather fell asleep guarding camp. (negative effect)- Pebblechase was 51 moons old",
@@ -583,9 +583,14 @@
             "Late into the evening, Onemuzzle invites Fluttershade, Harefeather, Hailpaw, and Pebblechase to stretch with them and enjoy each other's company. (positive effect)- Pebblechase was 98 moons old",
             "Harefeather's eagerness to do early morning stretches rubs off on Pearpelt, Pebblechase, Fidgetmouse, and Ospreypaw. (positive effect) - Pebblechase was 117 moons old",
             "Pebblechase and Harefeather worked together to gather plantain. (positive effect) - Pebblechase was 124 moons old",
-            "Harefeather tracked a trail of muddy pawprints into the elder's den, straight through the nests of Pebblechase and Fidgetmouse. (negative effect) - Pebblechase was 152 moons old"
+            "Harefeather tracked a trail of muddy pawprints into the elder's den, straight through the nests of Pebblechase and Fidgetmouse. (negative effect) - Pebblechase was 152 moons old",
+            "The first one to panic when Harefeather gets hurt is always Pebblechase. (high positive effect) - Pebblechase was 170 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -1529,15 +1534,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -3,
+        "respect": -13,
         "comfort": 3,
-        "trust": 6,
+        "trust": -4,
         "log": [
             "Heavykit follows through on a small promise made with Pebblechase. (low positive effect)- Pebblechase was 80 moons old",
             "Pebblechase heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Pebblechase was 151 moons old",
-            "Pebblechase doesn't tell Heavythud that he forgot to groom a part of his fur. (low negative effect) - Pebblechase was 157 moons old"
+            "Pebblechase doesn't tell Heavythud that he forgot to groom a part of his fur. (low negative effect) - Pebblechase was 157 moons old",
+            "Pebblechase's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2022,15 +2030,19 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -21,
+        "respect": -16,
         "comfort": -12,
         "trust": 0,
         "log": [
             "Gentlepaw, Shimmerpaw, Dancingpaw, and Daisypaw are too busy goofing off to listen to Pebblechase's advice. (negative effect)- Pebblechase was 103 moons old",
             "Pebblechase finds the way Shimmerrunner acts increasingly uncomfortable. (medium negative effect) - Pebblechase was 131 moons old",
-            "Pebblechase noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Pebblechase was 164 moons old"
+            "Pebblechase noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Pebblechase was 164 moons old",
+            "Pebblechase heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2052,7 +2064,7 @@
         "family": false,
         "romance": 0,
         "like": 58,
-        "respect": -14,
+        "respect": -9,
         "comfort": 14,
         "trust": 16,
         "log": [
@@ -2060,9 +2072,15 @@
             "No matter how many warning looks Creekmoss, Pebblechase, and Flightsplash send him, Dancingfleck keeps talking over the Gathering announcements. (negative effect) - Pebblechase was 128 moons old",
             "Pebblechase is fascinated by one of Dancingfleck's stories. (medium positive effect) - Pebblechase was 153 moons old",
             "Dancingfleck points out that Pebblechase's fresh-kill has gone bad before he eats it. (medium positive effect) - Pebblechase was 154 moons old",
-            "Pebblechase heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old"
+            "Pebblechase heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old",
+            "Pebblechase heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2129,13 +2147,15 @@
         "romance": 0,
         "like": -2,
         "respect": 10,
-        "comfort": -11,
-        "trust": -1,
+        "comfort": -3,
+        "trust": 7,
         "log": [
             "During a conversation with Hollyheart, Pebblechase says something too bluntly. (high negative effect) - Pebblechase was 105 moons old",
             "Pebblechase overhears Hollyheart educating Clanmates about their fallen ancestors. (high positive effect) - Pebblechase was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2218,14 +2238,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -11,
+        "respect": -6,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Gentlepaw, Shimmerpaw, Dancingpaw, and Daisypaw are too busy goofing off to listen to Pebblechase's advice. (negative effect)- Pebblechase was 103 moons old",
-            "Pebblechase heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old"
+            "Pebblechase heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old",
+            "Pebblechase heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2281,14 +2304,17 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": -8,
+        "respect": -3,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Pebblechase notices that Waspkit overslept. (low negative effect) - Pebblechase was 108 moons old",
-            "Pebblechase heard that Wasppelt chased a rogue off the territory. (positive effect) - Pebblechase was 166 moons old"
+            "Pebblechase heard that Wasppelt chased a rogue off the territory. (positive effect) - Pebblechase was 166 moons old",
+            "Pebblechase heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -2617,12 +2643,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 0,
         "respect": 0,
         "comfort": 12,
         "trust": 0,
         "log": [
-            "Jasminesprout, Midnighthaze, Pebblechase, Swallowstripe, and Fringesnap blow off steam by stretching with and venting to each other. (positive effect) - Pebblechase was 134 moons old"
+            "Jasminesprout, Midnighthaze, Pebblechase, Swallowstripe, and Fringesnap blow off steam by stretching with and venting to each other. (positive effect) - Pebblechase was 134 moons old",
+            "Pebblechase and Midnighthaze make fun of one another, but it sounds more like insults than playful banter. (medium negative effect) - Pebblechase was 170 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2635,10 +2662,11 @@
         "like": -5,
         "respect": 5,
         "comfort": 0,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Pebblechase gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Pebblechase was 148 moons old",
-            "Pebblechase heard that Braveocean caught a rabbit from across the border. (negative effect) - Pebblechase was 167 moons old"
+            "Pebblechase heard that Braveocean caught a rabbit from across the border. (negative effect) - Pebblechase was 167 moons old",
+            "Pebblechase was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Pebblechase was 169 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3329,11 +3357,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Pebblechase heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Pebblechase was 169 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -3808,10 +3841,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Pebblechase heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3834,13 +3869,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Pebblechase heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old"
+            "Pebblechase heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Pebblechase was 167 moons old",
+            "Pebblechase heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Pebblechase was 169 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "201",
@@ -4176,6 +4214,32 @@
     {
         "cat_from_id": "201",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "201",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

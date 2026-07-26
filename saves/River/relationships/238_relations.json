@@ -36,13 +36,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Edelweisskit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Edelweisskit was 0 moons old"
+            "Edelweisskit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Edelweisskit was 0 moons old",
+            "Edelweisstree's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -524,13 +527,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 8,
-        "comfort": 0,
+        "respect": 16,
+        "comfort": 8,
         "trust": 0,
         "log": [
             "Diablofoot's good morning to Edelweisspaw meant a lot to him. (low positive effect) - Edelweisspaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -785,11 +791,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Edelweisstree noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Edelweisstree was 13 moons old"
+            "Edelweisstree noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Edelweisstree was 13 moons old",
+            "Edelweisstree heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -800,13 +807,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Edelweisstree heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old"
+            "Edelweisstree heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old",
+            "Edelweisstree heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -897,13 +907,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Edelweisstree heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old"
+            "Edelweisstree heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old",
+            "Edelweisstree heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -964,13 +977,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Edelweisstree heard that Wasppelt chased a rogue off the territory. (positive effect) - Edelweisstree was 15 moons old"
+            "Edelweisstree heard that Wasppelt chased a rogue off the territory. (positive effect) - Edelweisstree was 15 moons old",
+            "Edelweisstree heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -1229,9 +1245,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Edelweisstree heard that Braveocean caught a rabbit from across the border. (negative effect) - Edelweisstree was 16 moons old"
+            "Edelweisstree heard that Braveocean caught a rabbit from across the border. (negative effect) - Edelweisstree was 16 moons old",
+            "Edelweisstree was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Edelweisstree was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1760,13 +1777,18 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": 12,
+        "respect": 27,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Caterpillarpaw, Branchpaw, Edelweisspaw, and Wheatpaw respect how dutiful Hollyblossom is to training, but they all wish they weren't up doing stretches at dawn. (negative effect) - Edelweisspaw was 6 moons old"
+            "Caterpillarpaw, Branchpaw, Edelweisspaw, and Wheatpaw respect how dutiful Hollyblossom is to training, but they all wish they weren't up doing stretches at dawn. (negative effect) - Edelweisspaw was 6 moons old",
+            "Edelweisstree heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -1856,12 +1878,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -6,
+        "comfort": -16,
+        "trust": -6,
+        "log": [
+            "During a conversation with Electronegativity, Edelweisstree says something too bluntly. (high negative effect) - Edelweisstree was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2111,18 +2139,25 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 70,
-        "respect": 10,
-        "comfort": 52,
-        "trust": 53,
+        "like": 72,
+        "respect": 7,
+        "comfort": 37,
+        "trust": 38,
         "log": [
             "Edelweisskit gets some good advice from Waterkit about something trivial. (low positive effect) - Edelweisskit was 3 moons old",
             "Edelweisspaw and Waterpaw enjoyed practicing new battle moves together. (positive effect) - Edelweisspaw was 8 moons old",
             "Edelweisstree and Waterheart practiced their hunting together. (positive effect) - Edelweisstree was 12 moons old",
             "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Edelweisstree was 15 moons old",
-            "Edelweisstree grew irritated at Waterheart while on a patrol and didn't accomplish much. (negative effect) - Edelweisstree was 17 moons old"
+            "Edelweisstree grew irritated at Waterheart while on a patrol and didn't accomplish much. (negative effect) - Edelweisstree was 17 moons old",
+            "Edelweisstree felt offended when Waterheart appeared to be challenging his loyalty during a training patrol. (negative effect) - Edelweisstree was 18 moons old",
+            "Edelweisstree thinks Waterheart is so much braver than him. (medium positive effect) - Edelweisstree was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2232,13 +2267,18 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -7,
+        "respect": -2,
         "comfort": -21,
         "trust": -8,
         "log": [
-            "Edelweisstree swore he saw Silkroot burying something. (high negative effect) - Edelweisstree was 17 moons old"
+            "Edelweisstree swore he saw Silkroot burying something. (high negative effect) - Edelweisstree was 17 moons old",
+            "Edelweisstree heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2260,13 +2300,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Edelweisstree heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old"
+            "Edelweisstree heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Edelweisstree was 16 moons old",
+            "Edelweisstree heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Edelweisstree was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2290,7 +2333,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": -15,
@@ -2298,7 +2341,9 @@
             "Edelweisstree was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Edelweisstree was 14 moons old",
             "Edelweisstree grew irritated at Dashshimmer while on a patrol and didn't accomplish much. (negative effect) - Edelweisstree was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "238",
@@ -2596,6 +2641,32 @@
     {
         "cat_from_id": "238",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "238",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "238",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

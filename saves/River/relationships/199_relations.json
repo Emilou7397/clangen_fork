@@ -38,12 +38,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 13,
+        "trust": 3,
         "log": [
             "Flightpaw heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Flightpaw was 13 moons old",
-            "Heavythud lets Flightspot know that a Clanmate was talking badly about him. (low positive effect) - Flightspot was 15 moons old"
+            "Heavythud lets Flightspot know that a Clanmate was talking badly about him. (low positive effect) - Flightspot was 15 moons old",
+            "Flightspot's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Flightspot was 31 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -918,11 +919,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flightspot noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Flightspot was 26 moons old"
+            "Flightspot noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Flightspot was 26 moons old",
+            "Flightspot heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -933,15 +935,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 30,
         "log": [
             "Dancingfleck tells Flightkit that he was worried about him. (low positive effect) - Flightkit was 1 moon old",
             "Flightspot and Dancingfleck work well on a patrol together. (medium positive effect) - Flightspot was 25 moons old",
-            "Flightspot heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old"
+            "Flightspot heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old",
+            "Flightspot heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1051,13 +1057,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flightspot heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old"
+            "Flightspot heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old",
+            "Flightspot heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1108,14 +1117,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": -8,
+        "comfort": 4,
         "trust": 0,
         "log": [
-            "Late at night, Flightkit finds Lightpelt sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Flightkit was 3 moons old"
+            "Late at night, Flightkit finds Lightpelt sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Flightkit was 3 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1150,13 +1162,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Flightspot heard that Wasppelt chased a rogue off the territory. (positive effect) - Flightspot was 28 moons old"
+            "Flightspot heard that Wasppelt chased a rogue off the territory. (positive effect) - Flightspot was 28 moons old",
+            "Flightspot heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1451,16 +1466,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 22,
         "respect": 5,
         "comfort": 10,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Flightpaw gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Flightpaw was 10 moons old",
             "Flightspot and Braveocean were reminded of each other's competence while training together. (positive effect) - Flightspot was 26 moons old",
-            "Flightspot heard that Braveocean caught a rabbit from across the border. (negative effect) - Flightspot was 29 moons old"
+            "Flightspot heard that Braveocean caught a rabbit from across the border. (negative effect) - Flightspot was 29 moons old",
+            "Flightspot was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Flightspot was 31 moons old",
+            "Flightspot thanks Braveocean for covering for him during a patrol earlier. (medium positive effect) - Flightspot was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "like"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1538,14 +1558,19 @@
         "mates": true,
         "family": false,
         "romance": 20,
-        "like": 10,
+        "like": 22,
         "respect": 0,
-        "comfort": 30,
+        "comfort": 42,
         "trust": 10,
         "log": [
-            "Flightspot and Clawswirl were reminded of each other's competence while training together. (positive effect) - Flightspot was 26 moons old"
+            "Flightspot and Clawswirl were reminded of each other's competence while training together. (positive effect) - Flightspot was 26 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1553,12 +1578,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Flightspot was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -1811,12 +1841,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Flightspot was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -2146,11 +2181,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Flightspot heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Flightspot was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -2435,14 +2475,15 @@
         "cat_to_id": "230",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 0,
         "respect": -10,
         "comfort": -7,
         "trust": 0,
         "log": [
             "Flightspot disapproved of Caterpillarstripe wearing a collar. (negative effect) - Flightspot was 21 moons old",
-            "Flightspot called Caterpillarstripe the wrong name. (medium negative effect) - Flightspot was 25 moons old"
+            "Flightspot called Caterpillarstripe the wrong name. (medium negative effect) - Flightspot was 25 moons old",
+            "Flightspot made Caterpillarstripe laugh again and again. (medium positive effect) - Flightspot was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2641,10 +2682,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Flightspot heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2667,13 +2710,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Flightspot heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old"
+            "Flightspot heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Flightspot was 29 moons old",
+            "Flightspot heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Flightspot was 31 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "199",
@@ -3002,6 +3048,32 @@
     {
         "cat_from_id": "199",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "199",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "199",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

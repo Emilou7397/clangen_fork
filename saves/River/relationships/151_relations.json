@@ -695,14 +695,17 @@
         "family": false,
         "romance": 12,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
             "Clawswirl left a gift in Heavythud's nest for him to find. (medium positive effect) - Clawswirl was 18 moons old",
-            "Clawswirl heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Clawswirl was 38 moons old"
+            "Clawswirl heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Clawswirl was 38 moons old",
+            "Clawswirl's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1035,13 +1038,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 12,
         "log": [
-            "Only Clawswirl and Shimmerrunner know the details about a specific piece of Clan drama. (medium positive effect) - Clawswirl was 30 moons old"
+            "Only Clawswirl and Shimmerrunner know the details about a specific piece of Clan drama. (medium positive effect) - Clawswirl was 30 moons old",
+            "Clawswirl heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1063,15 +1069,19 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 5,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Late into the evening, Clawswirl invites Icyriver, Lightpelt, Moorghost, and Dancingfleck to stretch with them and enjoy each other's company. (positive effect) - Clawswirl was 36 moons old",
             "Clawswirl heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Clawswirl was 54 moons old",
-            "Clawswirl thought Dancingfleck should have acted more confident in the presence of a VoleClan patrol. (negative effect) - Clawswirl was 55 moons old"
+            "Clawswirl thought Dancingfleck should have acted more confident in the presence of a VoleClan patrol. (negative effect) - Clawswirl was 55 moons old",
+            "Clawswirl heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1183,15 +1193,18 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Clawswirl and Daisymoor stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Clawswirl was 37 moons old",
             "Clawswirl stands up for Daisymoor on a border patrol when confronted by another Clan. (medium positive effect) - Clawswirl was 38 moons old",
-            "Clawswirl heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Clawswirl was 54 moons old"
+            "Clawswirl heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Clawswirl was 54 moons old",
+            "Clawswirl heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1212,15 +1225,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
+        "like": 24,
         "respect": 17,
-        "comfort": 12,
+        "comfort": 24,
         "trust": 0,
         "log": [
             "Late into the evening, Clawswirl invites Icyriver, Lightpelt, Moorghost, and Dancingfleck to stretch with them and enjoy each other's company. (positive effect) - Clawswirl was 36 moons old",
-            "Clawswirl is inspired by Lightpelt's passion. (medium positive effect) - Clawswirl was 39 moons old"
+            "Clawswirl is inspired by Lightpelt's passion. (medium positive effect) - Clawswirl was 39 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Clawswirl was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1231,11 +1249,13 @@
         "like": 0,
         "respect": 0,
         "comfort": -8,
-        "trust": 8,
+        "trust": 16,
         "log": [
             "Dahliacrest sends a Clanmate to help Clawswirl with something they're struggling with. (low positive effect) - Clawswirl was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1244,7 +1264,7 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": -21,
+        "respect": -16,
         "comfort": 12,
         "trust": -16,
         "log": [
@@ -1254,9 +1274,15 @@
             "Clawswirl and Wasppelt stood around watching a squirrel and a rattlesnake fight instead of catching any prey. (negative effect) - Clawswirl was 37 moons old",
             "Clawswirl finds out something small about Wasppelt that Wasppelt had lied about before. (low negative effect) - Clawswirl was 40 moons old",
             "Clawswirl complains about something Wasppelt did. (low negative effect) - Clawswirl was 46 moons old",
-            "Clawswirl was woken up early by Wasppelt. (low negative effect) - Clawswirl was 50 moons old"
+            "Clawswirl was woken up early by Wasppelt. (low negative effect) - Clawswirl was 50 moons old",
+            "Clawswirl heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1457,16 +1483,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
+        "like": 14,
         "respect": 10,
         "comfort": 5,
         "trust": 10,
         "log": [
             "Clawswirl and Silkymunch have a fun patrol and plan to tell stories about it later to their Clanmates. (medium positive effect) - Clawswirl was 19 moons old",
             "Clawswirl and Silkymunch enjoyed telling ghost stories on patrol. (positive effect) - Clawswirl was 46 moons old",
-            "Clawswirl appreciated Silkymunch settling a dispute on patrol. (positive effect) - Clawswirl was 52 moons old"
+            "Clawswirl appreciated Silkymunch settling a dispute on patrol. (positive effect) - Clawswirl was 52 moons old",
+            "After Clawswirl tidies up an area, Silkymunch accidentally messes it up again. (low negative effect) - Clawswirl was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -1690,7 +1719,7 @@
         "romance": 0,
         "like": 100,
         "respect": 15,
-        "comfort": 94,
+        "comfort": 100,
         "trust": 66,
         "log": [
             "Clawkit wants to show Creekkit her favorite toy. (medium positive effect) - Clawkit was 5 moons old",
@@ -1703,9 +1732,15 @@
             "Clawswirl sees Creekmoss put something back where it belongs. (low positive effect) - Clawswirl was 38 moons old",
             "Clawswirl and Creekmoss enjoyed telling ghost stories on patrol. (positive effect) - Clawswirl was 46 moons old",
             "Clawswirl and Creekmoss practiced their hunting together. (positive effect) - Clawswirl was 48 moons old",
-            "Clawswirl silently blamed Creekmoss for alerting squirrels to the patrol's presence and spoiling a hunt. (negative effect) - Clawswirl was 49 moons old"
+            "Clawswirl silently blamed Creekmoss for alerting squirrels to the patrol's presence and spoiling a hunt. (negative effect) - Clawswirl was 49 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Clawswirl was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2088,15 +2123,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 26,
+        "like": 38,
         "respect": 13,
-        "comfort": 7,
+        "comfort": 19,
         "trust": 6,
         "log": [
             "Clawswirl and Heathstripe worked together to gather wild garlic and mallow. (positive effect) - Clawswirl was 45 moons old",
-            "Clawswirl and Heathstripe heckled another Clan at the Gathering together. (high positive effect) - Clawswirl was 46 moons old"
+            "Clawswirl and Heathstripe heckled another Clan at the Gathering together. (high positive effect) - Clawswirl was 46 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Clawswirl was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2220,12 +2261,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -21,
+        "comfort": -6,
+        "trust": -7,
+        "log": [
+            "Clawswirl is complaining that Driftstripe never does anything helpful. (high negative effect) - Clawswirl was 57 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2261,15 +2309,21 @@
         "mates": true,
         "family": false,
         "romance": 20,
-        "like": 10,
+        "like": 22,
         "respect": 10,
-        "comfort": 30,
+        "comfort": 42,
         "trust": 10,
         "log": [
             "Clawswirl heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Clawswirl was 40 moons old",
-            "Clawswirl and Flightspot were reminded of each other's competence while training together. (positive effect) - Clawswirl was 51 moons old"
+            "Clawswirl and Flightspot were reminded of each other's competence while training together. (positive effect) - Clawswirl was 51 moons old",
+            "Clawswirl, Flightspot, Creekmoss, Heathstripe, and Lightpelt hang out while stretching. (positive effect) - Clawswirl was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2307,13 +2361,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 5,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Clawswirl and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Clawswirl was 45 moons old"
+            "Clawswirl and Hollyblossom worked together to gather wild garlic and mallow. (positive effect) - Clawswirl was 45 moons old",
+            "Clawswirl heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2768,13 +2826,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": -12,
         "log": [
-            "Clawswirl doubts Silkroot would be able to protect them if something went wrong. (medium negative effect) - Clawswirl was 52 moons old"
+            "Clawswirl doubts Silkroot would be able to protect them if something went wrong. (medium negative effect) - Clawswirl was 52 moons old",
+            "Clawswirl heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -2796,13 +2857,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 13,
         "log": [
-            "Clawswirl heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Clawswirl was 54 moons old"
+            "Clawswirl heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Clawswirl was 54 moons old",
+            "Clawswirl heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Clawswirl was 56 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "151",
@@ -3123,6 +3188,32 @@
     {
         "cat_from_id": "151",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "151",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

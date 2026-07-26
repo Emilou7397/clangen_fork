@@ -327,18 +327,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": -20,
-        "trust": -12,
+        "like": -6,
+        "respect": -11,
+        "comfort": -26,
+        "trust": -16,
         "log": [
             "Redswirl heard that Gardeniaglow trespassed on another Clan's territory. (negative effect) - Redswirl was 68 moons old",
             "Redswirl heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Redswirl was 75 moons old",
             "The moon casts a shadow on Gardeniaglow's face in a way that makes Redswirl uneasy. (medium negative effect) - Redswirl was 79 moons old",
             "Redswirl and Gardeniaglow reach for the same piece of prey and bicker over it. Redswirl gets it. (low negative effect) - Redswirl was 81 moons old",
-            "Gardeniaglow asks Redswirl to stop following him around. (medium negative effect) - Redswirl was 86 moons old"
+            "Gardeniaglow asks Redswirl to stop following him around. (medium negative effect) - Redswirl was 86 moons old",
+            "Redswirl has big plans for the day, but they're thwarted by Gardeniaglow doing something more important. (high negative effect) - Redswirl was 94 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -510,12 +516,13 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 5,
+        "trust": -5,
         "log": [
             "Redswirl heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Redswirl was 75 moons old",
-            "Redswirl and Heavythud quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old"
+            "Redswirl and Heavythud quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Redswirl was 79 moons old",
+            "Redswirl's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Redswirl was 93 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -626,12 +633,15 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -2,
+        "trust": -15,
         "log": [
             "Frondpad says something vulnerable to Redswirl. (low positive effect) - Redswirl was 86 moons old",
-            "Redswirl heard Frondpad fell asleep guarding camp. (negative effect) - Redswirl was 89 moons old"
+            "Redswirl heard Frondpad fell asleep guarding camp. (negative effect) - Redswirl was 89 moons old",
+            "Frondpad keeps asking Redswirl if he trusts her. (low negative effect) - Redswirl was 94 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -816,16 +826,21 @@
         "family": false,
         "romance": 16,
         "like": -33,
-        "respect": -32,
+        "respect": -27,
         "comfort": -15,
         "trust": -2,
         "log": [
             "Redswirl just barely missed a mouse, but Shimmerrunner caught it right after, handing it off to him. (medium positive effect) - Redswirl was 69 moons old",
             "Redswirl has big plans for the day, but they're thwarted by Shimmerrunner doing something more important. (high negative effect) - Redswirl was 75 moons old",
             "Shimmerrunner says something hateful to Redswirl. (high negative effect) - Redswirl was 87 moons old",
-            "Redswirl noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Redswirl was 88 moons old"
+            "Redswirl noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Redswirl was 88 moons old",
+            "Redswirl heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -834,14 +849,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 18,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Redswirl listens to Dancingfleck's big plans for the day. (low positive effect) - Redswirl was 70 moons old",
-            "Redswirl heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old"
+            "Redswirl heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old",
+            "Redswirl heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -937,13 +955,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Redswirl heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old"
+            "Redswirl heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old",
+            "Redswirl heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -1006,13 +1027,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Redswirl heard that Wasppelt chased a rogue off the territory. (positive effect) - Redswirl was 91 moons old"
+            "Redswirl heard that Wasppelt chased a rogue off the territory. (positive effect) - Redswirl was 91 moons old",
+            "Redswirl heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -1297,10 +1321,11 @@
         "like": -5,
         "respect": 5,
         "comfort": 0,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Redswirl gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Redswirl was 73 moons old",
-            "Redswirl heard that Braveocean caught a rabbit from across the border. (negative effect) - Redswirl was 91 moons old"
+            "Redswirl heard that Braveocean caught a rabbit from across the border. (negative effect) - Redswirl was 91 moons old",
+            "Redswirl was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Redswirl was 94 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1801,14 +1826,19 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 0,
+        "respect": 15,
         "comfort": -5,
-        "trust": 0,
+        "trust": 15,
         "log": [
             "Redswirl, Prancelaurel, and Hollyblossom took a sunbath and had a little small talk. (positive effect) - Redswirl was 76 moons old",
-            "Redswirl noticed that Hollyblossom had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Redswirl was 80 moons old"
+            "Redswirl noticed that Hollyblossom had a sour expression while looking at a Clanmate in the distance. (low negative effect) - Redswirl was 80 moons old",
+            "Redswirl heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -2248,10 +2278,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Redswirl heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2274,13 +2306,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Redswirl heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old"
+            "Redswirl heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Redswirl was 91 moons old",
+            "Redswirl heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Redswirl was 93 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "224",
@@ -2603,6 +2638,32 @@
     {
         "cat_from_id": "224",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "224",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

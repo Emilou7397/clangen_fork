@@ -1225,16 +1225,20 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 10,
+        "respect": 0,
         "comfort": 8,
-        "trust": 5,
+        "trust": -5,
         "log": [
             "Mossflight has been spending time with Heavypaw lately. (low positive effect)- Mossflight was 25 moons old",
             "Mossflight makes up a new Clan with Heavythud. (medium positive effect) - Mossflight was 62 moons old",
             "Mossflight heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Mossflight was 85 moons old",
-            "Mossflight and Heavythud quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Mossflight was 87 moons old"
+            "Mossflight and Heavythud quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Mossflight was 87 moons old",
+            "Mossflight's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1715,16 +1719,22 @@
         "family": false,
         "romance": 0,
         "like": 32,
-        "respect": 3,
+        "respect": 8,
         "comfort": 44,
         "trust": 22,
         "log": [
             "Mossflight visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Mossflight was 23 moons old",
             "Mossflight appreciates Peakspore, Sardinespeckle, Shimmerpaw, and Prancelaurel joining her to stretch late into the night so she wouldn't be alone. (positive effect)- Mossflight was 31 moons old",
             "Mossflight, Shimmerrunner, and Amberfur took a sunbath and had a little small talk. (positive effect) - Mossflight was 88 moons old",
-            "Mossflight noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Mossflight was 98 moons old"
+            "Mossflight noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Mossflight was 98 moons old",
+            "Mossflight heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1749,16 +1759,22 @@
         "family": false,
         "romance": 13,
         "like": 6,
-        "respect": 12,
+        "respect": 17,
         "comfort": 51,
         "trust": 6,
         "log": [
             "Mossflight and Dancingfleck sunbathe together. (low positive effect) - Mossflight was 77 moons old",
             "Dancingfleck doesn't laugh when Mossflight does something embarrassing. (medium positive effect) - Mossflight was 88 moons old",
             "Dancingfleck's words of comfort mean more to Mossflight than he knows. (high positive effect) - Mossflight was 99 moons old",
-            "Mossflight heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old"
+            "Mossflight heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old",
+            "Mossflight heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1913,14 +1929,18 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": 6,
+        "respect": 11,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Daisymoor tromped into the warrior's den with muddy paws, trailing muck straight through Freezefoot and Mossflight's nests. (negative effect) - Mossflight was 55 moons old",
-            "Mossflight heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old"
+            "Mossflight heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old",
+            "Mossflight heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -1979,14 +1999,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": -8,
         "trust": 5,
         "log": [
             "Wasppelt is upset after spending the day with Mossflight's bad attitude. (low negative effect) - Mossflight was 71 moons old",
-            "Mossflight heard that Wasppelt chased a rogue off the territory. (positive effect) - Mossflight was 101 moons old"
+            "Mossflight heard that Wasppelt chased a rogue off the territory. (positive effect) - Mossflight was 101 moons old",
+            "Mossflight heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -2268,12 +2292,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": -12,
+        "comfort": 13,
+        "trust": 1,
         "log": [
             "Glowpaw keeps making excuses about something Mossflight wants to know. (medium negative effect) - Mossflight was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -2344,16 +2370,22 @@
         "like": 28,
         "respect": 9,
         "comfort": 22,
-        "trust": 32,
+        "trust": 27,
         "log": [
             "Mossflight and Bravepaw heckled another Clan at the Gathering together. (high positive effect) - Mossflight was 53 moons old",
             "Mossflight, Bitebone, Suntooth, Cherrypaw, and Bravepaw hang out while stretching. (positive effect) - Mossflight was 55 moons old",
             "Mossflight was impressed by Braveocean's confidence in fighting rogues. (positive effect) - Mossflight was 67 moons old",
             "Mossflight and Braveocean find a hidden part of the territory and keep it a secret together. (medium positive effect) - Mossflight was 70 moons old",
             "Mossflight gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Mossflight was 83 moons old",
-            "Mossflight heard that Braveocean caught a rabbit from across the border. (negative effect) - Mossflight was 101 moons old"
+            "Mossflight heard that Braveocean caught a rabbit from across the border. (negative effect) - Mossflight was 101 moons old",
+            "Mossflight was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Mossflight was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -3007,7 +3039,7 @@
         "cat_to_id": "192",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 7,
         "like": 12,
         "respect": -2,
         "comfort": 0,
@@ -3015,7 +3047,8 @@
         "log": [
             "Both Mossflight and Morelstreak enthusiastically congratulate another Clanmate on something. (medium positive effect) - Mossflight was 78 moons old",
             "Mossflight was not happy to hear that Morelstreak took food from a Twoleg. (negative effect) - Mossflight was 87 moons old",
-            "Mossflight notices Morelstreak doing something generous. (low positive effect) - Mossflight was 93 moons old"
+            "Mossflight notices Morelstreak doing something generous. (low positive effect) - Mossflight was 93 moons old",
+            "Morelstreak offered to groom Mossflight and, despite her grumbling, she awkwardly accepted. (medium positive effect) - Mossflight was 104 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3385,7 +3418,7 @@
         "family": false,
         "romance": 0,
         "like": 15,
-        "respect": 5,
+        "respect": -3,
         "comfort": 10,
         "trust": 10,
         "log": [
@@ -3571,10 +3604,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Mossflight heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3597,13 +3632,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Mossflight heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old"
+            "Mossflight heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Mossflight was 101 moons old",
+            "Mossflight heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Mossflight was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -3843,9 +3881,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Flightsight vents about something trivial to Mossflight. (low positive effect) - Mossflight was 104 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "48",
@@ -3928,6 +3970,32 @@
     {
         "cat_from_id": "48",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "48",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "48",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

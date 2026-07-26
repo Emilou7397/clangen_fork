@@ -534,13 +534,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Lionheart heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 26 moons old"
+            "Lionheart heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 26 moons old",
+            "Lionheart's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -838,12 +841,13 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": 0,
+        "respect": 5,
         "comfort": 5,
         "trust": 5,
         "log": [
             "Lionheart saw how gentle Shimmerrunner was toward lost BugClan kits. (positive effect) - Lionheart was 19 moons old",
-            "Lionheart noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Lionheart was 39 moons old"
+            "Lionheart noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Lionheart was 39 moons old",
+            "Lionheart heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -854,14 +858,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": -8,
         "trust": 5,
         "log": [
             "Lionheart and Dancingfleck drove off rogues together. (positive effect) - Lionheart was 23 moons old",
-            "Lionheart heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old"
+            "Lionheart heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old",
+            "Lionheart heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -946,11 +954,12 @@
         "like": 13,
         "respect": -7,
         "comfort": 0,
-        "trust": -12,
+        "trust": 1,
         "log": [
             "Lionheart and Antlerthorn had to fix something around camp and argued about how to fix it. It ended up being fixed by some other cat. (medium negative effect) - Lionheart was 24 moons old",
             "Lionheart realizes that Antlerthorn's been avoiding her. (medium negative effect) - Lionheart was 32 moons old",
-            "Lionheart heard Antlerthorn fell asleep guarding camp. (negative effect) - Lionheart was 43 moons old"
+            "Lionheart heard Antlerthorn fell asleep guarding camp. (negative effect) - Lionheart was 43 moons old",
+            "Antlerthorn respects Lionheart's opinion despite disagreeing with it. (low positive effect) - Lionheart was 45 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -961,13 +970,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lionheart heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old"
+            "Lionheart heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old",
+            "Lionheart heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1030,13 +1042,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Lionheart heard that Wasppelt chased a rogue off the territory. (positive effect) - Lionheart was 41 moons old"
+            "Lionheart heard that Wasppelt chased a rogue off the territory. (positive effect) - Lionheart was 41 moons old",
+            "Lionheart heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1334,10 +1349,11 @@
         "like": -5,
         "respect": 5,
         "comfort": 0,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Lionheart gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Lionheart was 23 moons old",
-            "Lionheart heard that Braveocean caught a rabbit from across the border. (negative effect) - Lionheart was 42 moons old"
+            "Lionheart heard that Braveocean caught a rabbit from across the border. (negative effect) - Lionheart was 42 moons old",
+            "Lionheart was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Lionheart was 44 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1530,7 +1546,7 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
+        "like": -8,
         "respect": 8,
         "comfort": -12,
         "trust": 0,
@@ -1538,7 +1554,9 @@
             "Lionheart listens to Lilynoise's big plans for the day. (low positive effect) - Lionheart was 26 moons old",
             "Lionheart can't stop thinking about the strange joke Lilynoise told the other day. (medium negative effect) - Lionheart was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1897,14 +1915,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 6,
+        "respect": 26,
+        "comfort": 4,
+        "trust": 6,
         "log": [
-            "Lionheart heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 28 moons old"
+            "Lionheart heard about how Flightspot endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lionheart was 28 moons old",
+            "Lionheart can't believe how talented Flightspot is! (high positive effect) - Lionheart was 45 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -1945,11 +1968,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Lionheart heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Lionheart was 44 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -2412,13 +2440,17 @@
         "family": false,
         "romance": 0,
         "like": -12,
-        "respect": -12,
+        "respect": -7,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkroot spends the Gathering whispering to Softspring, Verbenabloom, and Lionheart, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Lionheart was 33 moons old"
+            "Silkroot spends the Gathering whispering to Softspring, Verbenabloom, and Lionheart, making it nearly impossible for anyone nearby to hear the leaders speak. (negative effect) - Lionheart was 33 moons old",
+            "Lionheart heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -2440,13 +2472,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Lionheart heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old"
+            "Lionheart heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Lionheart was 42 moons old",
+            "Lionheart heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Lionheart was 44 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "208",
@@ -2773,6 +2808,32 @@
     {
         "cat_from_id": "208",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "208",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

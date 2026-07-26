@@ -32,13 +32,18 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Howlsky and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Howlsky was 21 moons old"
+            "Howlsky and Heavythud successfully gathered dandelions and wild garlic together. (positive effect) - Howlsky was 21 moons old",
+            "Howlsky's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -209,12 +214,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Late into the evening, Dustnose invites Howlsky, Fidgetmouse, Mistlepaw, and Deltapaw to stretch with him and enjoy each other's company. (positive effect) - Howlsky was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -450,7 +460,7 @@
         "like": 10,
         "respect": -5,
         "comfort": 0,
-        "trust": -10,
+        "trust": -2,
         "log": [
             "Howlpaw heard Gardeniaglow fell asleep guarding camp. (negative effect) - Howlpaw was 9 moons old",
             "Howlpaw heard Gardeniaglow fell asleep guarding camp. (negative effect) - Howlpaw was 12 moons old",
@@ -962,14 +972,18 @@
         "family": false,
         "romance": 0,
         "like": -17,
-        "respect": -17,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Howlsky noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Howlsky was 34 moons old",
-            "Shimmerrunner tromped into the warrior's den with muddy paws, trailing muck straight through Mallowpelt and Howlsky's nests. (negative effect) - Howlsky was 36 moons old"
+            "Shimmerrunner tromped into the warrior's den with muddy paws, trailing muck straight through Mallowpelt and Howlsky's nests. (negative effect) - Howlsky was 36 moons old",
+            "Howlsky heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -978,15 +992,19 @@
         "family": false,
         "romance": 0,
         "like": -7,
-        "respect": 0,
+        "respect": 5,
         "comfort": 13,
         "trust": 5,
         "log": [
             "Howlkit considers spreading a rumor about Dancingfleck. (medium negative effect) - Howlkit was 2 moons old",
             "Howlsky shares a joke about a neighboring Clan with Dancingfleck. (low positive effect) - Howlsky was 29 moons old",
-            "Howlsky and Dancingfleck worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old"
+            "Howlsky and Dancingfleck worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old",
+            "Howlsky heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1114,11 +1132,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Howlsky and Daisymoor worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old"
+            "Howlsky and Daisymoor worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old",
+            "Howlsky heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1209,16 +1228,22 @@
         "family": false,
         "romance": 0,
         "like": 26,
-        "respect": 18,
+        "respect": 23,
         "comfort": -9,
         "trust": 10,
         "log": [
             "Wasppelt seems amused when Howlpaw trips. (medium negative effect) - Howlpaw was 8 moons old",
             "Wasppelt tells Howlpaw to leave them alone. (medium negative effect) - Howlpaw was 12 moons old",
             "Wasppelt convinces Dahliacrest, Howlsky, Skulkwillow, and Snookbumble to wind down and stretch with them. (positive effect) - Howlsky was 30 moons old",
-            "Howlsky heard that Wasppelt chased a rogue off the territory. (positive effect) - Howlsky was 36 moons old"
+            "Howlsky heard that Wasppelt chased a rogue off the territory. (positive effect) - Howlsky was 36 moons old",
+            "Howlsky heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1507,12 +1532,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": -5,
         "log": [
-            "Howlsky heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Howlsky was 18 moons old"
+            "Howlsky heard that Midnighthaze seemed to be undermining RiverClan's leadership on patrol. (negative effect) - Howlsky was 18 moons old",
+            "Howlsky and Midnighthaze trained and caught up with each other. (positive effect) - Howlsky was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1525,14 +1551,19 @@
         "like": 10,
         "respect": 5,
         "comfort": 10,
-        "trust": 15,
+        "trust": 10,
         "log": [
             "Howlsky gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Howlsky was 18 moons old",
             "Howlsky and Braveocean were reminded of each other's competence while training together. (positive effect) - Howlsky was 34 moons old",
             "Howlsky and Braveocean had a productive training patrol together. (positive effect) - Howlsky was 36 moons old",
-            "Howlsky heard that Braveocean caught a rabbit from across the border. (negative effect) - Howlsky was 37 moons old"
+            "Howlsky heard that Braveocean caught a rabbit from across the border. (negative effect) - Howlsky was 37 moons old",
+            "Howlsky was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -1798,9 +1829,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -5,
+        "like": 0,
         "respect": -20,
-        "comfort": -5,
+        "comfort": 0,
         "trust": -10,
         "log": [
             "Howlsky and Shinebelly avoided each other after an unpleasant training patrol. (negative effect) - Howlsky was 16 moons old",
@@ -1808,9 +1839,13 @@
             "Howlsky disapproved of Shinebelly wearing a collar. (negative effect) - Howlsky was 21 moons old",
             "Howlsky heard Shinebelly fell asleep guarding camp. (negative effect) - Howlsky was 23 moons old",
             "Howlsky grew irritated at Shinebelly while on a patrol and didn't accomplish much. (negative effect) - Howlsky was 26 moons old",
-            "Howlsky heard that Shinebelly played with a kittypet on RiverClan's border. (negative effect) - Howlsky was 36 moons old"
+            "Howlsky heard that Shinebelly played with a kittypet on RiverClan's border. (negative effect) - Howlsky was 36 moons old",
+            "Howlsky and Shinebelly trained and caught up with each other. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2013,7 +2048,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 94,
+        "like": 100,
         "respect": 59,
         "comfort": 100,
         "trust": 63,
@@ -2037,9 +2072,15 @@
             "Howlsky was impressed by how Dustnose caught a squirrel fighting with a rattlesnake. (positive effect) - Howlsky was 33 moons old",
             "Howlsky and Dustnose had a productive training patrol together. (positive effect) - Howlsky was 36 moons old",
             "Howlsky appreciated Dustnose taking charge to coordinate battle training for the patrol. (positive effect) - Howlsky was 36 moons old",
-            "Howlsky, Flightspot, and Dustnose took a sunbath and had a little small talk. (positive effect) - Howlsky was 38 moons old"
+            "Howlsky, Flightspot, and Dustnose took a sunbath and had a little small talk. (positive effect) - Howlsky was 38 moons old",
+            "Late into the evening, Dustnose invites Howlsky, Fidgetmouse, Mistlepaw, and Deltapaw to stretch with him and enjoy each other's company. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2047,9 +2088,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 16,
+        "like": 21,
         "respect": 6,
-        "comfort": 41,
+        "comfort": 46,
         "trust": -8,
         "log": [
             "Howlpaw keeps leaving all of the boring apprentice tasks for Kinkpaw to do by herself. (high negative effect) - Howlpaw was 9 moons old",
@@ -2066,9 +2107,15 @@
             "Kinkdapple tells Brindlesplash, Wavelight, Howlsky, and Dustnose a story that seems to grow less believable every meow. (negative effect) - Howlsky was 34 moons old",
             "Howlsky and Kinkdapple were reminded of each other's competence while training together. (positive effect) - Howlsky was 34 moons old",
             "Howlsky and Kinkdapple took a lovely nap together instead of patrolling. (positive effect) - Howlsky was 35 moons old",
-            "Howlsky and Kinkdapple had a productive training patrol together. (positive effect) - Howlsky was 36 moons old"
+            "Howlsky and Kinkdapple had a productive training patrol together. (positive effect) - Howlsky was 36 moons old",
+            "Howlsky and Kinkdapple trained and caught up with each other. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2118,9 +2165,9 @@
         "mates": true,
         "family": false,
         "romance": 62,
-        "like": 20,
+        "like": 25,
         "respect": 8,
-        "comfort": 52,
+        "comfort": 57,
         "trust": 9,
         "log": [
             "Howlsky wants to bring Brindlesplash a gift, but she's busy with Ashenpelt. (negative effect) - Howlsky was 19 moons old",
@@ -2131,9 +2178,15 @@
             "Brindlesplash appreciates Howlsky, Moletooth, Diablofoot, and Primfreckle joining her to stretch late into the night so she wouldn't be alone. (positive effect) - Howlsky was 29 moons old",
             "Spittle and flecks of bone fly while Brindlesplash gobbles down prey, reminding Ashenpelt, Howlsky, and Heatherfern to seek out better mealtime companionship next time. (negative effect) - Howlsky was 30 moons old",
             "Howlsky playfully teases Brindlesplash for missing a catch. (medium positive effect) - Howlsky was 32 moons old",
-            "Howlsky and Brindlesplash took a lovely nap together instead of patrolling. (positive effect) - Howlsky was 35 moons old"
+            "Howlsky and Brindlesplash took a lovely nap together instead of patrolling. (positive effect) - Howlsky was 35 moons old",
+            "Howlsky and Brindlesplash trained and caught up with each other. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2249,13 +2302,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 15,
         "log": [
-            "Howlsky heard about how Hollyblossom's patrol drove off a scavenging fox. (positive effect) - Howlsky was 14 moons old"
+            "Howlsky heard about how Hollyblossom's patrol drove off a scavenging fox. (positive effect) - Howlsky was 14 moons old",
+            "Howlsky heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2748,10 +2805,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Howlsky heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2774,11 +2833,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Howlsky and Bluestripe worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old"
+            "Howlsky and Bluestripe worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old",
+            "Howlsky heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Howlsky was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2896,12 +2956,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Late into the evening, Dustnose invites Howlsky, Fidgetmouse, Mistlepaw, and Deltapaw to stretch with him and enjoy each other's company. (positive effect) - Howlsky was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2909,12 +2974,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Late into the evening, Dustnose invites Howlsky, Fidgetmouse, Mistlepaw, and Deltapaw to stretch with him and enjoy each other's company. (positive effect) - Howlsky was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -2963,10 +3033,14 @@
         "romance": 0,
         "like": 63,
         "respect": 33,
-        "comfort": 73,
+        "comfort": 85,
         "trust": 63,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlsky gives Coatipaw some feathers from the bird he caught to line his nest. (medium positive effect) - Howlsky was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -3000,15 +3074,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 10,
         "log": [
             "Howlsky and Vida had a productive training patrol together. (positive effect) - Howlsky was 36 moons old",
-            "Howlsky and Vida worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old"
+            "Howlsky and Vida worked together to drive a vixen out of their territory. (positive effect) - Howlsky was 37 moons old",
+            "Howlsky and Vida trained and caught up with each other. (positive effect) - Howlsky was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -3018,12 +3096,15 @@
         "romance": 0,
         "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 5,
         "log": [
-            "Howlsky and Flightsight had a productive training patrol together. (positive effect) - Howlsky was 36 moons old"
+            "Howlsky and Flightsight had a productive training patrol together. (positive effect) - Howlsky was 36 moons old",
+            "Howlsky felt eyes on his back, and when he looked, Flightsight was quickly turning away. (low negative effect) - Howlsky was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "180",
@@ -3106,6 +3187,32 @@
     {
         "cat_from_id": "180",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "180",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "180",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

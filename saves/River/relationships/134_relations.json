@@ -41,13 +41,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Silkymunch heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Silkymunch was 42 moons old"
+            "Silkymunch heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Silkymunch was 42 moons old",
+            "Silkymunch's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1145,10 +1148,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Silkymunch heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1171,13 +1176,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 18,
+        "respect": 23,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkymunch heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old"
+            "Silkymunch heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old",
+            "Silkymunch heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1323,14 +1331,19 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": -8,
         "log": [
             "Silkymunch and Daisymoor argued about what to practice on a training patrol. (negative effect) - Silkymunch was 23 moons old",
-            "Silkymunch heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old"
+            "Silkymunch heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old",
+            "Silkymunch heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1423,16 +1436,20 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": 5,
         "comfort": 5,
         "trust": 39,
         "log": [
             "Something embarrassing happens to Silkymunch on a patrol, but Wasppelt promises not to tell anyone. (medium positive effect) - Silkymunch was 28 moons old",
             "Silkymunch and Wasppelt picked up some new tricks while sparring together. (positive effect) - Silkymunch was 30 moons old",
             "Wasppelt stands up for Silkymunch during a patrol. (medium positive effect) - Silkymunch was 51 moons old",
-            "Silkymunch and Wasppelt enjoyed training together. (positive effect) - Silkymunch was 55 moons old"
+            "Silkymunch and Wasppelt enjoyed training together. (positive effect) - Silkymunch was 55 moons old",
+            "Silkymunch heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -1965,14 +1982,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 10,
         "respect": 0,
         "comfort": 5,
         "trust": 0,
         "log": [
             "Silkymunch and Clawswirl enjoyed telling ghost stories on patrol. (positive effect) - Silkymunch was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -2550,11 +2569,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -8,
+        "respect": 7,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Silkymunch heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Silkymunch was 60 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3024,13 +3048,16 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkymunch and Silkroot argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old"
+            "Silkymunch and Silkroot argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old",
+            "Silkymunch heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3052,15 +3079,21 @@
         "family": false,
         "romance": 0,
         "like": -16,
-        "respect": -16,
+        "respect": -11,
         "comfort": -8,
         "trust": -7,
         "log": [
             "Silkymunch asks Bluestripe about something complicated and regrets it when Bluestripe misses the point. (high negative effect) - Silkymunch was 52 moons old",
             "Silkymunch and Bluestripe argued about what to practice on a training patrol. (negative effect) - Silkymunch was 52 moons old",
-            "Silkymunch heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old"
+            "Silkymunch heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old",
+            "Silkymunch heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Silkymunch was 60 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3081,12 +3114,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Dashshimmer reminds Silkymunch to grab something from the fresh-kill pile if she hasn't already. (medium positive effect) - Silkymunch was 61 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3192,13 +3229,18 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 0,
+        "respect": 25,
         "comfort": 0,
-        "trust": 0,
+        "trust": 25,
         "log": [
-            "Silkymunch is promising to take Mistlekit outside of camp if she behaves. (medium positive effect) - Silkymunch was 54 moons old"
+            "Silkymunch is promising to take Mistlekit outside of camp if she behaves. (medium positive effect) - Silkymunch was 54 moons old",
+            "Mistlepaw leaped to Silkymunch's defense when she saw a dog attacking her. (positive effect) - Silkymunch was 61 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "134",
@@ -3289,13 +3331,14 @@
         "cat_to_id": "269",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 0,
         "respect": 5,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Silkymunch heard about how Vida's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old"
+            "Silkymunch heard about how Vida's patrol drove a vixen out of their territory. (positive effect) - Silkymunch was 58 moons old",
+            "Vida offered to groom Silkymunch and, despite her grumbling, she awkwardly accepted. (medium positive effect) - Silkymunch was 61 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3393,6 +3436,32 @@
     {
         "cat_from_id": "134",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "134",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -5,14 +5,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "like": 10,
+        "respect": 9,
+        "comfort": 16,
+        "trust": 6,
         "log": [
-            "Vida enjoyed spending an evening listening to Heatherfern's stories. (positive effect) - Vida was 39 moons old"
+            "Vida enjoyed spending an evening listening to Heatherfern's stories. (positive effect) - Vida was 39 moons old",
+            "Heatherfern's words of comfort mean more to Vida than she knows. (high positive effect) - Vida was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -401,11 +407,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Vida's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Vida was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -604,10 +615,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -617,11 +630,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Vida and Dancingfleck worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old"
+            "Vida and Dancingfleck worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old",
+            "Vida heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -699,11 +713,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Vida and Daisymoor worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old"
+            "Vida and Daisymoor worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old",
+            "Vida heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -768,10 +783,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -883,13 +900,15 @@
         "cat_to_id": "134",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -936,11 +955,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida and Midnighthaze trained and caught up with each other. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1137,11 +1158,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida and Shinebelly trained and caught up with each other. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1231,30 +1254,37 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 10,
         "log": [
             "Vida and Howlsky had a productive training patrol together. (positive effect) - Vida was 36 moons old",
-            "Vida and Howlsky worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old"
+            "Vida and Howlsky worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old",
+            "Vida and Howlsky trained and caught up with each other. (positive effect) - Vida was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "269",
         "cat_to_id": "182",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
+        "romance": 3,
+        "like": 10,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 5,
         "trust": 5,
         "log": [
-            "Vida and Kinkdapple had a productive training patrol together. (positive effect) - Vida was 36 moons old"
+            "Vida and Kinkdapple had a productive training patrol together. (positive effect) - Vida was 36 moons old",
+            "Vida and Kinkdapple trained and caught up with each other. (positive effect) - Vida was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1262,11 +1292,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 5,
         "respect": 0,
-        "comfort": -8,
+        "comfort": -3,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida and Brindlesplash trained and caught up with each other. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1332,9 +1364,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Velvettooth makes a small sacrifice that benefits Vida. (low positive effect) - Vida was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1356,11 +1392,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Vida heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Vida was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1473,14 +1514,15 @@
         "cat_to_id": "222",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 15,
         "respect": 7,
         "comfort": 15,
         "trust": 15,
         "log": [
             "Avocetear asks Vida if he could use some help getting introduced to the other Clan members. (positive effect) - Vida was 36 moons old",
-            "Vida notices one of his friends laughing with Avocetear. (low negative effect) - Vida was 39 moons old"
+            "Vida notices one of his friends laughing with Avocetear. (low negative effect) - Vida was 39 moons old",
+            "Vida thinks Avocetear is really charming. (low positive effect) - Vida was 40 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1699,10 +1741,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1738,11 +1782,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Vida and Bluestripe worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old"
+            "Vida and Bluestripe worked together to drive a vixen out of their territory. (positive effect) - Vida was 37 moons old",
+            "Vida heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Vida was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2011,6 +2056,32 @@
     {
         "cat_from_id": "269",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

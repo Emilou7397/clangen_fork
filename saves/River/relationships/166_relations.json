@@ -650,13 +650,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Howlshine heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 33 moons old"
+            "Howlshine heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Howlshine was 33 moons old",
+            "Howlshine's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -989,14 +992,18 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": -5,
+        "respect": 0,
         "comfort": -8,
         "trust": 0,
         "log": [
             "Shimmerrunner eats as ravenously as a wolverine and by the time she's done, Howlshine, Kiwifoot, and Paellapad barely have the stomach to finish their own meals. (negative effect) - Howlshine was 19 moons old",
-            "Howlshine noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Howlshine was 46 moons old"
+            "Howlshine noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Howlshine was 46 moons old",
+            "Howlshine heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1005,14 +1012,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
+        "respect": 25,
         "comfort": 0,
         "trust": 15,
         "log": [
             "Howlshine heard about Dancingfleck's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old",
-            "Howlshine heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old"
+            "Howlshine heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old",
+            "Howlshine heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1124,7 +1135,7 @@
         "family": false,
         "romance": 14,
         "like": 21,
-        "respect": 20,
+        "respect": 25,
         "comfort": 5,
         "trust": 15,
         "log": [
@@ -1132,9 +1143,14 @@
             "Howlshine just barely missed a mouse, but Daisymoor caught it right after, handing it off to him. (medium positive effect) - Howlshine was 21 moons old",
             "Howlshine warns Daisymoor about something on the ground so she doesn't trip. (low positive effect) - Howlshine was 38 moons old",
             "Howlshine, Shinebelly, and Daisymoor had a nice talk while eating. (positive effect) - Howlshine was 39 moons old",
-            "Howlshine heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old"
+            "Howlshine heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old",
+            "Howlshine heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1186,14 +1202,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 20,
+        "respect": 25,
         "comfort": 0,
         "trust": 28,
         "log": [
             "Howlshine heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Howlshine was 16 moons old",
-            "Howlshine heard that Wasppelt chased a rogue off the territory. (positive effect) - Howlshine was 48 moons old"
+            "Howlshine heard that Wasppelt chased a rogue off the territory. (positive effect) - Howlshine was 48 moons old",
+            "Howlshine heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1394,8 +1414,8 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": -8,
+        "respect": -10,
         "comfort": 0,
         "trust": -5,
         "log": [
@@ -1403,9 +1423,14 @@
             "Howlshine heard that Silkymunch touched noses with a kittypet. (negative effect) - Howlshine was 21 moons old",
             "Silkymunch explained something in detail to Howlshine that others wouldn't explain to him. (medium positive effect) - Howlshine was 23 moons old",
             "Howlshine was not happy to hear that Silkymunch was caught outside of the Clan's territory. (negative effect) - Howlshine was 28 moons old",
-            "Howlshine wakes up to Silkymunch trying to steal a piece of his nest. (medium negative effect) - Howlshine was 34 moons old"
+            "Howlshine wakes up to Silkymunch trying to steal a piece of his nest. (medium negative effect) - Howlshine was 34 moons old",
+            "Silkymunch complained so relentlessly about her patrol assignment that Glowfur, Mallowpelt, and Howlshine could only sigh and bear it. (negative effect) - Howlshine was 51 moons old",
+            "Howlshine is jealous that Silkymunch got to go to the last Gathering. (medium negative effect) - Howlshine was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1531,13 +1556,17 @@
         "like": 11,
         "respect": 13,
         "comfort": 0,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Howlshine was flattered by Braveocean's politeness this morning. (low positive effect) - Howlshine was 23 moons old",
             "Howlshine gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Howlshine was 30 moons old",
-            "Howlshine heard that Braveocean caught a rabbit from across the border. (negative effect) - Howlshine was 49 moons old"
+            "Howlshine heard that Braveocean caught a rabbit from across the border. (negative effect) - Howlshine was 49 moons old",
+            "Howlshine was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -1770,7 +1799,8 @@
             "Howlshine was grateful that Lilynoise gave her a piece of thyme to put in her nest. (positive effect) - Howlshine was 40 moons old",
             "Howlshine and Lilynoise successfully gathered herbs together despite the rainy weather. (positive effect) - Howlshine was 41 moons old",
             "Howlshine lost faith in Lilynoise when Lilynoise admitted to not being able to identify tansy during an herb-gathering patrol. (negative effect) - Howlshine was 44 moons old",
-            "Howlshine wonders why Lilynoise keeps spending time with her when others usually don't like her attitude, but she certainly won't object. (medium positive effect) - Howlshine was 46 moons old"
+            "Howlshine wonders why Lilynoise keeps spending time with her when others usually don't like her attitude, but she certainly won't object. (medium positive effect) - Howlshine was 46 moons old",
+            "Lilynoise promises Howlshine to always be there to protect her with her life. (high positive effect) - Howlshine was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2240,11 +2270,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Howlshine heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Howlshine was 51 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -2353,15 +2388,19 @@
         "cat_to_id": "216",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": -8,
+        "romance": 22,
+        "like": 2,
         "respect": -8,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Howlshine heard Electronegativity fell asleep guarding camp. (negative effect) - Howlshine was 31 moons old"
+            "Howlshine heard Electronegativity fell asleep guarding camp. (negative effect) - Howlshine was 31 moons old",
+            "Howlshine brushes against Electronegativity while correcting her stance and looks away with a purr. (medium positive effect) - Howlshine was 52 moons old",
+            "Howlshine spent time looking for treasures on the beach with Electronegativity. (positive effect) - Howlshine was 52 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -2719,10 +2758,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Howlshine heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2745,13 +2786,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Howlshine heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old"
+            "Howlshine heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Howlshine was 49 moons old",
+            "Howlshine heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Howlshine was 51 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "166",
@@ -3074,6 +3118,32 @@
     {
         "cat_from_id": "166",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "166",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

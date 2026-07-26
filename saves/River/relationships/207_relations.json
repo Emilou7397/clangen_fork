@@ -257,12 +257,15 @@
         "like": 10,
         "respect": 5,
         "comfort": 5,
-        "trust": 5,
+        "trust": -5,
         "log": [
             "Hollyblossom and Bitebone worked together to gather wild garlic and mallow. (positive effect) - Hollyblossom was 91 moons old",
-            "Hollyblossom enjoyed driving away rogues with Bitebone. (positive effect) - Hollyblossom was 101 moons old"
+            "Hollyblossom enjoyed driving away rogues with Bitebone. (positive effect) - Hollyblossom was 101 moons old",
+            "Hollyblossom became suspicious of Bitebone after catching him trying to sneak out of camp. (negative effect) - Hollyblossom was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -350,12 +353,14 @@
         "like": 15,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Hollyblossom and Freezefoot successfully gathered daisies together. (positive effect) - Hollyblossom was 87 moons old",
             "Hollyblossom and Freezefoot worked together to gather wild garlic and mallow. (positive effect) - Hollyblossom was 94 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -553,14 +558,17 @@
         "family": false,
         "romance": 12,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
             "Hollyblossom heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Hollyblossom was 87 moons old",
-            "Hollyblossom laughs at bad jokes from Heavythud. (medium positive effect) - Hollyblossom was 98 moons old"
+            "Hollyblossom laughs at bad jokes from Heavythud. (medium positive effect) - Hollyblossom was 98 moons old",
+            "Hollyblossom's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Hollyblossom was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -851,10 +859,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Hollyblossom heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -864,15 +874,19 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": -12,
+        "respect": -7,
         "comfort": -13,
         "trust": 0,
         "log": [
             "Hollyblossom is jealous that Dancingfleck got to go on border patrol this morning. (medium negative effect) - Hollyblossom was 96 moons old",
             "Hollyblossom prevents something from falling on Dancingfleck. (low positive effect) - Hollyblossom was 100 moons old",
-            "Hollyblossom heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old"
+            "Hollyblossom heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old",
+            "Hollyblossom heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -976,13 +990,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Hollyblossom heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old"
+            "Hollyblossom heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old",
+            "Hollyblossom heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -992,10 +1009,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Nightglow's laugh reminds Hollyblossom of someone she misses. (low positive effect) - Hollyblossom was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -1050,10 +1071,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Hollyblossom heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1437,14 +1460,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
-        "comfort": -8,
+        "comfort": 0,
         "trust": 0,
         "log": [
-            "Hollyblossom and Creekmoss reach for the same piece of prey and bicker over it. Hollyblossom gets it. (low negative effect) - Hollyblossom was 77 moons old"
+            "Hollyblossom and Creekmoss reach for the same piece of prey and bicker over it. Hollyblossom gets it. (low negative effect) - Hollyblossom was 77 moons old",
+            "Creekmoss, Avocetear, and Hollyblossom had a nice talk while eating. (positive effect) - Hollyblossom was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -1995,10 +2021,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 7,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Hollyblossom runs to greet Electronegativity when she returns from a patrol. (medium positive effect) - Hollyblossom was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -2045,14 +2075,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 21,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Hollyblossom sees that Avocetkit's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Hollyblossom was 83 moons old"
+            "Hollyblossom sees that Avocetkit's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Hollyblossom was 83 moons old",
+            "Creekmoss, Avocetear, and Hollyblossom had a nice talk while eating. (positive effect) - Hollyblossom was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -2341,10 +2376,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Hollyblossom heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2367,14 +2404,19 @@
         "family": false,
         "romance": 0,
         "like": 16,
-        "respect": 9,
+        "respect": 14,
         "comfort": 5,
         "trust": 6,
         "log": [
             "Hollyblossom has had a great time hanging out with Bluestripe lately. (high positive effect) - Hollyblossom was 101 moons old",
-            "Hollyblossom heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old"
+            "Hollyblossom heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Hollyblossom was 103 moons old",
+            "Hollyblossom heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Hollyblossom was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -2632,13 +2674,16 @@
         "cat_to_id": "271",
         "mates": true,
         "family": false,
-        "romance": 20,
-        "like": 0,
+        "romance": 33,
+        "like": 13,
         "respect": 0,
-        "comfort": 20,
+        "comfort": 33,
         "trust": 10,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "207",
@@ -2695,6 +2740,32 @@
     {
         "cat_from_id": "207",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "207",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "207",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -206,12 +206,14 @@
         "romance": 0,
         "like": 5,
         "respect": 5,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
             "Bub enjoyed spending an evening listening to Heatherfern's stories. (positive effect) - Bub was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -287,11 +289,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Harefeather's good morning to Bub meant a lot to him. (low positive effect) - Bub was 23 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -640,11 +646,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -10,
+        "log": [
+            "Bub's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Bub was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -861,10 +872,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -874,13 +887,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bub heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old"
+            "Bub heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old",
+            "Bub heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -973,13 +989,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bub heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old"
+            "Bub heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old",
+            "Bub heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1042,10 +1061,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1686,11 +1707,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Bub heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Bub was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1713,25 +1739,31 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 8,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "250",
         "cat_to_id": "213",
         "mates": false,
         "family": false,
-        "romance": 17,
+        "romance": 27,
         "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bub picked out the best piece of prey to share with Scalebloom. (medium positive effect) - Bub was 14 moons old"
+            "Bub picked out the best piece of prey to share with Scalebloom. (medium positive effect) - Bub was 14 moons old",
+            "Scalebloom and Bub enjoyed splashing each other to beat the heat. (positive effect) - Bub was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1961,14 +1993,17 @@
         "romance": 0,
         "like": -13,
         "respect": -8,
-        "comfort": -13,
+        "comfort": -26,
         "trust": 0,
         "log": [
             "Whitepaw acts childishly in front of Bubpaw. (low negative effect) - Bubpaw was 10 moons old",
             "Bub felt eyes on his back, and when he looked, Whitewhisker was quickly turning away. (low negative effect) - Bub was 20 moons old",
-            "Bub gets a little irritated seeing Whitewhisker ignore a mess in camp. (low negative effect) - Bub was 22 moons old"
+            "Bub gets a little irritated seeing Whitewhisker ignore a mess in camp. (low negative effect) - Bub was 22 moons old",
+            "Bub thinks that Whitewhisker's tone sounds off today. (low negative effect) - Bub was 23 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1991,12 +2026,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -15,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "comfort": -15,
+        "trust": -15,
+        "log": [
+            "Bub felt offended when Waterheart appeared to be challenging his loyalty during a training patrol. (negative effect) - Bub was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -2092,10 +2133,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2105,13 +2148,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bub heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old"
+            "Bub heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Bub was 20 moons old",
+            "Bub heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Bub was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -2371,6 +2417,32 @@
     {
         "cat_from_id": "250",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

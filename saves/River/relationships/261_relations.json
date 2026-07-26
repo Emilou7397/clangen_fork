@@ -32,13 +32,18 @@
         "family": false,
         "romance": 0,
         "like": 17,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Icekit plays moss-ball with Heavythud. (medium positive effect) - Icekit was 2 moons old"
+            "Icekit plays moss-ball with Heavythud. (medium positive effect) - Icekit was 2 moons old",
+            "Icepaw's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -315,11 +320,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Icepaw thinks the prey Mossflight is biting into on the other side of camp looks delicious. (low negative effect) - Icepaw was 7 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -659,11 +668,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Icekit noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Icekit was 1 moon old"
+            "Icekit noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Icekit was 1 moon old",
+            "Icepaw heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -674,13 +684,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Icekit heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old"
+            "Icekit heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old",
+            "Icepaw heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -758,13 +771,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": 13,
         "trust": 0,
         "log": [
-            "Icekit heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old"
+            "Icekit heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old",
+            "Icepaw heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -825,13 +842,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Icekit heard that Wasppelt chased a rogue off the territory. (positive effect) - Icekit was 3 moons old"
+            "Icekit heard that Wasppelt chased a rogue off the territory. (positive effect) - Icekit was 3 moons old",
+            "Icepaw heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -1013,12 +1033,15 @@
         "like": -18,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "When Icekit approached Braveocean, she made a weird face. (low negative effect) - Icekit was 4 moons old",
-            "Icekit heard that Braveocean caught a rabbit from across the border. (negative effect) - Icekit was 4 moons old"
+            "Icekit heard that Braveocean caught a rabbit from across the border. (negative effect) - Icekit was 4 moons old",
+            "Icepaw was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -1492,11 +1515,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Icepaw heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Icepaw was 6 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -1636,15 +1664,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -10,
+        "like": -12,
+        "respect": 2,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Icekit heard that Avocetear played with a kittypet on RiverClan's border. (negative effect) - Icekit was 2 moons old",
-            "Icekit heard that Avocetear touched noses with a rogue. (negative effect) - Icekit was 5 moons old"
+            "Icekit heard that Avocetear touched noses with a rogue. (negative effect) - Icekit was 5 moons old",
+            "Daypaw, Deltapaw, Coatipaw, and Icepaw bemoan Avocetear's insistence that they get up and do stretches at <i>dawn.<\/i> While they do it, nobody but Avocetear likes it. (negative effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -1926,10 +1958,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Icepaw heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1965,13 +1999,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Icekit heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old"
+            "Icekit heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Icekit was 4 moons old",
+            "Icepaw heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Icepaw was 6 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -2077,11 +2114,14 @@
         "like": 20,
         "respect": 0,
         "comfort": 0,
-        "trust": 20,
+        "trust": 32,
         "log": [
-            "Icekit and Mistlekit tried to sneak out of camp together. (positive effect) - Icekit was 2 moons old"
+            "Icekit and Mistlekit tried to sneak out of camp together. (positive effect) - Icekit was 2 moons old",
+            "Mistlepaw let Icepaw lean on her shoulder after a recent injury. (medium positive effect) - Icepaw was 7 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "261",
@@ -2264,6 +2304,32 @@
     {
         "cat_from_id": "261",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "261",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "261",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

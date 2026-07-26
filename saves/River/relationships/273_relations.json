@@ -32,13 +32,19 @@
         "family": true,
         "romance": 0,
         "like": 39,
-        "respect": 37,
+        "respect": 27,
         "comfort": 69,
-        "trust": 67,
+        "trust": 57,
         "log": [
-            "While Heavythud gorges on his piece of fresh kill, Hollyheart, Sardinespeckle, Dashshimmer, and Sootkit find that eating is suddenly less appealing. (negative effect) - Sootkit was 0 moons old"
+            "While Heavythud gorges on his piece of fresh kill, Hollyheart, Sardinespeckle, Dashshimmer, and Sootkit find that eating is suddenly less appealing. (negative effect) - Sootkit was 0 moons old",
+            "Sootkit's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Sootkit was 1 moon old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "273",
@@ -655,10 +661,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -668,10 +676,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -732,14 +742,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -12,
         "respect": 0,
         "comfort": 0,
         "trust": -5,
         "log": [
-            "Sootkit heard Antlerthorn fell asleep guarding camp. (negative effect) - Sootkit was 0 moons old"
+            "Sootkit heard Antlerthorn fell asleep guarding camp. (negative effect) - Sootkit was 0 moons old",
+            "Sootkit and Antlerthorn play hide and seek, but Antlerthorn supposedly forgets to look for Sootkit for hours. (medium negative effect) - Sootkit was 2 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "273",
@@ -748,10 +761,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -813,10 +828,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -999,8 +1016,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Sootkit was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1452,11 +1471,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Sootkit heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Sootkit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "273",
@@ -1817,12 +1841,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Sootkit was grateful that Weedfur let him tag along and watch him do his duties. (positive effect) - Sootkit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "273",
@@ -1857,10 +1886,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1896,10 +1927,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Sootkit heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Sootkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2191,6 +2224,32 @@
     {
         "cat_from_id": "273",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "273",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "273",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

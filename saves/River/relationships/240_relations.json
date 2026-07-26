@@ -34,13 +34,19 @@
         "family": false,
         "romance": 0,
         "like": -8,
-        "respect": 2,
+        "respect": -8,
         "comfort": -8,
-        "trust": -8,
+        "trust": -18,
         "log": [
-            "Bigkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bigkit was 0 moons old"
+            "Bigkit heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bigkit was 0 moons old",
+            "Bigpelt's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -769,11 +775,12 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bigpelt noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Bigpelt was 13 moons old"
+            "Bigpelt noticed Shimmerrunner's half-hearted job on a border patrol caused more work for others. (negative effect) - Bigpelt was 13 moons old",
+            "Bigpelt heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -784,13 +791,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 13,
+        "respect": 18,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bigpelt heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old"
+            "Bigpelt heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old",
+            "Bigpelt heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -844,9 +854,10 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 10,
+        "trust": 2,
         "log": [
-            "Bigpaw appreciated Kiwifoot settling a dispute on patrol. (positive effect) - Bigpaw was 7 moons old"
+            "Bigpaw appreciated Kiwifoot settling a dispute on patrol. (positive effect) - Bigpaw was 7 moons old",
+            "Kiwifoot forgot something that Bigpelt asked her to remember. (low negative effect) - Bigpelt was 19 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -885,14 +896,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": -7,
         "log": [
             "Bigpaw thinks that Daisymoor spread a rumor about him. (medium negative effect) - Bigpaw was 9 moons old",
-            "Bigpelt heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old"
+            "Bigpelt heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old",
+            "Bigpelt heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -955,13 +970,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Bigpelt heard that Wasppelt chased a rogue off the territory. (positive effect) - Bigpelt was 15 moons old"
+            "Bigpelt heard that Wasppelt chased a rogue off the territory. (positive effect) - Bigpelt was 15 moons old",
+            "Bigpelt heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -969,12 +987,19 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 44,
+        "like": 56,
         "respect": 34,
-        "comfort": 74,
+        "comfort": 86,
         "trust": 64,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Bigpelt was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1213,9 +1238,10 @@
         "like": -5,
         "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Bigpelt heard that Braveocean caught a rabbit from across the border. (negative effect) - Bigpelt was 16 moons old"
+            "Bigpelt heard that Braveocean caught a rabbit from across the border. (negative effect) - Bigpelt was 16 moons old",
+            "Bigpelt was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Bigpelt was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1742,11 +1768,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 15,
+        "log": [
+            "Bigpelt heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Bigpelt was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -1810,10 +1841,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 13,
+        "comfort": 21,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2064,15 +2097,21 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 84,
+        "like": 96,
         "respect": 15,
-        "comfort": 58,
+        "comfort": 70,
         "trust": 52,
         "log": [
             "Bigpaw thought Whitepaw was polite today. (low positive effect) - Bigpaw was 10 moons old",
-            "Bigpaw and Whitepaw chase off a predator on a patrol together. (medium positive effect) - Bigpaw was 11 moons old"
+            "Bigpaw and Whitepaw chase off a predator on a patrol together. (medium positive effect) - Bigpaw was 11 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2102,17 +2141,23 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 71,
+        "like": 83,
         "respect": 27,
-        "comfort": 73,
+        "comfort": 85,
         "trust": 60,
         "log": [
             "Bigkit and Waterkit swap secrets with each other. (high positive effect) - Bigkit was 5 moons old",
             "Bigpaw and Waterpaw cuddle during a storm. (medium positive effect) - Bigpaw was 8 moons old",
             "Bigpelt hears a nice story about Waterheart. (low positive effect) - Bigpelt was 12 moons old",
-            "Waterheart thanked Bigpelt for bringing her food. (low positive effect) - Bigpelt was 14 moons old"
+            "Waterheart thanked Bigpelt for bringing her food. (low positive effect) - Bigpelt was 14 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2151,13 +2196,14 @@
         "family": false,
         "romance": 24,
         "like": 7,
-        "respect": 6,
+        "respect": 16,
         "comfort": 17,
         "trust": 5,
         "log": [
             "Avocetkit, Edelweisskit, Bigkit, and Branchkit attend a get-together Drizzlepelt hosts and have a newfound appreciation for each other. (positive effect) - Bigkit was 5 moons old",
             "Bigpelt enjoys the time with Avocetfur and feels secure. (high positive effect) - Bigpelt was 16 moons old",
-            "Bigpelt was annoyed that Avocetfur caught him trying to sneak out of camp. (negative effect) - Bigpelt was 17 moons old"
+            "Bigpelt was annoyed that Avocetfur caught him trying to sneak out of camp. (negative effect) - Bigpelt was 17 moons old",
+            "Bigpelt enjoyed listening to Avocetfur's stories. (positive effect) - Bigpelt was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2167,15 +2213,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
+        "like": 2,
         "respect": -10,
-        "comfort": 13,
+        "comfort": 25,
         "trust": 0,
         "log": [
             "Lavenderpaw made trouble during a training patrol and distracted everyone else. (negative effect) - Bigpaw was 8 moons old",
-            "Bigpaw thought it was disrespectful of Lavenderpaw to wander off during training, even if the lesson was a bit boring. (negative effect) - Bigpaw was 11 moons old"
+            "Bigpaw thought it was disrespectful of Lavenderpaw to wander off during training, even if the lesson was a bit boring. (negative effect) - Bigpaw was 11 moons old",
+            "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "240",
@@ -2197,10 +2247,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bigpelt heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2223,25 +2275,30 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Bigpelt heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old"
+            "Bigpelt heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Bigpelt was 16 moons old",
+            "Bigpelt heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Bigpelt was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "240",
         "cat_to_id": "252",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 8,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bigpelt can't help but smile seeing Flintwhisker smile. (low positive effect) - Bigpelt was 19 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2559,6 +2616,32 @@
     {
         "cat_from_id": "240",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "240",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1190,16 +1190,21 @@
         "family": false,
         "romance": 6,
         "like": 5,
-        "respect": -15,
+        "respect": -25,
         "comfort": -7,
-        "trust": 4,
+        "trust": -6,
         "log": [
             "Fleapaw, Icypaw, Brindlepaw, and Heavypaw are too busy goofing off to listen to Hushshimmer's advice. (negative effect)- Hushshimmer was 18 moons old",
             "Hushshimmer tells Heavypaw that he looks terrible today. (high negative effect)- Hushshimmer was 24 moons old",
             "Hushshimmer thinks the prey Heavythud is biting into on the other side of camp looks delicious. (low negative effect) - Hushshimmer was 74 moons old",
-            "Hushshimmer heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Hushshimmer was 83 moons old"
+            "Hushshimmer heard about how Heavythud endured the bitter cold to gather herbs for RiverClan. (positive effect) - Hushshimmer was 83 moons old",
+            "Hushshimmer's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -1712,14 +1717,20 @@
         "family": false,
         "romance": 0,
         "like": 6,
-        "respect": 1,
+        "respect": 6,
         "comfort": 15,
         "trust": 10,
         "log": [
             "Hushshimmer visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect)- Hushshimmer was 21 moons old",
-            "Shimmerrunner tromped into the warrior's den with muddy paws, trailing muck straight through Pheasantbrush and Hushshimmer's nests. (negative effect) - Hushshimmer was 60 moons old"
+            "Shimmerrunner tromped into the warrior's den with muddy paws, trailing muck straight through Pheasantbrush and Hushshimmer's nests. (negative effect) - Hushshimmer was 60 moons old",
+            "Hushshimmer heard about how Shimmerrunner's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -1744,15 +1755,20 @@
         "family": false,
         "romance": 13,
         "like": 37,
-        "respect": 5,
+        "respect": 10,
         "comfort": 37,
         "trust": 0,
         "log": [
             "The moonlight encourages Daisymoor, Dancingfleck, Hushshimmer, Midnighthaze, and Brindlepaw to slow down and stretch. (positive effect) - Hushshimmer was 72 moons old",
             "Paellapad's eagerness to do early morning stretches rubs off on Hushshimmer, Dancingfleck, Moonchaser, and Harefeather. (positive effect) - Hushshimmer was 76 moons old",
-            "Hushshimmer heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old"
+            "Hushshimmer heard about how Dancingfleck's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old",
+            "Hushshimmer heard about how Dancingfleck's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -1909,7 +1925,7 @@
         "family": false,
         "romance": 0,
         "like": 24,
-        "respect": 11,
+        "respect": 16,
         "comfort": 12,
         "trust": 21,
         "log": [
@@ -1917,9 +1933,15 @@
             "The moonlight encourages Daisymoor, Dancingfleck, Hushshimmer, Midnighthaze, and Brindlepaw to slow down and stretch. (positive effect) - Hushshimmer was 72 moons old",
             "Hushshimmer doesn't shy away from Daisymoor's presence. (high positive effect) - Hushshimmer was 78 moons old",
             "Hushshimmer wants to be closer to Daisymoor. (low positive effect) - Hushshimmer was 97 moons old",
-            "Hushshimmer heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old"
+            "Hushshimmer heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old",
+            "Hushshimmer heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -1981,7 +2003,10 @@
             "Hushshimmer and Dahliacrest successfully gathered herbs together despite the rainy weather. (positive effect) - Hushshimmer was 89 moons old",
             "Skulkwillow appreciates Hushshimmer, Coquitostep, Dahliacrest, and Fringesnap joining him to stretch late into the night so he wouldn't be alone. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -1990,14 +2015,17 @@
         "family": false,
         "romance": 12,
         "like": 0,
-        "respect": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Hushshimmer and Wasppelt got so into playing around that they got separated from the rest of the patrol, earning themselves an earful back at camp. (medium positive effect) - Hushshimmer was 75 moons old",
-            "Hushshimmer heard that Wasppelt chased a rogue off the territory. (positive effect) - Hushshimmer was 99 moons old"
+            "Hushshimmer heard that Wasppelt chased a rogue off the territory. (positive effect) - Hushshimmer was 99 moons old",
+            "Hushshimmer heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -2352,10 +2380,11 @@
         "like": 3,
         "respect": 5,
         "comfort": 0,
-        "trust": 10,
+        "trust": 5,
         "log": [
             "Hushshimmer gained a greater respect for Braveocean's loyalty when she protected Yewstar from a rogue. (positive effect) - Hushshimmer was 81 moons old",
-            "Hushshimmer heard that Braveocean caught a rabbit from across the border. (negative effect) - Hushshimmer was 99 moons old"
+            "Hushshimmer heard that Braveocean caught a rabbit from across the border. (negative effect) - Hushshimmer was 99 moons old",
+            "Hushshimmer was not happy to hear that Braveocean was caught outside of the Clan's territory. (negative effect) - Hushshimmer was 102 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3073,13 +3102,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 15,
         "comfort": 5,
-        "trust": 5,
+        "trust": 20,
         "log": [
-            "Hushshimmer was impressed by Hollyblossom's confidence in fighting rogues. (positive effect) - Hushshimmer was 97 moons old"
+            "Hushshimmer was impressed by Hollyblossom's confidence in fighting rogues. (positive effect) - Hushshimmer was 97 moons old",
+            "Hushshimmer heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Hushshimmer was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -3558,10 +3591,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Hushshimmer heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3584,13 +3619,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
-        "comfort": 0,
+        "respect": 10,
+        "comfort": -17,
         "trust": 0,
         "log": [
-            "Hushshimmer heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old"
+            "Hushshimmer heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Hushshimmer was 99 moons old",
+            "Hushshimmer heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Hushshimmer was 101 moons old",
+            "Hushshimmer had a terrible dream about Bluestripe. (medium negative effect) - Hushshimmer was 102 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -3857,12 +3897,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -4,
+        "comfort": -16,
+        "trust": -4,
+        "log": [
+            "Hushshimmer can't stop thinking about the way Lionel glared at his Clanmate. (high negative effect) - Hushshimmer was 102 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "50",
@@ -3921,6 +3966,32 @@
     {
         "cat_from_id": "50",
         "cat_to_id": "277",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "50",
+        "cat_to_id": "278",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "50",
+        "cat_to_id": "279",
         "mates": false,
         "family": false,
         "romance": 0,
