@@ -155,9 +155,9 @@ class ChooseMentorScreen(Screens):
         )
 
         # Layout Images:
-        list_frame = get_box(BoxStyles.ROUNDED_BOX, (650, 306))
+        list_frame = get_box(BoxStyles.ROUNDED_BOX, (650, 226))
         self.list_frame = pygame_gui.elements.UIImage(
-            ui_scale(pygame.Rect((75, 360), (650, 306))), list_frame, starting_height=1
+            ui_scale(pygame.Rect((75, 360), (650, 226))), list_frame, starting_height=1
         )
 
         self.mentor_frame = pygame_gui.elements.UIImage(
@@ -255,33 +255,32 @@ class ChooseMentorScreen(Screens):
 
         # Create a container for the checkboxes
         self.filter_container = pygame_gui.core.UIContainer(
-            ui_scale(pygame.Rect((85, 360), (630, 306))), manager=MANAGER
+            ui_scale(pygame.Rect((85, 360), (630, 226))), manager=MANAGER
         )
 
         # Add a vertical separator
         self.filter_seperator = pygame_gui.elements.UIImage(
-            ui_scale(pygame.Rect((497, 7), (10, 410))),
+            ui_scale(pygame.Rect((497, 11), (10, 205))),
             pygame.transform.scale(
                 image_cache.load_image("resources/images/vertical_bar.png"),
-                ui_scale_dimensions((10, 410)),
+                ui_scale_dimensions((10, 205)),
             ),
             container=self.filter_container,
         )
 
         # Reposition and style checkboxes and labels
-        checkbox_x = 553
-        checkbox_y = 7
+        checkbox_x = 508
+        checkbox_y = 20
         checkbox_spacing = 50
 
         self.no_current_app_text = pygame_gui.elements.UITextBox(
             "screens.choose_mentor.no_current_apprentices",
-            ui_scale(pygame.Rect((checkbox_x - 45, checkbox_y + 10), (100, -1))),
+            ui_scale(pygame.Rect((checkbox_x + 30, checkbox_y), (100, -1))),
             object_id="#text_box_26_horizleft_vertcenter_spacing_95",
             container=self.filter_container,
         )
-        checkbox_y += checkbox_spacing
         self.checkboxes["show_no_current_app"] = UIImageButton(
-            ui_scale(pygame.Rect((checkbox_x, checkbox_y + 10), (34, 34))),
+            ui_scale(pygame.Rect((checkbox_x, checkbox_y + 6), (34, 34))),
             "",
             object_id="@unchecked_checkbox",
             container=self.filter_container,
@@ -291,13 +290,12 @@ class ChooseMentorScreen(Screens):
 
         self.no_former_app_text = pygame_gui.elements.UITextBox(
             "screens.choose_mentor.no_former_apprentices",
-            ui_scale(pygame.Rect((checkbox_x - 45, checkbox_y), (100, -1))),
+            ui_scale(pygame.Rect((checkbox_x + 30, checkbox_y), (100, -1))),
             object_id="#text_box_26_horizleft_vertcenter_spacing_95",
             container=self.filter_container,
         )
-        checkbox_y += checkbox_spacing
         self.checkboxes["show_no_former_app"] = UIImageButton(
-            ui_scale(pygame.Rect((checkbox_x, checkbox_y), (34, 34))),
+            ui_scale(pygame.Rect((checkbox_x, checkbox_y + 6), (34, 34))),
             "",
             object_id="@unchecked_checkbox",
             container=self.filter_container,
@@ -307,13 +305,12 @@ class ChooseMentorScreen(Screens):
 
         self.can_influence_skills_text = pygame_gui.elements.UITextBox(
             "screens.choose_mentor.can_influence_skills",
-            ui_scale(pygame.Rect((checkbox_x - 45, checkbox_y), (100, -1))),
+            ui_scale(pygame.Rect((checkbox_x + 30, checkbox_y), (100, -1))),
             object_id="#text_box_26_horizleft_vertcenter_spacing_95",
             container=self.filter_container,
         )
-        checkbox_y += checkbox_spacing
         self.checkboxes["show_can_influence_skills"] = UIImageButton(
-            ui_scale(pygame.Rect((checkbox_x, checkbox_y), (34, 34))),
+            ui_scale(pygame.Rect((checkbox_x, checkbox_y + 6), (34, 34))),
             "",
             object_id="@unchecked_checkbox",
             container=self.filter_container,
