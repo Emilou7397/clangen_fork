@@ -2,14 +2,14 @@
     "injuries": {
         "broken bone": {
             "severity": "severe",
-            "mortality": 71,
-            "duration": 2,
-            "moon_start": 159,
+            "mortality": 60,
+            "duration": 3,
+            "moon_start": 162,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 10
+                    "chance": 14
                 }
             ],
             "complication": null,
@@ -19,23 +19,6 @@
             ],
             "event_triggered": false,
             "potential_scars": []
-        },
-        "shock": {
-            "severity": "minor",
-            "mortality": 0,
-            "duration": 1,
-            "moon_start": 160,
-            "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "lingering shock",
-                    "chance": 60
-                }
-            ],
-            "complication": null,
-            "cause_permanent": [],
-            "event_triggered": false,
-            "potential_scars": null
         }
     }
 }

@@ -1,15 +1,19 @@
 {
     "illnesses": {
-        "fleas": {
-            "severity": "minor",
-            "mortality": 0,
-            "infectiousness": 15,
+        "whitecough": {
+            "severity": "major",
+            "mortality": 35,
+            "infectiousness": 30,
             "duration": 2,
-            "moon_start": 159,
+            "moon_start": 162,
             "risks": [
                 {
-                    "name": "torn pelt",
-                    "chance": 36
+                    "name": "greencough",
+                    "chance": 25
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 27
                 }
             ],
             "event_triggered": false
@@ -26,11 +30,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 372
+                    "chance": 395
                 },
                 {
                     "name": "joint pain",
-                    "chance": 416
+                    "chance": 439
                 }
             ],
             "complication": null,
@@ -46,7 +50,7 @@
             "risks": [
                 {
                     "name": "sore throat",
-                    "chance": 140
+                    "chance": 153
                 }
             ],
             "complication": null,

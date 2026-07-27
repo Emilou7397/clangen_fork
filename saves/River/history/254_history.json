@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "224": {
-                "sociability": 5,
-                "stability": -1
+                "sociability": 6,
+                "stability": -1,
+                "lawfulness": 2,
+                "strings": [
+                    "interact with others",
+                    "make impulsive decisions",
+                    "heed {PRONOUN\/m_c\/poss} inner compass"
+                ]
             }
         },
         "skill": {
             "224": {
-                "CLAIRVOYANT": 11
+                "CLAIRVOYANT": 16,
+                "strings": [
+                    "predicting the future"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "exemplar",
+        "graduation_age": 15,
+        "moon": 161
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},
