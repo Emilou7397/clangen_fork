@@ -1,26 +1,4 @@
 {
-    "injuries": {
-        "broken bone": {
-            "severity": "severe",
-            "mortality": 22,
-            "duration": 5,
-            "moon_start": 163,
-            "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "an infected wound",
-                    "chance": 5
-                }
-            ],
-            "complication": null,
-            "cause_permanent": [
-                "weak leg",
-                "twisted leg"
-            ],
-            "event_triggered": false,
-            "potential_scars": []
-        }
-    },
     "permanent conditions": {
         "crooked jaw": {
             "severity": "major",
@@ -41,6 +19,26 @@
             "mortality": 0,
             "illness_infectiousness": [],
             "risks": [],
+            "complication": null,
+            "event_triggered": false
+        },
+        "weak leg": {
+            "severity": "minor",
+            "born_with": false,
+            "moons_until": 0,
+            "moon_start": 168,
+            "mortality": 0,
+            "illness_infectiousness": [],
+            "risks": [
+                {
+                    "name": "sore",
+                    "chance": 20
+                },
+                {
+                    "name": "joint pain",
+                    "chance": 40
+                }
+            ],
             "complication": null,
             "event_triggered": false
         }

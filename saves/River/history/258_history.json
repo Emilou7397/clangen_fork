@@ -8,18 +8,30 @@
     "mentor_influence": {
         "trait": {
             "19": {
-                "aggression": 2,
+                "aggression": 4,
                 "sociability": -1,
-                "lawfulness": 1
+                "lawfulness": 1,
+                "strings": [
+                    "resort to violence",
+                    "be cold towards others",
+                    "have strong inner morals"
+                ]
             }
         },
         "skill": {
             "19": {
-                "INSIGHTFUL": 9
+                "INSIGHTFUL": 12,
+                "strings": [
+                    "providing insight"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "devotion",
+        "graduation_age": 14,
+        "moon": 165
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

@@ -8,18 +8,32 @@
     "mentor_influence": {
         "trait": {
             "208": {
-                "lawfulness": -1,
+                "lawfulness": -3,
                 "aggression": 3,
-                "stability": 2
+                "stability": 2,
+                "sociability": 2,
+                "strings": [
+                    "break away from the status quo",
+                    "be ready for a fight",
+                    "stay collected",
+                    "put others at ease"
+                ]
             }
         },
         "skill": {
             "208": {
-                "SENSE": 8
+                "SENSE": 17,
+                "strings": [
+                    "noticing small details"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "steadfastness",
+        "graduation_age": 14,
+        "moon": 167
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

@@ -35,15 +35,15 @@
         "moon": 95
     },
     "lead_ceremony": null,
-    "afterlife_acceptance": null,
-    "possible_history": {
-        "broken bone": {
-            "death_text": "m_c died from {PRONOUN\/m_c\/poss} wounds after falling off a cliff.",
-            "scar_text": "m_c was scarred when {PRONOUN\/m_c\/subject} fell off a cliff.",
-            "other_cat": null
+    "afterlife_acceptance": "starclan_default_2",
+    "possible_history": {},
+    "died_by": [
+        {
+            "involved": "80",
+            "text": "m_c was pushed under a monster by Poolleaf.",
+            "moon": 164
         }
-    },
-    "died_by": [],
+    ],
     "scar_events": [
         {
             "involved": null,
@@ -54,7 +54,23 @@
             "involved": null,
             "text": "m_c was scarred by a dog.",
             "moon": 137
+        },
+        {
+            "involved": null,
+            "text": "m_c was scarred when {PRONOUN\/m_c\/subject} fell off a cliff.",
+            "moon": 164
         }
     ],
-    "murder": {}
+    "murder": {
+        "is_victim": [
+            {
+                "murderer": "80",
+                "revealed": {
+                    "to_clan": true,
+                    "aware_individuals": []
+                },
+                "moon": 164
+            }
+        ]
+    }
 }

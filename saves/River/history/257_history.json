@@ -8,18 +8,30 @@
     "mentor_influence": {
         "trait": {
             "240": {
-                "sociability": 3,
+                "sociability": 4,
                 "aggression": 2,
-                "lawfulness": 4
+                "lawfulness": 4,
+                "strings": [
+                    "interact with others",
+                    "start a fight",
+                    "follow the status quo"
+                ]
             }
         },
         "skill": {
             "240": {
-                "CLIMBER": 14
+                "CLIMBER": 16,
+                "strings": [
+                    "climbing"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "wit",
+        "graduation_age": 15,
+        "moon": 164
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

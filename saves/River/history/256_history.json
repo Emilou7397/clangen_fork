@@ -8,18 +8,32 @@
     "mentor_influence": {
         "trait": {
             "157": {
-                "lawfulness": 3,
+                "lawfulness": 4,
                 "sociability": -1,
-                "aggression": -1
+                "aggression": -1,
+                "stability": 1,
+                "strings": [
+                    "have strong inner morals",
+                    "refrain from socializing",
+                    "avoid a fight",
+                    "be consistent"
+                ]
             }
         },
         "skill": {
             "157": {
-                "CLEVER": 12
+                "CLEVER": 20,
+                "strings": [
+                    "solving problems"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "good nature",
+        "graduation_age": 15,
+        "moon": 164
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

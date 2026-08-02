@@ -1,15 +1,19 @@
 {
     "illnesses": {
-        "stomachache": {
+        "running nose": {
             "severity": "minor",
             "mortality": 0,
             "infectiousness": 0,
             "duration": 1,
-            "moon_start": 163,
+            "moon_start": 168,
             "risks": [
                 {
-                    "name": "diarrhea",
-                    "chance": 18
+                    "name": "whitecough",
+                    "chance": 31
+                },
+                {
+                    "name": "sore throat",
+                    "chance": 36
                 }
             ],
             "event_triggered": false

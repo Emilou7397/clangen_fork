@@ -1,24 +1,4 @@
 {
-    "illnesses": {
-        "whitecough": {
-            "severity": "major",
-            "mortality": 35,
-            "infectiousness": 30,
-            "duration": 2,
-            "moon_start": 162,
-            "risks": [
-                {
-                    "name": "greencough",
-                    "chance": 25
-                },
-                {
-                    "name": "sore throat",
-                    "chance": 27
-                }
-            ],
-            "event_triggered": false
-        }
-    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -30,11 +10,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 395
+                    "chance": 417
                 },
                 {
                     "name": "joint pain",
-                    "chance": 439
+                    "chance": 461
                 }
             ],
             "complication": null,
@@ -50,7 +30,7 @@
             "risks": [
                 {
                     "name": "sore throat",
-                    "chance": 153
+                    "chance": 170
                 }
             ],
             "complication": null,

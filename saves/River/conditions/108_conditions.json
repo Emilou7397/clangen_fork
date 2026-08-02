@@ -1,10 +1,10 @@
 {
     "injuries": {
-        "cat bite": {
-            "severity": "major",
+        "broken bone": {
+            "severity": "severe",
             "mortality": 60,
-            "duration": 2,
-            "moon_start": 163,
+            "duration": 3,
+            "moon_start": 168,
             "illness_infectiousness": [],
             "risks": [
                 {
@@ -13,7 +13,10 @@
                 }
             ],
             "complication": null,
-            "cause_permanent": [],
+            "cause_permanent": [
+                "weak leg",
+                "twisted leg"
+            ],
             "event_triggered": false,
             "potential_scars": []
         }
