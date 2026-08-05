@@ -398,11 +398,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Coatisoar. (positive effect) - Coatisoar was 17 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -600,10 +604,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Coatisoar was impressed by Mallowpelt's hunting prowess. (positive effect) - Coatisoar was 16 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1111,11 +1117,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coatisoar sees that Creekmoss's piece of prey looks tastier and asks if he'd like to swap. He agrees happily, saying he likes that one better. (low positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -1352,16 +1362,22 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 52,
+        "like": 60,
         "respect": 62,
-        "comfort": 90,
+        "comfort": 98,
         "trust": 72,
         "log": [
             "Coatikit heard about how Howlsky's patrol drove a vixen out of their territory. (positive effect) - Coatikit was 4 moons old",
             "Coatisoar heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Coatisoar was 12 moons old",
-            "Coatisoar heard about how Howlsky's patrol stole a fox's prey. (positive effect) - Coatisoar was 14 moons old"
+            "Coatisoar heard about how Howlsky's patrol stole a fox's prey. (positive effect) - Coatisoar was 14 moons old",
+            "Coatisoar, Egretshriek, and Howlsky took a sunbath and had a little small talk. (positive effect) - Coatisoar was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -1503,12 +1519,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 17,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Coatisoar was happy to help Velvettooth gather poppy seeds. (positive effect) - Coatisoar was 17 moons old",
+            "Velvettooth charms Coatisoar. (medium positive effect) - Coatisoar was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2051,14 +2072,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 13,
         "respect": 0,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Coatisoar and Dashshimmer quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Coatisoar was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2073,10 +2096,7 @@
         "log": [
             "Daywhisker supported Coatisoar when she had a vision on patrol. (positive effect) - Coatisoar was 15 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "263",
@@ -2115,15 +2135,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 17,
         "respect": 0,
         "comfort": 26,
         "trust": 10,
         "log": [
             "Coatipaw and Sparkpaw practiced their hunting together. (positive effect) - Coatipaw was 10 moons old",
-            "Coatisoar and Sparkdawn quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Coatisoar was 12 moons old"
+            "Coatisoar and Sparkdawn quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Coatisoar was 12 moons old",
+            "Coatisoar thinks Sparkdawn has interesting things to talk about. (medium positive effect) - Coatisoar was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2131,9 +2154,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 27,
+        "like": 35,
         "respect": -13,
-        "comfort": -8,
+        "comfort": -16,
         "trust": -10,
         "log": [
             "Coatikit learns that Deltapaw has been misleading him about something trivial. (medium negative effect) - Coatikit was 5 moons old",
@@ -2142,7 +2165,10 @@
             "Coatipaw brings Deltapaw a piece of prey to share after a long day of training. (medium positive effect) - Coatipaw was 11 moons old",
             "Coatisoar and Deltamunch quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Coatisoar was 12 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2150,15 +2176,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": -12,
+        "trust": -20,
         "log": [
             "Mistlepaw stepped on Coatipaw's paw and pretended not to notice. (low negative effect) - Coatipaw was 6 moons old",
-            "Coatisoar knows that Mistletail just lied! (medium negative effect) - Coatisoar was 14 moons old"
+            "Coatisoar knows that Mistletail just lied! (medium negative effect) - Coatisoar was 14 moons old",
+            "Though Coatisoar asks around, he can't find Mistletail anywhere. (low negative effect) - Coatisoar was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2181,16 +2210,20 @@
         "romance": 6,
         "like": 83,
         "respect": 16,
-        "comfort": 67,
-        "trust": 36,
+        "comfort": 84,
+        "trust": 49,
         "log": [
             "Coatikit and Icekit enjoy the rain together. (low positive effect) - Coatikit was 2 moons old",
             "Icekit does something that makes Coatikit's day a little happier. (low positive effect) - Coatikit was 4 moons old",
             "Coatipaw likes to sit near Icepaw during conversations. (low positive effect) - Coatipaw was 10 moons old",
             "Coatisoar thinks Icepaw was nice to him today. (low positive effect) - Coatisoar was 12 moons old",
-            "Coatisoar hears a nice story about Icepaw. (low positive effect) - Coatisoar was 13 moons old"
+            "Coatisoar hears a nice story about Icepaw. (low positive effect) - Coatisoar was 13 moons old",
+            "The Clan notices Coatisoar and Iceshine share patrols more often. (medium positive effect) - Coatisoar was 16 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2198,9 +2231,9 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 76,
+        "like": 84,
         "respect": 14,
-        "comfort": 99,
+        "comfort": 100,
         "trust": 69,
         "log": [
             "Coatikit and Egretkit spend the whole day playing hide-n-seek. (medium positive effect) - Coatikit was 1 moon old",
@@ -2208,9 +2241,15 @@
             "Coatipaw confesses something to Egretpaw. (high positive effect) - Coatipaw was 8 moons old",
             "Coatipaw and Egretpaw enjoy the rain together. (low positive effect) - Coatipaw was 9 moons old",
             "Coatipaw and Egretpaw enjoyed working on their skills together on a training patrol. (positive effect) - Coatipaw was 9 moons old",
-            "Coatipaw and Egretpaw practiced their hunting together. (positive effect) - Coatipaw was 10 moons old"
+            "Coatipaw and Egretpaw practiced their hunting together. (positive effect) - Coatipaw was 10 moons old",
+            "Coatisoar, Egretshriek, and Howlsky took a sunbath and had a little small talk. (positive effect) - Coatisoar was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "263",
@@ -2427,8 +2466,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Coatisoar has to snap Crouchripple out of a daze to ask a question. (low negative effect) - Coatisoar was 17 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2542,6 +2583,210 @@
     {
         "cat_from_id": "263",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 27,
+        "respect": 27,
+        "comfort": 44,
+        "trust": 37,
+        "log": [
+            "Coatisoar is excited for his family to grow further. (positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 39,
+        "respect": 39,
+        "comfort": 56,
+        "trust": 49,
+        "log": [
+            "Coatisoar visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 31,
+        "respect": 31,
+        "comfort": 48,
+        "trust": 41,
+        "log": [
+            "Coatisoar is excited for his family to grow further. (positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 23,
+        "respect": 23,
+        "comfort": 40,
+        "trust": 33,
+        "log": [
+            "Coatisoar visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 19,
+        "respect": 19,
+        "comfort": 36,
+        "trust": 29,
+        "log": [
+            "Coatisoar is excited for his family to grow further. (positive effect) - Coatisoar was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "263",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

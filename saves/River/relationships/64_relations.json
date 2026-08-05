@@ -454,14 +454,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
-        "comfort": 0,
-        "trust": 0,
+        "like": -6,
+        "respect": -1,
+        "comfort": -21,
+        "trust": -7,
         "log": [
-            "Skulkwillow heard about how Prancelaurel's patrol drove off a scavenging fox. (positive effect)- Skulkwillow was 20 moons old"
+            "Skulkwillow heard about how Prancelaurel's patrol drove off a scavenging fox. (positive effect)- Skulkwillow was 20 moons old",
+            "Skulkwillow is discomforted by Prancelaurel's muttering. (high negative effect) - Skulkwillow was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -556,16 +561,19 @@
         "romance": 10,
         "like": -4,
         "respect": 40,
-        "comfort": 26,
+        "comfort": 29,
         "trust": -6,
         "log": [
             "Quailfur uses one of Skulkkit's fears against him. (high negative effect)- Skulkkit was 1 moon old",
             "Murkpaw, Warmpaw, Skulkpaw, and Icypaw wish that Quailfur let them sleep instead of getting them up for early morning stretches. (negative effect)- Skulkpaw was 7 moons old",
             "Tomatofreckle, Quailfur, and Skulkwillow took a sunbath and had a little small talk. (positive effect)- Skulkwillow was 25 moons old",
             "Skulkwillow notices that Quailfur is fixing a damaged part of the camp without being asked. (low positive effect) - Skulkwillow was 50 moons old",
-            "Skulkwillow heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skulkwillow was 53 moons old"
+            "Skulkwillow heard about how Quailfur endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skulkwillow was 53 moons old",
+            "Skulkwillow and Quailfur chat about Clan news. (low positive effect) - Skulkwillow was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -866,7 +874,7 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": 50,
+        "respect": 60,
         "comfort": 57,
         "trust": 13,
         "log": [
@@ -880,9 +888,14 @@
             "Skulkwillow and Verbenabloom successfully gathered herbs together despite the rainy weather. (positive effect) - Skulkwillow was 63 moons old",
             "Stretching might be good for one's health, but Hailfreckle, Whiskerleg, Skulkwillow, and Voletuft wish Verbenabloom didn't insist on stretching at the crack of dawn. (negative effect) - Skulkwillow was 80 moons old",
             "Skulkwillow was impressed by how Verbenabloom chased a gray vixen up into a tree. (positive effect) - Skulkwillow was 95 moons old",
-            "Verbenabloom and Skulkwillow worked together to drive off a fox and steal its prey. (positive effect) - Skulkwillow was 96 moons old"
+            "Verbenabloom and Skulkwillow worked together to drive off a fox and steal its prey. (positive effect) - Skulkwillow was 96 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Skulkwillow. (positive effect) - Skulkwillow was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -890,7 +903,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 100,
+        "like": 90,
         "respect": 41,
         "comfort": 100,
         "trust": 36,
@@ -930,9 +943,15 @@
             "Skulkwillow and Fleadusk worked together to steal food from Twolegs on the beach. (positive effect) - Skulkwillow was 84 moons old",
             "Skulkwillow appreciated Fleadusk's conversational skills when they met with a CougarClan patrol. (positive effect) - Skulkwillow was 85 moons old",
             "Fleadusk and Skulkwillow worked together to drive off a fox and steal its prey. (positive effect) - Skulkwillow was 96 moons old",
-            "Skulkwillow was impressed by Fleadusk's skill and leadership while he helped him gather mallow and betony. (positive effect) - Skulkwillow was 99 moons old"
+            "Skulkwillow was impressed by Fleadusk's skill and leadership while he helped him gather mallow and betony. (positive effect) - Skulkwillow was 99 moons old",
+            "Skulkwillow was annoyed that Fleadusk caught him trying to sneak out of camp. (negative effect) - Skulkwillow was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -1018,7 +1037,7 @@
         "family": false,
         "romance": 17,
         "like": 24,
-        "respect": -13,
+        "respect": -21,
         "comfort": 8,
         "trust": 24,
         "log": [
@@ -1033,7 +1052,9 @@
             "Skulkwillow and Heavythud quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Skulkwillow was 80 moons old",
             "Skulkwillow's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Skulkwillow was 94 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -1384,9 +1405,9 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -15,
+        "respect": -10,
         "comfort": 0,
-        "trust": 20,
+        "trust": 25,
         "log": [
             "Mallowpelt tells Skulkwillow that he was worried about him. (low positive effect)- Skulkwillow was 24 moons old",
             "Skulkwillow and Mallowpelt drove off rogues together. (positive effect) - Skulkwillow was 48 moons old",
@@ -1394,9 +1415,13 @@
             "Skulkwillow nearly tripped, but was caught by Mallowpelt. (medium positive effect) - Skulkwillow was 52 moons old",
             "Skulkwillow disapproved of Mallowpelt wearing a collar. (negative effect) - Skulkwillow was 64 moons old",
             "Mallowpelt failed to drive away rogues while on patrol with Skulkwillow. (negative effect) - Skulkwillow was 87 moons old",
-            "Skulkwillow heard that Mallowpelt touched noses with a rogue. (negative effect) - Skulkwillow was 88 moons old"
+            "Skulkwillow heard that Mallowpelt touched noses with a rogue. (negative effect) - Skulkwillow was 88 moons old",
+            "Skulkwillow was impressed by Mallowpelt's hunting prowess. (positive effect) - Skulkwillow was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -1920,7 +1945,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 30,
         "comfort": 8,
         "trust": 30,
@@ -1931,7 +1956,9 @@
             "Skulkwillow gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Skulkwillow was 88 moons old",
             "Skulkwillow and Wavelight often look at each other and smile knowingly about something. (low positive effect) - Skulkwillow was 99 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -2160,14 +2187,17 @@
         "romance": 0,
         "like": 0,
         "respect": 25,
-        "comfort": 13,
+        "comfort": 30,
         "trust": 10,
         "log": [
             "Skulkwillow gained a greater respect for Whiskerleg's loyalty when she saved Yewstar from a fox. (positive effect) - Skulkwillow was 49 moons old",
             "Skulkwillow heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Skulkwillow was 54 moons old",
-            "Skulkwillow heard Whiskerleg fell asleep guarding camp. (negative effect) - Skulkwillow was 77 moons old"
+            "Skulkwillow heard Whiskerleg fell asleep guarding camp. (negative effect) - Skulkwillow was 77 moons old",
+            "When Skulkwillow gets hurt, Whiskerleg is the first to ask if he's okay. (medium positive effect) - Skulkwillow was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -3345,14 +3375,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 7,
         "respect": 4,
         "comfort": 8,
         "trust": 2,
         "log": [
-            "Skulkwillow is excited for his family to grow further. (positive effect) - Skulkwillow was 76 moons old"
+            "Skulkwillow is excited for his family to grow further. (positive effect) - Skulkwillow was 76 moons old",
+            "Skulkwillow keeps asking Waterheart to explain a joke, but Waterheart just says that Skulkwillow had to be there. (low negative effect) - Skulkwillow was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -3474,14 +3507,16 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": -10,
+        "trust": -18,
         "log": [
             "Skulkwillow heard about how Bluestripe's patrol drove off a vixen. (positive effect) - Skulkwillow was 91 moons old",
             "Skulkwillow heard about how Bluestripe's patrol drove a vixen out of their territory. (positive effect) - Skulkwillow was 92 moons old",
             "Skulkwillow heard about how Bluestripe's patrol drove out a vixen and killed her cubs. (positive effect) - Skulkwillow was 94 moons old",
             "Skulkwillow knew that Bluestripe ate fresh-kill while on a hunting patrol. (negative effect) - Skulkwillow was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "64",
@@ -3820,8 +3855,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -3,
+        "log": [
+            "Skulkwillow asks Rowanlily a simple question, but Rowanlily reacts strangely to it. (low negative effect) - Skulkwillow was 104 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -4033,6 +4070,179 @@
         "log": [
             "Skulkwillow visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Skulkwillow was 103 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": -17,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "A Clanmate accuses Skulkwillow of copying one of Driftkit's jokes. (medium negative effect) - Skulkwillow was 106 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "64",
+        "cat_to_id": "307",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

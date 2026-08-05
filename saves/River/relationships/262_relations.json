@@ -321,10 +321,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Egretshriek heard that Mossflight touched noses with a rogue. (negative effect) - Egretshriek was 16 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -399,14 +401,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Egretkit heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Egretkit was 5 moons old",
-            "Egretpaw heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Egretpaw was 7 moons old"
+            "Egretpaw heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Egretpaw was 7 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Egretshriek. (positive effect) - Egretshriek was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -447,11 +452,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Egretshriek disapproved of Murkhaven wearing a collar. (negative effect) - Egretshriek was 15 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -615,10 +624,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Egretshriek was impressed by Mallowpelt's hunting prowess. (positive effect) - Egretshriek was 16 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -716,13 +727,16 @@
         "romance": 0,
         "like": 12,
         "respect": 5,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
         "log": [
             "Egretkit heard about how Snakedrop's patrol drove a vixen out of their territory. (positive effect) - Egretkit was 4 moons old",
-            "Egretshriek talks about what to do tomorrow with Snakedrop. (medium positive effect) - Egretshriek was 15 moons old"
+            "Egretshriek talks about what to do tomorrow with Snakedrop. (medium positive effect) - Egretshriek was 15 moons old",
+            "The silence between Egretshriek and Snakedrop feels more uncomfortable than usual. (low negative effect) - Egretshriek was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -730,14 +744,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Egretshriek heard about how Hollyheart endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretshriek was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -1123,12 +1139,16 @@
         "like": 12,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Egretpaw shares a piece of fresh-kill with Clawswirl. (medium positive effect) - Egretpaw was 12 moons old",
-            "Egretpaw heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 13 moons old"
+            "Egretpaw heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 13 moons old",
+            "Egretshriek heard Clawswirl fell asleep guarding camp. (negative effect) - Egretshriek was 16 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -1137,11 +1157,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Egretshriek gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Egretshriek was 15 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -1385,15 +1410,21 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 45,
+        "like": 53,
         "respect": 50,
-        "comfort": 75,
+        "comfort": 83,
         "trust": 65,
         "log": [
             "Egretkit heard about how Howlsky's patrol drove a vixen out of their territory. (positive effect) - Egretkit was 4 moons old",
-            "Egretpaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 12 moons old"
+            "Egretpaw heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 12 moons old",
+            "Coatisoar, Egretshriek, and Howlsky took a sunbath and had a little small talk. (positive effect) - Egretshriek was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -1541,14 +1572,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 5,
+        "like": 5,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Egretpaw heard that Velvettooth chased a kittypet off the territory. (positive effect) - Egretpaw was 12 moons old"
+            "Egretpaw heard that Velvettooth chased a kittypet off the territory. (positive effect) - Egretpaw was 12 moons old",
+            "Egretshriek was happy to help Velvettooth gather poppy seeds. (positive effect) - Egretshriek was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -1583,7 +1617,7 @@
         "cat_to_id": "208",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 17,
         "like": 11,
         "respect": 0,
         "comfort": -8,
@@ -1594,7 +1628,8 @@
             "Egretpaw and Lionheart enjoyed working on their skills together on a training patrol. (positive effect) - Egretpaw was 9 moons old",
             "Egretpaw and Lionheart practiced their hunting together. (positive effect) - Egretpaw was 10 moons old",
             "Egretpaw discovered that teaching is not one of Lionheart's skills. (negative effect) - Egretpaw was 11 moons old",
-            "Egretshriek noticed Lionheart flirting with someone else. (medium negative effect) - Egretshriek was 15 moons old"
+            "Egretshriek noticed Lionheart flirting with someone else. (medium negative effect) - Egretshriek was 15 moons old",
+            "Egretshriek goes for a nice long walk with Lionheart. (medium positive effect) - Egretshriek was 17 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1876,12 +1911,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -6,
+        "comfort": -6,
+        "trust": -16,
+        "log": [
+            "Egretshriek turned to Branchfox in a time of need, only for Branchfox to abandon them. (high negative effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -2041,13 +2083,16 @@
         "like": 8,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -7,
         "log": [
             "Egretkit thinks Merlotbite was nice to her today. (low positive effect) - Egretkit was 4 moons old",
             "Egretpaw heard that Merlotbite trespassed on another Clan's territory. (negative effect) - Egretpaw was 7 moons old",
-            "Egretpaw heard about how Merlotbite endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 12 moons old"
+            "Egretpaw heard about how Merlotbite endured the bitter cold to gather herbs for RiverClan. (positive effect) - Egretpaw was 12 moons old",
+            "Merlotbite forgot something important about Egretshriek. (medium negative effect) - Egretshriek was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -2101,12 +2146,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 13,
+        "comfort": 26,
         "trust": -15,
         "log": [
             "Egretkit was deeply disappointed to hear that Dashpaw broke the Code. (negative effect) - Egretkit was 1 moon old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -2121,10 +2168,7 @@
         "log": [
             "Daywhisker supported Egretshriek when she had a vision on patrol. (positive effect) - Egretshriek was 15 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "262",
@@ -2145,14 +2189,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 3,
-        "respect": -13,
-        "comfort": 0,
-        "trust": -10,
+        "like": 14,
+        "respect": -9,
+        "comfort": 5,
+        "trust": -7,
         "log": [
-            "Egretkit wondered where Deltakit went when she disappeared for a few days. (negative effect) - Egretkit was 0 moons old"
+            "Egretkit wondered where Deltakit went when she disappeared for a few days. (negative effect) - Egretkit was 0 moons old",
+            "Egretshriek sees a pretty flower in Deltafur's nest. (low positive effect) - Egretshriek was 16 moons old",
+            "Egretshriek and Deltafur plan all their days together. (high positive effect) - Egretshriek was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -2194,12 +2244,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -8,
+        "like": 4,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Mistletail won't help Egretshriek fix their nest. (low negative effect) - Egretshriek was 15 moons old"
+            "Mistletail won't help Egretshriek fix their nest. (low negative effect) - Egretshriek was 15 moons old",
+            "Egretshriek spends some time with Mistletail and they both end up understanding each other a little better. (medium positive effect) - Egretshriek was 17 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2241,18 +2292,25 @@
         "mates": false,
         "family": true,
         "romance": 1,
-        "like": 64,
+        "like": 72,
         "respect": 11,
-        "comfort": 62,
-        "trust": 66,
+        "comfort": 70,
+        "trust": 61,
         "log": [
             "Coatikit mentions that Egretkit looks good today. (low positive effect) - Egretkit was 5 moons old",
             "Only Egretpaw and Coatikit know the details about a specific piece of Clan drama. (medium positive effect) - Egretpaw was 6 moons old",
             "Egretpaw and Coatipaw enjoyed working on their skills together on a training patrol. (positive effect) - Egretpaw was 9 moons old",
             "Egretpaw and Coatipaw practiced their hunting together. (positive effect) - Egretpaw was 10 moons old",
-            "Egretpaw quickly apologizes after bumping into Coatipaw. They have a small laugh about it. (low positive effect) - Egretpaw was 12 moons old"
+            "Egretpaw quickly apologizes after bumping into Coatipaw. They have a small laugh about it. (low positive effect) - Egretpaw was 12 moons old",
+            "Egretshriek heard Coatisoar fell asleep guarding camp. (negative effect) - Egretshriek was 17 moons old",
+            "Coatisoar, Egretshriek, and Howlsky took a sunbath and had a little small talk. (positive effect) - Egretshriek was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "262",
@@ -2590,6 +2648,210 @@
     {
         "cat_from_id": "262",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 21,
+        "respect": 18,
+        "comfort": 35,
+        "trust": 30,
+        "log": [
+            "Egretshriek is excited for their family to grow further. (positive effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 27,
+        "respect": 24,
+        "comfort": 41,
+        "trust": 36,
+        "log": [
+            "Egretshriek visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 41,
+        "respect": 38,
+        "comfort": 55,
+        "trust": 50,
+        "log": [
+            "Egretshriek is excited for their family to grow further. (positive effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 17,
+        "respect": 14,
+        "comfort": 31,
+        "trust": 26,
+        "log": [
+            "Egretshriek is excited for their family to grow further. (positive effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 35,
+        "respect": 32,
+        "comfort": 49,
+        "trust": 44,
+        "log": [
+            "Egretshriek visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Egretshriek was 16 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "262",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

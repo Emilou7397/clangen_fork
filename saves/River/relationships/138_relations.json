@@ -50,11 +50,7 @@
             "Whiskerleg's confidence in Heavythud's abilities as a medicine cat was shaken after he accidentally poisoned Lilynoise. (negative effect) - Whiskerleg was 60 moons old",
             "Whiskerleg and Heavythud enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "138",
@@ -616,11 +612,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -3,
+        "respect": -8,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -17,
+        "log": [
+            "Whiskerleg heard that Mossflight touched noses with a rogue. (negative effect) - Whiskerleg was 70 moons old",
+            "Whiskerleg worries about how capable Mossflight is. (medium negative effect) - Whiskerleg was 71 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -752,15 +754,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 17,
+        "respect": 27,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Stretching might be good for one's health, but Hailfreckle, Whiskerleg, Skulkwillow, and Voletuft wish Verbenabloom didn't insist on stretching at the crack of dawn. (negative effect) - Whiskerleg was 46 moons old",
             "Whiskerleg heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Whiskerleg was 59 moons old",
-            "Verbenabloom convinces Braveocean, Whiskerleg, Freezefoot, and Moletooth to wind down and stretch with her. (positive effect) - Whiskerleg was 64 moons old"
+            "Verbenabloom convinces Braveocean, Whiskerleg, Freezefoot, and Moletooth to wind down and stretch with her. (positive effect) - Whiskerleg was 64 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Whiskerleg. (positive effect) - Whiskerleg was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -822,16 +828,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
         "trust": 17,
         "log": [
             "Whiskerpaw was impressed by Murkhaven's hunting prowess. (positive effect) - Whiskerpaw was 10 moons old",
             "Whiskerleg heard Murkhaven fell asleep guarding camp. (negative effect) - Whiskerleg was 12 moons old",
             "Whiskerleg heard that Murkhaven chased a kittypet off the territory. (positive effect) - Whiskerleg was 26 moons old",
-            "During a patrol, Whiskerleg and Murkhaven have a long conversation about their beliefs and agree on many things. (medium positive effect) - Whiskerleg was 67 moons old"
+            "During a patrol, Whiskerleg and Murkhaven have a long conversation about their beliefs and agree on many things. (medium positive effect) - Whiskerleg was 67 moons old",
+            "Whiskerleg disapproved of Murkhaven wearing a collar. (negative effect) - Whiskerleg was 69 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -923,11 +932,14 @@
         "like": 0,
         "respect": 15,
         "comfort": 0,
-        "trust": 12,
+        "trust": 20,
         "log": [
-            "Whiskerleg heard about Shinefur's victory in battle against a gang of rogues. (positive effect) - Whiskerleg was 31 moons old"
+            "Whiskerleg heard about Shinefur's victory in battle against a gang of rogues. (positive effect) - Whiskerleg was 31 moons old",
+            "Shinefur lets Whiskerleg know that a Clanmate was talking badly about her. (low positive effect) - Whiskerleg was 70 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1086,15 +1098,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -10,
+        "respect": -5,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
             "Whiskerleg heard Mallowpelt fell asleep guarding camp. (negative effect) - Whiskerleg was 14 moons old",
             "Whiskerleg disapproved of Mallowpelt wearing a collar. (negative effect) - Whiskerleg was 29 moons old",
             "Whiskerleg heard about how Mallowpelt's patrol drove off a scavenging fox. (positive effect) - Whiskerleg was 43 moons old",
             "Whiskerleg heard that Mallowpelt touched noses with a rogue. (negative effect) - Whiskerleg was 53 moons old",
-            "Whiskerleg feels like Mallowpelt has been quieter than usual. (low negative effect) - Whiskerleg was 63 moons old"
+            "Whiskerleg feels like Mallowpelt has been quieter than usual. (low negative effect) - Whiskerleg was 63 moons old",
+            "Whiskerleg was impressed by Mallowpelt's hunting prowess. (positive effect) - Whiskerleg was 70 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1420,7 +1433,7 @@
         "like": 0,
         "respect": 37,
         "comfort": 17,
-        "trust": 20,
+        "trust": 37,
         "log": [
             "Whiskerleg and Daisymoor discussed the vision Poppybriar claimed to have. (positive effect) - Whiskerleg was 39 moons old",
             "Daisymoor and Whiskerleg discussed the vision Poppybriar claimed to have. (positive effect) - Whiskerleg was 39 moons old",
@@ -1428,9 +1441,12 @@
             "Whiskerleg heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Whiskerleg was 58 moons old",
             "Whiskerleg heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Whiskerleg was 60 moons old",
             "Daisymoor doesn't judge Whiskerleg for being anxious about a bad dream. (medium positive effect) - Whiskerleg was 61 moons old",
-            "Whiskerleg heard about how Daisymoor endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 68 moons old"
+            "Whiskerleg heard about how Daisymoor endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 68 moons old",
+            "Whiskerleg asks Daisymoor to watch her fresh-kill so she can go to the dirtplace. (medium positive effect) - Whiskerleg was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1599,7 +1615,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
+        "like": 18,
         "respect": 38,
         "comfort": 5,
         "trust": 30,
@@ -1611,7 +1627,9 @@
             "Whiskerleg gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Whiskerleg was 45 moons old",
             "Whiskerleg gained a greater respect for Wavelight's loyalty when he saved Yewstar from a fox. (positive effect) - Whiskerleg was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -1802,12 +1820,7 @@
             "Silkymunch complained so relentlessly about her patrol assignment that Wheatstorm, Shadowfreckle, and Whiskerleg could only sigh and bear it. (negative effect) - Whiskerleg was 67 moons old",
             "Whiskerleg and Silkymunch enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "138",
@@ -1877,12 +1890,7 @@
             "Whiskerleg and Glowfur successfully gathered daisies together. (positive effect) - Whiskerleg was 68 moons old",
             "Whiskerleg and Glowfur enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "138",
@@ -1967,12 +1975,7 @@
             "Whiskerleg and Braveocean successfully gathered daisies together. (positive effect) - Whiskerleg was 68 moons old",
             "Whiskerleg and Braveocean enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "138",
@@ -2081,24 +2084,29 @@
         "like": 24,
         "respect": 14,
         "comfort": 6,
-        "trust": 4,
+        "trust": -1,
         "log": [
             "The whole Clan notices how close Whiskerleg and Clawswirl are lately. (high positive effect) - Whiskerleg was 34 moons old",
             "Clawswirl compliments Whiskerleg's name. (low positive effect) - Whiskerleg was 37 moons old",
-            "Whiskerleg heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 67 moons old"
+            "Whiskerleg heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 67 moons old",
+            "Whiskerleg heard Clawswirl fell asleep guarding camp. (negative effect) - Whiskerleg was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
         "cat_to_id": "152",
         "mates": true,
         "family": false,
-        "romance": 37,
-        "like": 58,
-        "respect": 22,
-        "comfort": 23,
-        "trust": 74,
+        "romance": 58,
+        "like": 66,
+        "respect": 40,
+        "comfort": 30,
+        "trust": 90,
         "log": [
             "Whiskerleg's hackles raise when Creekpaw passes by. (medium negative effect) - Whiskerleg was 13 moons old",
             "Whiskerleg enjoyed spending an evening listening to Creekmoss's stories. (positive effect) - Whiskerleg was 29 moons old",
@@ -2115,13 +2123,15 @@
             "Whiskerleg saw Creekmoss give an elder the best piece of prey on the pile. (positive effect) - Whiskerleg was 62 moons old",
             "Whiskerleg and Creekmoss worked together to gather plantain. (positive effect) - Whiskerleg was 65 moons old",
             "Whiskerleg and Creekmoss successfully gathered daisies together. (positive effect) - Whiskerleg was 68 moons old",
-            "Whiskerleg and Creekmoss enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old"
+            "Whiskerleg and Creekmoss enjoyed a relaxing patrol gathering thyme together. (positive effect) - Whiskerleg was 69 moons old",
+            "Whiskerleg brings Creekmoss some fresh-kill, hoping that she remembered what Creekmoss's favorite was. (high positive effect) - Whiskerleg was 70 moons old",
+            "Whiskerleg gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Whiskerleg was 70 moons old"
         ],
         "no_longer_neutral": [
             "like",
             "respect",
-            "comfort",
-            "trust"
+            "trust",
+            "comfort"
         ]
     },
     {
@@ -2179,9 +2189,9 @@
         "mates": false,
         "family": false,
         "romance": 17,
-        "like": 28,
+        "like": 36,
         "respect": 23,
-        "comfort": 8,
+        "comfort": 16,
         "trust": -15,
         "log": [
             "Whiskerleg and Miteleaf enjoyed a little balancing competition while gathering oak and elder leaves. (positive effect) - Whiskerleg was 35 moons old",
@@ -2190,9 +2200,15 @@
             "Whiskerleg overhears Miteleaf tell another cat he kind of likes Whiskerleg. (medium positive effect) - Whiskerleg was 47 moons old",
             "Miteleaf feels giddy about getting on the same patrol as Whiskerleg. (medium positive effect) - Whiskerleg was 56 moons old",
             "Miteleaf hopes Whiskerleg likes him as much as he likes Whiskerleg. (medium positive effect) - Whiskerleg was 62 moons old",
-            "Whiskerleg and Miteleaf successfully gathered juniper together. (positive effect) - Whiskerleg was 66 moons old"
+            "Whiskerleg and Miteleaf successfully gathered juniper together. (positive effect) - Whiskerleg was 66 moons old",
+            "Howlshine, Miteleaf, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Whiskerleg was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2203,14 +2219,17 @@
         "like": 0,
         "respect": 40,
         "comfort": -3,
-        "trust": 0,
+        "trust": 13,
         "log": [
             "Whiskerleg notices that Coconutocean is always one of the first to volunteer for a difficult task. (medium positive effect) - Whiskerleg was 36 moons old",
             "Whiskerleg thinks Coconutocean is really funny. (low positive effect) - Whiskerleg was 39 moons old",
             "Coconutocean points out to Whiskerleg that a spider is in her nest before she sits in it. (low positive effect) - Whiskerleg was 50 moons old",
-            "Whiskerleg heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 67 moons old"
+            "Whiskerleg heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 67 moons old",
+            "Whiskerleg gets some good advice from Coconutocean about something trivial. (low positive effect) - Whiskerleg was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2251,15 +2270,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 13,
+        "like": 25,
         "respect": 10,
         "comfort": 0,
         "trust": -10,
         "log": [
             "Whiskerleg heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Whiskerleg was 23 moons old",
-            "Whiskerleg heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old"
+            "Whiskerleg heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Whiskerleg was 44 moons old",
+            "Terabyte imparts onto Whiskerleg, Flintwhisker, Silkymunch, and Flightspot how he navigated the toughest moments of his life. (positive effect) - Whiskerleg was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -2365,14 +2389,20 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 26,
+        "like": 34,
         "respect": 13,
-        "comfort": 13,
+        "comfort": 21,
         "trust": 13,
         "log": [
-            "Whiskerleg wants to be closer to Howlshine. (low positive effect) - Whiskerleg was 45 moons old"
+            "Whiskerleg wants to be closer to Howlshine. (low positive effect) - Whiskerleg was 45 moons old",
+            "Howlshine, Miteleaf, and Whiskerleg took a sunbath and had a little small talk. (positive effect) - Whiskerleg was 72 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -3451,8 +3481,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Whiskerleg heard Coatisoar fell asleep guarding camp. (negative effect) - Whiskerleg was 71 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -3503,15 +3535,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 17,
-        "respect": 9,
-        "comfort": 6,
-        "trust": 16,
+        "like": 38,
+        "respect": 15,
+        "comfort": 14,
+        "trust": 23,
         "log": [
             "Whiskerleg is letting Flightsight share her troubles with her, hoping she'll feel better afterward. (high positive effect) - Whiskerleg was 59 moons old",
-            "Whiskerleg heard about how Flightsight's patrol drove off a vixen. (positive effect) - Whiskerleg was 59 moons old"
+            "Whiskerleg heard about how Flightsight's patrol drove off a vixen. (positive effect) - Whiskerleg was 59 moons old",
+            "Whiskerleg thinks very often about Flightsight. (high positive effect) - Whiskerleg was 71 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -3545,12 +3583,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 8,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "While practicing hunting in tide pools, Whiskerleg discovered Sootpaw is a quick study. (positive effect) - Whiskerleg was 70 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -3606,7 +3649,8 @@
         "comfort": 13,
         "trust": -5,
         "log": [
-            "Whiskerleg heard that Rowanlily touched noses with a loner. (negative effect) - Whiskerleg was 64 moons old"
+            "Whiskerleg heard that Rowanlily touched noses with a loner. (negative effect) - Whiskerleg was 64 moons old",
+            "Rowanlily heard Whiskerleg talking badly about him. (high negative effect) - Whiskerleg was 70 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -3715,11 +3759,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Primpaw didn't take Whiskerleg's lesson about octopi seriously. (negative effect) - Whiskerleg was 71 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "138",
@@ -3802,6 +3851,175 @@
     {
         "cat_from_id": "138",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "138",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

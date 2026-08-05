@@ -475,11 +475,12 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail heard that Mossflight touched noses with a rogue. (negative effect) - Minthail was 105 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -535,13 +536,16 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Minthail. (positive effect) - Minthail was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -580,13 +584,16 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail disapproved of Murkhaven wearing a collar. (negative effect) - Minthail was 104 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -746,11 +753,12 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail was impressed by Mallowpelt's hunting prowess. (positive effect) - Minthail was 105 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -792,14 +800,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "like": 11,
+        "respect": 34,
+        "comfort": 6,
+        "trust": 7,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail is amazed at how skilled Shimmerrunner really is. (high positive effect) - Minthail was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -990,15 +1004,19 @@
         "cat_to_id": "118",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "romance": 16,
+        "like": 11,
+        "respect": 5,
+        "comfort": 5,
+        "trust": 6,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail decorates Shadowfreckle's nest with flowers to surprise him! (high positive effect) - Minthail was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1082,13 +1100,15 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
         "log": [
             "These cats recently interacted. - Mikhail was 101 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1129,12 +1149,15 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": -8,
+        "trust": -16,
         "log": [
             "These cats recently interacted. - Mikhail was 101 moons old",
-            "Minthail feels like Glowfur has been quieter than usual. (low negative effect) - Minthail was 103 moons old"
+            "Minthail feels like Glowfur has been quieter than usual. (low negative effect) - Minthail was 103 moons old",
+            "Glowfur learns that Minthail told a Clanmate one of his secrets. (low negative effect) - Minthail was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1235,13 +1258,16 @@
         "like": 5,
         "respect": 6,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "These cats recently interacted. - Mikhail was 101 moons old",
             "Mikhail thinks Clawswirl looks nicer than her today. (low negative effect) - Mikhail was 102 moons old",
-            "Minthail heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Minthail was 102 moons old"
+            "Minthail heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Minthail was 102 moons old",
+            "Minthail heard Clawswirl fell asleep guarding camp. (negative effect) - Minthail was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1250,13 +1276,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": 10,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Minthail was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1539,12 +1569,15 @@
         "romance": 0,
         "like": 5,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail notices that Morelstreak brought her a big piece of prey. (medium positive effect) - Minthail was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1768,13 +1801,17 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail was annoyed by Redswirl's recklessness getting himself hurt and ending a hunt. (negative effect) - Minthail was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -1813,13 +1850,16 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": 17,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail and Shorefrill repair some nests together. (medium positive effect) - Minthail was 106 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -2007,15 +2047,18 @@
         "cat_to_id": "249",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 5,
+        "romance": 26,
+        "like": 18,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail can't help but smile seeing Merlotbite smile. (low positive effect) - Minthail was 105 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "281",
@@ -2225,9 +2268,10 @@
         "like": 5,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "These cats recently interacted. - Mikhail was 101 moons old"
+            "These cats recently interacted. - Mikhail was 101 moons old",
+            "Minthail heard Coatisoar fell asleep guarding camp. (negative effect) - Minthail was 106 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2440,6 +2484,175 @@
     {
         "cat_from_id": "281",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "281",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

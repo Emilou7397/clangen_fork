@@ -119,13 +119,16 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": -10,
         "log": [
             "Deltapaw's confidence in Primfreckle's abilities as a medicine cat was shaken after she accidentally poisoned Carptail. (negative effect) - Deltapaw was 7 moons old",
-            "Deltamunch heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Deltamunch was 15 moons old"
+            "Deltamunch heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Deltamunch was 15 moons old",
+            "Primfreckle doesn't say sorry when bumping into Deltamunch. (low negative effect) - Deltamunch was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -308,7 +311,7 @@
         "romance": 0,
         "like": 12,
         "respect": 0,
-        "comfort": 9,
+        "comfort": 1,
         "trust": 0,
         "log": [
             "Deltapaw and Freezefoot reach for the same piece of prey and bicker over it. Freezefoot gets it. (low negative effect) - Deltapaw was 8 moons old",
@@ -348,12 +351,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -13,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -5,
+        "log": [
+            "Deltamunch heard that Mossflight touched noses with a rogue. (negative effect) - Deltamunch was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -427,13 +434,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Deltapaw heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Deltapaw was 7 moons old"
+            "Deltapaw heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Deltapaw was 7 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Deltamunch. (positive effect) - Deltamunch was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -471,14 +481,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 12,
         "trust": 0,
         "log": [
             "Murkhaven helps Deltakit, Mistlekit, Sparkkit, and Deltakit cope with something difficult. (positive effect) - Deltakit was 1 moon old",
-            "Deltakit thinks Murkhaven is shirking their duties. (medium negative effect) - Deltakit was 4 moons old"
+            "Deltakit thinks Murkhaven is shirking their duties. (medium negative effect) - Deltakit was 4 moons old",
+            "Deltamunch disapproved of Murkhaven wearing a collar. (negative effect) - Deltamunch was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -655,11 +669,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Deltakit heard that Mallowpelt touched noses with a rogue. (negative effect) - Deltakit was 1 moon old"
+            "Deltakit heard that Mallowpelt touched noses with a rogue. (negative effect) - Deltakit was 1 moon old",
+            "Deltamunch was impressed by Mallowpelt's hunting prowess. (positive effect) - Deltamunch was 18 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -992,12 +1007,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": -7,
+        "comfort": -10,
         "trust": 0,
         "log": [
             "Cherrytail won't tell Deltapaw what she finds so funny. (medium negative effect) - Deltapaw was 10 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -1181,14 +1198,20 @@
         "like": 22,
         "respect": 10,
         "comfort": 12,
-        "trust": -13,
+        "trust": -18,
         "log": [
             "Clawswirl won't tell Deltapaw what's got them acting weird. (low negative effect) - Deltapaw was 12 moons old",
             "Deltamunch heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Deltamunch was 15 moons old",
             "Deltamunch and Clawswirl successfully gathered berries together. (positive effect) - Deltamunch was 16 moons old",
-            "Deltamunch, Howlsky, Midnighthaze, Creekmoss, and Clawswirl blow off steam by stretching with and venting to each other. (positive effect) - Deltamunch was 17 moons old"
+            "Deltamunch, Howlsky, Midnighthaze, Creekmoss, and Clawswirl blow off steam by stretching with and venting to each other. (positive effect) - Deltamunch was 17 moons old",
+            "Deltamunch heard Clawswirl fell asleep guarding camp. (negative effect) - Deltamunch was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -1197,14 +1220,20 @@
         "family": false,
         "romance": 0,
         "like": 18,
-        "respect": 7,
+        "respect": 17,
         "comfort": 33,
-        "trust": 7,
+        "trust": 17,
         "log": [
             "Deltapaw associates his favorite smell with Creekmoss. (high positive effect) - Deltapaw was 9 moons old",
-            "Deltamunch, Howlsky, Midnighthaze, Creekmoss, and Clawswirl blow off steam by stretching with and venting to each other. (positive effect) - Deltamunch was 17 moons old"
+            "Deltamunch, Howlsky, Midnighthaze, Creekmoss, and Clawswirl blow off steam by stretching with and venting to each other. (positive effect) - Deltamunch was 17 moons old",
+            "Deltamunch gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Deltamunch was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -1342,14 +1371,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
+        "like": 22,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Deltamunch and Howlshine successfully gathered juniper together. (positive effect) - Deltamunch was 15 moons old"
+            "Deltamunch and Howlshine successfully gathered juniper together. (positive effect) - Deltamunch was 15 moons old",
+            "Howlshine, Deltamunch, Wheatstorm, Primpaw, and Marshpatch hang out while stretching. (positive effect) - Deltamunch was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -1629,16 +1662,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 23,
+        "like": 15,
+        "respect": 28,
         "comfort": 0,
         "trust": 10,
         "log": [
             "Deltamunch heard that Velvettooth chased a kittypet off the territory. (positive effect) - Deltamunch was 14 moons old",
             "Deltamunch saw how Velvettooth persevered in order to gather berries for RiverClan. (positive effect) - Deltamunch was 16 moons old",
-            "Deltamunch and Velvettooth successfully gathered berries together. (positive effect) - Deltamunch was 16 moons old"
+            "Deltamunch and Velvettooth successfully gathered berries together. (positive effect) - Deltamunch was 16 moons old",
+            "Deltamunch was happy to help Velvettooth gather poppy seeds. (positive effect) - Deltamunch was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -1949,10 +1987,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 18,
+        "trust": 28,
         "log": [
             "Deltamunch and Nutwhisker quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltamunch was 14 moons old",
-            "Deltamunch's faith in Nutwhisker was bolstered by seeing her effortless success on an herb-gathering patrol. (positive effect) - Deltamunch was 17 moons old"
+            "Deltamunch's faith in Nutwhisker was bolstered by seeing her effortless success on an herb-gathering patrol. (positive effect) - Deltamunch was 17 moons old",
+            "Deltamunch had total faith in Nutwhisker's ability to interpret Deltafur's vision. (positive effect) - Deltamunch was 18 moons old"
         ],
         "no_longer_neutral": [
             "trust"
@@ -1964,12 +2003,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlshine, Deltamunch, Wheatstorm, Primpaw, and Marshpatch hang out while stretching. (positive effect) - Deltamunch was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2019,11 +2063,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 8,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "When tucking in for the night, Deltamunch saw that Waterheart fixed his nest. (low positive effect) - Deltamunch was 19 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2245,7 +2293,7 @@
         "romance": 0,
         "like": 6,
         "respect": -4,
-        "comfort": 14,
+        "comfort": 22,
         "trust": -10,
         "log": [
             "Deltakit wondered where Deltakit went when she disappeared for a few days. (negative effect) - Deltakit was 1 moon old",
@@ -2254,7 +2302,9 @@
             "Deltapaw eats as ravenously as a wolverine and by the time she's done, Deltapaw, Mistlepaw, and Sparkpaw barely have the stomach to finish their own meals. (negative effect) - Deltapaw was 10 moons old",
             "Deltamunch and Deltafur quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltamunch was 14 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2291,9 +2341,12 @@
             "Harefeather's eagerness to do early morning stretches rubs off on Pheasantbrush, Deltapaw, Mistlepaw, and Deltapaw. (positive effect) - Deltapaw was 7 moons old",
             "Late into the evening, Dustnose invites Howlsky, Fidgetmouse, Mistlepaw, and Deltapaw to stretch with him and enjoy each other's company. (positive effect) - Deltapaw was 8 moons old",
             "Mistlepaw tells Deltapaw that she was worried about him. (low positive effect) - Deltapaw was 9 moons old",
-            "Deltapaw sees a glimmer of determination in Mistlepaw's eyes. (low positive effect) - Deltapaw was 13 moons old"
+            "Deltapaw sees a glimmer of determination in Mistlepaw's eyes. (low positive effect) - Deltapaw was 13 moons old",
+            "Deltamunch quickly apologizes after bumping into Mistletail. They have a small laugh about it. (low positive effect) - Deltamunch was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2347,18 +2400,26 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 14,
-        "respect": -21,
-        "comfort": -16,
-        "trust": -17,
+        "like": 8,
+        "respect": -25,
+        "comfort": -20,
+        "trust": -27,
         "log": [
             "Deltapaw asks Coatipaw about something complicated and regrets it when Coatipaw misses the point. (high negative effect) - Deltapaw was 11 moons old",
             "Deltapaw and Coatipaw enjoyed working on their skills together on a training patrol. (positive effect) - Deltapaw was 11 moons old",
             "Late at night, Deltapaw finds Coatipaw sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Deltapaw was 12 moons old",
             "Deltamunch and Coatisoar quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltamunch was 14 moons old",
-            "Deltamunch knows that Coatisoar is hiding something. (medium negative effect) - Deltamunch was 15 moons old"
+            "Deltamunch knows that Coatisoar is hiding something. (medium negative effect) - Deltamunch was 15 moons old",
+            "Deltamunch just barely missed a mouse, but Coatisoar caught it right after, handing it off to him. (medium positive effect) - Deltamunch was 19 moons old",
+            "Deltamunch catches Coatisoar staring at another cat. (high negative effect) - Deltamunch was 19 moons old",
+            "Deltamunch heard Coatisoar fell asleep guarding camp. (negative effect) - Deltamunch was 19 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2525,14 +2586,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
-            "Deltamunch heard about how Marshpatch endured the bitter cold to gather herbs for RiverClan. (positive effect) - Deltamunch was 15 moons old"
+            "Deltamunch heard about how Marshpatch endured the bitter cold to gather herbs for RiverClan. (positive effect) - Deltamunch was 15 moons old",
+            "Howlshine, Deltamunch, Wheatstorm, Primpaw, and Marshpatch hang out while stretching. (positive effect) - Deltamunch was 18 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2623,12 +2689,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Howlshine, Deltamunch, Wheatstorm, Primpaw, and Marshpatch hang out while stretching. (positive effect) - Deltamunch was 18 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "258",
@@ -2698,6 +2769,179 @@
     {
         "cat_from_id": "258",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": -13,
+        "log": [
+            "Though Deltamunch asks around, he can't find Pinekit anywhere. (low negative effect) - Deltamunch was 20 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "258",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

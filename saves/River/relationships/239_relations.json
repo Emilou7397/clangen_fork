@@ -383,10 +383,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterheart heard that Mossflight touched noses with a rogue. (negative effect) - Waterheart was 28 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -463,11 +465,16 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Waterheart. (positive effect) - Waterheart was 29 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -492,7 +499,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 10,
         "comfort": 0,
         "trust": -5,
@@ -509,11 +516,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterheart disapproved of Murkhaven wearing a collar. (negative effect) - Waterheart was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -595,9 +606,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 17,
+        "log": [
+            "Waterheart notices how Shinefur is being helpful around camp. (medium positive effect) - Waterheart was 29 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -692,15 +707,19 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 17,
+        "respect": 22,
         "comfort": 10,
-        "trust": -5,
+        "trust": 0,
         "log": [
             "Waterkit heard about how Mallowpelt's patrol drove off a scavenging fox. (positive effect) - Waterkit was 1 moon old",
             "Waterpaw heard that Mallowpelt touched noses with a rogue. (negative effect) - Waterpaw was 11 moons old",
-            "Waterheart swaps favorite prey with Mallowpelt. (medium positive effect) - Waterheart was 22 moons old"
+            "Waterheart swaps favorite prey with Mallowpelt. (medium positive effect) - Waterheart was 22 moons old",
+            "Waterheart was impressed by Mallowpelt's hunting prowess. (positive effect) - Waterheart was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1025,14 +1044,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -17,
         "respect": 0,
         "comfort": 3,
         "trust": 0,
         "log": [
-            "Waterheart learns that Blotchstripe is scared of thunder, too. (low positive effect) - Waterheart was 16 moons old"
+            "Waterheart learns that Blotchstripe is scared of thunder, too. (low positive effect) - Waterheart was 16 moons old",
+            "Waterheart is tired of interacting with Blotchstripe lately. (medium negative effect) - Waterheart was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1307,11 +1329,14 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Waterheart heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Waterheart was 25 moons old"
+            "Waterheart heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Waterheart was 25 moons old",
+            "Waterheart heard Clawswirl fell asleep guarding camp. (negative effect) - Waterheart was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1320,11 +1345,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Waterheart gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Waterheart was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -1845,11 +1875,12 @@
         "romance": 0,
         "like": 6,
         "respect": 6,
-        "comfort": 5,
+        "comfort": -3,
         "trust": 6,
         "log": [
             "Waterkit heard that Sagospeck had a serious conversation with a kittypet. (negative effect) - Waterkit was 5 moons old",
-            "Waterheart is letting Sagospeck share his troubles with her, hoping he'll feel better afterward. (high positive effect) - Waterheart was 26 moons old"
+            "Waterheart is letting Sagospeck share his troubles with her, hoping he'll feel better afterward. (high positive effect) - Waterheart was 26 moons old",
+            "Both Waterheart and Sagospeck avoid one another's eye contact. (low negative effect) - Waterheart was 30 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1885,12 +1916,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterheart confesses something to Softspring, but realizes she can't relate at all. (low negative effect) - Waterheart was 29 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2125,10 +2160,10 @@
         "mates": false,
         "family": true,
         "romance": 5,
-        "like": 72,
-        "respect": -7,
-        "comfort": 79,
-        "trust": 22,
+        "like": 76,
+        "respect": -3,
+        "comfort": 90,
+        "trust": 24,
         "log": [
             "Branchkit keeps avoiding eye contact with Waterkit. (medium negative effect) - Waterkit was 1 moon old",
             "Waterkit doesn't get why Branchkit gets more praise for doing the same thing everyone else does. (high negative effect) - Waterkit was 5 moons old",
@@ -2137,9 +2172,14 @@
             "Though they got very little actual training done, Waterheart had a lot of fun when Branchfox led the patrol on a wild chase across the territory. (positive effect) - Waterheart was 14 moons old",
             "Waterheart thinks Branchfox is very polite. (low positive effect) - Waterheart was 15 moons old",
             "The moonlight encourages Branchfox, Snookbumble, Edelweisstree, Waterheart, and Whitewhisker to slow down and stretch. (positive effect) - Waterheart was 15 moons old",
-            "Branchfox doesn't judge Waterheart for being anxious about a bad dream. (medium positive effect) - Waterheart was 19 moons old"
+            "Branchfox doesn't judge Waterheart for being anxious about a bad dream. (medium positive effect) - Waterheart was 19 moons old",
+            "Waterheart comforts Branchfox after a terrible nightmare. (high positive effect) - Waterheart was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2381,15 +2421,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 7,
-        "comfort": -17,
-        "trust": 0,
+        "like": 10,
+        "respect": 14,
+        "comfort": -21,
+        "trust": 9,
         "log": [
             "During rough weather, Daypaw helps Waterheart get safely to her den. (medium positive effect) - Waterheart was 16 moons old",
             "In the middle of a conversation, Waterheart and Daywhisker realize they have less in common than they thought. (medium negative effect) - Waterheart was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort",
+            "like",
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2524,11 +2569,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Waterheart appreciates Egretshriek for who they are. (medium positive effect) - Waterheart was 30 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2539,8 +2588,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Waterheart heard Coatisoar fell asleep guarding camp. (negative effect) - Waterheart was 29 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2645,10 +2696,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2756,10 +2809,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "239",
@@ -2884,6 +2940,183 @@
         "log": [
             "Waterheart is excited for her family to grow further. (positive effect) - Waterheart was 26 moons old"
         ],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Waterheart is excited for her family to grow further. (positive effect) - Waterheart was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Waterheart visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Waterheart was 27 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "239",
+        "cat_to_id": "307",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
         "no_longer_neutral": []
     }
 ]

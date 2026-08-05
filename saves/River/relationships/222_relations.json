@@ -399,10 +399,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Avocetear heard about how Mossflight's patrol drove off a scavenging fox. (positive effect) - Avocetear was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -497,11 +499,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Avocetear heard about how Verbenabloom's patrol drove off a scavenging fox. (positive effect) - Avocetear was 36 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Avocetear. (positive effect) - Avocetear was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -567,13 +574,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -12,
         "comfort": 0,
         "trust": -12,
         "log": [
-            "Avocetpaw knows that Diablofoot is hiding something. (medium negative effect) - Avocetpaw was 8 moons old"
+            "Avocetpaw knows that Diablofoot is hiding something. (medium negative effect) - Avocetpaw was 8 moons old",
+            "Avocetear has noticed Diablofoot isn't doing a lot of work lately. (medium negative effect) - Avocetear was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -746,10 +756,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Avocetear was impressed by Mallowpelt's hunting prowess. (positive effect) - Avocetear was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -923,10 +935,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Avocetear heard about how Kiwifoot's patrol drove off a scavenging fox. (positive effect) - Avocetear was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1465,15 +1479,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
-        "respect": 0,
+        "like": -4,
+        "respect": -8,
         "comfort": 12,
         "trust": -8,
         "log": [
             "Miteleaf shares a suspiciously exaggerated tale with Coconutocean, Avocetear, and Lightpelt, who seem far from convinced of its veracity. (negative effect) - Avocetear was 19 moons old",
-            "Miteleaf's eagerness to do early morning stretches rubs off on Avocetear, Coconutocean, Oddmuzzle, and Lilynoise. (positive effect) - Avocetear was 22 moons old"
+            "Miteleaf's eagerness to do early morning stretches rubs off on Avocetear, Coconutocean, Oddmuzzle, and Lilynoise. (positive effect) - Avocetear was 22 moons old",
+            "Miteleaf complained about her patrol assignment all day, much to the annoyance of Avocetear, Brindletooth, Skytooth, and Hailfreckle. (negative effect) - Avocetear was 35 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -1512,15 +1531,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 10,
-        "respect": 18,
-        "comfort": 0,
-        "trust": 0,
+        "like": 14,
+        "respect": 29,
+        "comfort": 2,
+        "trust": 2,
         "log": [
             "Avocetear was amazed to encounter a ghost while patrolling with Nymphshine. (positive effect) - Avocetear was 31 moons old",
-            "Avocetear enjoyed Nymphshine's explanation of how oak leaves' medicinal properties are drawn from the strength of the tree. (positive effect) - Avocetear was 32 moons old"
+            "Avocetear enjoyed Nymphshine's explanation of how oak leaves' medicinal properties are drawn from the strength of the tree. (positive effect) - Avocetear was 32 moons old",
+            "Avocetear believes Nymphshine has endless potential he keeps surpassing every day. (high positive effect) - Avocetear was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -1867,10 +1890,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Avocetear heard about how Morelstreak's patrol drove off a scavenging fox. (positive effect) - Avocetear was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1895,11 +1920,11 @@
         "cat_to_id": "200",
         "mates": true,
         "family": false,
-        "romance": 20,
-        "like": 41,
-        "respect": 24,
-        "comfort": 57,
-        "trust": 44,
+        "romance": 41,
+        "like": 54,
+        "respect": 37,
+        "comfort": 63,
+        "trust": 51,
         "log": [
             "Avocetpaw heard about how Velvettooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Avocetpaw was 10 moons old",
             "Avocetear notices one of his friends talking to Velvettooth. (low negative effect) - Avocetear was 15 moons old",
@@ -1908,9 +1933,16 @@
             "Avocetear felt like Velvettooth wasted his time with an unsuccessful thyme-gathering patrol. (negative effect) - Avocetear was 30 moons old",
             "Avocetear sees a glimmer of determination in Velvettooth's eyes. (low positive effect) - Avocetear was 31 moons old",
             "Avocetear realizes that he doesn't have the mentality to keep a romantic relationship right now. After a little talk with Velvettooth, they have decided that they should just be friends, for now at least. - Avocetear was 31 moons old",
-            "Velvettooth and Avocetear enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Avocetear was 33 moons old"
+            "Velvettooth and Avocetear enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Avocetear was 33 moons old",
+            "Avocetear can't stop gushing over Velvettooth. (high positive effect) - Avocetear was 36 moons old",
+            "Avocetear was happy to help Velvettooth gather poppy seeds. (positive effect) - Avocetear was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -1991,12 +2023,14 @@
         "romance": 0,
         "like": 11,
         "respect": 5,
-        "comfort": 5,
+        "comfort": 8,
         "trust": 2,
         "log": [
             "Avocetear listens to Sagospeck talk about what life was like when he was young. (high positive effect) - Avocetear was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -2038,7 +2072,7 @@
         "cat_to_id": "215",
         "mates": false,
         "family": false,
-        "romance": 13,
+        "romance": 25,
         "like": 30,
         "respect": 18,
         "comfort": -12,
@@ -2049,7 +2083,8 @@
             "Avocetear appreciated Softspring settling a dispute on patrol. (positive effect) - Avocetear was 25 moons old",
             "Avocetear is easily swayed by Softspring's words. (medium positive effect) - Avocetear was 30 moons old",
             "Avocetear felt eyes on his back, and when he looked, Softspring was quickly turning away. (low negative effect) - Avocetear was 32 moons old",
-            "Softspring and Avocetear enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Avocetear was 33 moons old"
+            "Softspring and Avocetear enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Avocetear was 33 moons old",
+            "Avocetear had a lovely dream about Softspring. (medium positive effect) - Avocetear was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2238,10 +2273,7 @@
             "Avocetear accuses Caterpillarstripe of stealing something. (medium negative effect) - Avocetear was 29 moons old",
             "Caterpillarstripe pulled an embarrassing prank on Avocetear's friend. (low negative effect) - Avocetear was 35 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "222",
@@ -2409,14 +2441,17 @@
         "romance": 0,
         "like": 2,
         "respect": 0,
-        "comfort": -7,
+        "comfort": -19,
         "trust": -2,
         "log": [
             "Avocetear struggles to make sense of something trivial Avocetfur said. (low negative effect) - Avocetear was 30 moons old",
             "Avocetear had a difficult conversation with Avocetfur, and they both ended up resentful of one another. (high negative effect) - Avocetear was 31 moons old",
-            "Avocetear overhears Avocetfur educating Clanmates about their fallen ancestors. (high positive effect) - Avocetear was 34 moons old"
+            "Avocetear overhears Avocetfur educating Clanmates about their fallen ancestors. (high positive effect) - Avocetear was 34 moons old",
+            "Avocetfur won't tell Avocetear what he finds so funny. (medium negative effect) - Avocetear was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -2453,11 +2488,14 @@
         "like": 0,
         "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": -10,
         "log": [
-            "Avocetear heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Avocetear was 26 moons old"
+            "Avocetear heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Avocetear was 26 moons old",
+            "Avocetear became suspicious of Silkroot after catching him trying to sneak out of camp. (negative effect) - Avocetear was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -2510,14 +2548,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Avocetear and Dashshimmer successfully gathered herbs together despite the rainy weather. (positive effect) - Avocetear was 29 moons old"
+            "Avocetear and Dashshimmer successfully gathered herbs together despite the rainy weather. (positive effect) - Avocetear was 29 moons old",
+            "Avocetear likes the way Dashshimmer laughs. (medium positive effect) - Avocetear was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -2624,10 +2665,10 @@
         "cat_to_id": "259",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 3,
+        "like": 3,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 3,
         "trust": 0,
         "log": [],
         "no_longer_neutral": []
@@ -2928,11 +2969,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Avocetear notices Crouchripple failed to complete a simple task. (low negative effect) - Avocetear was 36 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "222",
@@ -3058,6 +3103,175 @@
     {
         "cat_from_id": "222",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "222",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

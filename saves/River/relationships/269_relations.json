@@ -340,11 +340,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Vida. (positive effect) - Vida was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -542,10 +546,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Vida was impressed by Mallowpelt's hunting prowess. (positive effect) - Vida was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -746,12 +752,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Vida helped Minnowlily bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Vida was 49 moons old",
+            "Vida and Minnowlily worked together to gather juniper needles and oak leaves. (positive effect) - Vida was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -865,12 +877,14 @@
         "cat_to_id": "129",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Vida is prancing around in front of Drizzlepelt. (low positive effect) - Vida was 49 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1141,10 +1155,7 @@
         "log": [
             "Vida appreciated that Nymphshine let him bring a sprig of tansy back to his den to freshen the air. (positive effect) - Vida was 48 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "269",
@@ -1237,12 +1248,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Vida and Heathstripe worked together to gather juniper needles and oak leaves. (positive effect) - Vida was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1263,17 +1279,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -1,
-        "respect": -14,
+        "like": 9,
+        "respect": -12,
         "comfort": -5,
         "trust": -1,
         "log": [
             "Vida and Dustnose had a productive training patrol together. (positive effect) - Vida was 36 moons old",
             "Vida appreciated Dustnose taking charge to coordinate battle training for the patrol. (positive effect) - Vida was 36 moons old",
             "Vida scolds Dustnose about something he did, but Dustnose doesn't take him seriously. (high negative effect) - Vida was 46 moons old",
-            "Dustnose snickered when Vida tripped. (low negative effect) - Vida was 48 moons old"
+            "Dustnose snickered when Vida tripped. (low negative effect) - Vida was 48 moons old",
+            "Vida and Dustnose worked together to gather juniper needles and oak leaves. (positive effect) - Vida was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1299,17 +1319,22 @@
         "mates": false,
         "family": false,
         "romance": 3,
-        "like": 28,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 5,
+        "like": 44,
+        "respect": 4,
+        "comfort": 18,
+        "trust": 9,
         "log": [
             "Vida and Kinkdapple had a productive training patrol together. (positive effect) - Vida was 36 moons old",
             "Vida and Kinkdapple trained and caught up with each other. (positive effect) - Vida was 39 moons old",
             "Vida and Kinkdapple enjoyed a relaxing patrol gathering thyme together. (positive effect) - Vida was 44 moons old",
-            "Vida and Kinkdapple successfully gathered dandelions and wild garlic together. (positive effect) - Vida was 45 moons old"
+            "Vida and Kinkdapple successfully gathered dandelions and wild garlic together. (positive effect) - Vida was 45 moons old",
+            "Vida considers Kinkdapple to be one of his close friends. (high positive effect) - Vida was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1318,13 +1343,16 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": 0,
+        "respect": -8,
         "comfort": -3,
         "trust": 0,
         "log": [
-            "Vida and Brindlesplash trained and caught up with each other. (positive effect) - Vida was 39 moons old"
+            "Vida and Brindlesplash trained and caught up with each other. (positive effect) - Vida was 39 moons old",
+            "Vida doesn't tell Brindlesplash that she forgot to groom a part of her fur. (low negative effect) - Vida was 49 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1458,13 +1486,14 @@
         "cat_to_id": "213",
         "mates": false,
         "family": false,
-        "romance": 3,
+        "romance": 0,
         "like": 10,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Vida appreciated that Scalebloom reinforced the dens in camp. (positive effect) - Vida was 46 moons old"
+            "Vida appreciated that Scalebloom reinforced the dens in camp. (positive effect) - Vida was 46 moons old",
+            "Vida didn't realize Scalebloom was flirting with him. (low negative effect) - Vida was 51 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1489,12 +1518,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": 10,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Vida and Softspring worked together to gather juniper needles and oak leaves. (positive effect) - Vida was 50 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1528,14 +1562,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": 10,
+        "respect": 20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Vida heard about how Skytooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Vida was 47 moons old"
+            "Vida heard about how Skytooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Vida was 47 moons old",
+            "Vida and Skytooth worked together to gather juniper needles and oak leaves. (positive effect) - Vida was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -1810,13 +1848,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 12,
+        "respect": 20,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Vida and Bub take turns in a small patch of sunlight. (medium positive effect) - Vida was 44 moons old"
+            "Vida and Bub take turns in a small patch of sunlight. (medium positive effect) - Vida was 44 moons old",
+            "Vida noticed Bub is doing his best today. (low positive effect) - Vida was 50 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -2083,12 +2124,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -13,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Vida doesn't think the object that Willowfog asked him to find is real. (low negative effect) - Vida was 51 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "269",
@@ -2310,6 +2355,175 @@
     {
         "cat_from_id": "269",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "269",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

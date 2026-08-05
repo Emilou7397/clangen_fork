@@ -1,26 +1,33 @@
 {
     "injuries": {
-        "frostbite": {
+        "water in their lungs": {
             "severity": "major",
-            "mortality": 30,
-            "duration": 2,
-            "moon_start": 167,
+            "mortality": 69,
+            "duration": 3,
+            "moon_start": 170,
             "illness_infectiousness": [
                 {
                     "name": "running nose",
-                    "lower_by": 6
+                    "lower_by": 5
+                },
+                {
+                    "name": "whitecough",
+                    "lower_by": 3
                 }
             ],
             "risks": [
                 {
                     "name": "running nose",
-                    "chance": 38
+                    "chance": 24
+                },
+                {
+                    "name": "whitecough",
+                    "chance": 34
                 }
             ],
             "complication": null,
             "cause_permanent": [
-                "lost a leg",
-                "lost their tail"
+                "raspy lungs"
             ],
             "event_triggered": false,
             "potential_scars": []

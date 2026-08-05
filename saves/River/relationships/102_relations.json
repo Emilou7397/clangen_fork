@@ -290,12 +290,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 0,
         "respect": 0,
         "comfort": 8,
         "trust": 0,
         "log": [
-            "Ochretail, Kiwifoot, and Auburnsplash took a sunbath and had a little small talk. (positive effect) - Kiwifoot was 47 moons old"
+            "Ochretail, Kiwifoot, and Auburnsplash took a sunbath and had a little small talk. (positive effect) - Kiwifoot was 47 moons old",
+            "Kiwifoot didn't tell Auburnsplash about the feather stuck to her face, so Auburnsplash spent the whole day looking silly. (low negative effect) - Kiwifoot was 110 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -580,7 +581,7 @@
         "like": 29,
         "respect": 26,
         "comfort": 26,
-        "trust": 55,
+        "trust": 60,
         "log": [
             "Mossflight was part of the patrol that invited Kokomi to RiverClan. (positive effect)- Kokomi was 25 moons old",
             "Kiwifoot and Mossflight took a lovely nap together instead of patrolling. (positive effect) - Kiwifoot was 33 moons old",
@@ -594,9 +595,15 @@
             "Kiwifoot was impressed by Mossflight's confidence in fighting rogues. (positive effect) - Kiwifoot was 55 moons old",
             "Kiwifoot and Mossflight roll up moss balls together. (low positive effect) - Kiwifoot was 63 moons old",
             "Kiwifoot had fun cracking open a coconut with Mossflight. (positive effect) - Kiwifoot was 66 moons old",
-            "Kiwifoot heard about how Mossflight's patrol drove off a vixen. (positive effect) - Kiwifoot was 95 moons old"
+            "Kiwifoot heard about how Mossflight's patrol drove off a vixen. (positive effect) - Kiwifoot was 95 moons old",
+            "Mossflight and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -720,9 +727,9 @@
         "family": false,
         "romance": 0,
         "like": 42,
-        "respect": 0,
+        "respect": 10,
         "comfort": 2,
-        "trust": 33,
+        "trust": 38,
         "log": [
             "Kokomi and Verbenabloom worked on their skills together on a training patrol. (positive effect)- Kokomi was 31 moons old",
             "Kiwifoot explains what a joke means to Verbenabloom. (low positive effect) - Kiwifoot was 36 moons old",
@@ -734,9 +741,15 @@
             "Kiwifoot had fun cracking open a coconut with Verbenabloom. (positive effect) - Kiwifoot was 66 moons old",
             "Verbenabloom tells Morelstreak, Dahliacrest, and Kiwifoot a story that earns more skepticism than admiration. (negative effect) - Kiwifoot was 73 moons old",
             "Kiwifoot enjoyed driving away rogues with Verbenabloom. (positive effect) - Kiwifoot was 76 moons old",
-            "Verbenabloom is upset after spending the day with Kiwifoot's bad attitude. (low negative effect) - Kiwifoot was 98 moons old"
+            "Verbenabloom is upset after spending the day with Kiwifoot's bad attitude. (low negative effect) - Kiwifoot was 98 moons old",
+            "Verbenabloom and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 108 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Kiwifoot. (positive effect) - Kiwifoot was 109 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -890,11 +903,11 @@
         "cat_to_id": "70",
         "mates": false,
         "family": false,
-        "romance": 17,
-        "like": 17,
-        "respect": 24,
-        "comfort": 11,
-        "trust": 10,
+        "romance": 26,
+        "like": 25,
+        "respect": 33,
+        "comfort": 19,
+        "trust": 18,
         "log": [
             "Kiwifoot didn't get the joke Brindletooth was telling. (low negative effect) - Kiwifoot was 38 moons old",
             "Kiwifoot heard about how Brindletooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 56 moons old",
@@ -903,7 +916,12 @@
             "Kiwifoot and Brindletooth chatted and gossiped while gathering mallow and betony together. (positive effect) - Kiwifoot was 86 moons old",
             "Hailfreckle is gossiping with Brindletooth about Kiwifoot. (negative effect) - Kiwifoot was 103 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort",
+            "respect",
+            "like"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -1136,14 +1154,20 @@
         "family": false,
         "romance": 0,
         "like": -6,
-        "respect": -16,
-        "comfort": -4,
-        "trust": -16,
+        "respect": -11,
+        "comfort": -12,
+        "trust": -11,
         "log": [
             "Kiwifoot doubts whether Mallowpelt even likes her at all... (high negative effect) - Kiwifoot was 94 moons old",
-            "Mallowpelt caught a giant piece of prey that Kiwifoot wishes she did. (medium negative effect) - Kiwifoot was 97 moons old"
+            "Mallowpelt caught a giant piece of prey that Kiwifoot wishes she did. (medium negative effect) - Kiwifoot was 97 moons old",
+            "Kiwifoot was impressed by Mallowpelt's hunting prowess. (positive effect) - Kiwifoot was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -1457,19 +1481,25 @@
         "cat_to_id": "109",
         "mates": false,
         "family": false,
-        "romance": 13,
-        "like": 13,
-        "respect": 32,
-        "comfort": 13,
-        "trust": 15,
+        "romance": 34,
+        "like": 21,
+        "respect": 38,
+        "comfort": 21,
+        "trust": 21,
         "log": [
             "Kiwifoot heard about Daisymoor's victory in battle against a gang of rogues. (positive effect) - Kiwifoot was 63 moons old",
             "Kiwifoot notices one of her friends laughing with Daisymoor. (low negative effect) - Kiwifoot was 72 moons old",
             "Kiwifoot heard about how Daisymoor's patrol drove a vixen out of their territory. (positive effect) - Kiwifoot was 96 moons old",
             "Kiwifoot heard about how Daisymoor's patrol drove out a vixen and killed her cubs. (positive effect) - Kiwifoot was 98 moons old",
-            "Kiwifoot heard about how Daisymoor endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 106 moons old"
+            "Kiwifoot heard about how Daisymoor endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 106 moons old",
+            "Kiwifoot gave Daisymoor a sprig of catmint she found. (high positive effect) - Kiwifoot was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -1525,18 +1555,24 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 40,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 15,
         "log": [
             "Kiwifoot heard about Wasppelt's victory in battle against a gang of rogues. (positive effect) - Kiwifoot was 63 moons old",
             "Kiwifoot saw Wasppelt's patrol go out to hunt for the Clan despite the snow. (positive effect) - Kiwifoot was 80 moons old",
             "Kiwifoot heard about how Wasppelt's patrol drove off a vixen. (positive effect) - Kiwifoot was 95 moons old",
             "Kiwifoot heard about how Wasppelt's patrol drove out a vixen and killed her cubs. (positive effect) - Kiwifoot was 98 moons old",
-            "Kiwifoot heard about how Wasppelt endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 106 moons old"
+            "Kiwifoot heard about how Wasppelt endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 106 moons old",
+            "Morelstreak, Kiwifoot, and Wasppelt took a sunbath and had a little small talk. (positive effect) - Kiwifoot was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -1878,12 +1914,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -8,
+        "respect": -21,
+        "comfort": -7,
+        "trust": -8,
+        "log": [
+            "Kiwifoot told Braveocean to shut up. (high negative effect) - Kiwifoot was 109 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2096,8 +2139,8 @@
         "family": false,
         "romance": 0,
         "like": 5,
-        "respect": -3,
-        "comfort": 5,
+        "respect": 5,
+        "comfort": 13,
         "trust": -5,
         "log": [
             "Kiwifoot heard that Terabyte was unable to save Anteaterspot in a fight with a red vixen. (negative effect) - Kiwifoot was 61 moons old",
@@ -2105,7 +2148,9 @@
             "Kiwifoot complains about something Terabyte did. (low negative effect) - Kiwifoot was 79 moons old",
             "Kiwifoot heard about how Terabyte endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2243,15 +2288,20 @@
         "mates": false,
         "family": false,
         "romance": 12,
-        "like": 0,
+        "like": -8,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [
             "Kiwifoot heard about how Minnowlily endured the bitter cold to gather herbs for RiverClan. (positive effect) - Kiwifoot was 56 moons old",
-            "Kiwifoot just barely missed a mouse, but Minnowlily caught it right after, handing it off to her. (medium positive effect) - Kiwifoot was 70 moons old"
+            "Kiwifoot just barely missed a mouse, but Minnowlily caught it right after, handing it off to her. (medium positive effect) - Kiwifoot was 70 moons old",
+            "Minnowlily shares a suspiciously exaggerated tale with Heathstripe, Brindletooth, Midnighthaze, and Kiwifoot, who seem far from convinced of its veracity. (negative effect) - Kiwifoot was 107 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2492,14 +2542,20 @@
         "mates": false,
         "family": false,
         "romance": 13,
-        "like": 10,
+        "like": 18,
         "respect": 0,
-        "comfort": 10,
-        "trust": 13,
+        "comfort": 18,
+        "trust": 18,
         "log": [
-            "Kiwifoot and Morelstreak chatted and gossiped while gathering mallow and betony together. (positive effect) - Kiwifoot was 86 moons old"
+            "Kiwifoot and Morelstreak chatted and gossiped while gathering mallow and betony together. (positive effect) - Kiwifoot was 86 moons old",
+            "Morelstreak, Kiwifoot, and Wasppelt took a sunbath and had a little small talk. (positive effect) - Kiwifoot was 107 moons old",
+            "Morelstreak and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2553,11 +2609,14 @@
         "like": 0,
         "respect": 8,
         "comfort": 0,
-        "trust": 5,
+        "trust": 17,
         "log": [
-            "Jademuzzle and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 73 moons old"
+            "Jademuzzle and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 73 moons old",
+            "Kiwifoot protects Jademuzzle from something on a patrol. (medium positive effect) - Kiwifoot was 110 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2568,13 +2627,15 @@
         "like": 5,
         "respect": 15,
         "comfort": 5,
-        "trust": 25,
+        "trust": 33,
         "log": [
             "Hollyblossom and Kiwifoot drove off a scavenging fox together. (positive effect) - Kiwifoot was 73 moons old",
             "Kiwifoot was impressed by Hollyblossom's confidence in fighting rogues. (positive effect) - Kiwifoot was 94 moons old",
             "Kiwifoot heard about Hollyblossom's victory in battle against a gang of dangerous rogues. (positive effect) - Kiwifoot was 98 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2626,12 +2687,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 5,
+        "respect": 16,
+        "comfort": 13,
+        "trust": 5,
+        "log": [
+            "When discussing the future, Kiwifoot and Scalebloom discuss the policies they'd implement in a Clan of their own. (high positive effect) - Kiwifoot was 109 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -2781,10 +2847,7 @@
             "Kiwifoot doubts Redswirl would be able to protect her if something went wrong. (medium negative effect) - Kiwifoot was 96 moons old",
             "Kiwifoot is surprised by the hurtful things Redswirl can say in an argument. (medium negative effect) - Kiwifoot was 101 moons old"
         ],
-        "no_longer_neutral": [
-            "trust",
-            "like"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "102",
@@ -3052,12 +3115,15 @@
         "romance": 0,
         "like": 0,
         "respect": 5,
-        "comfort": 0,
+        "comfort": -12,
         "trust": 0,
         "log": [
-            "Kiwifoot heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Kiwifoot was 98 moons old"
+            "Kiwifoot heard about how Silkroot's patrol drove out a vixen and killed her cubs. (positive effect) - Kiwifoot was 98 moons old",
+            "Silkroot talks to Kiwifoot a bit too enthusiastically about how best to kill prey. (medium negative effect) - Kiwifoot was 108 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "102",
@@ -3236,7 +3302,7 @@
         "family": false,
         "romance": 13,
         "like": 13,
-        "respect": 0,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [],
@@ -3624,6 +3690,175 @@
     {
         "cat_from_id": "102",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "102",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -454,14 +454,19 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": 0,
+        "respect": 10,
         "comfort": 8,
         "trust": 0,
         "log": [
             "Lavenderpaw was annoyed that Verbenabloom caught her trying to sneak out of camp. (negative effect) - Lavenderpaw was 10 moons old",
-            "Lavenderfreckle has been spending time with Verbenabloom lately. (low positive effect) - Lavenderfreckle was 15 moons old"
+            "Lavenderfreckle has been spending time with Verbenabloom lately. (low positive effect) - Lavenderfreckle was 15 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Lavenderfreckle. (positive effect) - Lavenderfreckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -542,12 +547,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Brindletooth, Shinefur, Lavenderfreckle, Howlsky, and Skytooth blow off steam by stretching with and venting to each other. (positive effect) - Lavenderfreckle was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -585,15 +595,21 @@
         "mates": false,
         "family": true,
         "romance": 0,
-        "like": 60,
+        "like": 72,
         "respect": 34,
-        "comfort": 90,
+        "comfort": 100,
         "trust": 64,
         "log": [
             "Shinefur, Lavenderfreckle, and Flightsplash took a sunbath and had a little small talk. (positive effect) - Lavenderfreckle was 15 moons old",
-            "Lavenderfreckle, Shinefur, and Elmtrail took a sunbath and had a little small talk. (positive effect) - Lavenderfreckle was 20 moons old"
+            "Lavenderfreckle, Shinefur, and Elmtrail took a sunbath and had a little small talk. (positive effect) - Lavenderfreckle was 20 moons old",
+            "Brindletooth, Shinefur, Lavenderfreckle, Howlsky, and Skytooth blow off steam by stretching with and venting to each other. (positive effect) - Lavenderfreckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -682,10 +698,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Lavenderfreckle was impressed by Mallowpelt's hunting prowess. (positive effect) - Lavenderfreckle was 27 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -870,12 +888,13 @@
         "family": false,
         "romance": 0,
         "like": -10,
-        "respect": 10,
+        "respect": 3,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Lavenderfreckle was annoyed that Antlerthorn caught her trying to sneak out of camp. (negative effect) - Lavenderfreckle was 23 moons old",
-            "Lavenderfreckle heard about how Antlerthorn endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 25 moons old"
+            "Lavenderfreckle heard about how Antlerthorn endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 25 moons old",
+            "Antlerthorn kept getting distracted while helping Lavenderfreckle and nearly got her hurt. (medium negative effect) - Lavenderfreckle was 27 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1070,9 +1089,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Lavenderfreckle comes up with a plan to sneak out of camp with Drizzlepelt. (medium positive effect) - Lavenderfreckle was 28 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -1542,16 +1565,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 7,
-        "comfort": 0,
+        "comfort": 12,
         "trust": 0,
         "log": [
             "Lavenderfreckle heard about how Howlsky's patrol drove a vixen out of their territory. (positive effect) - Lavenderfreckle was 15 moons old",
             "Howlsky snickered when Lavenderfreckle tripped. (low negative effect) - Lavenderfreckle was 17 moons old",
-            "Lavenderfreckle heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 23 moons old"
+            "Lavenderfreckle heard about how Howlsky endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 23 moons old",
+            "Brindletooth, Shinefur, Lavenderfreckle, Howlsky, and Skytooth blow off steam by stretching with and venting to each other. (positive effect) - Lavenderfreckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -1890,14 +1918,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 6,
         "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 12,
+        "trust": -8,
         "log": [
-            "Lavenderfreckle heard about how Skytooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 25 moons old"
+            "Lavenderfreckle heard about how Skytooth endured the bitter cold to gather herbs for RiverClan. (positive effect) - Lavenderfreckle was 25 moons old",
+            "Skytooth tells Dustnose, Flightspot, Snakedrop, and Lavenderfreckle a story that earns more skepticism than admiration. (negative effect) - Lavenderfreckle was 26 moons old",
+            "Brindletooth, Shinefur, Lavenderfreckle, Howlsky, and Skytooth blow off steam by stretching with and venting to each other. (positive effect) - Lavenderfreckle was 28 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2033,7 +2068,7 @@
         "like": 12,
         "respect": -3,
         "comfort": 4,
-        "trust": 4,
+        "trust": -4,
         "log": [
             "Nutkit says something very sincere and comforting to Lavenderkit. (high positive effect) - Lavenderkit was 4 moons old",
             "Lavenderfreckle's hackles raise when Nutwhisker passes by. (medium negative effect) - Lavenderfreckle was 23 moons old",
@@ -2049,14 +2084,16 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 8,
-        "comfort": 20,
+        "respect": 0,
+        "comfort": 12,
         "trust": 12,
         "log": [
             "Algaepool gives Lavenderkit, Wheatkit, Whitekit, and Waterkit a space to be honest with each other. (positive effect) - Lavenderkit was 3 moons old",
             "Lavenderfreckle can tell how brave Wheatstorm is being about something important. (low positive effect) - Lavenderfreckle was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2106,7 +2143,7 @@
         "like": 16,
         "respect": 8,
         "comfort": 23,
-        "trust": 27,
+        "trust": 35,
         "log": [
             "Lavenderpaw and Edelweisstree practiced their hunting together. (positive effect) - Lavenderpaw was 11 moons old",
             "Lavenderpaw appreciated Edelweisstree taking charge during a training patrol. (positive effect) - Lavenderpaw was 11 moons old",
@@ -2114,9 +2151,12 @@
             "Edelweisstree helps Lavenderfreckle hide from a Clanmate. (low positive effect) - Lavenderfreckle was 16 moons old",
             "Lavenderfreckle grew irritated at Edelweisstree while on a patrol and didn't accomplish much. (negative effect) - Lavenderfreckle was 16 moons old",
             "Edelweisstree thinks that Lavenderfreckle isn't so bad after all. (high positive effect) - Lavenderfreckle was 21 moons old",
-            "Lavenderfreckle and Edelweisstree enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Lavenderfreckle was 22 moons old"
+            "Lavenderfreckle and Edelweisstree enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Lavenderfreckle was 22 moons old",
+            "Edelweisstree lets Lavenderfreckle know that a Clanmate was talking badly about her. (low positive effect) - Lavenderfreckle was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2124,7 +2164,7 @@
         "mates": true,
         "family": false,
         "romance": 51,
-        "like": 56,
+        "like": 68,
         "respect": 16,
         "comfort": 70,
         "trust": 46,
@@ -2139,9 +2179,12 @@
             "The moonlight encourages Waterheart, Whitewhisker, Snookbumble, Bigpelt, and Lavenderfreckle to slow down and stretch. (positive effect) - Lavenderfreckle was 17 moons old",
             "Lavenderfreckle thinks Waterheart has very soft fur. (low positive effect) - Lavenderfreckle was 18 moons old",
             "Lavenderfreckle and Waterheart enjoyed chatting and gossiping while gathering goldenrod together. (positive effect) - Lavenderfreckle was 22 moons old",
-            "Lavenderfreckle and Waterheart successfully gathered daisies together. (positive effect) - Lavenderfreckle was 23 moons old"
+            "Lavenderfreckle and Waterheart successfully gathered daisies together. (positive effect) - Lavenderfreckle was 23 moons old",
+            "Lavenderfreckle tells Waterheart that there's so much to see in the world! (medium positive effect) - Lavenderfreckle was 27 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2308,15 +2351,19 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 13,
+        "respect": 23,
         "comfort": 13,
         "trust": 13,
         "log": [
             "Lavenderfreckle has a friendly chat with Dashpaw that leaves them both feeling happy. (low positive effect) - Lavenderfreckle was 15 moons old",
             "Lavenderfreckle grew irritated at Dashshimmer while on a patrol and didn't accomplish much. (negative effect) - Lavenderfreckle was 16 moons old",
-            "Dashshimmer points out to Lavenderfreckle that a spider is in her nest before she sits in it. (low positive effect) - Lavenderfreckle was 23 moons old"
+            "Dashshimmer points out to Lavenderfreckle that a spider is in her nest before she sits in it. (low positive effect) - Lavenderfreckle was 23 moons old",
+            "Dashshimmer acts childishly in front of Lavenderfreckle. (low negative effect) - Lavenderfreckle was 28 moons old",
+            "Lavenderfreckle was flattered by Dashshimmer's politeness this morning. (low positive effect) - Lavenderfreckle was 29 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "245",
@@ -2808,6 +2855,177 @@
     {
         "cat_from_id": "245",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 8,
+        "log": [],
+        "no_longer_neutral": [
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "245",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

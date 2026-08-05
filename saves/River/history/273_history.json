@@ -8,17 +8,30 @@
     "mentor_influence": {
         "trait": {
             "254": {
-                "stability": 4,
-                "aggression": 3
+                "stability": 8,
+                "aggression": 4,
+                "sociability": -2,
+                "strings": [
+                    "have a positive outlook",
+                    "be ready for a fight",
+                    "bicker with others"
+                ]
             }
         },
         "skill": {
             "254": {
-                "PROPHET": 10
+                "PROPHET": 17,
+                "strings": [
+                    "understanding prophecies"
+                ]
             }
         }
     },
-    "app_ceremony": {},
+    "app_ceremony": {
+        "honor": "commitment",
+        "graduation_age": 13,
+        "moon": 171
+    },
     "lead_ceremony": null,
     "afterlife_acceptance": null,
     "possible_history": {},

@@ -344,11 +344,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Tuftkit. (positive effect) - Tuftkit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -397,10 +401,12 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -526,10 +532,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Tuftkit was impressed by Mallowpelt's hunting prowess. (positive effect) - Tuftkit was 1 moon old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1050,9 +1058,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Tuftkit nearly tripped, but was caught by Howlshine. (medium positive effect) - Tuftkit was 1 moon old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -1645,12 +1657,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -4,
+        "respect": -6,
+        "comfort": -16,
+        "trust": -5,
+        "log": [
+            "Tuftkit feels a chill after noticing Fishleg is nearby. (high negative effect) - Tuftkit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -1749,12 +1766,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -2012,9 +2031,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Tuftkit has to snap Willowfog out of a daze to ask a question. (low negative effect) - Tuftkit was 3 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -2167,10 +2190,14 @@
         "romance": 4,
         "like": 44,
         "respect": 14,
-        "comfort": 44,
+        "comfort": 52,
         "trust": 34,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Tuftkit and Glintkit often look at each other and smile knowingly about something. (low positive effect) - Tuftkit was 2 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "293",
@@ -2178,10 +2205,196 @@
         "mates": false,
         "family": true,
         "romance": 9,
-        "like": 49,
-        "respect": 19,
-        "comfort": 49,
-        "trust": 39,
+        "like": 61,
+        "respect": 29,
+        "comfort": 66,
+        "trust": 68,
+        "log": [
+            "Tuftkit feels safe with Honeykit around. (high positive effect) - Tuftkit was 1 moon old",
+            "Honeykit tells Glintkit, Tuftkit, Wavelight, and Snookbumble a story that earns more skepticism than admiration. (negative effect) - Tuftkit was 1 moon old",
+            "Tuftkit and Honeykit only ever want to play with each other. (high positive effect) - Tuftkit was 3 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Tuftkit is excited for her family to grow further. (positive effect) - Tuftkit was 0 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 10,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [
+            "Tuftkit visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Tuftkit was 0 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "293",
+        "cat_to_id": "307",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
         "log": [],
         "no_longer_neutral": []
     }

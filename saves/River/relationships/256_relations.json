@@ -435,13 +435,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 5,
         "log": [
-            "Deltapaw saw Verbenabloom's patrol bring back a plump seagull that they won from a fox. (positive effect) - Deltapaw was 12 moons old"
+            "Deltapaw saw Verbenabloom's patrol bring back a plump seagull that they won from a fox. (positive effect) - Deltapaw was 12 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Deltafur. (positive effect) - Deltafur was 21 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -663,10 +666,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Deltafur was impressed by Mallowpelt's hunting prowess. (positive effect) - Deltafur was 20 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -896,12 +901,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Lightpelt doesn't seem very concerned when Deltafur complains about something aching. (low negative effect) - Deltafur was 21 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -909,12 +918,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 16,
+        "respect": 6,
+        "comfort": 6,
+        "trust": 6,
+        "log": [
+            "Deltafur and Dahliacrest defended their Clan at the Gathering together. (high positive effect) - Deltafur was 20 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -1061,10 +1077,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": -8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Late at night, Deltafur finds Moletooth sitting alone at the edge of camp. They go back to their dens without speaking. (low negative effect) - Deltafur was 22 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -1240,9 +1260,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -1432,13 +1454,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 12,
         "comfort": 0,
         "trust": 17,
         "log": [
-            "Dustnose promises Deltafur that everything will be okay. (medium positive effect) - Deltafur was 18 moons old"
+            "Dustnose promises Deltafur that everything will be okay. (medium positive effect) - Deltafur was 18 moons old",
+            "Deltafur, Caterpillarstripe, Shadowfreckle, and Edelweisstree congratulate Dustnose on his win during a border skirmish. (positive effect) - Deltafur was 21 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -1909,18 +1935,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": -13,
+        "like": 15,
+        "respect": 6,
         "comfort": 0,
-        "trust": 18,
+        "trust": 28,
         "log": [
             "Deltafur was unimpressed with Nutwhisker for distracting herself telling stories. (negative effect) - Deltafur was 15 moons old",
             "Deltafur and Nutwhisker quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltafur was 16 moons old",
-            "Deltafur's faith in Nutwhisker was bolstered by seeing her effortless success on an herb-gathering patrol. (positive effect) - Deltafur was 19 moons old"
+            "Deltafur's faith in Nutwhisker was bolstered by seeing her effortless success on an herb-gathering patrol. (positive effect) - Deltafur was 19 moons old",
+            "Deltafur had total faith in Nutwhisker's ability to interpret Deltafur's vision. (positive effect) - Deltafur was 20 moons old",
+            "Deltafur was deeply grateful to have a medicine cat like Nutwhisker to consult over a vision. (positive effect) - Deltafur was 20 moons old"
         ],
         "no_longer_neutral": [
             "respect",
-            "trust"
+            "trust",
+            "like"
         ]
     },
     {
@@ -1972,14 +2001,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
-        "respect": 0,
-        "comfort": 8,
-        "trust": 0,
+        "like": 14,
+        "respect": 5,
+        "comfort": 24,
+        "trust": 4,
         "log": [
-            "Deltakit, Algaepool, and Edelweisspaw took a sunbath and had a little small talk. (positive effect) - Deltakit was 2 moons old"
+            "Deltakit, Algaepool, and Edelweisspaw took a sunbath and had a little small talk. (positive effect) - Deltakit was 2 moons old",
+            "Deltafur is sharing tongues with Edelweisstree. (high positive effect) - Deltafur was 20 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2049,10 +2082,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 13,
         "trust": -8,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Deltafur and Weedfur enjoy the rain together. (low positive effect) - Deltafur was 21 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2173,10 +2210,10 @@
         "cat_to_id": "253",
         "mates": false,
         "family": false,
-        "romance": 8,
+        "romance": 0,
         "like": -5,
         "respect": -16,
-        "comfort": -12,
+        "comfort": -20,
         "trust": -12,
         "log": [
             "Deltapaw thinks that Dashshimmer's tone sounds off today. (low negative effect) - Deltapaw was 10 moons old",
@@ -2185,7 +2222,9 @@
             "Deltafur is prancing around in front of Dashshimmer. (low positive effect) - Deltafur was 15 moons old",
             "Deltafur and Dashshimmer quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltafur was 16 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2194,13 +2233,15 @@
         "family": false,
         "romance": 8,
         "like": -5,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Deltapaw said something really rude to Daypaw. (low negative effect) - Deltapaw was 9 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2247,7 +2288,7 @@
         "romance": 0,
         "like": 54,
         "respect": 7,
-        "comfort": 34,
+        "comfort": 42,
         "trust": 18,
         "log": [
             "Deltakit is excited for her family to grow further. (positive effect) - Deltakit was 1 moon old",
@@ -2255,9 +2296,12 @@
             "Harefeather's eagerness to do early morning stretches rubs off on Pheasantbrush, Deltapaw, Mistlepaw, and Deltapaw. (positive effect) - Deltapaw was 9 moons old",
             "Deltapaw and Deltapaw heckled another Clan at the Gathering together. (high positive effect) - Deltapaw was 12 moons old",
             "Deltafur and Deltamunch quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Deltafur was 16 moons old",
-            "Deltafur quickly apologizes after bumping into Deltamunch. They have a small laugh about it. (low positive effect) - Deltafur was 19 moons old"
+            "Deltafur quickly apologizes after bumping into Deltamunch. They have a small laugh about it. (low positive effect) - Deltafur was 19 moons old",
+            "Deltafur and Deltamunch drink from the same puddle. (low positive effect) - Deltafur was 22 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2312,7 +2356,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 6,
+        "like": 9,
         "respect": -13,
         "comfort": -7,
         "trust": -7,
@@ -2321,7 +2365,9 @@
             "Egretpaw laughs at Deltafur's embarrassing mistake. (high negative effect) - Deltafur was 17 moons old",
             "Deltafur is telling Egretpaw about a hunting technique. (medium positive effect) - Deltafur was 17 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "256",
@@ -2663,6 +2709,175 @@
     {
         "cat_from_id": "256",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "256",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -259,7 +259,7 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
@@ -365,14 +365,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
-        "comfort": 0,
-        "trust": 0,
+        "like": 16,
+        "respect": 16,
+        "comfort": 6,
+        "trust": 6,
         "log": [
-            "Bushpaw heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bushpaw was 8 moons old"
+            "Bushpaw heard about how Gardeniaglow endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bushpaw was 8 moons old",
+            "Bushheart and Gardeniaglow always have something to share with each other. (high positive effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -477,11 +483,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Bushheart. (positive effect) - Bushheart was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -726,10 +736,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": 5,
+        "log": [
+            "Bushheart was impressed by Mallowpelt's hunting prowess. (positive effect) - Bushheart was 36 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1017,12 +1029,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -5,
+        "respect": -4,
+        "comfort": -4,
+        "trust": -16,
+        "log": [
+            "Bushheart learns that Dahliacrest has been using her for something. (high negative effect) - Bushheart was 38 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -1398,13 +1414,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": -10,
-        "respect": -10,
+        "like": -5,
+        "respect": -5,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Bushpaw was humiliated when Meadowspots needed to rescue her from the water at the Gathering. (negative effect) - Bushpaw was 8 moons old",
-            "Bushheart and Meadowspots quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old"
+            "Bushheart and Meadowspots quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old",
+            "Bushheart and Meadowspots had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Bushheart was 37 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -1492,10 +1509,11 @@
         "like": 20,
         "respect": 20,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Bushheart enjoyed Nymphshine's explanation of how oak leaves' medicinal properties are drawn from the strength of the tree. (positive effect) - Bushheart was 32 moons old",
-            "Bushheart appreciated that Nymphshine let her bring a sprig of tansy back to her den to freshen the air. (positive effect) - Bushheart was 35 moons old"
+            "Bushheart appreciated that Nymphshine let her bring a sprig of tansy back to her den to freshen the air. (positive effect) - Bushheart was 35 moons old",
+            "Bushheart and Nymphshine quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 36 moons old"
         ],
         "no_longer_neutral": [
             "like",
@@ -1765,9 +1783,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 13,
-        "trust": 13,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 6,
+        "log": [
+            "Brindlesplash keeps avoiding eye contact with Bushheart. (medium negative effect) - Bushheart was 37 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -1872,7 +1894,7 @@
         "family": false,
         "romance": 0,
         "like": 12,
-        "respect": 17,
+        "respect": 14,
         "comfort": 21,
         "trust": 8,
         "log": [
@@ -1880,7 +1902,9 @@
             "Bushheart and Velvettooth gossip about drama nobody else knows. (high positive effect) - Bushheart was 31 moons old",
             "Velvettooth and Bushheart enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Bushheart was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -1994,12 +2018,17 @@
         "like": 20,
         "respect": 6,
         "comfort": 1,
-        "trust": 16,
+        "trust": 21,
         "log": [
             "Bushpaw tells Stagclaw to count on her in a difficult situation. (high positive effect) - Bushpaw was 14 moons old",
-            "Velvettooth knows Bushheart is also interested in Stagclaw. (negative effect) - Bushheart was 33 moons old"
+            "Velvettooth knows Bushheart is also interested in Stagclaw. (negative effect) - Bushheart was 33 moons old",
+            "Bushheart and Stagclaw quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2107,8 +2136,8 @@
         "mates": false,
         "family": false,
         "romance": 11,
-        "like": 46,
-        "respect": 21,
+        "like": 34,
+        "respect": 9,
         "comfort": 18,
         "trust": 31,
         "log": [
@@ -2119,9 +2148,15 @@
             "Bushpaw believes Avocetpaw has endless potential he keeps surpassing every day. (high positive effect) - Bushpaw was 6 moons old",
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Bushpaw was 13 moons old",
             "Avocetear tells Bushheart romantic stories of old. (high positive effect) - Bushheart was 21 moons old",
-            "Avocetear and Bushheart enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Bushheart was 33 moons old"
+            "Avocetear and Bushheart enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Bushheart was 33 moons old",
+            "Avocetear tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Bushheart and Skytooth. (negative effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2198,16 +2233,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 12,
-        "respect": 0,
+        "like": 17,
+        "respect": 5,
         "comfort": 20,
         "trust": 5,
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Bushpaw was 13 moons old",
             "Bushheart has a friendly chat with Caterpillarstripe that leaves them both feeling happy. (low positive effect) - Bushheart was 23 moons old",
-            "Bushheart and Caterpillarstripe quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old"
+            "Bushheart and Caterpillarstripe quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old",
+            "Bushheart and Caterpillarstripe had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2228,19 +2267,26 @@
         "mates": true,
         "family": false,
         "romance": 20,
-        "like": 26,
-        "respect": 8,
+        "like": 31,
+        "respect": 13,
         "comfort": 53,
-        "trust": 21,
+        "trust": 26,
         "log": [
             "Primfreckle convinces Avocetpaw, Caterpillarpaw, Shorepaw, and Bushpaw to wind down and stretch with her. (positive effect) - Bushpaw was 13 moons old",
             "Shorefrill was very considerate while on patrol with Bushheart. (positive effect) - Bushheart was 19 moons old",
             "Bushheart keeps asking Shorefrill to explain a joke, but Shorefrill just says that Bushheart had to be there. (low negative effect) - Bushheart was 20 moons old",
             "Bushheart and Shorefrill quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old",
             "Shorefrill knows secrets about Bushheart that she hasn't told anyone else. (high positive effect) - Bushheart was 30 moons old",
-            "Shorefrill and Bushheart enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Bushheart was 33 moons old"
+            "Shorefrill and Bushheart enjoyed a low-stress afternoon gathering plenty of fresh moss for the medicine cat den. (positive effect) - Bushheart was 33 moons old",
+            "Bushheart and Shorefrill quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 36 moons old",
+            "Bushheart and Shorefrill had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2267,12 +2313,17 @@
         "like": 8,
         "respect": 1,
         "comfort": 13,
-        "trust": 18,
+        "trust": 23,
         "log": [
             "Bushpaw visits the new litter and can't help feeling warmly toward this new addition to the family. (positive effect) - Bushpaw was 7 moons old",
-            "Wheatstorm sends a Clanmate to help Bushheart with something she's struggling with. (low positive effect) - Bushheart was 34 moons old"
+            "Wheatstorm sends a Clanmate to help Bushheart with something she's struggling with. (low positive effect) - Bushheart was 34 moons old",
+            "Bushheart and Wheatstorm quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2339,12 +2390,15 @@
         "like": 0,
         "respect": -12,
         "comfort": -13,
-        "trust": 0,
+        "trust": -17,
         "log": [
             "Bushpaw thinks that Bigpaw stole one of her ideas. (medium negative effect) - Bushpaw was 16 moons old",
-            "Bigpelt laughs a little too long at one of Bushheart's jokes. (low negative effect) - Bushheart was 23 moons old"
+            "Bigpelt laughs a little too long at one of Bushheart's jokes. (low negative effect) - Bushheart was 23 moons old",
+            "Bigpelt doesn't want to apologize to Bushheart for something. (medium negative effect) - Bushheart was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2380,14 +2434,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": -8,
-        "trust": 0,
+        "like": -4,
+        "respect": -16,
+        "comfort": -12,
+        "trust": -5,
         "log": [
-            "After the Clan finds a strange object, Bushheart notes that Avocetfur has been a little too fascinated with it. (low negative effect) - Bushheart was 32 moons old"
+            "After the Clan finds a strange object, Bushheart notes that Avocetfur has been a little too fascinated with it. (low negative effect) - Bushheart was 32 moons old",
+            "Bushheart thinks Avocetfur keeps getting in the way instead of helping others. (high negative effect) - Bushheart was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2511,15 +2569,18 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 10,
+        "like": 5,
+        "respect": 15,
         "comfort": 0,
         "trust": 5,
         "log": [
             "Bushheart and Merlotbite quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 28 moons old",
-            "Bushheart heard about how Merlotbite endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bushheart was 32 moons old"
+            "Bushheart heard about how Merlotbite endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bushheart was 32 moons old",
+            "Bushheart and Merlotbite had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2530,12 +2591,16 @@
         "like": 17,
         "respect": 0,
         "comfort": 12,
-        "trust": -8,
+        "trust": -3,
         "log": [
             "Bubpaw shares a suspiciously exaggerated tale with Wheatpaw, Shorepaw, and Bushpaw, who seem far from convinced of its veracity. (negative effect) - Bushpaw was 15 moons old",
-            "The moonlight encourages Bub, Shadowfreckle, Coconutocean, Peakspore, and Bushheart to slow down and stretch. (positive effect) - Bushheart was 24 moons old"
+            "The moonlight encourages Bub, Shadowfreckle, Coconutocean, Peakspore, and Bushheart to slow down and stretch. (positive effect) - Bushheart was 24 moons old",
+            "Bushheart and Bub quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bushheart was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2866,15 +2931,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 5,
-        "respect": 0,
+        "like": 10,
+        "respect": 5,
         "comfort": -8,
         "trust": 0,
         "log": [
             "Crouchripple gives Bushheart a beautiful feather she found, and hides behind her whiskers when thanked. (high positive effect) - Bushheart was 32 moons old",
-            "Crouchripple eats as ravenously as a wolverine and by the time she's done, Midnighthaze, Bushheart, and Wheatstorm barely have the stomach to finish their own meals. (negative effect) - Bushheart was 33 moons old"
+            "Crouchripple eats as ravenously as a wolverine and by the time she's done, Midnighthaze, Bushheart, and Wheatstorm barely have the stomach to finish their own meals. (negative effect) - Bushheart was 33 moons old",
+            "Bushheart and Crouchripple had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Bushheart was 37 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2936,12 +3005,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -6,
+        "respect": -6,
+        "comfort": -6,
+        "trust": -16,
+        "log": [
+            "Bushheart lied to Minthail's face. (high negative effect) - Bushheart was 36 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "223",
@@ -2998,6 +3074,175 @@
     {
         "cat_from_id": "223",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "223",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

@@ -1,4 +1,18 @@
 {
+    "injuries": {
+        "joint pain": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 0,
+            "moon_start": 170,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "twisted leg": {
             "severity": "major",
@@ -10,11 +24,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 96
+                    "chance": 106
                 },
                 {
                     "name": "joint pain",
-                    "chance": 116
+                    "chance": 146
                 }
             ],
             "complication": null,

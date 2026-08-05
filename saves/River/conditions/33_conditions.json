@@ -1,24 +1,4 @@
 {
-    "illnesses": {
-        "running nose": {
-            "severity": "minor",
-            "mortality": 0,
-            "infectiousness": 0,
-            "duration": 1,
-            "moon_start": 168,
-            "risks": [
-                {
-                    "name": "whitecough",
-                    "chance": 31
-                },
-                {
-                    "name": "sore throat",
-                    "chance": 36
-                }
-            ],
-            "event_triggered": false
-        }
-    },
     "permanent conditions": {
         "weak leg": {
             "severity": "minor",
@@ -30,11 +10,11 @@
             "risks": [
                 {
                     "name": "sore",
-                    "chance": 262
+                    "chance": 283
                 },
                 {
                     "name": "joint pain",
-                    "chance": 285
+                    "chance": 306
                 }
             ],
             "complication": null,

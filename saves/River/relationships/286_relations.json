@@ -101,13 +101,17 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
-        "trust": 17,
+        "trust": 7,
         "log": [
-            "Nimblecove observes Carptail carefully attending to any cat that needs help. (medium positive effect) - Nimblecove was 48 moons old"
+            "Nimblecove observes Carptail carefully attending to any cat that needs help. (medium positive effect) - Nimblecove was 48 moons old",
+            "Nimblecove lost faith in Carptail when Carptail admitted to not being able to identify tansy during an herb-gathering patrol. (negative effect) - Nimblecove was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -248,10 +252,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Nimblecove heard that Mossflight touched noses with a rogue. (negative effect) - Nimblecove was 53 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -313,11 +319,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Nimblecove. (positive effect) - Nimblecove was 54 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -352,11 +362,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Nimblecove disapproved of Murkhaven wearing a collar. (negative effect) - Nimblecove was 52 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -500,13 +514,17 @@
         "family": false,
         "romance": 0,
         "like": 3,
-        "respect": 0,
+        "respect": -8,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Mallowpelt thanked Nimblecove for bringing him food. (low positive effect) - Nimblecove was 47 moons old"
+            "Mallowpelt thanked Nimblecove for bringing him food. (low positive effect) - Nimblecove was 47 moons old",
+            "Nimblecove was impressed by Mallowpelt's hunting prowess. (positive effect) - Nimblecove was 53 moons old",
+            "Nimblecove thinks Mallowpelt looks nicer than him today. (low negative effect) - Nimblecove was 55 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -669,13 +687,16 @@
         "family": false,
         "romance": 0,
         "like": -5,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "While on patrol together, Minnowlily and Nimblecove discovered that they have vastly different interests. (negative effect) - Nimblecove was 49 moons old"
+            "While on patrol together, Minnowlily and Nimblecove discovered that they have vastly different interests. (negative effect) - Nimblecove was 49 moons old",
+            "Nimblecove helped Minnowlily bring the branches of elder trees back to camp to harvest their leaves. (positive effect) - Nimblecove was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -958,11 +979,14 @@
         "like": 10,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Nimblecove and Clawswirl successfully gathered dandelions and wild garlic together. (positive effect) - Nimblecove was 50 moons old"
+            "Nimblecove and Clawswirl successfully gathered dandelions and wild garlic together. (positive effect) - Nimblecove was 50 moons old",
+            "Nimblecove heard Clawswirl fell asleep guarding camp. (negative effect) - Nimblecove was 53 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -970,12 +994,21 @@
         "mates": false,
         "family": false,
         "romance": 8,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": -16,
+        "respect": -13,
+        "comfort": -16,
+        "trust": 6,
+        "log": [
+            "Nimblecove gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Nimblecove was 52 moons old",
+            "Creekmoss tracked a trail of muddy pawprints into the warrior's den, straight through the nests of Nimblecove and Silkroot. (negative effect) - Nimblecove was 53 moons old",
+            "Nimblecove and Creekmoss have a long discussion about goals and aspirations, and find that they don't agree on many things. (high negative effect) - Nimblecove was 54 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust",
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -1172,12 +1205,7 @@
             "Nimblecove might be reading a little too far into Dustnose's kindness. (low positive effect) - Nimblecove was 52 moons old",
             "Nimblecove and Dustnose had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Nimblecove was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "like",
-            "respect",
-            "comfort",
-            "trust"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "286",
@@ -1312,12 +1340,15 @@
         "romance": 8,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
         "log": [
-            "Nimblecove is prancing around in front of Lionheart. (low positive effect) - Nimblecove was 47 moons old"
+            "Nimblecove is prancing around in front of Lionheart. (low positive effect) - Nimblecove was 47 moons old",
+            "Nimblecove and Lionheart chat about Clan news. (low positive effect) - Nimblecove was 54 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -1426,10 +1457,14 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
+        "comfort": 8,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Nimblecove heard a story about something kind Avocetear did. (low positive effect) - Nimblecove was 53 moons old"
+        ],
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "286",
@@ -1673,9 +1708,7 @@
             "Nimblecove heard about how Merlotbite endured the bitter cold to gather herbs for RiverClan. (positive effect) - Nimblecove was 49 moons old",
             "Nimblecove and Merlotbite had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Nimblecove was 52 moons old"
         ],
-        "no_longer_neutral": [
-            "respect"
-        ]
+        "no_longer_neutral": []
     },
     {
         "cat_from_id": "286",
@@ -1858,8 +1891,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Nimblecove heard Coatisoar fell asleep guarding camp. (negative effect) - Nimblecove was 54 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1967,13 +2002,14 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 15,
-        "respect": 5,
+        "like": 27,
+        "respect": -3,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Nimblecove and Marshpatch successfully gathered dandelions and wild garlic together. (positive effect) - Nimblecove was 50 moons old",
-            "Nimblecove and Marshpatch had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Nimblecove was 52 moons old"
+            "Nimblecove and Marshpatch had a pleasant, calm afternoon gathering oak and elder leaves. (positive effect) - Nimblecove was 52 moons old",
+            "Nimblecove feels like Marshpatch is more accomplished than him. (medium positive effect) - Nimblecove was 53 moons old"
         ],
         "no_longer_neutral": [
             "like"
@@ -2128,6 +2164,182 @@
     {
         "cat_from_id": "286",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 21,
+        "respect": 7,
+        "comfort": 7,
+        "trust": 8,
+        "log": [
+            "Nimblecove is having a wonderful time discussing recent Clan news with Stormspots. (high positive effect) - Nimblecove was 55 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
+    },
+    {
+        "cat_from_id": "286",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

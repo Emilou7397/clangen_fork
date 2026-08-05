@@ -1,4 +1,18 @@
 {
+    "injuries": {
+        "bruises": {
+            "severity": "minor",
+            "mortality": 0,
+            "duration": 1,
+            "moon_start": 170,
+            "illness_infectiousness": [],
+            "risks": [],
+            "complication": null,
+            "cause_permanent": [],
+            "event_triggered": false,
+            "potential_scars": null
+        }
+    },
     "permanent conditions": {
         "paralyzed": {
             "severity": "severe",
@@ -10,19 +24,19 @@
             "risks": [
                 {
                     "name": "an infected wound",
-                    "chance": 495
+                    "chance": 499
                 },
                 {
                     "name": "torn pelt",
-                    "chance": 607
+                    "chance": 611
                 },
                 {
                     "name": "sore",
-                    "chance": 597
+                    "chance": 601
                 },
                 {
                     "name": "joint pain",
-                    "chance": 577
+                    "chance": 581
                 }
             ],
             "complication": null,

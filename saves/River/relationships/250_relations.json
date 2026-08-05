@@ -510,10 +510,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Mossflight's patrol drove off a scavenging fox. (positive effect) - Bub was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -577,13 +579,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 15,
         "comfort": 0,
         "trust": -12,
         "log": [
-            "Verbenabloom doesn't want to apologize to Bub for something. (medium negative effect) - Bub was 17 moons old"
+            "Verbenabloom doesn't want to apologize to Bub for something. (medium negative effect) - Bub was 17 moons old",
+            "Bub heard about how Verbenabloom's patrol drove off a scavenging fox. (positive effect) - Bub was 32 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Bub. (positive effect) - Bub was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -721,9 +728,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 13,
+        "log": [
+            "Shinefur tells Bub that they was worried about him. (low positive effect) - Bub was 32 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -799,13 +810,16 @@
         "family": false,
         "romance": 0,
         "like": 13,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Bub is talking with Mallowpelt. (low positive effect) - Bub was 12 moons old"
+            "Bub is talking with Mallowpelt. (low positive effect) - Bub was 12 moons old",
+            "Bub was impressed by Mallowpelt's hunting prowess. (positive effect) - Bub was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -949,10 +963,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Kiwifoot's patrol drove off a scavenging fox. (positive effect) - Bub was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1123,10 +1139,13 @@
         "romance": 0,
         "like": 0,
         "respect": 0,
-        "comfort": 0,
-        "trust": 0,
+        "comfort": 13,
+        "trust": 13,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1350,12 +1369,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
+        "like": -12,
+        "respect": -12,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "No matter how many warning looks Sootpaw, Antlerthorn, Bub, and Dashshimmer send him, Creekmoss keeps talking over the Gathering announcements. (negative effect) - Bub was 31 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1437,11 +1461,14 @@
         "like": 0,
         "respect": 7,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
-            "Bub and Nymphshine successfully gathered herbs together despite the rainy weather. (positive effect) - Bub was 13 moons old"
+            "Bub and Nymphshine successfully gathered herbs together despite the rainy weather. (positive effect) - Bub was 13 moons old",
+            "Bub and Nymphshine quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bub was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1673,10 +1700,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 5,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub heard about how Morelstreak's patrol drove off a scavenging fox. (positive effect) - Bub was 32 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1785,16 +1814,23 @@
         "cat_to_id": "214",
         "mates": true,
         "family": false,
-        "romance": 54,
+        "romance": 71,
         "like": 10,
         "respect": 3,
-        "comfort": 38,
-        "trust": 13,
+        "comfort": 48,
+        "trust": 18,
         "log": [
             "Bub and Stagclaw snuck out of camp together. (high positive effect) - Bub was 24 moons old",
-            "A Clanmate has to comfort Bub when Stagclaw says something cruel. (high negative effect) - Bub was 27 moons old"
+            "A Clanmate has to comfort Bub when Stagclaw says something cruel. (high negative effect) - Bub was 27 moons old",
+            "Bub and Stagclaw quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bub was 32 moons old",
+            "Stagclaw helped Bub pull a bit of leaf-bare fluff out of his pelt. (positive effect) - Bub was 33 moons old",
+            "Bub thinks Stagclaw is the most beautiful cat in the Clan. (medium positive effect) - Bub was 34 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1878,16 +1914,22 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 29,
-        "respect": 10,
-        "comfort": 12,
-        "trust": 0,
+        "like": 27,
+        "respect": 8,
+        "comfort": 6,
+        "trust": 3,
         "log": [
             "Bub promises to teach Bushpaw a new technique later. (medium positive effect) - Bub was 13 moons old",
             "The moonlight encourages Bub, Shadowfreckle, Coconutocean, Peakspore, and Bushheart to slow down and stretch. (positive effect) - Bub was 20 moons old",
-            "Bub heard about how Bushheart endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bub was 30 moons old"
+            "Bub heard about how Bushheart endured the bitter cold to gather herbs for RiverClan. (positive effect) - Bub was 30 moons old",
+            "Bub and Bushheart quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bub was 32 moons old",
+            "Bub bristles after being scolded by Bushheart. (high negative effect) - Bub was 33 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1926,11 +1968,14 @@
         "like": 0,
         "respect": 0,
         "comfort": 8,
-        "trust": 0,
+        "trust": -12,
         "log": [
-            "Bub overhears Caterpillarstripe humming a comforting tune. (low positive effect) - Bub was 24 moons old"
+            "Bub overhears Caterpillarstripe humming a comforting tune. (low positive effect) - Bub was 24 moons old",
+            "Caterpillarstripe asks Bub to stop following him around. (medium negative effect) - Bub was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1956,14 +2001,20 @@
         "like": 11,
         "respect": 21,
         "comfort": 21,
-        "trust": 7,
+        "trust": 12,
         "log": [
             "Bub and Shorefrill learn a lot about each other when they're stuck in a den during a storm. (high positive effect) - Bub was 15 moons old",
             "Bub asks Shorefrill how he's doing. (low positive effect) - Bub was 21 moons old",
             "Bub and Shorefrill traded passive aggressive comments during a training session. (negative effect) - Bub was 21 moons old",
-            "Bub was impressed by Shorefrill's sharp senses while helping him gather wild garlic. (positive effect) - Bub was 27 moons old"
+            "Bub was impressed by Shorefrill's sharp senses while helping him gather wild garlic. (positive effect) - Bub was 27 moons old",
+            "Bub and Shorefrill quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bub was 32 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -1989,10 +2040,11 @@
         "like": -3,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 5,
         "log": [
             "Bub and Wheatstorm successfully gathered berries together. (positive effect) - Bub was 28 moons old",
-            "Bub is annoyed by Wheatstorm's negative comments. (low negative effect) - Bub was 31 moons old"
+            "Bub is annoyed by Wheatstorm's negative comments. (low negative effect) - Bub was 31 moons old",
+            "Bub and Wheatstorm quickly harvested herbs and returned to camp before they were drenched. (positive effect) - Bub was 32 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2231,12 +2283,14 @@
         "cat_to_id": "258",
         "mates": false,
         "family": false,
-        "romance": 0,
+        "romance": 13,
         "like": 0,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Bub can't help but admire Deltamunch's pelt. (low positive effect) - Bub was 34 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2300,9 +2354,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Bub overhears Coatisoar dispelling a false rumor about a Clanmate. (medium positive effect) - Bub was 33 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -2426,9 +2484,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": 8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "250",
@@ -2634,6 +2694,175 @@
     {
         "cat_from_id": "250",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "250",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

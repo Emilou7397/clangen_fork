@@ -1,32 +1,17 @@
 {
-    "illnesses": {
-        "yellowcough": {
+    "injuries": {
+        "recovering from birth": {
             "severity": "major",
-            "mortality": 22,
-            "infectiousness": 30,
+            "mortality": 0,
             "duration": 3,
-            "moon_start": 167,
+            "moon_start": 170,
+            "illness_infectiousness": [],
             "risks": [
                 {
-                    "name": "redcough",
-                    "chance": 108
-                },
-                {
-                    "name": "sore throat",
-                    "chance": 28
+                    "name": "an infected wound",
+                    "chance": 34
                 }
             ],
-            "event_triggered": false
-        }
-    },
-    "injuries": {
-        "pregnant": {
-            "severity": "minor",
-            "mortality": 40,
-            "duration": 2,
-            "moon_start": 168,
-            "illness_infectiousness": [],
-            "risks": [],
             "complication": null,
             "cause_permanent": [],
             "event_triggered": false,

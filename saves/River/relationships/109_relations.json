@@ -135,15 +135,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 10,
+        "respect": 0,
         "comfort": 0,
-        "trust": -10,
+        "trust": -20,
         "log": [
             "Daisymoor heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 34 moons old",
             "Daisymoor's confidence in Primfreckle's abilities as a medicine cat was shaken after she accidentally poisoned Carptail. (negative effect) - Daisymoor was 74 moons old",
-            "Daisymoor heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old"
+            "Daisymoor heard about how Primfreckle endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old",
+            "Daisymoor lost faith in Primfreckle when Primfreckle admitted to not being able to identify wild garlic during an herb-gathering patrol. (negative effect) - Daisymoor was 86 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -263,13 +266,16 @@
         "like": 2,
         "respect": 14,
         "comfort": 6,
-        "trust": 24,
+        "trust": 36,
         "log": [
             "Daisypaw overheard Yewstar spreading a hurtful rumor. (high negative effect)- Daisypaw was 9 moons old",
             "Yewstar saved Daisymoor from a big dog. (positive effect) - Daisymoor was 55 moons old",
-            "Daisymoor and Yewstar worked together to gather wild garlic and mallow. (positive effect) - Daisymoor was 63 moons old"
+            "Daisymoor and Yewstar worked together to gather wild garlic and mallow. (positive effect) - Daisymoor was 63 moons old",
+            "Daisymoor is feeling lost and asks Yewstar for advice on what to do. (medium positive effect) - Daisymoor was 87 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -649,13 +655,17 @@
         "family": false,
         "romance": 13,
         "like": -3,
-        "respect": -3,
+        "respect": 7,
         "comfort": 13,
         "trust": 0,
         "log": [
-            "Daisymoor notices one of her friends talking to Verbenabloom. (low negative effect) - Daisymoor was 60 moons old"
+            "Daisymoor notices one of her friends talking to Verbenabloom. (low negative effect) - Daisymoor was 60 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Daisymoor. (positive effect) - Daisymoor was 86 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -711,16 +721,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 4,
+        "like": 17,
         "respect": 5,
         "comfort": 12,
         "trust": 13,
         "log": [
             "Daisymoor was impressed by Murkhaven's hunting prowess. (positive effect) - Daisymoor was 25 moons old",
             "When Daisymoor tells Murkhaven about a goal she has, Murkhaven snickers at it. (low negative effect) - Daisymoor was 31 moons old",
-            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Daisymoor was 49 moons old"
+            "Late into the evening, Poolleaf invites Flightsplash, Daisymoor, Murkhaven, and Heavythud to stretch with her and enjoy each other's company. (positive effect) - Daisymoor was 49 moons old",
+            "Daisymoor hears a nice story about Murkhaven. (low positive effect) - Daisymoor was 86 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1019,14 +1032,19 @@
         "family": false,
         "romance": 0,
         "like": -7,
-        "respect": 17,
+        "respect": 22,
         "comfort": 0,
-        "trust": 13,
+        "trust": 18,
         "log": [
             "Mallowpelt keeps yawning during Daisymoor's story. (medium negative effect) - Daisymoor was 23 moons old",
-            "During rough weather, Mallowpelt helps Daisymoor get safely to her den. (medium positive effect) - Daisymoor was 50 moons old"
+            "During rough weather, Mallowpelt helps Daisymoor get safely to her den. (medium positive effect) - Daisymoor was 50 moons old",
+            "Daisymoor was impressed by Mallowpelt's hunting prowess. (positive effect) - Daisymoor was 85 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1308,8 +1326,8 @@
         "cat_to_id": "102",
         "mates": false,
         "family": false,
-        "romance": 34,
-        "like": -23,
+        "romance": 47,
+        "like": -10,
         "respect": 33,
         "comfort": 23,
         "trust": 36,
@@ -1324,7 +1342,9 @@
             "Kiwifoot returned to the warrior's den dripping mud everywhere and managed to ruin Daisymoor and Pigmentpelt's nests. (negative effect) - Daisymoor was 78 moons old",
             "Daisymoor admires how brave Kiwifoot is. (medium positive effect) - Daisymoor was 81 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1362,9 +1382,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 45,
+        "like": 57,
         "respect": 0,
-        "comfort": -1,
+        "comfort": 11,
         "trust": 25,
         "log": [
             "Daisymoor wants to be closer to Antlerthorn. (low positive effect) - Daisymoor was 27 moons old",
@@ -1373,9 +1393,14 @@
             "Daisymoor and Antlerthorn listened to Shimmerrunner's story together. (positive effect) - Daisymoor was 46 moons old",
             "Daisymoor and Antlerthorn enjoyed brushing up on their hunting tricks together. (positive effect) - Daisymoor was 49 moons old",
             "Daisymoor and Antlerthorn worked on their skills together on a training patrol. (positive effect) - Daisymoor was 65 moons old",
-            "Daisymoor and Antlerthorn successfully gathered dandelions and wild garlic together. (positive effect) - Daisymoor was 83 moons old"
+            "Daisymoor and Antlerthorn successfully gathered dandelions and wild garlic together. (positive effect) - Daisymoor was 83 moons old",
+            "Bluestripe convinces Antlerthorn, Daisymoor, Shinebelly, and Coconutocean to wind down and stretch with him. (positive effect) - Daisymoor was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1523,11 +1548,11 @@
         "cat_to_id": "122",
         "mates": false,
         "family": false,
-        "romance": 13,
-        "like": -2,
-        "respect": -31,
-        "comfort": -7,
-        "trust": 8,
+        "romance": 18,
+        "like": 3,
+        "respect": -25,
+        "comfort": 4,
+        "trust": 20,
         "log": [
             "Daisymoor wishes she could get her pelt to shine like Cherrytail's. (low negative effect) - Daisymoor was 51 moons old",
             "Daisymoor was being condescending towards Cherrytail all day long. (low negative effect) - Daisymoor was 60 moons old",
@@ -1535,7 +1560,10 @@
             "Daisymoor and Cherrytail successfully gathered burdock together. (positive effect) - Daisymoor was 81 moons old",
             "No matter how many warning looks Daisymoor, Silkroot, and Driftstripe send her, Cherrytail keeps talking over the Gathering announcements. (negative effect) - Daisymoor was 83 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "respect"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1710,7 +1738,7 @@
         "romance": 94,
         "like": 45,
         "respect": 18,
-        "comfort": 81,
+        "comfort": 98,
         "trust": 47,
         "log": [
             "Daisymoor saw Molekit being considerate. (low positive effect) - Daisymoor was 20 moons old",
@@ -1727,9 +1755,12 @@
             "Daisymoor and Moletooth successfully gathered herbs together despite the rainy weather. (positive effect) - Daisymoor was 80 moons old",
             "Daisymoor purrs for a long time at one of Moletooth's lame jokes. (high positive effect) - Daisymoor was 81 moons old",
             "Daisymoor and Moletooth successfully gathered burdock together. (positive effect) - Daisymoor was 81 moons old",
-            "Moletooth eats as ravenously as a wolverine and by the time he's done, Midnighthaze, Voletuft, and Daisymoor barely have the stomach to finish their own meals. (negative effect) - Daisymoor was 84 moons old"
+            "Moletooth eats as ravenously as a wolverine and by the time he's done, Midnighthaze, Voletuft, and Daisymoor barely have the stomach to finish their own meals. (negative effect) - Daisymoor was 84 moons old",
+            "Daisymoor playfully teases Moletooth for missing a catch. (medium positive effect) - Daisymoor was 85 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -1757,15 +1788,18 @@
         "romance": 0,
         "like": 6,
         "respect": 29,
-        "comfort": 6,
-        "trust": 36,
+        "comfort": 19,
+        "trust": 49,
         "log": [
             "Daisymoor heard about how Whiskerleg endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 35 moons old",
             "Daisymoor and Whiskerleg discussed the vision Poppybriar claimed to have. (positive effect) - Daisymoor was 54 moons old",
             "Whiskerleg and Daisymoor discussed the vision Poppybriar claimed to have. (positive effect) - Daisymoor was 54 moons old",
             "Daisymoor knows that the advice Whiskerleg gave her will be helpful. (high positive effect) - Daisymoor was 57 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -2019,15 +2053,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 12,
         "respect": 10,
-        "comfort": 0,
+        "comfort": 12,
         "trust": -10,
         "log": [
             "Coconutocean sends a Clanmate to help Daisymoor with something she's struggling with. (low positive effect) - Daisymoor was 73 moons old",
-            "Daisymoor heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old"
+            "Daisymoor heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old",
+            "Bluestripe convinces Antlerthorn, Daisymoor, Shinebelly, and Coconutocean to wind down and stretch with him. (positive effect) - Daisymoor was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -2139,16 +2179,21 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 8,
+        "like": 20,
         "respect": 10,
-        "comfort": 8,
+        "comfort": 20,
         "trust": 0,
         "log": [
             "Howlshine, Shinebelly, and Daisymoor had a nice talk while eating. (positive effect) - Daisymoor was 63 moons old",
             "Shinebelly makes a small sacrifice that benefits Daisymoor. (low positive effect) - Daisymoor was 81 moons old",
-            "Daisymoor heard about how Shinebelly endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old"
+            "Daisymoor heard about how Shinebelly endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old",
+            "Bluestripe convinces Antlerthorn, Daisymoor, Shinebelly, and Coconutocean to wind down and stretch with him. (positive effect) - Daisymoor was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3022,9 +3067,9 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 33,
+        "like": 45,
         "respect": 19,
-        "comfort": 5,
+        "comfort": 17,
         "trust": 20,
         "log": [
             "Daisymoor and Bluestripe worked together to gather wild garlic and mallow. (positive effect) - Daisymoor was 63 moons old",
@@ -3035,9 +3080,15 @@
             "Daisymoor and Bluestripe worked together to drive off a vixen and kill her cubs. (positive effect) - Daisymoor was 75 moons old",
             "Daisymoor was impressed by Bluestripe's confidence in fighting rogues. (positive effect) - Daisymoor was 77 moons old",
             "Daisymoor and Bluestripe successfully gathered herbs together despite the rainy weather. (positive effect) - Daisymoor was 80 moons old",
-            "Daisymoor knew that Bluestripe ate fresh-kill while on a hunting patrol. (negative effect) - Daisymoor was 82 moons old"
+            "Daisymoor knew that Bluestripe ate fresh-kill while on a hunting patrol. (negative effect) - Daisymoor was 82 moons old",
+            "Bluestripe convinces Antlerthorn, Daisymoor, Shinebelly, and Coconutocean to wind down and stretch with him. (positive effect) - Daisymoor was 84 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3293,9 +3344,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 12,
+        "log": [
+            "Daisymoor notices how Flightsight is being helpful around camp. (medium positive effect) - Daisymoor was 87 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3342,12 +3397,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -17,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Daisymoor keeps complaining about something Shrimpfoot did. (medium negative effect) - Daisymoor was 86 moons old"
+        ],
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3394,14 +3453,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Daisymoor heard about how Marshpatch endured the bitter cold to gather herbs for RiverClan. (positive effect) - Daisymoor was 82 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "109",
@@ -3579,6 +3640,175 @@
     {
         "cat_from_id": "109",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "109",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

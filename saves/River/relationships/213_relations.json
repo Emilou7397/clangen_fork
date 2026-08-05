@@ -90,14 +90,20 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 17,
-        "trust": 0,
+        "like": 6,
+        "respect": 6,
+        "comfort": 23,
+        "trust": 21,
         "log": [
-            "Scalebloom does something brave with Bitterleaf's support. (medium positive effect) - Scalebloom was 13 moons old"
+            "Scalebloom does something brave with Bitterleaf's support. (medium positive effect) - Scalebloom was 13 moons old",
+            "Bitterleaf admits a mistake to Scalebloom and asks for forgiveness. (high positive effect) - Scalebloom was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -382,10 +388,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -5,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Scalebloom heard that Mossflight touched noses with a rogue. (negative effect) - Scalebloom was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -452,13 +460,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 5,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Scalebloom heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Scalebloom was 30 moons old"
+            "Scalebloom heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Scalebloom was 30 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Scalebloom. (positive effect) - Scalebloom was 40 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -513,14 +524,18 @@
         "family": false,
         "romance": 0,
         "like": -4,
-        "respect": -4,
+        "respect": -14,
         "comfort": 1,
         "trust": 9,
         "log": [
             "Murkhaven gives Sagokit, Stagkit, Velvetkit, and Scalekit a space to be honest with each other. (positive effect) - Scalekit was 2 moons old",
-            "Scalebloom was sarcastic to Murkhaven at an inappropriate time. (high negative effect) - Scalebloom was 33 moons old"
+            "Scalebloom was sarcastic to Murkhaven at an inappropriate time. (high negative effect) - Scalebloom was 33 moons old",
+            "Scalebloom disapproved of Murkhaven wearing a collar. (negative effect) - Scalebloom was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -740,11 +755,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Scalebloom heard that Mallowpelt touched noses with a rogue. (negative effect) - Scalebloom was 22 moons old"
+            "Scalebloom heard that Mallowpelt touched noses with a rogue. (negative effect) - Scalebloom was 22 moons old",
+            "Scalebloom was impressed by Mallowpelt's hunting prowess. (positive effect) - Scalebloom was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -923,11 +939,14 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -1419,11 +1438,14 @@
         "like": 0,
         "respect": 10,
         "comfort": 0,
-        "trust": 0,
+        "trust": -5,
         "log": [
-            "Scalebloom heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalebloom was 36 moons old"
+            "Scalebloom heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalebloom was 36 moons old",
+            "Scalebloom heard Clawswirl fell asleep guarding camp. (negative effect) - Scalebloom was 39 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -1432,13 +1454,19 @@
         "family": false,
         "romance": 0,
         "like": 8,
-        "respect": 8,
+        "respect": 18,
         "comfort": 6,
-        "trust": 21,
+        "trust": 31,
         "log": [
-            "Scalebloom often goes to Creekmoss for guidance. (high positive effect) - Scalebloom was 16 moons old"
+            "Scalebloom often goes to Creekmoss for guidance. (high positive effect) - Scalebloom was 16 moons old",
+            "Scalebloom gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Scalebloom was 38 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "comfort",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -1504,13 +1532,15 @@
         "family": false,
         "romance": 0,
         "like": -3,
-        "respect": 10,
+        "respect": 7,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Scalebloom heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalebloom was 36 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2270,12 +2300,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 13,
-        "trust": 0,
+        "like": -2,
+        "respect": -3,
+        "comfort": 2,
+        "trust": -2,
         "log": [
-            "Scalebloom had a good dream about Nutwhisker. (low positive effect) - Scalebloom was 37 moons old"
+            "Scalebloom had a good dream about Nutwhisker. (low positive effect) - Scalebloom was 37 moons old",
+            "Scalebloom scolds Nutwhisker for not telling anyone about a piece of crowfood in the pile. (high negative effect) - Scalebloom was 39 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -2302,12 +2333,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 6,
+        "respect": 4,
+        "comfort": 5,
+        "trust": 16,
+        "log": [
+            "Branchfox won't back down when defending Scalebloom on something. (high positive effect) - Scalebloom was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2385,9 +2421,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2481,11 +2519,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "After the Gathering, Scalebloom notices that Flintwhisker is making sure everyone got home. (low positive effect) - Scalebloom was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2640,12 +2682,19 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
-        "respect": 0,
-        "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "like": 21,
+        "respect": 8,
+        "comfort": 7,
+        "trust": 8,
+        "log": [
+            "Scalebloom is always happy to be around Iceshine. (high positive effect) - Scalebloom was 41 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "respect",
+            "trust",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -2671,8 +2720,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Scalebloom heard Coatisoar fell asleep guarding camp. (negative effect) - Scalebloom was 39 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2706,30 +2757,34 @@
         "cat_to_id": "269",
         "mates": false,
         "family": false,
-        "romance": 3,
+        "romance": 0,
         "like": 0,
         "respect": 15,
-        "comfort": 0,
+        "comfort": -13,
         "trust": 0,
         "log": [
             "Scalebloom heard about how Vida's patrol drove a vixen out of their territory. (positive effect) - Scalebloom was 27 moons old",
             "Scalebloom is prancing around in front of Vida. (low positive effect) - Scalebloom was 32 moons old",
             "Scalebloom heard about how Vida endured the bitter cold to gather herbs for RiverClan. (positive effect) - Scalebloom was 35 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "213",
         "cat_to_id": "270",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "213",
@@ -3022,6 +3077,205 @@
     {
         "cat_from_id": "213",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 80,
+        "respect": 42,
+        "comfort": 90,
+        "trust": 72,
+        "log": [
+            "Scalebloom, Lavenderkit, and Driftkit had a nice talk while eating. (positive effect) - Scalebloom was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 73,
+        "respect": 43,
+        "comfort": 83,
+        "trust": 73,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 79,
+        "respect": 41,
+        "comfort": 89,
+        "trust": 71,
+        "log": [
+            "Scalebloom, Lavenderkit, and Driftkit had a nice talk while eating. (positive effect) - Scalebloom was 40 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": true,
+        "romance": 0,
+        "like": 72,
+        "respect": 42,
+        "comfort": 82,
+        "trust": 72,
+        "log": [],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "respect",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 15,
+        "respect": 5,
+        "comfort": 10,
+        "trust": 10,
+        "log": [
+            "Scalebloom offers Stormspots some tips for building a new nest. (positive effect) - Scalebloom was 39 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "comfort",
+            "trust"
+        ]
+    },
+    {
+        "cat_from_id": "213",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,

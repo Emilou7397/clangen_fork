@@ -1,53 +1,20 @@
 {
-    "illnesses": {
-        "breathless fit": {
-            "severity": "severe",
-            "mortality": 106,
-            "infectiousness": 0,
-            "duration": 1,
-            "moon_start": 168,
-            "risks": [],
-            "event_triggered": true
-        }
-    },
-    "injuries": {
-        "broken bone": {
-            "severity": "severe",
-            "mortality": 60,
-            "duration": 3,
-            "moon_start": 166,
-            "illness_infectiousness": [],
-            "risks": [
-                {
-                    "name": "an infected wound",
-                    "chance": 34
-                }
-            ],
-            "complication": null,
-            "cause_permanent": [
-                "weak leg",
-                "twisted leg"
-            ],
-            "event_triggered": false,
-            "potential_scars": []
-        }
-    },
     "permanent conditions": {
         "raspy lungs": {
             "severity": "minor",
             "born_with": false,
             "moons_until": 0,
             "moon_start": 162,
-            "mortality": 127,
+            "mortality": 143,
             "illness_infectiousness": [],
             "risks": [
                 {
                     "name": "whitecough",
-                    "chance": 36
+                    "chance": 45
                 },
                 {
                     "name": "breathless fit",
-                    "chance": 46
+                    "chance": 55
                 }
             ],
             "complication": null,

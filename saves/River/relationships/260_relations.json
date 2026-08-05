@@ -102,13 +102,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
-        "comfort": 0,
+        "respect": 8,
+        "comfort": 8,
         "trust": -8,
         "log": [
             "Peatcrest won't tell Galepelt what he ate this morning. (low negative effect) - Galepelt was 119 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -143,11 +146,15 @@
         "family": false,
         "romance": 0,
         "like": -13,
-        "respect": 0,
+        "respect": -13,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Galepelt notices one of her friends talking to Algaepool. (low negative effect) - Galepelt was 130 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -245,21 +252,24 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -12,
+        "respect": -20,
         "comfort": 0,
         "trust": 0,
         "log": [
-            "Galepelt confronted Quailfur about his bad attitude but that only makes Quailfur act out more. (medium negative effect) - Galepelt was 125 moons old"
+            "Galepelt confronted Quailfur about his bad attitude but that only makes Quailfur act out more. (medium negative effect) - Galepelt was 125 moons old",
+            "Galepelt thinks Clanmates talk more highly of Quailfur than her. (low negative effect) - Galepelt was 129 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
         "cat_to_id": "45",
         "mates": false,
         "family": false,
-        "romance": 0,
-        "like": 0,
+        "romance": 8,
+        "like": 8,
         "respect": 10,
         "comfort": 10,
         "trust": 0,
@@ -267,7 +277,9 @@
             "Galepelt found Freezefoot's compassion toward a hurt HickoryClan warrior admirable. (positive effect) - Galepelt was 113 moons old",
             "Galepelt found Freezefoot's compassion toward a hurt HickoryClan warrior admirable. (positive effect) - Galepelt was 118 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -292,13 +304,17 @@
         "family": false,
         "romance": 0,
         "like": 10,
-        "respect": 0,
+        "respect": -5,
         "comfort": 10,
-        "trust": 10,
+        "trust": 5,
         "log": [
-            "Mossflight was part of the patrol that invited Galepelt to RiverClan. (positive effect) - Galepelt was 112 moons old"
+            "Mossflight was part of the patrol that invited Galepelt to RiverClan. (positive effect) - Galepelt was 112 moons old",
+            "Galepelt heard that Mossflight touched noses with a rogue. (negative effect) - Galepelt was 129 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -361,15 +377,18 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 23,
+        "respect": 33,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Galepelt heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Galepelt was 118 moons old",
             "Galepelt heard about how Verbenabloom's patrol drove off a vixen. (positive effect) - Galepelt was 120 moons old",
-            "Galepelt sees a glimmer of determination in Verbenabloom's eyes. (low positive effect) - Galepelt was 128 moons old"
+            "Galepelt sees a glimmer of determination in Verbenabloom's eyes. (low positive effect) - Galepelt was 128 moons old",
+            "Verbenabloom's bravery in a fight against a vixen greatly impressed Galepelt. (positive effect) - Galepelt was 130 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -412,11 +431,15 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": -10,
         "comfort": 0,
         "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "log": [
+            "Galepelt disapproved of Murkhaven wearing a collar. (negative effect) - Galepelt was 128 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -586,11 +609,12 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": -5,
+        "respect": 0,
         "comfort": 0,
-        "trust": -5,
+        "trust": 0,
         "log": [
-            "Galepelt heard that Mallowpelt touched noses with a rogue. (negative effect) - Galepelt was 112 moons old"
+            "Galepelt heard that Mallowpelt touched noses with a rogue. (negative effect) - Galepelt was 112 moons old",
+            "Galepelt was impressed by Mallowpelt's hunting prowess. (positive effect) - Galepelt was 129 moons old"
         ],
         "no_longer_neutral": []
     },
@@ -735,15 +759,18 @@
         "family": false,
         "romance": 17,
         "like": 0,
-        "respect": 18,
+        "respect": 15,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Galepelt heard about how Kiwifoot's patrol drove off a vixen. (positive effect) - Galepelt was 118 moons old",
             "Galepelt sees a glimmer of determination in Kiwifoot's eyes. (low positive effect) - Galepelt was 121 moons old",
-            "Galepelt brushes against Kiwifoot while correcting her stance and looks away with a purr. (medium positive effect) - Galepelt was 128 moons old"
+            "Galepelt brushes against Kiwifoot while correcting her stance and looks away with a purr. (medium positive effect) - Galepelt was 128 moons old",
+            "Kiwifoot snickered when Galepelt tripped. (low negative effect) - Galepelt was 131 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -823,11 +850,13 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -3,
         "respect": 0,
         "comfort": 0,
         "trust": 0,
-        "log": [],
+        "log": [
+            "Galepelt asks for the last of Lightpelt's fresh-kill, but Lightpelt says no. (low negative effect) - Galepelt was 131 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -1106,12 +1135,16 @@
         "like": 0,
         "respect": 10,
         "comfort": 17,
-        "trust": 0,
+        "trust": -5,
         "log": [
             "Galepelt calms down when she realizes Clawswirl is nearby. (medium positive effect) - Galepelt was 125 moons old",
-            "Galepelt heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Galepelt was 126 moons old"
+            "Galepelt heard about how Clawswirl endured the bitter cold to gather herbs for RiverClan. (positive effect) - Galepelt was 126 moons old",
+            "Galepelt heard Clawswirl fell asleep guarding camp. (negative effect) - Galepelt was 129 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "respect",
+            "comfort"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1120,11 +1153,16 @@
         "family": false,
         "romance": 0,
         "like": 0,
-        "respect": 0,
+        "respect": 10,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": 10,
+        "log": [
+            "Galepelt gained a greater respect for Creekmoss's loyalty when he protected Yewstar from a rogue. (positive effect) - Galepelt was 128 moons old"
+        ],
+        "no_longer_neutral": [
+            "respect",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1173,14 +1211,16 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": 8,
         "respect": 10,
         "comfort": 0,
         "trust": 0,
         "log": [
             "Galepelt heard about how Coconutocean endured the bitter cold to gather herbs for RiverClan. (positive effect) - Galepelt was 126 moons old"
         ],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "like"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1204,9 +1244,13 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Nymphshine won't tell Galepelt what's got him acting weird. (low negative effect) - Galepelt was 130 moons old"
+        ],
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -1318,9 +1362,11 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
+        "trust": -8,
         "log": [],
-        "no_longer_neutral": []
+        "no_longer_neutral": [
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -2067,8 +2113,10 @@
         "like": 0,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
+        "trust": -5,
+        "log": [
+            "Galepelt heard Coatisoar fell asleep guarding camp. (negative effect) - Galepelt was 129 moons old"
+        ],
         "no_longer_neutral": []
     },
     {
@@ -2389,12 +2437,17 @@
         "mates": false,
         "family": false,
         "romance": 0,
-        "like": 0,
+        "like": -8,
         "respect": 0,
         "comfort": 0,
-        "trust": 0,
-        "log": [],
-        "no_longer_neutral": []
+        "trust": -8,
+        "log": [
+            "Badgerbright tells Terabyte, Jademuzzle, and Galepelt a story that earns more skepticism than admiration. (negative effect) - Galepelt was 128 moons old"
+        ],
+        "no_longer_neutral": [
+            "like",
+            "trust"
+        ]
     },
     {
         "cat_from_id": "260",
@@ -2425,6 +2478,175 @@
     {
         "cat_from_id": "260",
         "cat_to_id": "293",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "294",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "295",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "297",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "298",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "299",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "300",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "301",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "302",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "303",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "304",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "305",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "306",
+        "mates": false,
+        "family": false,
+        "romance": 0,
+        "like": 0,
+        "respect": 0,
+        "comfort": 0,
+        "trust": 0,
+        "log": [],
+        "no_longer_neutral": []
+    },
+    {
+        "cat_from_id": "260",
+        "cat_to_id": "307",
         "mates": false,
         "family": false,
         "romance": 0,
